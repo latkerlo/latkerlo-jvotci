@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="docs/data.js"></script>
+    <script src="docs/rafsi.js"></script>
+    <script src="docs/tarmi.js"></script>
+    <script src="docs/tools.js"></script>
+    <script src="docs/jvozba.js"></script>
+    <script src="docs/katna.js"></script>
+    <script src="docs/jvozba_test_list.js"></script>
+  </head>
+  <body>
+    <p id="results"></p>
+    <p id="demo"></p>
+
+    <script>
+      // console.log(getRafsiListList(["-zmo-", "gacri"]))
+      // let valsi = "kelro"
+      // console.log(valsi.substring(0, valsi.length - 1) + "y")
+      function testJvozba() {
+        let fullList = JVOZBAJVEKAhA_TESTS.concat(JVOZBA_ONLY_TESTS);
+        for (const [index, lujvoTanru] of fullList.entries()) {
+          let [lujvo, tanru] = lujvoTanru;
+          let [result, score] = getLujvo(tanru);
+          if (lujvo != result) {
+            return `on example #${index}: expected ${lujvo}, got ${result} (input: ${tanru})`;
+          }
+        }
+        return "Passed"
+      }
+
+      function testJvozbaCmene() {
+        for (const [index, lujvoTanru] of CMENE_TESTS.entries()) {
+          let [lujvo, tanru] = lujvoTanru;
+          let [result, score] = getLujvo(tanru, true);
+          if (lujvo != result) {
+            return `on example #${index}: expected ${lujvo}, got ${result} (input: ${tanru})`;
+          }
+        }
+        return "Passed"
+      }
+
+      function testJvozbaExceptions() {
+        for (const [index, tanruError] of JVOZBA_FAIL_TESTS.entries()) {
+          let tanru = tanruError[0];
+          let res = "";
+          let didException = false;
+          try {
+            res = getLujvo(tanru);
+          } catch (error) {
+            didException = true;
+          }
+          if (!didException)
+            return `on example #${index}: expected Exception, got ${res} (input: ${tanru})`
+        }
+        return "Passed"
+      }
+
+      function testJvozbaBrivlaScore() {
+        for (const [index, tanruScore] of LUJVO_SCORE_TESTS.entries()) {
+          let [tanru, score, cmeneScore] = tanruScore;
+          let [result, resScore] = getLujvo(tanru);
+          if (score != resScore) {
+            return `on example #${index}: expected ${score}, got ${resScore} (input: ${tanru} [cmevla])`;
+          }
+        }
+        return "Passed"
+      }
+
+      function testJvozbaCmevlaScore() {
+        for (const [index, tanruScore] of LUJVO_SCORE_TESTS.entries()) {
+          let [tanru, score, cmeneScore] = tanruScore;
+          let [result, resScore] = getLujvo(tanru, true);
+          if (cmeneScore != resScore) {
+            return `on example #${index}: expected ${cmeneScore}, got ${resScore} (input: ${tanru} [cmevla])`;
+          }
+        }
+        return "Passed"
+      }
+
+      function testVeljvo() {
+        let fullList = JVOZBAJVEKAhA_TESTS.concat(CMENE_TESTS, JVOKAhA_ONLY_TESTS);
+        for (const [index, lujvoTanru] of fullList.entries()) {
+          let [lujvo, tanru] = lujvoTanru;
+          let result = getVeljvo(lujvo).join(" ");
+          if (tanru != result) {
+            return `on example #${index}: expected ${tanru}, got ${result} (input: ${lujvo})`;
+          }
+        }
+        return "Passed"
+      }
+
+      function testVeljvoExceptions() {
+        for (const [index, lujvoError] of JVOKAhA_FAIL_TESTS.entries()) {
+          let lujvo = lujvoError[0];
+          let res = "";
+          let didException = false;
+          try {
+            res = getVeljvo(lujvo);
+          } catch (error) {
+            didException = true;
+          }
+          if (!didException)
+            return `on example #${index}: expected Exception, got ${res} (input: ${lujvo})`
+        }
+        return "Passed"
+      }
+
+      let resultsP = document.getElementById("results");
+
+      const MIMI = [
+        [testJvozba, "jvozba"], 
+        [testJvozbaCmene, "jvozba cmevla"], 
+        [testJvozbaExceptions, "jvozba exceptions"], 
+        [testJvozbaBrivlaScore, "jvozba brivla score"], 
+        [testJvozbaCmevlaScore, "jvozba cmevla score"], 
+        [testVeljvo, "veljvo"], 
+        [testVeljvoExceptions, "veljvo exceptions"]
+      ]
+
+      for (const [test, testName] of MIMI) {
+        resultsP.innerHTML += `${testName}<br>`;
+        const t0 = new Date();
+        result = test();
+        resultsP.innerHTML += `<span style="color:${result === "Passed" ? 'green' : 'red'}">${result}</span><br>`;
+        const t1 = new Date();
+        resultsP.innerHTML += `${(t1 - t0) / 1000} seconds<br><br>`;
+      }
+    </script>
+
+  </body>
+</html>
