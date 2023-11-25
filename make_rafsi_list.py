@@ -5,7 +5,6 @@ Licensed under the MIT License
 
 import json
 import xml.etree.ElementTree as ET
-import re
 
 import sys
 sys.path.append("py")
@@ -57,25 +56,27 @@ for valsi in root.iter("valsi"):
 
 # A few by-hand exceptions and tie-breakers
 EXCEPTIONS = {
-    "xi": "xix",
-    "ditcu": "dit",
-    "jidge": "jid",
-    "ronci": "roc",
-    "supso": "sus",
-    "zai'e": "zam",
+    "xi": ["xix"],
+    "ditcu": ["dit"],
+    "jidge": ["jid"],
+    "ronci": ["roc"],
+    "supso": ["sus"],
+    "zai'e": ["zam"],
+    "gelse": ["ge'e", "ges"],
 
-    "je'ebzi": "jeb",
-    "mu'umgu": "mug",
-    "va'arga": "va'a",
-    # "bom": "bom",
-    # "nom": "nom",
+    "je'ebzi": ["jeb"],
+    "mu'umgu": ["mug"],
+    "va'arga": ["va'a"],
+    # "bom": ["bom"],
+    # "nom": ["nom"],
 }
-for selrafsi, rafsi in EXCEPTIONS.items():
-    priority_rafsi.add(rafsi)
-    try:
-        rafsi_list[selrafsi].add(rafsi)
-    except KeyError:
-        rafsi_list[selrafsi] = {rafsi}
+for selrafsi, raf_list in EXCEPTIONS.items():
+    for rafsi in raf_list:
+        priority_rafsi.add(rafsi)
+        try:
+            rafsi_list[selrafsi].add(rafsi)
+        except KeyError:
+            rafsi_list[selrafsi] = {rafsi}
 
 for selrafsi, proposed_rafsi_list in exp_rafsi_list.items():
     for rafsi in proposed_rafsi_list:
@@ -93,4 +94,9 @@ with open("js/src/rafsi.ts", "w") as opf:
     opf.write("const RAFSI: Map<string, string[]> = new Map([\n")
     for selrafsi, rafsi in rafsi_list.items():
         opf.write(f'  ["{selrafsi}", {str(rafsi)}],\n')
-    opf.write("]);")
+    opf.write("]);\n")
+with open("js/docs/rafsi.js", "w") as opf:
+    opf.write("const RAFSI = new Map([\n")
+    for selrafsi, rafsi in rafsi_list.items():
+        opf.write(f'    ["{selrafsi}", {str(rafsi)}],\n')
+    opf.write("]);\n")
