@@ -1,0 +1,10 @@
+x data, rafsi, tarmi, tools
+
+jvozba
+x score
+x process
+
+katna
+x ssfr
+x kaha2
+! kaha < getl

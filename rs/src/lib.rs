@@ -1,14 +1,8 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+// everything is public bc that's how js/py are ig lol
+pub mod data;
+pub mod rafsi;
+pub mod tarmi;
+pub mod tools;
+pub mod jvozba;
+pub mod katna;
+pub mod test_list;

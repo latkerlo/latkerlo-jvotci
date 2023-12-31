@@ -100,3 +100,8 @@ with open("js/docs/rafsi.js", "w") as opf:
     for selrafsi, rafsi in rafsi_list.items():
         opf.write(f'    ["{selrafsi}", {str(rafsi)}],\n')
     opf.write("]);\n")
+with open("rs/src/rafsi.rs", "w") as opf:
+    opf.write("use std::collections::HashMap;\nuse lazy_static::lazy_static;\nlazy_static!{pub static ref RAFSI: HashMap<&'static str, &'static[&'static str]> = {\n    let mut map = HashMap::new();\n")
+    for selrafsi, rafsi in rafsi_list.items():
+        opf.write('    map.insert("' + selrafsi + '", &[' + ('"' if len(rafsi) else "") + '", "'.join(rafsi) + ('"' if len(rafsi) else "") + "]" + (' as &[&str]' if not len(rafsi) else "") + ");\n")
+    opf.write("    map\n};}")

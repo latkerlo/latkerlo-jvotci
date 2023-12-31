@@ -27,3 +27,5 @@ with open("js/docs/jvozba_test_list.js", "w") as opf:
             for test in test_list:
                 opf.write(f"  {test},\n")
         opf.write("]\n\n")
+
+# todo: rustify later

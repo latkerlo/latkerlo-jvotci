@@ -1,5 +1,5 @@
-use latkerlo_jvotci::add;
+use latkerlo_jvotci::*;
+
 fn main() {
-    let x = 5;
-    println!("{}", add(x, 2));
+
 }
