@@ -5,4 +5,3 @@ pub mod tarmi;
 pub mod tools;
 pub mod jvozba;
 pub mod katna;
-pub mod test_list;

@@ -1,4 +1,4 @@
-use crate::{rafsi::RAFSI, tools::{char, slice}, tarmi::{is_consonant, is_vowel, rafsi_tarmi, Tarmi}, data::{VALID, INITIAL}};
+use crate::{rafsi::RAFSI, tools::{char, slice}, tarmi::{is_consonant, is_vowel, rafsi_tarmi, Tarmi}, data::{VALID, INITIAL}, jvozba::get_lujvo2};
 
 pub fn search_selrafsi_from_rafsi(rafsi: &str) -> Option<String> {
     if rafsi.len() == 5 && RAFSI.contains_key(rafsi) {
@@ -20,7 +20,18 @@ pub fn search_selrafsi_from_rafsi(rafsi: &str) -> Option<String> {
     None
 }
 
-//
+pub fn jvokaha(lujvo: &str) -> Result<Vec<String>, String> {
+    let arr = jvokaha2(lujvo);
+    arr.as_ref()?;
+    let arr = arr.unwrap();
+    let rafsi_tanru = arr.iter().filter(|x| !x.is_empty()).map(|x| format!("-{x}-")).collect();
+    let correct_lujvo = get_lujvo2(rafsi_tanru, is_consonant(char(&arr[arr.len() - 1], arr[arr.len() - 1].len() - 1)));
+    if correct_lujvo.is_ok() && lujvo == correct_lujvo.clone().unwrap().0 {
+        Ok(arr)
+    } else {
+        Err(format!("malformed lujvo {{{lujvo}}}, should be {{{}}}", correct_lujvo.unwrap().0))
+    }
+}
 
 pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
     let original = lujvo;
@@ -73,4 +84,10 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
         }
         break Err("failed to decompose {original}".to_string());
     }
+}
+
+pub fn get_veljvo(lujvo: &str) -> Vec<String> {
+    let rafsi_list = jvokaha(lujvo).unwrap().iter().filter(|&x| !x.is_empty()).cloned().collect::<Vec<String>>();
+    let selrafsi_list = rafsi_list.iter().map(|x| search_selrafsi_from_rafsi(x).unwrap_or(format!("-{x}-"))).collect::<Vec<String>>();
+    selrafsi_list
 }

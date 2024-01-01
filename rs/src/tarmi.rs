@@ -1,5 +1,4 @@
 use regex::Regex;
-
 use crate::{tools::char, data::{VALID, INITIAL}};
 
 #[derive(PartialEq, Clone, Debug)]
