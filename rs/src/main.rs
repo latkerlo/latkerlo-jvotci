@@ -1,5 +1,3 @@
-// use latkerlo_jvotci::*;
-
 use latkerlo_jvotci::*;
 
 fn main() {
