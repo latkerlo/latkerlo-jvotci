@@ -5,8 +5,8 @@ pub fn char(s: &str, n: usize) -> char {
     s.chars().nth(n).unwrap_or_default()
 }
 pub fn slice(s: &str, a: isize, b: isize) -> String {
-    let mut a = if a >= 0 {a as usize} else {s.len() + -a as usize};
-    let mut b = if b >= 0 {b as usize} else {s.len() + -b as usize};
+    let mut a = if a >= 0 {a as usize} else {s.len() - -a as usize};
+    let mut b = if b >= 0 {b as usize} else {s.len() - -b as usize};
     if a > b {
         std::mem::swap(&mut a, &mut b);
     }

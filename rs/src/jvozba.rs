@@ -48,9 +48,9 @@ pub fn get_rafsi_list_list(valsi_list: Vec<String>, cmene: bool) -> Result<Vec<V
             }
             let cunrafsi_list = RAFSI.get(v.as_str());
             if let Some(thing) = cunrafsi_list {
-                    for cunrafsi in thing.iter() {
-                        rafsi_list.push(cunrafsi.to_string());
-                    }
+                for cunrafsi in thing.iter() {
+                    rafsi_list.push(cunrafsi.to_string());
+                }
             }
             if is_gismu(&v) {
                 if !is_valid_rafsi(&v) {
@@ -133,6 +133,7 @@ pub fn get_lujvo(tanru: &str, cmene: bool) -> Result<(String, usize), String> {
 
 pub fn get_lujvo2(valsi_list: Vec<String>, cmene: bool) -> Result<(String, usize), String> {
     let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), cmene).unwrap();
+    println!("{:?} {:?}", valsi_list.clone(), rafsi_list_list);
     let mut current_best = [BestLujvoMap::new(), BestLujvoMap::new()];
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
