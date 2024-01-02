@@ -2,5289 +2,5320 @@
 use crate::*;
 #[test]
 fn jvozbajvekaha_tests() {
-    assert_eq!("zmogai", jvozba::get_lujvo("-zmo- gacri", false).unwrap().0);
-    assert_eq!("barbytadji", jvozba::get_lujvo("-barb- tadji", false).unwrap().0);
-    assert_eq!("barpytadji", jvozba::get_lujvo("-barp- tadji", false).unwrap().0);
-    assert_eq!("bloblobloblobloblobloblobloblo", jvozba::get_lujvo("bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti", false).unwrap().0);
-    assert_eq!("blacyblacyblacyblacyblacyblacyblacyblacyblacyblaci", jvozba::get_lujvo("blaci blaci blaci blaci blaci blaci blaci blaci blaci blaci", false).unwrap().0);
-    assert_eq!("birjunla", jvozba::get_lujvo("birka junla", false).unwrap().0);
-    assert_eq!("daklyflani", jvozba::get_lujvo("dakli flani", false).unwrap().0);
-    assert_eq!("dicre'e", jvozba::get_lujvo("dikca trene", false).unwrap().0);
-    assert_eq!("gikfagri", jvozba::get_lujvo("ginka fagri", false).unwrap().0);
-    assert_eq!("likrokro'i", jvozba::get_lujvo("litki rokci rokci", false).unwrap().0);
-    assert_eq!("lorkerlo", jvozba::get_lujvo("lorxu kerlo", false).unwrap().0);
-    assert_eq!("rensazri", jvozba::get_lujvo("trene sazri", false).unwrap().0);
-    assert_eq!("tcanyja'a", jvozba::get_lujvo("tcana jatna", false).unwrap().0);
-    assert_eq!("varterjabre", jvozba::get_lujvo("vacri te jabre", false).unwrap().0);
-    assert_eq!("xasycakrespa", jvozba::get_lujvo("xamsi calku respa", false).unwrap().0);
-    assert_eq!("latkerlo", jvozba::get_lujvo("mlatu kerlo", false).unwrap().0);
-    assert_eq!("duskemsezlacri", jvozba::get_lujvo("dukse ke sevzi lacri", false).unwrap().0);
-    assert_eq!("ta'orskami", jvozba::get_lujvo("tanbo skami", false).unwrap().0);
-    assert_eq!("ta'orsamdu'e", jvozba::get_lujvo("tanbo skami dukse", false).unwrap().0);
-    assert_eq!("ri'odje", jvozba::get_lujvo("crino djedi", false).unwrap().0);
-    assert_eq!("sairbu'u", jvozba::get_lujvo("sanmi bukpu", false).unwrap().0);
-    assert_eq!("co'unre'e", jvozba::get_lujvo("co'u trene", false).unwrap().0);
-    assert_eq!("co'unrensazri", jvozba::get_lujvo("co'u trene sazri", false).unwrap().0);
-    assert_eq!("tcanytcanytcana", jvozba::get_lujvo("tcana tcana tcana", false).unwrap().0);
-    assert_eq!("kosymabru", jvozba::get_lujvo("kosta mabru", false).unwrap().0);
-    assert_eq!("kosykosmabru", jvozba::get_lujvo("kosta kosta mabru", false).unwrap().0);
-    assert_eq!("va'armlatu", jvozba::get_lujvo("va'arga mlatu", false).unwrap().0);
-    assert_eq!("xixykerlo", jvozba::get_lujvo("xi kerlo", false).unwrap().0);
-    assert_eq!("ba'armo'a", jvozba::get_lujvo("barna morna", false).unwrap().0);
-    assert_eq!("ba'orzu'e", jvozba::get_lujvo("banro zukte", false).unwrap().0);
-    assert_eq!("ba'ostu", jvozba::get_lujvo("banro stuzi", false).unwrap().0);
-    assert_eq!("ba'urdu'u", jvozba::get_lujvo("bacru dunku", false).unwrap().0);
-    assert_eq!("ba'urnoi", jvozba::get_lujvo("bacru notci", false).unwrap().0);
-    assert_eq!("ba'urtadji", jvozba::get_lujvo("bacru tadji", false).unwrap().0);
-    assert_eq!("ba'usku", jvozba::get_lujvo("bacru cusku", false).unwrap().0);
-    assert_eq!("bacycta", jvozba::get_lujvo("bancu catlu", false).unwrap().0);
-    assert_eq!("bajyjvi", jvozba::get_lujvo("bajra jivna", false).unwrap().0);
-    assert_eq!("bajykla", jvozba::get_lujvo("bajra klama", false).unwrap().0);
-    assert_eq!("bajli'a", jvozba::get_lujvo("bajra cliva", false).unwrap().0);
-    assert_eq!("bajystu", jvozba::get_lujvo("bajra stuzi", false).unwrap().0);
-    assert_eq!("bakcange", jvozba::get_lujvo("bakni cange", false).unwrap().0);
-    assert_eq!("bakcatra", jvozba::get_lujvo("bakni catra", false).unwrap().0);
-    assert_eq!("bakplixa", jvozba::get_lujvo("bakni plixa", false).unwrap().0);
-    assert_eq!("bakre'u", jvozba::get_lujvo("bakni rectu", false).unwrap().0);
-    assert_eq!("bakryta'o", jvozba::get_lujvo("bakri tanbo", false).unwrap().0);
-    assert_eq!("bakyjanbe", jvozba::get_lujvo("bakni janbe", false).unwrap().0);
-    assert_eq!("bakykakpa", jvozba::get_lujvo("bakni kakpa", false).unwrap().0);
-    assert_eq!("balcu'e", jvozba::get_lujvo("banli ckule", false).unwrap().0);
-    assert_eq!("baldakyxa'i", jvozba::get_lujvo("banli dakfu xarci", false).unwrap().0);
-    assert_eq!("baljamna", jvozba::get_lujvo("banli jamna", false).unwrap().0);
-    assert_eq!("balku'a", jvozba::get_lujvo("banli kumfa", false).unwrap().0);
-    assert_eq!("balnunjamna", jvozba::get_lujvo("banli nu jamna", false).unwrap().0);
-    assert_eq!("balrai", jvozba::get_lujvo("banli traji", false).unwrap().0);
-    assert_eq!("balsoi", jvozba::get_lujvo("banli sonci", false).unwrap().0);
-    assert_eq!("baltutra", jvozba::get_lujvo("banli tutra", false).unwrap().0);
-    assert_eq!("bacybau", jvozba::get_lujvo("bancu bangu", false).unwrap().0);
-    assert_eq!("bacycripu", jvozba::get_lujvo("bancu cripu", false).unwrap().0);
-    assert_eq!("bacycu'e", jvozba::get_lujvo("bancu ckule", false).unwrap().0);
-    assert_eq!("backemselrerkru", jvozba::get_lujvo("bancu ke se renro kruvi", false).unwrap().0);
-    assert_eq!("backla", jvozba::get_lujvo("bancu klama", false).unwrap().0);
-    assert_eq!("banjikske", jvozba::get_lujvo("bangu jikca saske", false).unwrap().0);
-    assert_eq!("baupli", jvozba::get_lujvo("bangu pilno", false).unwrap().0);
-    assert_eq!("banpliske", jvozba::get_lujvo("bangu pilno saske", false).unwrap().0);
-    assert_eq!("banta'a", jvozba::get_lujvo("bangu tavla", false).unwrap().0);
-    assert_eq!("bantadni", jvozba::get_lujvo("bangu tadni", false).unwrap().0);
-    assert_eq!("banvelsku", jvozba::get_lujvo("bangu ve cusku", false).unwrap().0);
-    assert_eq!("baple'i", jvozba::get_lujvo("bapli pleji", false).unwrap().0);
-    assert_eq!("barca'e", jvozba::get_lujvo("bartu catke", false).unwrap().0);
-    assert_eq!("brablo", jvozba::get_lujvo("barda bloti", false).unwrap().0);
-    assert_eq!("barfle", jvozba::get_lujvo("bartu flecu", false).unwrap().0);
-    assert_eq!("bagyce'a", jvozba::get_lujvo("bargu cecla", false).unwrap().0);
-    assert_eq!("bagyxai", jvozba::get_lujvo("bargu xrani", false).unwrap().0);
-    assert_eq!("barjyja'a", jvozba::get_lujvo("barja jatna", false).unwrap().0);
-    assert_eq!("barkalri", jvozba::get_lujvo("bartu kalri", false).unwrap().0);
-    assert_eq!("barkla", jvozba::get_lujvo("bartu klama", false).unwrap().0);
-    assert_eq!("barli'a", jvozba::get_lujvo("bartu cliva", false).unwrap().0);
-    assert_eq!("bartca", jvozba::get_lujvo("bartu tcadu", false).unwrap().0);
-    assert_eq!("barterzga", jvozba::get_lujvo("bartu te zgana", false).unwrap().0);
-    assert_eq!("basme'e", jvozba::get_lujvo("basti cmene", false).unwrap().0);
-    assert_eq!("basygau", jvozba::get_lujvo("basti gasnu", false).unwrap().0);
-    assert_eq!("basyvla", jvozba::get_lujvo("basti valsi", false).unwrap().0);
-    assert_eq!("batfendi", jvozba::get_lujvo("batci fendi", false).unwrap().0);
-    assert_eq!("batkyci'a", jvozba::get_lujvo("batke ciska", false).unwrap().0);
-    assert_eq!("batkyke'a", jvozba::get_lujvo("batke kevna", false).unwrap().0);
-    assert_eq!("baucmu", jvozba::get_lujvo("bangu jicmu", false).unwrap().0);
-    assert_eq!("baucre", jvozba::get_lujvo("bangu certu", false).unwrap().0);
-    assert_eq!("bauske", jvozba::get_lujvo("bangu saske", false).unwrap().0);
-    assert_eq!("bavla'i", jvozba::get_lujvo("balvi lamji", false).unwrap().0);
-    assert_eq!("bavlamdei", jvozba::get_lujvo("balvi lamji djedi", false).unwrap().0);
-    assert_eq!("bavlamjeftu", jvozba::get_lujvo("balvi lamji jeftu", false).unwrap().0);
-    assert_eq!("bavna'arefma'i", jvozba::get_lujvo("balvi nanca krefu masti", false).unwrap().0);
-    assert_eq!("bavna'ake'udei", jvozba::get_lujvo("balvi nanca krefu djedi", false).unwrap().0);
-    assert_eq!("bavyspe", jvozba::get_lujvo("balvi speni", false).unwrap().0);
-    assert_eq!("bavyteike'u", jvozba::get_lujvo("balvi temci krefu", false).unwrap().0);
-    assert_eq!("bavyteirefma'i", jvozba::get_lujvo("balvi temci krefu masti", false).unwrap().0);
-    assert_eq!("bavyteireftei", jvozba::get_lujvo("balvi temci krefu temci", false).unwrap().0);
-    assert_eq!("be'aspe", jvozba::get_lujvo("bersa speni", false).unwrap().0);
-    assert_eq!("befcro", jvozba::get_lujvo("betfu cortu", false).unwrap().0);
-    assert_eq!("bebgei", jvozba::get_lujvo("bebna gleki", false).unwrap().0);
-    assert_eq!("befke'a", jvozba::get_lujvo("betfu kevna", false).unwrap().0);
-    assert_eq!("befsfeke'a", jvozba::get_lujvo("betfu sefta kevna", false).unwrap().0);
-    assert_eq!("befsri", jvozba::get_lujvo("betfu dasri", false).unwrap().0);
-    assert_eq!("be'udzu", jvozba::get_lujvo("betfu cadzu", false).unwrap().0);
-    assert_eq!("beipre", jvozba::get_lujvo("bevri prenu", false).unwrap().0);
-    assert_eq!("bejmu'o", jvozba::get_lujvo("benji mulno", false).unwrap().0);
-    assert_eq!("bemjoitco", jvozba::get_lujvo("bemro joi ketco", false).unwrap().0);
-    assert_eq!("benmro", jvozba::get_lujvo("besna morsi", false).unwrap().0);
-    assert_eq!("bermau", jvozba::get_lujvo("berti zmadu", false).unwrap().0);
-    assert_eq!("berpau", jvozba::get_lujvo("berti pagbu", false).unwrap().0);
-    assert_eq!("berstici", jvozba::get_lujvo("berti stici", false).unwrap().0);
-    assert_eq!("berstuna", jvozba::get_lujvo("berti stuna", false).unwrap().0);
-    assert_eq!("besmamta", jvozba::get_lujvo("bersa mamta", false).unwrap().0);
-    assert_eq!("bevma'e", jvozba::get_lujvo("bevri marce", false).unwrap().0);
-    assert_eq!("beircarce", jvozba::get_lujvo("bevri carce", false).unwrap().0);
-    assert_eq!("bifcau", jvozba::get_lujvo("brife claxu", false).unwrap().0);
-    assert_eq!("bifkluza", jvozba::get_lujvo("brife kluza", false).unwrap().0);
-    assert_eq!("bifmlo", jvozba::get_lujvo("brife molki", false).unwrap().0);
-    assert_eq!("bifyvilcarvi", jvozba::get_lujvo("brife vlile carvi", false).unwrap().0);
-    assert_eq!("bigygau", jvozba::get_lujvo("bilga gasnu", false).unwrap().0);
-    assert_eq!("bijyjbu", jvozba::get_lujvo("briju jubme", false).unwrap().0);
-    assert_eq!("bijyku'a", jvozba::get_lujvo("briju kumfa", false).unwrap().0);
-    assert_eq!("bijyta'e", jvozba::get_lujvo("briju tanxe", false).unwrap().0);
-    assert_eq!("bikydamri", jvozba::get_lujvo("bikla damri", false).unwrap().0);
-    assert_eq!("bikykla", jvozba::get_lujvo("bikla klama", false).unwrap().0);
-    assert_eq!("bi'arbi'o", jvozba::get_lujvo("bilma binxo", false).unwrap().0);
-    assert_eq!("bi'amlu", jvozba::get_lujvo("bilma simlu", false).unwrap().0);
-    assert_eq!("bimxra", jvozba::get_lujvo("bitmu pixra", false).unwrap().0);
-    assert_eq!("binkemgaste'i", jvozba::get_lujvo("jbini ke ganse steci", false).unwrap().0);
-    assert_eq!("binrydi'a", jvozba::get_lujvo("binra jdima", false).unwrap().0);
-    assert_eq!("binryve'u", jvozba::get_lujvo("binra vecnu", false).unwrap().0);
-    assert_eq!("velbinryve'u", jvozba::get_lujvo("ve binra vecnu", false).unwrap().0);
-    assert_eq!("binynalvokselba'u", jvozba::get_lujvo("jbini na'e voksa se bacru", false).unwrap().0);
-    assert_eq!("bircidni", jvozba::get_lujvo("birka cidni", false).unwrap().0);
-    assert_eq!("birdadykla", jvozba::get_lujvo("birka dandu klama", false).unwrap().0);
-    assert_eq!("birjai", jvozba::get_lujvo("birka jgari", false).unwrap().0);
-    assert_eq!("birjaiki'e", jvozba::get_lujvo("birka jgari kicne", false).unwrap().0);
-    assert_eq!("birtafpau", jvozba::get_lujvo("birka taxfu pagbu", false).unwrap().0);
-    assert_eq!("birtu'u", jvozba::get_lujvo("birka tubnu", false).unwrap().0);
-    assert_eq!("birtu'ucau", jvozba::get_lujvo("birka tubnu claxu", false).unwrap().0);
-    assert_eq!("birvrajvi", jvozba::get_lujvo("birka vraga jivna", false).unwrap().0);
-    assert_eq!("bisycmaplini", jvozba::get_lujvo("bisli cmalu plini", false).unwrap().0);
-    assert_eq!("bivjetka'u", jvozba::get_lujvo("bi jetnu kantu", false).unwrap().0);
-    assert_eq!("blari'o", jvozba::get_lujvo("blanu crino", false).unwrap().0);
-    assert_eq!("blita'o", jvozba::get_lujvo("bliku tanbo", false).unwrap().0);
-    assert_eq!("blogre", jvozba::get_lujvo("bloti pagre", false).unwrap().0);
-    assert_eq!("blokla", jvozba::get_lujvo("bloti klama", false).unwrap().0);
-    assert_eq!("bloli'u", jvozba::get_lujvo("bloti litru", false).unwrap().0);
-    assert_eq!("blomuvga'a", jvozba::get_lujvo("bloti muvdu grana", false).unwrap().0);
-    assert_eq!("blosazri", jvozba::get_lujvo("bloti sazri", false).unwrap().0);
-    assert_eq!("blufle", jvozba::get_lujvo("ciblu flecu", false).unwrap().0);
-    assert_eq!("bluselpi'a", jvozba::get_lujvo("ciblu se pilka", false).unwrap().0);
-    assert_eq!("bofsnipa", jvozba::get_lujvo("boxfo snipa", false).unwrap().0);
-    assert_eq!("bogygreku", jvozba::get_lujvo("bongu greku", false).unwrap().0);
-    assert_eq!("bogykamju", jvozba::get_lujvo("bongu kamju", false).unwrap().0);
-    assert_eq!("boldi'u", jvozba::get_lujvo("bolci dinju", false).unwrap().0);
-    assert_eq!("bolga'axa'i", jvozba::get_lujvo("bolci grana xarci", false).unwrap().0);
-    assert_eq!("bolgrijvi", jvozba::get_lujvo("bolci girzu jivna", false).unwrap().0);
-    assert_eq!("bolgu'o", jvozba::get_lujvo("bolci gunro", false).unwrap().0);
-    assert_eq!("boijme", jvozba::get_lujvo("bolci jemna", false).unwrap().0);
-    assert_eq!("bolkei", jvozba::get_lujvo("bolci kelci", false).unwrap().0);
-    assert_eq!("bolkeijvi", jvozba::get_lujvo("bolci kelci jivna", false).unwrap().0);
-    assert_eq!("boltikpa", jvozba::get_lujvo("bolci tikpa", false).unwrap().0);
-    assert_eq!("boltipkei", jvozba::get_lujvo("bolci tikpa kelci", false).unwrap().0);
-    assert_eq!("boltipyboi", jvozba::get_lujvo("bolci tikpa bolci", false).unwrap().0);
-    assert_eq!("boltipyjvi", jvozba::get_lujvo("bolci tikpa jivna", false).unwrap().0);
-    assert_eq!("brabi'o", jvozba::get_lujvo("barda binxo", false).unwrap().0);
-    assert_eq!("brabra", jvozba::get_lujvo("barda barda", false).unwrap().0);
-    assert_eq!("brabracrida", jvozba::get_lujvo("barda barda crida", false).unwrap().0);
-    assert_eq!("bracutci", jvozba::get_lujvo("barda cutci", false).unwrap().0);
-    assert_eq!("bradzu", jvozba::get_lujvo("barda cadzu", false).unwrap().0);
-    assert_eq!("brafe'a", jvozba::get_lujvo("barda fenra", false).unwrap().0);
-    assert_eq!("braje'a", jvozba::get_lujvo("barda jecta", false).unwrap().0);
-    assert_eq!("brajmadegji", jvozba::get_lujvo("barda jamfu degji", false).unwrap().0);
-    assert_eq!("brajmadegycalku", jvozba::get_lujvo("barda jamfu degji calku", false).unwrap().0);
-    assert_eq!("brakruca", jvozba::get_lujvo("barda kruca", false).unwrap().0);
-    assert_eq!("bramau", jvozba::get_lujvo("barda zmadu", false).unwrap().0);
-    assert_eq!("brapatxu", jvozba::get_lujvo("barda patxu", false).unwrap().0);
-    assert_eq!("braplu", jvozba::get_lujvo("barda daplu", false).unwrap().0);
-    assert_eq!("braro'i", jvozba::get_lujvo("barda rokci", false).unwrap().0);
-    assert_eq!("brasa'o", jvozba::get_lujvo("barda salpo", false).unwrap().0);
-    assert_eq!("bravau", jvozba::get_lujvo("barda vasru", false).unwrap().0);
-    assert_eq!("brivla", jvozba::get_lujvo("bridi valsi", false).unwrap().0);
-    assert_eq!("bromalsi", jvozba::get_lujvo("xebro malsi", false).unwrap().0);
-    assert_eq!("brulu'i", jvozba::get_lujvo("burcu lumci", false).unwrap().0);
-    assert_eq!("bukydi'u", jvozba::get_lujvo("bukpu dinju", false).unwrap().0);
-    assert_eq!("bukcilta", jvozba::get_lujvo("bukpu cilta", false).unwrap().0);
-    assert_eq!("bukfa'u", jvozba::get_lujvo("bukpu farlu", false).unwrap().0);
-    assert_eq!("bukfe'a", jvozba::get_lujvo("bukpu fenra", false).unwrap().0);
-    assert_eq!("bu'udru", jvozba::get_lujvo("bukpu drudi", false).unwrap().0);
-    assert_eq!("bukmra", jvozba::get_lujvo("bukpu marbi", false).unwrap().0);
-    assert_eq!("buktaiterjo'e", jvozba::get_lujvo("bukpu tarmi te jorne", false).unwrap().0);
-    assert_eq!("bukterjo'e", jvozba::get_lujvo("bukpu te jorne", false).unwrap().0);
-    assert_eq!("bukyjabre", jvozba::get_lujvo("bukpu jabre", false).unwrap().0);
-    assert_eq!("bukykoi", jvozba::get_lujvo("bukpu korbi", false).unwrap().0);
-    assert_eq!("bunspe", jvozba::get_lujvo("bruna speni", false).unwrap().0);
-    assert_eq!("burnanba", jvozba::get_lujvo("bunre nanba", false).unwrap().0);
-    assert_eq!("ca'arcau", jvozba::get_lujvo("cabra claxu", false).unwrap().0);
-    assert_eq!("ca'erbi'e", jvozba::get_lujvo("catke brife", false).unwrap().0);
-    assert_eq!("ca'erslanu", jvozba::get_lujvo("catke slanu", false).unwrap().0);
-    assert_eq!("ca'icru", jvozba::get_lujvo("catni curmi", false).unwrap().0);
-    assert_eq!("ca'irci'a", jvozba::get_lujvo("catni ciska", false).unwrap().0);
-    assert_eq!("cabdei", jvozba::get_lujvo("cabna djedi", false).unwrap().0);
-    assert_eq!("cabma'i", jvozba::get_lujvo("cabna masti", false).unwrap().0);
-    assert_eq!("cabmamta", jvozba::get_lujvo("cabna mamta", false).unwrap().0);
-    assert_eq!("cabmi'u", jvozba::get_lujvo("cabna mintu", false).unwrap().0);
-    assert_eq!("cabmo'a", jvozba::get_lujvo("cabna morna", false).unwrap().0);
-    assert_eq!("cabnalza'i", jvozba::get_lujvo("cabna na'e zasti", false).unwrap().0);
-    assert_eq!("cabna'a", jvozba::get_lujvo("cabna nanca", false).unwrap().0);
-    assert_eq!("cabycedra", jvozba::get_lujvo("cabna cedra", false).unwrap().0);
-    assert_eq!("cabysna", jvozba::get_lujvo("cabna sance", false).unwrap().0);
-    assert_eq!("cabysni", jvozba::get_lujvo("cabna sinxa", false).unwrap().0);
-    assert_eq!("cacyju'o", jvozba::get_lujvo("tcaci djuno", false).unwrap().0);
-    assert_eq!("cacyjva", jvozba::get_lujvo("tcaci javni", false).unwrap().0);
-    assert_eq!("cadgau", jvozba::get_lujvo("cando gasnu", false).unwrap().0);
-    assert_eq!("cadykei", jvozba::get_lujvo("cando kelci", false).unwrap().0);
-    assert_eq!("cadysti", jvozba::get_lujvo("cando sisti", false).unwrap().0);
-    assert_eq!("cagyce'u", jvozba::get_lujvo("cange cecmu", false).unwrap().0);
-    assert_eq!("cagyselxa'u", jvozba::get_lujvo("cange se xabju", false).unwrap().0);
-    assert_eq!("cagzaita'u", jvozba::get_lujvo("cange zarci taxfu", false).unwrap().0);
-    assert_eq!("cagzai", jvozba::get_lujvo("cange zarci", false).unwrap().0);
-    assert_eq!("caicni", jvozba::get_lujvo("carmi cinmo", false).unwrap().0);
-    assert_eq!("caicpe", jvozba::get_lujvo("carmi cpedu", false).unwrap().0);
-    assert_eq!("caicta", jvozba::get_lujvo("carmi catlu", false).unwrap().0);
-    assert_eq!("caidji", jvozba::get_lujvo("carmi djica", false).unwrap().0);
-    assert_eq!("camcinla", jvozba::get_lujvo("carmi cinla", false).unwrap().0);
-    assert_eq!("cinlyrai", jvozba::get_lujvo("cinla traji", false).unwrap().0);
-    assert_eq!("caizma", jvozba::get_lujvo("carmi zmadu", false).unwrap().0);
-    assert_eq!("caivru", jvozba::get_lujvo("carmi savru", false).unwrap().0);
-    assert_eq!("cakcinki", jvozba::get_lujvo("calku cinki", false).unwrap().0);
-    assert_eq!("cakcurnu", jvozba::get_lujvo("calku curnu", false).unwrap().0);
-    assert_eq!("cakybe'ujma", jvozba::get_lujvo("calku betfu jamfu", false).unwrap().0);
-    assert_eq!("cakyda'u", jvozba::get_lujvo("calku danlu", false).unwrap().0);
-    assert_eq!("cakyrespa", jvozba::get_lujvo("calku respa", false).unwrap().0);
-    assert_eq!("calze'a", jvozba::get_lujvo("canlu zenba", false).unwrap().0);
-    assert_eq!("caibra", jvozba::get_lujvo("carmi barda", false).unwrap().0);
-    assert_eq!("camcarvi", jvozba::get_lujvo("carmi carvi", false).unwrap().0);
-    assert_eq!("camcikna", jvozba::get_lujvo("carmi cikna", false).unwrap().0);
-    assert_eq!("camcilce", jvozba::get_lujvo("carmi cilce", false).unwrap().0);
-    assert_eq!("camcintungau", jvozba::get_lujvo("carmi cinse tunta gasnu", false).unwrap().0);
-    assert_eq!("camcniri'a", jvozba::get_lujvo("carmi cinmo rinka", false).unwrap().0);
-    assert_eq!("camganra", jvozba::get_lujvo("carmi ganra", false).unwrap().0);
-    assert_eq!("camgei", jvozba::get_lujvo("carmi gleki", false).unwrap().0);
-    assert_eq!("campei", jvozba::get_lujvo("carmi pensi", false).unwrap().0);
-    assert_eq!("camselci'i", jvozba::get_lujvo("carmi se cinri", false).unwrap().0);
-    assert_eq!("camselci'igri", jvozba::get_lujvo("carmi se cinri girzu", false).unwrap().0);
-    assert_eq!("caitcu", jvozba::get_lujvo("carmi nitcu", false).unwrap().0);
-    assert_eq!("camte'a", jvozba::get_lujvo("carmi terpa", false).unwrap().0);
-    assert_eq!("camtoi", jvozba::get_lujvo("carmi troci", false).unwrap().0);
-    assert_eq!("camvrici", jvozba::get_lujvo("carmi vrici", false).unwrap().0);
-    assert_eq!("cagypre", jvozba::get_lujvo("cange prenu", false).unwrap().0);
-    assert_eq!("capli'u", jvozba::get_lujvo("ckape litru", false).unwrap().0);
-    assert_eq!("capti'i", jvozba::get_lujvo("ckape stidi", false).unwrap().0);
-    assert_eq!("capyjde", jvozba::get_lujvo("ckape kajde", false).unwrap().0);
-    assert_eq!("carcpu", jvozba::get_lujvo("carna lacpu", false).unwrap().0);
-    assert_eq!("cargau", jvozba::get_lujvo("carna gasnu", false).unwrap().0);
-    assert_eq!("carna'ivinji", jvozba::get_lujvo("carna nalci vinji", false).unwrap().0);
-    assert_eq!("ca'irvei", jvozba::get_lujvo("catni vreji", false).unwrap().0);
-    assert_eq!("cavlu'i", jvozba::get_lujvo("carvi lumci", false).unwrap().0);
-    assert_eq!("cavyfle", jvozba::get_lujvo("carvi flecu", false).unwrap().0);
-    assert_eq!("cavykosta", jvozba::get_lujvo("carvi kosta", false).unwrap().0);
-    assert_eq!("cavysezlu'i", jvozba::get_lujvo("carvi sevzi lumci", false).unwrap().0);
-    assert_eq!("cazyfusra", jvozba::get_lujvo("ca'a fusra", false).unwrap().0);
-    assert_eq!("cazytcini", jvozba::get_lujvo("ca'a tcini", false).unwrap().0);
-    assert_eq!("cedrymi'u", jvozba::get_lujvo("cedra mintu", false).unwrap().0);
-    assert_eq!("celtci", jvozba::get_lujvo("cecla tutci", false).unwrap().0);
-    assert_eq!("cemlanzu", jvozba::get_lujvo("cecmu lanzu", false).unwrap().0);
-    assert_eq!("cempre", jvozba::get_lujvo("cecmu prenu", false).unwrap().0);
-    assert_eq!("cnecme", jvozba::get_lujvo("cenba cmene", false).unwrap().0);
-    assert_eq!("centre", jvozba::get_lujvo("centi mitre", false).unwrap().0);
-    assert_eq!("cermurse", jvozba::get_lujvo("cerni murse", false).unwrap().0);
-    assert_eq!("cespre", jvozba::get_lujvo("censa prenu", false).unwrap().0);
-    assert_eq!("cesri'a", jvozba::get_lujvo("censa rinka", false).unwrap().0);
-    assert_eq!("cesri'isi'a", jvozba::get_lujvo("censa ritli sinma", false).unwrap().0);
-    assert_eq!("cestoldapma", jvozba::get_lujvo("censa to'e dapma", false).unwrap().0);
-    assert_eq!("cesycku", jvozba::get_lujvo("censa cukta", false).unwrap().0);
-    assert_eq!("cesystu", jvozba::get_lujvo("censa stuzi", false).unwrap().0);
-    assert_eq!("cevrirni", jvozba::get_lujvo("cevni rirni", false).unwrap().0);
-    assert_eq!("ceirselcpe", jvozba::get_lujvo("cevni se cpedu", false).unwrap().0);
-    assert_eq!("ceirselxa'u", jvozba::get_lujvo("cevni se xabju", false).unwrap().0);
-    assert_eq!("ceizda", jvozba::get_lujvo("cevni zdani", false).unwrap().0);
-    assert_eq!("cfagau", jvozba::get_lujvo("cfari gasnu", false).unwrap().0);
-    assert_eq!("cfatse", jvozba::get_lujvo("cfari zutse", false).unwrap().0);
-    assert_eq!("fi'unri'abau", jvozba::get_lujvo("cfipu rinka bangu", false).unwrap().0);
-    assert_eq!("ci'ajbu", jvozba::get_lujvo("ciska jubme", false).unwrap().0);
-    assert_eq!("ci'arfi'i", jvozba::get_lujvo("ciska finti", false).unwrap().0);
-    assert_eq!("ci'arse'u", jvozba::get_lujvo("ciska selfu", false).unwrap().0);
-    assert_eq!("ci'asku", jvozba::get_lujvo("ciska cusku", false).unwrap().0);
-    assert_eq!("ci'izma", jvozba::get_lujvo("cinri zmadu", false).unwrap().0);
-    assert_eq!("cibdei", jvozba::get_lujvo("ci djedi", false).unwrap().0);
-    assert_eq!("reldei", jvozba::get_lujvo("re djedi", false).unwrap().0);
-    assert_eq!("pavdei", jvozba::get_lujvo("pa djedi", false).unwrap().0);
-    assert_eq!("vondei", jvozba::get_lujvo("vo djedi", false).unwrap().0);
-    assert_eq!("mumdei", jvozba::get_lujvo("mu djedi", false).unwrap().0);
-    assert_eq!("xavdei", jvozba::get_lujvo("xa djedi", false).unwrap().0);
-    assert_eq!("nondei", jvozba::get_lujvo("no djedi", false).unwrap().0);
-    assert_eq!("zeldei", jvozba::get_lujvo("ze djedi", false).unwrap().0);
-    assert_eq!("cibjantradamri", jvozba::get_lujvo("ci janco tarti damri", false).unwrap().0);
-    assert_eq!("cibjgatai", jvozba::get_lujvo("ci jganu tarmi", false).unwrap().0);
-    assert_eq!("cibmeilei", jvozba::get_lujvo("ci mei klesi", false).unwrap().0);
-    assert_eq!("cibylajyterkruca", jvozba::get_lujvo("ci klaji te kruca", false).unwrap().0);
-    assert_eq!("cibyselxi'u", jvozba::get_lujvo("ci se xislu", false).unwrap().0);
-    assert_eq!("cibyskosa'e", jvozba::get_lujvo("ci skori satre", false).unwrap().0);
-    assert_eq!("cibyslakyvla", jvozba::get_lujvo("ci slaka valsi", false).unwrap().0);
-    assert_eq!("cibyteryrau", jvozba::get_lujvo("ci te gradu", false).unwrap().0);
-    assert_eq!("cicfe'u", jvozba::get_lujvo("cilce fengu", false).unwrap().0);
-    assert_eq!("cicfoi", jvozba::get_lujvo("cilce foldi", false).unwrap().0);
-    assert_eq!("cicpre", jvozba::get_lujvo("cilce prenu", false).unwrap().0);
-    assert_eq!("cicre'a", jvozba::get_lujvo("cilce remna", false).unwrap().0);
-    assert_eq!("cicti'a", jvozba::get_lujvo("cilce tcima", false).unwrap().0);
-    assert_eq!("cicyractu", jvozba::get_lujvo("cilce ractu", false).unwrap().0);
-    assert_eq!("cicyspa", jvozba::get_lujvo("cilce spati", false).unwrap().0);
-    assert_eq!("cicyspafoi", jvozba::get_lujvo("cilce spati foldi", false).unwrap().0);
-    assert_eq!("cidbajgre", jvozba::get_lujvo("cidni bajra pagre", false).unwrap().0);
-    assert_eq!("cidbajykla", jvozba::get_lujvo("cidni bajra klama", false).unwrap().0);
-    assert_eq!("cidydzu", jvozba::get_lujvo("cidni cadzu", false).unwrap().0);
-    assert_eq!("cidydzukla", jvozba::get_lujvo("cidni cadzu klama", false).unwrap().0);
-    assert_eq!("cidykla", jvozba::get_lujvo("cidni klama", false).unwrap().0);
-    assert_eq!("cifylisri", jvozba::get_lujvo("cifnu lisri", false).unwrap().0);
-    assert_eq!("cifydatka", jvozba::get_lujvo("cifnu datka", false).unwrap().0);
-    assert_eq!("ciksne", jvozba::get_lujvo("cikna senva", false).unwrap().0);
-    assert_eq!("cikybi'o", jvozba::get_lujvo("cikna binxo", false).unwrap().0);
-    assert_eq!("cikygau", jvozba::get_lujvo("cikna gasnu", false).unwrap().0);
-    assert_eq!("cimde'u", jvozba::get_lujvo("cilmo dertu", false).unwrap().0);
-    assert_eq!("cimdilnu", jvozba::get_lujvo("cilmo dilnu", false).unwrap().0);
-    assert_eq!("cimnytei", jvozba::get_lujvo("cimni temci", false).unwrap().0);
-    assert_eq!("cimri'a", jvozba::get_lujvo("cilmo rinka", false).unwrap().0);
-    assert_eq!("cimxra", jvozba::get_lujvo("cilmo pixra", false).unwrap().0);
-    assert_eq!("cincigla", jvozba::get_lujvo("cinse cigla", false).unwrap().0);
-    assert_eq!("cingafpre", jvozba::get_lujvo("cinse galfi prenu", false).unwrap().0);
-    assert_eq!("cintungau", jvozba::get_lujvo("cinse tunta gasnu", false).unwrap().0);
-    assert_eq!("cintyfaigau", jvozba::get_lujvo("cinta fatri gasnu", false).unwrap().0);
-    assert_eq!("cinvi'i", jvozba::get_lujvo("cinse vikmi", false).unwrap().0);
-    assert_eq!("circre", jvozba::get_lujvo("citri certu", false).unwrap().0);
-    assert_eq!("circtu", jvozba::get_lujvo("citri ctuca", false).unwrap().0);
-    assert_eq!("cirmi'o", jvozba::get_lujvo("citri misno", false).unwrap().0);
-    assert_eq!("citkanba", jvozba::get_lujvo("citno kanba", false).unwrap().0);
-    assert_eq!("citmau", jvozba::get_lujvo("citno zmadu", false).unwrap().0);
-    assert_eq!("citnanla", jvozba::get_lujvo("citno nanla", false).unwrap().0);
-    assert_eq!("citnau", jvozba::get_lujvo("citno nanmu", false).unwrap().0);
-    assert_eq!("citni'u", jvozba::get_lujvo("citno ninmu", false).unwrap().0);
-    assert_eq!("citpe'o", jvozba::get_lujvo("citno pendo", false).unwrap().0);
-    assert_eq!("citrai", jvozba::get_lujvo("citno traji", false).unwrap().0);
-    assert_eq!("civysfani", jvozba::get_lujvo("civla sfani", false).unwrap().0);
-    assert_eq!("cizda'u", jvozba::get_lujvo("cizra danlu", false).unwrap().0);
-    assert_eq!("ckabu'u", jvozba::get_lujvo("ckana bukpu", false).unwrap().0);
-    assert_eq!("ckali'a", jvozba::get_lujvo("ckana cliva", false).unwrap().0);
-    assert_eq!("kafpanci", jvozba::get_lujvo("ckafi panci", false).unwrap().0);
-    assert_eq!("kafpatxu", jvozba::get_lujvo("ckafi patxu", false).unwrap().0);
-    assert_eq!("kafyzai", jvozba::get_lujvo("ckafi zarci", false).unwrap().0);
-    assert_eq!("ckagai", jvozba::get_lujvo("ckana gacri", false).unwrap().0);
-    assert_eq!("ckakla", jvozba::get_lujvo("ckana klama", false).unwrap().0);
-    assert_eq!("ckazbe", jvozba::get_lujvo("ckana zbepi", false).unwrap().0);
-    assert_eq!("ckudi'u", jvozba::get_lujvo("cukta dinju", false).unwrap().0);
-    assert_eq!("ckuku'a", jvozba::get_lujvo("cukta kumfa", false).unwrap().0);
-    assert_eq!("kulpikta", jvozba::get_lujvo("ckule pikta", false).unwrap().0);
-    assert_eq!("kultadni", jvozba::get_lujvo("ckule tadni", false).unwrap().0);
-    assert_eq!("ckupau", jvozba::get_lujvo("cukta pagbu", false).unwrap().0);
-    assert_eq!("ckupaupau", jvozba::get_lujvo("cukta pagbu pagbu", false).unwrap().0);
-    assert_eq!("ckupra", jvozba::get_lujvo("cukta cupra", false).unwrap().0);
-    assert_eq!("ckusro", jvozba::get_lujvo("cukta sorcu", false).unwrap().0);
-    assert_eq!("ckuzda", jvozba::get_lujvo("cukta zdani", false).unwrap().0);
-    assert_eq!("ckuzdacre", jvozba::get_lujvo("cukta zdani certu", false).unwrap().0);
-    assert_eq!("ckuzdaske", jvozba::get_lujvo("cukta zdani saske", false).unwrap().0);
-    assert_eq!("clacku", jvozba::get_lujvo("clani cukta", false).unwrap().0);
-    assert_eq!("cladakyxa'i", jvozba::get_lujvo("clani dakfu xarci", false).unwrap().0);
-    assert_eq!("cladjine", jvozba::get_lujvo("clani djine", false).unwrap().0);
-    assert_eq!("claga'u", jvozba::get_lujvo("clani galtu", false).unwrap().0);
-    assert_eq!("clakurfa", jvozba::get_lujvo("clani kurfa", false).unwrap().0);
-    assert_eq!("clamau", jvozba::get_lujvo("clani zmadu", false).unwrap().0);
-    assert_eq!("clapi'e", jvozba::get_lujvo("clani plipe", false).unwrap().0);
-    assert_eq!("clapi'ejvi", jvozba::get_lujvo("clani plipe jivna", false).unwrap().0);
-    assert_eq!("clapre", jvozba::get_lujvo("clani prenu", false).unwrap().0);
-    assert_eq!("clara'i", jvozba::get_lujvo("clani ranji", false).unwrap().0);
-    assert_eq!("clare'i", jvozba::get_lujvo("clani renvi", false).unwrap().0);
-    assert_eq!("claselxadni", jvozba::get_lujvo("clani se xadni", false).unwrap().0);
-    assert_eq!("clatei", jvozba::get_lujvo("clani temci", false).unwrap().0);
-    assert_eq!("claxa'i", jvozba::get_lujvo("clani xarci", false).unwrap().0);
-    assert_eq!("caurgau", jvozba::get_lujvo("claxu gasnu", false).unwrap().0);
-    assert_eq!("clinoi", jvozba::get_lujvo("cilre notci", false).unwrap().0);
-    assert_eq!("lirgli", jvozba::get_lujvo("clira glico", false).unwrap().0);
-    assert_eq!("cupypijne", jvozba::get_lujvo("clupa pijne", false).unwrap().0);
-    assert_eq!("cmabanfi", jvozba::get_lujvo("cmalu banfi", false).unwrap().0);
-    assert_eq!("cmabu'u", jvozba::get_lujvo("cmalu bukpu", false).unwrap().0);
-    assert_eq!("cmacai", jvozba::get_lujvo("cmalu carmi", false).unwrap().0);
-    assert_eq!("cmaca'e", jvozba::get_lujvo("cmalu catke", false).unwrap().0);
-    assert_eq!("cmacifnu", jvozba::get_lujvo("cmalu cifnu", false).unwrap().0);
-    assert_eq!("cmacinfo", jvozba::get_lujvo("cmalu cinfo", false).unwrap().0);
-    assert_eq!("cinfypanzi", jvozba::get_lujvo("cinfo panzi", false).unwrap().0);
-    assert_eq!("cmacpi", jvozba::get_lujvo("cmalu cipni", false).unwrap().0);
-    assert_eq!("cmacma", jvozba::get_lujvo("cmalu cmalu", false).unwrap().0);
-    assert_eq!("cmami'a", jvozba::get_lujvo("cmalu cmila", false).unwrap().0);
-    assert_eq!("cmacrida", jvozba::get_lujvo("cmalu crida", false).unwrap().0);
-    assert_eq!("cmactatci", jvozba::get_lujvo("cmalu catlu tutci", false).unwrap().0);
-    assert_eq!("cmaplu", jvozba::get_lujvo("cmalu daplu", false).unwrap().0);
-    assert_eq!("cmafle", jvozba::get_lujvo("cmalu flecu", false).unwrap().0);
-    assert_eq!("cmagu'e", jvozba::get_lujvo("cmalu gugde", false).unwrap().0);
-    assert_eq!("cmagu'etru", jvozba::get_lujvo("cmalu gugde turni", false).unwrap().0);
-    assert_eq!("cmalauca'a", jvozba::get_lujvo("cmalu cladu cabra", false).unwrap().0);
-    assert_eq!("cmala'u", jvozba::get_lujvo("cmalu lalxu", false).unwrap().0);
-    assert_eq!("cmama'a", jvozba::get_lujvo("cmalu cmana", false).unwrap().0);
-    assert_eq!("cmamudyspi", jvozba::get_lujvo("cmalu mudri spisa", false).unwrap().0);
-    assert_eq!("cmapinflani", jvozba::get_lujvo("cmalu pinta flani", false).unwrap().0);
-    assert_eq!("cmaplini", jvozba::get_lujvo("cmalu plini", false).unwrap().0);
-    assert_eq!("cmari'e", jvozba::get_lujvo("cmalu rirxe", false).unwrap().0);
-    assert_eq!("cmaro'i", jvozba::get_lujvo("cmalu rokci", false).unwrap().0);
-    assert_eq!("cmaste", jvozba::get_lujvo("cmalu liste", false).unwrap().0);
-    assert_eq!("cmataisni", jvozba::get_lujvo("cmalu tarmi sinxa", false).unwrap().0);
-    assert_eq!("cmatca", jvozba::get_lujvo("cmalu tcadu", false).unwrap().0);
-    assert_eq!("cmatricu", jvozba::get_lujvo("cmalu tricu", false).unwrap().0);
-    assert_eq!("cmatru", jvozba::get_lujvo("cmalu turni", false).unwrap().0);
-    assert_eq!("cmave'a", jvozba::get_lujvo("cmalu verba", false).unwrap().0);
-    assert_eq!("cmaxli", jvozba::get_lujvo("cmalu nixli", false).unwrap().0);
-    assert_eq!("cmazda", jvozba::get_lujvo("cmalu zdani", false).unwrap().0);
-    assert_eq!("cmebasti", jvozba::get_lujvo("cmene basti", false).unwrap().0);
-    assert_eq!("cmeju'o", jvozba::get_lujvo("cmene djuno", false).unwrap().0);
-    assert_eq!("selcmeju'o", jvozba::get_lujvo("se cmene djuno", false).unwrap().0);
-    assert_eq!("cmekancu", jvozba::get_lujvo("cmene kancu", false).unwrap().0);
-    assert_eq!("cmemo'i", jvozba::get_lujvo("cmene morji", false).unwrap().0);
-    assert_eq!("cmesanji", jvozba::get_lujvo("cmene sanji", false).unwrap().0);
-    assert_eq!("cmetcita", jvozba::get_lujvo("cmene tcita", false).unwrap().0);
-    assert_eq!("cmeterge'a", jvozba::get_lujvo("cmene te gerna", false).unwrap().0);
-    assert_eq!("cmevla", jvozba::get_lujvo("cmene valsi", false).unwrap().0);
-    assert_eq!("cmibi'o", jvozba::get_lujvo("cmima binxo", false).unwrap().0);
-    assert_eq!("cmoba'u", jvozba::get_lujvo("cmoni bacru", false).unwrap().0);
-    assert_eq!("cmodji", jvozba::get_lujvo("cmoni djica", false).unwrap().0);
-    assert_eq!("cmosku", jvozba::get_lujvo("cmoni cusku", false).unwrap().0);
-    assert_eq!("cnadakfu", jvozba::get_lujvo("canpa dakfu", false).unwrap().0);
-    assert_eq!("nebykoi", jvozba::get_lujvo("cnebo korbi", false).unwrap().0);
-    assert_eq!("cnedatni", jvozba::get_lujvo("cenba datni", false).unwrap().0);
-    assert_eq!("cnelai", jvozba::get_lujvo("cenba klani", false).unwrap().0);
-    assert_eq!("cnicro", jvozba::get_lujvo("cinmo cortu", false).unwrap().0);
-    assert_eq!("nicygau", jvozba::get_lujvo("cnici gasnu", false).unwrap().0);
-    assert_eq!("cnidu'e", jvozba::get_lujvo("cinmo dukse", false).unwrap().0);
-    assert_eq!("cnija'o", jvozba::get_lujvo("cinmo jarco", false).unwrap().0);
-    assert_eq!("cnijbi", jvozba::get_lujvo("cinmo jibni", false).unwrap().0);
-    assert_eq!("cnikansa", jvozba::get_lujvo("cinmo kansa", false).unwrap().0);
-    assert_eq!("cnima'o", jvozba::get_lujvo("cinmo cmavo", false).unwrap().0);
-    assert_eq!("ninja'o", jvozba::get_lujvo("cnino jarco", false).unwrap().0);
-    assert_eq!("cniri'a", jvozba::get_lujvo("cinmo rinka", false).unwrap().0);
-    assert_eq!("cnisei", jvozba::get_lujvo("cinmo sepli", false).unwrap().0);
-    assert_eq!("cnisni", jvozba::get_lujvo("cinmo sinxa", false).unwrap().0);
-    assert_eq!("cnita'u", jvozba::get_lujvo("cinmo taxfu", false).unwrap().0);
-    assert_eq!("crodri", jvozba::get_lujvo("cortu badri", false).unwrap().0);
-    assert_eq!("crotsapi", jvozba::get_lujvo("cortu tsapi", false).unwrap().0);
-    assert_eq!("crovu'i", jvozba::get_lujvo("cortu vrusi", false).unwrap().0);
-    assert_eq!("cpadji", jvozba::get_lujvo("cpacu djica", false).unwrap().0);
-    assert_eq!("selkemcpadji", jvozba::get_lujvo("se ke cpacu djica", false).unwrap().0);
-    assert_eq!("cpatu'i", jvozba::get_lujvo("cpacu tugni", false).unwrap().0);
-    assert_eq!("cpesku", jvozba::get_lujvo("cpedu cusku", false).unwrap().0);
-    assert_eq!("cpinytsapi", jvozba::get_lujvo("cpina tsapi", false).unwrap().0);
-    assert_eq!("cpizda", jvozba::get_lujvo("cipni zdani", false).unwrap().0);
-    assert_eq!("cpumuvgau", jvozba::get_lujvo("lacpu muvdu gasnu", false).unwrap().0);
-    assert_eq!("cradyvelcradi", jvozba::get_lujvo("cradi ve cradi", false).unwrap().0);
-    assert_eq!("craku'a", jvozba::get_lujvo("crane kumfa", false).unwrap().0);
-    assert_eq!("crale'u", jvozba::get_lujvo("crane lerfu", false).unwrap().0);
-    assert_eq!("crapau", jvozba::get_lujvo("crane pagbu", false).unwrap().0);
-    assert_eq!("crasfe", jvozba::get_lujvo("crane sefta", false).unwrap().0);
-    assert_eq!("crastu", jvozba::get_lujvo("crane stuzi", false).unwrap().0);
-    assert_eq!("cravro", jvozba::get_lujvo("crane vorme", false).unwrap().0);
-    assert_eq!("crelei", jvozba::get_lujvo("certu klesi", false).unwrap().0);
-    assert_eq!("cistcika", jvozba::get_lujvo("crisa tcika", false).unwrap().0);
-    assert_eq!("crogla", jvozba::get_lujvo("cortu glare", false).unwrap().0);
-    assert_eq!("crogle", jvozba::get_lujvo("cortu gletu", false).unwrap().0);
-    assert_eq!("crori'a", jvozba::get_lujvo("cortu rinka", false).unwrap().0);
-    assert_eq!("cruvei", jvozba::get_lujvo("curmi vreji", false).unwrap().0);
-    assert_eq!("ctacarna", jvozba::get_lujvo("catlu carna", false).unwrap().0);
-    assert_eq!("ctebixtei", jvozba::get_lujvo("nicte binxo temci", false).unwrap().0);
-    assert_eq!("ctejau", jvozba::get_lujvo("nicte djacu", false).unwrap().0);
-    assert_eq!("ctemanku", jvozba::get_lujvo("nicte manku", false).unwrap().0);
-    assert_eq!("ctemurse", jvozba::get_lujvo("nicte murse", false).unwrap().0);
-    assert_eq!("ctesai", jvozba::get_lujvo("nicte sanmi", false).unwrap().0);
-    assert_eq!("cticinza", jvozba::get_lujvo("citka cinza", false).unwrap().0);
-    assert_eq!("cticpe", jvozba::get_lujvo("citka cpedu", false).unwrap().0);
-    assert_eq!("ctidakfu", jvozba::get_lujvo("citka dakfu", false).unwrap().0);
-    assert_eq!("ctidji", jvozba::get_lujvo("citka djica", false).unwrap().0);
-    assert_eq!("kamctidji", jvozba::get_lujvo("ka citka djica", false).unwrap().0);
-    assert_eq!("ctigau", jvozba::get_lujvo("citka gasnu", false).unwrap().0);
-    assert_eq!("ctiku'a", jvozba::get_lujvo("citka kumfa", false).unwrap().0);
-    assert_eq!("ctilyvau", jvozba::get_lujvo("ctile vasru", false).unwrap().0);
-    assert_eq!("ctinei", jvozba::get_lujvo("citka nelci", false).unwrap().0);
-    assert_eq!("ctipla", jvozba::get_lujvo("citka platu", false).unwrap().0);
-    assert_eq!("ctiru'e", jvozba::get_lujvo("citka pruce", false).unwrap().0);
-    assert_eq!("ctiru'egau", jvozba::get_lujvo("citka pruce gasnu", false).unwrap().0);
-    assert_eq!("ctisla", jvozba::get_lujvo("citka salci", false).unwrap().0);
-    assert_eq!("ctitci", jvozba::get_lujvo("citka tutci", false).unwrap().0);
-    assert_eq!("ctitcilu'i", jvozba::get_lujvo("citka tutci lumci", false).unwrap().0);
-    assert_eq!("ctona'a", jvozba::get_lujvo("xecto nanca", false).unwrap().0);
-    assert_eq!("ctucku", jvozba::get_lujvo("ctuca cukta", false).unwrap().0);
-    assert_eq!("ctufau", jvozba::get_lujvo("ctuca fasnu", false).unwrap().0);
-    assert_eq!("ctunoi", jvozba::get_lujvo("ctuca notci", false).unwrap().0);
-    assert_eq!("ctutertcidu", jvozba::get_lujvo("ctuca te tcidu", false).unwrap().0);
-    assert_eq!("cuxselgre", jvozba::get_lujvo("cuxna se pagre", false).unwrap().0);
-    assert_eq!("cunyna'u", jvozba::get_lujvo("cunso namcu", false).unwrap().0);
-    assert_eq!("cu'urzu'e", jvozba::get_lujvo("cuntu zukte", false).unwrap().0);
-    assert_eq!("cucma'e", jvozba::get_lujvo("cutci marce", false).unwrap().0);
-    assert_eq!("cucti'e", jvozba::get_lujvo("cutci trixe", false).unwrap().0);
-    assert_eq!("cucycau", jvozba::get_lujvo("cutci claxu", false).unwrap().0);
-    assert_eq!("cucyxelkla", jvozba::get_lujvo("cutci xe klama", false).unwrap().0);
-    assert_eq!("cucyza'u", jvozba::get_lujvo("cutci zargu", false).unwrap().0);
-    assert_eq!("cucyzbi", jvozba::get_lujvo("cutci nazbi", false).unwrap().0);
-    assert_eq!("cukmakyvelvei", jvozba::get_lujvo("cukla maksi ve vreji", false).unwrap().0);
-    assert_eq!("cukmu'o", jvozba::get_lujvo("cukla mulno", false).unwrap().0);
-    assert_eq!("cukselba'a", jvozba::get_lujvo("cukla se barna", false).unwrap().0);
-    assert_eq!("cuktai", jvozba::get_lujvo("cukla tarmi", false).unwrap().0);
-    assert_eq!("cukygu'ivelvei", jvozba::get_lujvo("cukla gusni ve vreji", false).unwrap().0);
-    assert_eq!("culcpe", jvozba::get_lujvo("cumla cpedu", false).unwrap().0);
-    assert_eq!("cumselpei", jvozba::get_lujvo("cumki se pensi", false).unwrap().0);
-    assert_eq!("cumymu'efi'a", jvozba::get_lujvo("cumki munje cfika", false).unwrap().0);
-    assert_eq!("cundinkei", jvozba::get_lujvo("cunso jdini kelci", false).unwrap().0);
-    assert_eq!("cunfaigau", jvozba::get_lujvo("cunso fatri gasnu", false).unwrap().0);
-    assert_eq!("cunpe'i", jvozba::get_lujvo("cunso penmi", false).unwrap().0);
-    assert_eq!("cupli'u", jvozba::get_lujvo("clupa litru", false).unwrap().0);
-    assert_eq!("cuxtinbe", jvozba::get_lujvo("cuxna tinbe", false).unwrap().0);
-    assert_eq!("da'acre", jvozba::get_lujvo("damba certu", false).unwrap().0);
-    assert_eq!("da'erca'u", jvozba::get_lujvo("danre canlu", false).unwrap().0);
-    assert_eq!("dabja'a", jvozba::get_lujvo("damba jatna", false).unwrap().0);
-    assert_eq!("dabycalku", jvozba::get_lujvo("damba calku", false).unwrap().0);
-    assert_eq!("dabysmifau", jvozba::get_lujvo("damba simsa fasnu", false).unwrap().0);
-    assert_eq!("da'asnu", jvozba::get_lujvo("damba casnu", false).unwrap().0);
-    assert_eq!("dadgau", jvozba::get_lujvo("dandu gasnu", false).unwrap().0);
-    assert_eq!("dadgreku", jvozba::get_lujvo("dandu greku", false).unwrap().0);
-    assert_eq!("dadne'ota'u", jvozba::get_lujvo("dandu cnebo taxfu", false).unwrap().0);
-    assert_eq!("dadysli", jvozba::get_lujvo("dandu slilu", false).unwrap().0);
-    assert_eq!("dafcpe", jvozba::get_lujvo("danfu cpedu", false).unwrap().0);
-    assert_eq!("dafsku", jvozba::get_lujvo("danfu cusku", false).unwrap().0);
-    assert_eq!("dagysfe", jvozba::get_lujvo("dargu sefta", false).unwrap().0);
-    assert_eq!("dagytcityta'o", jvozba::get_lujvo("dargu tcita tanbo", false).unwrap().0);
-    assert_eq!("dakyxa'i", jvozba::get_lujvo("dakfu xarci", false).unwrap().0);
-    assert_eq!("daklycka", jvozba::get_lujvo("dakli ckana", false).unwrap().0);
-    assert_eq!("dalcange", jvozba::get_lujvo("danlu cange", false).unwrap().0);
-    assert_eq!("damfri", jvozba::get_lujvo("danmo lifri", false).unwrap().0);
-    assert_eq!("damselzdi", jvozba::get_lujvo("danmo se zdile", false).unwrap().0);
-    assert_eq!("damva'u", jvozba::get_lujvo("danmo vasxu", false).unwrap().0);
-    assert_eq!("danlu'a", jvozba::get_lujvo("danti pluta", false).unwrap().0);
-    assert_eq!("danvau", jvozba::get_lujvo("danti vasru", false).unwrap().0);
-    assert_eq!("dapsku", jvozba::get_lujvo("dapma cusku", false).unwrap().0);
-    assert_eq!("daptutra", jvozba::get_lujvo("dapma tutra", false).unwrap().0);
-    assert_eq!("dapyda'i", jvozba::get_lujvo("dapma darxi", false).unwrap().0);
-    assert_eq!("darctatci", jvozba::get_lujvo("darno catlu tutci", false).unwrap().0);
-    assert_eq!("dagysni", jvozba::get_lujvo("dargu sinxa", false).unwrap().0);
-    assert_eq!("darkla", jvozba::get_lujvo("darno klama", false).unwrap().0);
-    assert_eq!("darbajra", jvozba::get_lujvo("darno bajra", false).unwrap().0);
-    assert_eq!("darstuna", jvozba::get_lujvo("darno stuna", false).unwrap().0);
-    assert_eq!("darsyli'u", jvozba::get_lujvo("darsi litru", false).unwrap().0);
-    assert_eq!("darxa'u", jvozba::get_lujvo("darno xabju", false).unwrap().0);
-    assert_eq!("daryra'i", jvozba::get_lujvo("darno ranji", false).unwrap().0);
-    assert_eq!("daryri'a", jvozba::get_lujvo("darno rinka", false).unwrap().0);
-    assert_eq!("daskybu'u", jvozba::get_lujvo("daski bukpu", false).unwrap().0);
-    assert_eq!("spopli", jvozba::get_lujvo("daspo pilno", false).unwrap().0);
-    assert_eq!("datcinglepre", jvozba::get_lujvo("drata cinse gletu prenu", false).unwrap().0);
-    assert_eq!("datcinpampre", jvozba::get_lujvo("drata cinse prami prenu", false).unwrap().0);
-    assert_eq!("datcinselta'u", jvozba::get_lujvo("drata cinse se taxfu", false).unwrap().0);
-    assert_eq!("datklu", jvozba::get_lujvo("drata kulnu", false).unwrap().0);
-    assert_eq!("datkypi'u", jvozba::get_lujvo("datka pimlu", false).unwrap().0);
-    assert_eq!("datnyvau", jvozba::get_lujvo("datni vasru", false).unwrap().0);
-    assert_eq!("datnyvaugunma", jvozba::get_lujvo("datni vasru gunma", false).unwrap().0);
-    assert_eq!("datnyvei", jvozba::get_lujvo("datni vreji", false).unwrap().0);
-    assert_eq!("datnyveiste", jvozba::get_lujvo("datni vreji liste", false).unwrap().0);
-    assert_eq!("datpavycinglepre", jvozba::get_lujvo("drata pa cinse gletu prenu", false).unwrap().0);
-    assert_eq!("datpavycinpampre", jvozba::get_lujvo("drata pa cinse prami prenu", false).unwrap().0);
-    assert_eq!("datpre", jvozba::get_lujvo("drata prenu", false).unwrap().0);
-    assert_eq!("datygu'e", jvozba::get_lujvo("drata gugde", false).unwrap().0);
-    assert_eq!("datygugvi'e", jvozba::get_lujvo("drata gugde vitke", false).unwrap().0);
-    assert_eq!("daupro", jvozba::get_lujvo("darlu fapro", false).unwrap().0);
-    assert_eq!("daxfle", jvozba::get_lujvo("darxi flecu", false).unwrap().0);
-    assert_eq!("dazmoipru", jvozba::get_lujvo("da'a moi purci", false).unwrap().0);
-    assert_eq!("densrumikce", jvozba::get_lujvo("denci sruri mikce", false).unwrap().0);
-    assert_eq!("densru", jvozba::get_lujvo("denci sruri", false).unwrap().0);
-    assert_eq!("degja'i", jvozba::get_lujvo("degji jadni", false).unwrap().0);
-    assert_eq!("degja'o", jvozba::get_lujvo("degji jarco", false).unwrap().0);
-    assert_eq!("degycpu", jvozba::get_lujvo("degji lacpu", false).unwrap().0);
-    assert_eq!("degyke'a", jvozba::get_lujvo("degji kevna", false).unwrap().0);
-    assert_eq!("demcarvi", jvozba::get_lujvo("denmi carvi", false).unwrap().0);
-    assert_eq!("demlanzu", jvozba::get_lujvo("denmi lanzu", false).unwrap().0);
-    assert_eq!("demri'a", jvozba::get_lujvo("denmi rinka", false).unwrap().0);
-    assert_eq!("demspa", jvozba::get_lujvo("denmi spati", false).unwrap().0);
-    assert_eq!("demtse", jvozba::get_lujvo("denmi zutse", false).unwrap().0);
-    assert_eq!("demxa'e", jvozba::get_lujvo("denmi xance", false).unwrap().0);
-    assert_eq!("denmikce", jvozba::get_lujvo("denci mikce", false).unwrap().0);
-    assert_eq!("densai", jvozba::get_lujvo("denci sanmi", false).unwrap().0);
-    assert_eq!("denterjo'e", jvozba::get_lujvo("denci te jorne", false).unwrap().0);
-    assert_eq!("denvanbi", jvozba::get_lujvo("denci vanbi", false).unwrap().0);
-    assert_eq!("depcni", jvozba::get_lujvo("denpa cinmo", false).unwrap().0);
-    assert_eq!("depri'a", jvozba::get_lujvo("denpa rinka", false).unwrap().0);
-    assert_eq!("depstu", jvozba::get_lujvo("denpa stuzi", false).unwrap().0);
-    assert_eq!("derba'o", jvozba::get_lujvo("dertu banro", false).unwrap().0);
-    assert_eq!("derjbe", jvozba::get_lujvo("dertu jbena", false).unwrap().0);
-    assert_eq!("derni'a", jvozba::get_lujvo("dertu cnita", false).unwrap().0);
-    assert_eq!("derni'agau", jvozba::get_lujvo("dertu cnita gasnu", false).unwrap().0);
-    assert_eq!("dersfe", jvozba::get_lujvo("dertu sefta", false).unwrap().0);
-    assert_eq!("desygau", jvozba::get_lujvo("desku gasnu", false).unwrap().0);
-    assert_eq!("detcartu", jvozba::get_lujvo("detri cartu", false).unwrap().0);
-    assert_eq!("detcku", jvozba::get_lujvo("detri cukta", false).unwrap().0);
-    assert_eq!("detke'u", jvozba::get_lujvo("detri krefu", false).unwrap().0);
-    assert_eq!("detyselylacri", jvozba::get_lujvo("detri se lacri", false).unwrap().0);
-    assert_eq!("di'esna", jvozba::get_lujvo("dirce sance", false).unwrap().0);
-    assert_eq!("dijypanka", jvozba::get_lujvo("dinju panka", false).unwrap().0);
-    assert_eq!("dibdji", jvozba::get_lujvo("dirba djica", false).unwrap().0);
-    assert_eq!("dibrai", jvozba::get_lujvo("dirba traji", false).unwrap().0);
-    assert_eq!("dibzda", jvozba::get_lujvo("dirba zdani", false).unwrap().0);
-    assert_eq!("dicfatka'u", jvozba::get_lujvo("dikca fatne kantu", false).unwrap().0);
-    assert_eq!("dicfle", jvozba::get_lujvo("dikca flecu", false).unwrap().0);
-    assert_eq!("dicka'u", jvozba::get_lujvo("dikca kantu", false).unwrap().0);
-    assert_eq!("dicka'udenmi", jvozba::get_lujvo("dikca kantu denmi", false).unwrap().0);
-    assert_eq!("dicka'ujdika", jvozba::get_lujvo("dikca kantu jdika", false).unwrap().0);
-    assert_eq!("dicka'uze'a", jvozba::get_lujvo("dikca kantu zenba", false).unwrap().0);
-    assert_eq!("dirtadji", jvozba::get_lujvo("dicra tadji", false).unwrap().0);
-    assert_eq!("dicycau", jvozba::get_lujvo("dikca claxu", false).unwrap().0);
-    assert_eq!("dicydenmi", jvozba::get_lujvo("dikca denmi", false).unwrap().0);
-    assert_eq!("dicyjdika", jvozba::get_lujvo("dikca jdika", false).unwrap().0);
-    assert_eq!("dicysro", jvozba::get_lujvo("dikca sorcu", false).unwrap().0);
-    assert_eq!("digyligykamju", jvozba::get_lujvo("dirgo sligu kamju", false).unwrap().0);
-    assert_eq!("dijbartu", jvozba::get_lujvo("dinju bartu", false).unwrap().0);
-    assert_eq!("dijlu'a", jvozba::get_lujvo("dinju pluta", false).unwrap().0);
-    assert_eq!("dijysenta", jvozba::get_lujvo("dinju senta", false).unwrap().0);
-    assert_eq!("dikle'i", jvozba::get_lujvo("dikni pleji", false).unwrap().0);
-    assert_eq!("dikcaigu'i", jvozba::get_lujvo("dikni carmi gusni", false).unwrap().0);
-    assert_eq!("dikydemgu'i", jvozba::get_lujvo("dikni denmi gusni", false).unwrap().0);
-    assert_eq!("diktau", jvozba::get_lujvo("dikni tanru", false).unwrap().0);
-    assert_eq!("diktcika", jvozba::get_lujvo("dikni tcika", false).unwrap().0);
-    assert_eq!("dikyjvo", jvozba::get_lujvo("dikni lujvo", false).unwrap().0);
-    assert_eq!("dimcei", jvozba::get_lujvo("dimna cevni", false).unwrap().0);
-    assert_eq!("dimri'a", jvozba::get_lujvo("dimna rinka", false).unwrap().0);
-    assert_eq!("dincpa", jvozba::get_lujvo("jdini cpacu", false).unwrap().0);
-    assert_eq!("dinpa'i", jvozba::get_lujvo("jdini prami", false).unwrap().0);
-    assert_eq!("dinseldu'a", jvozba::get_lujvo("jdini se dunda", false).unwrap().0);
-    assert_eq!("dinselxaksu", jvozba::get_lujvo("jdini se xaksu", false).unwrap().0);
-    assert_eq!("dinske", jvozba::get_lujvo("jdini saske", false).unwrap().0);
-    assert_eq!("dinsro", jvozba::get_lujvo("jdini sorcu", false).unwrap().0);
-    assert_eq!("dintro", jvozba::get_lujvo("jdini jitro", false).unwrap().0);
-    assert_eq!("di'idji", jvozba::get_lujvo("jdini djica", false).unwrap().0);
-    assert_eq!("dirsno", jvozba::get_lujvo("dicra masno", false).unwrap().0);
-    assert_eq!("dzimuvgau", jvozba::get_lujvo("dizlo muvdu gasnu", false).unwrap().0);
-    assert_eq!("dzirai", jvozba::get_lujvo("dizlo traji", false).unwrap().0);
-    assert_eq!("dzitricu", jvozba::get_lujvo("dizlo tricu", false).unwrap().0);
-    assert_eq!("djabei", jvozba::get_lujvo("cidja bevri", false).unwrap().0);
-    assert_eq!("djabeipre", jvozba::get_lujvo("cidja bevri prenu", false).unwrap().0);
-    assert_eq!("djacautsi", jvozba::get_lujvo("cidja claxu tsiju", false).unwrap().0);
-    assert_eq!("djacpi", jvozba::get_lujvo("cidja cipni", false).unwrap().0);
-    assert_eq!("jausna", jvozba::get_lujvo("djacu sance", false).unwrap().0);
-    assert_eq!("djagru", jvozba::get_lujvo("cidja gurni", false).unwrap().0);
-    assert_eq!("djaruntygau", jvozba::get_lujvo("cidja runta gasnu", false).unwrap().0);
-    assert_eq!("djaselcrepu", jvozba::get_lujvo("cidja se crepu", false).unwrap().0);
-    assert_eq!("djaspi", jvozba::get_lujvo("cidja spisa", false).unwrap().0);
-    assert_eq!("djave'u", jvozba::get_lujvo("cidja vecnu", false).unwrap().0);
-    assert_eq!("djecitsi", jvozba::get_lujvo("djedi citsi", false).unwrap().0);
-    assert_eq!("djecitsi", jvozba::get_lujvo("djedi citsi", false).unwrap().0);
-    assert_eq!("djerolmeicabrefkai", jvozba::get_lujvo("djedi ro mei cabna krefu ckaji", false).unwrap().0);
-    assert_eq!("djekarni", jvozba::get_lujvo("djedi karni", false).unwrap().0);
-    assert_eq!("djetei", jvozba::get_lujvo("djedi temci", false).unwrap().0);
-    assert_eq!("djunoi", jvozba::get_lujvo("sidju notci", false).unwrap().0);
-    assert_eq!("dotygu'e", jvozba::get_lujvo("dotco gugde", false).unwrap().0);
-    assert_eq!("donma'o", jvozba::get_lujvo("do cmavo", false).unwrap().0);
-    assert_eq!("dormidju", jvozba::get_lujvo("donri midju", false).unwrap().0);
-    assert_eq!("dormijbalvi", jvozba::get_lujvo("donri midju balvi", false).unwrap().0);
-    assert_eq!("dormijysai", jvozba::get_lujvo("donri midju sanmi", false).unwrap().0);
-    assert_eq!("drabai", jvozba::get_lujvo("drani bapli", false).unwrap().0);
-    assert_eq!("dracydi'u", jvozba::get_lujvo("draci dinju", false).unwrap().0);
-    assert_eq!("dracystu", jvozba::get_lujvo("draci stuzi", false).unwrap().0);
-    assert_eq!("draga'i", jvozba::get_lujvo("drani galfi", false).unwrap().0);
-    assert_eq!("draga'igau", jvozba::get_lujvo("drani galfi gasnu", false).unwrap().0);
-    assert_eq!("drarajytse", jvozba::get_lujvo("drani sraji zutse", false).unwrap().0);
-    assert_eq!("drari'a", jvozba::get_lujvo("drani rinka", false).unwrap().0);
-    assert_eq!("draseltai", jvozba::get_lujvo("drani se tarmi", false).unwrap().0);
-    assert_eq!("datyzu'e", jvozba::get_lujvo("drata zukte", false).unwrap().0);
-    assert_eq!("driselsa'a", jvozba::get_lujvo("badri se sanga", false).unwrap().0);
-    assert_eq!("dritrasma", jvozba::get_lujvo("badri tarti smaji", false).unwrap().0);
-    assert_eq!("drutapla", jvozba::get_lujvo("drudi tapla", false).unwrap().0);
-    assert_eq!("du'ecla", jvozba::get_lujvo("dukse clani", false).unwrap().0);
-    assert_eq!("dusyda'o", jvozba::get_lujvo("dukse darno", false).unwrap().0);
-    assert_eq!("dusyva'u", jvozba::get_lujvo("dukse vasxu", false).unwrap().0);
-    assert_eq!("dunjbi", jvozba::get_lujvo("dunli jibni", false).unwrap().0);
-    assert_eq!("dubjavmau", jvozba::get_lujvo("du ja zmadu", false).unwrap().0);
-    assert_eq!("dubjavme'a", jvozba::get_lujvo("du ja mleca", false).unwrap().0);
-    assert_eq!("dudnei", jvozba::get_lujvo("dunda nelci", false).unwrap().0);
-    assert_eq!("dugyste", jvozba::get_lujvo("dugri liste", false).unwrap().0);
-    assert_eq!("dujyca'a", jvozba::get_lujvo("dunja cabra", false).unwrap().0);
-    assert_eq!("dujyku'a", jvozba::get_lujvo("dunja kumfa", false).unwrap().0);
-    assert_eq!("dukri'a", jvozba::get_lujvo("dunku rinka", false).unwrap().0);
-    assert_eq!("dutsinso", jvozba::get_lujvo("dukti sinso", false).unwrap().0);
-    assert_eq!("dukyba'u", jvozba::get_lujvo("dunku bacru", false).unwrap().0);
-    assert_eq!("dusnei", jvozba::get_lujvo("dukse nelci", false).unwrap().0);
-    assert_eq!("dusta'i", jvozba::get_lujvo("dukse tatpi", false).unwrap().0);
-    assert_eq!("dusto'u", jvozba::get_lujvo("dukse tordu", false).unwrap().0);
-    assert_eq!("dusydarsi", jvozba::get_lujvo("dukse darsi", false).unwrap().0);
-    assert_eq!("dutpi'i", jvozba::get_lujvo("dukti pilji", false).unwrap().0);
-    assert_eq!("dutydikca", jvozba::get_lujvo("dukti dikca", false).unwrap().0);
-    assert_eq!("dzeko'o", jvozba::get_lujvo("dzena skoto", false).unwrap().0);
-    assert_eq!("dzispa", jvozba::get_lujvo("dizlo spati", false).unwrap().0);
-    assert_eq!("dzugre", jvozba::get_lujvo("cadzu pagre", false).unwrap().0);
-    assert_eq!("dzukansa", jvozba::get_lujvo("cadzu kansa", false).unwrap().0);
-    assert_eq!("dzukla", jvozba::get_lujvo("cadzu klama", false).unwrap().0);
-    assert_eq!("dzuklaji", jvozba::get_lujvo("cadzu klaji", false).unwrap().0);
-    assert_eq!("dzupoikansa", jvozba::get_lujvo("cadzu porsi kansa", false).unwrap().0);
-    assert_eq!("fatydu'i", jvozba::get_lujvo("fatne dunli", false).unwrap().0);
-    assert_eq!("fatpo'a", jvozba::get_lujvo("fatne spoja", false).unwrap().0);
-    assert_eq!("fatytisygau", jvozba::get_lujvo("fatne tisna gasnu", false).unwrap().0);
-    assert_eq!("fadme'e", jvozba::get_lujvo("fadni cmene", false).unwrap().0);
-    assert_eq!("fagdirpre", jvozba::get_lujvo("fagri dicra prenu", false).unwrap().0);
-    assert_eq!("fagycfatci", jvozba::get_lujvo("fagri cfari tutci", false).unwrap().0);
-    assert_eq!("fagyfesti", jvozba::get_lujvo("fagri festi", false).unwrap().0);
-    assert_eq!("fagyfesyska", jvozba::get_lujvo("fagri festi skari", false).unwrap().0);
-    assert_eq!("fagyfesyvau", jvozba::get_lujvo("fagri festi vasru", false).unwrap().0);
-    assert_eq!("fagyka'u", jvozba::get_lujvo("fagri kantu", false).unwrap().0);
-    assert_eq!("fagysti", jvozba::get_lujvo("fagri sisti", false).unwrap().0);
-    assert_eq!("fagystigau", jvozba::get_lujvo("fagri sisti gasnu", false).unwrap().0);
-    assert_eq!("fagytergu'i", jvozba::get_lujvo("fagri te gusni", false).unwrap().0);
-    assert_eq!("fairbei", jvozba::get_lujvo("fatri bevri", false).unwrap().0);
-    assert_eq!("falbu'u", jvozba::get_lujvo("farlu bukpu", false).unwrap().0);
-    assert_eq!("falcru", jvozba::get_lujvo("farlu curmi", false).unwrap().0);
-    assert_eq!("fanbu'u", jvozba::get_lujvo("falnu bukpu", false).unwrap().0);
-    assert_eq!("famdakfu", jvozba::get_lujvo("fanmo dakfu", false).unwrap().0);
-    assert_eq!("famfa'o", jvozba::get_lujvo("fanmo fanmo", false).unwrap().0);
-    assert_eq!("famyma'o", jvozba::get_lujvo("fanmo cmavo", false).unwrap().0);
-    assert_eq!("fancyju'a", jvozba::get_lujvo("fancu jufra", false).unwrap().0);
-    assert_eq!("fankla", jvozba::get_lujvo("falnu klama", false).unwrap().0);
-    assert_eq!("fanvyca'a", jvozba::get_lujvo("fanva cabra", false).unwrap().0);
-    assert_eq!("fanvyca'ate'i", jvozba::get_lujvo("fanva cabra steci", false).unwrap().0);
-    assert_eq!("fancyju'a", jvozba::get_lujvo("fancu jufra", false).unwrap().0);
-    assert_eq!("farcne", jvozba::get_lujvo("farna cenba", false).unwrap().0);
-    assert_eq!("fargau", jvozba::get_lujvo("farna gasnu", false).unwrap().0);
-    assert_eq!("farja'o", jvozba::get_lujvo("farna jarco", false).unwrap().0);
-    assert_eq!("fasygu'e", jvozba::get_lujvo("fraso gugde", false).unwrap().0);
-    assert_eq!("fatna'u", jvozba::get_lujvo("fatne namcu", false).unwrap().0);
-    assert_eq!("faurju'a", jvozba::get_lujvo("fasnu jufra", false).unwrap().0);
-    assert_eq!("faurpai", jvozba::get_lujvo("fasnu pajni", false).unwrap().0);
-    assert_eq!("favgau", jvozba::get_lujvo("farvi gasnu", false).unwrap().0);
-    assert_eq!("faxri'a", jvozba::get_lujvo("fraxu rinka", false).unwrap().0);
-    assert_eq!("fazykei", jvozba::get_lujvo("fanza kelci", false).unwrap().0);
-    assert_eq!("fazyta'a", jvozba::get_lujvo("fanza tavla", false).unwrap().0);
-    assert_eq!("febgau", jvozba::get_lujvo("febvi gasnu", false).unwrap().0);
-    assert_eq!("fegba'u", jvozba::get_lujvo("fengu bacru", false).unwrap().0);
-    assert_eq!("fegba'ugunta", jvozba::get_lujvo("fengu bacru gunta", false).unwrap().0);
-    assert_eq!("fegboixa'e", jvozba::get_lujvo("fengu bolci xance", false).unwrap().0);
-    assert_eq!("fegycau", jvozba::get_lujvo("fengu claxu", false).unwrap().0);
-    assert_eq!("fekpre", jvozba::get_lujvo("fenki prenu", false).unwrap().0);
-    assert_eq!("fekri'a", jvozba::get_lujvo("fenki rinka", false).unwrap().0);
-    assert_eq!("fekygei", jvozba::get_lujvo("fenki gleki", false).unwrap().0);
-    assert_eq!("fengidmo'a", jvozba::get_lujvo("fenso gidva morna", false).unwrap().0);
-    assert_eq!("fepsi'i", jvozba::get_lujvo("fepni sicni", false).unwrap().0);
-    assert_eq!("fesydai", jvozba::get_lujvo("festi dacti", false).unwrap().0);
-    assert_eq!("fetcinfo", jvozba::get_lujvo("fetsi cinfo", false).unwrap().0);
-    assert_eq!("fetci'o", jvozba::get_lujvo("fetsi citno", false).unwrap().0);
-    assert_eq!("fetnalspe", jvozba::get_lujvo("fetsi na'e speni", false).unwrap().0);
-    assert_eq!("fetno'i", jvozba::get_lujvo("fetsi nobli", false).unwrap().0);
-    assert_eq!("fetnolraitru", jvozba::get_lujvo("fetsi nobli traji turni", false).unwrap().0);
-    assert_eq!("fetpe'o", jvozba::get_lujvo("fetsi pendo", false).unwrap().0);
-    assert_eq!("fetpa'i", jvozba::get_lujvo("fetsi prami", false).unwrap().0);
-    assert_eq!("fetspe", jvozba::get_lujvo("fetsi speni", false).unwrap().0);
-    assert_eq!("fetyganti", jvozba::get_lujvo("fetsi ganti", false).unwrap().0);
-    assert_eq!("ficri'a", jvozba::get_lujvo("frica rinka", false).unwrap().0);
-    assert_eq!("fikcku", jvozba::get_lujvo("cfika cukta", false).unwrap().0);
-    assert_eq!("filri'a", jvozba::get_lujvo("frili rinka", false).unwrap().0);
-    assert_eq!("filseljmi", jvozba::get_lujvo("frili se jimpe", false).unwrap().0);
-    assert_eq!("filselzga", jvozba::get_lujvo("frili se zgana", false).unwrap().0);
-    assert_eq!("finfriti", jvozba::get_lujvo("finti friti", false).unwrap().0);
-    assert_eq!("fipybirka", jvozba::get_lujvo("finpe birka", false).unwrap().0);
-    assert_eq!("fipfalnu", jvozba::get_lujvo("finpe falnu", false).unwrap().0);
-    assert_eq!("fipyrebla", jvozba::get_lujvo("finpe rebla", false).unwrap().0);
-    assert_eq!("finxu'a", jvozba::get_lujvo("finti xusra", false).unwrap().0);
-    assert_eq!("fipcange", jvozba::get_lujvo("finpe cange", false).unwrap().0);
-    assert_eq!("fipkalte", jvozba::get_lujvo("finpe kalte", false).unwrap().0);
-    assert_eq!("firgai", jvozba::get_lujvo("flira gacri", false).unwrap().0);
-    assert_eq!("firkre", jvozba::get_lujvo("flira kerfa", false).unwrap().0);
-    assert_eq!("firkrevi'u", jvozba::get_lujvo("flira kerfa vimcu", false).unwrap().0);
-    assert_eq!("firsku", jvozba::get_lujvo("flira cusku", false).unwrap().0);
-    assert_eq!("flacau", jvozba::get_lujvo("flalu claxu", false).unwrap().0);
-    assert_eq!("flanaltinbe", jvozba::get_lujvo("flalu na'e tinbe", false).unwrap().0);
-    assert_eq!("flecarvi", jvozba::get_lujvo("flecu carvi", false).unwrap().0);
-    assert_eq!("fleri'u", jvozba::get_lujvo("flecu rinju", false).unwrap().0);
-    assert_eq!("fletisygau", jvozba::get_lujvo("flecu tisna gasnu", false).unwrap().0);
-    assert_eq!("flobimvro", jvozba::get_lujvo("foldi bitmu vorme", false).unwrap().0);
-    assert_eq!("flulimna", jvozba::get_lujvo("fulta limna", false).unwrap().0);
-    assert_eq!("fomke'acirla", jvozba::get_lujvo("fonmo kevna cirla", false).unwrap().0);
-    assert_eq!("fomsle", jvozba::get_lujvo("fonmo selci", false).unwrap().0);
-    assert_eq!("fonsnu", jvozba::get_lujvo("fonxa casnu", false).unwrap().0);
-    assert_eq!("fonjudri", jvozba::get_lujvo("fonxa judri", false).unwrap().0);
-    assert_eq!("fonta'a", jvozba::get_lujvo("fonxa tavla", false).unwrap().0);
-    assert_eq!("velfonynoi", jvozba::get_lujvo("ve fonxa notci", false).unwrap().0);
-    assert_eq!("fonynoi", jvozba::get_lujvo("fonxa notci", false).unwrap().0);
-    assert_eq!("fraba'u", jvozba::get_lujvo("frati bacru", false).unwrap().0);
-    assert_eq!("fragu'i", jvozba::get_lujvo("frati gusni", false).unwrap().0);
-    assert_eq!("frasku", jvozba::get_lujvo("frati cusku", false).unwrap().0);
-    assert_eq!("frecande'u", jvozba::get_lujvo("ferti canre dertu", false).unwrap().0);
-    assert_eq!("fregau", jvozba::get_lujvo("ferti gasnu", false).unwrap().0);
-    assert_eq!("frerai", jvozba::get_lujvo("ferti traji", false).unwrap().0);
-    assert_eq!("freri'a", jvozba::get_lujvo("ferti rinka", false).unwrap().0);
-    assert_eq!("fi'ormerko", jvozba::get_lujvo("friko merko", false).unwrap().0);
-    assert_eq!("fi'ortutra", jvozba::get_lujvo("friko tutra", false).unwrap().0);
-    assert_eq!("filmau", jvozba::get_lujvo("frili zmadu", false).unwrap().0);
-    assert_eq!("frinyna'u", jvozba::get_lujvo("frinu namcu", false).unwrap().0);
-    assert_eq!("fu'ivla", jvozba::get_lujvo("fukpi valsi", false).unwrap().0);
-    assert_eq!("fuzyji'i", jvozba::get_lujvo("fuzme jinvi", false).unwrap().0);
-    assert_eq!("fuzyka'eji'i", jvozba::get_lujvo("fuzme kakne jinvi", false).unwrap().0);
-    assert_eq!("fu'esku", jvozba::get_lujvo("fuzme cusku", false).unwrap().0);
-    assert_eq!("ga'acpu", jvozba::get_lujvo("grana lacpu", false).unwrap().0);
-    assert_eq!("ga'arxa'i", jvozba::get_lujvo("grana xarci", false).unwrap().0);
-    assert_eq!("ga'avro", jvozba::get_lujvo("grana vorme", false).unwrap().0);
-    assert_eq!("ga'orbi'o", jvozba::get_lujvo("ganlo binxo", false).unwrap().0);
-    assert_eq!("ga'orga'i", jvozba::get_lujvo("ganlo galfi", false).unwrap().0);
-    assert_eq!("ga'orgau", jvozba::get_lujvo("ganlo gasnu", false).unwrap().0);
-    assert_eq!("galcla", jvozba::get_lujvo("galtu clani", false).unwrap().0);
-    assert_eq!("gafto'a", jvozba::get_lujvo("galfi tonga", false).unwrap().0);
-    assert_eq!("gafto'atci", jvozba::get_lujvo("galfi tonga tutci", false).unwrap().0);
-    assert_eq!("gafygau", jvozba::get_lujvo("galfi gasnu", false).unwrap().0);
-    assert_eq!("ga'izba", jvozba::get_lujvo("galfi zbasu", false).unwrap().0);
-    assert_eq!("gairbu'u", jvozba::get_lujvo("gacri bukpu", false).unwrap().0);
-    assert_eq!("gairgau", jvozba::get_lujvo("gacri gasnu", false).unwrap().0);
-    assert_eq!("gairja'i", jvozba::get_lujvo("gacri jadni", false).unwrap().0);
-    assert_eq!("gairki'e", jvozba::get_lujvo("gacri kicne", false).unwrap().0);
-    assert_eq!("gairkosta", jvozba::get_lujvo("gacri kosta", false).unwrap().0);
-    assert_eq!("galbirka", jvozba::get_lujvo("galtu birka", false).unwrap().0);
-    assert_eq!("galmau", jvozba::get_lujvo("galtu zmadu", false).unwrap().0);
-    assert_eq!("galpau", jvozba::get_lujvo("galtu pagbu", false).unwrap().0);
-    assert_eq!("galrai", jvozba::get_lujvo("galtu traji", false).unwrap().0);
-    assert_eq!("galsu'a", jvozba::get_lujvo("galtu stura", false).unwrap().0);
-    assert_eq!("galtu'e", jvozba::get_lujvo("galtu tuple", false).unwrap().0);
-    assert_eq!("gancuktai", jvozba::get_lujvo("ganra cukla tarmi", false).unwrap().0);
-    assert_eq!("ganle'u", jvozba::get_lujvo("ganra lerfu", false).unwrap().0);
-    assert_eq!("gankurfa", jvozba::get_lujvo("ganra kurfa", false).unwrap().0);
-    assert_eq!("gapcpare", jvozba::get_lujvo("gapru cpare", false).unwrap().0);
-    assert_eq!("gapcta", jvozba::get_lujvo("gapru catlu", false).unwrap().0);
-    assert_eq!("gapkla", jvozba::get_lujvo("gapru klama", false).unwrap().0);
-    assert_eq!("gapydzu", jvozba::get_lujvo("gapru cadzu", false).unwrap().0);
-    assert_eq!("garka'afendi", jvozba::get_lujvo("garna katna fendi", false).unwrap().0);
-    assert_eq!("gasfri", jvozba::get_lujvo("ganse lifri", false).unwrap().0);
-    assert_eq!("gaurkalsa", jvozba::get_lujvo("gasnu kalsa", false).unwrap().0);
-    assert_eq!("gaxmolgle", jvozba::get_lujvo("ganxo moklu gletu", false).unwrap().0);
-    assert_eq!("gaxygle", jvozba::get_lujvo("ganxo gletu", false).unwrap().0);
-    assert_eq!("gaxykafke", jvozba::get_lujvo("ganxo kafke", false).unwrap().0);
-    assert_eq!("gendra", jvozba::get_lujvo("gerna drani", false).unwrap().0);
-    assert_eq!("geipre", jvozba::get_lujvo("gleki prenu", false).unwrap().0);
-    assert_eq!("geirde'a", jvozba::get_lujvo("gleki denpa", false).unwrap().0);
-    assert_eq!("geirgau", jvozba::get_lujvo("gleki gasnu", false).unwrap().0);
-    assert_eq!("geirxe'o", jvozba::get_lujvo("gleki xendo", false).unwrap().0);
-    assert_eq!("geizma", jvozba::get_lujvo("gleki zmadu", false).unwrap().0);
-    assert_eq!("gekcisma", jvozba::get_lujvo("gleki cisma", false).unwrap().0);
-    assert_eq!("gekpanpi", jvozba::get_lujvo("gleki panpi", false).unwrap().0);
-    assert_eq!("gekrai", jvozba::get_lujvo("gleki traji", false).unwrap().0);
-    assert_eq!("geirki'a", jvozba::get_lujvo("gleki krixa", false).unwrap().0);
-    assert_eq!("genlalske", jvozba::get_lujvo("gerna lanli saske", false).unwrap().0);
-    assert_eq!("gensu'a", jvozba::get_lujvo("gerna stura", false).unwrap().0);
-    assert_eq!("genturfa'i", jvozba::get_lujvo("gerna stura facki", false).unwrap().0);
-    assert_eq!("gercmo", jvozba::get_lujvo("gerku cmoni", false).unwrap().0);
-    assert_eq!("gerpre", jvozba::get_lujvo("gerku prenu", false).unwrap().0);
-    assert_eq!("gerzda", jvozba::get_lujvo("gerku zdani", false).unwrap().0);
-    assert_eq!("gimste", jvozba::get_lujvo("gismu liste", false).unwrap().0);
-    assert_eq!("glinai", jvozba::get_lujvo("glico natmi", false).unwrap().0);
-    assert_eq!("glige'a", jvozba::get_lujvo("glico gerna", false).unwrap().0);
-    assert_eq!("glivla", jvozba::get_lujvo("glico valsi", false).unwrap().0);
-    assert_eq!("gincilta", jvozba::get_lujvo("jgina cilta", false).unwrap().0);
-    assert_eq!("ginlazmi'u", jvozba::get_lujvo("jgina lanzu mintu", false).unwrap().0);
-    assert_eq!("ginpoi", jvozba::get_lujvo("jgina porsi", false).unwrap().0);
-    assert_eq!("grinunpei", jvozba::get_lujvo("girzu nu pensi", false).unwrap().0);
-    assert_eq!("grisa'a", jvozba::get_lujvo("girzu sanga", false).unwrap().0);
-    assert_eq!("griselpei", jvozba::get_lujvo("girzu se pensi", false).unwrap().0);
-    assert_eq!("grivlici'e", jvozba::get_lujvo("girzu vlipa ciste", false).unwrap().0);
-    assert_eq!("gimlebvla", jvozba::get_lujvo("gismu lebna valsi", false).unwrap().0);
-    assert_eq!("gitsko", jvozba::get_lujvo("jgita skori", false).unwrap().0);
-    assert_eq!("glacai", jvozba::get_lujvo("glare carmi", false).unwrap().0);
-    assert_eq!("glagau", jvozba::get_lujvo("glare gasnu", false).unwrap().0);
-    assert_eq!("glari'a", jvozba::get_lujvo("glare rinka", false).unwrap().0);
-    assert_eq!("glaxlafri", jvozba::get_lujvo("glare xlali lifri", false).unwrap().0);
-    assert_eq!("gledji", jvozba::get_lujvo("gletu djica", false).unwrap().0);
-    assert_eq!("glefi'a", jvozba::get_lujvo("gletu cfika", false).unwrap().0);
-    assert_eq!("gletci", jvozba::get_lujvo("gletu tutci", false).unwrap().0);
-    assert_eq!("gletro", jvozba::get_lujvo("gletu jitro", false).unwrap().0);
-    assert_eq!("glevi'i", jvozba::get_lujvo("gletu vikmi", false).unwrap().0);
-    assert_eq!("glibau", jvozba::get_lujvo("glico bangu", false).unwrap().0);
-    assert_eq!("glibaukragu'e", jvozba::get_lujvo("glico bangu krasi gugde", false).unwrap().0);
-    assert_eq!("gligu'e", jvozba::get_lujvo("glico gugde", false).unwrap().0);
-    assert_eq!("glikragu'e", jvozba::get_lujvo("glico krasi gugde", false).unwrap().0);
-    assert_eq!("glimerko", jvozba::get_lujvo("glico merko", false).unwrap().0);
-    assert_eq!("ga'ardanti", jvozba::get_lujvo("grana danti", false).unwrap().0);
-    assert_eq!("ga'ardance'a", jvozba::get_lujvo("grana danti cecla", false).unwrap().0);
-    assert_eq!("grebe'i", jvozba::get_lujvo("pagre benji", false).unwrap().0);
-    assert_eq!("greblo", jvozba::get_lujvo("pagre bloti", false).unwrap().0);
-    assert_eq!("greblopre", jvozba::get_lujvo("pagre bloti prenu", false).unwrap().0);
-    assert_eq!("grece'i", jvozba::get_lujvo("pagre cteki", false).unwrap().0);
-    assert_eq!("gregau", jvozba::get_lujvo("pagre gasnu", false).unwrap().0);
-    assert_eq!("greke'a", jvozba::get_lujvo("pagre kevna", false).unwrap().0);
-    assert_eq!("grile'u", jvozba::get_lujvo("girzu lerfu", false).unwrap().0);
-    assert_eq!("grinunjvi", jvozba::get_lujvo("girzu nu jivna", false).unwrap().0);
-    assert_eq!("gripau", jvozba::get_lujvo("girzu pagbu", false).unwrap().0);
-    assert_eq!("grusko", jvozba::get_lujvo("gurni skori", false).unwrap().0);
-    assert_eq!("rutytricu", jvozba::get_lujvo("grute tricu", false).unwrap().0);
-    assert_eq!("gunstu", jvozba::get_lujvo("gunka stuzi", false).unwrap().0);
-    assert_eq!("gugypa'i", jvozba::get_lujvo("gugde prami", false).unwrap().0);
-    assert_eq!("guryre'o", jvozba::get_lujvo("gunro renro", false).unwrap().0);
-    assert_eq!("gurgau", jvozba::get_lujvo("gunro gasnu", false).unwrap().0);
-    assert_eq!("gubgau", jvozba::get_lujvo("gubni gasnu", false).unwrap().0);
-    assert_eq!("gubnoi", jvozba::get_lujvo("gubni notci", false).unwrap().0);
-    assert_eq!("gubnunsnu", jvozba::get_lujvo("gubni nu casnu", false).unwrap().0);
-    assert_eq!("gubyternoi", jvozba::get_lujvo("gubni te notci", false).unwrap().0);
-    assert_eq!("gugbandu", jvozba::get_lujvo("gugde bandu", false).unwrap().0);
-    assert_eq!("gugyka'i", jvozba::get_lujvo("gugde krati", false).unwrap().0);
-    assert_eq!("gukcanre", jvozba::get_lujvo("guska canre", false).unwrap().0);
-    assert_eq!("gumpe'i", jvozba::get_lujvo("gunma penmi", false).unwrap().0);
-    assert_eq!("gungri", jvozba::get_lujvo("gunka girzu", false).unwrap().0);
-    assert_eq!("gunku'a", jvozba::get_lujvo("gunka kumfa", false).unwrap().0);
-    assert_eq!("gurcutci", jvozba::get_lujvo("gunro cutci", false).unwrap().0);
-    assert_eq!("gructi", jvozba::get_lujvo("gurni citka", false).unwrap().0);
-    assert_eq!("gusminra", jvozba::get_lujvo("gusni minra", false).unwrap().0);
-    assert_eq!("gustci", jvozba::get_lujvo("gusni tutci", false).unwrap().0);
-    assert_eq!("gusyvelvei", jvozba::get_lujvo("gusni ve vreji", false).unwrap().0);
-    assert_eq!("gustytigni", jvozba::get_lujvo("gusta tigni", false).unwrap().0);
-    assert_eq!("gusycai", jvozba::get_lujvo("gusni carmi", false).unwrap().0);
-    assert_eq!("ja'esni", jvozba::get_lujvo("jalge sinxa", false).unwrap().0);
-    assert_eq!("ja'orca'o", jvozba::get_lujvo("jarco canko", false).unwrap().0);
-    assert_eq!("ja'urjukni", jvozba::get_lujvo("jgalu jukni", false).unwrap().0);
-    assert_eq!("jabytu'u", jvozba::get_lujvo("janbe tubnu", false).unwrap().0);
-    assert_eq!("jacke'o", jvozba::get_lujvo("djacu kelvo", false).unwrap().0);
-    assert_eq!("jaclu'a", jvozba::get_lujvo("djacu pluta", false).unwrap().0);
-    assert_eq!("jacnalselgre", jvozba::get_lujvo("djacu na'e se pagre", false).unwrap().0);
-    assert_eq!("jaurca'ega'a", jvozba::get_lujvo("djacu catke grana", false).unwrap().0);
-    assert_eq!("jaurde'u", jvozba::get_lujvo("djacu dertu", false).unwrap().0);
-    assert_eq!("jaurdirgo", jvozba::get_lujvo("djacu dirgo", false).unwrap().0);
-    assert_eq!("jaurvi'u", jvozba::get_lujvo("djacu vimcu", false).unwrap().0);
-    assert_eq!("jadnoi", jvozba::get_lujvo("jadni notci", false).unwrap().0);
-    assert_eq!("jadycau", jvozba::get_lujvo("jadni claxu", false).unwrap().0);
-    assert_eq!("jadypijne", jvozba::get_lujvo("jadni pijne", false).unwrap().0);
-    assert_eq!("jmatamji", jvozba::get_lujvo("jamfu tamji", false).unwrap().0);
-    assert_eq!("jmatajycalku", jvozba::get_lujvo("jamfu tamji calku", false).unwrap().0);
-    assert_eq!("jmati'e", jvozba::get_lujvo("jamfu trixe", false).unwrap().0);
-    assert_eq!("jagdimna", jvozba::get_lujvo("jalge dimna", false).unwrap().0);
-    assert_eq!("jagdimnalpei", jvozba::get_lujvo("jalge dimna na'e pensi", false).unwrap().0);
-    assert_eq!("jairxa'e", jvozba::get_lujvo("jgari xance", false).unwrap().0);
-    assert_eq!("jajgau", jvozba::get_lujvo("jmaji gasnu", false).unwrap().0);
-    assert_eq!("jakcai", jvozba::get_lujvo("jarki carmi", false).unwrap().0);
-    assert_eq!("jakle'u", jvozba::get_lujvo("jarki lerfu", false).unwrap().0);
-    assert_eq!("jamkansa", jvozba::get_lujvo("jamna kansa", false).unwrap().0);
-    assert_eq!("jarcinki", jvozba::get_lujvo("jdari cinki", false).unwrap().0);
-    assert_eq!("jarkitybli", jvozba::get_lujvo("jdari kliti bliku", false).unwrap().0);
-    assert_eq!("jarple", jvozba::get_lujvo("jdari pelji", false).unwrap().0);
-    assert_eq!("jarpu'i", jvozba::get_lujvo("jdari punji", false).unwrap().0);
-    assert_eq!("jaryri'a", jvozba::get_lujvo("jdari rinka", false).unwrap().0);
-    assert_eq!("seljaryri'a", jvozba::get_lujvo("se jdari rinka", false).unwrap().0);
-    assert_eq!("jasysnu", jvozba::get_lujvo("jansu casnu", false).unwrap().0);
-    assert_eq!("jaurbumru", jvozba::get_lujvo("djacu bumru", false).unwrap().0);
-    assert_eq!("jaurcarna", jvozba::get_lujvo("djacu carna", false).unwrap().0);
-    assert_eq!("jaurda'i", jvozba::get_lujvo("djacu darxi", false).unwrap().0);
-    assert_eq!("jaurde'uro'i", jvozba::get_lujvo("djacu dertu rokci", false).unwrap().0);
-    assert_eq!("jacfa'u", jvozba::get_lujvo("djacu farlu", false).unwrap().0);
-    assert_eq!("jaurgairi'a", jvozba::get_lujvo("djacu gacri rinka", false).unwrap().0);
-    assert_eq!("jaurgapci", jvozba::get_lujvo("djacu gapci", false).unwrap().0);
-    assert_eq!("jaurmabru", jvozba::get_lujvo("djacu mabru", false).unwrap().0);
-    assert_eq!("jaurselylu'i", jvozba::get_lujvo("djacu se lumci", false).unwrap().0);
-    assert_eq!("jaurvacri", jvozba::get_lujvo("djacu vacri", false).unwrap().0);
-    assert_eq!("jbebe'a", jvozba::get_lujvo("jbena bersa", false).unwrap().0);
-    assert_eq!("jbedei", jvozba::get_lujvo("jbena djedi", false).unwrap().0);
-    assert_eq!("jbedetnunsla", jvozba::get_lujvo("jbena detri nu salci", false).unwrap().0);
-    assert_eq!("jbedetsla", jvozba::get_lujvo("jbena detri salci", false).unwrap().0);
-    assert_eq!("jbesla", jvozba::get_lujvo("jbena salci", false).unwrap().0);
-    assert_eq!("jbetcaxa'u", jvozba::get_lujvo("jbena tcadu xabju", false).unwrap().0);
-    assert_eq!("jbetutra", jvozba::get_lujvo("jbena tutra", false).unwrap().0);
-    assert_eq!("jbibi'o", jvozba::get_lujvo("jibni binxo", false).unwrap().0);
-    assert_eq!("jbidra", jvozba::get_lujvo("jibni drani", false).unwrap().0);
-    assert_eq!("jbigendra", jvozba::get_lujvo("jibni gerna drani", false).unwrap().0);
-    assert_eq!("jbikla", jvozba::get_lujvo("jibni klama", false).unwrap().0);
-    assert_eq!("jbimau", jvozba::get_lujvo("jibni zmadu", false).unwrap().0);
-    assert_eq!("jbirai", jvozba::get_lujvo("jibni traji", false).unwrap().0);
-    assert_eq!("jbire'a", jvozba::get_lujvo("jibni remna", false).unwrap().0);
-    assert_eq!("jbixa'u", jvozba::get_lujvo("jibni xabju", false).unwrap().0);
-    assert_eq!("jbota'a", jvozba::get_lujvo("lojbo tavla", false).unwrap().0);
-    assert_eq!("jbobauta'a", jvozba::get_lujvo("lojbo bangu tavla", false).unwrap().0);
-    assert_eq!("jbobau", jvozba::get_lujvo("lojbo bangu", false).unwrap().0);
-    assert_eq!("jboce'u", jvozba::get_lujvo("lojbo cecmu", false).unwrap().0);
-    assert_eq!("jbofinpla", jvozba::get_lujvo("lojbo finti platu", false).unwrap().0);
-    assert_eq!("jbofonta'a", jvozba::get_lujvo("lojbo fonxa tavla", false).unwrap().0);
-    assert_eq!("jboge'a", jvozba::get_lujvo("lojbo gerna", false).unwrap().0);
-    assert_eq!("jbogri", jvozba::get_lujvo("lojbo girzu", false).unwrap().0);
-    assert_eq!("jbogu'a", jvozba::get_lujvo("lojbo gunka", false).unwrap().0);
-    assert_eq!("jbojikca", jvozba::get_lujvo("lojbo jikca", false).unwrap().0);
-    assert_eq!("jbomi'u", jvozba::get_lujvo("lojbo mintu", false).unwrap().0);
-    assert_eq!("jbomidju", jvozba::get_lujvo("lojbo midju", false).unwrap().0);
-    assert_eq!("jbonunsku", jvozba::get_lujvo("lojbo nu cusku", false).unwrap().0);
-    assert_eq!("jbopre", jvozba::get_lujvo("lojbo prenu", false).unwrap().0);
-    assert_eq!("jbosla", jvozba::get_lujvo("lojbo salci", false).unwrap().0);
-    assert_eq!("seljbosla", jvozba::get_lujvo("se lojbo salci", false).unwrap().0);
-    assert_eq!("jboselba'u", jvozba::get_lujvo("lojbo se bacru", false).unwrap().0);
-    assert_eq!("jboselsku", jvozba::get_lujvo("lojbo se cusku", false).unwrap().0);
-    assert_eq!("jboslanunpe'i", jvozba::get_lujvo("lojbo salci nu penmi", false).unwrap().0);
-    assert_eq!("jbosni", jvozba::get_lujvo("lojbo sinxa", false).unwrap().0);
-    assert_eq!("jboste", jvozba::get_lujvo("lojbo liste", false).unwrap().0);
-    assert_eq!("jbotcidu", jvozba::get_lujvo("lojbo tcidu", false).unwrap().0);
-    assert_eq!("jbotermri", jvozba::get_lujvo("lojbo te mrilu", false).unwrap().0);
-    assert_eq!("jbovla", jvozba::get_lujvo("lojbo valsi", false).unwrap().0);
-    assert_eq!("jboxelmri", jvozba::get_lujvo("lojbo xe mrilu", false).unwrap().0);
-    assert_eq!("jbozi'u", jvozba::get_lujvo("lojbo zirpu", false).unwrap().0);
-    assert_eq!("jbuboikei", jvozba::get_lujvo("jubme bolci kelci", false).unwrap().0);
-    assert_eq!("jbusfe", jvozba::get_lujvo("jubme sefta", false).unwrap().0);
-    assert_eq!("jbustu", jvozba::get_lujvo("jubme stuzi", false).unwrap().0);
-    assert_eq!("jdace'u", jvozba::get_lujvo("lijda cecmu", false).unwrap().0);
-    assert_eq!("jdacuvgau", jvozba::get_lujvo("lijda curve gasnu", false).unwrap().0);
-    assert_eq!("jdadapma", jvozba::get_lujvo("lijda dapma", false).unwrap().0);
-    assert_eq!("jdajinru", jvozba::get_lujvo("lijda jinru", false).unwrap().0);
-    assert_eq!("jdaka'i", jvozba::get_lujvo("lijda krati", false).unwrap().0);
-    assert_eq!("jdami'u", jvozba::get_lujvo("lijda mintu", false).unwrap().0);
-    assert_eq!("jdapli", jvozba::get_lujvo("lijda pilno", false).unwrap().0);
-    assert_eq!("jdaralju", jvozba::get_lujvo("lijda ralju", false).unwrap().0);
-    assert_eq!("jdaselsa'a", jvozba::get_lujvo("lijda se sanga", false).unwrap().0);
-    assert_eq!("jdaselsku", jvozba::get_lujvo("lijda se cusku", false).unwrap().0);
-    assert_eq!("jdasi'a", jvozba::get_lujvo("lijda sinma", false).unwrap().0);
-    assert_eq!("jdasku", jvozba::get_lujvo("lijda cusku", false).unwrap().0);
-    assert_eq!("jdaskuzei", jvozba::get_lujvo("lijda cusku zekri", false).unwrap().0);
-    assert_eq!("jdasoi", jvozba::get_lujvo("lijda sonci", false).unwrap().0);
-    assert_eq!("jdaxanmuvgau", jvozba::get_lujvo("lijda xance muvdu gasnu", false).unwrap().0);
-    assert_eq!("jdazei", jvozba::get_lujvo("lijda zekri", false).unwrap().0);
-    assert_eq!("jdecisma", jvozba::get_lujvo("kajde cisma", false).unwrap().0);
-    assert_eq!("jdeselsku", jvozba::get_lujvo("kajde se cusku", false).unwrap().0);
-    assert_eq!("jdigu'a", jvozba::get_lujvo("jdice gunka", false).unwrap().0);
-    assert_eq!("jdikyri'a", jvozba::get_lujvo("jdika rinka", false).unwrap().0);
-    assert_eq!("jditadji", jvozba::get_lujvo("jdice tadji", false).unwrap().0);
-    assert_eq!("jdufi'e", jvozba::get_lujvo("jduli finpe", false).unwrap().0);
-    assert_eq!("jectrukamni", jvozba::get_lujvo("jecta turni kamni", false).unwrap().0);
-    assert_eq!("jecydinsro", jvozba::get_lujvo("jecta jdini sorcu", false).unwrap().0);
-    assert_eq!("jecyga'ibai", jvozba::get_lujvo("jecta galfi bapli", false).unwrap().0);
-    assert_eq!("jecyga'ibaigau", jvozba::get_lujvo("jecta galfi bapli gasnu", false).unwrap().0);
-    assert_eq!("jecpau", jvozba::get_lujvo("jecta pagbu", false).unwrap().0);
-    assert_eq!("jecyselpo'e", jvozba::get_lujvo("jecta se ponse", false).unwrap().0);
-    assert_eq!("jecyselpo'ega'i", jvozba::get_lujvo("jecta se ponse galfi", false).unwrap().0);
-    assert_eq!("jecyselxaizei", jvozba::get_lujvo("jecta se xrani zekri", false).unwrap().0);
-    assert_eq!("jefyfa'o", jvozba::get_lujvo("jeftu fanmo", false).unwrap().0);
-    assert_eq!("jelgau", jvozba::get_lujvo("jelca gasnu", false).unwrap().0);
-    assert_eq!("jelgauca'a", jvozba::get_lujvo("jelca gasnu cabra", false).unwrap().0);
-    assert_eq!("jelspo", jvozba::get_lujvo("jelca daspo", false).unwrap().0);
-    assert_eq!("jempau", jvozba::get_lujvo("jenmi pagbu", false).unwrap().0);
-    assert_eq!("jercru", jvozba::get_lujvo("jbera curmi", false).unwrap().0);
-    assert_eq!("jerle'i", jvozba::get_lujvo("jbera pleji", false).unwrap().0);
-    assert_eq!("jesycro", jvozba::get_lujvo("jesni cortu", false).unwrap().0);
-    assert_eq!("jesyspa", jvozba::get_lujvo("jesni spati", false).unwrap().0);
-    assert_eq!("jetfa'i", jvozba::get_lujvo("jetnu facki", false).unwrap().0);
-    assert_eq!("jetka'u", jvozba::get_lujvo("jetnu kantu", false).unwrap().0);
-    assert_eq!("jetka'ubivmei", jvozba::get_lujvo("jetnu kantu bi mei", false).unwrap().0);
-    assert_eq!("jetpai", jvozba::get_lujvo("jetnu pajni", false).unwrap().0);
-    assert_eq!("jetycipra", jvozba::get_lujvo("jetnu cipra", false).unwrap().0);
-    assert_eq!("jgarau", jvozba::get_lujvo("jganu gradu", false).unwrap().0);
-    assert_eq!("jgene'ota'u", jvozba::get_lujvo("jgena cnebo taxfu", false).unwrap().0);
-    assert_eq!("jgiski", jvozba::get_lujvo("jgira skicu", false).unwrap().0);
-    assert_eq!("jgisku", jvozba::get_lujvo("jgira cusku", false).unwrap().0);
-    assert_eq!("ji'ecla", jvozba::get_lujvo("jmive clani", false).unwrap().0);
-    assert_eq!("ji'efri", jvozba::get_lujvo("jmive lifri", false).unwrap().0);
-    assert_eq!("selji'efri", jvozba::get_lujvo("se jmive lifri", false).unwrap().0);
-    assert_eq!("ji'epru", jvozba::get_lujvo("jmive purci", false).unwrap().0);
-    assert_eq!("ji'esti", jvozba::get_lujvo("jmive sisti", false).unwrap().0);
-    assert_eq!("ji'icni", jvozba::get_lujvo("jinvi cinmo", false).unwrap().0);
-    assert_eq!("ji'isku", jvozba::get_lujvo("jinvi cusku", false).unwrap().0);
-    assert_eq!("jibgu'a", jvozba::get_lujvo("jibri gunka", false).unwrap().0);
-    assert_eq!("jibja'a", jvozba::get_lujvo("jibri jatna", false).unwrap().0);
-    assert_eq!("jibypli", jvozba::get_lujvo("jibri pilno", false).unwrap().0);
-    assert_eq!("jibysti", jvozba::get_lujvo("jibri sisti", false).unwrap().0);
-    assert_eq!("jibystigau", jvozba::get_lujvo("jibri sisti gasnu", false).unwrap().0);
-    assert_eq!("jifselkri", jvozba::get_lujvo("jitfa se krici", false).unwrap().0);
-    assert_eq!("jifsku", jvozba::get_lujvo("jitfa cusku", false).unwrap().0);
-    assert_eq!("jifyjovnarje'u", jvozba::get_lujvo("jitfa jo na jetnu", false).unwrap().0);
-    assert_eq!("jiglanxe", jvozba::get_lujvo("jinga lanxe", false).unwrap().0);
-    assert_eq!("jikybebna", jvozba::get_lujvo("jikca bebna", false).unwrap().0);
-    assert_eq!("jikce'u", jvozba::get_lujvo("jikca cecmu", false).unwrap().0);
-    assert_eq!("jikfanza", jvozba::get_lujvo("jikca fanza", false).unwrap().0);
-    assert_eq!("jikfazgau", jvozba::get_lujvo("jikca fanza gasnu", false).unwrap().0);
-    assert_eq!("jiknei", jvozba::get_lujvo("jikca nelci", false).unwrap().0);
-    assert_eq!("jikri'i", jvozba::get_lujvo("jikca ritli", false).unwrap().0);
-    assert_eq!("jikri'ipro", jvozba::get_lujvo("jikca ritli fapro", false).unwrap().0);
-    assert_eq!("jiksre", jvozba::get_lujvo("jikca srera", false).unwrap().0);
-    assert_eq!("jiktamne", jvozba::get_lujvo("jikca tamne", false).unwrap().0);
-    assert_eq!("jikydu'i", jvozba::get_lujvo("jikca dunli", false).unwrap().0);
-    assert_eq!("jikyju'o", jvozba::get_lujvo("jikca djuno", false).unwrap().0);
-    assert_eq!("jikyzeitra", jvozba::get_lujvo("jikca zekri tarti", false).unwrap().0);
-    assert_eq!("jimcai", jvozba::get_lujvo("jinme carmi", false).unwrap().0);
-    assert_eq!("jimda'izbe", jvozba::get_lujvo("jinme darxi zbepi", false).unwrap().0);
-    assert_eq!("jimdaxsna", jvozba::get_lujvo("jinme darxi sance", false).unwrap().0);
-    assert_eq!("jimto'a", jvozba::get_lujvo("jinme tonga", false).unwrap().0);
-    assert_eq!("jincarna", jvozba::get_lujvo("djine carna", false).unwrap().0);
-    assert_eq!("jincla", jvozba::get_lujvo("djine clani", false).unwrap().0);
-    assert_eq!("jirgau", jvozba::get_lujvo("jinru gasnu", false).unwrap().0);
-    assert_eq!("jintitnanba", jvozba::get_lujvo("djine titla nanba", false).unwrap().0);
-    assert_eq!("jintydi'u", jvozba::get_lujvo("jinto dinju", false).unwrap().0);
-    assert_eq!("jipmokca", jvozba::get_lujvo("jipno mokca", false).unwrap().0);
-    assert_eq!("jirlu'i", jvozba::get_lujvo("jinru lumci", false).unwrap().0);
-    assert_eq!("jirsezlu'i", jvozba::get_lujvo("jinru sevzi lumci", false).unwrap().0);
-    assert_eq!("jisygau", jvozba::get_lujvo("jinsa gasnu", false).unwrap().0);
-    assert_eq!("jisysa'e", jvozba::get_lujvo("jinsa satre", false).unwrap().0);
-    assert_eq!("jivrei", jvozba::get_lujvo("jinvi preti", false).unwrap().0);
-    assert_eq!("jizvanbi", jvozba::get_lujvo("jinzi vanbi", false).unwrap().0);
-    assert_eq!("jmadegji", jvozba::get_lujvo("jamfu degji", false).unwrap().0);
-    assert_eq!("jmadegycalku", jvozba::get_lujvo("jamfu degji calku", false).unwrap().0);
-    assert_eq!("jmavra", jvozba::get_lujvo("jamfu vraga", false).unwrap().0);
-    assert_eq!("jmeja'i", jvozba::get_lujvo("jemna jadni", false).unwrap().0);
-    assert_eq!("jmekunra", jvozba::get_lujvo("jemna kunra", false).unwrap().0);
-    assert_eq!("cakyjmepi'a", jvozba::get_lujvo("calku jemna pilka", false).unwrap().0);
-    assert_eq!("jmero'i", jvozba::get_lujvo("jemna rokci", false).unwrap().0);
-    assert_eq!("jmigau", jvozba::get_lujvo("jimpe gasnu", false).unwrap().0);
-    assert_eq!("jmimau", jvozba::get_lujvo("jimpe zmadu", false).unwrap().0);
-    assert_eq!("mivyselna'a", jvozba::get_lujvo("jmive se nanca", false).unwrap().0);
-    assert_eq!("jomcmi", jvozba::get_lujvo("jo'e cmima", false).unwrap().0);
-    assert_eq!("jonja'e", jvozba::get_lujvo("jorne jalge", false).unwrap().0);
-    assert_eq!("jonjmina", jvozba::get_lujvo("jorne jmina", false).unwrap().0);
-    assert_eq!("jonma'o", jvozba::get_lujvo("jorne cmavo", false).unwrap().0);
-    assert_eq!("ju'itra", jvozba::get_lujvo("jundi tarti", false).unwrap().0);
-    assert_eq!("judri'a", jvozba::get_lujvo("jundi rinka", false).unwrap().0);
-    assert_eq!("judzga", jvozba::get_lujvo("jundi zgana", false).unwrap().0);
-    assert_eq!("jufsu'a", jvozba::get_lujvo("jufra stura", false).unwrap().0);
-    assert_eq!("ju'agri", jvozba::get_lujvo("jufra girzu", false).unwrap().0);
-    assert_eq!("jugyklu", jvozba::get_lujvo("jungo kulnu", false).unwrap().0);
-    assert_eq!("julra'o", jvozba::get_lujvo("junla radno", false).unwrap().0);
-    assert_eq!("junbe'i", jvozba::get_lujvo("djuno benji", false).unwrap().0);
-    assert_eq!("jungau", jvozba::get_lujvo("djuno gasnu", false).unwrap().0);
-    assert_eq!("junri'a", jvozba::get_lujvo("djuno rinka", false).unwrap().0);
-    assert_eq!("juryri'a", jvozba::get_lujvo("junri rinka", false).unwrap().0);
-    assert_eq!("juntytri", jvozba::get_lujvo("junta trina", false).unwrap().0);
-    assert_eq!("jupfi'i", jvozba::get_lujvo("jukpa finti", false).unwrap().0);
-    assert_eq!("jupku'a", jvozba::get_lujvo("jukpa kumfa", false).unwrap().0);
-    assert_eq!("jupyzba", jvozba::get_lujvo("jukpa zbasu", false).unwrap().0);
-    assert_eq!("jurdri", jvozba::get_lujvo("junri badri", false).unwrap().0);
-    assert_eq!("jurja'o", jvozba::get_lujvo("junri jarco", false).unwrap().0);
-    assert_eq!("jvajvo", jvozba::get_lujvo("javni lujvo", false).unwrap().0);
-    assert_eq!("jvige'u", jvozba::get_lujvo("jivna gerku", false).unwrap().0);
-    assert_eq!("veljvine'u", jvozba::get_lujvo("ve jivna cnemu", false).unwrap().0);
-    assert_eq!("jvipai", jvozba::get_lujvo("jivna pajni", false).unwrap().0);
-    assert_eq!("jvixi'a", jvozba::get_lujvo("jivna xirma", false).unwrap().0);
-    assert_eq!("jvoste", jvozba::get_lujvo("lujvo liste", false).unwrap().0);
-    assert_eq!("jvozba", jvozba::get_lujvo("lujvo zbasu", false).unwrap().0);
-    assert_eq!("ka'amru", jvozba::get_lujvo("katna mruli", false).unwrap().0);
-    assert_eq!("ka'anri'a", jvozba::get_lujvo("katna rinka", false).unwrap().0);
-    assert_eq!("ka'arkakpa", jvozba::get_lujvo("katna kakpa", false).unwrap().0);
-    assert_eq!("ka'arkomcu", jvozba::get_lujvo("katna komcu", false).unwrap().0);
-    assert_eq!("ka'arvi'u", jvozba::get_lujvo("katna vimcu", false).unwrap().0);
-    assert_eq!("ka'inruxpre", jvozba::get_lujvo("krati pruxi prenu", false).unwrap().0);
-    assert_eq!("ka'urbi'o", jvozba::get_lujvo("kantu binxo", false).unwrap().0);
-    assert_eq!("kabryca'u", jvozba::get_lujvo("kabri canlu", false).unwrap().0);
-    assert_eq!("kabrylai", jvozba::get_lujvo("kabri klani", false).unwrap().0);
-    assert_eq!("kabryselmre", jvozba::get_lujvo("kabri se merli", false).unwrap().0);
-    assert_eq!("kacna'u", jvozba::get_lujvo("kancu namcu", false).unwrap().0);
-    assert_eq!("kadnymergli", jvozba::get_lujvo("kadno merko glico", false).unwrap().0);
-    assert_eq!("kadyto'a", jvozba::get_lujvo("kandi tonga", false).unwrap().0);
-    assert_eq!("kadyto'atci", jvozba::get_lujvo("kandi tonga tutci", false).unwrap().0);
-    assert_eq!("kafkytrofli", jvozba::get_lujvo("kafke jitro fliba", false).unwrap().0);
-    assert_eq!("kafybarja", jvozba::get_lujvo("ckafi barja", false).unwrap().0);
-    assert_eq!("kagycange", jvozba::get_lujvo("kagni cange", false).unwrap().0);
-    assert_eq!("kagytrocange", jvozba::get_lujvo("kagni jitro cange", false).unwrap().0);
-    assert_eq!("kairpai", jvozba::get_lujvo("ckaji pajni", false).unwrap().0);
-    assert_eq!("kakpyca'a", jvozba::get_lujvo("kakpa cabra", false).unwrap().0);
-    assert_eq!("kakmli", jvozba::get_lujvo("klaku milxe", false).unwrap().0);
-    assert_eq!("kalgai", jvozba::get_lujvo("kanla gacri", false).unwrap().0);
-    assert_eq!("kalgaikre", jvozba::get_lujvo("kanla gacri kerfa", false).unwrap().0);
-    assert_eq!("karsna", jvozba::get_lujvo("kalri sance", false).unwrap().0);
-    assert_eq!("kalselvi'i", jvozba::get_lujvo("kanla se vikmi", false).unwrap().0);
-    assert_eq!("kasydzu", jvozba::get_lujvo("kalsa cadzu", false).unwrap().0);
-    assert_eq!("kasfle", jvozba::get_lujvo("kalsa flecu", false).unwrap().0);
-    assert_eq!("kasygri", jvozba::get_lujvo("kalsa girzu", false).unwrap().0);
-    assert_eq!("kaskla", jvozba::get_lujvo("kalsa klama", false).unwrap().0);
-    assert_eq!("kasri'a", jvozba::get_lujvo("kalsa rinka", false).unwrap().0);
-    assert_eq!("kasystu", jvozba::get_lujvo("kalsa stuzi", false).unwrap().0);
-    assert_eq!("kasysu'a", jvozba::get_lujvo("kalsa stura", false).unwrap().0);
-    assert_eq!("kalvi'i", jvozba::get_lujvo("kanla vikmi", false).unwrap().0);
-    assert_eq!("kambitki'u", jvozba::get_lujvo("ka birti krinu", false).unwrap().0);
-    assert_eq!("kamcemtamne", jvozba::get_lujvo("ka cecmu tamne", false).unwrap().0);
-    assert_eq!("kamgubga'i", jvozba::get_lujvo("ka gubni galfi", false).unwrap().0);
-    assert_eq!("kamgubgau", jvozba::get_lujvo("ka gubni gasnu", false).unwrap().0);
-    assert_eq!("kamje'uja'o", jvozba::get_lujvo("ka jetnu jarco", false).unwrap().0);
-    assert_eq!("kamjybo'u", jvozba::get_lujvo("kamju bongu", false).unwrap().0);
-    assert_eq!("kamjybo'usle", jvozba::get_lujvo("kamju bongu selci", false).unwrap().0);
-    assert_eq!("kamna'ujbi", jvozba::get_lujvo("ka namcu jibni", false).unwrap().0);
-    assert_eq!("kamnynunpe'i", jvozba::get_lujvo("kamni nu penmi", false).unwrap().0);
-    assert_eq!("kampavyselmanri", jvozba::get_lujvo("ka pa se manri", false).unwrap().0);
-    assert_eq!("kampeikai", jvozba::get_lujvo("ka pensi ckaji", false).unwrap().0);
-    assert_eq!("kamsorselmanri", jvozba::get_lujvo("ka so'i se manri", false).unwrap().0);
-    assert_eq!("kamyzanfu'a", jvozba::get_lujvo("ka zabna funca", false).unwrap().0);
-    assert_eq!("kankei", jvozba::get_lujvo("kansa kelci", false).unwrap().0);
-    assert_eq!("kelkansa", jvozba::get_lujvo("kelci kansa", false).unwrap().0);
-    assert_eq!("kankla", jvozba::get_lujvo("kansa klama", false).unwrap().0);
-    assert_eq!("ka'ozma", jvozba::get_lujvo("kanro zmadu", false).unwrap().0);
-    assert_eq!("ka'orze'a", jvozba::get_lujvo("kanro zenba", false).unwrap().0);
-    assert_eq!("kanydzu", jvozba::get_lujvo("kansa cadzu", false).unwrap().0);
-    assert_eq!("kanzutla'i", jvozba::get_lujvo("kansa zutse lamji", false).unwrap().0);
-    assert_eq!("kapsle", jvozba::get_lujvo("skapi selci", false).unwrap().0);
-    assert_eq!("kapta'u", jvozba::get_lujvo("skapi taxfu", false).unwrap().0);
-    assert_eq!("kapyplita", jvozba::get_lujvo("skapi plita", false).unwrap().0);
-    assert_eq!("karbi'o", jvozba::get_lujvo("kalri binxo", false).unwrap().0);
-    assert_eq!("karcykla", jvozba::get_lujvo("karce klama", false).unwrap().0);
-    assert_eq!("karcyli'u", jvozba::get_lujvo("karce litru", false).unwrap().0);
-    assert_eq!("karcylu'a", jvozba::get_lujvo("karce pluta", false).unwrap().0);
-    assert_eq!("karcymuvgau", jvozba::get_lujvo("karce muvdu gasnu", false).unwrap().0);
-    assert_eq!("kargau", jvozba::get_lujvo("kalri gasnu", false).unwrap().0);
-    assert_eq!("karmolcinba", jvozba::get_lujvo("kalri moklu cinba", false).unwrap().0);
-    assert_eq!("karnyfi'u", jvozba::get_lujvo("karni cfipu", false).unwrap().0);
-    assert_eq!("karnyke'u", jvozba::get_lujvo("karni krefu", false).unwrap().0);
-    assert_eq!("karnypra", jvozba::get_lujvo("karni cupra", false).unwrap().0);
-    assert_eq!("karnysku", jvozba::get_lujvo("karni cusku", false).unwrap().0);
-    assert_eq!("karpo'i", jvozba::get_lujvo("kalri porpi", false).unwrap().0);
-    assert_eq!("katcpi", jvozba::get_lujvo("kalte cipni", false).unwrap().0);
-    assert_eq!("katstu", jvozba::get_lujvo("kalte stuzi", false).unwrap().0);
-    assert_eq!("kaurpo'esi'opre", jvozba::get_lujvo("kampu ponse sidbo prenu", false).unwrap().0);
-    assert_eq!("refcfa", jvozba::get_lujvo("krefu cfari", false).unwrap().0);
-    assert_eq!("refcpa", jvozba::get_lujvo("krefu cpacu", false).unwrap().0);
-    assert_eq!("kelbe'e", jvozba::get_lujvo("kelci bende", false).unwrap().0);
-    assert_eq!("keiblo", jvozba::get_lujvo("kelci bloti", false).unwrap().0);
-    assert_eq!("keicre", jvozba::get_lujvo("kelci certu", false).unwrap().0);
-    assert_eq!("keldai", jvozba::get_lujvo("kelci dacti", false).unwrap().0);
-    assert_eq!("keigri", jvozba::get_lujvo("kelci girzu", false).unwrap().0);
-    assert_eq!("kelgrimi'u", jvozba::get_lujvo("kelci girzu mintu", false).unwrap().0);
-    assert_eq!("kelkarda", jvozba::get_lujvo("kelci karda", false).unwrap().0);
-    assert_eq!("kelkubli", jvozba::get_lujvo("kelci kubli", false).unwrap().0);
-    assert_eq!("kelpi'e", jvozba::get_lujvo("kelci plipe", false).unwrap().0);
-    assert_eq!("keipro", jvozba::get_lujvo("kelci fapro", false).unwrap().0);
-    assert_eq!("kelsnada", jvozba::get_lujvo("kelci snada", false).unwrap().0);
-    assert_eq!("keizdi", jvozba::get_lujvo("kelci zdile", false).unwrap().0);
-    assert_eq!("selkeizdi", jvozba::get_lujvo("se kelci zdile", false).unwrap().0);
-    assert_eq!("kercrida", jvozba::get_lujvo("kerlo crida", false).unwrap().0);
-    assert_eq!("kercrori'a", jvozba::get_lujvo("kerlo cortu rinka", false).unwrap().0);
-    assert_eq!("krekandi", jvozba::get_lujvo("kerfa kandi", false).unwrap().0);
-    assert_eq!("kerjbikre", jvozba::get_lujvo("kerlo jibni kerfa", false).unwrap().0);
-    assert_eq!("kesli'ufi'a", jvozba::get_lujvo("kensa litru cfika", false).unwrap().0);
-    assert_eq!("kevykakpa", jvozba::get_lujvo("kevna kakpa", false).unwrap().0);
-    assert_eq!("kevykalri", jvozba::get_lujvo("kevna kalri", false).unwrap().0);
-    assert_eq!("kevykargau", jvozba::get_lujvo("kevna kalri gasnu", false).unwrap().0);
-    assert_eq!("kevzda", jvozba::get_lujvo("kevna zdani", false).unwrap().0);
-    assert_eq!("kixsku", jvozba::get_lujvo("krixa cusku", false).unwrap().0);
-    assert_eq!("ki'ijdi", jvozba::get_lujvo("ckini jdice", false).unwrap().0);
-    assert_eq!("ki'orgratretrefrinynidysnidu", jvozba::get_lujvo("kilto grake mitre mitre frinu snidu snidu", false).unwrap().0);
-    assert_eq!("skebailai", jvozba::get_lujvo("saske bapli klani", false).unwrap().0);
-    assert_eq!("ki'orsamsrorau", jvozba::get_lujvo("kilto skami sorcu gradu", false).unwrap().0);
-    assert_eq!("ki'otre", jvozba::get_lujvo("kilto mitre", false).unwrap().0);
-    assert_eq!("kicymatci", jvozba::get_lujvo("kicne matci", false).unwrap().0);
-    assert_eq!("kijyselspo", jvozba::get_lujvo("kijno se daspo", false).unwrap().0);
-    assert_eq!("kikla'a", jvozba::get_lujvo("ckiku lasna", false).unwrap().0);
-    assert_eq!("kilcna", jvozba::get_lujvo("kinli canpa", false).unwrap().0);
-    assert_eq!("kilga'a", jvozba::get_lujvo("kinli grana", false).unwrap().0);
-    assert_eq!("kilga'axa'i", jvozba::get_lujvo("kinli grana xarci", false).unwrap().0);
-    assert_eq!("kilmru", jvozba::get_lujvo("kinli mruli", false).unwrap().0);
-    assert_eq!("kiltci", jvozba::get_lujvo("kinli tutci", false).unwrap().0);
-    assert_eq!("kindi'u", jvozba::get_lujvo("skina dinju", false).unwrap().0);
-    assert_eq!("kinplapre", jvozba::get_lujvo("skina platu prenu", false).unwrap().0);
-    assert_eq!("kityzba", jvozba::get_lujvo("kliti zbasu", false).unwrap().0);
-    assert_eq!("selkityzba", jvozba::get_lujvo("se kliti zbasu", false).unwrap().0);
-    assert_eq!("klacpe", jvozba::get_lujvo("klama cpedu", false).unwrap().0);
-    assert_eq!("kladji", jvozba::get_lujvo("klama djica", false).unwrap().0);
-    assert_eq!("selkladji", jvozba::get_lujvo("se klama djica", false).unwrap().0);
-    assert_eq!("klagau", jvozba::get_lujvo("klama gasnu", false).unwrap().0);
-    assert_eq!("klakansa", jvozba::get_lujvo("klama kansa", false).unwrap().0);
-    assert_eq!("kakydirgo", jvozba::get_lujvo("klaku dirgo", false).unwrap().0);
-    assert_eq!("kakyjau", jvozba::get_lujvo("klaku djacu", false).unwrap().0);
-    assert_eq!("klamu'o", jvozba::get_lujvo("klama mulno", false).unwrap().0);
-    assert_eq!("klasti", jvozba::get_lujvo("klama sisti", false).unwrap().0);
-    assert_eq!("klastigau", jvozba::get_lujvo("klama sisti gasnu", false).unwrap().0);
-    assert_eq!("leicmi", jvozba::get_lujvo("klesi cmima", false).unwrap().0);
-    assert_eq!("klecmiri'a", jvozba::get_lujvo("klesi cmima rinka", false).unwrap().0);
-    assert_eq!("klemi'u", jvozba::get_lujvo("klesi mintu", false).unwrap().0);
-    assert_eq!("klerafsi", jvozba::get_lujvo("klesi rafsi", false).unwrap().0);
-    assert_eq!("kligau", jvozba::get_lujvo("klina gasnu", false).unwrap().0);
-    assert_eq!("tolkligau", jvozba::get_lujvo("to'e klina gasnu", false).unwrap().0);
-    assert_eq!("kalselklijmi", jvozba::get_lujvo("kanla se klina jimpe", false).unwrap().0);
-    assert_eq!("klode'a", jvozba::get_lujvo("diklo denpa", false).unwrap().0);
-    assert_eq!("klunu'i", jvozba::get_lujvo("kulnu nutli", false).unwrap().0);
-    assert_eq!("klusmu", jvozba::get_lujvo("kulnu smuni", false).unwrap().0);
-    assert_eq!("kluzei", jvozba::get_lujvo("kulnu zekri", false).unwrap().0);
-    assert_eq!("kotygu'e", jvozba::get_lujvo("skoto gugde", false).unwrap().0);
-    assert_eq!("komnicygau", jvozba::get_lujvo("komcu cnici gasnu", false).unwrap().0);
-    assert_eq!("koncuptai", jvozba::get_lujvo("konju clupa tarmi", false).unwrap().0);
-    assert_eq!("kosne'ota'u", jvozba::get_lujvo("kosta cnebo taxfu", false).unwrap().0);
-    assert_eq!("kosycreka", jvozba::get_lujvo("kosta creka", false).unwrap().0);
-    assert_eq!("krastu", jvozba::get_lujvo("krasi stuzi", false).unwrap().0);
-    assert_eq!("kreblabi", jvozba::get_lujvo("kerfa blabi", false).unwrap().0);
-    assert_eq!("krecau", jvozba::get_lujvo("kerfa claxu", false).unwrap().0);
-    assert_eq!("kreka'apre", jvozba::get_lujvo("kerfa katna prenu", false).unwrap().0);
-    assert_eq!("krekemburpelxu", jvozba::get_lujvo("kerfa ke bunre pelxu", false).unwrap().0);
-    assert_eq!("krepelxu", jvozba::get_lujvo("kerfa pelxu", false).unwrap().0);
-    assert_eq!("kriselsku", jvozba::get_lujvo("krici se cusku", false).unwrap().0);
-    assert_eq!("kroce'a", jvozba::get_lujvo("korcu cecla", false).unwrap().0);
-    assert_eq!("krogarna", jvozba::get_lujvo("korcu garna", false).unwrap().0);
-    assert_eq!("krokurfa", jvozba::get_lujvo("korcu kurfa", false).unwrap().0);
-    assert_eq!("kroranda", jvozba::get_lujvo("korcu randa", false).unwrap().0);
-    assert_eq!("krori'a", jvozba::get_lujvo("korcu rinka", false).unwrap().0);
-    assert_eq!("kroxadjbi", jvozba::get_lujvo("korcu xadni jibni", false).unwrap().0);
-    assert_eq!("krudakyxa'i", jvozba::get_lujvo("kruvi dakfu xarci", false).unwrap().0);
-    assert_eq!("kubykurfa", jvozba::get_lujvo("kubli kurfa", false).unwrap().0);
-    assert_eq!("kuctai", jvozba::get_lujvo("kruca tarmi", false).unwrap().0);
-    assert_eq!("kucyga'a", jvozba::get_lujvo("kruca grana", false).unwrap().0);
-    assert_eq!("kukydja", jvozba::get_lujvo("kukte cidja", false).unwrap().0);
-    assert_eq!("kuncpastu", jvozba::get_lujvo("kunra cpacu stuzi", false).unwrap().0);
-    assert_eq!("kurkubli", jvozba::get_lujvo("kurfa kubli", false).unwrap().0);
-    assert_eq!("kurtre", jvozba::get_lujvo("kurfa mitre", false).unwrap().0);
-    assert_eq!("kusyja'a", jvozba::get_lujvo("kusru jatna", false).unwrap().0);
-    assert_eq!("kuzycmi", jvozba::get_lujvo("ku'a cmima", false).unwrap().0);
-    assert_eq!("la'agle", jvozba::get_lujvo("lasna gletu", false).unwrap().0);
-    assert_eq!("la'arjai", jvozba::get_lujvo("lasna jgari", false).unwrap().0);
-    assert_eq!("la'enri'a", jvozba::get_lujvo("lakne rinka", false).unwrap().0);
-    assert_eq!("la'erme'a", jvozba::get_lujvo("lakne mleca", false).unwrap().0);
-    assert_eq!("la'ornai", jvozba::get_lujvo("latmo natmi", false).unwrap().0);
-    assert_eq!("labypiltricu", jvozba::get_lujvo("blabi pilka tricu", false).unwrap().0);
-    assert_eq!("labyxu'e", jvozba::get_lujvo("blabi xunre", false).unwrap().0);
-    assert_eq!("lactcicygau", jvozba::get_lujvo("lacri tcica gasnu", false).unwrap().0);
-    assert_eq!("ladycange", jvozba::get_lujvo("ladru cange", false).unwrap().0);
-    assert_eq!("ladyfaigau", jvozba::get_lujvo("ladru fatri gasnu", false).unwrap().0);
-    assert_eq!("lafcpa", jvozba::get_lujvo("lafti cpacu", false).unwrap().0);
-    assert_eq!("lafmuvgau", jvozba::get_lujvo("lafti muvdu gasnu", false).unwrap().0);
-    assert_eq!("lagnirbakfu", jvozba::get_lujvo("vlagi nirna bakfu", false).unwrap().0);
-    assert_eq!("lagygasrango", jvozba::get_lujvo("vlagi ganse rango", false).unwrap().0);
-    assert_eq!("lagypinji", jvozba::get_lujvo("vlagi pinji", false).unwrap().0);
-    assert_eq!("lagypunli", jvozba::get_lujvo("vlagi punli", false).unwrap().0);
-    assert_eq!("lagyselkukrango", jvozba::get_lujvo("vlagi se kukte rango", false).unwrap().0);
-    assert_eq!("lairdu'i", jvozba::get_lujvo("klani dunli", false).unwrap().0);
-    assert_eq!("lairpai", jvozba::get_lujvo("klani pajni", false).unwrap().0);
-    assert_eq!("lajre'e", jvozba::get_lujvo("klaji trene", false).unwrap().0);
-    assert_eq!("laktergu'i", jvozba::get_lujvo("lakse te gusni", false).unwrap().0);
-    assert_eq!("lambavdei", jvozba::get_lujvo("lamji balvi djedi", false).unwrap().0);
-    assert_eq!("lamgri", jvozba::get_lujvo("lamji girzu", false).unwrap().0);
-    assert_eq!("slelamgri", jvozba::get_lujvo("selci lamji girzu", false).unwrap().0);
-    assert_eq!("lamjeftu", jvozba::get_lujvo("lamji jeftu", false).unwrap().0);
-    assert_eq!("lampru", jvozba::get_lujvo("lamji purci", false).unwrap().0);
-    assert_eq!("lamprudo'i", jvozba::get_lujvo("lamji purci donri", false).unwrap().0);
-    assert_eq!("lamxa'u", jvozba::get_lujvo("lamji xabju", false).unwrap().0);
-    assert_eq!("lalcta", jvozba::get_lujvo("lanli catlu", false).unwrap().0);
-    assert_eq!("cpumi'i", jvozba::get_lujvo("lacpu minji", false).unwrap().0);
-    assert_eq!("larfi'i", jvozba::get_lujvo("larcu finti", false).unwrap().0);
-    assert_eq!("larja'ostu", jvozba::get_lujvo("larcu jarco stuzi", false).unwrap().0);
-    assert_eq!("larjdixau", jvozba::get_lujvo("larcu jdice xamgu", false).unwrap().0);
-    assert_eq!("larjdixla", jvozba::get_lujvo("larcu jdice xlali", false).unwrap().0);
-    assert_eq!("larku'a", jvozba::get_lujvo("larcu kumfa", false).unwrap().0);
-    assert_eq!("larmuzga", jvozba::get_lujvo("larcu muzga", false).unwrap().0);
-    assert_eq!("larsku", jvozba::get_lujvo("larcu cusku", false).unwrap().0);
-    assert_eq!("larxau", jvozba::get_lujvo("larcu xamgu", false).unwrap().0);
-    assert_eq!("la'avla", jvozba::get_lujvo("lasna valsi", false).unwrap().0);
-    assert_eq!("lasysilka", jvozba::get_lujvo("slasi silka", false).unwrap().0);
-    assert_eq!("laurba'u", jvozba::get_lujvo("cladu bacru", false).unwrap().0);
-    assert_eq!("laurbi'o", jvozba::get_lujvo("cladu binxo", false).unwrap().0);
-    assert_eq!("laurckasu", jvozba::get_lujvo("cladu ckasu", false).unwrap().0);
-    assert_eq!("laurgau", jvozba::get_lujvo("cladu gasnu", false).unwrap().0);
-    assert_eq!("laurgauca'a", jvozba::get_lujvo("cladu gasnu cabra", false).unwrap().0);
-    assert_eq!("laurxajmi", jvozba::get_lujvo("cladu xajmi", false).unwrap().0);
-    assert_eq!("laurxampre", jvozba::get_lujvo("cladu xajmi prenu", false).unwrap().0);
-    assert_eq!("lausku", jvozba::get_lujvo("cladu cusku", false).unwrap().0);
-    assert_eq!("lauzma", jvozba::get_lujvo("cladu zmadu", false).unwrap().0);
-    assert_eq!("laxli'i", jvozba::get_lujvo("lanxe linji", false).unwrap().0);
-    assert_eq!("lazyki'i", jvozba::get_lujvo("lanzu ckini", false).unwrap().0);
-    assert_eq!("lazmi'u", jvozba::get_lujvo("lanzu mintu", false).unwrap().0);
-    assert_eq!("lazycange", jvozba::get_lujvo("lanzu cange", false).unwrap().0);
-    assert_eq!("lazycmi", jvozba::get_lujvo("lanzu cmima", false).unwrap().0);
-    assert_eq!("lazyzda", jvozba::get_lujvo("lanzu zdani", false).unwrap().0);
-    assert_eq!("lebdji", jvozba::get_lujvo("lebna djica", false).unwrap().0);
-    assert_eq!("lebyka'e", jvozba::get_lujvo("lebna kakne", false).unwrap().0);
-    assert_eq!("lebvla", jvozba::get_lujvo("lebna valsi", false).unwrap().0);
-    assert_eq!("lejbai", jvozba::get_lujvo("pleji bapli", false).unwrap().0);
-    assert_eq!("lejyselmu'i", jvozba::get_lujvo("pleji se mukti", false).unwrap().0);
-    assert_eq!("le'otci", jvozba::get_lujvo("lenjo tutci", false).unwrap().0);
-    assert_eq!("lebri'a", jvozba::get_lujvo("lebna rinka", false).unwrap().0);
-    assert_eq!("lecydo'i", jvozba::get_lujvo("lerci donri", false).unwrap().0);
-    assert_eq!("lecydu'e", jvozba::get_lujvo("lerci dukse", false).unwrap().0);
-    assert_eq!("lecysoltei", jvozba::get_lujvo("lerci solri temci", false).unwrap().0);
-    assert_eq!("ledgrute", jvozba::get_lujvo("mledi grute", false).unwrap().0);
-    assert_eq!("leivla", jvozba::get_lujvo("klesi valsi", false).unwrap().0);
-    assert_eq!("lejypi'o", jvozba::get_lujvo("pleji pipno", false).unwrap().0);
-    assert_eq!("lekta'e", jvozba::get_lujvo("lenku tanxe", false).unwrap().0);
-    assert_eq!("lerlogji", jvozba::get_lujvo("lerfu logji", false).unwrap().0);
-    assert_eq!("lerpoi", jvozba::get_lujvo("lerfu porsi", false).unwrap().0);
-    assert_eq!("lerseltcidu", jvozba::get_lujvo("lerfu se tcidu", false).unwrap().0);
-    assert_eq!("lervla", jvozba::get_lujvo("lerfu valsi", false).unwrap().0);
-    assert_eq!("li'erbe'a", jvozba::get_lujvo("lidne bersa", false).unwrap().0);
-    assert_eq!("li'erbu'a", jvozba::get_lujvo("lidne bruna", false).unwrap().0);
-    assert_eq!("li'ergenja", jvozba::get_lujvo("lidne genja", false).unwrap().0);
-    assert_eq!("li'urnei", jvozba::get_lujvo("litru nelci", false).unwrap().0);
-    assert_eq!("li'urta'e", jvozba::get_lujvo("litru tanxe", false).unwrap().0);
-    assert_eq!("lidbi'e", jvozba::get_lujvo("lindi brife", false).unwrap().0);
-    assert_eq!("lidvru", jvozba::get_lujvo("lindi savru", false).unwrap().0);
-    assert_eq!("friselku'e", jvozba::get_lujvo("lifri se kuspe", false).unwrap().0);
-    assert_eq!("lijgri", jvozba::get_lujvo("linji girzu", false).unwrap().0);
-    assert_eq!("lijvelsku", jvozba::get_lujvo("linji ve cusku", false).unwrap().0);
-    assert_eq!("lijyselni'a", jvozba::get_lujvo("linji se cnita", false).unwrap().0);
-    assert_eq!("lijysu'a", jvozba::get_lujvo("linji stura", false).unwrap().0);
-    assert_eq!("likybi'o", jvozba::get_lujvo("litki binxo", false).unwrap().0);
-    assert_eq!("likygau", jvozba::get_lujvo("litki gasnu", false).unwrap().0);
-    assert_eq!("limkla", jvozba::get_lujvo("limna klama", false).unwrap().0);
-    assert_eq!("limvra", jvozba::get_lujvo("limna vraga", false).unwrap().0);
-    assert_eq!("lidysna", jvozba::get_lujvo("lindi sance", false).unwrap().0);
-    assert_eq!("linga'axai", jvozba::get_lujvo("linsi grana xrani", false).unwrap().0);
-    assert_eq!("lirgau", jvozba::get_lujvo("clira gasnu", false).unwrap().0);
-    assert_eq!("lirmau", jvozba::get_lujvo("clira zmadu", false).unwrap().0);
-    assert_eq!("liryrai", jvozba::get_lujvo("clira traji", false).unwrap().0);
-    assert_eq!("lisku'a", jvozba::get_lujvo("lisri kumfa", false).unwrap().0);
-    assert_eq!("lisnuntoi", jvozba::get_lujvo("lisri nu troci", false).unwrap().0);
-    assert_eq!("listigni", jvozba::get_lujvo("lisri tigni", false).unwrap().0);
-    assert_eq!("lisycku", jvozba::get_lujvo("lisri cukta", false).unwrap().0);
-    assert_eq!("litli'avla", jvozba::get_lujvo("clite cliva valsi", false).unwrap().0);
-    assert_eq!("livbai", jvozba::get_lujvo("cliva bapli", false).unwrap().0);
-    assert_eq!("jbopli", jvozba::get_lujvo("lojbo pilno", false).unwrap().0);
-    assert_eq!("lojbaugri", jvozba::get_lujvo("logji bangu girzu", false).unwrap().0);
-    assert_eq!("lojbau", jvozba::get_lujvo("logji bangu", false).unwrap().0);
-    assert_eq!("jbotadni", jvozba::get_lujvo("lojbo tadni", false).unwrap().0);
-    assert_eq!("lojycipra", jvozba::get_lujvo("logji cipra", false).unwrap().0);
-    assert_eq!("lojytadji", jvozba::get_lujvo("logji tadji", false).unwrap().0);
-    assert_eq!("lolbu'u", jvozba::get_lujvo("loldi bukpu", false).unwrap().0);
-    assert_eq!("lolcau", jvozba::get_lujvo("loldi claxu", false).unwrap().0);
-    assert_eq!("lolde'u", jvozba::get_lujvo("loldi dertu", false).unwrap().0);
-    assert_eq!("lolni'a", jvozba::get_lujvo("loldi cnita", false).unwrap().0);
-    assert_eq!("lolro'iboi", jvozba::get_lujvo("loldi rokci bolci", false).unwrap().0);
-    assert_eq!("blocra", jvozba::get_lujvo("bloti crane", false).unwrap().0);
-    assert_eq!("lumcu'i", jvozba::get_lujvo("lumci cumki", false).unwrap().0);
-    assert_eq!("lujlu'adi'u", jvozba::get_lujvo("pluja pluta dinju", false).unwrap().0);
-    assert_eq!("lumpu'o", jvozba::get_lujvo("lumci purmo", false).unwrap().0);
-    assert_eq!("lumvau", jvozba::get_lujvo("lumci vasru", false).unwrap().0);
-    assert_eq!("lubyseljma", jvozba::get_lujvo("lunbe se jamfu", false).unwrap().0);
-    assert_eq!("lurboi", jvozba::get_lujvo("lunra bolci", false).unwrap().0);
-    assert_eq!("lurcukla", jvozba::get_lujvo("lunra cukla", false).unwrap().0);
-    assert_eq!("luptci", jvozba::get_lujvo("klupe tutci", false).unwrap().0);
-    assert_eq!("lutfa'o", jvozba::get_lujvo("pluta fanmo", false).unwrap().0);
-    assert_eq!("lutke'a", jvozba::get_lujvo("pluta kevna", false).unwrap().0);
-    assert_eq!("lutku'a", jvozba::get_lujvo("pluta kumfa", false).unwrap().0);
-    assert_eq!("luzbi'o", jvozba::get_lujvo("kluza binxo", false).unwrap().0);
-    assert_eq!("luzycre", jvozba::get_lujvo("kluza certu", false).unwrap().0);
-    assert_eq!("ma'arbi'i", jvozba::get_lujvo("cmana jbini", false).unwrap().0);
-    assert_eq!("ma'arfe'a", jvozba::get_lujvo("cmana fenra", false).unwrap().0);
-    assert_eq!("ma'ersazri", jvozba::get_lujvo("marce sazri", false).unwrap().0);
-    assert_eq!("ma'onrafsi", jvozba::get_lujvo("cmavo rafsi", false).unwrap().0);
-    assert_eq!("ma'oste", jvozba::get_lujvo("cmavo liste", false).unwrap().0);
-    assert_eq!("ma'ucla", jvozba::get_lujvo("makcu clani", false).unwrap().0);
-    assert_eq!("macri'a", jvozba::get_lujvo("manci rinka", false).unwrap().0);
-    assert_eq!("mafcre", jvozba::get_lujvo("makfa certu", false).unwrap().0);
-    assert_eq!("mafmi'e", jvozba::get_lujvo("makfa minde", false).unwrap().0);
-    assert_eq!("maixra", jvozba::get_lujvo("marji pixra", false).unwrap().0);
-    assert_eq!("majmi'u", jvozba::get_lujvo("marji mintu", false).unwrap().0);
-    assert_eq!("makfartci", jvozba::get_lujvo("maksi farna tutci", false).unwrap().0);
-    assert_eq!("makyvelvei", jvozba::get_lujvo("maksi ve vreji", false).unwrap().0);
-    assert_eq!("maldu'ecni", jvozba::get_lujvo("mabla dukse cinmo", false).unwrap().0);
-    assert_eq!("malgletoi", jvozba::get_lujvo("mabla gletu troci", false).unwrap().0);
-    assert_eq!("malgli", jvozba::get_lujvo("mabla glico", false).unwrap().0);
-    assert_eq!("maljgita'a", jvozba::get_lujvo("mabla jgira tavla", false).unwrap().0);
-    assert_eq!("malkemcombau", jvozba::get_lujvo("mabla ke co'e bangu", false).unwrap().0);
-    assert_eq!("malmliselgu'i", jvozba::get_lujvo("mabla milxe se gusni", false).unwrap().0);
-    assert_eq!("malpavyselbau", jvozba::get_lujvo("mabla pa se bangu", false).unwrap().0);
-    assert_eq!("malrarbau", jvozba::get_lujvo("mabla rarna bangu", false).unwrap().0);
-    assert_eq!("malticta'axlu", jvozba::get_lujvo("mabla tcica tavla xlura", false).unwrap().0);
-    assert_eq!("malxlujikca", jvozba::get_lujvo("mabla xlura jikca", false).unwrap().0);
-    assert_eq!("malxlujikta'a", jvozba::get_lujvo("mabla xlura jikca tavla", false).unwrap().0);
-    assert_eq!("mamjipci", jvozba::get_lujvo("mamta jipci", false).unwrap().0);
-    assert_eq!("mampa'u", jvozba::get_lujvo("mamta patfu", false).unwrap().0);
-    assert_eq!("manbi'o", jvozba::get_lujvo("manku binxo", false).unwrap().0);
-    assert_eq!("manrai", jvozba::get_lujvo("manku traji", false).unwrap().0);
-    assert_eq!("manri'a", jvozba::get_lujvo("manku rinka", false).unwrap().0);
-    assert_eq!("mansykanji", jvozba::get_lujvo("mansa kanji", false).unwrap().0);
-    assert_eq!("mantyjalra", jvozba::get_lujvo("manti jalra", false).unwrap().0);
-    assert_eq!("mantymamta", jvozba::get_lujvo("manti mamta", false).unwrap().0);
-    assert_eq!("mantyzda", jvozba::get_lujvo("manti zdani", false).unwrap().0);
-    assert_eq!("manze'a", jvozba::get_lujvo("manku zenba", false).unwrap().0);
-    assert_eq!("matybi'o", jvozba::get_lujvo("mapti binxo", false).unwrap().0);
-    assert_eq!("matpai", jvozba::get_lujvo("mapti pajni", false).unwrap().0);
-    assert_eq!("mardikca", jvozba::get_lujvo("manri dikca", false).unwrap().0);
-    assert_eq!("marnybu'u", jvozba::get_lujvo("marna bukpu", false).unwrap().0);
-    assert_eq!("masyce'u", jvozba::get_lujvo("malsi cecmu", false).unwrap().0);
-    assert_eq!("zmana'u", jvozba::get_lujvo("zmadu namcu", false).unwrap().0);
-    assert_eq!("zmazau", jvozba::get_lujvo("zmadu zanru", false).unwrap().0);
-    assert_eq!("maxyvru", jvozba::get_lujvo("marxa savru", false).unwrap().0);
-    assert_eq!("mecna'u", jvozba::get_lujvo("mleca namcu", false).unwrap().0);
-    assert_eq!("me'ispe", jvozba::get_lujvo("mensi speni", false).unwrap().0);
-    assert_eq!("mecrai", jvozba::get_lujvo("mleca traji", false).unwrap().0);
-    assert_eq!("mekpau", jvozba::get_lujvo("mekso pagbu", false).unwrap().0);
-    assert_eq!("menbe'i", jvozba::get_lujvo("menli benji", false).unwrap().0);
-    assert_eq!("menca'a", jvozba::get_lujvo("menli cabra", false).unwrap().0);
-    assert_eq!("menji'u", jvozba::get_lujvo("menli jvinu", false).unwrap().0);
-    assert_eq!("menmikce", jvozba::get_lujvo("menli mikce", false).unwrap().0);
-    assert_eq!("merbau", jvozba::get_lujvo("merko bangu", false).unwrap().0);
-    assert_eq!("merfei", jvozba::get_lujvo("merko fepni", false).unwrap().0);
-    assert_eq!("mergu'e", jvozba::get_lujvo("merko gugde", false).unwrap().0);
-    assert_eq!("merja'a", jvozba::get_lujvo("merko jatna", false).unwrap().0);
-    assert_eq!("merje'a", jvozba::get_lujvo("merko jecta", false).unwrap().0);
-    assert_eq!("merkadno", jvozba::get_lujvo("merko kadno", false).unwrap().0);
-    assert_eq!("merklu", jvozba::get_lujvo("merko kulnu", false).unwrap().0);
-    assert_eq!("mernai", jvozba::get_lujvo("merko natmi", false).unwrap().0);
-    assert_eq!("mertru", jvozba::get_lujvo("merko turni", false).unwrap().0);
-    assert_eq!("meryru'u", jvozba::get_lujvo("merko rupnu", false).unwrap().0);
-    assert_eq!("mextutra", jvozba::get_lujvo("mexno tutra", false).unwrap().0);
-    assert_eq!("mi'ecpe", jvozba::get_lujvo("minde cpedu", false).unwrap().0);
-    assert_eq!("midnoi", jvozba::get_lujvo("minde notci", false).unwrap().0);
-    assert_eq!("mi'esku", jvozba::get_lujvo("minde cusku", false).unwrap().0);
-    assert_eq!("termi'esku", jvozba::get_lujvo("te minde cusku", false).unwrap().0);
-    assert_eq!("midvla", jvozba::get_lujvo("minde valsi", false).unwrap().0);
-    assert_eq!("mi'irlarcu", jvozba::get_lujvo("minji larcu", false).unwrap().0);
-    assert_eq!("mi'irlarfi'a", jvozba::get_lujvo("minji larcu cfika", false).unwrap().0);
-    assert_eq!("mi'irselfinfi'a", jvozba::get_lujvo("minji se finti cfika", false).unwrap().0);
-    assert_eq!("mi'ispi", jvozba::get_lujvo("minji spisa", false).unwrap().0);
-    assert_eq!("misyselsi'a", jvozba::get_lujvo("misno se sinma", false).unwrap().0);
-    assert_eq!("misyzau", jvozba::get_lujvo("misno zanru", false).unwrap().0);
-    assert_eq!("mitmlu", jvozba::get_lujvo("mintu simlu", false).unwrap().0);
-    assert_eq!("mibma'o", jvozba::get_lujvo("mi cmavo", false).unwrap().0);
-    assert_eq!("micka'agau", jvozba::get_lujvo("mikce katna gasnu", false).unwrap().0);
-    assert_eq!("micka'aku'a", jvozba::get_lujvo("mikce katna kumfa", false).unwrap().0);
-    assert_eq!("mickarli", jvozba::get_lujvo("mikce karli", false).unwrap().0);
-    assert_eq!("micydi'u", jvozba::get_lujvo("mikce dinju", false).unwrap().0);
-    assert_eq!("mijdo'i", jvozba::get_lujvo("midju donri", false).unwrap().0);
-    assert_eq!("mijdorsai", jvozba::get_lujvo("midju donri sanmi", false).unwrap().0);
-    assert_eq!("mijycisysla", jvozba::get_lujvo("midju crisa salci", false).unwrap().0);
-    assert_eq!("mijycte", jvozba::get_lujvo("midju nicte", false).unwrap().0);
-    assert_eq!("miksnidu", jvozba::get_lujvo("mikri snidu", false).unwrap().0);
-    assert_eq!("mikygra", jvozba::get_lujvo("mikri grake", false).unwrap().0);
-    assert_eq!("milsnidu", jvozba::get_lujvo("milti snidu", false).unwrap().0);
-    assert_eq!("cmizu'e", jvozba::get_lujvo("cmima zukte", false).unwrap().0);
-    assert_eq!("minba'u", jvozba::get_lujvo("jmina bacru", false).unwrap().0);
-    assert_eq!("minci'a", jvozba::get_lujvo("jmina ciska", false).unwrap().0);
-    assert_eq!("midyca'a", jvozba::get_lujvo("minde cabra", false).unwrap().0);
-    assert_eq!("mirlanxe", jvozba::get_lujvo("minra lanxe", false).unwrap().0);
-    assert_eq!("mirsarxe", jvozba::get_lujvo("minra sarxe", false).unwrap().0);
-    assert_eq!("mipstu", jvozba::get_lujvo("mipri stuzi", false).unwrap().0);
-    assert_eq!("mipypro", jvozba::get_lujvo("mipri fapro", false).unwrap().0);
-    assert_eq!("mipypu'i", jvozba::get_lujvo("mipri punji", false).unwrap().0);
-    assert_eq!("mirsna", jvozba::get_lujvo("minra sance", false).unwrap().0);
-    assert_eq!("mitcinglepre", jvozba::get_lujvo("mintu cinse gletu prenu", false).unwrap().0);
-    assert_eq!("mitcinpampre", jvozba::get_lujvo("mintu cinse prami prenu", false).unwrap().0);
-    assert_eq!("mitfa'e", jvozba::get_lujvo("mintu fatne", false).unwrap().0);
-    assert_eq!("mitmo'a", jvozba::get_lujvo("mintu morna", false).unwrap().0);
-    assert_eq!("mitnarsi'u", jvozba::get_lujvo("mintu na simxu", false).unwrap().0);
-    assert_eq!("mitpavycinglepre", jvozba::get_lujvo("mintu pa cinse gletu prenu", false).unwrap().0);
-    assert_eq!("mitpavycinpampre", jvozba::get_lujvo("mintu pa cinse prami prenu", false).unwrap().0);
-    assert_eq!("mitsi'u", jvozba::get_lujvo("mintu simxu", false).unwrap().0);
-    assert_eq!("mitsmuvla", jvozba::get_lujvo("mintu smuni valsi", false).unwrap().0);
-    assert_eq!("mivdalmuzga", jvozba::get_lujvo("jmive danlu muzga", false).unwrap().0);
-    assert_eq!("mivgau", jvozba::get_lujvo("jmive gasnu", false).unwrap().0);
-    assert_eq!("mivmu'i", jvozba::get_lujvo("jmive mukti", false).unwrap().0);
-    assert_eq!("mivmu'e", jvozba::get_lujvo("jmive munje", false).unwrap().0);
-    assert_eq!("mlabimke'a", jvozba::get_lujvo("mlana bitmu kevna", false).unwrap().0);
-    assert_eq!("mlakla", jvozba::get_lujvo("mlana klama", false).unwrap().0);
-    assert_eq!("mlaselfa'a", jvozba::get_lujvo("mlana se farna", false).unwrap().0);
-    assert_eq!("mleba'i", jvozba::get_lujvo("melbi banli", false).unwrap().0);
-    assert_eq!("mlejgi", jvozba::get_lujvo("melbi jgira", false).unwrap().0);
-    assert_eq!("mlerai", jvozba::get_lujvo("melbi traji", false).unwrap().0);
-    assert_eq!("mliba'u", jvozba::get_lujvo("milxe bacru", false).unwrap().0);
-    assert_eq!("mlibra", jvozba::get_lujvo("milxe barda", false).unwrap().0);
-    assert_eq!("mlibi'e", jvozba::get_lujvo("milxe brife", false).unwrap().0);
-    assert_eq!("mliburna", jvozba::get_lujvo("milxe burna", false).unwrap().0);
-    assert_eq!("mlicintunta", jvozba::get_lujvo("milxe cinse tunta", false).unwrap().0);
-    assert_eq!("mlifanza", jvozba::get_lujvo("milxe fanza", false).unwrap().0);
-    assert_eq!("mlifrili", jvozba::get_lujvo("milxe frili", false).unwrap().0);
-    assert_eq!("mligapru", jvozba::get_lujvo("milxe gapru", false).unwrap().0);
-    assert_eq!("mligla", jvozba::get_lujvo("milxe glare", false).unwrap().0);
-    assert_eq!("mliri'a", jvozba::get_lujvo("milxe rinka", false).unwrap().0);
-    assert_eq!("mliselmabla", jvozba::get_lujvo("milxe se mabla", false).unwrap().0);
-    assert_eq!("mlisli", jvozba::get_lujvo("milxe slilu", false).unwrap().0);
-    assert_eq!("mlisnosli", jvozba::get_lujvo("milxe masno slilu", false).unwrap().0);
-    assert_eq!("mlisutsli", jvozba::get_lujvo("milxe sutra slilu", false).unwrap().0);
-    assert_eq!("mlitoinandu", jvozba::get_lujvo("milxe troci nandu", false).unwrap().0);
-    assert_eq!("mlixai", jvozba::get_lujvo("milxe xrani", false).unwrap().0);
-    assert_eq!("mluri'a", jvozba::get_lujvo("simlu rinka", false).unwrap().0);
-    assert_eq!("mo'isro", jvozba::get_lujvo("morji sorcu", false).unwrap().0);
-    assert_eq!("mo'isti", jvozba::get_lujvo("morji sisti", false).unwrap().0);
-    assert_eq!("mocpecli'i", jvozba::get_lujvo("mokca pencu linji", false).unwrap().0);
-    assert_eq!("mojri'a", jvozba::get_lujvo("morji rinka", false).unwrap().0);
-    assert_eq!("mojypei", jvozba::get_lujvo("morji pensi", false).unwrap().0);
-    assert_eq!("mojysu'a", jvozba::get_lujvo("morji stura", false).unwrap().0);
-    assert_eq!("molgapru", jvozba::get_lujvo("moklu gapru", false).unwrap().0);
-    assert_eq!("molgle", jvozba::get_lujvo("moklu gletu", false).unwrap().0);
-    assert_eq!("molko'a", jvozba::get_lujvo("moklu kojna", false).unwrap().0);
-    assert_eq!("molre'u", jvozba::get_lujvo("moklu rectu", false).unwrap().0);
-    assert_eq!("moltu'u", jvozba::get_lujvo("moklu tubnu", false).unwrap().0);
-    assert_eq!("monfu'i", jvozba::get_lujvo("morna fukpi", false).unwrap().0);
-    assert_eq!("monfu'igau", jvozba::get_lujvo("morna fukpi gasnu", false).unwrap().0);
-    assert_eq!("monmuprai", jvozba::get_lujvo("morna mupli traji", false).unwrap().0);
-    assert_eq!("mojgau", jvozba::get_lujvo("morji gasnu", false).unwrap().0);
-    assert_eq!("mojmau", jvozba::get_lujvo("morji zmadu", false).unwrap().0);
-    assert_eq!("mosyvi'u", jvozba::get_lujvo("mosra vimcu", false).unwrap().0);
-    assert_eq!("mosycpu", jvozba::get_lujvo("mosra lacpu", false).unwrap().0);
-    assert_eq!("mrajymledi", jvozba::get_lujvo("mraji mledi", false).unwrap().0);
-    assert_eq!("mrena'u", jvozba::get_lujvo("merli namcu", false).unwrap().0);
-    assert_eq!("mriste", jvozba::get_lujvo("mrilu liste", false).unwrap().0);
-    assert_eq!("mrobi'o", jvozba::get_lujvo("morsi binxo", false).unwrap().0);
-    assert_eq!("mrocanci", jvozba::get_lujvo("morsi canci", false).unwrap().0);
-    assert_eq!("mrofanta", jvozba::get_lujvo("morsi fanta", false).unwrap().0);
-    assert_eq!("mrofoi", jvozba::get_lujvo("morsi foldi", false).unwrap().0);
-    assert_eq!("mroke'a", jvozba::get_lujvo("morsi kevna", false).unwrap().0);
-    assert_eq!("mromu'e", jvozba::get_lujvo("morsi munje", false).unwrap().0);
-    assert_eq!("mrori'a", jvozba::get_lujvo("morsi rinka", false).unwrap().0);
-    assert_eq!("mrori'i", jvozba::get_lujvo("morsi ritli", false).unwrap().0);
-    assert_eq!("mroruxpre", jvozba::get_lujvo("morsi pruxi prenu", false).unwrap().0);
-    assert_eq!("mrospe", jvozba::get_lujvo("morsi speni", false).unwrap().0);
-    assert_eq!("mrostu", jvozba::get_lujvo("morsi stuzi", false).unwrap().0);
-    assert_eq!("mrovau", jvozba::get_lujvo("morsi vasru", false).unwrap().0);
-    assert_eq!("muclai", jvozba::get_lujvo("smuci klani", false).unwrap().0);
-    assert_eq!("mudbli", jvozba::get_lujvo("mudri bliku", false).unwrap().0);
-    assert_eq!("mudyctijalra", jvozba::get_lujvo("mudri citka jalra", false).unwrap().0);
-    assert_eq!("mudyfagri", jvozba::get_lujvo("mudri fagri", false).unwrap().0);
-    assert_eq!("mudyka'apre", jvozba::get_lujvo("mudri katna prenu", false).unwrap().0);
-    assert_eq!("mudypexsilka", jvozba::get_lujvo("mudri pesxu silka", false).unwrap().0);
-    assert_eq!("mudyselcrepu", jvozba::get_lujvo("mudri se crepu", false).unwrap().0);
-    assert_eq!("mu'ejva", jvozba::get_lujvo("munje javni", false).unwrap().0);
-    assert_eq!("mu'etru", jvozba::get_lujvo("munje turni", false).unwrap().0);
-    assert_eq!("mukygei", jvozba::get_lujvo("mukti gleki", false).unwrap().0);
-    assert_eq!("mulbri", jvozba::get_lujvo("mulno bridi", false).unwrap().0);
-    assert_eq!("mulgau", jvozba::get_lujvo("mulno gasnu", false).unwrap().0);
-    assert_eq!("mulgri", jvozba::get_lujvo("mulno girzu", false).unwrap().0);
-    assert_eq!("mulna'u", jvozba::get_lujvo("mulno namcu", false).unwrap().0);
-    assert_eq!("smuge'a", jvozba::get_lujvo("smuni gerna", false).unwrap().0);
-    assert_eq!("mu'ezda", jvozba::get_lujvo("munje zdani", false).unwrap().0);
-    assert_eq!("musmalsi", jvozba::get_lujvo("muslo malsi", false).unwrap().0);
-    assert_eq!("tcebra", jvozba::get_lujvo("mutce barda", false).unwrap().0);
-    assert_eq!("muvra'itra", jvozba::get_lujvo("muvdu ranji tarti", false).unwrap().0);
-    assert_eq!("na'acto", jvozba::get_lujvo("nanca xecto", false).unwrap().0);
-    assert_eq!("na'arcartu", jvozba::get_lujvo("nanca cartu", false).unwrap().0);
-    assert_eq!("na'arke'udei", jvozba::get_lujvo("nanca krefu djedi", false).unwrap().0);
-    assert_eq!("na'irmabru", jvozba::get_lujvo("nalci mabru", false).unwrap().0);
-    assert_eq!("nabysmi", jvozba::get_lujvo("nanba simsa", false).unwrap().0);
-    assert_eq!("nabzba", jvozba::get_lujvo("nanba zbasu", false).unwrap().0);
-    assert_eq!("nadmau", jvozba::get_lujvo("nandu zmadu", false).unwrap().0);
-    assert_eq!("nadmo'i", jvozba::get_lujvo("nandu morji", false).unwrap().0);
-    assert_eq!("nadrai", jvozba::get_lujvo("nandu traji", false).unwrap().0);
-    assert_eq!("nadva'u", jvozba::get_lujvo("nandu vasxu", false).unwrap().0);
-    assert_eq!("nafmupli", jvozba::get_lujvo("natfe mupli", false).unwrap().0);
-    assert_eq!("nafxu'a", jvozba::get_lujvo("natfe xusra", false).unwrap().0);
-    assert_eq!("nairterfi'a", jvozba::get_lujvo("natmi te cfika", false).unwrap().0);
-    assert_eq!("naiske", jvozba::get_lujvo("natmi saske", false).unwrap().0);
-    assert_eq!("naknalspe", jvozba::get_lujvo("nakni na'e speni", false).unwrap().0);
-    assert_eq!("nakyganti", jvozba::get_lujvo("nakni ganti", false).unwrap().0);
-    assert_eq!("nakpa'i", jvozba::get_lujvo("nakni prami", false).unwrap().0);
-    assert_eq!("kamnakseltro", jvozba::get_lujvo("ka nakni se jitro", false).unwrap().0);
-    assert_eq!("naktro", jvozba::get_lujvo("nakni jitro", false).unwrap().0);
-    assert_eq!("kamnakseltru", jvozba::get_lujvo("ka nakni se turni", false).unwrap().0);
-    assert_eq!("naktru", jvozba::get_lujvo("nakni turni", false).unwrap().0);
-    assert_eq!("kamnakydzeseltru", jvozba::get_lujvo("ka nakni dzena se turni", false).unwrap().0);
-    assert_eq!("nakydzetru", jvozba::get_lujvo("nakni dzena turni", false).unwrap().0);
-    assert_eq!("kamfe'idzeseltru", jvozba::get_lujvo("ka fetsi dzena se turni", false).unwrap().0);
-    assert_eq!("fetydzetru", jvozba::get_lujvo("fetsi dzena turni", false).unwrap().0);
-    assert_eq!("kamfetseltro", jvozba::get_lujvo("ka fetsi se jitro", false).unwrap().0);
-    assert_eq!("fe'itro", jvozba::get_lujvo("fetsi jitro", false).unwrap().0);
-    assert_eq!("kamfetseltru", jvozba::get_lujvo("ka fetsi se turni", false).unwrap().0);
-    assert_eq!("fe'itru", jvozba::get_lujvo("fetsi turni", false).unwrap().0);
-    assert_eq!("nakspe", jvozba::get_lujvo("nakni speni", false).unwrap().0);
-    assert_eq!("nakybakni", jvozba::get_lujvo("nakni bakni", false).unwrap().0);
-    assert_eq!("nalci'o", jvozba::get_lujvo("na'e citno", false).unwrap().0);
-    assert_eq!("nalcnedatni", jvozba::get_lujvo("na'e cenba datni", false).unwrap().0);
-    assert_eq!("nalcumselfanva", jvozba::get_lujvo("na'e cumki se fanva", false).unwrap().0);
-    assert_eq!("na'irselpezli", jvozba::get_lujvo("nalci se pezli", false).unwrap().0);
-    assert_eq!("naldasri'a", jvozba::get_lujvo("na'e dasni rinka", false).unwrap().0);
-    assert_eq!("naldzukla", jvozba::get_lujvo("na'e cadzu klama", false).unwrap().0);
-    assert_eq!("nalfadysmato'a", jvozba::get_lujvo("na'e fadni smaji tonga", false).unwrap().0);
-    assert_eq!("nalfrinyna'u", jvozba::get_lujvo("na'e frinu namcu", false).unwrap().0);
-    assert_eq!("nalgaixai", jvozba::get_lujvo("na'e gacri xrani", false).unwrap().0);
-    assert_eq!("nalgeiselflira", jvozba::get_lujvo("na'e gleki se flira", false).unwrap().0);
-    assert_eq!("nalgundei", jvozba::get_lujvo("na'e gunka djedi", false).unwrap().0);
-    assert_eq!("naljizykai", jvozba::get_lujvo("na'e jinzi ckaji", false).unwrap().0);
-    assert_eq!("nalkiryri'a", jvozba::get_lujvo("na'e ckire rinka", false).unwrap().0);
-    assert_eq!("nalkrecau", jvozba::get_lujvo("na'e kerfa claxu", false).unwrap().0);
-    assert_eq!("nalmatryma'e", jvozba::get_lujvo("na'e matra marce", false).unwrap().0);
-    assert_eq!("nalmuvzbe", jvozba::get_lujvo("na'e muvdu zbepi", false).unwrap().0);
-    assert_eq!("nalnerkla", jvozba::get_lujvo("na'e nenri klama", false).unwrap().0);
-    assert_eq!("nalpruselpli", jvozba::get_lujvo("na'e purci se pilno", false).unwrap().0);
-    assert_eq!("nalre'ucti", jvozba::get_lujvo("na'e rectu citka", false).unwrap().0);
-    assert_eq!("nalrolmei", jvozba::get_lujvo("na'e ro mei", false).unwrap().0);
-    assert_eq!("nalrolmeilei", jvozba::get_lujvo("na'e ro mei klesi", false).unwrap().0);
-    assert_eq!("nalsajypei", jvozba::get_lujvo("na'e sanji pensi", false).unwrap().0);
-    assert_eq!("nalseljuncizra", jvozba::get_lujvo("na'e se djuno cizra", false).unwrap().0);
-    assert_eq!("nalselvau", jvozba::get_lujvo("na'e se vasru", false).unwrap().0);
-    assert_eq!("nalsimcabna", jvozba::get_lujvo("na'e simxu cabna", false).unwrap().0);
-    assert_eq!("nalsirkla", jvozba::get_lujvo("na'e sirji klama", false).unwrap().0);
-    assert_eq!("nalsti", jvozba::get_lujvo("na'e sisti", false).unwrap().0);
-    assert_eq!("nalspaji", jvozba::get_lujvo("na'e spaji", false).unwrap().0);
-    assert_eq!("nalsutydzukepkla", jvozba::get_lujvo("na'e sutra cadzu ke'e klama", false).unwrap().0);
-    assert_eq!("nalsutydzukla", jvozba::get_lujvo("na'e sutra cadzu klama", false).unwrap().0);
-    assert_eq!("nalterjuncizra", jvozba::get_lujvo("na'e te djuno cizra", false).unwrap().0);
-    assert_eq!("naltinri'a", jvozba::get_lujvo("na'e tirna rinka", false).unwrap().0);
-    assert_eq!("nalvo'aba'ubinselba'u", jvozba::get_lujvo("na'e voksa bacru jbini se bacru", false).unwrap().0);
-    assert_eq!("nalvo'abinselba'u", jvozba::get_lujvo("na'e voksa jbini se bacru", false).unwrap().0);
-    assert_eq!("nalxaumau", jvozba::get_lujvo("na'e xamgu zmadu", false).unwrap().0);
-    assert_eq!("nalylecyvu'e", jvozba::get_lujvo("na'e lerci vrude", false).unwrap().0);
-    assert_eq!("nalyli'u", jvozba::get_lujvo("na'e litru", false).unwrap().0);
-    assert_eq!("nalylumcu'i", jvozba::get_lujvo("na'e lumci cumki", false).unwrap().0);
-    assert_eq!("nabysnuji", jvozba::get_lujvo("nanba snuji", false).unwrap().0);
-    assert_eq!("nanfi'o", jvozba::get_lujvo("snanu friko", false).unwrap().0);
-    assert_eq!("nanmerko", jvozba::get_lujvo("snanu merko", false).unwrap().0);
-    assert_eq!("narmitsi'u", jvozba::get_lujvo("na mintu simxu", false).unwrap().0);
-    assert_eq!("narselfendi", jvozba::get_lujvo("na se fendi", false).unwrap().0);
-    assert_eq!("natpau", jvozba::get_lujvo("natmi pagbu", false).unwrap().0);
-    assert_eq!("nairbau", jvozba::get_lujvo("natmi bangu", false).unwrap().0);
-    assert_eq!("naudre", jvozba::get_lujvo("nanmu derxi", false).unwrap().0);
-    assert_eq!("zbibu'u", jvozba::get_lujvo("nazbi bukpu", false).unwrap().0);
-    assert_eq!("nebyka'a", jvozba::get_lujvo("cnebo katna", false).unwrap().0);
-    assert_eq!("nebyka'aca'a", jvozba::get_lujvo("cnebo katna cabra", false).unwrap().0);
-    assert_eq!("neizma", jvozba::get_lujvo("nelci zmadu", false).unwrap().0);
-    assert_eq!("neldu'e", jvozba::get_lujvo("nelci dukse", false).unwrap().0);
-    assert_eq!("nenxaksu", jvozba::get_lujvo("nejni xaksu", false).unwrap().0);
-    assert_eq!("nerbi'o", jvozba::get_lujvo("nenri binxo", false).unwrap().0);
-    assert_eq!("nercreka", jvozba::get_lujvo("nenri creka", false).unwrap().0);
-    assert_eq!("nerfle", jvozba::get_lujvo("nenri flecu", false).unwrap().0);
-    assert_eq!("nerkla", jvozba::get_lujvo("nenri klama", false).unwrap().0);
-    assert_eq!("nermolre'u", jvozba::get_lujvo("nenri moklu rectu", false).unwrap().0);
-    assert_eq!("nerta'u", jvozba::get_lujvo("nenri taxfu", false).unwrap().0);
-    assert_eq!("ni'ablo", jvozba::get_lujvo("cnita bloti", false).unwrap().0);
-    assert_eq!("nitkro", jvozba::get_lujvo("cnita korcu", false).unwrap().0);
-    assert_eq!("nitcpare", jvozba::get_lujvo("cnita cpare", false).unwrap().0);
-    assert_eq!("ninrai", jvozba::get_lujvo("cnino traji", false).unwrap().0);
-    assert_eq!("nibgei", jvozba::get_lujvo("nibli gleki", false).unwrap().0);
-    assert_eq!("nibypoi", jvozba::get_lujvo("nibli porsi", false).unwrap().0);
-    assert_eq!("nicygai", jvozba::get_lujvo("cnici gacri", false).unwrap().0);
-    assert_eq!("nilcitmidju", jvozba::get_lujvo("ni citno midju", false).unwrap().0);
-    assert_eq!("nilcre", jvozba::get_lujvo("ni certu", false).unwrap().0);
-    assert_eq!("nilda'ibandu", jvozba::get_lujvo("ni darxi bandu", false).unwrap().0);
-    assert_eq!("nildicka'ukezyjdika", jvozba::get_lujvo("ni dikca kantu kei jdika", false).unwrap().0);
-    assert_eq!("nilji'a", jvozba::get_lujvo("ni jinga", false).unwrap().0);
-    assert_eq!("niljigrau", jvozba::get_lujvo("ni jinga gradu", false).unwrap().0);
-    assert_eq!("nilre'i", jvozba::get_lujvo("ni renvi", false).unwrap().0);
-    assert_eq!("nilsau", jvozba::get_lujvo("ni slabu", false).unwrap().0);
-    assert_eq!("niltermakfa", jvozba::get_lujvo("ni te makfa", false).unwrap().0);
-    assert_eq!("niltolci'o", jvozba::get_lujvo("ni to'e citno", false).unwrap().0);
-    assert_eq!("nilxa'u", jvozba::get_lujvo("ni xabju", false).unwrap().0);
-    assert_eq!("nilyla'e", jvozba::get_lujvo("ni lakne", false).unwrap().0);
-    assert_eq!("nimci'o", jvozba::get_lujvo("ninmu citno", false).unwrap().0);
-    assert_eq!("nimcre", jvozba::get_lujvo("ninmu certu", false).unwrap().0);
-    assert_eq!("nimjizdunkri", jvozba::get_lujvo("ninmu jinzi dunli krici", false).unwrap().0);
-    assert_eq!("nimnaujizdunkri", jvozba::get_lujvo("ninmu nanmu jinzi dunli krici", false).unwrap().0);
-    assert_eq!("ninpe'i", jvozba::get_lujvo("cnino penmi", false).unwrap().0);
-    assert_eq!("ninpengau", jvozba::get_lujvo("cnino penmi gasnu", false).unwrap().0);
-    assert_eq!("ninselkakpa", jvozba::get_lujvo("cnino se kakpa", false).unwrap().0);
-    assert_eq!("ninzba", jvozba::get_lujvo("cnino zbasu", false).unwrap().0);
-    assert_eq!("nipsri", jvozba::get_lujvo("snipa dasri", false).unwrap().0);
-    assert_eq!("nipsrisro", jvozba::get_lujvo("snipa dasri sorcu", false).unwrap().0);
-    assert_eq!("nirci'e", jvozba::get_lujvo("nirna ciste", false).unwrap().0);
-    assert_eq!("nitflevoi", jvozba::get_lujvo("cnita flecu vofli", false).unwrap().0);
-    assert_eq!("nitkla", jvozba::get_lujvo("cnita klama", false).unwrap().0);
-    assert_eq!("nitmu'e", jvozba::get_lujvo("cnita munje", false).unwrap().0);
-    assert_eq!("nitsa'o", jvozba::get_lujvo("cnita salpo", false).unwrap().0);
-    assert_eq!("nitybu'u", jvozba::get_lujvo("cnita bukpu", false).unwrap().0);
-    assert_eq!("nityta'u", jvozba::get_lujvo("cnita taxfu", false).unwrap().0);
-    assert_eq!("nitytu'u", jvozba::get_lujvo("cnita tubnu", false).unwrap().0);
-    assert_eq!("normro", jvozba::get_lujvo("no'e morsi", false).unwrap().0);
-    assert_eq!("normromi'e", jvozba::get_lujvo("no'e morsi minde", false).unwrap().0);
-    assert_eq!("normu'o", jvozba::get_lujvo("no'e mulno", false).unwrap().0);
-    assert_eq!("norpante", jvozba::get_lujvo("no'e pante", false).unwrap().0);
-    assert_eq!("norvaismu", jvozba::get_lujvo("no'e vajni smuni", false).unwrap().0);
-    assert_eq!("nolnei", jvozba::get_lujvo("nobli nelci", false).unwrap().0);
-    assert_eq!("nolni'u", jvozba::get_lujvo("nobli ninmu", false).unwrap().0);
-    assert_eq!("nolrai", jvozba::get_lujvo("nobli traji", false).unwrap().0);
-    assert_eq!("nolrainanla", jvozba::get_lujvo("nobli traji nanla", false).unwrap().0);
-    assert_eq!("nolraiti'u", jvozba::get_lujvo("nobli traji tixnu", false).unwrap().0);
-    assert_eq!("nolraitru", jvozba::get_lujvo("nobli traji turni", false).unwrap().0);
-    assert_eq!("nolraitrube'a", jvozba::get_lujvo("nobli traji turni bersa", false).unwrap().0);
-    assert_eq!("nolraitruti'u", jvozba::get_lujvo("nobli traji turni tixnu", false).unwrap().0);
-    assert_eq!("nolraixli", jvozba::get_lujvo("nobli traji nixli", false).unwrap().0);
-    assert_eq!("nolraizda", jvozba::get_lujvo("nobli traji zdani", false).unwrap().0);
-    assert_eq!("nolzda", jvozba::get_lujvo("nobli zdani", false).unwrap().0);
-    assert_eq!("nonmau", jvozba::get_lujvo("no zmadu", false).unwrap().0);
-    assert_eq!("nonmauna'u", jvozba::get_lujvo("no zmadu namcu", false).unwrap().0);
-    assert_eq!("nonme'a", jvozba::get_lujvo("no mleca", false).unwrap().0);
-    assert_eq!("nonmecna'u", jvozba::get_lujvo("no mleca namcu", false).unwrap().0);
-    assert_eq!("norsi'ata'a", jvozba::get_lujvo("no'e sinma tavla", false).unwrap().0);
-    assert_eq!("norsnosli", jvozba::get_lujvo("no'e masno slilu", false).unwrap().0);
-    assert_eq!("norsutsli", jvozba::get_lujvo("no'e sutra slilu", false).unwrap().0);
-    assert_eq!("noryra'e", jvozba::get_lujvo("no'e ralte", false).unwrap().0);
-    assert_eq!("notcreka", jvozba::get_lujvo("notci creka", false).unwrap().0);
-    assert_eq!("notcrida", jvozba::get_lujvo("notci crida", false).unwrap().0);
-    assert_eq!("nujdja", jvozba::get_lujvo("snuji cidja", false).unwrap().0);
-    assert_eq!("nunbavyfi'a", jvozba::get_lujvo("nu balvi cfika", false).unwrap().0);
-    assert_eq!("nunboitipyjvikezboi", jvozba::get_lujvo("nu bolci tikpa jivna kei bolci", false).unwrap().0);
-    assert_eq!("nunci'ebasti", jvozba::get_lujvo("nu ciste basti", false).unwrap().0);
-    assert_eq!("nunclapi'e", jvozba::get_lujvo("nu clani plipe", false).unwrap().0);
-    assert_eq!("nunctikezgau", jvozba::get_lujvo("nu citka kei gasnu", false).unwrap().0);
-    assert_eq!("nunje'aga'ibai", jvozba::get_lujvo("nu jecta galfi bapli", false).unwrap().0);
-    assert_eq!("nunjupca'u", jvozba::get_lujvo("nu jukpa canlu", false).unwrap().0);
-    assert_eq!("nunkeici'e", jvozba::get_lujvo("nu kelci ciste", false).unwrap().0);
-    assert_eq!("nunlejnei", jvozba::get_lujvo("nu pleji nelci", false).unwrap().0);
-    assert_eq!("nunmafyjoida'a", jvozba::get_lujvo("nu makfa joi damba", false).unwrap().0);
-    assert_eq!("nunmroruxpre", jvozba::get_lujvo("nu morsi pruxi prenu", false).unwrap().0);
-    assert_eq!("nunmrostu", jvozba::get_lujvo("nu morsi stuzi", false).unwrap().0);
-    assert_eq!("nunpencku", jvozba::get_lujvo("nu penmi cukta", false).unwrap().0);
-    assert_eq!("nunpeiri'a", jvozba::get_lujvo("nu pensi rinka", false).unwrap().0);
-    assert_eq!("nunposnei", jvozba::get_lujvo("nu ponse nelci", false).unwrap().0);
-    assert_eq!("nunseltickri", jvozba::get_lujvo("nu se tcica krici", false).unwrap().0);
-    assert_eq!("nunsimta'a", jvozba::get_lujvo("nu simxu tavla", false).unwrap().0);
-    assert_eq!("nunsladansu", jvozba::get_lujvo("nu salci dansu", false).unwrap().0);
-    assert_eq!("nunsoidji", jvozba::get_lujvo("nu sonci djica", false).unwrap().0);
-    assert_eq!("nunsolcanci", jvozba::get_lujvo("nu solri canci", false).unwrap().0);
-    assert_eq!("nunterlejnei", jvozba::get_lujvo("nu te pleji nelci", false).unwrap().0);
-    assert_eq!("nunxumsne", jvozba::get_lujvo("nu xukmi senva", false).unwrap().0);
-    assert_eq!("nunzgaju'a", jvozba::get_lujvo("nu zgana jufra", false).unwrap().0);
-    assert_eq!("nunzvaju'o", jvozba::get_lujvo("nu zvati djuno", false).unwrap().0);
-    assert_eq!("nurbe'i", jvozba::get_lujvo("snura benji", false).unwrap().0);
-    assert_eq!("nurcau", jvozba::get_lujvo("snura claxu", false).unwrap().0);
-    assert_eq!("nurgau", jvozba::get_lujvo("snura gasnu", false).unwrap().0);
-    assert_eq!("nurprecau", jvozba::get_lujvo("snura prenu claxu", false).unwrap().0);
-    assert_eq!("nurpu'i", jvozba::get_lujvo("snura punji", false).unwrap().0);
-    assert_eq!("nutli'a", jvozba::get_lujvo("snuti cliva", false).unwrap().0);
-    assert_eq!("nuzyki'a", jvozba::get_lujvo("nuzba krixa", false).unwrap().0);
-    assert_eq!("nuzyxagji", jvozba::get_lujvo("nuzba xagji", false).unwrap().0);
-    assert_eq!("pa'arcau", jvozba::get_lujvo("pacna claxu", false).unwrap().0);
-    assert_eq!("pa'arpei", jvozba::get_lujvo("pacna pensi", false).unwrap().0);
-    assert_eq!("pa'ezma", jvozba::get_lujvo("prane zmadu", false).unwrap().0);
-    assert_eq!("pafspe", jvozba::get_lujvo("patfu speni", false).unwrap().0);
-    assert_eq!("pacraistu", jvozba::get_lujvo("palci traji stuzi", false).unwrap().0);
-    assert_eq!("pacruxpre", jvozba::get_lujvo("palci pruxi prenu", false).unwrap().0);
-    assert_eq!("pacruxtutra", jvozba::get_lujvo("palci pruxi tutra", false).unwrap().0);
-    assert_eq!("pacyselzu'e", jvozba::get_lujvo("palci se zukte", false).unwrap().0);
-    assert_eq!("pacyxlu", jvozba::get_lujvo("palci xlura", false).unwrap().0);
-    assert_eq!("pacyzu'e", jvozba::get_lujvo("palci zukte", false).unwrap().0);
-    assert_eq!("pafybu'a", jvozba::get_lujvo("patfu bruna", false).unwrap().0);
-    assert_eq!("pafybunspeme'i", jvozba::get_lujvo("patfu bruna speni mensi", false).unwrap().0);
-    assert_eq!("pairvu'e", jvozba::get_lujvo("pajni vrude", false).unwrap().0);
-    assert_eq!("pakskaci", jvozba::get_lujvo("palku skaci", false).unwrap().0);
-    assert_eq!("palcau", jvozba::get_lujvo("prali claxu", false).unwrap().0);
-    assert_eq!("paltydamri", jvozba::get_lujvo("palta damri", false).unwrap().0);
-    assert_eq!("paltylu'i", jvozba::get_lujvo("palta lumci", false).unwrap().0);
-    assert_eq!("paltylumca'a", jvozba::get_lujvo("palta lumci cabra", false).unwrap().0);
-    assert_eq!("pambasti", jvozba::get_lujvo("prami basti", false).unwrap().0);
-    assert_eq!("pamnabmi", jvozba::get_lujvo("prami nabmi", false).unwrap().0);
-    assert_eq!("pampemyzba", jvozba::get_lujvo("prami pemci zbasu", false).unwrap().0);
-    assert_eq!("pamsa'a", jvozba::get_lujvo("prami sanga", false).unwrap().0);
-    assert_eq!("pamta'a", jvozba::get_lujvo("prami tavla", false).unwrap().0);
-    assert_eq!("pamyzautra", jvozba::get_lujvo("prami zanru tarti", false).unwrap().0);
-    assert_eq!("patydzu", jvozba::get_lujvo("pante cadzu", false).unwrap().0);
-    assert_eq!("patpai", jvozba::get_lujvo("pante pajni", false).unwrap().0);
-    assert_eq!("papcpi", jvozba::get_lujvo("panpi cipni", false).unwrap().0);
-    assert_eq!("papkufra", jvozba::get_lujvo("panpi kufra", false).unwrap().0);
-    assert_eq!("papri'a", jvozba::get_lujvo("panpi rinka", false).unwrap().0);
-    assert_eq!("paprysfe", jvozba::get_lujvo("papri sefta", false).unwrap().0);
-    assert_eq!("paprysfelai", jvozba::get_lujvo("papri sefta klani", false).unwrap().0);
-    assert_eq!("papygei", jvozba::get_lujvo("panpi gleki", false).unwrap().0);
-    assert_eq!("paspalku", jvozba::get_lujvo("pastu palku", false).unwrap().0);
-    assert_eq!("pasyskaci", jvozba::get_lujvo("pastu skaci", false).unwrap().0);
-    assert_eq!("paurpo'e", jvozba::get_lujvo("pagbu ponse", false).unwrap().0);
-    assert_eq!("pavdeicitsi", jvozba::get_lujvo("pa djedi citsi", false).unwrap().0);
-    assert_eq!("pavmeijbe", jvozba::get_lujvo("pa mei jbena", false).unwrap().0);
-    assert_eq!("pavmoijbe", jvozba::get_lujvo("pa moi jbena", false).unwrap().0);
-    assert_eq!("pavycinglepre", jvozba::get_lujvo("pa cinse gletu prenu", false).unwrap().0);
-    assert_eq!("pavycinpampre", jvozba::get_lujvo("pa cinse prami prenu", false).unwrap().0);
-    assert_eq!("pavypruda'i", jvozba::get_lujvo("pa purci darxi", false).unwrap().0);
-    assert_eq!("pavysei", jvozba::get_lujvo("pa sepli", false).unwrap().0);
-    assert_eq!("pavyseljirna", jvozba::get_lujvo("pa se jirna", false).unwrap().0);
-    assert_eq!("pavyskojmavra", jvozba::get_lujvo("pa skori jamfu vraga", false).unwrap().0);
-    assert_eq!("pavysu'i", jvozba::get_lujvo("pa sumti", false).unwrap().0);
-    assert_eq!("pavmoisu'i", jvozba::get_lujvo("pa moi sumti", false).unwrap().0);
-    assert_eq!("pavyterfrinyna'u", jvozba::get_lujvo("pa te frinu namcu", false).unwrap().0);
-    assert_eq!("pavyvla", jvozba::get_lujvo("pa valsi", false).unwrap().0);
-    assert_eq!("pazvau", jvozba::get_lujvo("panzi vasru", false).unwrap().0);
-    assert_eq!("pazyspe", jvozba::get_lujvo("panzi speni", false).unwrap().0);
-    assert_eq!("pazysperirni", jvozba::get_lujvo("panzi speni rirni", false).unwrap().0);
-    assert_eq!("pe'ocme", jvozba::get_lujvo("pendo cmene", false).unwrap().0);
-    assert_eq!("pecke'a", jvozba::get_lujvo("pencu kevna", false).unwrap().0);
-    assert_eq!("peckevgai", jvozba::get_lujvo("pencu kevna gacri", false).unwrap().0);
-    assert_eq!("pecta'o", jvozba::get_lujvo("pencu tanbo", false).unwrap().0);
-    assert_eq!("pecta'osle", jvozba::get_lujvo("pencu tanbo selci", false).unwrap().0);
-    assert_eq!("pectcu", jvozba::get_lujvo("pencu nitcu", false).unwrap().0);
-    assert_eq!("pesrei", jvozba::get_lujvo("pensi preti", false).unwrap().0);
-    assert_eq!("peircauji'i", jvozba::get_lujvo("pensi claxu jinvi", false).unwrap().0);
-    assert_eq!("pesnunpe'i", jvozba::get_lujvo("pensi nu penmi", false).unwrap().0);
-    assert_eq!("peirselra'u", jvozba::get_lujvo("pensi se raktu", false).unwrap().0);
-    assert_eq!("peitse", jvozba::get_lujvo("pensi zutse", false).unwrap().0);
-    assert_eq!("pejri'a", jvozba::get_lujvo("preja rinka", false).unwrap().0);
-    assert_eq!("pelselkre", jvozba::get_lujvo("pelxu se kerfa", false).unwrap().0);
-    assert_eq!("pelnimre", jvozba::get_lujvo("pelxu nimre", false).unwrap().0);
-    assert_eq!("pempau", jvozba::get_lujvo("pemci pagbu", false).unwrap().0);
-    assert_eq!("pempra", jvozba::get_lujvo("pemci cupra", false).unwrap().0);
-    assert_eq!("pemsa'a", jvozba::get_lujvo("pemci sanga", false).unwrap().0);
-    assert_eq!("pedrai", jvozba::get_lujvo("pendo traji", false).unwrap().0);
-    assert_eq!("pengri", jvozba::get_lujvo("penmi girzu", false).unwrap().0);
-    assert_eq!("penydjuxa'a", jvozba::get_lujvo("penmi sidju xatra", false).unwrap().0);
-    assert_eq!("pespe'i", jvozba::get_lujvo("pensi penmi", false).unwrap().0);
-    assert_eq!("pesri'a", jvozba::get_lujvo("pensi rinka", false).unwrap().0);
-    assert_eq!("pesti'i", jvozba::get_lujvo("pensi stidi", false).unwrap().0);
-    assert_eq!("selpeiti'i", jvozba::get_lujvo("se pensi stidi", false).unwrap().0);
-    assert_eq!("pevbakykalci", jvozba::get_lujvo("pe'a bakni kalci", false).unwrap().0);
-    assert_eq!("pevjicla", jvozba::get_lujvo("pe'a jicla", false).unwrap().0);
-    assert_eq!("pevrisnyjelca", jvozba::get_lujvo("pe'a risna jelca", false).unwrap().0);
-    assert_eq!("pevycuvgau", jvozba::get_lujvo("pe'a curve gasnu", false).unwrap().0);
-    assert_eq!("pezyfaltricu", jvozba::get_lujvo("pezli farlu tricu", false).unwrap().0);
-    assert_eq!("pezysigja", jvozba::get_lujvo("pezli sigja", false).unwrap().0);
-    assert_eq!("pi'ejvi", jvozba::get_lujvo("plipe jivna", false).unwrap().0);
-    assert_eq!("pi'orci'a", jvozba::get_lujvo("pipno ciska", false).unwrap().0);
-    assert_eq!("pibrango", jvozba::get_lujvo("plibu rango", false).unwrap().0);
-    assert_eq!("pibyta'u", jvozba::get_lujvo("plibu taxfu", false).unwrap().0);
-    assert_eq!("pidrai", jvozba::get_lujvo("pindi traji", false).unwrap().0);
-    assert_eq!("pifstidi'a", jvozba::get_lujvo("pinfu sisti jdima", false).unwrap().0);
-    assert_eq!("pijvri", jvozba::get_lujvo("prije virnu", false).unwrap().0);
-    assert_eq!("pijvritra", jvozba::get_lujvo("prije virnu tarti", false).unwrap().0);
-    assert_eq!("pimselpezli", jvozba::get_lujvo("pimlu se pezli", false).unwrap().0);
-    assert_eq!("pincyvi'i", jvozba::get_lujvo("pinca vikmi", false).unwrap().0);
-    assert_eq!("pinflani", jvozba::get_lujvo("pinta flani", false).unwrap().0);
-    assert_eq!("pinjyca'a", jvozba::get_lujvo("pinji cabra", false).unwrap().0);
-    assert_eq!("pinjydakli", jvozba::get_lujvo("pinji dakli", false).unwrap().0);
-    assert_eq!("pinjymolgle", jvozba::get_lujvo("pinji moklu gletu", false).unwrap().0);
-    assert_eq!("pinke'a", jvozba::get_lujvo("pinta kevna", false).unwrap().0);
-    assert_eq!("piksku", jvozba::get_lujvo("pinka cusku", false).unwrap().0);
-    assert_eq!("pipcinki", jvozba::get_lujvo("plipe cinki", false).unwrap().0);
-    assert_eq!("pipybanfi", jvozba::get_lujvo("plipe banfi", false).unwrap().0);
-    assert_eq!("pipyjalra", jvozba::get_lujvo("plipe jalra", false).unwrap().0);
-    assert_eq!("xraski", jvozba::get_lujvo("pixra skicu", false).unwrap().0);
-    assert_eq!("pitytu'a", jvozba::get_lujvo("plita tumla", false).unwrap().0);
-    assert_eq!("pixri'a", jvozba::get_lujvo("pinxe rinka", false).unwrap().0);
-    assert_eq!("pixsla", jvozba::get_lujvo("pinxe salci", false).unwrap().0);
-    assert_eq!("pixydji", jvozba::get_lujvo("pinxe djica", false).unwrap().0);
-    assert_eq!("pizysostei", jvozba::get_lujvo("pi so'o temci", false).unwrap().0);
-    assert_eq!("pledi'i", jvozba::get_lujvo("pelji jdini", false).unwrap().0);
-    assert_eq!("plesigja", jvozba::get_lujvo("pelji sigja", false).unwrap().0);
-    assert_eq!("plexa'a", jvozba::get_lujvo("pelji xatra", false).unwrap().0);
-    assert_eq!("plicru", jvozba::get_lujvo("pilno curmi", false).unwrap().0);
-    assert_eq!("terplicru", jvozba::get_lujvo("te pilno curmi", false).unwrap().0);
-    assert_eq!("pliri'a", jvozba::get_lujvo("pilno rinka", false).unwrap().0);
-    assert_eq!("plisytisna", jvozba::get_lujvo("plise tisna", false).unwrap().0);
-    assert_eq!("plisytricu", jvozba::get_lujvo("plise tricu", false).unwrap().0);
-    assert_eq!("plitadji", jvozba::get_lujvo("pilno tadji", false).unwrap().0);
-    assert_eq!("pitna'u", jvozba::get_lujvo("plita namcu", false).unwrap().0);
-    assert_eq!("plixau", jvozba::get_lujvo("pilno xamgu", false).unwrap().0);
-    assert_eq!("plokarlycreka", jvozba::get_lujvo("polje karli creka", false).unwrap().0);
-    assert_eq!("plopijne", jvozba::get_lujvo("polje pijne", false).unwrap().0);
-    assert_eq!("plopijnyla'a", jvozba::get_lujvo("polje pijne lasna", false).unwrap().0);
-    assert_eq!("plopijnytci", jvozba::get_lujvo("polje pijne tutci", false).unwrap().0);
-    assert_eq!("pojyfa'u", jvozba::get_lujvo("spoja farlu", false).unwrap().0);
-    assert_eq!("po'aspo", jvozba::get_lujvo("spoja daspo", false).unwrap().0);
-    assert_eq!("porja'este", jvozba::get_lujvo("porsi jalge liste", false).unwrap().0);
-    assert_eq!("pojma'a", jvozba::get_lujvo("spoja cmana", false).unwrap().0);
-    assert_eq!("pojri'a", jvozba::get_lujvo("spoja rinka", false).unwrap().0);
-    assert_eq!("popri'a", jvozba::get_lujvo("porpi rinka", false).unwrap().0);
-    assert_eq!("popselgu'i", jvozba::get_lujvo("porpi se gusni", false).unwrap().0);
-    assert_eq!("popygau", jvozba::get_lujvo("porpi gasnu", false).unwrap().0);
-    assert_eq!("porjmina", jvozba::get_lujvo("porsi jmina", false).unwrap().0);
-    assert_eq!("porla'i", jvozba::get_lujvo("porsi lamji", false).unwrap().0);
-    assert_eq!("porselfai", jvozba::get_lujvo("porsi se fatri", false).unwrap().0);
-    assert_eq!("porveljmina", jvozba::get_lujvo("porsi ve jmina", false).unwrap().0);
-    assert_eq!("posnei", jvozba::get_lujvo("ponse nelci", false).unwrap().0);
-    assert_eq!("posri'a", jvozba::get_lujvo("ponse rinka", false).unwrap().0);
-    assert_eq!("po'edji", jvozba::get_lujvo("ponse djica", false).unwrap().0);
-    assert_eq!("precau", jvozba::get_lujvo("prenu claxu", false).unwrap().0);
-    assert_eq!("pregri", jvozba::get_lujvo("prenu girzu", false).unwrap().0);
-    assert_eq!("pretai", jvozba::get_lujvo("prenu tarmi", false).unwrap().0);
-    assert_eq!("pretrocange", jvozba::get_lujvo("prenu jitro cange", false).unwrap().0);
-    assert_eq!("retpei", jvozba::get_lujvo("preti pensi", false).unwrap().0);
-    assert_eq!("velprevelma'e", jvozba::get_lujvo("ve prenu ve marce", false).unwrap().0);
-    assert_eq!("prezda", jvozba::get_lujvo("prenu zdani", false).unwrap().0);
-    assert_eq!("pripre", jvozba::get_lujvo("prina prenu", false).unwrap().0);
-    assert_eq!("prityxa'e", jvozba::get_lujvo("pritu xance", false).unwrap().0);
-    assert_eq!("prolanxe", jvozba::get_lujvo("fapro lanxe", false).unwrap().0);
-    assert_eq!("prucedra", jvozba::get_lujvo("purci cedra", false).unwrap().0);
-    assert_eq!("prucimri'a", jvozba::get_lujvo("purci cilmo rinka", false).unwrap().0);
-    assert_eq!("prujeftu", jvozba::get_lujvo("purci jeftu", false).unwrap().0);
-    assert_eq!("prulamjeftu", jvozba::get_lujvo("purci lamji jeftu", false).unwrap().0);
-    assert_eq!("prula'i", jvozba::get_lujvo("purci lamji", false).unwrap().0);
-    assert_eq!("prulamcte", jvozba::get_lujvo("purci lamji nicte", false).unwrap().0);
-    assert_eq!("prulamvanci", jvozba::get_lujvo("purci lamji vanci", false).unwrap().0);
-    assert_eq!("bavlamvanci", jvozba::get_lujvo("balvi lamji vanci", false).unwrap().0);
-    assert_eq!("pruru'a", jvozba::get_lujvo("purci sruma", false).unwrap().0);
-    assert_eq!("selpruru'a", jvozba::get_lujvo("se purci sruma", false).unwrap().0);
-    assert_eq!("pruselpli", jvozba::get_lujvo("purci se pilno", false).unwrap().0);
-    assert_eq!("pruselpo'e", jvozba::get_lujvo("purci se ponse", false).unwrap().0);
-    assert_eq!("prusoi", jvozba::get_lujvo("purci sonci", false).unwrap().0);
-    assert_eq!("ruxycrida", jvozba::get_lujvo("pruxi crida", false).unwrap().0);
-    assert_eq!("prulamdei", jvozba::get_lujvo("purci lamji djedi", false).unwrap().0);
-    assert_eq!("prulamrai", jvozba::get_lujvo("purci lamji traji", false).unwrap().0);
-    assert_eq!("prupla", jvozba::get_lujvo("purci platu", false).unwrap().0);
-    assert_eq!("prusofto", jvozba::get_lujvo("purci softo", false).unwrap().0);
-    assert_eq!("ra'artei", jvozba::get_lujvo("srana temci", false).unwrap().0);
-    assert_eq!("ra'etci", jvozba::get_lujvo("ralte tutci", false).unwrap().0);
-    assert_eq!("ra'irta'a", jvozba::get_lujvo("ranji tavla", false).unwrap().0);
-    assert_eq!("ra'udri", jvozba::get_lujvo("raktu badri", false).unwrap().0);
-    assert_eq!("ra'urcau", jvozba::get_lujvo("raktu claxu", false).unwrap().0);
-    assert_eq!("racmau", jvozba::get_lujvo("ralci zmadu", false).unwrap().0);
-    assert_eq!("rairgu'e", jvozba::get_lujvo("traji gugde", false).unwrap().0);
-    assert_eq!("rairnau", jvozba::get_lujvo("traji nanmu", false).unwrap().0);
-    assert_eq!("rajma'a", jvozba::get_lujvo("sraji cmana", false).unwrap().0);
-    assert_eq!("rajycla", jvozba::get_lujvo("sraji clani", false).unwrap().0);
-    assert_eq!("rajyclamau", jvozba::get_lujvo("sraji clani zmadu", false).unwrap().0);
-    assert_eq!("rajyflani", jvozba::get_lujvo("sraji flani", false).unwrap().0);
-    assert_eq!("rajyke'a", jvozba::get_lujvo("sraji kevna", false).unwrap().0);
-    assert_eq!("rajykevloi", jvozba::get_lujvo("sraji kevna loldi", false).unwrap().0);
-    assert_eq!("rajymudri", jvozba::get_lujvo("sraji mudri", false).unwrap().0);
-    assert_eq!("rajysirdra", jvozba::get_lujvo("sraji sirji drani", false).unwrap().0);
-    assert_eq!("rajyto'agri", jvozba::get_lujvo("sraji tonga girzu", false).unwrap().0);
-    assert_eq!("rajytu'u", jvozba::get_lujvo("sraji tubnu", false).unwrap().0);
-    assert_eq!("ralgau", jvozba::get_lujvo("ralju gasnu", false).unwrap().0);
-    assert_eq!("ralselva'i", jvozba::get_lujvo("ralju se vamji", false).unwrap().0);
-    assert_eq!("raltca", jvozba::get_lujvo("ralju tcadu", false).unwrap().0);
-    assert_eq!("ranbo'u", jvozba::get_lujvo("ranti bongu", false).unwrap().0);
-    assert_eq!("rancimde'u", jvozba::get_lujvo("ranti cilmo dertu", false).unwrap().0);
-    assert_eq!("rancimderke'a", jvozba::get_lujvo("ranti cilmo dertu kevna", false).unwrap().0);
-    assert_eq!("rancindu", jvozba::get_lujvo("ranti cindu", false).unwrap().0);
-    assert_eq!("rapcki", jvozba::get_lujvo("rapli ciksi", false).unwrap().0);
-    assert_eq!("rapteryrei", jvozba::get_lujvo("rapli te preti", false).unwrap().0);
-    assert_eq!("rapyda'i", jvozba::get_lujvo("rapli darxi", false).unwrap().0);
-    assert_eq!("rarbau", jvozba::get_lujvo("rarna bangu", false).unwrap().0);
-    assert_eq!("rarge'a", jvozba::get_lujvo("rarna gerna", false).unwrap().0);
-    assert_eq!("rarjva", jvozba::get_lujvo("rarna javni", false).unwrap().0);
-    assert_eq!("rarlalske", jvozba::get_lujvo("rarna lanli saske", false).unwrap().0);
-    assert_eq!("rarmi'e", jvozba::get_lujvo("rarna minde", false).unwrap().0);
-    assert_eq!("rarske", jvozba::get_lujvo("rarna saske", false).unwrap().0);
-    assert_eq!("rartapla", jvozba::get_lujvo("rarna tapla", false).unwrap().0);
-    assert_eq!("rarvanbi", jvozba::get_lujvo("rarna vanbi", false).unwrap().0);
-    assert_eq!("rastergu'i", jvozba::get_lujvo("grasu te gusni", false).unwrap().0);
-    assert_eq!("rasyselpi'a", jvozba::get_lujvo("grasu se pilka", false).unwrap().0);
-    assert_eq!("ratmidju", jvozba::get_lujvo("ratni midju", false).unwrap().0);
-    assert_eq!("ratske", jvozba::get_lujvo("ratni saske", false).unwrap().0);
-    assert_eq!("ratsru", jvozba::get_lujvo("ratni sruri", false).unwrap().0);
-    assert_eq!("ravycta", jvozba::get_lujvo("ragve catlu", false).unwrap().0);
-    assert_eq!("ravypi'e", jvozba::get_lujvo("ragve plipe", false).unwrap().0);
-    assert_eq!("re'azda", jvozba::get_lujvo("remna zdani", false).unwrap().0);
-    assert_eq!("rerjvi", jvozba::get_lujvo("renro jivna", false).unwrap().0);
-    assert_eq!("recyjupcarca'a", jvozba::get_lujvo("rectu jukpa carna cabra", false).unwrap().0);
-    assert_eq!("bregau", jvozba::get_lujvo("bredi gasnu", false).unwrap().0);
-    assert_eq!("refsipna", jvozba::get_lujvo("krefu sipna", false).unwrap().0);
-    assert_eq!("refsku", jvozba::get_lujvo("krefu cusku", false).unwrap().0);
-    assert_eq!("refyfa'i", jvozba::get_lujvo("krefu facki", false).unwrap().0);
-    assert_eq!("rejgau", jvozba::get_lujvo("vreji gasnu", false).unwrap().0);
-    assert_eq!("veirse'u", jvozba::get_lujvo("vreji selfu", false).unwrap().0);
-    assert_eq!("veirseljibri", jvozba::get_lujvo("vreji se jibri", false).unwrap().0);
-    assert_eq!("rekybo'u", jvozba::get_lujvo("greku bongu", false).unwrap().0);
-    assert_eq!("relba'eka'a", jvozba::get_lujvo("re balre katna", false).unwrap().0);
-    assert_eq!("relcimdyna'u", jvozba::get_lujvo("re cimde namcu", false).unwrap().0);
-    assert_eq!("relcinglepre", jvozba::get_lujvo("re cinse gletu prenu", false).unwrap().0);
-    assert_eq!("relcinpampre", jvozba::get_lujvo("re cinse prami prenu", false).unwrap().0);
-    assert_eq!("relcte", jvozba::get_lujvo("re nicte", false).unwrap().0);
-    assert_eq!("pavycte", jvozba::get_lujvo("pa nicte", false).unwrap().0);
-    assert_eq!("cibycte", jvozba::get_lujvo("ci nicte", false).unwrap().0);
-    assert_eq!("voncte", jvozba::get_lujvo("vo nicte", false).unwrap().0);
-    assert_eq!("mumcte", jvozba::get_lujvo("mu nicte", false).unwrap().0);
-    assert_eq!("xavycte", jvozba::get_lujvo("xa nicte", false).unwrap().0);
-    assert_eq!("noncte", jvozba::get_lujvo("no nicte", false).unwrap().0);
-    assert_eq!("zelcte", jvozba::get_lujvo("ze nicte", false).unwrap().0);
-    assert_eq!("reldo'i", jvozba::get_lujvo("re donri", false).unwrap().0);
-    assert_eq!("pavdo'i", jvozba::get_lujvo("pa donri", false).unwrap().0);
-    assert_eq!("cibdo'i", jvozba::get_lujvo("ci donri", false).unwrap().0);
-    assert_eq!("vondo'i", jvozba::get_lujvo("vo donri", false).unwrap().0);
-    assert_eq!("mumdo'i", jvozba::get_lujvo("mu donri", false).unwrap().0);
-    assert_eq!("xavdo'i", jvozba::get_lujvo("xa donri", false).unwrap().0);
-    assert_eq!("nondo'i", jvozba::get_lujvo("no donri", false).unwrap().0);
-    assert_eq!("zeldo'i", jvozba::get_lujvo("ze donri", false).unwrap().0);
-    assert_eq!("relvanbi", jvozba::get_lujvo("re vanbi", false).unwrap().0);
-    assert_eq!("pavyvanbi", jvozba::get_lujvo("pa vanbi", false).unwrap().0);
-    assert_eq!("cibvanbi", jvozba::get_lujvo("ci vanbi", false).unwrap().0);
-    assert_eq!("vonvanbi", jvozba::get_lujvo("vo vanbi", false).unwrap().0);
-    assert_eq!("mumvanbi", jvozba::get_lujvo("mu vanbi", false).unwrap().0);
-    assert_eq!("xavyvanbi", jvozba::get_lujvo("xa vanbi", false).unwrap().0);
-    assert_eq!("nonvanbi", jvozba::get_lujvo("no vanbi", false).unwrap().0);
-    assert_eq!("zelvanbi", jvozba::get_lujvo("ze vanbi", false).unwrap().0);
-    assert_eq!("relpi'i", jvozba::get_lujvo("re pilji", false).unwrap().0);
-    assert_eq!("velrelprevelma'e", jvozba::get_lujvo("ve re prenu ve marce", false).unwrap().0);
-    assert_eq!("relpru", jvozba::get_lujvo("re purci", false).unwrap().0);
-    assert_eq!("relpruda'i", jvozba::get_lujvo("re purci darxi", false).unwrap().0);
-    assert_eq!("relselba'e", jvozba::get_lujvo("re se balre", false).unwrap().0);
-    assert_eq!("relselcalku", jvozba::get_lujvo("re se calku", false).unwrap().0);
-    assert_eq!("relseljimca", jvozba::get_lujvo("re se jimca", false).unwrap().0);
-    assert_eq!("relselmla", jvozba::get_lujvo("re se mlana", false).unwrap().0);
-    assert_eq!("relselxi'u", jvozba::get_lujvo("re se xislu", false).unwrap().0);
-    assert_eq!("relskosa'e", jvozba::get_lujvo("re skori satre", false).unwrap().0);
-    assert_eq!("relteryrau", jvozba::get_lujvo("re te gradu", false).unwrap().0);
-    assert_eq!("relxagri", jvozba::get_lujvo("re xagri", false).unwrap().0);
-    assert_eq!("relxilma'e", jvozba::get_lujvo("re xislu marce", false).unwrap().0);
-    assert_eq!("rembau", jvozba::get_lujvo("remna bangu", false).unwrap().0);
-    assert_eq!("rembi'o", jvozba::get_lujvo("remna binxo", false).unwrap().0);
-    assert_eq!("remdja", jvozba::get_lujvo("remna cidja", false).unwrap().0);
-    assert_eq!("remgri", jvozba::get_lujvo("remna girzu", false).unwrap().0);
-    assert_eq!("remska", jvozba::get_lujvo("remna skari", false).unwrap().0);
-    assert_eq!("remskapi", jvozba::get_lujvo("remna skapi", false).unwrap().0);
-    assert_eq!("remso'a", jvozba::get_lujvo("remna sovda", false).unwrap().0);
-    assert_eq!("remtai", jvozba::get_lujvo("remna tarmi", false).unwrap().0);
-    assert_eq!("remtsi", jvozba::get_lujvo("remna tsiju", false).unwrap().0);
-    assert_eq!("remyma'utei", jvozba::get_lujvo("remna makcu temci", false).unwrap().0);
-    assert_eq!("renkla", jvozba::get_lujvo("trene klama", false).unwrap().0);
-    assert_eq!("rerce'a", jvozba::get_lujvo("renro cecla", false).unwrap().0);
-    assert_eq!("resycrida", jvozba::get_lujvo("respa crida", false).unwrap().0);
-    assert_eq!("reisku", jvozba::get_lujvo("preti cusku", false).unwrap().0);
-    assert_eq!("reispu", jvozba::get_lujvo("preti spuda", false).unwrap().0);
-    assert_eq!("reirsisku", jvozba::get_lujvo("preti sisku", false).unwrap().0);
-    assert_eq!("re'icla", jvozba::get_lujvo("renvi clani", false).unwrap().0);
-    assert_eq!("ri'emla", jvozba::get_lujvo("rirxe mlana", false).unwrap().0);
-    assert_eq!("ri'erkrajinto", jvozba::get_lujvo("rirxe krasi jinto", false).unwrap().0);
-    assert_eq!("ri'irdzuzgibe'e", jvozba::get_lujvo("ritli cadzu zgike bende", false).unwrap().0);
-    assert_eq!("ri'irju'a", jvozba::get_lujvo("ritli jufra", false).unwrap().0);
-    assert_eq!("ri'irti'i", jvozba::get_lujvo("ritli stidi", false).unwrap().0);
-    assert_eq!("ri'ixra", jvozba::get_lujvo("ritli pixra", false).unwrap().0);
-    assert_eq!("ri'ortcati", jvozba::get_lujvo("crino tcati", false).unwrap().0);
-    assert_eq!("ri'urtulsru", jvozba::get_lujvo("rinju tunlo sruri", false).unwrap().0);
-    assert_eq!("ricfoi", jvozba::get_lujvo("tricu foldi", false).unwrap().0);
-    assert_eq!("ricpurdi", jvozba::get_lujvo("tricu purdi", false).unwrap().0);
-    assert_eq!("ricyci'e", jvozba::get_lujvo("tricu ciste", false).unwrap().0);
-    assert_eq!("ricycrida", jvozba::get_lujvo("tricu crida", false).unwrap().0);
-    assert_eq!("ricyratcu", jvozba::get_lujvo("tricu ratcu", false).unwrap().0);
-    assert_eq!("ricyselsru", jvozba::get_lujvo("tricu se sruri", false).unwrap().0);
-    assert_eq!("ridrirni", jvozba::get_lujvo("crida rirni", false).unwrap().0);
-    assert_eq!("rijyska", jvozba::get_lujvo("rijno skari", false).unwrap().0);
-    assert_eq!("rijysmi", jvozba::get_lujvo("rijno simsa", false).unwrap().0);
-    assert_eq!("rikygei", jvozba::get_lujvo("rinka gleki", false).unwrap().0);
-    assert_eq!("rindatni", jvozba::get_lujvo("krinu datni", false).unwrap().0);
-    assert_eq!("ringei", jvozba::get_lujvo("krinu gleki", false).unwrap().0);
-    assert_eq!("rirbu'a", jvozba::get_lujvo("rirni bruna", false).unwrap().0);
-    assert_eq!("rirme'i", jvozba::get_lujvo("rirni mensi", false).unwrap().0);
-    assert_eq!("riryriryrirni", jvozba::get_lujvo("rirni rirni rirni", false).unwrap().0);
-    assert_eq!("risnyjelca", jvozba::get_lujvo("risna jelca", false).unwrap().0);
-    assert_eq!("ritkemna'aterjvi", jvozba::get_lujvo("brito ke nanca te jivna", false).unwrap().0);
-    assert_eq!("ri'irme'a", jvozba::get_lujvo("ritli mleca", false).unwrap().0);
-    assert_eq!("ritna'aterjvi", jvozba::get_lujvo("brito nanca te jivna", false).unwrap().0);
-    assert_eq!("ritnai", jvozba::get_lujvo("brito natmi", false).unwrap().0);
-    assert_eq!("ritpre", jvozba::get_lujvo("brito prenu", false).unwrap().0);
-    assert_eq!("ritybartu", jvozba::get_lujvo("brito bartu", false).unwrap().0);
-    assert_eq!("ritygu'e", jvozba::get_lujvo("brito gugde", false).unwrap().0);
-    assert_eq!("rityjbo", jvozba::get_lujvo("brito lojbo", false).unwrap().0);
-    assert_eq!("rivli'a", jvozba::get_lujvo("rivbi cliva", false).unwrap().0);
-    assert_eq!("rokcmaplini", jvozba::get_lujvo("rokci cmalu plini", false).unwrap().0);
-    assert_eq!("rokspi", jvozba::get_lujvo("rokci spisa", false).unwrap().0);
-    assert_eq!("rolbaukai", jvozba::get_lujvo("ro bangu ckaji", false).unwrap().0);
-    assert_eq!("roldei", jvozba::get_lujvo("ro djedi", false).unwrap().0);
-    assert_eq!("rolgu'e", jvozba::get_lujvo("ro gugde", false).unwrap().0);
-    assert_eq!("rolcte", jvozba::get_lujvo("ro nicte", false).unwrap().0);
-    assert_eq!("rolpre", jvozba::get_lujvo("ro prenu", false).unwrap().0);
-    assert_eq!("rolre'azda", jvozba::get_lujvo("ro remna zdani", false).unwrap().0);
-    assert_eq!("rolsliparbi", jvozba::get_lujvo("ro slilu parbi", false).unwrap().0);
-    assert_eq!("rolstu", jvozba::get_lujvo("ro stuzi", false).unwrap().0);
-    assert_eq!("roltei", jvozba::get_lujvo("ro temci", false).unwrap().0);
-    assert_eq!("rolterdi", jvozba::get_lujvo("ro terdi", false).unwrap().0);
-    assert_eq!("rolterslidi'e", jvozba::get_lujvo("ro te slilu dirce", false).unwrap().0);
-    assert_eq!("roltru", jvozba::get_lujvo("ro turni", false).unwrap().0);
-    assert_eq!("rolzda", jvozba::get_lujvo("ro zdani", false).unwrap().0);
-    assert_eq!("ruxpre", jvozba::get_lujvo("pruxi prenu", false).unwrap().0);
-    assert_eq!("rulpezli", jvozba::get_lujvo("xrula pezli", false).unwrap().0);
-    assert_eq!("rulpurdi", jvozba::get_lujvo("xrula purdi", false).unwrap().0);
-    assert_eq!("rulzda", jvozba::get_lujvo("xrula zdani", false).unwrap().0);
-    assert_eq!("rumpe'a", jvozba::get_lujvo("runme preja", false).unwrap().0);
-    assert_eq!("rumro'i", jvozba::get_lujvo("runme rokci", false).unwrap().0);
-    assert_eq!("runbau", jvozba::get_lujvo("rutni bangu", false).unwrap().0);
-    assert_eq!("runge'a", jvozba::get_lujvo("rutni gerna", false).unwrap().0);
-    assert_eq!("rutpesxu", jvozba::get_lujvo("grute pesxu", false).unwrap().0);
-    assert_eq!("rutpurdi", jvozba::get_lujvo("grute purdi", false).unwrap().0);
-    assert_eq!("rutyjdu", jvozba::get_lujvo("grute jduli", false).unwrap().0);
-    assert_eq!("rutyve'u", jvozba::get_lujvo("grute vecnu", false).unwrap().0);
-    assert_eq!("ruxse'i", jvozba::get_lujvo("pruxi sevzi", false).unwrap().0);
-    assert_eq!("ruxyzau", jvozba::get_lujvo("pruxi zanru", false).unwrap().0);
-    assert_eq!("sa'erjgita", jvozba::get_lujvo("satre jgita", false).unwrap().0);
-    assert_eq!("sa'irlai", jvozba::get_lujvo("sanli klani", false).unwrap().0);
-    assert_eq!("sa'orkurfa", jvozba::get_lujvo("salpo kurfa", false).unwrap().0);
-    assert_eq!("sa'unri'a", jvozba::get_lujvo("sarcu rinka", false).unwrap().0);
-    assert_eq!("sa'urmi'e", jvozba::get_lujvo("sarcu minde", false).unwrap().0);
-    assert_eq!("sadrai", jvozba::get_lujvo("snada traji", false).unwrap().0);
-    assert_eq!("sadyda'a", jvozba::get_lujvo("snada damba", false).unwrap().0);
-    assert_eq!("sagbarja", jvozba::get_lujvo("sanga barja", false).unwrap().0);
-    assert_eq!("sagdraci", jvozba::get_lujvo("sanga draci", false).unwrap().0);
-    assert_eq!("sa'asku", jvozba::get_lujvo("sanga cusku", false).unwrap().0);
-    assert_eq!("saisla", jvozba::get_lujvo("sanmi salci", false).unwrap().0);
-    assert_eq!("sakcpu", jvozba::get_lujvo("sakci lacpu", false).unwrap().0);
-    assert_eq!("sakygau", jvozba::get_lujvo("sakci gasnu", false).unwrap().0);
-    assert_eq!("sakselylu'i", jvozba::get_lujvo("sakci se lumci", false).unwrap().0);
-    assert_eq!("sakto'a", jvozba::get_lujvo("sakci tonga", false).unwrap().0);
-    assert_eq!("salsiltci", jvozba::get_lujvo("sakli siclu tutci", false).unwrap().0);
-    assert_eq!("saltu'u", jvozba::get_lujvo("sakli tubnu", false).unwrap().0);
-    assert_eq!("sakmuvgau", jvozba::get_lujvo("sakci muvdu gasnu", false).unwrap().0);
-    assert_eq!("sakyva'u", jvozba::get_lujvo("sakci vasxu", false).unwrap().0);
-    assert_eq!("slafagri", jvozba::get_lujvo("salci fagri", false).unwrap().0);
-    assert_eq!("sa'ordziselfa'a", jvozba::get_lujvo("salpo dizlo se farna", false).unwrap().0);
-    assert_eq!("samci'a", jvozba::get_lujvo("skami ciska", false).unwrap().0);
-    assert_eq!("samci'eta'a", jvozba::get_lujvo("skami ciste tavla", false).unwrap().0);
-    assert_eq!("samjudri", jvozba::get_lujvo("skami judri", false).unwrap().0);
-    assert_eq!("samki'o", jvozba::get_lujvo("skami kilto", false).unwrap().0);
-    assert_eq!("sampei", jvozba::get_lujvo("skami pensi", false).unwrap().0);
-    assert_eq!("sampla", jvozba::get_lujvo("skami platu", false).unwrap().0);
-    assert_eq!("selsampla", jvozba::get_lujvo("se skami platu", false).unwrap().0);
-    assert_eq!("sample", jvozba::get_lujvo("skami pelji", false).unwrap().0);
-    assert_eq!("saprai", jvozba::get_lujvo("sampu traji", false).unwrap().0);
-    assert_eq!("samralsle", jvozba::get_lujvo("skami ralju selci", false).unwrap().0);
-    assert_eq!("samru'e", jvozba::get_lujvo("skami pruce", false).unwrap().0);
-    assert_eq!("samse'u", jvozba::get_lujvo("skami selfu", false).unwrap().0);
-    assert_eq!("samselpla", jvozba::get_lujvo("skami se platu", false).unwrap().0);
-    assert_eq!("samske", jvozba::get_lujvo("skami saske", false).unwrap().0);
-    assert_eq!("samsnuci'e", jvozba::get_lujvo("skami casnu ciste", false).unwrap().0);
-    assert_eq!("samsroka'u", jvozba::get_lujvo("skami sorcu kantu", false).unwrap().0);
-    assert_eq!("samsrorau", jvozba::get_lujvo("skami sorcu gradu", false).unwrap().0);
-    assert_eq!("samsrosle", jvozba::get_lujvo("skami sorcu selci", false).unwrap().0);
-    assert_eq!("samstu", jvozba::get_lujvo("skami stuzi", false).unwrap().0);
-    assert_eq!("samtadji", jvozba::get_lujvo("skami tadji", false).unwrap().0);
-    assert_eq!("samtermi'e", jvozba::get_lujvo("skami te minde", false).unwrap().0);
-    assert_eq!("samvidni", jvozba::get_lujvo("skami vidni", false).unwrap().0);
-    assert_eq!("samgi'o", jvozba::get_lujvo("skami gigdo", false).unwrap().0);
-    assert_eq!("samymegdo", jvozba::get_lujvo("skami megdo", false).unwrap().0);
-    assert_eq!("samymidnoi", jvozba::get_lujvo("skami minde notci", false).unwrap().0);
-    assert_eq!("samymri", jvozba::get_lujvo("skami mrilu", false).unwrap().0);
-    assert_eq!("samyzva", jvozba::get_lujvo("skami zvati", false).unwrap().0);
-    assert_eq!("sange'u", jvozba::get_lujvo("spano gerku", false).unwrap().0);
-    assert_eq!("sajbi'o", jvozba::get_lujvo("sanji binxo", false).unwrap().0);
-    assert_eq!("sajri'a", jvozba::get_lujvo("sanji rinka", false).unwrap().0);
-    assert_eq!("sankrabau", jvozba::get_lujvo("spano krasi bangu", false).unwrap().0);
-    assert_eq!("sankragu'e", jvozba::get_lujvo("spano krasi gugde", false).unwrap().0);
-    assert_eq!("santyse'u", jvozba::get_lujvo("santa selfu", false).unwrap().0);
-    assert_eq!("saptciklu", jvozba::get_lujvo("sampu tutci kulnu", false).unwrap().0);
-    assert_eq!("sarlyja'i", jvozba::get_lujvo("sarlu jadni", false).unwrap().0);
-    assert_eq!("sasfoi", jvozba::get_lujvo("srasu foldi", false).unwrap().0);
-    assert_eq!("saspurdi", jvozba::get_lujvo("srasu purdi", false).unwrap().0);
-    assert_eq!("sastu'a", jvozba::get_lujvo("srasu tumla", false).unwrap().0);
-    assert_eq!("satcymau", jvozba::get_lujvo("satci zmadu", false).unwrap().0);
-    assert_eq!("satcyri'a", jvozba::get_lujvo("satci rinka", false).unwrap().0);
-    assert_eq!("satcyski", jvozba::get_lujvo("satci skicu", false).unwrap().0);
-    assert_eq!("saurckusro", jvozba::get_lujvo("slabu cukta sorcu", false).unwrap().0);
-    assert_eq!("saurdai", jvozba::get_lujvo("slabu dacti", false).unwrap().0);
-    assert_eq!("saurgu'e", jvozba::get_lujvo("slabu gugde", false).unwrap().0);
-    assert_eq!("saursutsabdja", jvozba::get_lujvo("slabu sutra sabji cidja", false).unwrap().0);
-    assert_eq!("vrule'u", jvozba::get_lujvo("savru lerfu", false).unwrap().0);
-    assert_eq!("vruri'a", jvozba::get_lujvo("savru rinka", false).unwrap().0);
-    assert_eq!("sazvanbi", jvozba::get_lujvo("sazri vanbi", false).unwrap().0);
-    assert_eq!("sazycau", jvozba::get_lujvo("sazri claxu", false).unwrap().0);
-    assert_eq!("sazyci'e", jvozba::get_lujvo("sazri ciste", false).unwrap().0);
-    assert_eq!("sazysti", jvozba::get_lujvo("sazri sisti", false).unwrap().0);
-    assert_eq!("sazytcila", jvozba::get_lujvo("sazri tcila", false).unwrap().0);
-    assert_eq!("se'isku", jvozba::get_lujvo("sevzi cusku", false).unwrap().0);
-    assert_eq!("se'isni", jvozba::get_lujvo("sevzi sinxa", false).unwrap().0);
-    assert_eq!("se'ixru", jvozba::get_lujvo("sevzi xruti", false).unwrap().0);
-    assert_eq!("se'izga", jvozba::get_lujvo("sevzi zgana", false).unwrap().0);
-    assert_eq!("sedbo'u", jvozba::get_lujvo("stedu bongu", false).unwrap().0);
-    assert_eq!("sedja'o", jvozba::get_lujvo("stedu jarco", false).unwrap().0);
-    assert_eq!("sedycro", jvozba::get_lujvo("stedu cortu", false).unwrap().0);
-    assert_eq!("sedykre", jvozba::get_lujvo("stedu kerfa", false).unwrap().0);
-    assert_eq!("sedyterjo'e", jvozba::get_lujvo("stedu te jorne", false).unwrap().0);
-    assert_eq!("seicni", jvozba::get_lujvo("sepli cinmo", false).unwrap().0);
-    assert_eq!("selbadydji", jvozba::get_lujvo("se bandu djica", false).unwrap().0);
-    assert_eq!("selbauka'e", jvozba::get_lujvo("se bangu kakne", false).unwrap().0);
-    assert_eq!("selca'u", jvozba::get_lujvo("se canlu", false).unwrap().0);
-    assert_eq!("selcmipi'i", jvozba::get_lujvo("se cmima pilji", false).unwrap().0);
-    assert_eq!("selcmisumji", jvozba::get_lujvo("se cmima sumji", false).unwrap().0);
-    assert_eq!("seldamgau", jvozba::get_lujvo("se danmo gasnu", false).unwrap().0);
-    assert_eq!("seldansazri", jvozba::get_lujvo("se danti sazri", false).unwrap().0);
-    assert_eq!("seldjixau", jvozba::get_lujvo("se djica xamgu", false).unwrap().0);
-    assert_eq!("selfi'usa'i", jvozba::get_lujvo("se cfipu sanli", false).unwrap().0);
-    assert_eq!("selfinfi'a", jvozba::get_lujvo("se finti cfika", false).unwrap().0);
-    assert_eq!("selfityjbu", jvozba::get_lujvo("se friti jubme", false).unwrap().0);
-    assert_eq!("selga'esmu", jvozba::get_lujvo("se ganse smuni", false).unwrap().0);
-    assert_eq!("selgaita'u", jvozba::get_lujvo("se gacri taxfu", false).unwrap().0);
-    assert_eq!("selgapygau", jvozba::get_lujvo("se gapru gasnu", false).unwrap().0);
-    assert_eq!("selgeimau", jvozba::get_lujvo("se gleki zmadu", false).unwrap().0);
-    assert_eq!("selgreka'e", jvozba::get_lujvo("se pagre kakne", false).unwrap().0);
-    assert_eq!("selgrenalka'e", jvozba::get_lujvo("se pagre na'e kakne", false).unwrap().0);
-    assert_eq!("selgusrai", jvozba::get_lujvo("se gusni traji", false).unwrap().0);
-    assert_eq!("selja'efau", jvozba::get_lujvo("se jalge fasnu", false).unwrap().0);
-    assert_eq!("selja'esku", jvozba::get_lujvo("se jalge cusku", false).unwrap().0);
-    assert_eq!("seljdadji", jvozba::get_lujvo("se lijda djica", false).unwrap().0);
-    assert_eq!("seljdagei", jvozba::get_lujvo("se lijda gleki", false).unwrap().0);
-    assert_eq!("seljdami'u", jvozba::get_lujvo("se lijda mintu", false).unwrap().0);
-    assert_eq!("seljmaji", jvozba::get_lujvo("se jmaji", false).unwrap().0);
-    assert_eq!("seljmiri'a", jvozba::get_lujvo("se jimpe rinka", false).unwrap().0);
-    assert_eq!("selju'ixau", jvozba::get_lujvo("se jundi xamgu", false).unwrap().0);
-    assert_eq!("seljunbe'i", jvozba::get_lujvo("se djuno benji", false).unwrap().0);
-    assert_eq!("selkecmlu", jvozba::get_lujvo("se kecti simlu", false).unwrap().0);
-    assert_eq!("selkeiste", jvozba::get_lujvo("se kelci liste", false).unwrap().0);
-    assert_eq!("selma'e", jvozba::get_lujvo("se marce", false).unwrap().0);
-    assert_eq!("selma'ecu'e", jvozba::get_lujvo("se marce ckule", false).unwrap().0);
-    assert_eq!("selmamspemamta", jvozba::get_lujvo("se mamta speni mamta", false).unwrap().0);
-    assert_eq!("selmi'e", jvozba::get_lujvo("se minde", false).unwrap().0);
-    assert_eq!("selmonmi'u", jvozba::get_lujvo("se morna mintu", false).unwrap().0);
-    assert_eq!("selneirai", jvozba::get_lujvo("se nelci traji", false).unwrap().0);
-    assert_eq!("selneimau", jvozba::get_lujvo("se nelci zmadu", false).unwrap().0);
-    assert_eq!("selneixau", jvozba::get_lujvo("se nelci xamgu", false).unwrap().0);
-    assert_eq!("selpeixau", jvozba::get_lujvo("se pensi xamgu", false).unwrap().0);
-    assert_eq!("selplidu'i", jvozba::get_lujvo("se pilno dunli", false).unwrap().0);
-    assert_eq!("selplika'e", jvozba::get_lujvo("se pilno kakne", false).unwrap().0);
-    assert_eq!("selplimi'u", jvozba::get_lujvo("se pilno mintu", false).unwrap().0);
-    assert_eq!("selplixau", jvozba::get_lujvo("se pilno xamgu", false).unwrap().0);
-    assert_eq!("selplopijne", jvozba::get_lujvo("se polje pijne", false).unwrap().0);
-    assert_eq!("selpopselta'u", jvozba::get_lujvo("se porpi se taxfu", false).unwrap().0);
-    assert_eq!("selrepydja", jvozba::get_lujvo("se crepu cidja", false).unwrap().0);
-    assert_eq!("selrerkru", jvozba::get_lujvo("se renro kruvi", false).unwrap().0);
-    assert_eq!("selrigvamtu", jvozba::get_lujvo("se rigni vamtu", false).unwrap().0);
-    assert_eq!("selsabytutra", jvozba::get_lujvo("se sabji tutra", false).unwrap().0);
-    assert_eq!("selsajgau", jvozba::get_lujvo("se sanji gasnu", false).unwrap().0);
-    assert_eq!("selskuvei", jvozba::get_lujvo("se cusku vreji", false).unwrap().0);
-    assert_eq!("selsmujmi", jvozba::get_lujvo("se smuni jimpe", false).unwrap().0);
-    assert_eq!("selsnuka'e", jvozba::get_lujvo("se casnu kakne", false).unwrap().0);
-    assert_eq!("seltavma'o", jvozba::get_lujvo("se tavla cmavo", false).unwrap().0);
-    assert_eq!("seltepmau", jvozba::get_lujvo("se terpa zmadu", false).unwrap().0);
-    assert_eq!("selteprai", jvozba::get_lujvo("se terpa traji", false).unwrap().0);
-    assert_eq!("selti'ifla", jvozba::get_lujvo("se stidi flalu", false).unwrap().0);
-    assert_eq!("selti'ismu", jvozba::get_lujvo("se stidi smuni", false).unwrap().0);
-    assert_eq!("selti'u", jvozba::get_lujvo("se tixnu", false).unwrap().0);
-    assert_eq!("seltilmau", jvozba::get_lujvo("se tcila zmadu", false).unwrap().0);
-    assert_eq!("seltolnei", jvozba::get_lujvo("se to'e nelci", false).unwrap().0);
-    assert_eq!("seltutrai", jvozba::get_lujvo("se tutra traji", false).unwrap().0);
-    assert_eq!("selviska'eri'a", jvozba::get_lujvo("se viska kakne rinka", false).unwrap().0);
-    assert_eq!("selvrestu", jvozba::get_lujvo("se vreta stuzi", false).unwrap().0);
-    assert_eq!("selxaumau", jvozba::get_lujvo("se xamgu zmadu", false).unwrap().0);
-    assert_eq!("selxaumaugau", jvozba::get_lujvo("se xamgu zmadu gasnu", false).unwrap().0);
-    assert_eq!("selxagryvau", jvozba::get_lujvo("se xagri vasru", false).unwrap().0);
-    assert_eq!("selxlupai", jvozba::get_lujvo("se xlura pajni", false).unwrap().0);
-    assert_eq!("selylauca'a", jvozba::get_lujvo("se cladu cabra", false).unwrap().0);
-    assert_eq!("selylazmi'u", jvozba::get_lujvo("se lanzu mintu", false).unwrap().0);
-    assert_eq!("selylebvla", jvozba::get_lujvo("se lebna valsi", false).unwrap().0);
-    assert_eq!("senlanli", jvozba::get_lujvo("senpi lanli", false).unwrap().0);
-    assert_eq!("senxu'i", jvozba::get_lujvo("senpi xukmi", false).unwrap().0);
-    assert_eq!("seirgau", jvozba::get_lujvo("sepli gasnu", false).unwrap().0);
-    assert_eq!("snebaigau", jvozba::get_lujvo("senva bapli gasnu", false).unwrap().0);
-    assert_eq!("sezdrari'a", jvozba::get_lujvo("sevzi drani rinka", false).unwrap().0);
-    assert_eq!("sezlacri", jvozba::get_lujvo("sevzi lacri", false).unwrap().0);
-    assert_eq!("sezlu'i", jvozba::get_lujvo("sevzi lumci", false).unwrap().0);
-    assert_eq!("sezvelski", jvozba::get_lujvo("sevzi ve skicu", false).unwrap().0);
-    assert_eq!("sezyci'i", jvozba::get_lujvo("sevzi cinri", false).unwrap().0);
-    assert_eq!("sezycitri", jvozba::get_lujvo("sevzi citri", false).unwrap().0);
-    assert_eq!("sezyju'o", jvozba::get_lujvo("sevzi djuno", false).unwrap().0);
-    assert_eq!("sezykarni", jvozba::get_lujvo("sevzi karni", false).unwrap().0);
-    assert_eq!("sezykemxaumaupai", jvozba::get_lujvo("sevzi ke xamgu zmadu pajni", false).unwrap().0);
-    assert_eq!("sezypa'i", jvozba::get_lujvo("sevzi prami", false).unwrap().0);
-    assert_eq!("sezypevdu'a", jvozba::get_lujvo("sevzi pe'a dunda", false).unwrap().0);
-    assert_eq!("se'ipli", jvozba::get_lujvo("sevzi pilno", false).unwrap().0);
-    assert_eq!("sezyse'u", jvozba::get_lujvo("sevzi selfu", false).unwrap().0);
-    assert_eq!("se'itru", jvozba::get_lujvo("sevzi turni", false).unwrap().0);
-    assert_eq!("kamse'itru", jvozba::get_lujvo("ka sevzi turni", false).unwrap().0);
-    assert_eq!("sezyxangle", jvozba::get_lujvo("sevzi xance gletu", false).unwrap().0);
-    assert_eq!("sezyxaumaupai", jvozba::get_lujvo("sevzi xamgu zmadu pajni", false).unwrap().0);
-    assert_eq!("sezyxu'a", jvozba::get_lujvo("sevzi xusra", false).unwrap().0);
-    assert_eq!("sezyzdakla", jvozba::get_lujvo("sevzi zdani klama", false).unwrap().0);
-    assert_eq!("sfacatra", jvozba::get_lujvo("sfasa catra", false).unwrap().0);
-    assert_eq!("sfala'a", jvozba::get_lujvo("sfasa lasna", false).unwrap().0);
-    assert_eq!("sfanalseljde", jvozba::get_lujvo("sfasa na'e se kajde", false).unwrap().0);
-    assert_eq!("sfaxai", jvozba::get_lujvo("sfasa xrani", false).unwrap().0);
-    assert_eq!("sfecra", jvozba::get_lujvo("sefta crane", false).unwrap().0);
-    assert_eq!("sfefli", jvozba::get_lujvo("sefta fliba", false).unwrap().0);
-    assert_eq!("sfesti", jvozba::get_lujvo("sefta sisti", false).unwrap().0);
-    assert_eq!("sfestigau", jvozba::get_lujvo("sefta sisti gasnu", false).unwrap().0);
-    assert_eq!("si'arfriti", jvozba::get_lujvo("sinma friti", false).unwrap().0);
-    assert_eq!("si'asnu", jvozba::get_lujvo("sinma casnu", false).unwrap().0);
-    assert_eq!("si'erbi'e", jvozba::get_lujvo("snime brife", false).unwrap().0);
-    assert_eq!("sibycanja", jvozba::get_lujvo("sidbo canja", false).unwrap().0);
-    assert_eq!("sibyti'i", jvozba::get_lujvo("sidbo stidi", false).unwrap().0);
-    assert_eq!("selsi'oti'isni", jvozba::get_lujvo("se sidbo stidi sinxa", false).unwrap().0);
-    assert_eq!("sibdai", jvozba::get_lujvo("sidbo dacti", false).unwrap().0);
-    assert_eq!("sicko'o", jvozba::get_lujvo("stici skoto", false).unwrap().0);
-    assert_eq!("siltci", jvozba::get_lujvo("siclu tutci", false).unwrap().0);
-    assert_eq!("silto'a", jvozba::get_lujvo("siclu tonga", false).unwrap().0);
-    assert_eq!("sigdamva'u", jvozba::get_lujvo("sigja danmo vasxu", false).unwrap().0);
-    assert_eq!("sigdanmo", jvozba::get_lujvo("sigja danmo", false).unwrap().0);
-    assert_eq!("sigva'u", jvozba::get_lujvo("sigja vasxu", false).unwrap().0);
-    assert_eq!("sigycko", jvozba::get_lujvo("sigja cokcu", false).unwrap().0);
-    assert_eq!("sigyfesyvau", jvozba::get_lujvo("sigja festi vasru", false).unwrap().0);
-    assert_eq!("sigyfespalta", jvozba::get_lujvo("sigja festi palta", false).unwrap().0);
-    assert_eq!("sigyfri", jvozba::get_lujvo("sigja lifri", false).unwrap().0);
-    assert_eq!("sigypli", jvozba::get_lujvo("sigja pilno", false).unwrap().0);
-    assert_eq!("sijycutci", jvozba::get_lujvo("skiji cutci", false).unwrap().0);
-    assert_eq!("sijykla", jvozba::get_lujvo("skiji klama", false).unwrap().0);
-    assert_eq!("tersijykla", jvozba::get_lujvo("te skiji klama", false).unwrap().0);
-    assert_eq!("sikcurnu", jvozba::get_lujvo("silka curnu", false).unwrap().0);
-    assert_eq!("silgei", jvozba::get_lujvo("siclu gleki", false).unwrap().0);
-    assert_eq!("simcabna", jvozba::get_lujvo("simxu cabna", false).unwrap().0);
-    assert_eq!("simcatra", jvozba::get_lujvo("simxu catra", false).unwrap().0);
-    assert_eq!("simda'a", jvozba::get_lujvo("simxu damba", false).unwrap().0);
-    assert_eq!("simda'e", jvozba::get_lujvo("simxu danre", false).unwrap().0);
-    assert_eq!("simda'i", jvozba::get_lujvo("simxu darxi", false).unwrap().0);
-    assert_eq!("simju'o", jvozba::get_lujvo("simxu djuno", false).unwrap().0);
-    assert_eq!("simpro", jvozba::get_lujvo("simxu fapro", false).unwrap().0);
-    assert_eq!("simfra", jvozba::get_lujvo("simxu frati", false).unwrap().0);
-    assert_eq!("simfrica", jvozba::get_lujvo("simxu frica", false).unwrap().0);
-    assert_eq!("simgle", jvozba::get_lujvo("simxu gletu", false).unwrap().0);
-    assert_eq!("simjikca", jvozba::get_lujvo("simxu jikca", false).unwrap().0);
-    assert_eq!("simjvi", jvozba::get_lujvo("simxu jivna", false).unwrap().0);
-    assert_eq!("simkansa", jvozba::get_lujvo("simxu kansa", false).unwrap().0);
-    assert_eq!("simkruca", jvozba::get_lujvo("simxu kruca", false).unwrap().0);
-    assert_eq!("simla'i", jvozba::get_lujvo("simxu lamji", false).unwrap().0);
-    assert_eq!("simlivbaigau", jvozba::get_lujvo("simxu cliva bapli gasnu", false).unwrap().0);
-    assert_eq!("simpanpi", jvozba::get_lujvo("simxu panpi", false).unwrap().0);
-    assert_eq!("simpe'o", jvozba::get_lujvo("simxu pendo", false).unwrap().0);
-    assert_eq!("simpe'u", jvozba::get_lujvo("simxu pencu", false).unwrap().0);
-    assert_eq!("simpe'i", jvozba::get_lujvo("simxu penmi", false).unwrap().0);
-    assert_eq!("simsarxe", jvozba::get_lujvo("simxu sarxe", false).unwrap().0);
-    assert_eq!("nalsimsarxe", jvozba::get_lujvo("na'e simxu sarxe", false).unwrap().0);
-    assert_eq!("simselyli'e", jvozba::get_lujvo("simxu se lidne", false).unwrap().0);
-    assert_eq!("simta'a", jvozba::get_lujvo("simxu tavla", false).unwrap().0);
-    assert_eq!("simtipyda'a", jvozba::get_lujvo("simxu tikpa damba", false).unwrap().0);
-    assert_eq!("simxanja'i", jvozba::get_lujvo("simxu xance jadni", false).unwrap().0);
-    assert_eq!("si'umri", jvozba::get_lujvo("simxu mrilu", false).unwrap().0);
-    assert_eq!("si'uzva", jvozba::get_lujvo("simxu zvati", false).unwrap().0);
-    assert_eq!("sincycrida", jvozba::get_lujvo("since crida", false).unwrap().0);
-    assert_eq!("sincysna", jvozba::get_lujvo("since sance", false).unwrap().0);
-    assert_eq!("si'arseldu'a", jvozba::get_lujvo("sinma se dunda", false).unwrap().0);
-    assert_eq!("sipku'a", jvozba::get_lujvo("sipna kumfa", false).unwrap().0);
-    assert_eq!("sipsavgau", jvozba::get_lujvo("sipna savru gasnu", false).unwrap().0);
-    assert_eq!("sipyvru", jvozba::get_lujvo("sipna savru", false).unwrap().0);
-    assert_eq!("sipstu", jvozba::get_lujvo("sipna stuzi", false).unwrap().0);
-    assert_eq!("sipta'u", jvozba::get_lujvo("sipna taxfu", false).unwrap().0);
-    assert_eq!("sipydakli", jvozba::get_lujvo("sipna dakli", false).unwrap().0);
-    assert_eq!("sivdju", jvozba::get_lujvo("sivni sidju", false).unwrap().0);
-    assert_eq!("sivycni", jvozba::get_lujvo("sivni cinmo", false).unwrap().0);
-    assert_eq!("sivyta'u", jvozba::get_lujvo("sivni taxfu", false).unwrap().0);
-    assert_eq!("kapkandi", jvozba::get_lujvo("skapi kandi", false).unwrap().0);
-    assert_eq!("skavrici", jvozba::get_lujvo("skari vrici", false).unwrap().0);
-    assert_eq!("skefa'i", jvozba::get_lujvo("saske facki", false).unwrap().0);
-    assert_eq!("skefi'a", jvozba::get_lujvo("saske cfika", false).unwrap().0);
-    assert_eq!("skegu'a", jvozba::get_lujvo("saske gunka", false).unwrap().0);
-    assert_eq!("skepre", jvozba::get_lujvo("saske prenu", false).unwrap().0);
-    assert_eq!("skinoi", jvozba::get_lujvo("skicu notci", false).unwrap().0);
-    assert_eq!("skola'a", jvozba::get_lujvo("skori lasna", false).unwrap().0);
-    assert_eq!("skora'e", jvozba::get_lujvo("skori ralte", false).unwrap().0);
-    assert_eq!("skosra", jvozba::get_lujvo("skori sarji", false).unwrap().0);
-    assert_eq!("skovrede'a", jvozba::get_lujvo("skori vreta denpa", false).unwrap().0);
-    assert_eq!("skucre", jvozba::get_lujvo("cusku certu", false).unwrap().0);
-    assert_eq!("skuci'a", jvozba::get_lujvo("cusku ciska", false).unwrap().0);
-    assert_eq!("skutadji", jvozba::get_lujvo("cusku tadji", false).unwrap().0);
-    assert_eq!("skuzau", jvozba::get_lujvo("cusku zanru", false).unwrap().0);
-    assert_eq!("slacfa", jvozba::get_lujvo("salci cfari", false).unwrap().0);
-    assert_eq!("slacfagau", jvozba::get_lujvo("salci cfari gasnu", false).unwrap().0);
-    assert_eq!("slacti", jvozba::get_lujvo("salci citka", false).unwrap().0);
-    assert_eq!("sladei", jvozba::get_lujvo("salci djedi", false).unwrap().0);
-    assert_eq!("slagei", jvozba::get_lujvo("salci gleki", false).unwrap().0);
-    assert_eq!("slapemci", jvozba::get_lujvo("salci pemci", false).unwrap().0);
-    assert_eq!("sligau", jvozba::get_lujvo("slilu gasnu", false).unwrap().0);
-    assert_eq!("slivru", jvozba::get_lujvo("slilu savru", false).unwrap().0);
-    assert_eq!("slisko", jvozba::get_lujvo("slilu skori", false).unwrap().0);
-    assert_eq!("sludemcro", jvozba::get_lujvo("sluji denmi cortu", false).unwrap().0);
-    assert_eq!("slugu'a", jvozba::get_lujvo("sluji gunka", false).unwrap().0);
-    assert_eq!("slukemcakfi'e", jvozba::get_lujvo("sluji ke calku finpe", false).unwrap().0);
-    assert_eq!("slunandu", jvozba::get_lujvo("sluji nandu", false).unwrap().0);
-    assert_eq!("sluseltro", jvozba::get_lujvo("sluji se jitro", false).unwrap().0);
-    assert_eq!("slutro", jvozba::get_lujvo("sluji jitro", false).unwrap().0);
-    assert_eq!("smaba'u", jvozba::get_lujvo("smaji bacru", false).unwrap().0);
-    assert_eq!("smacni", jvozba::get_lujvo("smaji cinmo", false).unwrap().0);
-    assert_eq!("smagai", jvozba::get_lujvo("smaji gacri", false).unwrap().0);
-    assert_eq!("smajmavra", jvozba::get_lujvo("smaji jamfu vraga", false).unwrap().0);
-    assert_eq!("smatci", jvozba::get_lujvo("smaji tutci", false).unwrap().0);
-    assert_eq!("smigau", jvozba::get_lujvo("simsa gasnu", false).unwrap().0);
-    assert_eq!("smimlu", jvozba::get_lujvo("simsa simlu", false).unwrap().0);
-    assert_eq!("smirai", jvozba::get_lujvo("simsa traji", false).unwrap().0);
-    assert_eq!("smizu'e", jvozba::get_lujvo("simsa zukte", false).unwrap().0);
-    assert_eq!("smudu'i", jvozba::get_lujvo("smuni dunli", false).unwrap().0);
-    assert_eq!("smujmi", jvozba::get_lujvo("smuni jimpe", false).unwrap().0);
-    assert_eq!("smulei", jvozba::get_lujvo("smuni klesi", false).unwrap().0);
-    assert_eq!("smuske", jvozba::get_lujvo("smuni saske", false).unwrap().0);
-    assert_eq!("snacau", jvozba::get_lujvo("sance claxu", false).unwrap().0);
-    assert_eq!("snacko", jvozba::get_lujvo("sance cokcu", false).unwrap().0);
-    assert_eq!("sadmi'o", jvozba::get_lujvo("snada misno", false).unwrap().0);
-    assert_eq!("snaga'e", jvozba::get_lujvo("sance ganse", false).unwrap().0);
-    assert_eq!("snage'a", jvozba::get_lujvo("sance gerna", false).unwrap().0);
-    assert_eq!("snagenske", jvozba::get_lujvo("sance gerna saske", false).unwrap().0);
-    assert_eq!("snajalra", jvozba::get_lujvo("sance jalra", false).unwrap().0);
-    assert_eq!("snakamju", jvozba::get_lujvo("sance kamju", false).unwrap().0);
-    assert_eq!("snaku'ocukca'a", jvozba::get_lujvo("sance skuro cukla cabra", false).unwrap().0);
-    assert_eq!("snaku'ocukla", jvozba::get_lujvo("sance skuro cukla", false).unwrap().0);
-    assert_eq!("snaku'ocukyzmi", jvozba::get_lujvo("sance skuro cukla zmiku", false).unwrap().0);
-    assert_eq!("nanstici", jvozba::get_lujvo("snanu stici", false).unwrap().0);
-    assert_eq!("nanstuna", jvozba::get_lujvo("snanu stuna", false).unwrap().0);
-    assert_eq!("snasrica'a", jvozba::get_lujvo("sance dasri cabra", false).unwrap().0);
-    assert_eq!("snasrita'e", jvozba::get_lujvo("sance dasri tanxe", false).unwrap().0);
-    assert_eq!("snaterga'e", jvozba::get_lujvo("sance te ganse", false).unwrap().0);
-    assert_eq!("snaterga'eca'a", jvozba::get_lujvo("sance te ganse cabra", false).unwrap().0);
-    assert_eq!("snavei", jvozba::get_lujvo("sance vreji", false).unwrap().0);
-    assert_eq!("snaveiku'ocukla", jvozba::get_lujvo("sance vreji skuro cukla", false).unwrap().0);
-    assert_eq!("snaveisrica'a", jvozba::get_lujvo("sance vreji dasri cabra", false).unwrap().0);
-    assert_eq!("snavelminra", jvozba::get_lujvo("sance ve minra", false).unwrap().0);
-    assert_eq!("snavelmiryri'a", jvozba::get_lujvo("sance ve minra rinka", false).unwrap().0);
-    assert_eq!("snaze'a", jvozba::get_lujvo("sance zenba", false).unwrap().0);
-    assert_eq!("snexu'i", jvozba::get_lujvo("senva xukmi", false).unwrap().0);
-    assert_eq!("snima'o", jvozba::get_lujvo("sinxa cmavo", false).unwrap().0);
-    assert_eq!("sniti'i", jvozba::get_lujvo("sinxa stidi", false).unwrap().0);
-    assert_eq!("snoraisli", jvozba::get_lujvo("masno traji slilu", false).unwrap().0);
-    assert_eq!("snosli", jvozba::get_lujvo("masno slilu", false).unwrap().0);
-    assert_eq!("snoslijgita", jvozba::get_lujvo("masno slilu jgita", false).unwrap().0);
-    assert_eq!("snulalske", jvozba::get_lujvo("casnu lanli saske", false).unwrap().0);
-    assert_eq!("snununpe'i", jvozba::get_lujvo("casnu nu penmi", false).unwrap().0);
-    assert_eq!("snusna", jvozba::get_lujvo("casnu sance", false).unwrap().0);
-    assert_eq!("snuxau", jvozba::get_lujvo("casnu xamgu", false).unwrap().0);
-    assert_eq!("so'etsi", jvozba::get_lujvo("sobde tsiju", false).unwrap().0);
-    assert_eq!("sorpra", jvozba::get_lujvo("so'i cupra", false).unwrap().0);
-    assert_eq!("sorpre", jvozba::get_lujvo("so'i prenu", false).unwrap().0);
-    assert_eq!("sorna'a", jvozba::get_lujvo("so'i nanca", false).unwrap().0);
-    assert_eq!("sorprema'e", jvozba::get_lujvo("so'i prenu marce", false).unwrap().0);
-    assert_eq!("sorpruda'i", jvozba::get_lujvo("so'i purci darxi", false).unwrap().0);
-    assert_eq!("sorzu'edzukla", jvozba::get_lujvo("so'i zukte cadzu klama", false).unwrap().0);
-    assert_eq!("soidji", jvozba::get_lujvo("sonci djica", false).unwrap().0);
-    assert_eq!("soirnei", jvozba::get_lujvo("sonci nelci", false).unwrap().0);
-    assert_eq!("solboi", jvozba::get_lujvo("solri bolci", false).unwrap().0);
-    assert_eq!("solgu'i", jvozba::get_lujvo("solri gusni", false).unwrap().0);
-    assert_eq!("solro'i", jvozba::get_lujvo("solri rokci", false).unwrap().0);
-    assert_eq!("solseldi'e", jvozba::get_lujvo("solri se dirce", false).unwrap().0);
-    assert_eq!("solxrula", jvozba::get_lujvo("solri xrula", false).unwrap().0);
-    assert_eq!("sonralju", jvozba::get_lujvo("sonci ralju", false).unwrap().0);
-    assert_eq!("sorkoitai", jvozba::get_lujvo("so'i korbi tarmi", false).unwrap().0);
-    assert_eq!("sorprekarce", jvozba::get_lujvo("so'i prenu karce", false).unwrap().0);
-    assert_eq!("soryre'a", jvozba::get_lujvo("so'i remna", false).unwrap().0);
-    assert_eq!("sosma'o", jvozba::get_lujvo("so'o cmavo", false).unwrap().0);
-    assert_eq!("sosyjetka'u", jvozba::get_lujvo("so'o jetnu kantu", false).unwrap().0);
-    assert_eq!("sosyselcmipi'i", jvozba::get_lujvo("so'o se cmima pilji", false).unwrap().0);
-    assert_eq!("sosyselcmisumji", jvozba::get_lujvo("so'o se cmima sumji", false).unwrap().0);
-    assert_eq!("sosyzda", jvozba::get_lujvo("so'o zdani", false).unwrap().0);
-    assert_eq!("sotprekarce", jvozba::get_lujvo("so'u prenu karce", false).unwrap().0);
-    assert_eq!("sovrango", jvozba::get_lujvo("sovda rango", false).unwrap().0);
-    assert_eq!("sovyseltai", jvozba::get_lujvo("sovda se tarmi", false).unwrap().0);
-    assert_eq!("spabi'u", jvozba::get_lujvo("spati bitmu", false).unwrap().0);
-    assert_eq!("spacange", jvozba::get_lujvo("spati cange", false).unwrap().0);
-    assert_eq!("spacau", jvozba::get_lujvo("spati claxu", false).unwrap().0);
-    assert_eq!("spatadni", jvozba::get_lujvo("spati tadni", false).unwrap().0);
-    assert_eq!("spagunma", jvozba::get_lujvo("spati gunma", false).unwrap().0);
-    assert_eq!("spebi'o", jvozba::get_lujvo("speni binxo", false).unwrap().0);
-    assert_eq!("spebu'a", jvozba::get_lujvo("speni bruna", false).unwrap().0);
-    assert_eq!("spebunspe", jvozba::get_lujvo("speni bruna speni", false).unwrap().0);
-    assert_eq!("specfari'i", jvozba::get_lujvo("speni cfari ritli", false).unwrap().0);
-    assert_eq!("spegau", jvozba::get_lujvo("speni gasnu", false).unwrap().0);
-    assert_eq!("spekemlazyki'i", jvozba::get_lujvo("speni ke lanzu ckini", false).unwrap().0);
-    assert_eq!("spelazmi'u", jvozba::get_lujvo("speni lanzu mintu", false).unwrap().0);
-    assert_eq!("spemamta", jvozba::get_lujvo("speni mamta", false).unwrap().0);
-    assert_eq!("speme'i", jvozba::get_lujvo("speni mensi", false).unwrap().0);
-    assert_eq!("speme'ispe", jvozba::get_lujvo("speni mensi speni", false).unwrap().0);
-    assert_eq!("sperirni", jvozba::get_lujvo("speni rirni", false).unwrap().0);
-    assert_eq!("spepa'u", jvozba::get_lujvo("speni patfu", false).unwrap().0);
-    assert_eq!("spesi'u", jvozba::get_lujvo("speni simxu", false).unwrap().0);
-    assert_eq!("speti'u", jvozba::get_lujvo("speni tixnu", false).unwrap().0);
-    assert_eq!("spetubyspe", jvozba::get_lujvo("speni tunba speni", false).unwrap().0);
-    assert_eq!("spetunba", jvozba::get_lujvo("speni tunba", false).unwrap().0);
-    assert_eq!("spezau", jvozba::get_lujvo("speni zanru", false).unwrap().0);
-    assert_eq!("spicku", jvozba::get_lujvo("spisa cukta", false).unwrap().0);
-    assert_eq!("spixra", jvozba::get_lujvo("spisa pixra", false).unwrap().0);
-    assert_eq!("spofriti", jvozba::get_lujvo("daspo friti", false).unwrap().0);
-    assert_eq!("spusku", jvozba::get_lujvo("spuda cusku", false).unwrap().0);
-    assert_eq!("sraki'e", jvozba::get_lujvo("sarji kicne", false).unwrap().0);
-    assert_eq!("raksku", jvozba::get_lujvo("sraku cusku", false).unwrap().0);
-    assert_eq!("srimakyvelvei", jvozba::get_lujvo("dasri maksi ve vreji", false).unwrap().0);
-    assert_eq!("sropanka", jvozba::get_lujvo("sorcu panka", false).unwrap().0);
-    assert_eq!("srota'e", jvozba::get_lujvo("sorcu tanxe", false).unwrap().0);
-    assert_eq!("sacrai", jvozba::get_lujvo("stace traji", false).unwrap().0);
-    assert_eq!("stagau", jvozba::get_lujvo("stali gasnu", false).unwrap().0);
-    assert_eq!("stagypurdi", jvozba::get_lujvo("stagi purdi", false).unwrap().0);
-    assert_eq!("stagyve'u", jvozba::get_lujvo("stagi vecnu", false).unwrap().0);
-    assert_eq!("sicmla", jvozba::get_lujvo("stici mlana", false).unwrap().0);
-    assert_eq!("stiri'a", jvozba::get_lujvo("sisti rinka", false).unwrap().0);
-    assert_eq!("stodatni", jvozba::get_lujvo("stodi datni", false).unwrap().0);
-    assert_eq!("stufa'i", jvozba::get_lujvo("stuzi facki", false).unwrap().0);
-    assert_eq!("stula'i", jvozba::get_lujvo("stuzi lamji", false).unwrap().0);
-    assert_eq!("sunzdo", jvozba::get_lujvo("stuna xazdo", false).unwrap().0);
-    assert_eq!("sunzdopre", jvozba::get_lujvo("stuna xazdo prenu", false).unwrap().0);
-    assert_eq!("sucri'a", jvozba::get_lujvo("sucta rinka", false).unwrap().0);
-    assert_eq!("sudgau", jvozba::get_lujvo("sudga gasnu", false).unwrap().0);
-    assert_eq!("sudgaubu'u", jvozba::get_lujvo("sudga gasnu bukpu", false).unwrap().0);
-    assert_eq!("sudyfoi", jvozba::get_lujvo("sudga foldi", false).unwrap().0);
-    assert_eq!("sudysrasu", jvozba::get_lujvo("sudga srasu", false).unwrap().0);
-    assert_eq!("sudytu'a", jvozba::get_lujvo("sudga tumla", false).unwrap().0);
-    assert_eq!("sukli'a", jvozba::get_lujvo("suksa cliva", false).unwrap().0);
-    assert_eq!("sukybajykla", jvozba::get_lujvo("suksa bajra klama", false).unwrap().0);
-    assert_eq!("sulkai", jvozba::get_lujvo("sunla ckaji", false).unwrap().0);
-    assert_eq!("sulmai", jvozba::get_lujvo("sunla marji", false).unwrap().0);
-    assert_eq!("sumnyjirna", jvozba::get_lujvo("sumne jirna", false).unwrap().0);
-    assert_eq!("sumtcita", jvozba::get_lujvo("sumti tcita", false).unwrap().0);
-    assert_eq!("sunko'o", jvozba::get_lujvo("stuna skoto", false).unwrap().0);
-    assert_eq!("surbi'o", jvozba::get_lujvo("surla binxo", false).unwrap().0);
-    assert_eq!("surdzu", jvozba::get_lujvo("surla cadzu", false).unwrap().0);
-    assert_eq!("sutctidja", jvozba::get_lujvo("sutra citka cidja", false).unwrap().0);
-    assert_eq!("sutfau", jvozba::get_lujvo("sutra fasnu", false).unwrap().0);
-    assert_eq!("sutfle", jvozba::get_lujvo("sutra flecu", false).unwrap().0);
-    assert_eq!("sutkemjupsabdja", jvozba::get_lujvo("sutra ke jukpa sabji cidja", false).unwrap().0);
-    assert_eq!("sutrai", jvozba::get_lujvo("sutra traji", false).unwrap().0);
-    assert_eq!("sutraisli", jvozba::get_lujvo("sutra traji slilu", false).unwrap().0);
-    assert_eq!("sutybai", jvozba::get_lujvo("sutra bapli", false).unwrap().0);
-    assert_eq!("sutfi'i", jvozba::get_lujvo("sutra finti", false).unwrap().0);
-    assert_eq!("sutygau", jvozba::get_lujvo("sutra gasnu", false).unwrap().0);
-    assert_eq!("sutyjvi", jvozba::get_lujvo("sutra jivna", false).unwrap().0);
-    assert_eq!("sutkla", jvozba::get_lujvo("sutra klama", false).unwrap().0);
-    assert_eq!("sutmau", jvozba::get_lujvo("sutra zmadu", false).unwrap().0);
-    assert_eq!("sutyterjvi", jvozba::get_lujvo("sutra te jivna", false).unwrap().0);
-    assert_eq!("sutyzbadja", jvozba::get_lujvo("sutra zbasu cidja", false).unwrap().0);
-    assert_eq!("sutsabdja", jvozba::get_lujvo("sutra sabji cidja", false).unwrap().0);
-    assert_eq!("sutspu", jvozba::get_lujvo("sutra spuda", false).unwrap().0);
-    assert_eq!("sutyjupydja", jvozba::get_lujvo("sutra jukpa cidja", false).unwrap().0);
-    assert_eq!("tavjmi", jvozba::get_lujvo("tavla jimpe", false).unwrap().0);
-    assert_eq!("ta'atci", jvozba::get_lujvo("tavla tutci", false).unwrap().0);
-    assert_eq!("ta'axlu", jvozba::get_lujvo("tavla xlura", false).unwrap().0);
-    assert_eq!("taxyca'a", jvozba::get_lujvo("tanxe cabra", false).unwrap().0);
-    assert_eq!("ta'irgau", jvozba::get_lujvo("tatpi gasnu", false).unwrap().0);
-    assert_eq!("ta'orda'i", jvozba::get_lujvo("tanbo darxi", false).unwrap().0);
-    assert_eq!("ta'orstizu", jvozba::get_lujvo("tanbo stizu", false).unwrap().0);
-    assert_eq!("ta'uzba", jvozba::get_lujvo("taxfu zbasu", false).unwrap().0);
-    assert_eq!("tacpinxe", jvozba::get_lujvo("tance pinxe", false).unwrap().0);
-    assert_eq!("tacto'acfa", jvozba::get_lujvo("tance tonga cfari", false).unwrap().0);
-    assert_eq!("tacti'e", jvozba::get_lujvo("tance trixe", false).unwrap().0);
-    assert_eq!("tactungau", jvozba::get_lujvo("tance tunta gasnu", false).unwrap().0);
-    assert_eq!("tacycra", jvozba::get_lujvo("tance crane", false).unwrap().0);
-    assert_eq!("tacydzi", jvozba::get_lujvo("tance dizlo", false).unwrap().0);
-    assert_eq!("tacyga'u", jvozba::get_lujvo("tance galtu", false).unwrap().0);
-    assert_eq!("tacymidju", jvozba::get_lujvo("tance midju", false).unwrap().0);
-    assert_eq!("tadgri", jvozba::get_lujvo("tadni girzu", false).unwrap().0);
-    assert_eq!("tadju'i", jvozba::get_lujvo("tadni jundi", false).unwrap().0);
-    assert_eq!("tadnunpe'i", jvozba::get_lujvo("tadni nu penmi", false).unwrap().0);
-    assert_eq!("tadypre", jvozba::get_lujvo("tadni prenu", false).unwrap().0);
-    assert_eq!("tadycku", jvozba::get_lujvo("tadni cukta", false).unwrap().0);
-    assert_eq!("tadysmadyfi'a", jvozba::get_lujvo("tadni smadi cfika", false).unwrap().0);
-    assert_eq!("tafkoi", jvozba::get_lujvo("taxfu korbi", false).unwrap().0);
-    assert_eq!("taflumpu'o", jvozba::get_lujvo("taxfu lumci purmo", false).unwrap().0);
-    assert_eq!("tafygunma", jvozba::get_lujvo("taxfu gunma", false).unwrap().0);
-    assert_eq!("tagmau", jvozba::get_lujvo("tagji zmadu", false).unwrap().0);
-    assert_eq!("tagysna", jvozba::get_lujvo("tagji sance", false).unwrap().0);
-    assert_eq!("tamglefri", jvozba::get_lujvo("tarmi gletu lifri", false).unwrap().0);
-    assert_eq!("taktapla", jvozba::get_lujvo("staku tapla", false).unwrap().0);
-    assert_eq!("takybli", jvozba::get_lujvo("staku bliku", false).unwrap().0);
-    assert_eq!("tamdu'i", jvozba::get_lujvo("tarmi dunli", false).unwrap().0);
-    assert_eq!("tamju'o", jvozba::get_lujvo("tarmi djuno", false).unwrap().0);
-    assert_eq!("taismi", jvozba::get_lujvo("tarmi simsa", false).unwrap().0);
-    assert_eq!("tankycacpli", jvozba::get_lujvo("tanko tcaci pilno", false).unwrap().0);
-    assert_eq!("tankydanmo", jvozba::get_lujvo("tanko danmo", false).unwrap().0);
-    assert_eq!("tankyjelfri", jvozba::get_lujvo("tanko jelca lifri", false).unwrap().0);
-    assert_eq!("tankyjelgau", jvozba::get_lujvo("tanko jelca gasnu", false).unwrap().0);
-    assert_eq!("tankypli", jvozba::get_lujvo("tanko pilno", false).unwrap().0);
-    assert_eq!("tankyxu'i", jvozba::get_lujvo("tanko xukmi", false).unwrap().0);
-    assert_eq!("tauzba", jvozba::get_lujvo("tanru zbasu", false).unwrap().0);
-    assert_eq!("tapkla", jvozba::get_lujvo("stapa klama", false).unwrap().0);
-    assert_eq!("taplytai", jvozba::get_lujvo("tapla tarmi", false).unwrap().0);
-    assert_eq!("tatyji'o", jvozba::get_lujvo("tatru jipno", false).unwrap().0);
-    assert_eq!("tatyta'u", jvozba::get_lujvo("tatru taxfu", false).unwrap().0);
-    assert_eq!("taurselpli", jvozba::get_lujvo("tanru se pilno", false).unwrap().0);
-    assert_eq!("taursu'a", jvozba::get_lujvo("tanru stura", false).unwrap().0);
-    assert_eq!("tavba'u", jvozba::get_lujvo("tavla bacru", false).unwrap().0);
-    assert_eq!("tavma'o", jvozba::get_lujvo("tavla cmavo", false).unwrap().0);
-    assert_eq!("tavnei", jvozba::get_lujvo("tavla nelci", false).unwrap().0);
-    assert_eq!("taxmi'i", jvozba::get_lujvo("tanxe minji", false).unwrap().0);
-    assert_eq!("cacysku", jvozba::get_lujvo("tcaci cusku", false).unwrap().0);
-    assert_eq!("tcakarni", jvozba::get_lujvo("tcadu karni", false).unwrap().0);
-    assert_eq!("tcanai", jvozba::get_lujvo("tcadu natmi", false).unwrap().0);
-    assert_eq!("tcare'etcana", jvozba::get_lujvo("tcadu trene tcana", false).unwrap().0);
-    assert_eq!("tcatru", jvozba::get_lujvo("tcadu turni", false).unwrap().0);
-    assert_eq!("tcatytei", jvozba::get_lujvo("tcati temci", false).unwrap().0);
-    assert_eq!("tcavro", jvozba::get_lujvo("tcadu vorme", false).unwrap().0);
-    assert_eq!("tcavru", jvozba::get_lujvo("tcadu savru", false).unwrap().0);
-    assert_eq!("tcaxa'u", jvozba::get_lujvo("tcadu xabju", false).unwrap().0);
-    assert_eq!("tcebi'o", jvozba::get_lujvo("mutce binxo", false).unwrap().0);
-    assert_eq!("tceci'i", jvozba::get_lujvo("mutce cinri", false).unwrap().0);
-    assert_eq!("tcecla", jvozba::get_lujvo("mutce clani", false).unwrap().0);
-    assert_eq!("tcecli", jvozba::get_lujvo("mutce cilre", false).unwrap().0);
-    assert_eq!("tcecne", jvozba::get_lujvo("mutce cenba", false).unwrap().0);
-    assert_eq!("tcefri", jvozba::get_lujvo("mutce lifri", false).unwrap().0);
-    assert_eq!("tcegei", jvozba::get_lujvo("mutce gleki", false).unwrap().0);
-    assert_eq!("tcesau", jvozba::get_lujvo("mutce slabu", false).unwrap().0);
-    assert_eq!("tceselpu'a", jvozba::get_lujvo("mutce se pluka", false).unwrap().0);
-    assert_eq!("tceselspaji", jvozba::get_lujvo("mutce se spaji", false).unwrap().0);
-    assert_eq!("tceselxai", jvozba::get_lujvo("mutce se xrani", false).unwrap().0);
-    assert_eq!("tcesnosli", jvozba::get_lujvo("mutce masno slilu", false).unwrap().0);
-    assert_eq!("tcesutsli", jvozba::get_lujvo("mutce sutra slilu", false).unwrap().0);
-    assert_eq!("tceta'i", jvozba::get_lujvo("mutce tatpi", false).unwrap().0);
-    assert_eq!("tcete'a", jvozba::get_lujvo("mutce terpa", false).unwrap().0);
-    assert_eq!("tceva'uvruto'a", jvozba::get_lujvo("mutce vasxu savru tonga", false).unwrap().0);
-    assert_eq!("tcexai", jvozba::get_lujvo("mutce xrani", false).unwrap().0);
-    assert_eq!("tcikyselylacri", jvozba::get_lujvo("tcika se lacri", false).unwrap().0);
-    assert_eq!("tcikyzga", jvozba::get_lujvo("tcika zgana", false).unwrap().0);
-    assert_eq!("tcityta'o", jvozba::get_lujvo("tcita tanbo", false).unwrap().0);
-    assert_eq!("tciveljai", jvozba::get_lujvo("tutci ve jgari", false).unwrap().0);
-    assert_eq!("tcokumte", jvozba::get_lujvo("ketco kumte", false).unwrap().0);
-    assert_eq!("tcudu'u", jvozba::get_lujvo("nitcu dunku", false).unwrap().0);
-    assert_eq!("tebykre", jvozba::get_lujvo("ctebi kerfa", false).unwrap().0);
-    assert_eq!("tecmau", jvozba::get_lujvo("steci zmadu", false).unwrap().0);
-    assert_eq!("tedboi", jvozba::get_lujvo("terdi bolci", false).unwrap().0);
-    assert_eq!("tedyplini", jvozba::get_lujvo("terdi plini", false).unwrap().0);
-    assert_eq!("teicla", jvozba::get_lujvo("temci clani", false).unwrap().0);
-    assert_eq!("teirmo'a", jvozba::get_lujvo("temci morna", false).unwrap().0);
-    assert_eq!("teistu", jvozba::get_lujvo("temci stuzi", false).unwrap().0);
-    assert_eq!("tembavdei", jvozba::get_lujvo("temci balvi djedi", false).unwrap().0);
-    assert_eq!("tembavna'a", jvozba::get_lujvo("temci balvi nanca", false).unwrap().0);
-    assert_eq!("tembavytei", jvozba::get_lujvo("temci balvi temci", false).unwrap().0);
-    assert_eq!("temcimni", jvozba::get_lujvo("temci cimni", false).unwrap().0);
-    assert_eq!("temge'a", jvozba::get_lujvo("temci gerna", false).unwrap().0);
-    assert_eq!("tepcau", jvozba::get_lujvo("terpa claxu", false).unwrap().0);
-    assert_eq!("teprai", jvozba::get_lujvo("terpa traji", false).unwrap().0);
-    assert_eq!("tepri'a", jvozba::get_lujvo("terpa rinka", false).unwrap().0);
-    assert_eq!("tepringau", jvozba::get_lujvo("terpa krinu gasnu", false).unwrap().0);
-    assert_eq!("tepygau", jvozba::get_lujvo("terpa gasnu", false).unwrap().0);
-    assert_eq!("tercakyjme", jvozba::get_lujvo("te calku jemna", false).unwrap().0);
-    assert_eq!("terda'akoi", jvozba::get_lujvo("te damba korbi", false).unwrap().0);
-    assert_eq!("tergusmi'i", jvozba::get_lujvo("te gusni minji", false).unwrap().0);
-    assert_eq!("terkemselgeimau", jvozba::get_lujvo("te ke se gleki zmadu", false).unwrap().0);
-    assert_eq!("terlumpu'o", jvozba::get_lujvo("te lumci purmo", false).unwrap().0);
-    assert_eq!("termo'ixau", jvozba::get_lujvo("te morji xamgu", false).unwrap().0);
-    assert_eq!("terpecfoi", jvozba::get_lujvo("te pencu foldi", false).unwrap().0);
-    assert_eq!("tersa'e", jvozba::get_lujvo("te satre", false).unwrap().0);
-    assert_eq!("tersa'ecpu", jvozba::get_lujvo("te satre lacpu", false).unwrap().0);
-    assert_eq!("tersliroldu'i", jvozba::get_lujvo("te slilu ro dunli", false).unwrap().0);
-    assert_eq!("tersacmau", jvozba::get_lujvo("te stace zmadu", false).unwrap().0);
-    assert_eq!("terto'asko", jvozba::get_lujvo("te tonga skori", false).unwrap().0);
-    assert_eq!("tervlimau", jvozba::get_lujvo("te vlipa zmadu", false).unwrap().0);
-    assert_eq!("rixybakfu", jvozba::get_lujvo("trixe bakfu", false).unwrap().0);
-    assert_eq!("rixybo'u", jvozba::get_lujvo("trixe bongu", false).unwrap().0);
-    assert_eq!("rixykansa", jvozba::get_lujvo("trixe kansa", false).unwrap().0);
-    assert_eq!("rixpau", jvozba::get_lujvo("trixe pagbu", false).unwrap().0);
-    assert_eq!("rixtu'e", jvozba::get_lujvo("trixe tuple", false).unwrap().0);
-    assert_eq!("rixsfe", jvozba::get_lujvo("trixe sefta", false).unwrap().0);
-    assert_eq!("ti'icki", jvozba::get_lujvo("stidi ciksi", false).unwrap().0);
-    assert_eq!("ti'ifla", jvozba::get_lujvo("stidi flalu", false).unwrap().0);
-    assert_eq!("ti'ortai", jvozba::get_lujvo("ctino tarmi", false).unwrap().0);
-    assert_eq!("ti'otci", jvozba::get_lujvo("ctino tutci", false).unwrap().0);
-    assert_eq!("tixspe", jvozba::get_lujvo("tixnu speni", false).unwrap().0);
-    assert_eq!("tibmli", jvozba::get_lujvo("tinbe milxe", false).unwrap().0);
-    assert_eq!("ticyjifsku", jvozba::get_lujvo("tcica jitfa cusku", false).unwrap().0);
-    assert_eq!("ticysku", jvozba::get_lujvo("tcica cusku", false).unwrap().0);
-    assert_eq!("tigdi'u", jvozba::get_lujvo("tigni dinju", false).unwrap().0);
-    assert_eq!("tigygusta", jvozba::get_lujvo("tigni gusta", false).unwrap().0);
-    assert_eq!("tigypre", jvozba::get_lujvo("tigni prenu", false).unwrap().0);
-    assert_eq!("tikygau", jvozba::get_lujvo("stika gasnu", false).unwrap().0);
-    assert_eq!("tilcau", jvozba::get_lujvo("tcila claxu", false).unwrap().0);
-    assert_eq!("tilmau", jvozba::get_lujvo("tcila zmadu", false).unwrap().0);
-    assert_eq!("tilsku", jvozba::get_lujvo("tcila cusku", false).unwrap().0);
-    assert_eq!("tinca'a", jvozba::get_lujvo("tirna cabra", false).unwrap().0);
-    assert_eq!("tinju'i", jvozba::get_lujvo("tirna jundi", false).unwrap().0);
-    assert_eq!("tinsybu'u", jvozba::get_lujvo("tinsa bukpu", false).unwrap().0);
-    assert_eq!("tinsyple", jvozba::get_lujvo("tinsa pelji", false).unwrap().0);
-    assert_eq!("tipyboi", jvozba::get_lujvo("tikpa bolci", false).unwrap().0);
-    assert_eq!("tisnanba", jvozba::get_lujvo("tisna nanba", false).unwrap().0);
-    assert_eq!("tisycanti", jvozba::get_lujvo("tisna canti", false).unwrap().0);
-    assert_eq!("tisydja", jvozba::get_lujvo("tisna cidja", false).unwrap().0);
-    assert_eq!("titnanba", jvozba::get_lujvo("titla nanba", false).unwrap().0);
-    assert_eq!("titselpa'i", jvozba::get_lujvo("titla se prami", false).unwrap().0);
-    assert_eq!("tixmamta", jvozba::get_lujvo("tixnu mamta", false).unwrap().0);
-    assert_eq!("to'acfa", jvozba::get_lujvo("tonga cfari", false).unwrap().0);
-    assert_eq!("to'acru", jvozba::get_lujvo("tonga curmi", false).unwrap().0);
-    assert_eq!("togykaigri", jvozba::get_lujvo("tonga ckaji girzu", false).unwrap().0);
-    assert_eq!("to'asti", jvozba::get_lujvo("tonga sisti", false).unwrap().0);
-    assert_eq!("to'asto", jvozba::get_lujvo("tonga stodi", false).unwrap().0);
-    assert_eq!("tolcitnau", jvozba::get_lujvo("to'e citno nanmu", false).unwrap().0);
-    assert_eq!("tolci'o", jvozba::get_lujvo("to'e citno", false).unwrap().0);
-    assert_eq!("tolcu'i", jvozba::get_lujvo("to'e cumki", false).unwrap().0);
-    assert_eq!("toldarsi", jvozba::get_lujvo("to'e darsi", false).unwrap().0);
-    assert_eq!("tolno'i", jvozba::get_lujvo("to'e nobli", false).unwrap().0);
-    assert_eq!("tolpante", jvozba::get_lujvo("to'e pante", false).unwrap().0);
-    assert_eq!("tolsi'a", jvozba::get_lujvo("to'e sinma", false).unwrap().0);
-    assert_eq!("tolte'i", jvozba::get_lujvo("to'e steci", false).unwrap().0);
-    assert_eq!("tolte'igau", jvozba::get_lujvo("to'e steci gasnu", false).unwrap().0);
-    assert_eq!("tolvri", jvozba::get_lujvo("to'e virnu", false).unwrap().0);
-    assert_eq!("tolzba", jvozba::get_lujvo("to'e zbasu", false).unwrap().0);
-    assert_eq!("tocnunpe'i", jvozba::get_lujvo("troci nu penmi", false).unwrap().0);
-    assert_eq!("toirca'a", jvozba::get_lujvo("troci cabra", false).unwrap().0);
-    assert_eq!("togdicra", jvozba::get_lujvo("tonga dicra", false).unwrap().0);
-    assert_eq!("togle'u", jvozba::get_lujvo("tonga lerfu", false).unwrap().0);
-    assert_eq!("togra'ijmavra", jvozba::get_lujvo("tonga ranji jamfu vraga", false).unwrap().0);
-    assert_eq!("togyci'e", jvozba::get_lujvo("tonga ciste", false).unwrap().0);
-    assert_eq!("togycnesli", jvozba::get_lujvo("tonga cenba slilu", false).unwrap().0);
-    assert_eq!("to'apra", jvozba::get_lujvo("tonga cupra", false).unwrap().0);
-    assert_eq!("to'asli", jvozba::get_lujvo("tonga slilu", false).unwrap().0);
-    assert_eq!("togytikygau", jvozba::get_lujvo("tonga stika gasnu", false).unwrap().0);
-    assert_eq!("togytikpijne", jvozba::get_lujvo("tonga stika pijne", false).unwrap().0);
-    assert_eq!("togytikpijnyvau", jvozba::get_lujvo("tonga stika pijne vasru", false).unwrap().0);
-    assert_eq!("togytikyke'a", jvozba::get_lujvo("tonga stika kevna", false).unwrap().0);
-    assert_eq!("tolbanzu", jvozba::get_lujvo("to'e banzu", false).unwrap().0);
-    assert_eq!("tolcanci", jvozba::get_lujvo("to'e canci", false).unwrap().0);
-    assert_eq!("tolka'eselylacri", jvozba::get_lujvo("to'e kakne se lacri", false).unwrap().0);
-    assert_eq!("tolnindai", jvozba::get_lujvo("to'e cnino dacti", false).unwrap().0);
-    assert_eq!("tolpaivu'e", jvozba::get_lujvo("to'e pajni vrude", false).unwrap().0);
-    assert_eq!("tolpa'e", jvozba::get_lujvo("to'e prane", false).unwrap().0);
-    assert_eq!("toltiljvo", jvozba::get_lujvo("to'e tcila lujvo", false).unwrap().0);
-    assert_eq!("tolzau", jvozba::get_lujvo("to'e zanru", false).unwrap().0);
-    assert_eq!("tolzaupai", jvozba::get_lujvo("to'e zanru pajni", false).unwrap().0);
-    assert_eq!("torcrida", jvozba::get_lujvo("tordu crida", false).unwrap().0);
-    assert_eq!("tordakyxa'i", jvozba::get_lujvo("tordu dakfu xarci", false).unwrap().0);
-    assert_eq!("torga'axa'i", jvozba::get_lujvo("tordu grana xarci", false).unwrap().0);
-    assert_eq!("tormau", jvozba::get_lujvo("tordu zmadu", false).unwrap().0);
-    assert_eq!("tornunkruca", jvozba::get_lujvo("tordu nu kruca", false).unwrap().0);
-    assert_eq!("torselsku", jvozba::get_lujvo("tordu se cusku", false).unwrap().0);
-    assert_eq!("tortei", jvozba::get_lujvo("tordu temci", false).unwrap().0);
-    assert_eq!("toryre'a", jvozba::get_lujvo("tordu remna", false).unwrap().0);
-    assert_eq!("rairnei", jvozba::get_lujvo("traji nelci", false).unwrap().0);
-    assert_eq!("rairtoi", jvozba::get_lujvo("traji troci", false).unwrap().0);
-    assert_eq!("tramo'a", jvozba::get_lujvo("tarti morna", false).unwrap().0);
-    assert_eq!("tranydro", jvozba::get_lujvo("trano cidro", false).unwrap().0);
-    assert_eq!("tratygarna", jvozba::get_lujvo("trati garna", false).unwrap().0);
-    assert_eq!("ricyzbe", jvozba::get_lujvo("tricu zbepi", false).unwrap().0);
-    assert_eq!("truci'e", jvozba::get_lujvo("turni ciste", false).unwrap().0);
-    assert_eq!("trukamni", jvozba::get_lujvo("turni kamni", false).unwrap().0);
-    assert_eq!("truspe", jvozba::get_lujvo("turni speni", false).unwrap().0);
-    assert_eq!("trusragri", jvozba::get_lujvo("turni sarji girzu", false).unwrap().0);
-    assert_eq!("trustizu", jvozba::get_lujvo("turni stizu", false).unwrap().0);
-    assert_eq!("tsacinla", jvozba::get_lujvo("tsali cinla", false).unwrap().0);
-    assert_eq!("tsamau", jvozba::get_lujvo("tsali zmadu", false).unwrap().0);
-    assert_eq!("tsame'a", jvozba::get_lujvo("tsali mleca", false).unwrap().0);
-    assert_eq!("tanbargu", jvozba::get_lujvo("tsani bargu", false).unwrap().0);
-    assert_eq!("tanxa'u", jvozba::get_lujvo("tsani xabju", false).unwrap().0);
-    assert_eq!("tsarai", jvozba::get_lujvo("tsali traji", false).unwrap().0);
-    assert_eq!("tsejbi", jvozba::get_lujvo("zutse jibni", false).unwrap().0);
-    assert_eq!("tsifaigau", jvozba::get_lujvo("tsiju fatri gasnu", false).unwrap().0);
-    assert_eq!("tsilitki", jvozba::get_lujvo("tsiju litki", false).unwrap().0);
-    assert_eq!("tsipejgau", jvozba::get_lujvo("tsiju preja gasnu", false).unwrap().0);
-    assert_eq!("tsise'a", jvozba::get_lujvo("tsiju setca", false).unwrap().0);
-    assert_eq!("tsiselcigla", jvozba::get_lujvo("tsiju se cigla", false).unwrap().0);
-    assert_eq!("tsivi'i", jvozba::get_lujvo("tsiju vikmi", false).unwrap().0);
-    assert_eq!("tsubu'u", jvozba::get_lujvo("rotsu bukpu", false).unwrap().0);
-    assert_eq!("tsugrusi", jvozba::get_lujvo("rotsu grusi", false).unwrap().0);
-    assert_eq!("tu'ucra", jvozba::get_lujvo("tubnu crane", false).unwrap().0);
-    assert_eq!("tubyspe", jvozba::get_lujvo("tunba speni", false).unwrap().0);
-    assert_eq!("tubyti'u", jvozba::get_lujvo("tunba tixnu", false).unwrap().0);
-    assert_eq!("tupcutci", jvozba::get_lujvo("tuple cutci", false).unwrap().0);
-    assert_eq!("tupyga'u", jvozba::get_lujvo("tuple galtu", false).unwrap().0);
-    assert_eq!("turdu'i", jvozba::get_lujvo("stura dunli", false).unwrap().0);
-    assert_eq!("tutkoi", jvozba::get_lujvo("tutra korbi", false).unwrap().0);
-    assert_eq!("tutske", jvozba::get_lujvo("tutra saske", false).unwrap().0);
-    assert_eq!("tutytu'a", jvozba::get_lujvo("tutra tumla", false).unwrap().0);
-    assert_eq!("vajba'u", jvozba::get_lujvo("vajni bacru", false).unwrap().0);
-    assert_eq!("vajrai", jvozba::get_lujvo("vajni traji", false).unwrap().0);
-    assert_eq!("vairxu'a", jvozba::get_lujvo("vajni xusra", false).unwrap().0);
-    assert_eq!("selvaixu'a", jvozba::get_lujvo("se vajni xusra", false).unwrap().0);
-    assert_eq!("vlakei", jvozba::get_lujvo("valsi kelci", false).unwrap().0);
-    assert_eq!("vlanunkei", jvozba::get_lujvo("valsi nu kelci", false).unwrap().0);
-    assert_eq!("vlaselkei", jvozba::get_lujvo("valsi se kelci", false).unwrap().0);
-    assert_eq!("vlaturge'a", jvozba::get_lujvo("valsi stura gerna", false).unwrap().0);
-    assert_eq!("vlatercu'a", jvozba::get_lujvo("valsi te cuxna", false).unwrap().0);
-    assert_eq!("vampai", jvozba::get_lujvo("vamji pajni", false).unwrap().0);
-    assert_eq!("vacysai", jvozba::get_lujvo("vanci sanmi", false).unwrap().0);
-    assert_eq!("vanjba", jvozba::get_lujvo("vanju jbari", false).unwrap().0);
-    assert_eq!("varjei", jvozba::get_lujvo("vacri jenmi", false).unwrap().0);
-    assert_eq!("varmuvmi'i", jvozba::get_lujvo("vacri muvdu minji", false).unwrap().0);
-    assert_eq!("varselclu", jvozba::get_lujvo("vacri se culno", false).unwrap().0);
-    assert_eq!("varsoi", jvozba::get_lujvo("vacri sonci", false).unwrap().0);
-    assert_eq!("vasnanba", jvozba::get_lujvo("vasru nanba", false).unwrap().0);
-    assert_eq!("vaurgau", jvozba::get_lujvo("vasru gasnu", false).unwrap().0);
-    assert_eq!("vaxterje'e", jvozba::get_lujvo("vasxu te jetce", false).unwrap().0);
-    assert_eq!("vaxtu'o", jvozba::get_lujvo("vasxu tunlo", false).unwrap().0);
-    assert_eq!("vaxtu'upau", jvozba::get_lujvo("vasxu tubnu pagbu", false).unwrap().0);
-    assert_eq!("vaxyba'u", jvozba::get_lujvo("vasxu bacru", false).unwrap().0);
-    assert_eq!("vaxyke'a", jvozba::get_lujvo("vasxu kevna", false).unwrap().0);
-    assert_eq!("vaxyvi'i", jvozba::get_lujvo("vasxu vikmi", false).unwrap().0);
-    assert_eq!("vazdzu", jvozba::get_lujvo("va cadzu", false).unwrap().0);
-    assert_eq!("venynoi", jvozba::get_lujvo("vecnu notci", false).unwrap().0);
-    assert_eq!("vensni", jvozba::get_lujvo("vecnu sinxa", false).unwrap().0);
-    assert_eq!("vefsfa", jvozba::get_lujvo("venfu sfasa", false).unwrap().0);
-    assert_eq!("vefydji", jvozba::get_lujvo("venfu djica", false).unwrap().0);
-    assert_eq!("veirci'a", jvozba::get_lujvo("vreji ciska", false).unwrap().0);
-    assert_eq!("veljoicradi", jvozba::get_lujvo("ve joi cradi", false).unwrap().0);
-    assert_eq!("velkemprema'e", jvozba::get_lujvo("ve ke prenu marce", false).unwrap().0);
-    assert_eq!("velklali'i", jvozba::get_lujvo("ve klama linji", false).unwrap().0);
-    assert_eq!("velma'ekla", jvozba::get_lujvo("ve marce klama", false).unwrap().0);
-    assert_eq!("velma'epre", jvozba::get_lujvo("ve marce prenu", false).unwrap().0);
-    assert_eq!("velmirsna", jvozba::get_lujvo("ve minra sance", false).unwrap().0);
-    assert_eq!("velskicau", jvozba::get_lujvo("ve skicu claxu", false).unwrap().0);
-    assert_eq!("venski", jvozba::get_lujvo("vecnu skicu", false).unwrap().0);
-    assert_eq!("vesyspa", jvozba::get_lujvo("vensa spati", false).unwrap().0);
-    assert_eq!("venzmi", jvozba::get_lujvo("vecnu zmiku", false).unwrap().0);
-    assert_eq!("verjipci", jvozba::get_lujvo("verba jipci", false).unwrap().0);
-    assert_eq!("verku'i", jvozba::get_lujvo("verba kurji", false).unwrap().0);
-    assert_eq!("vi'ajmi", jvozba::get_lujvo("viska jimpe", false).unwrap().0);
-    assert_eq!("vi'ecpe", jvozba::get_lujvo("vitke cpedu", false).unwrap().0);
-    assert_eq!("vibgle", jvozba::get_lujvo("vibna gletu", false).unwrap().0);
-    assert_eq!("viblitki", jvozba::get_lujvo("vibna litki", false).unwrap().0);
-    assert_eq!("vibmolgle", jvozba::get_lujvo("vibna moklu gletu", false).unwrap().0);
-    assert_eq!("vibyselcigla", jvozba::get_lujvo("vibna se cigla", false).unwrap().0);
-    assert_eq!("vidnyveica'a", jvozba::get_lujvo("vidni vreji cabra", false).unwrap().0);
-    assert_eq!("vijyja'a", jvozba::get_lujvo("vinji jatna", false).unwrap().0);
-    assert_eq!("vijysazri", jvozba::get_lujvo("vinji sazri", false).unwrap().0);
-    assert_eq!("vilkla", jvozba::get_lujvo("vlile klama", false).unwrap().0);
-    assert_eq!("vilti'a", jvozba::get_lujvo("vlile tcima", false).unwrap().0);
-    assert_eq!("vilyle'a", jvozba::get_lujvo("vlile lebna", false).unwrap().0);
-    assert_eq!("vimku'a", jvozba::get_lujvo("vikmi kumfa", false).unwrap().0);
-    assert_eq!("viptru", jvozba::get_lujvo("vipsi turni", false).unwrap().0);
-    assert_eq!("vipyja'a", jvozba::get_lujvo("vipsi jatna", false).unwrap().0);
-    assert_eq!("viska'e", jvozba::get_lujvo("viska kakne", false).unwrap().0);
-    assert_eq!("viska'eri'a", jvozba::get_lujvo("viska kakne rinka", false).unwrap().0);
-    assert_eq!("viskli", jvozba::get_lujvo("viska klina", false).unwrap().0);
-    assert_eq!("visnalka'eri'a", jvozba::get_lujvo("viska na'e kakne rinka", false).unwrap().0);
-    assert_eq!("vi'adji", jvozba::get_lujvo("viska djica", false).unwrap().0);
-    assert_eq!("visfa'i", jvozba::get_lujvo("viska facki", false).unwrap().0);
-    assert_eq!("visyvei", jvozba::get_lujvo("viska vreji", false).unwrap().0);
-    assert_eq!("vi'orji'e", jvozba::get_lujvo("vitno jmive", false).unwrap().0);
-    assert_eq!("vizbei", jvozba::get_lujvo("vi bevri", false).unwrap().0);
-    assert_eq!("vizyklo", jvozba::get_lujvo("vi diklo", false).unwrap().0);
-    assert_eq!("vizystu", jvozba::get_lujvo("vi stuzi", false).unwrap().0);
-    assert_eq!("vlaba'i", jvozba::get_lujvo("valsi banli", false).unwrap().0);
-    assert_eq!("vlacku", jvozba::get_lujvo("valsi cukta", false).unwrap().0);
-    assert_eq!("vlaja'o", jvozba::get_lujvo("valsi jarco", false).unwrap().0);
-    assert_eq!("vlali'i", jvozba::get_lujvo("valsi linji", false).unwrap().0);
-    assert_eq!("vlami'u", jvozba::get_lujvo("valsi mintu", false).unwrap().0);
-    assert_eq!("vlaste", jvozba::get_lujvo("valsi liste", false).unwrap().0);
-    assert_eq!("vlastocku", jvozba::get_lujvo("valsi stodi cukta", false).unwrap().0);
-    assert_eq!("vlaxajmi", jvozba::get_lujvo("valsi xajmi", false).unwrap().0);
-    assert_eq!("vliki'a", jvozba::get_lujvo("vlipa krixa", false).unwrap().0);
-    assert_eq!("vlikla", jvozba::get_lujvo("vlipa klama", false).unwrap().0);
-    assert_eq!("vlimau", jvozba::get_lujvo("vlipa zmadu", false).unwrap().0);
-    assert_eq!("vlinyselkau", jvozba::get_lujvo("vlina se kampu", false).unwrap().0);
-    assert_eq!("voikla", jvozba::get_lujvo("vofli klama", false).unwrap().0);
-    assert_eq!("voirli'u", jvozba::get_lujvo("vofli litru", false).unwrap().0);
-    assert_eq!("volmabru", jvozba::get_lujvo("vofli mabru", false).unwrap().0);
-    assert_eq!("voksnaske", jvozba::get_lujvo("voksa sance saske", false).unwrap().0);
-    assert_eq!("vokle'u", jvozba::get_lujvo("voksa lerfu", false).unwrap().0);
-    assert_eq!("voksli", jvozba::get_lujvo("voksa slilu", false).unwrap().0);
-    assert_eq!("volcukla", jvozba::get_lujvo("vofli cukla", false).unwrap().0);
-    assert_eq!("volfalnu", jvozba::get_lujvo("vofli falnu", false).unwrap().0);
-    assert_eq!("volgau", jvozba::get_lujvo("vofli gasnu", false).unwrap().0);
-    assert_eq!("volselkei", jvozba::get_lujvo("vofli se kelci", false).unwrap().0);
-    assert_eq!("vonpitytai", jvozba::get_lujvo("vo plita tarmi", false).unwrap().0);
-    assert_eq!("vonselmla", jvozba::get_lujvo("vo se mlana", false).unwrap().0);
-    assert_eq!("vonmlatai", jvozba::get_lujvo("vo mlana tarmi", false).unwrap().0);
-    assert_eq!("vonskosa'e", jvozba::get_lujvo("vo skori satre", false).unwrap().0);
-    assert_eq!("vrostu", jvozba::get_lujvo("vorme stuzi", false).unwrap().0);
-    assert_eq!("vrede'a", jvozba::get_lujvo("vreta denpa", false).unwrap().0);
-    assert_eq!("vresraki'e", jvozba::get_lujvo("vreta sarji kicne", false).unwrap().0);
-    assert_eq!("vriba'i", jvozba::get_lujvo("virnu banli", false).unwrap().0);
-    assert_eq!("vricyvipsi", jvozba::get_lujvo("vrici vipsi", false).unwrap().0);
-    assert_eq!("vrikla", jvozba::get_lujvo("virnu klama", false).unwrap().0);
-    assert_eq!("vrirai", jvozba::get_lujvo("virnu traji", false).unwrap().0);
-    assert_eq!("vrobi'u", jvozba::get_lujvo("vorme bitmu", false).unwrap().0);
-    assert_eq!("vroca'o", jvozba::get_lujvo("vorme canko", false).unwrap().0);
-    assert_eq!("vrogai", jvozba::get_lujvo("vorme gacri", false).unwrap().0);
-    assert_eq!("vrozu'itci", jvozba::get_lujvo("vorme zunti tutci", false).unwrap().0);
-    assert_eq!("vruca'a", jvozba::get_lujvo("savru cabra", false).unwrap().0);
-    assert_eq!("vrucau", jvozba::get_lujvo("savru claxu", false).unwrap().0);
-    assert_eq!("vu'igla", jvozba::get_lujvo("vrusi glare", false).unwrap().0);
-    assert_eq!("xa'argai", jvozba::get_lujvo("xatra gacri", false).unwrap().0);
-    assert_eq!("xa'arvau", jvozba::get_lujvo("xatra vasru", false).unwrap().0);
-    assert_eq!("xa'urjudri", jvozba::get_lujvo("xabju judri", false).unwrap().0);
-    assert_eq!("xa'urvanbi", jvozba::get_lujvo("xabju vanbi", false).unwrap().0);
-    assert_eq!("xabyplu", jvozba::get_lujvo("xadba daplu", false).unwrap().0);
-    assert_eq!("xabmapti", jvozba::get_lujvo("xadba mapti", false).unwrap().0);
-    assert_eq!("xabminli", jvozba::get_lujvo("xadba minli", false).unwrap().0);
-    assert_eq!("xabnilganra", jvozba::get_lujvo("xadba ni ganra", false).unwrap().0);
-    assert_eq!("xabybumru", jvozba::get_lujvo("xadba bumru", false).unwrap().0);
-    assert_eq!("xacysanta", jvozba::get_lujvo("xarci santa", false).unwrap().0);
-    assert_eq!("xacysantyse'u", jvozba::get_lujvo("xarci santa selfu", false).unwrap().0);
-    assert_eq!("xadbi'o", jvozba::get_lujvo("xadni binxo", false).unwrap().0);
-    assert_eq!("xadmidju", jvozba::get_lujvo("xadni midju", false).unwrap().0);
-    assert_eq!("xadmuvgau", jvozba::get_lujvo("xadni muvdu gasnu", false).unwrap().0);
-    assert_eq!("xadycarna", jvozba::get_lujvo("xadni carna", false).unwrap().0);
-    assert_eq!("xadycla", jvozba::get_lujvo("xadni clani", false).unwrap().0);
-    assert_eq!("xadykro", jvozba::get_lujvo("xadni korcu", false).unwrap().0);
-    assert_eq!("xadypau", jvozba::get_lujvo("xadni pagbu", false).unwrap().0);
-    assert_eq!("xadyplijvi", jvozba::get_lujvo("xadni pilno jivna", false).unwrap().0);
-    assert_eq!("xadysku", jvozba::get_lujvo("xadni cusku", false).unwrap().0);
-    assert_eq!("xadytaixau", jvozba::get_lujvo("xadni tarmi xamgu", false).unwrap().0);
-    assert_eq!("xadyti'e", jvozba::get_lujvo("xadni trixe", false).unwrap().0);
-    assert_eq!("xadyxai", jvozba::get_lujvo("xadni xrani", false).unwrap().0);
-    assert_eq!("xauzma", jvozba::get_lujvo("xamgu zmadu", false).unwrap().0);
-    assert_eq!("xagmaubi'o", jvozba::get_lujvo("xamgu zmadu binxo", false).unwrap().0);
-    assert_eq!("xagmaugau", jvozba::get_lujvo("xamgu zmadu gasnu", false).unwrap().0);
-    assert_eq!("xagmaupai", jvozba::get_lujvo("xamgu zmadu pajni", false).unwrap().0);
-    assert_eq!("xagrai", jvozba::get_lujvo("xamgu traji", false).unwrap().0);
-    assert_eq!("xagri'a", jvozba::get_lujvo("xamgu rinka", false).unwrap().0);
-    assert_eq!("xaursirji", jvozba::get_lujvo("xamgu sirji", false).unwrap().0);
-    assert_eq!("xagze'a", jvozba::get_lujvo("xamgu zenba", false).unwrap().0);
-    assert_eq!("xajre'u", jvozba::get_lujvo("xarju rectu", false).unwrap().0);
-    assert_eq!("xalbarja", jvozba::get_lujvo("xalka barja", false).unwrap().0);
-    assert_eq!("xalbebna", jvozba::get_lujvo("xalka bebna", false).unwrap().0);
-    assert_eq!("xalcro", jvozba::get_lujvo("xalka cortu", false).unwrap().0);
-    assert_eq!("xaldji", jvozba::get_lujvo("xalka djica", false).unwrap().0);
-    assert_eq!("xalfenki", jvozba::get_lujvo("xalka fenki", false).unwrap().0);
-    assert_eq!("xalgei", jvozba::get_lujvo("xalka gleki", false).unwrap().0);
-    assert_eq!("xalkai", jvozba::get_lujvo("xalka ckaji", false).unwrap().0);
-    assert_eq!("xalnunvindu", jvozba::get_lujvo("xalka nu vindu", false).unwrap().0);
-    assert_eq!("xalpinxe", jvozba::get_lujvo("xalka pinxe", false).unwrap().0);
-    assert_eq!("xalpixydji", jvozba::get_lujvo("xalka pinxe djica", false).unwrap().0);
-    assert_eq!("xalsa'a", jvozba::get_lujvo("xalka sanga", false).unwrap().0);
-    assert_eq!("xalsedycro", jvozba::get_lujvo("xalka stedu cortu", false).unwrap().0);
-    assert_eq!("xalsipna", jvozba::get_lujvo("xalka sipna", false).unwrap().0);
-    assert_eq!("xalsla", jvozba::get_lujvo("xalka salci", false).unwrap().0);
-    assert_eq!("xalvamtu", jvozba::get_lujvo("xalka vamtu", false).unwrap().0);
-    assert_eq!("xalxre", jvozba::get_lujvo("xalka mixre", false).unwrap().0);
-    assert_eq!("xamfi'i", jvozba::get_lujvo("xajmi finti", false).unwrap().0);
-    assert_eq!("xamgau", jvozba::get_lujvo("xajmi gasnu", false).unwrap().0);
-    assert_eq!("xamselfi'i", jvozba::get_lujvo("xajmi se finti", false).unwrap().0);
-    assert_eq!("xamyzu'e", jvozba::get_lujvo("xajmi zukte", false).unwrap().0);
-    assert_eq!("xanboi", jvozba::get_lujvo("xance bolci", false).unwrap().0);
-    assert_eq!("xandakyxa'i", jvozba::get_lujvo("xance dakfu xarci", false).unwrap().0);
-    assert_eq!("xandegji", jvozba::get_lujvo("xance degji", false).unwrap().0);
-    assert_eq!("xandegycalku", jvozba::get_lujvo("xance degji calku", false).unwrap().0);
-    assert_eq!("xangle", jvozba::get_lujvo("xance gletu", false).unwrap().0);
-    assert_eq!("xanjanbe", jvozba::get_lujvo("xance janbe", false).unwrap().0);
-    assert_eq!("xanjoifirsku", jvozba::get_lujvo("xance joi flira cusku", false).unwrap().0);
-    assert_eq!("xansku", jvozba::get_lujvo("xance cusku", false).unwrap().0);
-    assert_eq!("xantamji", jvozba::get_lujvo("xance tamji", false).unwrap().0);
-    assert_eq!("xanterjo'e", jvozba::get_lujvo("xance te jorne", false).unwrap().0);
-    assert_eq!("xantydenmai", jvozba::get_lujvo("xanto denci marji", false).unwrap().0);
-    assert_eq!("xanzunto'a", jvozba::get_lujvo("xance zunti tonga", false).unwrap().0);
-    assert_eq!("xarpre", jvozba::get_lujvo("xanri prenu", false).unwrap().0);
-    assert_eq!("xaskla", jvozba::get_lujvo("xamsi klama", false).unwrap().0);
-    assert_eq!("xaskoi", jvozba::get_lujvo("xamsi korbi", false).unwrap().0);
-    assert_eq!("xaslycmo", jvozba::get_lujvo("xasli cmoni", false).unwrap().0);
-    assert_eq!("xasxelkla", jvozba::get_lujvo("xamsi xe klama", false).unwrap().0);
-    assert_eq!("xasyda'u", jvozba::get_lujvo("xamsi danlu", false).unwrap().0);
-    assert_eq!("xasymabru", jvozba::get_lujvo("xamsi mabru", false).unwrap().0);
-    assert_eq!("xasysfe", jvozba::get_lujvo("xamsi sefta", false).unwrap().0);
-    assert_eq!("xasyspa", jvozba::get_lujvo("xamsi spati", false).unwrap().0);
-    assert_eq!("xaufri", jvozba::get_lujvo("xamgu lifri", false).unwrap().0);
-    assert_eq!("xaujdi", jvozba::get_lujvo("xamgu jdice", false).unwrap().0);
-    assert_eq!("jikykamxaujdi", jvozba::get_lujvo("jikca ka xamgu jdice", false).unwrap().0);
-    assert_eq!("xaupre", jvozba::get_lujvo("xamgu prenu", false).unwrap().0);
-    assert_eq!("xaurfu'a", jvozba::get_lujvo("xamgu funca", false).unwrap().0);
-    assert_eq!("xaurka'e", jvozba::get_lujvo("xamgu kakne", false).unwrap().0);
-    assert_eq!("xaurpai", jvozba::get_lujvo("xamgu pajni", false).unwrap().0);
-    assert_eq!("xaurprepro", jvozba::get_lujvo("xamgu prenu fapro", false).unwrap().0);
-    assert_eq!("xaurtoi", jvozba::get_lujvo("xamgu troci", false).unwrap().0);
-    assert_eq!("xavyselmla", jvozba::get_lujvo("xa se mlana", false).unwrap().0);
-    assert_eq!("xavyto'a", jvozba::get_lujvo("xa tonga", false).unwrap().0);
-    assert_eq!("xekselkre", jvozba::get_lujvo("xekri se kerfa", false).unwrap().0);
-    assert_eq!("xejyji'o", jvozba::get_lujvo("xedja jipno", false).unwrap().0);
-    assert_eq!("xejykoi", jvozba::get_lujvo("xedja korbi", false).unwrap().0);
-    assert_eq!("xe'akre", jvozba::get_lujvo("xedja kerfa", false).unwrap().0);
-    assert_eq!("xekli'ikai", jvozba::get_lujvo("xekri linji ckaji", false).unwrap().0);
-    assert_eq!("xekyblabi", jvozba::get_lujvo("xekri blabi", false).unwrap().0);
-    assert_eq!("xekselskapi", jvozba::get_lujvo("xekri se skapi", false).unwrap().0);
-    assert_eq!("xelbe'iple", jvozba::get_lujvo("xe benji pelji", false).unwrap().0);
-    assert_eq!("xernunba'u", jvozba::get_lujvo("xenru nu bacru", false).unwrap().0);
-    assert_eq!("xerselfriti", jvozba::get_lujvo("xenru se friti", false).unwrap().0);
-    assert_eq!("xervla", jvozba::get_lujvo("xenru valsi", false).unwrap().0);
-    assert_eq!("xesxei", jvozba::get_lujvo("xelso xebni", false).unwrap().0);
-    assert_eq!("xesygu'e", jvozba::get_lujvo("xelso gugde", false).unwrap().0);
-    assert_eq!("xilcucli'u", jvozba::get_lujvo("xislu cutci litru", false).unwrap().0);
-    assert_eq!("xilcutci", jvozba::get_lujvo("xislu cutci", false).unwrap().0);
-    assert_eq!("xingu'e", jvozba::get_lujvo("xindo gugde", false).unwrap().0);
-    assert_eq!("xirkla", jvozba::get_lujvo("xirma klama", false).unwrap().0);
-    assert_eq!("xircmo", jvozba::get_lujvo("xirma cmoni", false).unwrap().0);
-    assert_eq!("xirno'i", jvozba::get_lujvo("xirma nobli", false).unwrap().0);
-    assert_eq!("xirselma'e", jvozba::get_lujvo("xirma se marce", false).unwrap().0);
-    assert_eq!("xirselma'ecu'e", jvozba::get_lujvo("xirma se marce ckule", false).unwrap().0);
-    assert_eq!("xirselma'eno'i", jvozba::get_lujvo("xirma se marce nobli", false).unwrap().0);
-    assert_eq!("xirno'i", jvozba::get_lujvo("xirma nobli", false).unwrap().0);
-    assert_eq!("xirza'u", jvozba::get_lujvo("xirma zargu", false).unwrap().0);
-    assert_eq!("xisli'icutci", jvozba::get_lujvo("xriso linji cutci", false).unwrap().0);
-    assert_eq!("xismalsi", jvozba::get_lujvo("xriso malsi", false).unwrap().0);
-    assert_eq!("xi'octu", jvozba::get_lujvo("xriso ctuca", false).unwrap().0);
-    assert_eq!("xlabu'u", jvozba::get_lujvo("xlali bukpu", false).unwrap().0);
-    assert_eq!("xlafu'a", jvozba::get_lujvo("xlali funca", false).unwrap().0);
-    assert_eq!("xlapre", jvozba::get_lujvo("xlali prenu", false).unwrap().0);
-    assert_eq!("xlari'a", jvozba::get_lujvo("xlali rinka", false).unwrap().0);
-    assert_eq!("xlati'a", jvozba::get_lujvo("xlali tcima", false).unwrap().0);
-    assert_eq!("xleserti", jvozba::get_lujvo("naxle serti", false).unwrap().0);
-    assert_eq!("xluga'i", jvozba::get_lujvo("xlura galfi", false).unwrap().0);
-    assert_eq!("xrakarni", jvozba::get_lujvo("pixra karni", false).unwrap().0);
-    assert_eq!("xrare'o", jvozba::get_lujvo("pixra renro", false).unwrap().0);
-    assert_eq!("xrube'i", jvozba::get_lujvo("xruti benji", false).unwrap().0);
-    assert_eq!("xrucpa", jvozba::get_lujvo("xruti cpacu", false).unwrap().0);
-    assert_eq!("xrufle", jvozba::get_lujvo("xruti flecu", false).unwrap().0);
-    assert_eq!("xrukla", jvozba::get_lujvo("xruti klama", false).unwrap().0);
-    assert_eq!("xu'acmu", jvozba::get_lujvo("xusra jicmu", false).unwrap().0);
-    assert_eq!("terxuspli", jvozba::get_lujvo("te xusra pilno", false).unwrap().0);
-    assert_eq!("xukske", jvozba::get_lujvo("xruki saske", false).unwrap().0);
-    assert_eq!("xuksle", jvozba::get_lujvo("xruki selci", false).unwrap().0);
-    assert_eq!("xumcacpli", jvozba::get_lujvo("xukmi tcaci pilno", false).unwrap().0);
-    assert_eq!("xumsne", jvozba::get_lujvo("xukmi senva", false).unwrap().0);
-    assert_eq!("xunkrexli", jvozba::get_lujvo("xunre kerfa nixli", false).unwrap().0);
-    assert_eq!("xusnoi", jvozba::get_lujvo("xusra notci", false).unwrap().0);
-    assert_eq!("xusycmuma'o", jvozba::get_lujvo("xusra jicmu cmavo", false).unwrap().0);
-    assert_eq!("xusypapri", jvozba::get_lujvo("xusra papri", false).unwrap().0);
-    assert_eq!("xusyvei", jvozba::get_lujvo("xusra vreji", false).unwrap().0);
-    assert_eq!("zaglamtu'e", jvozba::get_lujvo("zargu lamji tuple", false).unwrap().0);
-    assert_eq!("zajyctu", jvozba::get_lujvo("zajba ctuca", false).unwrap().0);
-    assert_eq!("zalre'u", jvozba::get_lujvo("zalvi rectu", false).unwrap().0);
-    assert_eq!("zaltapla", jvozba::get_lujvo("zalvi tapla", false).unwrap().0);
-    assert_eq!("zancimstu", jvozba::get_lujvo("zabna cilmo stuzi", false).unwrap().0);
-    assert_eq!("zanfri", jvozba::get_lujvo("zabna lifri", false).unwrap().0);
-    assert_eq!("zarki'a", jvozba::get_lujvo("zanru krixa", false).unwrap().0);
-    assert_eq!("zasmo'isro", jvozba::get_lujvo("zasni morji sorcu", false).unwrap().0);
-    assert_eq!("zasyspo", jvozba::get_lujvo("zasni daspo", false).unwrap().0);
-    assert_eq!("zasysti", jvozba::get_lujvo("zasni sisti", false).unwrap().0);
-    assert_eq!("macyva'uzasysti", jvozba::get_lujvo("manci vasxu zasni sisti", false).unwrap().0);
-    assert_eq!("zatfa'i", jvozba::get_lujvo("zasti facki", false).unwrap().0);
-    assert_eq!("zatsta", jvozba::get_lujvo("zasti stali", false).unwrap().0);
-    assert_eq!("zausku", jvozba::get_lujvo("zanru cusku", false).unwrap().0);
-    assert_eq!("zbaske", jvozba::get_lujvo("zbasu saske", false).unwrap().0);
-    assert_eq!("zbaveljmina", jvozba::get_lujvo("zbasu ve jmina", false).unwrap().0);
-    assert_eq!("zbero'i", jvozba::get_lujvo("zbepi rokci", false).unwrap().0);
-    assert_eq!("zbisakci", jvozba::get_lujvo("nazbi sakci", false).unwrap().0);
-    assert_eq!("zdabartu", jvozba::get_lujvo("zdani bartu", false).unwrap().0);
-    assert_eq!("zdacravro", jvozba::get_lujvo("zdani crane vorme", false).unwrap().0);
-    assert_eq!("zdadi'u", jvozba::get_lujvo("zdani dinju", false).unwrap().0);
-    assert_eq!("zdaku'i", jvozba::get_lujvo("zdani kurji", false).unwrap().0);
-    assert_eq!("zdamu'e", jvozba::get_lujvo("zdani munje", false).unwrap().0);
-    assert_eq!("zdane'i", jvozba::get_lujvo("zdani nenri", false).unwrap().0);
-    assert_eq!("zdasazri", jvozba::get_lujvo("zdani sazri", false).unwrap().0);
-    assert_eq!("zdaspe", jvozba::get_lujvo("zdani speni", false).unwrap().0);
-    assert_eq!("zdasta", jvozba::get_lujvo("zdani stali", false).unwrap().0);
-    assert_eq!("zdatutra", jvozba::get_lujvo("zdani tutra", false).unwrap().0);
-    assert_eq!("zdaxru", jvozba::get_lujvo("zdani xruti", false).unwrap().0);
-    assert_eq!("zdida'asnu", jvozba::get_lujvo("zdile damba casnu", false).unwrap().0);
-    assert_eq!("zdifanza", jvozba::get_lujvo("zdile fanza", false).unwrap().0);
-    assert_eq!("zdilisri", jvozba::get_lujvo("zdile lisri", false).unwrap().0);
-    assert_eq!("zenri'a", jvozba::get_lujvo("zenba rinka", false).unwrap().0);
-    assert_eq!("zergau", jvozba::get_lujvo("zekri gasnu", false).unwrap().0);
-    assert_eq!("zerkalte", jvozba::get_lujvo("zekri kalte", false).unwrap().0);
-    assert_eq!("zerle'a", jvozba::get_lujvo("zekri lebna", false).unwrap().0);
-    assert_eq!("blozeile'a", jvozba::get_lujvo("bloti zekri lebna", false).unwrap().0);
-    assert_eq!("nunblozeile'a", jvozba::get_lujvo("nu bloti zekri lebna", false).unwrap().0);
-    assert_eq!("nunzeile'a", jvozba::get_lujvo("nu zekri lebna", false).unwrap().0);
-    assert_eq!("zernerkla", jvozba::get_lujvo("zekri nenri klama", false).unwrap().0);
-    assert_eq!("zerxai", jvozba::get_lujvo("zekri xrani", false).unwrap().0);
-    assert_eq!("zerxaigau", jvozba::get_lujvo("zekri xrani gasnu", false).unwrap().0);
-    assert_eq!("zetcla", jvozba::get_lujvo("zetro clani", false).unwrap().0);
-    assert_eq!("zgama'o", jvozba::get_lujvo("zgana cmavo", false).unwrap().0);
-    assert_eq!("zgatirna", jvozba::get_lujvo("zgana tirna", false).unwrap().0);
-    assert_eq!("zgica'a", jvozba::get_lujvo("zgike cabra", false).unwrap().0);
-    assert_eq!("zgifau", jvozba::get_lujvo("zgike fasnu", false).unwrap().0);
-    assert_eq!("zgifi'i", jvozba::get_lujvo("zgike finti", false).unwrap().0);
-    assert_eq!("zgijvexajmi", jvozba::get_lujvo("zgike je xajmi", false).unwrap().0);
-    assert_eq!("zgikabri", jvozba::get_lujvo("zgike kabri", false).unwrap().0);
-    assert_eq!("zgikalsa", jvozba::get_lujvo("zgike kalsa", false).unwrap().0);
-    assert_eq!("zgipi'o", jvozba::get_lujvo("zgike pipno", false).unwrap().0);
-    assert_eq!("zgiselsku", jvozba::get_lujvo("zgike se cusku", false).unwrap().0);
-    assert_eq!("zgisku", jvozba::get_lujvo("zgike cusku", false).unwrap().0);
-    assert_eq!("selzgisku", jvozba::get_lujvo("se zgike cusku", false).unwrap().0);
-    assert_eq!("zgizu'e", jvozba::get_lujvo("zgike zukte", false).unwrap().0);
-    assert_eq!("zifri'a", jvozba::get_lujvo("zifre rinka", false).unwrap().0);
-    assert_eq!("zirjbo", jvozba::get_lujvo("zirpu lojbo", false).unwrap().0);
-    assert_eq!("maudji", jvozba::get_lujvo("zmadu djica", false).unwrap().0);
-    assert_eq!("zmanei", jvozba::get_lujvo("zmadu nelci", false).unwrap().0);
-    assert_eq!("termaupu'a", jvozba::get_lujvo("te zmadu pluka", false).unwrap().0);
-    assert_eq!("zmari'a", jvozba::get_lujvo("zmadu rinka", false).unwrap().0);
-    assert_eq!("zmitra", jvozba::get_lujvo("zmiku tarti", false).unwrap().0);
-    assert_eq!("zmutu'a", jvozba::get_lujvo("zumri tumla", false).unwrap().0);
-    assert_eq!("zu'edji", jvozba::get_lujvo("zukte djica", false).unwrap().0);
-    assert_eq!("zugyxu'a", jvozba::get_lujvo("zungi xusra", false).unwrap().0);
-    assert_eq!("zulxa'e", jvozba::get_lujvo("zunle xance", false).unwrap().0);
-    assert_eq!("zunsna", jvozba::get_lujvo("zunti sance", false).unwrap().0);
-    assert_eq!("tsekansa", jvozba::get_lujvo("zutse kansa", false).unwrap().0);
-    assert_eq!("tsela'i", jvozba::get_lujvo("zutse lamji", false).unwrap().0);
-    assert_eq!("zvaju'o", jvozba::get_lujvo("zvati djuno", false).unwrap().0);
-    assert_eq!("zvakansa", jvozba::get_lujvo("zvati kansa", false).unwrap().0);
-    assert_eq!("zvapre", jvozba::get_lujvo("zvati prenu", false).unwrap().0);
-    assert_eq!("zvaste", jvozba::get_lujvo("zvati liste", false).unwrap().0);
-    assert_eq!("zvastejbu", jvozba::get_lujvo("zvati liste jubme", false).unwrap().0);
-    assert_eq!("selba'u", jvozba::get_lujvo("se bacru", false).unwrap().0);
-    assert_eq!("selbadna", jvozba::get_lujvo("se badna", false).unwrap().0);
-    assert_eq!("seldri", jvozba::get_lujvo("se badri", false).unwrap().0);
-    assert_eq!("selbajra", jvozba::get_lujvo("se bajra", false).unwrap().0);
-    assert_eq!("terbajra", jvozba::get_lujvo("te bajra", false).unwrap().0);
-    assert_eq!("velbajra", jvozba::get_lujvo("ve bajra", false).unwrap().0);
-    assert_eq!("selbakfu", jvozba::get_lujvo("se bakfu", false).unwrap().0);
-    assert_eq!("terbakfu", jvozba::get_lujvo("te bakfu", false).unwrap().0);
-    assert_eq!("selbakni", jvozba::get_lujvo("se bakni", false).unwrap().0);
-    assert_eq!("selbakri", jvozba::get_lujvo("se bakri", false).unwrap().0);
-    assert_eq!("terbakri", jvozba::get_lujvo("te bakri", false).unwrap().0);
-    assert_eq!("selbaktu", jvozba::get_lujvo("se baktu", false).unwrap().0);
-    assert_eq!("terbaktu", jvozba::get_lujvo("te baktu", false).unwrap().0);
-    assert_eq!("selbalji", jvozba::get_lujvo("se balji", false).unwrap().0);
-    assert_eq!("selbalni", jvozba::get_lujvo("se balni", false).unwrap().0);
-    assert_eq!("selba'e", jvozba::get_lujvo("se balre", false).unwrap().0);
-    assert_eq!("selbalvi", jvozba::get_lujvo("se balvi", false).unwrap().0);
-    assert_eq!("selbancu", jvozba::get_lujvo("se bancu", false).unwrap().0);
-    assert_eq!("terbancu", jvozba::get_lujvo("te bancu", false).unwrap().0);
-    assert_eq!("velbancu", jvozba::get_lujvo("ve bancu", false).unwrap().0);
-    assert_eq!("selbandu", jvozba::get_lujvo("se bandu", false).unwrap().0);
-    assert_eq!("terbandu", jvozba::get_lujvo("te bandu", false).unwrap().0);
-    assert_eq!("selbanfi", jvozba::get_lujvo("se banfi", false).unwrap().0);
-    assert_eq!("selbau", jvozba::get_lujvo("se bangu", false).unwrap().0);
-    assert_eq!("terbau", jvozba::get_lujvo("te bangu", false).unwrap().0);
-    assert_eq!("selba'i", jvozba::get_lujvo("se banli", false).unwrap().0);
-    assert_eq!("terba'i", jvozba::get_lujvo("te banli", false).unwrap().0);
-    assert_eq!("selba'o", jvozba::get_lujvo("se banro", false).unwrap().0);
-    assert_eq!("terba'o", jvozba::get_lujvo("te banro", false).unwrap().0);
-    assert_eq!("selbanxa", jvozba::get_lujvo("se banxa", false).unwrap().0);
-    assert_eq!("terbanxa", jvozba::get_lujvo("te banxa", false).unwrap().0);
-    assert_eq!("selbanzu", jvozba::get_lujvo("se banzu", false).unwrap().0);
-    assert_eq!("terbanzu", jvozba::get_lujvo("te banzu", false).unwrap().0);
-    assert_eq!("selbai", jvozba::get_lujvo("se bapli", false).unwrap().0);
-    assert_eq!("selbra", jvozba::get_lujvo("se barda", false).unwrap().0);
-    assert_eq!("terbra", jvozba::get_lujvo("te barda", false).unwrap().0);
-    assert_eq!("selbargu", jvozba::get_lujvo("se bargu", false).unwrap().0);
-    assert_eq!("terbargu", jvozba::get_lujvo("te bargu", false).unwrap().0);
-    assert_eq!("selbarja", jvozba::get_lujvo("se barja", false).unwrap().0);
-    assert_eq!("terbarja", jvozba::get_lujvo("te barja", false).unwrap().0);
-    assert_eq!("selba'a", jvozba::get_lujvo("se barna", false).unwrap().0);
-    assert_eq!("terba'a", jvozba::get_lujvo("te barna", false).unwrap().0);
-    assert_eq!("selbartu", jvozba::get_lujvo("se bartu", false).unwrap().0);
-    assert_eq!("selbasna", jvozba::get_lujvo("se basna", false).unwrap().0);
-    assert_eq!("terbasna", jvozba::get_lujvo("te basna", false).unwrap().0);
-    assert_eq!("selbasti", jvozba::get_lujvo("se basti", false).unwrap().0);
-    assert_eq!("terbasti", jvozba::get_lujvo("te basti", false).unwrap().0);
-    assert_eq!("selbatci", jvozba::get_lujvo("se batci", false).unwrap().0);
-    assert_eq!("terbatci", jvozba::get_lujvo("te batci", false).unwrap().0);
-    assert_eq!("velbatci", jvozba::get_lujvo("ve batci", false).unwrap().0);
-    assert_eq!("selbatke", jvozba::get_lujvo("se batke", false).unwrap().0);
-    assert_eq!("terbatke", jvozba::get_lujvo("te batke", false).unwrap().0);
-    assert_eq!("velbatke", jvozba::get_lujvo("ve batke", false).unwrap().0);
-    assert_eq!("selbavmi", jvozba::get_lujvo("se bavmi", false).unwrap().0);
-    assert_eq!("selbaxso", jvozba::get_lujvo("se baxso", false).unwrap().0);
-    assert_eq!("selbebna", jvozba::get_lujvo("se bebna", false).unwrap().0);
-    assert_eq!("selbe'o", jvozba::get_lujvo("se bemro", false).unwrap().0);
-    assert_eq!("selbe'e", jvozba::get_lujvo("se bende", false).unwrap().0);
-    assert_eq!("terbe'e", jvozba::get_lujvo("te bende", false).unwrap().0);
-    assert_eq!("velbe'e", jvozba::get_lujvo("ve bende", false).unwrap().0);
-    assert_eq!("selbengo", jvozba::get_lujvo("se bengo", false).unwrap().0);
-    assert_eq!("selbe'i", jvozba::get_lujvo("se benji", false).unwrap().0);
-    assert_eq!("terbe'i", jvozba::get_lujvo("te benji", false).unwrap().0);
-    assert_eq!("velbe'i", jvozba::get_lujvo("ve benji", false).unwrap().0);
-    assert_eq!("xelbe'i", jvozba::get_lujvo("xe benji", false).unwrap().0);
-    assert_eq!("selbe'a", jvozba::get_lujvo("se bersa", false).unwrap().0);
-    assert_eq!("selberti", jvozba::get_lujvo("se berti", false).unwrap().0);
-    assert_eq!("terberti", jvozba::get_lujvo("te berti", false).unwrap().0);
-    assert_eq!("selbesna", jvozba::get_lujvo("se besna", false).unwrap().0);
-    assert_eq!("selbe'u", jvozba::get_lujvo("se betfu", false).unwrap().0);
-    assert_eq!("selbetri", jvozba::get_lujvo("se betri", false).unwrap().0);
-    assert_eq!("selbei", jvozba::get_lujvo("se bevri", false).unwrap().0);
-    assert_eq!("terbei", jvozba::get_lujvo("te bevri", false).unwrap().0);
-    assert_eq!("velbei", jvozba::get_lujvo("ve bevri", false).unwrap().0);
-    assert_eq!("xelbei", jvozba::get_lujvo("xe bevri", false).unwrap().0);
-    assert_eq!("selbidju", jvozba::get_lujvo("se bidju", false).unwrap().0);
-    assert_eq!("selbifce", jvozba::get_lujvo("se bifce", false).unwrap().0);
-    assert_eq!("selbilga", jvozba::get_lujvo("se bilga", false).unwrap().0);
-    assert_eq!("terbilga", jvozba::get_lujvo("te bilga", false).unwrap().0);
-    assert_eq!("selbi'a", jvozba::get_lujvo("se bilma", false).unwrap().0);
-    assert_eq!("terbi'a", jvozba::get_lujvo("te bilma", false).unwrap().0);
-    assert_eq!("selbilni", jvozba::get_lujvo("se bilni", false).unwrap().0);
-    assert_eq!("terbilni", jvozba::get_lujvo("te bilni", false).unwrap().0);
-    assert_eq!("selbindo", jvozba::get_lujvo("se bindo", false).unwrap().0);
-    assert_eq!("selbinra", jvozba::get_lujvo("se binra", false).unwrap().0);
-    assert_eq!("terbinra", jvozba::get_lujvo("te binra", false).unwrap().0);
-    assert_eq!("velbinra", jvozba::get_lujvo("ve binra", false).unwrap().0);
-    assert_eq!("selbi'o", jvozba::get_lujvo("se binxo", false).unwrap().0);
-    assert_eq!("terbi'o", jvozba::get_lujvo("te binxo", false).unwrap().0);
-    assert_eq!("selbirje", jvozba::get_lujvo("se birje", false).unwrap().0);
-    assert_eq!("selbirka", jvozba::get_lujvo("se birka", false).unwrap().0);
-    assert_eq!("selbirti", jvozba::get_lujvo("se birti", false).unwrap().0);
-    assert_eq!("selbisli", jvozba::get_lujvo("se bisli", false).unwrap().0);
-    assert_eq!("selbi'u", jvozba::get_lujvo("se bitmu", false).unwrap().0);
-    assert_eq!("terbi'u", jvozba::get_lujvo("te bitmu", false).unwrap().0);
-    assert_eq!("velbi'u", jvozba::get_lujvo("ve bitmu", false).unwrap().0);
-    assert_eq!("selblaci", jvozba::get_lujvo("se blaci", false).unwrap().0);
-    assert_eq!("selbli", jvozba::get_lujvo("se bliku", false).unwrap().0);
-    assert_eq!("terbli", jvozba::get_lujvo("te bliku", false).unwrap().0);
-    assert_eq!("selblo", jvozba::get_lujvo("se bloti", false).unwrap().0);
-    assert_eq!("terblo", jvozba::get_lujvo("te bloti", false).unwrap().0);
-    assert_eq!("selboi", jvozba::get_lujvo("se bolci", false).unwrap().0);
-    assert_eq!("selbo'u", jvozba::get_lujvo("se bongu", false).unwrap().0);
-    assert_eq!("terbo'u", jvozba::get_lujvo("te bongu", false).unwrap().0);
-    assert_eq!("selbo'i", jvozba::get_lujvo("se botpi", false).unwrap().0);
-    assert_eq!("terbo'i", jvozba::get_lujvo("te botpi", false).unwrap().0);
-    assert_eq!("velbo'i", jvozba::get_lujvo("ve botpi", false).unwrap().0);
-    assert_eq!("selbo'o", jvozba::get_lujvo("se boxfo", false).unwrap().0);
-    assert_eq!("selbo'a", jvozba::get_lujvo("se boxna", false).unwrap().0);
-    assert_eq!("terbo'a", jvozba::get_lujvo("te boxna", false).unwrap().0);
-    assert_eq!("velbo'a", jvozba::get_lujvo("ve boxna", false).unwrap().0);
-    assert_eq!("xelbo'a", jvozba::get_lujvo("xe boxna", false).unwrap().0);
-    assert_eq!("selbradi", jvozba::get_lujvo("se bradi", false).unwrap().0);
-    assert_eq!("terbradi", jvozba::get_lujvo("te bradi", false).unwrap().0);
-    assert_eq!("selbratu", jvozba::get_lujvo("se bratu", false).unwrap().0);
-    assert_eq!("selbrazo", jvozba::get_lujvo("se brazo", false).unwrap().0);
-    assert_eq!("selbre", jvozba::get_lujvo("se bredi", false).unwrap().0);
-    assert_eq!("selbri", jvozba::get_lujvo("se bridi", false).unwrap().0);
-    assert_eq!("terbri", jvozba::get_lujvo("te bridi", false).unwrap().0);
-    assert_eq!("selbi'e", jvozba::get_lujvo("se brife", false).unwrap().0);
-    assert_eq!("terbi'e", jvozba::get_lujvo("te brife", false).unwrap().0);
-    assert_eq!("selbriju", jvozba::get_lujvo("se briju", false).unwrap().0);
-    assert_eq!("terbriju", jvozba::get_lujvo("te briju", false).unwrap().0);
-    assert_eq!("selbrito", jvozba::get_lujvo("se brito", false).unwrap().0);
-    assert_eq!("selbu'a", jvozba::get_lujvo("se bruna", false).unwrap().0);
-    assert_eq!("terbu'a", jvozba::get_lujvo("te bruna", false).unwrap().0);
-    assert_eq!("selbu'o", jvozba::get_lujvo("se budjo", false).unwrap().0);
-    assert_eq!("selbu'u", jvozba::get_lujvo("se bukpu", false).unwrap().0);
-    assert_eq!("selbumru", jvozba::get_lujvo("se bumru", false).unwrap().0);
-    assert_eq!("selbunda", jvozba::get_lujvo("se bunda", false).unwrap().0);
-    assert_eq!("terbunda", jvozba::get_lujvo("te bunda", false).unwrap().0);
-    assert_eq!("velbunda", jvozba::get_lujvo("ve bunda", false).unwrap().0);
-    assert_eq!("selbru", jvozba::get_lujvo("se burcu", false).unwrap().0);
-    assert_eq!("terbru", jvozba::get_lujvo("te burcu", false).unwrap().0);
-    assert_eq!("selburna", jvozba::get_lujvo("se burna", false).unwrap().0);
-    assert_eq!("selcabna", jvozba::get_lujvo("se cabna", false).unwrap().0);
-    assert_eq!("selca'a", jvozba::get_lujvo("se cabra", false).unwrap().0);
-    assert_eq!("terca'a", jvozba::get_lujvo("te cabra", false).unwrap().0);
-    assert_eq!("selcacra", jvozba::get_lujvo("se cacra", false).unwrap().0);
-    assert_eq!("tercacra", jvozba::get_lujvo("te cacra", false).unwrap().0);
-    assert_eq!("seldzu", jvozba::get_lujvo("se cadzu", false).unwrap().0);
-    assert_eq!("terdzu", jvozba::get_lujvo("te cadzu", false).unwrap().0);
-    assert_eq!("selcafne", jvozba::get_lujvo("se cafne", false).unwrap().0);
-    assert_eq!("selcalku", jvozba::get_lujvo("se calku", false).unwrap().0);
-    assert_eq!("tercalku", jvozba::get_lujvo("te calku", false).unwrap().0);
-    assert_eq!("selcanci", jvozba::get_lujvo("se canci", false).unwrap().0);
-    assert_eq!("tercanci", jvozba::get_lujvo("te canci", false).unwrap().0);
-    assert_eq!("selcange", jvozba::get_lujvo("se cange", false).unwrap().0);
-    assert_eq!("tercange", jvozba::get_lujvo("te cange", false).unwrap().0);
-    assert_eq!("velcange", jvozba::get_lujvo("ve cange", false).unwrap().0);
-    assert_eq!("selcanja", jvozba::get_lujvo("se canja", false).unwrap().0);
-    assert_eq!("tercanja", jvozba::get_lujvo("te canja", false).unwrap().0);
-    assert_eq!("velcanja", jvozba::get_lujvo("ve canja", false).unwrap().0);
-    assert_eq!("selca'o", jvozba::get_lujvo("se canko", false).unwrap().0);
-    assert_eq!("selcna", jvozba::get_lujvo("se canpa", false).unwrap().0);
-    assert_eq!("selcanre", jvozba::get_lujvo("se canre", false).unwrap().0);
-    assert_eq!("tercanre", jvozba::get_lujvo("te canre", false).unwrap().0);
-    assert_eq!("selcanti", jvozba::get_lujvo("se canti", false).unwrap().0);
-    assert_eq!("selcarce", jvozba::get_lujvo("se carce", false).unwrap().0);
-    assert_eq!("tercarce", jvozba::get_lujvo("te carce", false).unwrap().0);
-    assert_eq!("selcai", jvozba::get_lujvo("se carmi", false).unwrap().0);
-    assert_eq!("tercai", jvozba::get_lujvo("te carmi", false).unwrap().0);
-    assert_eq!("selcarna", jvozba::get_lujvo("se carna", false).unwrap().0);
-    assert_eq!("tercarna", jvozba::get_lujvo("te carna", false).unwrap().0);
-    assert_eq!("selcartu", jvozba::get_lujvo("se cartu", false).unwrap().0);
-    assert_eq!("tercartu", jvozba::get_lujvo("te cartu", false).unwrap().0);
-    assert_eq!("selcarvi", jvozba::get_lujvo("se carvi", false).unwrap().0);
-    assert_eq!("tercarvi", jvozba::get_lujvo("te carvi", false).unwrap().0);
-    assert_eq!("selsnu", jvozba::get_lujvo("se casnu", false).unwrap().0);
-    assert_eq!("selca'e", jvozba::get_lujvo("se catke", false).unwrap().0);
-    assert_eq!("terca'e", jvozba::get_lujvo("te catke", false).unwrap().0);
-    assert_eq!("selcta", jvozba::get_lujvo("se catlu", false).unwrap().0);
-    assert_eq!("selca'i", jvozba::get_lujvo("se catni", false).unwrap().0);
-    assert_eq!("terca'i", jvozba::get_lujvo("te catni", false).unwrap().0);
-    assert_eq!("selcatra", jvozba::get_lujvo("se catra", false).unwrap().0);
-    assert_eq!("tercatra", jvozba::get_lujvo("te catra", false).unwrap().0);
-    assert_eq!("selcaxno", jvozba::get_lujvo("se caxno", false).unwrap().0);
-    assert_eq!("tercaxno", jvozba::get_lujvo("te caxno", false).unwrap().0);
-    assert_eq!("velcaxno", jvozba::get_lujvo("ve caxno", false).unwrap().0);
-    assert_eq!("selce'a", jvozba::get_lujvo("se cecla", false).unwrap().0);
-    assert_eq!("terce'a", jvozba::get_lujvo("te cecla", false).unwrap().0);
-    assert_eq!("selce'u", jvozba::get_lujvo("se cecmu", false).unwrap().0);
-    assert_eq!("selcedra", jvozba::get_lujvo("se cedra", false).unwrap().0);
-    assert_eq!("selcne", jvozba::get_lujvo("se cenba", false).unwrap().0);
-    assert_eq!("tercne", jvozba::get_lujvo("te cenba", false).unwrap().0);
-    assert_eq!("velcne", jvozba::get_lujvo("ve cenba", false).unwrap().0);
-    assert_eq!("selcensa", jvozba::get_lujvo("se censa", false).unwrap().0);
-    assert_eq!("selcenti", jvozba::get_lujvo("se centi", false).unwrap().0);
-    assert_eq!("tercenti", jvozba::get_lujvo("te centi", false).unwrap().0);
-    assert_eq!("selcerda", jvozba::get_lujvo("se cerda", false).unwrap().0);
-    assert_eq!("tercerda", jvozba::get_lujvo("te cerda", false).unwrap().0);
-    assert_eq!("velcerda", jvozba::get_lujvo("ve cerda", false).unwrap().0);
-    assert_eq!("selcerni", jvozba::get_lujvo("se cerni", false).unwrap().0);
-    assert_eq!("tercerni", jvozba::get_lujvo("te cerni", false).unwrap().0);
-    assert_eq!("selcre", jvozba::get_lujvo("se certu", false).unwrap().0);
-    assert_eq!("tercre", jvozba::get_lujvo("te certu", false).unwrap().0);
-    assert_eq!("selcei", jvozba::get_lujvo("se cevni", false).unwrap().0);
-    assert_eq!("tercei", jvozba::get_lujvo("te cevni", false).unwrap().0);
-    assert_eq!("selfi'a", jvozba::get_lujvo("se cfika", false).unwrap().0);
-    assert_eq!("terfi'a", jvozba::get_lujvo("te cfika", false).unwrap().0);
-    assert_eq!("selcfi", jvozba::get_lujvo("se cfila", false).unwrap().0);
-    assert_eq!("tercfi", jvozba::get_lujvo("te cfila", false).unwrap().0);
-    assert_eq!("selcfine", jvozba::get_lujvo("se cfine", false).unwrap().0);
-    assert_eq!("selfi'u", jvozba::get_lujvo("se cfipu", false).unwrap().0);
-    assert_eq!("terfi'u", jvozba::get_lujvo("te cfipu", false).unwrap().0);
-    assert_eq!("selblu", jvozba::get_lujvo("se ciblu", false).unwrap().0);
-    assert_eq!("seldja", jvozba::get_lujvo("se cidja", false).unwrap().0);
-    assert_eq!("selcidni", jvozba::get_lujvo("se cidni", false).unwrap().0);
-    assert_eq!("tercidni", jvozba::get_lujvo("te cidni", false).unwrap().0);
-    assert_eq!("selcifnu", jvozba::get_lujvo("se cifnu", false).unwrap().0);
-    assert_eq!("selcigla", jvozba::get_lujvo("se cigla", false).unwrap().0);
-    assert_eq!("tercigla", jvozba::get_lujvo("te cigla", false).unwrap().0);
-    assert_eq!("selcikre", jvozba::get_lujvo("se cikre", false).unwrap().0);
-    assert_eq!("tercikre", jvozba::get_lujvo("te cikre", false).unwrap().0);
-    assert_eq!("selcki", jvozba::get_lujvo("se ciksi", false).unwrap().0);
-    assert_eq!("tercki", jvozba::get_lujvo("te ciksi", false).unwrap().0);
-    assert_eq!("velcki", jvozba::get_lujvo("ve ciksi", false).unwrap().0);
-    assert_eq!("selcilmo", jvozba::get_lujvo("se cilmo", false).unwrap().0);
-    assert_eq!("selcli", jvozba::get_lujvo("se cilre", false).unwrap().0);
-    assert_eq!("tercli", jvozba::get_lujvo("te cilre", false).unwrap().0);
-    assert_eq!("velcli", jvozba::get_lujvo("ve cilre", false).unwrap().0);
-    assert_eq!("xelcli", jvozba::get_lujvo("xe cilre", false).unwrap().0);
-    assert_eq!("selcilta", jvozba::get_lujvo("se cilta", false).unwrap().0);
-    assert_eq!("selcimde", jvozba::get_lujvo("se cimde", false).unwrap().0);
-    assert_eq!("tercimde", jvozba::get_lujvo("te cimde", false).unwrap().0);
-    assert_eq!("selcimni", jvozba::get_lujvo("se cimni", false).unwrap().0);
-    assert_eq!("tercimni", jvozba::get_lujvo("te cimni", false).unwrap().0);
-    assert_eq!("selcinba", jvozba::get_lujvo("se cinba", false).unwrap().0);
-    assert_eq!("tercinba", jvozba::get_lujvo("te cinba", false).unwrap().0);
-    assert_eq!("selcindu", jvozba::get_lujvo("se cindu", false).unwrap().0);
-    assert_eq!("selcinfo", jvozba::get_lujvo("se cinfo", false).unwrap().0);
-    assert_eq!("selcinje", jvozba::get_lujvo("se cinje", false).unwrap().0);
-    assert_eq!("selcinki", jvozba::get_lujvo("se cinki", false).unwrap().0);
-    assert_eq!("selcinla", jvozba::get_lujvo("se cinla", false).unwrap().0);
-    assert_eq!("tercinla", jvozba::get_lujvo("te cinla", false).unwrap().0);
-    assert_eq!("selcni", jvozba::get_lujvo("se cinmo", false).unwrap().0);
-    assert_eq!("tercni", jvozba::get_lujvo("te cinmo", false).unwrap().0);
-    assert_eq!("selci'i", jvozba::get_lujvo("se cinri", false).unwrap().0);
-    assert_eq!("selcinse", jvozba::get_lujvo("se cinse", false).unwrap().0);
-    assert_eq!("tercinse", jvozba::get_lujvo("te cinse", false).unwrap().0);
-    assert_eq!("velcinse", jvozba::get_lujvo("ve cinse", false).unwrap().0);
-    assert_eq!("selcinta", jvozba::get_lujvo("se cinta", false).unwrap().0);
-    assert_eq!("tercinta", jvozba::get_lujvo("te cinta", false).unwrap().0);
-    assert_eq!("selcinza", jvozba::get_lujvo("se cinza", false).unwrap().0);
-    assert_eq!("tercinza", jvozba::get_lujvo("te cinza", false).unwrap().0);
-    assert_eq!("selcpi", jvozba::get_lujvo("se cipni", false).unwrap().0);
-    assert_eq!("selcipra", jvozba::get_lujvo("se cipra", false).unwrap().0);
-    assert_eq!("tercipra", jvozba::get_lujvo("te cipra", false).unwrap().0);
-    assert_eq!("selcri", jvozba::get_lujvo("se cirko", false).unwrap().0);
-    assert_eq!("tercri", jvozba::get_lujvo("te cirko", false).unwrap().0);
-    assert_eq!("selcirla", jvozba::get_lujvo("se cirla", false).unwrap().0);
-    assert_eq!("selci'a", jvozba::get_lujvo("se ciska", false).unwrap().0);
-    assert_eq!("terci'a", jvozba::get_lujvo("te ciska", false).unwrap().0);
-    assert_eq!("velci'a", jvozba::get_lujvo("ve ciska", false).unwrap().0);
-    assert_eq!("selci'e", jvozba::get_lujvo("se ciste", false).unwrap().0);
-    assert_eq!("terci'e", jvozba::get_lujvo("te ciste", false).unwrap().0);
-    assert_eq!("velci'e", jvozba::get_lujvo("ve ciste", false).unwrap().0);
-    assert_eq!("selcti", jvozba::get_lujvo("se citka", false).unwrap().0);
-    assert_eq!("selci'o", jvozba::get_lujvo("se citno", false).unwrap().0);
-    assert_eq!("selcitri", jvozba::get_lujvo("se citri", false).unwrap().0);
-    assert_eq!("tercitri", jvozba::get_lujvo("te citri", false).unwrap().0);
-    assert_eq!("selcitsi", jvozba::get_lujvo("se citsi", false).unwrap().0);
-    assert_eq!("tercitsi", jvozba::get_lujvo("te citsi", false).unwrap().0);
-    assert_eq!("selcivla", jvozba::get_lujvo("se civla", false).unwrap().0);
-    assert_eq!("tercivla", jvozba::get_lujvo("te civla", false).unwrap().0);
-    assert_eq!("selcizra", jvozba::get_lujvo("se cizra", false).unwrap().0);
-    assert_eq!("tercizra", jvozba::get_lujvo("te cizra", false).unwrap().0);
-    assert_eq!("selckabu", jvozba::get_lujvo("se ckabu", false).unwrap().0);
-    assert_eq!("terckabu", jvozba::get_lujvo("te ckabu", false).unwrap().0);
-    assert_eq!("selckafi", jvozba::get_lujvo("se ckafi", false).unwrap().0);
-    assert_eq!("selkai", jvozba::get_lujvo("se ckaji", false).unwrap().0);
-    assert_eq!("selcka", jvozba::get_lujvo("se ckana", false).unwrap().0);
-    assert_eq!("tercka", jvozba::get_lujvo("te ckana", false).unwrap().0);
-    assert_eq!("selckape", jvozba::get_lujvo("se ckape", false).unwrap().0);
-    assert_eq!("terckape", jvozba::get_lujvo("te ckape", false).unwrap().0);
-    assert_eq!("selckasu", jvozba::get_lujvo("se ckasu", false).unwrap().0);
-    assert_eq!("terckasu", jvozba::get_lujvo("te ckasu", false).unwrap().0);
-    assert_eq!("velckasu", jvozba::get_lujvo("ve ckasu", false).unwrap().0);
-    assert_eq!("selcke", jvozba::get_lujvo("se ckeji", false).unwrap().0);
-    assert_eq!("tercke", jvozba::get_lujvo("te ckeji", false).unwrap().0);
-    assert_eq!("selckiku", jvozba::get_lujvo("se ckiku", false).unwrap().0);
-    assert_eq!("terckiku", jvozba::get_lujvo("te ckiku", false).unwrap().0);
-    assert_eq!("selci'u", jvozba::get_lujvo("se ckilu", false).unwrap().0);
-    assert_eq!("selki'i", jvozba::get_lujvo("se ckini", false).unwrap().0);
-    assert_eq!("terki'i", jvozba::get_lujvo("te ckini", false).unwrap().0);
-    assert_eq!("selckire", jvozba::get_lujvo("se ckire", false).unwrap().0);
-    assert_eq!("terckire", jvozba::get_lujvo("te ckire", false).unwrap().0);
-    assert_eq!("selcu'e", jvozba::get_lujvo("se ckule", false).unwrap().0);
-    assert_eq!("tercu'e", jvozba::get_lujvo("te ckule", false).unwrap().0);
-    assert_eq!("velcu'e", jvozba::get_lujvo("ve ckule", false).unwrap().0);
-    assert_eq!("xelcu'e", jvozba::get_lujvo("xe ckule", false).unwrap().0);
-    assert_eq!("selku'u", jvozba::get_lujvo("se ckunu", false).unwrap().0);
-    assert_eq!("terku'u", jvozba::get_lujvo("te ckunu", false).unwrap().0);
-    assert_eq!("selylau", jvozba::get_lujvo("se cladu", false).unwrap().0);
-    assert_eq!("terlau", jvozba::get_lujvo("te cladu", false).unwrap().0);
-    assert_eq!("selcla", jvozba::get_lujvo("se clani", false).unwrap().0);
-    assert_eq!("tercla", jvozba::get_lujvo("te clani", false).unwrap().0);
-    assert_eq!("selcau", jvozba::get_lujvo("se claxu", false).unwrap().0);
-    assert_eq!("selclika", jvozba::get_lujvo("se clika", false).unwrap().0);
-    assert_eq!("terclika", jvozba::get_lujvo("te clika", false).unwrap().0);
-    assert_eq!("selclira", jvozba::get_lujvo("se clira", false).unwrap().0);
-    assert_eq!("selclite", jvozba::get_lujvo("se clite", false).unwrap().0);
-    assert_eq!("terclite", jvozba::get_lujvo("te clite", false).unwrap().0);
-    assert_eq!("selyli'a", jvozba::get_lujvo("se cliva", false).unwrap().0);
-    assert_eq!("terli'a", jvozba::get_lujvo("te cliva", false).unwrap().0);
-    assert_eq!("selclupa", jvozba::get_lujvo("se clupa", false).unwrap().0);
-    assert_eq!("selcmaci", jvozba::get_lujvo("se cmaci", false).unwrap().0);
-    assert_eq!("selcma", jvozba::get_lujvo("se cmalu", false).unwrap().0);
-    assert_eq!("tercma", jvozba::get_lujvo("te cmalu", false).unwrap().0);
-    assert_eq!("selma'a", jvozba::get_lujvo("se cmana", false).unwrap().0);
-    assert_eq!("selma'o", jvozba::get_lujvo("se cmavo", false).unwrap().0);
-    assert_eq!("terma'o", jvozba::get_lujvo("te cmavo", false).unwrap().0);
-    assert_eq!("velma'o", jvozba::get_lujvo("ve cmavo", false).unwrap().0);
-    assert_eq!("selcme", jvozba::get_lujvo("se cmene", false).unwrap().0);
-    assert_eq!("tercme", jvozba::get_lujvo("te cmene", false).unwrap().0);
-    assert_eq!("selcmi", jvozba::get_lujvo("se cmima", false).unwrap().0);
-    assert_eq!("selcmo", jvozba::get_lujvo("se cmoni", false).unwrap().0);
-    assert_eq!("tercmo", jvozba::get_lujvo("te cmoni", false).unwrap().0);
-    assert_eq!("selna'o", jvozba::get_lujvo("se cnano", false).unwrap().0);
-    assert_eq!("terna'o", jvozba::get_lujvo("te cnano", false).unwrap().0);
-    assert_eq!("velna'o", jvozba::get_lujvo("ve cnano", false).unwrap().0);
-    assert_eq!("selne'o", jvozba::get_lujvo("se cnebo", false).unwrap().0);
-    assert_eq!("selne'u", jvozba::get_lujvo("se cnemu", false).unwrap().0);
-    assert_eq!("terne'u", jvozba::get_lujvo("te cnemu", false).unwrap().0);
-    assert_eq!("velne'u", jvozba::get_lujvo("ve cnemu", false).unwrap().0);
-    assert_eq!("selcnici", jvozba::get_lujvo("se cnici", false).unwrap().0);
-    assert_eq!("selni'o", jvozba::get_lujvo("se cnino", false).unwrap().0);
-    assert_eq!("terni'o", jvozba::get_lujvo("te cnino", false).unwrap().0);
-    assert_eq!("velni'o", jvozba::get_lujvo("ve cnino", false).unwrap().0);
-    assert_eq!("selni'a", jvozba::get_lujvo("se cnita", false).unwrap().0);
-    assert_eq!("terni'a", jvozba::get_lujvo("te cnita", false).unwrap().0);
-    assert_eq!("selcko", jvozba::get_lujvo("se cokcu", false).unwrap().0);
-    assert_eq!("tercko", jvozba::get_lujvo("te cokcu", false).unwrap().0);
-    assert_eq!("velcko", jvozba::get_lujvo("ve cokcu", false).unwrap().0);
-    assert_eq!("selcoi", jvozba::get_lujvo("se condi", false).unwrap().0);
-    assert_eq!("tercoi", jvozba::get_lujvo("te condi", false).unwrap().0);
-    assert_eq!("velcoi", jvozba::get_lujvo("ve condi", false).unwrap().0);
-    assert_eq!("selcro", jvozba::get_lujvo("se cortu", false).unwrap().0);
-    assert_eq!("selcpa", jvozba::get_lujvo("se cpacu", false).unwrap().0);
-    assert_eq!("tercpa", jvozba::get_lujvo("te cpacu", false).unwrap().0);
-    assert_eq!("selcpana", jvozba::get_lujvo("se cpana", false).unwrap().0);
-    assert_eq!("tercpana", jvozba::get_lujvo("te cpana", false).unwrap().0);
-    assert_eq!("selcpare", jvozba::get_lujvo("se cpare", false).unwrap().0);
-    assert_eq!("tercpare", jvozba::get_lujvo("te cpare", false).unwrap().0);
-    assert_eq!("velcpare", jvozba::get_lujvo("ve cpare", false).unwrap().0);
-    assert_eq!("selcpe", jvozba::get_lujvo("se cpedu", false).unwrap().0);
-    assert_eq!("tercpe", jvozba::get_lujvo("te cpedu", false).unwrap().0);
-    assert_eq!("velcpe", jvozba::get_lujvo("ve cpedu", false).unwrap().0);
-    assert_eq!("selcpina", jvozba::get_lujvo("se cpina", false).unwrap().0);
-    assert_eq!("selcradi", jvozba::get_lujvo("se cradi", false).unwrap().0);
-    assert_eq!("tercradi", jvozba::get_lujvo("te cradi", false).unwrap().0);
-    assert_eq!("velcradi", jvozba::get_lujvo("ve cradi", false).unwrap().0);
-    assert_eq!("selcra", jvozba::get_lujvo("se crane", false).unwrap().0);
-    assert_eq!("tercra", jvozba::get_lujvo("te crane", false).unwrap().0);
-    assert_eq!("selcreka", jvozba::get_lujvo("se creka", false).unwrap().0);
-    assert_eq!("selcrepu", jvozba::get_lujvo("se crepu", false).unwrap().0);
-    assert_eq!("tercrepu", jvozba::get_lujvo("te crepu", false).unwrap().0);
-    assert_eq!("selcribe", jvozba::get_lujvo("se cribe", false).unwrap().0);
-    assert_eq!("selcrida", jvozba::get_lujvo("se crida", false).unwrap().0);
-    assert_eq!("selcripu", jvozba::get_lujvo("se cripu", false).unwrap().0);
-    assert_eq!("tercripu", jvozba::get_lujvo("te cripu", false).unwrap().0);
-    assert_eq!("velcripu", jvozba::get_lujvo("ve cripu", false).unwrap().0);
-    assert_eq!("selcrisa", jvozba::get_lujvo("se crisa", false).unwrap().0);
-    assert_eq!("tercrisa", jvozba::get_lujvo("te crisa", false).unwrap().0);
-    assert_eq!("selcritu", jvozba::get_lujvo("se critu", false).unwrap().0);
-    assert_eq!("tercritu", jvozba::get_lujvo("te critu", false).unwrap().0);
-    assert_eq!("selctaru", jvozba::get_lujvo("se ctaru", false).unwrap().0);
-    assert_eq!("terctaru", jvozba::get_lujvo("te ctaru", false).unwrap().0);
-    assert_eq!("selctebi", jvozba::get_lujvo("se ctebi", false).unwrap().0);
-    assert_eq!("terctebi", jvozba::get_lujvo("te ctebi", false).unwrap().0);
-    assert_eq!("selce'i", jvozba::get_lujvo("se cteki", false).unwrap().0);
-    assert_eq!("terce'i", jvozba::get_lujvo("te cteki", false).unwrap().0);
-    assert_eq!("velce'i", jvozba::get_lujvo("ve cteki", false).unwrap().0);
-    assert_eq!("selctile", jvozba::get_lujvo("se ctile", false).unwrap().0);
-    assert_eq!("selti'o", jvozba::get_lujvo("se ctino", false).unwrap().0);
-    assert_eq!("terti'o", jvozba::get_lujvo("te ctino", false).unwrap().0);
-    assert_eq!("selctu", jvozba::get_lujvo("se ctuca", false).unwrap().0);
-    assert_eq!("terctu", jvozba::get_lujvo("te ctuca", false).unwrap().0);
-    assert_eq!("velctu", jvozba::get_lujvo("ve ctuca", false).unwrap().0);
-    assert_eq!("xelctu", jvozba::get_lujvo("xe ctuca", false).unwrap().0);
-    assert_eq!("selcku", jvozba::get_lujvo("se cukta", false).unwrap().0);
-    assert_eq!("tercku", jvozba::get_lujvo("te cukta", false).unwrap().0);
-    assert_eq!("velcku", jvozba::get_lujvo("ve cukta", false).unwrap().0);
-    assert_eq!("xelcku", jvozba::get_lujvo("xe cukta", false).unwrap().0);
-    assert_eq!("selclu", jvozba::get_lujvo("se culno", false).unwrap().0);
-    assert_eq!("selcu'i", jvozba::get_lujvo("se cumki", false).unwrap().0);
-    assert_eq!("selcumla", jvozba::get_lujvo("se cumla", false).unwrap().0);
-    assert_eq!("selcunmi", jvozba::get_lujvo("se cunmi", false).unwrap().0);
-    assert_eq!("selcu'o", jvozba::get_lujvo("se cunso", false).unwrap().0);
-    assert_eq!("tercu'o", jvozba::get_lujvo("te cunso", false).unwrap().0);
-    assert_eq!("selcu'u", jvozba::get_lujvo("se cuntu", false).unwrap().0);
-    assert_eq!("selpra", jvozba::get_lujvo("se cupra", false).unwrap().0);
-    assert_eq!("terpra", jvozba::get_lujvo("te cupra", false).unwrap().0);
-    assert_eq!("selcru", jvozba::get_lujvo("se curmi", false).unwrap().0);
-    assert_eq!("tercru", jvozba::get_lujvo("te curmi", false).unwrap().0);
-    assert_eq!("selcurnu", jvozba::get_lujvo("se curnu", false).unwrap().0);
-    assert_eq!("selcurve", jvozba::get_lujvo("se curve", false).unwrap().0);
-    assert_eq!("selsku", jvozba::get_lujvo("se cusku", false).unwrap().0);
-    assert_eq!("tersku", jvozba::get_lujvo("te cusku", false).unwrap().0);
-    assert_eq!("velsku", jvozba::get_lujvo("ve cusku", false).unwrap().0);
-    assert_eq!("selcutci", jvozba::get_lujvo("se cutci", false).unwrap().0);
-    assert_eq!("tercutci", jvozba::get_lujvo("te cutci", false).unwrap().0);
-    assert_eq!("selcutne", jvozba::get_lujvo("se cutne", false).unwrap().0);
-    assert_eq!("selcu'a", jvozba::get_lujvo("se cuxna", false).unwrap().0);
-    assert_eq!("tercu'a", jvozba::get_lujvo("te cuxna", false).unwrap().0);
-    assert_eq!("seldacru", jvozba::get_lujvo("se dacru", false).unwrap().0);
-    assert_eq!("terdacru", jvozba::get_lujvo("te dacru", false).unwrap().0);
-    assert_eq!("seldadjo", jvozba::get_lujvo("se dadjo", false).unwrap().0);
-    assert_eq!("seldakfu", jvozba::get_lujvo("se dakfu", false).unwrap().0);
-    assert_eq!("terdakfu", jvozba::get_lujvo("te dakfu", false).unwrap().0);
-    assert_eq!("seldakli", jvozba::get_lujvo("se dakli", false).unwrap().0);
-    assert_eq!("terdakli", jvozba::get_lujvo("te dakli", false).unwrap().0);
-    assert_eq!("selda'a", jvozba::get_lujvo("se damba", false).unwrap().0);
-    assert_eq!("terda'a", jvozba::get_lujvo("te damba", false).unwrap().0);
-    assert_eq!("seldamri", jvozba::get_lujvo("se damri", false).unwrap().0);
-    assert_eq!("seldandu", jvozba::get_lujvo("se dandu", false).unwrap().0);
-    assert_eq!("terdandu", jvozba::get_lujvo("te dandu", false).unwrap().0);
-    assert_eq!("seldanfu", jvozba::get_lujvo("se danfu", false).unwrap().0);
-    assert_eq!("selda'u", jvozba::get_lujvo("se danlu", false).unwrap().0);
-    assert_eq!("seldanmo", jvozba::get_lujvo("se danmo", false).unwrap().0);
-    assert_eq!("selda'e", jvozba::get_lujvo("se danre", false).unwrap().0);
-    assert_eq!("seldansu", jvozba::get_lujvo("se dansu", false).unwrap().0);
-    assert_eq!("seldanti", jvozba::get_lujvo("se danti", false).unwrap().0);
-    assert_eq!("selplu", jvozba::get_lujvo("se daplu", false).unwrap().0);
-    assert_eq!("terplu", jvozba::get_lujvo("te daplu", false).unwrap().0);
-    assert_eq!("seldapma", jvozba::get_lujvo("se dapma", false).unwrap().0);
-    assert_eq!("terdapma", jvozba::get_lujvo("te dapma", false).unwrap().0);
-    assert_eq!("seldargu", jvozba::get_lujvo("se dargu", false).unwrap().0);
-    assert_eq!("terdargu", jvozba::get_lujvo("te dargu", false).unwrap().0);
-    assert_eq!("veldargu", jvozba::get_lujvo("ve dargu", false).unwrap().0);
-    assert_eq!("seldau", jvozba::get_lujvo("se darlu", false).unwrap().0);
-    assert_eq!("terdau", jvozba::get_lujvo("te darlu", false).unwrap().0);
-    assert_eq!("selda'o", jvozba::get_lujvo("se darno", false).unwrap().0);
-    assert_eq!("terda'o", jvozba::get_lujvo("te darno", false).unwrap().0);
-    assert_eq!("seldarsi", jvozba::get_lujvo("se darsi", false).unwrap().0);
-    assert_eq!("selda'i", jvozba::get_lujvo("se darxi", false).unwrap().0);
-    assert_eq!("terda'i", jvozba::get_lujvo("te darxi", false).unwrap().0);
-    assert_eq!("velda'i", jvozba::get_lujvo("ve darxi", false).unwrap().0);
-    assert_eq!("seldaski", jvozba::get_lujvo("se daski", false).unwrap().0);
-    assert_eq!("seldasni", jvozba::get_lujvo("se dasni", false).unwrap().0);
-    assert_eq!("terdasni", jvozba::get_lujvo("te dasni", false).unwrap().0);
-    assert_eq!("selspo", jvozba::get_lujvo("se daspo", false).unwrap().0);
-    assert_eq!("selsri", jvozba::get_lujvo("se dasri", false).unwrap().0);
-    assert_eq!("seldatka", jvozba::get_lujvo("se datka", false).unwrap().0);
-    assert_eq!("seldatni", jvozba::get_lujvo("se datni", false).unwrap().0);
-    assert_eq!("terdatni", jvozba::get_lujvo("te datni", false).unwrap().0);
-    assert_eq!("seldecti", jvozba::get_lujvo("se decti", false).unwrap().0);
-    assert_eq!("terdecti", jvozba::get_lujvo("te decti", false).unwrap().0);
-    assert_eq!("seldegji", jvozba::get_lujvo("se degji", false).unwrap().0);
-    assert_eq!("terdegji", jvozba::get_lujvo("te degji", false).unwrap().0);
-    assert_eq!("seldejni", jvozba::get_lujvo("se dejni", false).unwrap().0);
-    assert_eq!("terdejni", jvozba::get_lujvo("te dejni", false).unwrap().0);
-    assert_eq!("veldejni", jvozba::get_lujvo("ve dejni", false).unwrap().0);
-    assert_eq!("seldekpu", jvozba::get_lujvo("se dekpu", false).unwrap().0);
-    assert_eq!("terdekpu", jvozba::get_lujvo("te dekpu", false).unwrap().0);
-    assert_eq!("veldekpu", jvozba::get_lujvo("ve dekpu", false).unwrap().0);
-    assert_eq!("seldekto", jvozba::get_lujvo("se dekto", false).unwrap().0);
-    assert_eq!("terdekto", jvozba::get_lujvo("te dekto", false).unwrap().0);
-    assert_eq!("selde'o", jvozba::get_lujvo("se delno", false).unwrap().0);
-    assert_eq!("terde'o", jvozba::get_lujvo("te delno", false).unwrap().0);
-    assert_eq!("seldembi", jvozba::get_lujvo("se dembi", false).unwrap().0);
-    assert_eq!("selde'i", jvozba::get_lujvo("se denci", false).unwrap().0);
-    assert_eq!("seldenmi", jvozba::get_lujvo("se denmi", false).unwrap().0);
-    assert_eq!("terdenmi", jvozba::get_lujvo("te denmi", false).unwrap().0);
-    assert_eq!("selde'a", jvozba::get_lujvo("se denpa", false).unwrap().0);
-    assert_eq!("terde'a", jvozba::get_lujvo("te denpa", false).unwrap().0);
-    assert_eq!("velde'a", jvozba::get_lujvo("ve denpa", false).unwrap().0);
-    assert_eq!("selde'u", jvozba::get_lujvo("se dertu", false).unwrap().0);
-    assert_eq!("terde'u", jvozba::get_lujvo("te dertu", false).unwrap().0);
-    assert_eq!("seldre", jvozba::get_lujvo("se derxi", false).unwrap().0);
-    assert_eq!("terdre", jvozba::get_lujvo("te derxi", false).unwrap().0);
-    assert_eq!("seldesku", jvozba::get_lujvo("se desku", false).unwrap().0);
-    assert_eq!("seldetri", jvozba::get_lujvo("se detri", false).unwrap().0);
-    assert_eq!("terdetri", jvozba::get_lujvo("te detri", false).unwrap().0);
-    assert_eq!("veldetri", jvozba::get_lujvo("ve detri", false).unwrap().0);
-    assert_eq!("seldicra", jvozba::get_lujvo("se dicra", false).unwrap().0);
-    assert_eq!("terdicra", jvozba::get_lujvo("te dicra", false).unwrap().0);
-    assert_eq!("seldikca", jvozba::get_lujvo("se dikca", false).unwrap().0);
-    assert_eq!("terdikca", jvozba::get_lujvo("te dikca", false).unwrap().0);
-    assert_eq!("selklo", jvozba::get_lujvo("se diklo", false).unwrap().0);
-    assert_eq!("terklo", jvozba::get_lujvo("te diklo", false).unwrap().0);
-    assert_eq!("seldikni", jvozba::get_lujvo("se dikni", false).unwrap().0);
-    assert_eq!("terdikni", jvozba::get_lujvo("te dikni", false).unwrap().0);
-    assert_eq!("seldilcu", jvozba::get_lujvo("se dilcu", false).unwrap().0);
-    assert_eq!("terdilcu", jvozba::get_lujvo("te dilcu", false).unwrap().0);
-    assert_eq!("veldilcu", jvozba::get_lujvo("ve dilcu", false).unwrap().0);
-    assert_eq!("seldilnu", jvozba::get_lujvo("se dilnu", false).unwrap().0);
-    assert_eq!("terdilnu", jvozba::get_lujvo("te dilnu", false).unwrap().0);
-    assert_eq!("veldilnu", jvozba::get_lujvo("ve dilnu", false).unwrap().0);
-    assert_eq!("seldimna", jvozba::get_lujvo("se dimna", false).unwrap().0);
-    assert_eq!("seldi'u", jvozba::get_lujvo("se dinju", false).unwrap().0);
-    assert_eq!("seldi'o", jvozba::get_lujvo("se dinko", false).unwrap().0);
-    assert_eq!("terdi'o", jvozba::get_lujvo("te dinko", false).unwrap().0);
-    assert_eq!("seldirba", jvozba::get_lujvo("se dirba", false).unwrap().0);
-    assert_eq!("seldi'e", jvozba::get_lujvo("se dirce", false).unwrap().0);
-    assert_eq!("terdi'e", jvozba::get_lujvo("te dirce", false).unwrap().0);
-    assert_eq!("seldirgo", jvozba::get_lujvo("se dirgo", false).unwrap().0);
-    assert_eq!("terdirgo", jvozba::get_lujvo("te dirgo", false).unwrap().0);
-    assert_eq!("seldzi", jvozba::get_lujvo("se dizlo", false).unwrap().0);
-    assert_eq!("terdzi", jvozba::get_lujvo("te dizlo", false).unwrap().0);
-    assert_eq!("seldei", jvozba::get_lujvo("se djedi", false).unwrap().0);
-    assert_eq!("terdei", jvozba::get_lujvo("te djedi", false).unwrap().0);
-    assert_eq!("seldji", jvozba::get_lujvo("se djica", false).unwrap().0);
-    assert_eq!("terdji", jvozba::get_lujvo("te djica", false).unwrap().0);
-    assert_eq!("seldjine", jvozba::get_lujvo("se djine", false).unwrap().0);
-    assert_eq!("terdjine", jvozba::get_lujvo("te djine", false).unwrap().0);
-    assert_eq!("veldjine", jvozba::get_lujvo("ve djine", false).unwrap().0);
-    assert_eq!("selju'o", jvozba::get_lujvo("se djuno", false).unwrap().0);
-    assert_eq!("terju'o", jvozba::get_lujvo("te djuno", false).unwrap().0);
-    assert_eq!("velju'o", jvozba::get_lujvo("ve djuno", false).unwrap().0);
-    assert_eq!("seldo'i", jvozba::get_lujvo("se donri", false).unwrap().0);
-    assert_eq!("terdo'i", jvozba::get_lujvo("te donri", false).unwrap().0);
-    assert_eq!("seldo'o", jvozba::get_lujvo("se dotco", false).unwrap().0);
-    assert_eq!("seldraci", jvozba::get_lujvo("se draci", false).unwrap().0);
-    assert_eq!("terdraci", jvozba::get_lujvo("te draci", false).unwrap().0);
-    assert_eq!("veldraci", jvozba::get_lujvo("ve draci", false).unwrap().0);
-    assert_eq!("xeldraci", jvozba::get_lujvo("xe draci", false).unwrap().0);
-    assert_eq!("seldra", jvozba::get_lujvo("se drani", false).unwrap().0);
-    assert_eq!("terdra", jvozba::get_lujvo("te drani", false).unwrap().0);
-    assert_eq!("veldra", jvozba::get_lujvo("ve drani", false).unwrap().0);
-    assert_eq!("seldrata", jvozba::get_lujvo("se drata", false).unwrap().0);
-    assert_eq!("terdrata", jvozba::get_lujvo("te drata", false).unwrap().0);
-    assert_eq!("seldru", jvozba::get_lujvo("se drudi", false).unwrap().0);
-    assert_eq!("seldu'o", jvozba::get_lujvo("se du", false).unwrap().0);
-    assert_eq!("terdu'o", jvozba::get_lujvo("te du", false).unwrap().0);
-    assert_eq!("seldugri", jvozba::get_lujvo("se dugri", false).unwrap().0);
-    assert_eq!("terdugri", jvozba::get_lujvo("te dugri", false).unwrap().0);
-    assert_eq!("seldu'e", jvozba::get_lujvo("se dukse", false).unwrap().0);
-    assert_eq!("terdu'e", jvozba::get_lujvo("te dukse", false).unwrap().0);
-    assert_eq!("seldukti", jvozba::get_lujvo("se dukti", false).unwrap().0);
-    assert_eq!("terdukti", jvozba::get_lujvo("te dukti", false).unwrap().0);
-    assert_eq!("seldu'a", jvozba::get_lujvo("se dunda", false).unwrap().0);
-    assert_eq!("terdu'a", jvozba::get_lujvo("te dunda", false).unwrap().0);
-    assert_eq!("seldunja", jvozba::get_lujvo("se dunja", false).unwrap().0);
-    assert_eq!("terdunja", jvozba::get_lujvo("te dunja", false).unwrap().0);
-    assert_eq!("seldu'u", jvozba::get_lujvo("se dunku", false).unwrap().0);
-    assert_eq!("seldu'i", jvozba::get_lujvo("se dunli", false).unwrap().0);
-    assert_eq!("terdu'i", jvozba::get_lujvo("te dunli", false).unwrap().0);
-    assert_eq!("seldunra", jvozba::get_lujvo("se dunra", false).unwrap().0);
-    assert_eq!("terdunra", jvozba::get_lujvo("te dunra", false).unwrap().0);
-    assert_eq!("seldze", jvozba::get_lujvo("se dzena", false).unwrap().0);
-    assert_eq!("terdze", jvozba::get_lujvo("te dzena", false).unwrap().0);
-    assert_eq!("selzi'o", jvozba::get_lujvo("se dzipo", false).unwrap().0);
-    assert_eq!("selfa'i", jvozba::get_lujvo("se facki", false).unwrap().0);
-    assert_eq!("terfa'i", jvozba::get_lujvo("te facki", false).unwrap().0);
-    assert_eq!("selfadni", jvozba::get_lujvo("se fadni", false).unwrap().0);
-    assert_eq!("terfadni", jvozba::get_lujvo("te fadni", false).unwrap().0);
-    assert_eq!("selfagri", jvozba::get_lujvo("se fagri", false).unwrap().0);
-    assert_eq!("terfagri", jvozba::get_lujvo("te fagri", false).unwrap().0);
-    assert_eq!("selfalnu", jvozba::get_lujvo("se falnu", false).unwrap().0);
-    assert_eq!("terfalnu", jvozba::get_lujvo("te falnu", false).unwrap().0);
-    assert_eq!("selfamti", jvozba::get_lujvo("se famti", false).unwrap().0);
-    assert_eq!("terfamti", jvozba::get_lujvo("te famti", false).unwrap().0);
-    assert_eq!("selfancu", jvozba::get_lujvo("se fancu", false).unwrap().0);
-    assert_eq!("terfancu", jvozba::get_lujvo("te fancu", false).unwrap().0);
-    assert_eq!("velfancu", jvozba::get_lujvo("ve fancu", false).unwrap().0);
-    assert_eq!("selfange", jvozba::get_lujvo("se fange", false).unwrap().0);
-    assert_eq!("terfange", jvozba::get_lujvo("te fange", false).unwrap().0);
-    assert_eq!("selfa'o", jvozba::get_lujvo("se fanmo", false).unwrap().0);
-    assert_eq!("selfanri", jvozba::get_lujvo("se fanri", false).unwrap().0);
-    assert_eq!("terfanri", jvozba::get_lujvo("te fanri", false).unwrap().0);
-    assert_eq!("selfanta", jvozba::get_lujvo("se fanta", false).unwrap().0);
-    assert_eq!("selfanva", jvozba::get_lujvo("se fanva", false).unwrap().0);
-    assert_eq!("terfanva", jvozba::get_lujvo("te fanva", false).unwrap().0);
-    assert_eq!("velfanva", jvozba::get_lujvo("ve fanva", false).unwrap().0);
-    assert_eq!("xelfanva", jvozba::get_lujvo("xe fanva", false).unwrap().0);
-    assert_eq!("selfanza", jvozba::get_lujvo("se fanza", false).unwrap().0);
-    assert_eq!("selpro", jvozba::get_lujvo("se fapro", false).unwrap().0);
-    assert_eq!("terpro", jvozba::get_lujvo("te fapro", false).unwrap().0);
-    assert_eq!("selfa'u", jvozba::get_lujvo("se farlu", false).unwrap().0);
-    assert_eq!("terfa'u", jvozba::get_lujvo("te farlu", false).unwrap().0);
-    assert_eq!("velfa'u", jvozba::get_lujvo("ve farlu", false).unwrap().0);
-    assert_eq!("selfa'a", jvozba::get_lujvo("se farna", false).unwrap().0);
-    assert_eq!("terfa'a", jvozba::get_lujvo("te farna", false).unwrap().0);
-    assert_eq!("selfarvi", jvozba::get_lujvo("se farvi", false).unwrap().0);
-    assert_eq!("terfarvi", jvozba::get_lujvo("te farvi", false).unwrap().0);
-    assert_eq!("velfarvi", jvozba::get_lujvo("ve farvi", false).unwrap().0);
-    assert_eq!("selfa'e", jvozba::get_lujvo("se fatne", false).unwrap().0);
-    assert_eq!("selfai", jvozba::get_lujvo("se fatri", false).unwrap().0);
-    assert_eq!("terfai", jvozba::get_lujvo("te fatri", false).unwrap().0);
-    assert_eq!("selfebvi", jvozba::get_lujvo("se febvi", false).unwrap().0);
-    assert_eq!("terfebvi", jvozba::get_lujvo("te febvi", false).unwrap().0);
-    assert_eq!("selfemti", jvozba::get_lujvo("se femti", false).unwrap().0);
-    assert_eq!("terfemti", jvozba::get_lujvo("te femti", false).unwrap().0);
-    assert_eq!("selfendi", jvozba::get_lujvo("se fendi", false).unwrap().0);
-    assert_eq!("terfendi", jvozba::get_lujvo("te fendi", false).unwrap().0);
-    assert_eq!("velfendi", jvozba::get_lujvo("ve fendi", false).unwrap().0);
-    assert_eq!("selfe'u", jvozba::get_lujvo("se fengu", false).unwrap().0);
-    assert_eq!("terfe'u", jvozba::get_lujvo("te fengu", false).unwrap().0);
-    assert_eq!("selfenki", jvozba::get_lujvo("se fenki", false).unwrap().0);
-    assert_eq!("selfe'a", jvozba::get_lujvo("se fenra", false).unwrap().0);
-    assert_eq!("selfe'o", jvozba::get_lujvo("se fenso", false).unwrap().0);
-    assert_eq!("terfe'o", jvozba::get_lujvo("te fenso", false).unwrap().0);
-    assert_eq!("velfe'o", jvozba::get_lujvo("ve fenso", false).unwrap().0);
-    assert_eq!("selfei", jvozba::get_lujvo("se fepni", false).unwrap().0);
-    assert_eq!("terfei", jvozba::get_lujvo("te fepni", false).unwrap().0);
-    assert_eq!("selfepri", jvozba::get_lujvo("se fepri", false).unwrap().0);
-    assert_eq!("selfre", jvozba::get_lujvo("se ferti", false).unwrap().0);
-    assert_eq!("selfesti", jvozba::get_lujvo("se festi", false).unwrap().0);
-    assert_eq!("selfe'i", jvozba::get_lujvo("se fetsi", false).unwrap().0);
-    assert_eq!("terfe'i", jvozba::get_lujvo("te fetsi", false).unwrap().0);
-    assert_eq!("selfigre", jvozba::get_lujvo("se figre", false).unwrap().0);
-    assert_eq!("selfilso", jvozba::get_lujvo("se filso", false).unwrap().0);
-    assert_eq!("selfi'e", jvozba::get_lujvo("se finpe", false).unwrap().0);
-    assert_eq!("selfi'i", jvozba::get_lujvo("se finti", false).unwrap().0);
-    assert_eq!("terfi'i", jvozba::get_lujvo("te finti", false).unwrap().0);
-    assert_eq!("velfi'i", jvozba::get_lujvo("ve finti", false).unwrap().0);
-    assert_eq!("selfla", jvozba::get_lujvo("se flalu", false).unwrap().0);
-    assert_eq!("terfla", jvozba::get_lujvo("te flalu", false).unwrap().0);
-    assert_eq!("velfla", jvozba::get_lujvo("ve flalu", false).unwrap().0);
-    assert_eq!("xelfla", jvozba::get_lujvo("xe flalu", false).unwrap().0);
-    assert_eq!("selfle", jvozba::get_lujvo("se flecu", false).unwrap().0);
-    assert_eq!("terfle", jvozba::get_lujvo("te flecu", false).unwrap().0);
-    assert_eq!("velfle", jvozba::get_lujvo("ve flecu", false).unwrap().0);
-    assert_eq!("selfli", jvozba::get_lujvo("se fliba", false).unwrap().0);
-    assert_eq!("selflira", jvozba::get_lujvo("se flira", false).unwrap().0);
-    assert_eq!("selfoi", jvozba::get_lujvo("se foldi", false).unwrap().0);
-    assert_eq!("selfo'o", jvozba::get_lujvo("se fonmo", false).unwrap().0);
-    assert_eq!("terfo'o", jvozba::get_lujvo("te fonmo", false).unwrap().0);
-    assert_eq!("selfonxa", jvozba::get_lujvo("se fonxa", false).unwrap().0);
-    assert_eq!("selfro", jvozba::get_lujvo("se forca", false).unwrap().0);
-    assert_eq!("terfro", jvozba::get_lujvo("te forca", false).unwrap().0);
-    assert_eq!("velfro", jvozba::get_lujvo("ve forca", false).unwrap().0);
-    assert_eq!("selfraso", jvozba::get_lujvo("se fraso", false).unwrap().0);
-    assert_eq!("selfra", jvozba::get_lujvo("se frati", false).unwrap().0);
-    assert_eq!("terfra", jvozba::get_lujvo("te frati", false).unwrap().0);
-    assert_eq!("velfra", jvozba::get_lujvo("ve frati", false).unwrap().0);
-    assert_eq!("selfraxu", jvozba::get_lujvo("se fraxu", false).unwrap().0);
-    assert_eq!("terfraxu", jvozba::get_lujvo("te fraxu", false).unwrap().0);
-    assert_eq!("selfrica", jvozba::get_lujvo("se frica", false).unwrap().0);
-    assert_eq!("terfrica", jvozba::get_lujvo("te frica", false).unwrap().0);
-    assert_eq!("selfi'o", jvozba::get_lujvo("se friko", false).unwrap().0);
-    assert_eq!("selfrili", jvozba::get_lujvo("se frili", false).unwrap().0);
-    assert_eq!("terfrili", jvozba::get_lujvo("te frili", false).unwrap().0);
-    assert_eq!("selfrinu", jvozba::get_lujvo("se frinu", false).unwrap().0);
-    assert_eq!("terfrinu", jvozba::get_lujvo("te frinu", false).unwrap().0);
-    assert_eq!("selfriti", jvozba::get_lujvo("se friti", false).unwrap().0);
-    assert_eq!("terfriti", jvozba::get_lujvo("te friti", false).unwrap().0);
-    assert_eq!("velfriti", jvozba::get_lujvo("ve friti", false).unwrap().0);
-    assert_eq!("selfu'i", jvozba::get_lujvo("se fukpi", false).unwrap().0);
-    assert_eq!("terfu'i", jvozba::get_lujvo("te fukpi", false).unwrap().0);
-    assert_eq!("velfu'i", jvozba::get_lujvo("ve fukpi", false).unwrap().0);
-    assert_eq!("selflu", jvozba::get_lujvo("se fulta", false).unwrap().0);
-    assert_eq!("selfu'a", jvozba::get_lujvo("se funca", false).unwrap().0);
-    assert_eq!("selfusra", jvozba::get_lujvo("se fusra", false).unwrap().0);
-    assert_eq!("selfu'e", jvozba::get_lujvo("se fuzme", false).unwrap().0);
-    assert_eq!("terfu'e", jvozba::get_lujvo("te fuzme", false).unwrap().0);
-    assert_eq!("selgai", jvozba::get_lujvo("se gacri", false).unwrap().0);
-    assert_eq!("selgadri", jvozba::get_lujvo("se gadri", false).unwrap().0);
-    assert_eq!("tergadri", jvozba::get_lujvo("te gadri", false).unwrap().0);
-    assert_eq!("velgadri", jvozba::get_lujvo("ve gadri", false).unwrap().0);
-    assert_eq!("selga'i", jvozba::get_lujvo("se galfi", false).unwrap().0);
-    assert_eq!("terga'i", jvozba::get_lujvo("te galfi", false).unwrap().0);
-    assert_eq!("selga'u", jvozba::get_lujvo("se galtu", false).unwrap().0);
-    assert_eq!("terga'u", jvozba::get_lujvo("te galtu", false).unwrap().0);
-    assert_eq!("selgalxe", jvozba::get_lujvo("se galxe", false).unwrap().0);
-    assert_eq!("selga'o", jvozba::get_lujvo("se ganlo", false).unwrap().0);
-    assert_eq!("terga'o", jvozba::get_lujvo("te ganlo", false).unwrap().0);
-    assert_eq!("selganra", jvozba::get_lujvo("se ganra", false).unwrap().0);
-    assert_eq!("terganra", jvozba::get_lujvo("te ganra", false).unwrap().0);
-    assert_eq!("selga'e", jvozba::get_lujvo("se ganse", false).unwrap().0);
-    assert_eq!("terga'e", jvozba::get_lujvo("te ganse", false).unwrap().0);
-    assert_eq!("velga'e", jvozba::get_lujvo("ve ganse", false).unwrap().0);
-    assert_eq!("selganti", jvozba::get_lujvo("se ganti", false).unwrap().0);
-    assert_eq!("terganti", jvozba::get_lujvo("te ganti", false).unwrap().0);
-    assert_eq!("selganxo", jvozba::get_lujvo("se ganxo", false).unwrap().0);
-    assert_eq!("selganzu", jvozba::get_lujvo("se ganzu", false).unwrap().0);
-    assert_eq!("terganzu", jvozba::get_lujvo("te ganzu", false).unwrap().0);
-    assert_eq!("velganzu", jvozba::get_lujvo("ve ganzu", false).unwrap().0);
-    assert_eq!("selgapci", jvozba::get_lujvo("se gapci", false).unwrap().0);
-    assert_eq!("tergapci", jvozba::get_lujvo("te gapci", false).unwrap().0);
-    assert_eq!("selgapru", jvozba::get_lujvo("se gapru", false).unwrap().0);
-    assert_eq!("tergapru", jvozba::get_lujvo("te gapru", false).unwrap().0);
-    assert_eq!("selgarna", jvozba::get_lujvo("se garna", false).unwrap().0);
-    assert_eq!("tergarna", jvozba::get_lujvo("te garna", false).unwrap().0);
-    assert_eq!("selgau", jvozba::get_lujvo("se gasnu", false).unwrap().0);
-    assert_eq!("selgasta", jvozba::get_lujvo("se gasta", false).unwrap().0);
-    assert_eq!("selgenja", jvozba::get_lujvo("se genja", false).unwrap().0);
-    assert_eq!("selge'o", jvozba::get_lujvo("se gento", false).unwrap().0);
-    assert_eq!("selgenxu", jvozba::get_lujvo("se genxu", false).unwrap().0);
-    assert_eq!("selge'u", jvozba::get_lujvo("se gerku", false).unwrap().0);
-    assert_eq!("selge'a", jvozba::get_lujvo("se gerna", false).unwrap().0);
-    assert_eq!("terge'a", jvozba::get_lujvo("te gerna", false).unwrap().0);
-    assert_eq!("selgi'a", jvozba::get_lujvo("se gidva", false).unwrap().0);
-    assert_eq!("tergi'a", jvozba::get_lujvo("te gidva", false).unwrap().0);
-    assert_eq!("selgi'o", jvozba::get_lujvo("se gigdo", false).unwrap().0);
-    assert_eq!("tergi'o", jvozba::get_lujvo("te gigdo", false).unwrap().0);
-    assert_eq!("selginka", jvozba::get_lujvo("se ginka", false).unwrap().0);
-    assert_eq!("terginka", jvozba::get_lujvo("te ginka", false).unwrap().0);
-    assert_eq!("selgri", jvozba::get_lujvo("se girzu", false).unwrap().0);
-    assert_eq!("tergri", jvozba::get_lujvo("te girzu", false).unwrap().0);
-    assert_eq!("velgri", jvozba::get_lujvo("ve girzu", false).unwrap().0);
-    assert_eq!("selgi'u", jvozba::get_lujvo("se gismu", false).unwrap().0);
-    assert_eq!("tergi'u", jvozba::get_lujvo("te gismu", false).unwrap().0);
-    assert_eq!("velgi'u", jvozba::get_lujvo("ve gismu", false).unwrap().0);
-    assert_eq!("selgla", jvozba::get_lujvo("se glare", false).unwrap().0);
-    assert_eq!("selgei", jvozba::get_lujvo("se gleki", false).unwrap().0);
-    assert_eq!("selgle", jvozba::get_lujvo("se gletu", false).unwrap().0);
-    assert_eq!("selgli", jvozba::get_lujvo("se glico", false).unwrap().0);
-    assert_eq!("selglu", jvozba::get_lujvo("se gluta", false).unwrap().0);
-    assert_eq!("selgocti", jvozba::get_lujvo("se gocti", false).unwrap().0);
-    assert_eq!("tergocti", jvozba::get_lujvo("te gocti", false).unwrap().0);
-    assert_eq!("selgotro", jvozba::get_lujvo("se gotro", false).unwrap().0);
-    assert_eq!("tergotro", jvozba::get_lujvo("te gotro", false).unwrap().0);
-    assert_eq!("selrau", jvozba::get_lujvo("se gradu", false).unwrap().0);
-    assert_eq!("teryrau", jvozba::get_lujvo("te gradu", false).unwrap().0);
-    assert_eq!("selgra", jvozba::get_lujvo("se grake", false).unwrap().0);
-    assert_eq!("tergra", jvozba::get_lujvo("te grake", false).unwrap().0);
-    assert_eq!("selga'a", jvozba::get_lujvo("se grana", false).unwrap().0);
-    assert_eq!("selgrasu", jvozba::get_lujvo("se grasu", false).unwrap().0);
-    assert_eq!("selgreku", jvozba::get_lujvo("se greku", false).unwrap().0);
-    assert_eq!("selgrute", jvozba::get_lujvo("se grute", false).unwrap().0);
-    assert_eq!("selgubni", jvozba::get_lujvo("se gubni", false).unwrap().0);
-    assert_eq!("selgu'e", jvozba::get_lujvo("se gugde", false).unwrap().0);
-    assert_eq!("tergu'e", jvozba::get_lujvo("te gugde", false).unwrap().0);
-    assert_eq!("selgundi", jvozba::get_lujvo("se gundi", false).unwrap().0);
-    assert_eq!("tergundi", jvozba::get_lujvo("te gundi", false).unwrap().0);
-    assert_eq!("selgu'a", jvozba::get_lujvo("se gunka", false).unwrap().0);
-    assert_eq!("tergu'a", jvozba::get_lujvo("te gunka", false).unwrap().0);
-    assert_eq!("selgunma", jvozba::get_lujvo("se gunma", false).unwrap().0);
-    assert_eq!("selgu'o", jvozba::get_lujvo("se gunro", false).unwrap().0);
-    assert_eq!("tergu'o", jvozba::get_lujvo("te gunro", false).unwrap().0);
-    assert_eq!("selgunse", jvozba::get_lujvo("se gunse", false).unwrap().0);
-    assert_eq!("selgunta", jvozba::get_lujvo("se gunta", false).unwrap().0);
-    assert_eq!("tergunta", jvozba::get_lujvo("te gunta", false).unwrap().0);
-    assert_eq!("selgru", jvozba::get_lujvo("se gurni", false).unwrap().0);
-    assert_eq!("selguska", jvozba::get_lujvo("se guska", false).unwrap().0);
-    assert_eq!("terguska", jvozba::get_lujvo("te guska", false).unwrap().0);
-    assert_eq!("selgu'i", jvozba::get_lujvo("se gusni", false).unwrap().0);
-    assert_eq!("tergu'i", jvozba::get_lujvo("te gusni", false).unwrap().0);
-    assert_eq!("selgusta", jvozba::get_lujvo("se gusta", false).unwrap().0);
-    assert_eq!("tergusta", jvozba::get_lujvo("te gusta", false).unwrap().0);
-    assert_eq!("selgutci", jvozba::get_lujvo("se gutci", false).unwrap().0);
-    assert_eq!("tergutci", jvozba::get_lujvo("te gutci", false).unwrap().0);
-    assert_eq!("velgutci", jvozba::get_lujvo("ve gutci", false).unwrap().0);
-    assert_eq!("selgutra", jvozba::get_lujvo("se gutra", false).unwrap().0);
-    assert_eq!("selzme", jvozba::get_lujvo("se guzme", false).unwrap().0);
-    assert_eq!("seljabre", jvozba::get_lujvo("se jabre", false).unwrap().0);
-    assert_eq!("terjabre", jvozba::get_lujvo("te jabre", false).unwrap().0);
-    assert_eq!("selja'i", jvozba::get_lujvo("se jadni", false).unwrap().0);
-    assert_eq!("seljakne", jvozba::get_lujvo("se jakne", false).unwrap().0);
-    assert_eq!("terjakne", jvozba::get_lujvo("te jakne", false).unwrap().0);
-    assert_eq!("selja'e", jvozba::get_lujvo("se jalge", false).unwrap().0);
-    assert_eq!("seljalna", jvozba::get_lujvo("se jalna", false).unwrap().0);
-    assert_eq!("terjalna", jvozba::get_lujvo("te jalna", false).unwrap().0);
-    assert_eq!("seljalra", jvozba::get_lujvo("se jalra", false).unwrap().0);
-    assert_eq!("seljma", jvozba::get_lujvo("se jamfu", false).unwrap().0);
-    assert_eq!("seljamna", jvozba::get_lujvo("se jamna", false).unwrap().0);
-    assert_eq!("terjamna", jvozba::get_lujvo("te jamna", false).unwrap().0);
-    assert_eq!("seljanbe", jvozba::get_lujvo("se janbe", false).unwrap().0);
-    assert_eq!("seljanco", jvozba::get_lujvo("se janco", false).unwrap().0);
-    assert_eq!("terjanco", jvozba::get_lujvo("te janco", false).unwrap().0);
-    assert_eq!("seljanli", jvozba::get_lujvo("se janli", false).unwrap().0);
-    assert_eq!("seljansu", jvozba::get_lujvo("se jansu", false).unwrap().0);
-    assert_eq!("terjansu", jvozba::get_lujvo("te jansu", false).unwrap().0);
-    assert_eq!("veljansu", jvozba::get_lujvo("ve jansu", false).unwrap().0);
-    assert_eq!("seljanta", jvozba::get_lujvo("se janta", false).unwrap().0);
-    assert_eq!("terjanta", jvozba::get_lujvo("te janta", false).unwrap().0);
-    assert_eq!("veljanta", jvozba::get_lujvo("ve janta", false).unwrap().0);
-    assert_eq!("seljarbu", jvozba::get_lujvo("se jarbu", false).unwrap().0);
-    assert_eq!("selja'o", jvozba::get_lujvo("se jarco", false).unwrap().0);
-    assert_eq!("terja'o", jvozba::get_lujvo("te jarco", false).unwrap().0);
-    assert_eq!("seljarki", jvozba::get_lujvo("se jarki", false).unwrap().0);
-    assert_eq!("terjarki", jvozba::get_lujvo("te jarki", false).unwrap().0);
-    assert_eq!("seljaspu", jvozba::get_lujvo("se jaspu", false).unwrap().0);
-    assert_eq!("terjaspu", jvozba::get_lujvo("te jaspu", false).unwrap().0);
-    assert_eq!("veljaspu", jvozba::get_lujvo("ve jaspu", false).unwrap().0);
-    assert_eq!("selja'a", jvozba::get_lujvo("se jatna", false).unwrap().0);
-    assert_eq!("seljva", jvozba::get_lujvo("se javni", false).unwrap().0);
-    assert_eq!("terjva", jvozba::get_lujvo("te javni", false).unwrap().0);
-    assert_eq!("seljbama", jvozba::get_lujvo("se jbama", false).unwrap().0);
-    assert_eq!("seljba", jvozba::get_lujvo("se jbari", false).unwrap().0);
-    assert_eq!("seljbe", jvozba::get_lujvo("se jbena", false).unwrap().0);
-    assert_eq!("terjbe", jvozba::get_lujvo("te jbena", false).unwrap().0);
-    assert_eq!("veljbe", jvozba::get_lujvo("ve jbena", false).unwrap().0);
-    assert_eq!("seljbera", jvozba::get_lujvo("se jbera", false).unwrap().0);
-    assert_eq!("terjbera", jvozba::get_lujvo("te jbera", false).unwrap().0);
-    assert_eq!("veljbera", jvozba::get_lujvo("ve jbera", false).unwrap().0);
-    assert_eq!("selbi'i", jvozba::get_lujvo("se jbini", false).unwrap().0);
-    assert_eq!("terbi'i", jvozba::get_lujvo("te jbini", false).unwrap().0);
-    assert_eq!("seljdari", jvozba::get_lujvo("se jdari", false).unwrap().0);
-    assert_eq!("terjdari", jvozba::get_lujvo("te jdari", false).unwrap().0);
-    assert_eq!("seljdi", jvozba::get_lujvo("se jdice", false).unwrap().0);
-    assert_eq!("terjdi", jvozba::get_lujvo("te jdice", false).unwrap().0);
-    assert_eq!("seljdika", jvozba::get_lujvo("se jdika", false).unwrap().0);
-    assert_eq!("terjdika", jvozba::get_lujvo("te jdika", false).unwrap().0);
-    assert_eq!("seldi'a", jvozba::get_lujvo("se jdima", false).unwrap().0);
-    assert_eq!("terdi'a", jvozba::get_lujvo("te jdima", false).unwrap().0);
-    assert_eq!("veldi'a", jvozba::get_lujvo("ve jdima", false).unwrap().0);
-    assert_eq!("seldi'i", jvozba::get_lujvo("se jdini", false).unwrap().0);
-    assert_eq!("seljdu", jvozba::get_lujvo("se jduli", false).unwrap().0);
-    assert_eq!("selje'a", jvozba::get_lujvo("se jecta", false).unwrap().0);
-    assert_eq!("seljeftu", jvozba::get_lujvo("se jeftu", false).unwrap().0);
-    assert_eq!("terjeftu", jvozba::get_lujvo("te jeftu", false).unwrap().0);
-    assert_eq!("selje'o", jvozba::get_lujvo("se jegvo", false).unwrap().0);
-    assert_eq!("seljelca", jvozba::get_lujvo("se jelca", false).unwrap().0);
-    assert_eq!("terjelca", jvozba::get_lujvo("te jelca", false).unwrap().0);
-    assert_eq!("seljme", jvozba::get_lujvo("se jemna", false).unwrap().0);
-    assert_eq!("terjme", jvozba::get_lujvo("te jemna", false).unwrap().0);
-    assert_eq!("seljenca", jvozba::get_lujvo("se jenca", false).unwrap().0);
-    assert_eq!("seljendu", jvozba::get_lujvo("se jendu", false).unwrap().0);
-    assert_eq!("terjendu", jvozba::get_lujvo("te jendu", false).unwrap().0);
-    assert_eq!("seljei", jvozba::get_lujvo("se jenmi", false).unwrap().0);
-    assert_eq!("terjei", jvozba::get_lujvo("te jenmi", false).unwrap().0);
-    assert_eq!("seljerna", jvozba::get_lujvo("se jerna", false).unwrap().0);
-    assert_eq!("terjerna", jvozba::get_lujvo("te jerna", false).unwrap().0);
-    assert_eq!("selje'i", jvozba::get_lujvo("se jersi", false).unwrap().0);
-    assert_eq!("seljerxo", jvozba::get_lujvo("se jerxo", false).unwrap().0);
-    assert_eq!("seljesni", jvozba::get_lujvo("se jesni", false).unwrap().0);
-    assert_eq!("selje'e", jvozba::get_lujvo("se jetce", false).unwrap().0);
-    assert_eq!("terje'e", jvozba::get_lujvo("te jetce", false).unwrap().0);
-    assert_eq!("selje'u", jvozba::get_lujvo("se jetnu", false).unwrap().0);
-    assert_eq!("selja'u", jvozba::get_lujvo("se jgalu", false).unwrap().0);
-    assert_eq!("seljga", jvozba::get_lujvo("se jganu", false).unwrap().0);
-    assert_eq!("terjga", jvozba::get_lujvo("te jganu", false).unwrap().0);
-    assert_eq!("seljai", jvozba::get_lujvo("se jgari", false).unwrap().0);
-    assert_eq!("terjai", jvozba::get_lujvo("te jgari", false).unwrap().0);
-    assert_eq!("seljge", jvozba::get_lujvo("se jgena", false).unwrap().0);
-    assert_eq!("seljgina", jvozba::get_lujvo("se jgina", false).unwrap().0);
-    assert_eq!("terjgina", jvozba::get_lujvo("te jgina", false).unwrap().0);
-    assert_eq!("seljgi", jvozba::get_lujvo("se jgira", false).unwrap().0);
-    assert_eq!("seljgita", jvozba::get_lujvo("se jgita", false).unwrap().0);
-    assert_eq!("seljbi", jvozba::get_lujvo("se jibni", false).unwrap().0);
-    assert_eq!("terjbi", jvozba::get_lujvo("te jibni", false).unwrap().0);
-    assert_eq!("seljibri", jvozba::get_lujvo("se jibri", false).unwrap().0);
-    assert_eq!("seljicla", jvozba::get_lujvo("se jicla", false).unwrap().0);
-    assert_eq!("selcmu", jvozba::get_lujvo("se jicmu", false).unwrap().0);
-    assert_eq!("seljijnu", jvozba::get_lujvo("se jijnu", false).unwrap().0);
-    assert_eq!("terjijnu", jvozba::get_lujvo("te jijnu", false).unwrap().0);
-    assert_eq!("seljikca", jvozba::get_lujvo("se jikca", false).unwrap().0);
-    assert_eq!("seljikru", jvozba::get_lujvo("se jikru", false).unwrap().0);
-    assert_eq!("seljilka", jvozba::get_lujvo("se jilka", false).unwrap().0);
-    assert_eq!("seljilra", jvozba::get_lujvo("se jilra", false).unwrap().0);
-    assert_eq!("terjilra", jvozba::get_lujvo("te jilra", false).unwrap().0);
-    assert_eq!("seljimca", jvozba::get_lujvo("se jimca", false).unwrap().0);
-    assert_eq!("seljmi", jvozba::get_lujvo("se jimpe", false).unwrap().0);
-    assert_eq!("terjmi", jvozba::get_lujvo("te jimpe", false).unwrap().0);
-    assert_eq!("seljimte", jvozba::get_lujvo("se jimte", false).unwrap().0);
-    assert_eq!("terjimte", jvozba::get_lujvo("te jimte", false).unwrap().0);
-    assert_eq!("seljinci", jvozba::get_lujvo("se jinci", false).unwrap().0);
-    assert_eq!("selji'a", jvozba::get_lujvo("se jinga", false).unwrap().0);
-    assert_eq!("terji'a", jvozba::get_lujvo("te jinga", false).unwrap().0);
-    assert_eq!("velji'a", jvozba::get_lujvo("ve jinga", false).unwrap().0);
-    assert_eq!("seljinku", jvozba::get_lujvo("se jinku", false).unwrap().0);
-    assert_eq!("terjinku", jvozba::get_lujvo("te jinku", false).unwrap().0);
-    assert_eq!("veljinku", jvozba::get_lujvo("ve jinku", false).unwrap().0);
-    assert_eq!("seljinme", jvozba::get_lujvo("se jinme", false).unwrap().0);
-    assert_eq!("seljinru", jvozba::get_lujvo("se jinru", false).unwrap().0);
-    assert_eq!("seljinsa", jvozba::get_lujvo("se jinsa", false).unwrap().0);
-    assert_eq!("terjinsa", jvozba::get_lujvo("te jinsa", false).unwrap().0);
-    assert_eq!("seljinto", jvozba::get_lujvo("se jinto", false).unwrap().0);
-    assert_eq!("terjinto", jvozba::get_lujvo("te jinto", false).unwrap().0);
-    assert_eq!("selji'i", jvozba::get_lujvo("se jinvi", false).unwrap().0);
-    assert_eq!("terji'i", jvozba::get_lujvo("te jinvi", false).unwrap().0);
-    assert_eq!("velji'i", jvozba::get_lujvo("ve jinvi", false).unwrap().0);
-    assert_eq!("seljinzi", jvozba::get_lujvo("se jinzi", false).unwrap().0);
-    assert_eq!("seljipci", jvozba::get_lujvo("se jipci", false).unwrap().0);
-    assert_eq!("selji'o", jvozba::get_lujvo("se jipno", false).unwrap().0);
-    assert_eq!("terji'o", jvozba::get_lujvo("te jipno", false).unwrap().0);
-    assert_eq!("seljirna", jvozba::get_lujvo("se jirna", false).unwrap().0);
-    assert_eq!("seljisra", jvozba::get_lujvo("se jisra", false).unwrap().0);
-    assert_eq!("seljitfa", jvozba::get_lujvo("se jitfa", false).unwrap().0);
-    assert_eq!("seltro", jvozba::get_lujvo("se jitro", false).unwrap().0);
-    assert_eq!("tertro", jvozba::get_lujvo("te jitro", false).unwrap().0);
-    assert_eq!("seljivbu", jvozba::get_lujvo("se jivbu", false).unwrap().0);
-    assert_eq!("terjivbu", jvozba::get_lujvo("te jivbu", false).unwrap().0);
-    assert_eq!("seljvi", jvozba::get_lujvo("se jivna", false).unwrap().0);
-    assert_eq!("terjvi", jvozba::get_lujvo("te jivna", false).unwrap().0);
-    assert_eq!("veljvi", jvozba::get_lujvo("ve jivna", false).unwrap().0);
-    assert_eq!("seljmaji", jvozba::get_lujvo("se jmaji", false).unwrap().0);
-    assert_eq!("terjmaji", jvozba::get_lujvo("te jmaji", false).unwrap().0);
-    assert_eq!("seljmifa", jvozba::get_lujvo("se jmifa", false).unwrap().0);
-    assert_eq!("terjmifa", jvozba::get_lujvo("te jmifa", false).unwrap().0);
-    assert_eq!("seljmina", jvozba::get_lujvo("se jmina", false).unwrap().0);
-    assert_eq!("terjmina", jvozba::get_lujvo("te jmina", false).unwrap().0);
-    assert_eq!("veljmina", jvozba::get_lujvo("ve jmina", false).unwrap().0);
-    assert_eq!("selji'e", jvozba::get_lujvo("se jmive", false).unwrap().0);
-    assert_eq!("seljo'o", jvozba::get_lujvo("se jordo", false).unwrap().0);
-    assert_eq!("seljo'e", jvozba::get_lujvo("se jorne", false).unwrap().0);
-    assert_eq!("terjo'e", jvozba::get_lujvo("te jorne", false).unwrap().0);
-    assert_eq!("seljbu", jvozba::get_lujvo("se jubme", false).unwrap().0);
-    assert_eq!("terjbu", jvozba::get_lujvo("te jubme", false).unwrap().0);
-    assert_eq!("seljudri", jvozba::get_lujvo("se judri", false).unwrap().0);
-    assert_eq!("terjudri", jvozba::get_lujvo("te judri", false).unwrap().0);
-    assert_eq!("selju'a", jvozba::get_lujvo("se jufra", false).unwrap().0);
-    assert_eq!("terju'a", jvozba::get_lujvo("te jufra", false).unwrap().0);
-    assert_eq!("seljukni", jvozba::get_lujvo("se jukni", false).unwrap().0);
-    assert_eq!("seljukpa", jvozba::get_lujvo("se jukpa", false).unwrap().0);
-    assert_eq!("terjukpa", jvozba::get_lujvo("te jukpa", false).unwrap().0);
-    assert_eq!("selju'e", jvozba::get_lujvo("se julne", false).unwrap().0);
-    assert_eq!("terju'e", jvozba::get_lujvo("te julne", false).unwrap().0);
-    assert_eq!("velju'e", jvozba::get_lujvo("ve julne", false).unwrap().0);
-    assert_eq!("selju'i", jvozba::get_lujvo("se jundi", false).unwrap().0);
-    assert_eq!("seljungo", jvozba::get_lujvo("se jungo", false).unwrap().0);
-    assert_eq!("seljunla", jvozba::get_lujvo("se junla", false).unwrap().0);
-    assert_eq!("terjunla", jvozba::get_lujvo("te junla", false).unwrap().0);
-    assert_eq!("veljunla", jvozba::get_lujvo("ve junla", false).unwrap().0);
-    assert_eq!("seljunri", jvozba::get_lujvo("se junri", false).unwrap().0);
-    assert_eq!("seljunta", jvozba::get_lujvo("se junta", false).unwrap().0);
-    assert_eq!("terjunta", jvozba::get_lujvo("te junta", false).unwrap().0);
-    assert_eq!("seljurme", jvozba::get_lujvo("se jurme", false).unwrap().0);
-    assert_eq!("seljursa", jvozba::get_lujvo("se jursa", false).unwrap().0);
-    assert_eq!("seljutsi", jvozba::get_lujvo("se jutsi", false).unwrap().0);
-    assert_eq!("terjutsi", jvozba::get_lujvo("te jutsi", false).unwrap().0);
-    assert_eq!("seljuxre", jvozba::get_lujvo("se juxre", false).unwrap().0);
-    assert_eq!("selji'u", jvozba::get_lujvo("se jvinu", false).unwrap().0);
-    assert_eq!("terji'u", jvozba::get_lujvo("te jvinu", false).unwrap().0);
-    assert_eq!("selkabri", jvozba::get_lujvo("se kabri", false).unwrap().0);
-    assert_eq!("terkabri", jvozba::get_lujvo("te kabri", false).unwrap().0);
-    assert_eq!("selkacma", jvozba::get_lujvo("se kacma", false).unwrap().0);
-    assert_eq!("terkacma", jvozba::get_lujvo("te kacma", false).unwrap().0);
-    assert_eq!("selkadno", jvozba::get_lujvo("se kadno", false).unwrap().0);
-    assert_eq!("selkafke", jvozba::get_lujvo("se kafke", false).unwrap().0);
-    assert_eq!("terkafke", jvozba::get_lujvo("te kafke", false).unwrap().0);
-    assert_eq!("selkagni", jvozba::get_lujvo("se kagni", false).unwrap().0);
-    assert_eq!("terkagni", jvozba::get_lujvo("te kagni", false).unwrap().0);
-    assert_eq!("seljde", jvozba::get_lujvo("se kajde", false).unwrap().0);
-    assert_eq!("terjde", jvozba::get_lujvo("te kajde", false).unwrap().0);
-    assert_eq!("selkajna", jvozba::get_lujvo("se kajna", false).unwrap().0);
-    assert_eq!("terkajna", jvozba::get_lujvo("te kajna", false).unwrap().0);
-    assert_eq!("selka'e", jvozba::get_lujvo("se kakne", false).unwrap().0);
-    assert_eq!("terka'e", jvozba::get_lujvo("te kakne", false).unwrap().0);
-    assert_eq!("selkakpa", jvozba::get_lujvo("se kakpa", false).unwrap().0);
-    assert_eq!("terkakpa", jvozba::get_lujvo("te kakpa", false).unwrap().0);
-    assert_eq!("velkakpa", jvozba::get_lujvo("ve kakpa", false).unwrap().0);
-    assert_eq!("selkalci", jvozba::get_lujvo("se kalci", false).unwrap().0);
-    assert_eq!("selkalri", jvozba::get_lujvo("se kalri", false).unwrap().0);
-    assert_eq!("terkalri", jvozba::get_lujvo("te kalri", false).unwrap().0);
-    assert_eq!("selkalsa", jvozba::get_lujvo("se kalsa", false).unwrap().0);
-    assert_eq!("selkalte", jvozba::get_lujvo("se kalte", false).unwrap().0);
-    assert_eq!("terkalte", jvozba::get_lujvo("te kalte", false).unwrap().0);
-    assert_eq!("selkamju", jvozba::get_lujvo("se kamju", false).unwrap().0);
-    assert_eq!("selkamni", jvozba::get_lujvo("se kamni", false).unwrap().0);
-    assert_eq!("terkamni", jvozba::get_lujvo("te kamni", false).unwrap().0);
-    assert_eq!("selkau", jvozba::get_lujvo("se kampu", false).unwrap().0);
-    assert_eq!("selkanba", jvozba::get_lujvo("se kanba", false).unwrap().0);
-    assert_eq!("selkancu", jvozba::get_lujvo("se kancu", false).unwrap().0);
-    assert_eq!("terkancu", jvozba::get_lujvo("te kancu", false).unwrap().0);
-    assert_eq!("velkancu", jvozba::get_lujvo("ve kancu", false).unwrap().0);
-    assert_eq!("selkandi", jvozba::get_lujvo("se kandi", false).unwrap().0);
-    assert_eq!("terkandi", jvozba::get_lujvo("te kandi", false).unwrap().0);
-    assert_eq!("selkanji", jvozba::get_lujvo("se kanji", false).unwrap().0);
-    assert_eq!("terkanji", jvozba::get_lujvo("te kanji", false).unwrap().0);
-    assert_eq!("velkanji", jvozba::get_lujvo("ve kanji", false).unwrap().0);
-    assert_eq!("selkanla", jvozba::get_lujvo("se kanla", false).unwrap().0);
-    assert_eq!("selka'o", jvozba::get_lujvo("se kanro", false).unwrap().0);
-    assert_eq!("selkansa", jvozba::get_lujvo("se kansa", false).unwrap().0);
-    assert_eq!("terkansa", jvozba::get_lujvo("te kansa", false).unwrap().0);
-    assert_eq!("selka'u", jvozba::get_lujvo("se kantu", false).unwrap().0);
-    assert_eq!("selkanxe", jvozba::get_lujvo("se kanxe", false).unwrap().0);
-    assert_eq!("terkanxe", jvozba::get_lujvo("te kanxe", false).unwrap().0);
-    assert_eq!("selkarbi", jvozba::get_lujvo("se karbi", false).unwrap().0);
-    assert_eq!("terkarbi", jvozba::get_lujvo("te karbi", false).unwrap().0);
-    assert_eq!("velkarbi", jvozba::get_lujvo("ve karbi", false).unwrap().0);
-    assert_eq!("xelkarbi", jvozba::get_lujvo("xe karbi", false).unwrap().0);
-    assert_eq!("selkarce", jvozba::get_lujvo("se karce", false).unwrap().0);
-    assert_eq!("terkarce", jvozba::get_lujvo("te karce", false).unwrap().0);
-    assert_eq!("selkarda", jvozba::get_lujvo("se karda", false).unwrap().0);
-    assert_eq!("terkarda", jvozba::get_lujvo("te karda", false).unwrap().0);
-    assert_eq!("selkargu", jvozba::get_lujvo("se kargu", false).unwrap().0);
-    assert_eq!("terkargu", jvozba::get_lujvo("te kargu", false).unwrap().0);
-    assert_eq!("selkarli", jvozba::get_lujvo("se karli", false).unwrap().0);
-    assert_eq!("terkarli", jvozba::get_lujvo("te karli", false).unwrap().0);
-    assert_eq!("selkarni", jvozba::get_lujvo("se karni", false).unwrap().0);
-    assert_eq!("terkarni", jvozba::get_lujvo("te karni", false).unwrap().0);
-    assert_eq!("velkarni", jvozba::get_lujvo("ve karni", false).unwrap().0);
-    assert_eq!("selka'a", jvozba::get_lujvo("se katna", false).unwrap().0);
-    assert_eq!("terka'a", jvozba::get_lujvo("te katna", false).unwrap().0);
-    assert_eq!("selkavbu", jvozba::get_lujvo("se kavbu", false).unwrap().0);
-    assert_eq!("terkavbu", jvozba::get_lujvo("te kavbu", false).unwrap().0);
-    assert_eq!("selke'i", jvozba::get_lujvo("se kecti", false).unwrap().0);
-    assert_eq!("terke'i", jvozba::get_lujvo("te kecti", false).unwrap().0);
-    assert_eq!("selkei", jvozba::get_lujvo("se kelci", false).unwrap().0);
-    assert_eq!("selke'o", jvozba::get_lujvo("se kelvo", false).unwrap().0);
-    assert_eq!("terke'o", jvozba::get_lujvo("te kelvo", false).unwrap().0);
-    assert_eq!("selkenra", jvozba::get_lujvo("se kenra", false).unwrap().0);
-    assert_eq!("selkensa", jvozba::get_lujvo("se kensa", false).unwrap().0);
-    assert_eq!("selkre", jvozba::get_lujvo("se kerfa", false).unwrap().0);
-    assert_eq!("terkre", jvozba::get_lujvo("te kerfa", false).unwrap().0);
-    assert_eq!("selkerlo", jvozba::get_lujvo("se kerlo", false).unwrap().0);
-    assert_eq!("seltco", jvozba::get_lujvo("se ketco", false).unwrap().0);
-    assert_eq!("selke'a", jvozba::get_lujvo("se kevna", false).unwrap().0);
-    assert_eq!("selki'e", jvozba::get_lujvo("se kicne", false).unwrap().0);
-    assert_eq!("terki'e", jvozba::get_lujvo("te kicne", false).unwrap().0);
-    assert_eq!("selki'o", jvozba::get_lujvo("se kilto", false).unwrap().0);
-    assert_eq!("terki'o", jvozba::get_lujvo("te kilto", false).unwrap().0);
-    assert_eq!("selkinli", jvozba::get_lujvo("se kinli", false).unwrap().0);
-    assert_eq!("selkisto", jvozba::get_lujvo("se kisto", false).unwrap().0);
-    assert_eq!("selklaji", jvozba::get_lujvo("se klaji", false).unwrap().0);
-    assert_eq!("terklaji", jvozba::get_lujvo("te klaji", false).unwrap().0);
-    assert_eq!("selklaku", jvozba::get_lujvo("se klaku", false).unwrap().0);
-    assert_eq!("terklaku", jvozba::get_lujvo("te klaku", false).unwrap().0);
-    assert_eq!("selkla", jvozba::get_lujvo("se klama", false).unwrap().0);
-    assert_eq!("terkla", jvozba::get_lujvo("te klama", false).unwrap().0);
-    assert_eq!("velkla", jvozba::get_lujvo("ve klama", false).unwrap().0);
-    assert_eq!("xelkla", jvozba::get_lujvo("xe klama", false).unwrap().0);
-    assert_eq!("selylai", jvozba::get_lujvo("se klani", false).unwrap().0);
-    assert_eq!("terlai", jvozba::get_lujvo("te klani", false).unwrap().0);
-    assert_eq!("selkle", jvozba::get_lujvo("se klesi", false).unwrap().0);
-    assert_eq!("terlei", jvozba::get_lujvo("te klesi", false).unwrap().0);
-    assert_eq!("selkli", jvozba::get_lujvo("se klina", false).unwrap().0);
-    assert_eq!("selkliru", jvozba::get_lujvo("se kliru", false).unwrap().0);
-    assert_eq!("selkliti", jvozba::get_lujvo("se kliti", false).unwrap().0);
-    assert_eq!("selylu'e", jvozba::get_lujvo("se klupe", false).unwrap().0);
-    assert_eq!("terlu'e", jvozba::get_lujvo("te klupe", false).unwrap().0);
-    assert_eq!("velylu'e", jvozba::get_lujvo("ve klupe", false).unwrap().0);
-    assert_eq!("selkluza", jvozba::get_lujvo("se kluza", false).unwrap().0);
-    assert_eq!("terkluza", jvozba::get_lujvo("te kluza", false).unwrap().0);
-    assert_eq!("selko'i", jvozba::get_lujvo("se kobli", false).unwrap().0);
-    assert_eq!("selko'a", jvozba::get_lujvo("se kojna", false).unwrap().0);
-    assert_eq!("terko'a", jvozba::get_lujvo("te kojna", false).unwrap().0);
-    assert_eq!("selko'e", jvozba::get_lujvo("se kolme", false).unwrap().0);
-    assert_eq!("selkomcu", jvozba::get_lujvo("se komcu", false).unwrap().0);
-    assert_eq!("terkomcu", jvozba::get_lujvo("te komcu", false).unwrap().0);
-    assert_eq!("selko'u", jvozba::get_lujvo("se konju", false).unwrap().0);
-    assert_eq!("terko'u", jvozba::get_lujvo("te konju", false).unwrap().0);
-    assert_eq!("selkoi", jvozba::get_lujvo("se korbi", false).unwrap().0);
-    assert_eq!("terkoi", jvozba::get_lujvo("te korbi", false).unwrap().0);
-    assert_eq!("selkorka", jvozba::get_lujvo("se korka", false).unwrap().0);
-    assert_eq!("selkosta", jvozba::get_lujvo("se kosta", false).unwrap().0);
-    assert_eq!("selkramu", jvozba::get_lujvo("se kramu", false).unwrap().0);
-    assert_eq!("terkramu", jvozba::get_lujvo("te kramu", false).unwrap().0);
-    assert_eq!("velkramu", jvozba::get_lujvo("ve kramu", false).unwrap().0);
-    assert_eq!("selkra", jvozba::get_lujvo("se krasi", false).unwrap().0);
-    assert_eq!("selka'i", jvozba::get_lujvo("se krati", false).unwrap().0);
-    assert_eq!("terka'i", jvozba::get_lujvo("te krati", false).unwrap().0);
-    assert_eq!("selke'u", jvozba::get_lujvo("se krefu", false).unwrap().0);
-    assert_eq!("selkri", jvozba::get_lujvo("se krici", false).unwrap().0);
-    assert_eq!("terkri", jvozba::get_lujvo("te krici", false).unwrap().0);
-    assert_eq!("selkrili", jvozba::get_lujvo("se krili", false).unwrap().0);
-    assert_eq!("terkrili", jvozba::get_lujvo("te krili", false).unwrap().0);
-    assert_eq!("selki'u", jvozba::get_lujvo("se krinu", false).unwrap().0);
-    assert_eq!("selki'a", jvozba::get_lujvo("se krixa", false).unwrap().0);
-    assert_eq!("selkruca", jvozba::get_lujvo("se kruca", false).unwrap().0);
-    assert_eq!("terkruca", jvozba::get_lujvo("te kruca", false).unwrap().0);
-    assert_eq!("selkruji", jvozba::get_lujvo("se kruji", false).unwrap().0);
-    assert_eq!("selkru", jvozba::get_lujvo("se kruvi", false).unwrap().0);
-    assert_eq!("terkru", jvozba::get_lujvo("te kruvi", false).unwrap().0);
-    assert_eq!("velkru", jvozba::get_lujvo("ve kruvi", false).unwrap().0);
-    assert_eq!("selkubli", jvozba::get_lujvo("se kubli", false).unwrap().0);
-    assert_eq!("terkubli", jvozba::get_lujvo("te kubli", false).unwrap().0);
-    assert_eq!("selkucli", jvozba::get_lujvo("se kucli", false).unwrap().0);
-    assert_eq!("selkufra", jvozba::get_lujvo("se kufra", false).unwrap().0);
-    assert_eq!("selkukte", jvozba::get_lujvo("se kukte", false).unwrap().0);
-    assert_eq!("selklu", jvozba::get_lujvo("se kulnu", false).unwrap().0);
-    assert_eq!("selku'a", jvozba::get_lujvo("se kumfa", false).unwrap().0);
-    assert_eq!("terku'a", jvozba::get_lujvo("te kumfa", false).unwrap().0);
-    assert_eq!("selkumte", jvozba::get_lujvo("se kumte", false).unwrap().0);
-    assert_eq!("selkunra", jvozba::get_lujvo("se kunra", false).unwrap().0);
-    assert_eq!("terkunra", jvozba::get_lujvo("te kunra", false).unwrap().0);
-    assert_eq!("selkunti", jvozba::get_lujvo("se kunti", false).unwrap().0);
-    assert_eq!("selkurfa", jvozba::get_lujvo("se kurfa", false).unwrap().0);
-    assert_eq!("terkurfa", jvozba::get_lujvo("te kurfa", false).unwrap().0);
-    assert_eq!("selku'i", jvozba::get_lujvo("se kurji", false).unwrap().0);
-    assert_eq!("selkurki", jvozba::get_lujvo("se kurki", false).unwrap().0);
-    assert_eq!("selku'e", jvozba::get_lujvo("se kuspe", false).unwrap().0);
-    assert_eq!("selkusru", jvozba::get_lujvo("se kusru", false).unwrap().0);
-    assert_eq!("selylabno", jvozba::get_lujvo("se labno", false).unwrap().0);
-    assert_eq!("selcpu", jvozba::get_lujvo("se lacpu", false).unwrap().0);
-    assert_eq!("tercpu", jvozba::get_lujvo("te lacpu", false).unwrap().0);
-    assert_eq!("selylacri", jvozba::get_lujvo("se lacri", false).unwrap().0);
-    assert_eq!("terlacri", jvozba::get_lujvo("te lacri", false).unwrap().0);
-    assert_eq!("selyladru", jvozba::get_lujvo("se ladru", false).unwrap().0);
-    assert_eq!("selylafti", jvozba::get_lujvo("se lafti", false).unwrap().0);
-    assert_eq!("terlafti", jvozba::get_lujvo("te lafti", false).unwrap().0);
-    assert_eq!("velylafti", jvozba::get_lujvo("ve lafti", false).unwrap().0);
-    assert_eq!("selyla'e", jvozba::get_lujvo("se lakne", false).unwrap().0);
-    assert_eq!("selylakse", jvozba::get_lujvo("se lakse", false).unwrap().0);
-    assert_eq!("selyla'u", jvozba::get_lujvo("se lalxu", false).unwrap().0);
-    assert_eq!("selyla'i", jvozba::get_lujvo("se lamji", false).unwrap().0);
-    assert_eq!("terla'i", jvozba::get_lujvo("te lamji", false).unwrap().0);
-    assert_eq!("velyla'i", jvozba::get_lujvo("ve lamji", false).unwrap().0);
-    assert_eq!("selylanbi", jvozba::get_lujvo("se lanbi", false).unwrap().0);
-    assert_eq!("selylanci", jvozba::get_lujvo("se lanci", false).unwrap().0);
-    assert_eq!("terlanci", jvozba::get_lujvo("te lanci", false).unwrap().0);
-    assert_eq!("velylanci", jvozba::get_lujvo("ve lanci", false).unwrap().0);
-    assert_eq!("selylanka", jvozba::get_lujvo("se lanka", false).unwrap().0);
-    assert_eq!("terlanka", jvozba::get_lujvo("te lanka", false).unwrap().0);
-    assert_eq!("selylanli", jvozba::get_lujvo("se lanli", false).unwrap().0);
-    assert_eq!("terlanli", jvozba::get_lujvo("te lanli", false).unwrap().0);
-    assert_eq!("selylanme", jvozba::get_lujvo("se lanme", false).unwrap().0);
-    assert_eq!("terlanme", jvozba::get_lujvo("te lanme", false).unwrap().0);
-    assert_eq!("selylante", jvozba::get_lujvo("se lante", false).unwrap().0);
-    assert_eq!("terlante", jvozba::get_lujvo("te lante", false).unwrap().0);
-    assert_eq!("selylanxe", jvozba::get_lujvo("se lanxe", false).unwrap().0);
-    assert_eq!("selylanzu", jvozba::get_lujvo("se lanzu", false).unwrap().0);
-    assert_eq!("terlanzu", jvozba::get_lujvo("te lanzu", false).unwrap().0);
-    assert_eq!("selylarcu", jvozba::get_lujvo("se larcu", false).unwrap().0);
-    assert_eq!("selyla'a", jvozba::get_lujvo("se lasna", false).unwrap().0);
-    assert_eq!("terla'a", jvozba::get_lujvo("te lasna", false).unwrap().0);
-    assert_eq!("velyla'a", jvozba::get_lujvo("ve lasna", false).unwrap().0);
-    assert_eq!("selylastu", jvozba::get_lujvo("se lastu", false).unwrap().0);
-    assert_eq!("selyla'o", jvozba::get_lujvo("se latmo", false).unwrap().0);
-    assert_eq!("selylatna", jvozba::get_lujvo("se latna", false).unwrap().0);
-    assert_eq!("terlatna", jvozba::get_lujvo("te latna", false).unwrap().0);
-    assert_eq!("velylatna", jvozba::get_lujvo("ve latna", false).unwrap().0);
-    assert_eq!("selylazni", jvozba::get_lujvo("se lazni", false).unwrap().0);
-    assert_eq!("selyle'a", jvozba::get_lujvo("se lebna", false).unwrap().0);
-    assert_eq!("terle'a", jvozba::get_lujvo("te lebna", false).unwrap().0);
-    assert_eq!("selyle'o", jvozba::get_lujvo("se lenjo", false).unwrap().0);
-    assert_eq!("terle'o", jvozba::get_lujvo("te lenjo", false).unwrap().0);
-    assert_eq!("velyle'o", jvozba::get_lujvo("ve lenjo", false).unwrap().0);
-    assert_eq!("selylenku", jvozba::get_lujvo("se lenku", false).unwrap().0);
-    assert_eq!("selylerci", jvozba::get_lujvo("se lerci", false).unwrap().0);
-    assert_eq!("selyle'u", jvozba::get_lujvo("se lerfu", false).unwrap().0);
-    assert_eq!("terle'u", jvozba::get_lujvo("te lerfu", false).unwrap().0);
-    assert_eq!("selylibjo", jvozba::get_lujvo("se libjo", false).unwrap().0);
-    assert_eq!("selyli'e", jvozba::get_lujvo("se lidne", false).unwrap().0);
-    assert_eq!("terli'e", jvozba::get_lujvo("te lidne", false).unwrap().0);
-    assert_eq!("selfri", jvozba::get_lujvo("se lifri", false).unwrap().0);
-    assert_eq!("seljda", jvozba::get_lujvo("se lijda", false).unwrap().0);
-    assert_eq!("terjda", jvozba::get_lujvo("te lijda", false).unwrap().0);
-    assert_eq!("selylimna", jvozba::get_lujvo("se limna", false).unwrap().0);
-    assert_eq!("selylindi", jvozba::get_lujvo("se lindi", false).unwrap().0);
-    assert_eq!("terlindi", jvozba::get_lujvo("te lindi", false).unwrap().0);
-    assert_eq!("selyli'i", jvozba::get_lujvo("se linji", false).unwrap().0);
-    assert_eq!("selylinsi", jvozba::get_lujvo("se linsi", false).unwrap().0);
-    assert_eq!("terlinsi", jvozba::get_lujvo("te linsi", false).unwrap().0);
-    assert_eq!("selyli'o", jvozba::get_lujvo("se linto", false).unwrap().0);
-    assert_eq!("selylisri", jvozba::get_lujvo("se lisri", false).unwrap().0);
-    assert_eq!("terlisri", jvozba::get_lujvo("te lisri", false).unwrap().0);
-    assert_eq!("velylisri", jvozba::get_lujvo("ve lisri", false).unwrap().0);
-    assert_eq!("selste", jvozba::get_lujvo("se liste", false).unwrap().0);
-    assert_eq!("terste", jvozba::get_lujvo("te liste", false).unwrap().0);
-    assert_eq!("velste", jvozba::get_lujvo("ve liste", false).unwrap().0);
-    assert_eq!("selylitce", jvozba::get_lujvo("se litce", false).unwrap().0);
-    assert_eq!("terlitce", jvozba::get_lujvo("te litce", false).unwrap().0);
-    assert_eq!("selylitki", jvozba::get_lujvo("se litki", false).unwrap().0);
-    assert_eq!("terlitki", jvozba::get_lujvo("te litki", false).unwrap().0);
-    assert_eq!("selyli'u", jvozba::get_lujvo("se litru", false).unwrap().0);
-    assert_eq!("terli'u", jvozba::get_lujvo("te litru", false).unwrap().0);
-    assert_eq!("selylivga", jvozba::get_lujvo("se livga", false).unwrap().0);
-    assert_eq!("selylivla", jvozba::get_lujvo("se livla", false).unwrap().0);
-    assert_eq!("selylogji", jvozba::get_lujvo("se logji", false).unwrap().0);
-    assert_eq!("seljbo", jvozba::get_lujvo("se lojbo", false).unwrap().0);
-    assert_eq!("selyloi", jvozba::get_lujvo("se loldi", false).unwrap().0);
-    assert_eq!("selylo'u", jvozba::get_lujvo("se lorxu", false).unwrap().0);
-    assert_eq!("selylu'o", jvozba::get_lujvo("se lubno", false).unwrap().0);
-    assert_eq!("seljvo", jvozba::get_lujvo("se lujvo", false).unwrap().0);
-    assert_eq!("terjvo", jvozba::get_lujvo("te lujvo", false).unwrap().0);
-    assert_eq!("veljvo", jvozba::get_lujvo("ve lujvo", false).unwrap().0);
-    assert_eq!("selylu'i", jvozba::get_lujvo("se lumci", false).unwrap().0);
-    assert_eq!("terlu'i", jvozba::get_lujvo("te lumci", false).unwrap().0);
-    assert_eq!("velylu'i", jvozba::get_lujvo("ve lumci", false).unwrap().0);
-    assert_eq!("selylunra", jvozba::get_lujvo("se lunra", false).unwrap().0);
-    assert_eq!("selylunsa", jvozba::get_lujvo("se lunsa", false).unwrap().0);
-    assert_eq!("terlunsa", jvozba::get_lujvo("te lunsa", false).unwrap().0);
-    assert_eq!("velylunsa", jvozba::get_lujvo("ve lunsa", false).unwrap().0);
-    assert_eq!("selmabla", jvozba::get_lujvo("se mabla", false).unwrap().0);
-    assert_eq!("termabla", jvozba::get_lujvo("te mabla", false).unwrap().0);
-    assert_eq!("selmabru", jvozba::get_lujvo("se mabru", false).unwrap().0);
-    assert_eq!("selcnu", jvozba::get_lujvo("se macnu", false).unwrap().0);
-    assert_eq!("tercnu", jvozba::get_lujvo("te macnu", false).unwrap().0);
-    assert_eq!("selma'u", jvozba::get_lujvo("se makcu", false).unwrap().0);
-    assert_eq!("selmakfa", jvozba::get_lujvo("se makfa", false).unwrap().0);
-    assert_eq!("termakfa", jvozba::get_lujvo("te makfa", false).unwrap().0);
-    assert_eq!("selmaksi", jvozba::get_lujvo("se maksi", false).unwrap().0);
-    assert_eq!("selmalsi", jvozba::get_lujvo("se malsi", false).unwrap().0);
-    assert_eq!("termalsi", jvozba::get_lujvo("te malsi", false).unwrap().0);
-    assert_eq!("selmamta", jvozba::get_lujvo("se mamta", false).unwrap().0);
-    assert_eq!("selmanci", jvozba::get_lujvo("se manci", false).unwrap().0);
-    assert_eq!("selmanfo", jvozba::get_lujvo("se manfo", false).unwrap().0);
-    assert_eq!("selmanri", jvozba::get_lujvo("se manri", false).unwrap().0);
-    assert_eq!("termanri", jvozba::get_lujvo("te manri", false).unwrap().0);
-    assert_eq!("selmansa", jvozba::get_lujvo("se mansa", false).unwrap().0);
-    assert_eq!("termansa", jvozba::get_lujvo("te mansa", false).unwrap().0);
-    assert_eq!("selmanti", jvozba::get_lujvo("se manti", false).unwrap().0);
-    assert_eq!("selmapku", jvozba::get_lujvo("se mapku", false).unwrap().0);
-    assert_eq!("selmapti", jvozba::get_lujvo("se mapti", false).unwrap().0);
-    assert_eq!("termapti", jvozba::get_lujvo("te mapti", false).unwrap().0);
-    assert_eq!("selmra", jvozba::get_lujvo("se marbi", false).unwrap().0);
-    assert_eq!("termra", jvozba::get_lujvo("te marbi", false).unwrap().0);
-    assert_eq!("terma'e", jvozba::get_lujvo("te marce", false).unwrap().0);
-    assert_eq!("velma'e", jvozba::get_lujvo("ve marce", false).unwrap().0);
-    assert_eq!("selmarde", jvozba::get_lujvo("se marde", false).unwrap().0);
-    assert_eq!("termarde", jvozba::get_lujvo("te marde", false).unwrap().0);
-    assert_eq!("selmai", jvozba::get_lujvo("se marji", false).unwrap().0);
-    assert_eq!("termai", jvozba::get_lujvo("te marji", false).unwrap().0);
-    assert_eq!("selmarna", jvozba::get_lujvo("se marna", false).unwrap().0);
-    assert_eq!("selmarxa", jvozba::get_lujvo("se marxa", false).unwrap().0);
-    assert_eq!("termarxa", jvozba::get_lujvo("te marxa", false).unwrap().0);
-    assert_eq!("selsno", jvozba::get_lujvo("se masno", false).unwrap().0);
-    assert_eq!("selma'i", jvozba::get_lujvo("se masti", false).unwrap().0);
-    assert_eq!("terma'i", jvozba::get_lujvo("te masti", false).unwrap().0);
-    assert_eq!("selmatci", jvozba::get_lujvo("se matci", false).unwrap().0);
-    assert_eq!("selmatne", jvozba::get_lujvo("se matne", false).unwrap().0);
-    assert_eq!("selmatra", jvozba::get_lujvo("se matra", false).unwrap().0);
-    assert_eq!("selmavji", jvozba::get_lujvo("se mavji", false).unwrap().0);
-    assert_eq!("selxri", jvozba::get_lujvo("se maxri", false).unwrap().0);
-    assert_eq!("selmebri", jvozba::get_lujvo("se mebri", false).unwrap().0);
-    assert_eq!("selmegdo", jvozba::get_lujvo("se megdo", false).unwrap().0);
-    assert_eq!("termegdo", jvozba::get_lujvo("te megdo", false).unwrap().0);
-    assert_eq!("selmei", jvozba::get_lujvo("se mei", false).unwrap().0);
-    assert_eq!("termei", jvozba::get_lujvo("te mei", false).unwrap().0);
-    assert_eq!("selme'o", jvozba::get_lujvo("se mekso", false).unwrap().0);
-    assert_eq!("selmle", jvozba::get_lujvo("se melbi", false).unwrap().0);
-    assert_eq!("termle", jvozba::get_lujvo("te melbi", false).unwrap().0);
-    assert_eq!("velmle", jvozba::get_lujvo("ve melbi", false).unwrap().0);
-    assert_eq!("selmeljo", jvozba::get_lujvo("se meljo", false).unwrap().0);
-    assert_eq!("selmenli", jvozba::get_lujvo("se menli", false).unwrap().0);
-    assert_eq!("selme'i", jvozba::get_lujvo("se mensi", false).unwrap().0);
-    assert_eq!("terme'i", jvozba::get_lujvo("te mensi", false).unwrap().0);
-    assert_eq!("selme'u", jvozba::get_lujvo("se mentu", false).unwrap().0);
-    assert_eq!("terme'u", jvozba::get_lujvo("te mentu", false).unwrap().0);
-    assert_eq!("selmerko", jvozba::get_lujvo("se merko", false).unwrap().0);
-    assert_eq!("selmre", jvozba::get_lujvo("se merli", false).unwrap().0);
-    assert_eq!("termre", jvozba::get_lujvo("te merli", false).unwrap().0);
-    assert_eq!("velmre", jvozba::get_lujvo("ve merli", false).unwrap().0);
-    assert_eq!("xelmre", jvozba::get_lujvo("xe merli", false).unwrap().0);
-    assert_eq!("selmexno", jvozba::get_lujvo("se mexno", false).unwrap().0);
-    assert_eq!("selmidju", jvozba::get_lujvo("se midju", false).unwrap().0);
-    assert_eq!("selmifra", jvozba::get_lujvo("se mifra", false).unwrap().0);
-    assert_eq!("termifra", jvozba::get_lujvo("te mifra", false).unwrap().0);
-    assert_eq!("selmikce", jvozba::get_lujvo("se mikce", false).unwrap().0);
-    assert_eq!("termikce", jvozba::get_lujvo("te mikce", false).unwrap().0);
-    assert_eq!("velmikce", jvozba::get_lujvo("ve mikce", false).unwrap().0);
-    assert_eq!("selmikri", jvozba::get_lujvo("se mikri", false).unwrap().0);
-    assert_eq!("termikri", jvozba::get_lujvo("te mikri", false).unwrap().0);
-    assert_eq!("selmilti", jvozba::get_lujvo("se milti", false).unwrap().0);
-    assert_eq!("termilti", jvozba::get_lujvo("te milti", false).unwrap().0);
-    assert_eq!("selmli", jvozba::get_lujvo("se milxe", false).unwrap().0);
-    assert_eq!("termi'e", jvozba::get_lujvo("te minde", false).unwrap().0);
-    assert_eq!("selmi'i", jvozba::get_lujvo("se minji", false).unwrap().0);
-    assert_eq!("selminli", jvozba::get_lujvo("se minli", false).unwrap().0);
-    assert_eq!("terminli", jvozba::get_lujvo("te minli", false).unwrap().0);
-    assert_eq!("velminli", jvozba::get_lujvo("ve minli", false).unwrap().0);
-    assert_eq!("selminra", jvozba::get_lujvo("se minra", false).unwrap().0);
-    assert_eq!("terminra", jvozba::get_lujvo("te minra", false).unwrap().0);
-    assert_eq!("velminra", jvozba::get_lujvo("ve minra", false).unwrap().0);
-    assert_eq!("selmi'u", jvozba::get_lujvo("se mintu", false).unwrap().0);
-    assert_eq!("termi'u", jvozba::get_lujvo("te mintu", false).unwrap().0);
-    assert_eq!("selmipri", jvozba::get_lujvo("se mipri", false).unwrap().0);
-    assert_eq!("termipri", jvozba::get_lujvo("te mipri", false).unwrap().0);
-    assert_eq!("velmipri", jvozba::get_lujvo("ve mipri", false).unwrap().0);
-    assert_eq!("selmirli", jvozba::get_lujvo("se mirli", false).unwrap().0);
-    assert_eq!("selmi'o", jvozba::get_lujvo("se misno", false).unwrap().0);
-    assert_eq!("selmisro", jvozba::get_lujvo("se misro", false).unwrap().0);
-    assert_eq!("seltre", jvozba::get_lujvo("se mitre", false).unwrap().0);
-    assert_eq!("tertre", jvozba::get_lujvo("te mitre", false).unwrap().0);
-    assert_eq!("veltre", jvozba::get_lujvo("ve mitre", false).unwrap().0);
-    assert_eq!("selxre", jvozba::get_lujvo("se mixre", false).unwrap().0);
-    assert_eq!("selmla", jvozba::get_lujvo("se mlana", false).unwrap().0);
-    assert_eq!("termla", jvozba::get_lujvo("te mlana", false).unwrap().0);
-    assert_eq!("velmla", jvozba::get_lujvo("ve mlana", false).unwrap().0);
-    assert_eq!("selmlatu", jvozba::get_lujvo("se mlatu", false).unwrap().0);
-    assert_eq!("selme'a", jvozba::get_lujvo("se mleca", false).unwrap().0);
-    assert_eq!("terme'a", jvozba::get_lujvo("te mleca", false).unwrap().0);
-    assert_eq!("velme'a", jvozba::get_lujvo("ve mleca", false).unwrap().0);
-    assert_eq!("selmledi", jvozba::get_lujvo("se mledi", false).unwrap().0);
-    assert_eq!("termledi", jvozba::get_lujvo("te mledi", false).unwrap().0);
-    assert_eq!("selmluni", jvozba::get_lujvo("se mluni", false).unwrap().0);
-    assert_eq!("termluni", jvozba::get_lujvo("te mluni", false).unwrap().0);
-    assert_eq!("velmluni", jvozba::get_lujvo("ve mluni", false).unwrap().0);
-    assert_eq!("selmoi", jvozba::get_lujvo("se moi", false).unwrap().0);
-    assert_eq!("termoi", jvozba::get_lujvo("te moi", false).unwrap().0);
-    assert_eq!("selmokca", jvozba::get_lujvo("se mokca", false).unwrap().0);
-    assert_eq!("selmo'u", jvozba::get_lujvo("se moklu", false).unwrap().0);
-    assert_eq!("selmlo", jvozba::get_lujvo("se molki", false).unwrap().0);
-    assert_eq!("selmo'o", jvozba::get_lujvo("se molro", false).unwrap().0);
-    assert_eq!("termo'o", jvozba::get_lujvo("te molro", false).unwrap().0);
-    assert_eq!("selmo'i", jvozba::get_lujvo("se morji", false).unwrap().0);
-    assert_eq!("termo'i", jvozba::get_lujvo("te morji", false).unwrap().0);
-    assert_eq!("selmorko", jvozba::get_lujvo("se morko", false).unwrap().0);
-    assert_eq!("selmo'a", jvozba::get_lujvo("se morna", false).unwrap().0);
-    assert_eq!("termo'a", jvozba::get_lujvo("te morna", false).unwrap().0);
-    assert_eq!("selmosra", jvozba::get_lujvo("se mosra", false).unwrap().0);
-    assert_eq!("termosra", jvozba::get_lujvo("te mosra", false).unwrap().0);
-    assert_eq!("selmraji", jvozba::get_lujvo("se mraji", false).unwrap().0);
-    assert_eq!("selmri", jvozba::get_lujvo("se mrilu", false).unwrap().0);
-    assert_eq!("termri", jvozba::get_lujvo("te mrilu", false).unwrap().0);
-    assert_eq!("velmri", jvozba::get_lujvo("ve mrilu", false).unwrap().0);
-    assert_eq!("xelmri", jvozba::get_lujvo("xe mrilu", false).unwrap().0);
-    assert_eq!("selmru", jvozba::get_lujvo("se mruli", false).unwrap().0);
-    assert_eq!("termru", jvozba::get_lujvo("te mruli", false).unwrap().0);
-    assert_eq!("velmru", jvozba::get_lujvo("ve mruli", false).unwrap().0);
-    assert_eq!("selmudri", jvozba::get_lujvo("se mudri", false).unwrap().0);
-    assert_eq!("selmu'i", jvozba::get_lujvo("se mukti", false).unwrap().0);
-    assert_eq!("termu'i", jvozba::get_lujvo("te mukti", false).unwrap().0);
-    assert_eq!("selmu'o", jvozba::get_lujvo("se mulno", false).unwrap().0);
-    assert_eq!("termu'o", jvozba::get_lujvo("te mulno", false).unwrap().0);
-    assert_eq!("selmu'e", jvozba::get_lujvo("se munje", false).unwrap().0);
-    assert_eq!("termu'e", jvozba::get_lujvo("te munje", false).unwrap().0);
-    assert_eq!("selmupli", jvozba::get_lujvo("se mupli", false).unwrap().0);
-    assert_eq!("termupli", jvozba::get_lujvo("te mupli", false).unwrap().0);
-    assert_eq!("selmurse", jvozba::get_lujvo("se murse", false).unwrap().0);
-    assert_eq!("termurse", jvozba::get_lujvo("te murse", false).unwrap().0);
-    assert_eq!("selmu'a", jvozba::get_lujvo("se murta", false).unwrap().0);
-    assert_eq!("termu'a", jvozba::get_lujvo("te murta", false).unwrap().0);
-    assert_eq!("selmuslo", jvozba::get_lujvo("se muslo", false).unwrap().0);
-    assert_eq!("seltce", jvozba::get_lujvo("se mutce", false).unwrap().0);
-    assert_eq!("tertce", jvozba::get_lujvo("te mutce", false).unwrap().0);
-    assert_eq!("selmu'u", jvozba::get_lujvo("se muvdu", false).unwrap().0);
-    assert_eq!("termu'u", jvozba::get_lujvo("te muvdu", false).unwrap().0);
-    assert_eq!("velmu'u", jvozba::get_lujvo("ve muvdu", false).unwrap().0);
-    assert_eq!("selmuzga", jvozba::get_lujvo("se muzga", false).unwrap().0);
-    assert_eq!("termuzga", jvozba::get_lujvo("te muzga", false).unwrap().0);
-    assert_eq!("selnabmi", jvozba::get_lujvo("se nabmi", false).unwrap().0);
-    assert_eq!("ternabmi", jvozba::get_lujvo("te nabmi", false).unwrap().0);
-    assert_eq!("selnakni", jvozba::get_lujvo("se nakni", false).unwrap().0);
-    assert_eq!("ternakni", jvozba::get_lujvo("te nakni", false).unwrap().0);
-    assert_eq!("selna'i", jvozba::get_lujvo("se nalci", false).unwrap().0);
-    assert_eq!("selnanba", jvozba::get_lujvo("se nanba", false).unwrap().0);
-    assert_eq!("selna'a", jvozba::get_lujvo("se nanca", false).unwrap().0);
-    assert_eq!("terna'a", jvozba::get_lujvo("te nanca", false).unwrap().0);
-    assert_eq!("selnandu", jvozba::get_lujvo("se nandu", false).unwrap().0);
-    assert_eq!("ternandu", jvozba::get_lujvo("te nandu", false).unwrap().0);
-    assert_eq!("selnanla", jvozba::get_lujvo("se nanla", false).unwrap().0);
-    assert_eq!("ternanla", jvozba::get_lujvo("te nanla", false).unwrap().0);
-    assert_eq!("selnanvi", jvozba::get_lujvo("se nanvi", false).unwrap().0);
-    assert_eq!("ternanvi", jvozba::get_lujvo("te nanvi", false).unwrap().0);
-    assert_eq!("selnarge", jvozba::get_lujvo("se narge", false).unwrap().0);
-    assert_eq!("ternarge", jvozba::get_lujvo("te narge", false).unwrap().0);
-    assert_eq!("velnarge", jvozba::get_lujvo("ve narge", false).unwrap().0);
-    assert_eq!("selna'e", jvozba::get_lujvo("se natfe", false).unwrap().0);
-    assert_eq!("terna'e", jvozba::get_lujvo("te natfe", false).unwrap().0);
-    assert_eq!("selnai", jvozba::get_lujvo("se natmi", false).unwrap().0);
-    assert_eq!("selnavni", jvozba::get_lujvo("se navni", false).unwrap().0);
-    assert_eq!("selxle", jvozba::get_lujvo("se naxle", false).unwrap().0);
-    assert_eq!("terxle", jvozba::get_lujvo("te naxle", false).unwrap().0);
-    assert_eq!("velxle", jvozba::get_lujvo("ve naxle", false).unwrap().0);
-    assert_eq!("selzbi", jvozba::get_lujvo("se nazbi", false).unwrap().0);
-    assert_eq!("terzbi", jvozba::get_lujvo("te nazbi", false).unwrap().0);
-    assert_eq!("selnejni", jvozba::get_lujvo("se nejni", false).unwrap().0);
-    assert_eq!("ternejni", jvozba::get_lujvo("te nejni", false).unwrap().0);
-    assert_eq!("selnei", jvozba::get_lujvo("se nelci", false).unwrap().0);
-    assert_eq!("selne'i", jvozba::get_lujvo("se nenri", false).unwrap().0);
-    assert_eq!("selni'i", jvozba::get_lujvo("se nibli", false).unwrap().0);
-    assert_eq!("terni'i", jvozba::get_lujvo("te nibli", false).unwrap().0);
-    assert_eq!("selcte", jvozba::get_lujvo("se nicte", false).unwrap().0);
-    assert_eq!("tercte", jvozba::get_lujvo("te nicte", false).unwrap().0);
-    assert_eq!("selni'e", jvozba::get_lujvo("se nilce", false).unwrap().0);
-    assert_eq!("terni'e", jvozba::get_lujvo("te nilce", false).unwrap().0);
-    assert_eq!("selnimre", jvozba::get_lujvo("se nimre", false).unwrap().0);
-    assert_eq!("selnirna", jvozba::get_lujvo("se nirna", false).unwrap().0);
-    assert_eq!("seltcu", jvozba::get_lujvo("se nitcu", false).unwrap().0);
-    assert_eq!("tertcu", jvozba::get_lujvo("te nitcu", false).unwrap().0);
-    assert_eq!("selnivji", jvozba::get_lujvo("se nivji", false).unwrap().0);
-    assert_eq!("ternivji", jvozba::get_lujvo("te nivji", false).unwrap().0);
-    assert_eq!("selxli", jvozba::get_lujvo("se nixli", false).unwrap().0);
-    assert_eq!("terxli", jvozba::get_lujvo("te nixli", false).unwrap().0);
-    assert_eq!("selno'i", jvozba::get_lujvo("se nobli", false).unwrap().0);
-    assert_eq!("selnoi", jvozba::get_lujvo("se notci", false).unwrap().0);
-    assert_eq!("ternoi", jvozba::get_lujvo("te notci", false).unwrap().0);
-    assert_eq!("velnoi", jvozba::get_lujvo("ve notci", false).unwrap().0);
-    assert_eq!("selnu'e", jvozba::get_lujvo("se nupre", false).unwrap().0);
-    assert_eq!("ternu'e", jvozba::get_lujvo("te nupre", false).unwrap().0);
-    assert_eq!("selnurma", jvozba::get_lujvo("se nurma", false).unwrap().0);
-    assert_eq!("selnu'i", jvozba::get_lujvo("se nutli", false).unwrap().0);
-    assert_eq!("selnuzba", jvozba::get_lujvo("se nuzba", false).unwrap().0);
-    assert_eq!("ternuzba", jvozba::get_lujvo("te nuzba", false).unwrap().0);
-    assert_eq!("velnuzba", jvozba::get_lujvo("ve nuzba", false).unwrap().0);
-    assert_eq!("selpa'a", jvozba::get_lujvo("se pacna", false).unwrap().0);
-    assert_eq!("terpa'a", jvozba::get_lujvo("te pacna", false).unwrap().0);
-    assert_eq!("selpau", jvozba::get_lujvo("se pagbu", false).unwrap().0);
-    assert_eq!("selgre", jvozba::get_lujvo("se pagre", false).unwrap().0);
-    assert_eq!("tergre", jvozba::get_lujvo("te pagre", false).unwrap().0);
-    assert_eq!("velgre", jvozba::get_lujvo("ve pagre", false).unwrap().0);
-    assert_eq!("selpai", jvozba::get_lujvo("se pajni", false).unwrap().0);
-    assert_eq!("selpalci", jvozba::get_lujvo("se palci", false).unwrap().0);
-    assert_eq!("selpalku", jvozba::get_lujvo("se palku", false).unwrap().0);
-    assert_eq!("selpalne", jvozba::get_lujvo("se palne", false).unwrap().0);
-    assert_eq!("terpalne", jvozba::get_lujvo("te palne", false).unwrap().0);
-    assert_eq!("selpalta", jvozba::get_lujvo("se palta", false).unwrap().0);
-    assert_eq!("selpambe", jvozba::get_lujvo("se pambe", false).unwrap().0);
-    assert_eq!("terpambe", jvozba::get_lujvo("te pambe", false).unwrap().0);
-    assert_eq!("velpambe", jvozba::get_lujvo("ve pambe", false).unwrap().0);
-    assert_eq!("xelpambe", jvozba::get_lujvo("xe pambe", false).unwrap().0);
-    assert_eq!("selpanci", jvozba::get_lujvo("se panci", false).unwrap().0);
-    assert_eq!("terpanci", jvozba::get_lujvo("te panci", false).unwrap().0);
-    assert_eq!("selpandi", jvozba::get_lujvo("se pandi", false).unwrap().0);
-    assert_eq!("terpandi", jvozba::get_lujvo("te pandi", false).unwrap().0);
-    assert_eq!("velpandi", jvozba::get_lujvo("ve pandi", false).unwrap().0);
-    assert_eq!("selpanka", jvozba::get_lujvo("se panka", false).unwrap().0);
-    assert_eq!("terpanka", jvozba::get_lujvo("te panka", false).unwrap().0);
-    assert_eq!("selpa'o", jvozba::get_lujvo("se panlo", false).unwrap().0);
-    assert_eq!("selpanpi", jvozba::get_lujvo("se panpi", false).unwrap().0);
-    assert_eq!("selpanra", jvozba::get_lujvo("se panra", false).unwrap().0);
-    assert_eq!("terpanra", jvozba::get_lujvo("te panra", false).unwrap().0);
-    assert_eq!("velpanra", jvozba::get_lujvo("ve panra", false).unwrap().0);
-    assert_eq!("selpante", jvozba::get_lujvo("se pante", false).unwrap().0);
-    assert_eq!("terpante", jvozba::get_lujvo("te pante", false).unwrap().0);
-    assert_eq!("velpante", jvozba::get_lujvo("ve pante", false).unwrap().0);
-    assert_eq!("selpanzi", jvozba::get_lujvo("se panzi", false).unwrap().0);
-    assert_eq!("selpapri", jvozba::get_lujvo("se papri", false).unwrap().0);
-    assert_eq!("selparbi", jvozba::get_lujvo("se parbi", false).unwrap().0);
-    assert_eq!("terparbi", jvozba::get_lujvo("te parbi", false).unwrap().0);
-    assert_eq!("selpastu", jvozba::get_lujvo("se pastu", false).unwrap().0);
-    assert_eq!("selpa'u", jvozba::get_lujvo("se patfu", false).unwrap().0);
-    assert_eq!("selpatlu", jvozba::get_lujvo("se patlu", false).unwrap().0);
-    assert_eq!("selpatxu", jvozba::get_lujvo("se patxu", false).unwrap().0);
-    assert_eq!("terpatxu", jvozba::get_lujvo("te patxu", false).unwrap().0);
-    assert_eq!("selple", jvozba::get_lujvo("se pelji", false).unwrap().0);
-    assert_eq!("selpemci", jvozba::get_lujvo("se pemci", false).unwrap().0);
-    assert_eq!("terpemci", jvozba::get_lujvo("te pemci", false).unwrap().0);
-    assert_eq!("velpemci", jvozba::get_lujvo("ve pemci", false).unwrap().0);
-    assert_eq!("selpenbi", jvozba::get_lujvo("se penbi", false).unwrap().0);
-    assert_eq!("terpenbi", jvozba::get_lujvo("te penbi", false).unwrap().0);
-    assert_eq!("selpe'u", jvozba::get_lujvo("se pencu", false).unwrap().0);
-    assert_eq!("terpe'u", jvozba::get_lujvo("te pencu", false).unwrap().0);
-    assert_eq!("selpe'o", jvozba::get_lujvo("se pendo", false).unwrap().0);
-    assert_eq!("selpe'i", jvozba::get_lujvo("se penmi", false).unwrap().0);
-    assert_eq!("terpe'i", jvozba::get_lujvo("te penmi", false).unwrap().0);
-    assert_eq!("selpei", jvozba::get_lujvo("se pensi", false).unwrap().0);
-    assert_eq!("selperli", jvozba::get_lujvo("se perli", false).unwrap().0);
-    assert_eq!("selpesxu", jvozba::get_lujvo("se pesxu", false).unwrap().0);
-    assert_eq!("selpetso", jvozba::get_lujvo("se petso", false).unwrap().0);
-    assert_eq!("terpetso", jvozba::get_lujvo("te petso", false).unwrap().0);
-    assert_eq!("selpezli", jvozba::get_lujvo("se pezli", false).unwrap().0);
-    assert_eq!("selpicti", jvozba::get_lujvo("se picti", false).unwrap().0);
-    assert_eq!("terpicti", jvozba::get_lujvo("te picti", false).unwrap().0);
-    assert_eq!("selpijne", jvozba::get_lujvo("se pijne", false).unwrap().0);
-    assert_eq!("terpijne", jvozba::get_lujvo("te pijne", false).unwrap().0);
-    assert_eq!("selpikci", jvozba::get_lujvo("se pikci", false).unwrap().0);
-    assert_eq!("terpikci", jvozba::get_lujvo("te pikci", false).unwrap().0);
-    assert_eq!("selpikta", jvozba::get_lujvo("se pikta", false).unwrap().0);
-    assert_eq!("terpikta", jvozba::get_lujvo("te pikta", false).unwrap().0);
-    assert_eq!("velpikta", jvozba::get_lujvo("ve pikta", false).unwrap().0);
-    assert_eq!("selpi'i", jvozba::get_lujvo("se pilji", false).unwrap().0);
-    assert_eq!("terpi'i", jvozba::get_lujvo("te pilji", false).unwrap().0);
-    assert_eq!("selpi'a", jvozba::get_lujvo("se pilka", false).unwrap().0);
-    assert_eq!("selpli", jvozba::get_lujvo("se pilno", false).unwrap().0);
-    assert_eq!("terpli", jvozba::get_lujvo("te pilno", false).unwrap().0);
-    assert_eq!("selpi'u", jvozba::get_lujvo("se pimlu", false).unwrap().0);
-    assert_eq!("selpinca", jvozba::get_lujvo("se pinca", false).unwrap().0);
-    assert_eq!("selpindi", jvozba::get_lujvo("se pindi", false).unwrap().0);
-    assert_eq!("selpinfu", jvozba::get_lujvo("se pinfu", false).unwrap().0);
-    assert_eq!("terpinfu", jvozba::get_lujvo("te pinfu", false).unwrap().0);
-    assert_eq!("selpinji", jvozba::get_lujvo("se pinji", false).unwrap().0);
-    assert_eq!("selpinka", jvozba::get_lujvo("se pinka", false).unwrap().0);
-    assert_eq!("terpinka", jvozba::get_lujvo("te pinka", false).unwrap().0);
-    assert_eq!("velpinka", jvozba::get_lujvo("ve pinka", false).unwrap().0);
-    assert_eq!("selpinsi", jvozba::get_lujvo("se pinsi", false).unwrap().0);
-    assert_eq!("terpinsi", jvozba::get_lujvo("te pinsi", false).unwrap().0);
-    assert_eq!("selpinta", jvozba::get_lujvo("se pinta", false).unwrap().0);
-    assert_eq!("selpinxe", jvozba::get_lujvo("se pinxe", false).unwrap().0);
-    assert_eq!("terpinxe", jvozba::get_lujvo("te pinxe", false).unwrap().0);
-    assert_eq!("selxra", jvozba::get_lujvo("se pixra", false).unwrap().0);
-    assert_eq!("terxra", jvozba::get_lujvo("te pixra", false).unwrap().0);
-    assert_eq!("velxra", jvozba::get_lujvo("ve pixra", false).unwrap().0);
-    assert_eq!("selplana", jvozba::get_lujvo("se plana", false).unwrap().0);
-    assert_eq!("selpla", jvozba::get_lujvo("se platu", false).unwrap().0);
-    assert_eq!("terpla", jvozba::get_lujvo("te platu", false).unwrap().0);
-    assert_eq!("selyle'i", jvozba::get_lujvo("se pleji", false).unwrap().0);
-    assert_eq!("terle'i", jvozba::get_lujvo("te pleji", false).unwrap().0);
-    assert_eq!("velyle'i", jvozba::get_lujvo("ve pleji", false).unwrap().0);
-    assert_eq!("selplibu", jvozba::get_lujvo("se plibu", false).unwrap().0);
-    assert_eq!("selplini", jvozba::get_lujvo("se plini", false).unwrap().0);
-    assert_eq!("terplini", jvozba::get_lujvo("te plini", false).unwrap().0);
-    assert_eq!("velplini", jvozba::get_lujvo("ve plini", false).unwrap().0);
-    assert_eq!("selpi'e", jvozba::get_lujvo("se plipe", false).unwrap().0);
-    assert_eq!("terpi'e", jvozba::get_lujvo("te plipe", false).unwrap().0);
-    assert_eq!("velpi'e", jvozba::get_lujvo("ve plipe", false).unwrap().0);
-    assert_eq!("xelpi'e", jvozba::get_lujvo("xe plipe", false).unwrap().0);
-    assert_eq!("selplise", jvozba::get_lujvo("se plise", false).unwrap().0);
-    assert_eq!("selplita", jvozba::get_lujvo("se plita", false).unwrap().0);
-    assert_eq!("selplixa", jvozba::get_lujvo("se plixa", false).unwrap().0);
-    assert_eq!("terplixa", jvozba::get_lujvo("te plixa", false).unwrap().0);
-    assert_eq!("velplixa", jvozba::get_lujvo("ve plixa", false).unwrap().0);
-    assert_eq!("selpluja", jvozba::get_lujvo("se pluja", false).unwrap().0);
-    assert_eq!("terpluja", jvozba::get_lujvo("te pluja", false).unwrap().0);
-    assert_eq!("selpu'a", jvozba::get_lujvo("se pluka", false).unwrap().0);
-    assert_eq!("terpu'a", jvozba::get_lujvo("te pluka", false).unwrap().0);
-    assert_eq!("selylu'a", jvozba::get_lujvo("se pluta", false).unwrap().0);
-    assert_eq!("terlu'a", jvozba::get_lujvo("te pluta", false).unwrap().0);
-    assert_eq!("velylu'a", jvozba::get_lujvo("ve pluta", false).unwrap().0);
-    assert_eq!("selplo", jvozba::get_lujvo("se polje", false).unwrap().0);
-    assert_eq!("terplo", jvozba::get_lujvo("te polje", false).unwrap().0);
-    assert_eq!("selpolno", jvozba::get_lujvo("se polno", false).unwrap().0);
-    assert_eq!("selpo'o", jvozba::get_lujvo("se ponjo", false).unwrap().0);
-    assert_eq!("selpo'e", jvozba::get_lujvo("se ponse", false).unwrap().0);
-    assert_eq!("terpo'e", jvozba::get_lujvo("te ponse", false).unwrap().0);
-    assert_eq!("selpo'i", jvozba::get_lujvo("se porpi", false).unwrap().0);
-    assert_eq!("selpoi", jvozba::get_lujvo("se porsi", false).unwrap().0);
-    assert_eq!("terpoi", jvozba::get_lujvo("te porsi", false).unwrap().0);
-    assert_eq!("selporto", jvozba::get_lujvo("se porto", false).unwrap().0);
-    assert_eq!("selprali", jvozba::get_lujvo("se prali", false).unwrap().0);
-    assert_eq!("terprali", jvozba::get_lujvo("te prali", false).unwrap().0);
-    assert_eq!("selpa'i", jvozba::get_lujvo("se prami", false).unwrap().0);
-    assert_eq!("selpa'e", jvozba::get_lujvo("se prane", false).unwrap().0);
-    assert_eq!("selpe'a", jvozba::get_lujvo("se preja", false).unwrap().0);
-    assert_eq!("terpe'a", jvozba::get_lujvo("te preja", false).unwrap().0);
-    assert_eq!("selrei", jvozba::get_lujvo("se preti", false).unwrap().0);
-    assert_eq!("teryrei", jvozba::get_lujvo("te preti", false).unwrap().0);
-    assert_eq!("velrei", jvozba::get_lujvo("ve preti", false).unwrap().0);
-    assert_eq!("selprije", jvozba::get_lujvo("se prije", false).unwrap().0);
-    assert_eq!("terprije", jvozba::get_lujvo("te prije", false).unwrap().0);
-    assert_eq!("selpri", jvozba::get_lujvo("se prina", false).unwrap().0);
-    assert_eq!("terpri", jvozba::get_lujvo("te prina", false).unwrap().0);
-    assert_eq!("selpritu", jvozba::get_lujvo("se pritu", false).unwrap().0);
-    assert_eq!("terpritu", jvozba::get_lujvo("te pritu", false).unwrap().0);
-    assert_eq!("selro'a", jvozba::get_lujvo("se prosa", false).unwrap().0);
-    assert_eq!("teryro'a", jvozba::get_lujvo("te prosa", false).unwrap().0);
-    assert_eq!("velro'a", jvozba::get_lujvo("ve prosa", false).unwrap().0);
-    assert_eq!("selru'e", jvozba::get_lujvo("se pruce", false).unwrap().0);
-    assert_eq!("teryru'e", jvozba::get_lujvo("te pruce", false).unwrap().0);
-    assert_eq!("velru'e", jvozba::get_lujvo("ve pruce", false).unwrap().0);
-    assert_eq!("selpu'e", jvozba::get_lujvo("se pulce", false).unwrap().0);
-    assert_eq!("terpu'e", jvozba::get_lujvo("te pulce", false).unwrap().0);
-    assert_eq!("selpulji", jvozba::get_lujvo("se pulji", false).unwrap().0);
-    assert_eq!("selpulni", jvozba::get_lujvo("se pulni", false).unwrap().0);
-    assert_eq!("terpulni", jvozba::get_lujvo("te pulni", false).unwrap().0);
-    assert_eq!("selpu'i", jvozba::get_lujvo("se punji", false).unwrap().0);
-    assert_eq!("terpu'i", jvozba::get_lujvo("te punji", false).unwrap().0);
-    assert_eq!("selpunli", jvozba::get_lujvo("se punli", false).unwrap().0);
-    assert_eq!("terpunli", jvozba::get_lujvo("te punli", false).unwrap().0);
-    assert_eq!("selpru", jvozba::get_lujvo("se purci", false).unwrap().0);
-    assert_eq!("selpurdi", jvozba::get_lujvo("se purdi", false).unwrap().0);
-    assert_eq!("terpurdi", jvozba::get_lujvo("te purdi", false).unwrap().0);
-    assert_eq!("selpu'o", jvozba::get_lujvo("se purmo", false).unwrap().0);
-    assert_eq!("selracli", jvozba::get_lujvo("se racli", false).unwrap().0);
-    assert_eq!("selractu", jvozba::get_lujvo("se ractu", false).unwrap().0);
-    assert_eq!("selra'o", jvozba::get_lujvo("se radno", false).unwrap().0);
-    assert_eq!("teryra'o", jvozba::get_lujvo("te radno", false).unwrap().0);
-    assert_eq!("selrafsi", jvozba::get_lujvo("se rafsi", false).unwrap().0);
-    assert_eq!("teryrafsi", jvozba::get_lujvo("te rafsi", false).unwrap().0);
-    assert_eq!("velrafsi", jvozba::get_lujvo("ve rafsi", false).unwrap().0);
-    assert_eq!("selragve", jvozba::get_lujvo("se ragve", false).unwrap().0);
-    assert_eq!("teryragve", jvozba::get_lujvo("te ragve", false).unwrap().0);
-    assert_eq!("selrakso", jvozba::get_lujvo("se rakso", false).unwrap().0);
-    assert_eq!("selra'u", jvozba::get_lujvo("se raktu", false).unwrap().0);
-    assert_eq!("teryra'u", jvozba::get_lujvo("te raktu", false).unwrap().0);
-    assert_eq!("selralci", jvozba::get_lujvo("se ralci", false).unwrap().0);
-    assert_eq!("selralju", jvozba::get_lujvo("se ralju", false).unwrap().0);
-    assert_eq!("teryralju", jvozba::get_lujvo("te ralju", false).unwrap().0);
-    assert_eq!("selra'e", jvozba::get_lujvo("se ralte", false).unwrap().0);
-    assert_eq!("selranda", jvozba::get_lujvo("se randa", false).unwrap().0);
-    assert_eq!("teryranda", jvozba::get_lujvo("te randa", false).unwrap().0);
-    assert_eq!("selrango", jvozba::get_lujvo("se rango", false).unwrap().0);
-    assert_eq!("teryrango", jvozba::get_lujvo("te rango", false).unwrap().0);
-    assert_eq!("selra'i", jvozba::get_lujvo("se ranji", false).unwrap().0);
-    assert_eq!("selranmi", jvozba::get_lujvo("se ranmi", false).unwrap().0);
-    assert_eq!("teryranmi", jvozba::get_lujvo("te ranmi", false).unwrap().0);
-    assert_eq!("velranmi", jvozba::get_lujvo("ve ranmi", false).unwrap().0);
-    assert_eq!("selransu", jvozba::get_lujvo("se ransu", false).unwrap().0);
-    assert_eq!("selranti", jvozba::get_lujvo("se ranti", false).unwrap().0);
-    assert_eq!("teryranti", jvozba::get_lujvo("te ranti", false).unwrap().0);
-    assert_eq!("selranxi", jvozba::get_lujvo("se ranxi", false).unwrap().0);
-    assert_eq!("teryranxi", jvozba::get_lujvo("te ranxi", false).unwrap().0);
-    assert_eq!("selrapli", jvozba::get_lujvo("se rapli", false).unwrap().0);
-    assert_eq!("selratcu", jvozba::get_lujvo("se ratcu", false).unwrap().0);
-    assert_eq!("selratni", jvozba::get_lujvo("se ratni", false).unwrap().0);
-    assert_eq!("teryratni", jvozba::get_lujvo("te ratni", false).unwrap().0);
-    assert_eq!("selrebla", jvozba::get_lujvo("se rebla", false).unwrap().0);
-    assert_eq!("selre'u", jvozba::get_lujvo("se rectu", false).unwrap().0);
-    assert_eq!("selre'o", jvozba::get_lujvo("se renro", false).unwrap().0);
-    assert_eq!("teryre'o", jvozba::get_lujvo("te renro", false).unwrap().0);
-    assert_eq!("selre'i", jvozba::get_lujvo("se renvi", false).unwrap().0);
-    assert_eq!("teryre'i", jvozba::get_lujvo("te renvi", false).unwrap().0);
-    assert_eq!("selrespa", jvozba::get_lujvo("se respa", false).unwrap().0);
-    assert_eq!("selcfu", jvozba::get_lujvo("se ricfu", false).unwrap().0);
-    assert_eq!("selrigni", jvozba::get_lujvo("se rigni", false).unwrap().0);
-    assert_eq!("teryrigni", jvozba::get_lujvo("te rigni", false).unwrap().0);
-    assert_eq!("selrilti", jvozba::get_lujvo("se rilti", false).unwrap().0);
-    assert_eq!("selrimni", jvozba::get_lujvo("se rimni", false).unwrap().0);
-    assert_eq!("teryrimni", jvozba::get_lujvo("te rimni", false).unwrap().0);
-    assert_eq!("velrimni", jvozba::get_lujvo("ve rimni", false).unwrap().0);
-    assert_eq!("selrinci", jvozba::get_lujvo("se rinci", false).unwrap().0);
-    assert_eq!("teryrinci", jvozba::get_lujvo("te rinci", false).unwrap().0);
-    assert_eq!("velrinci", jvozba::get_lujvo("ve rinci", false).unwrap().0);
-    assert_eq!("selri'u", jvozba::get_lujvo("se rinju", false).unwrap().0);
-    assert_eq!("teryri'u", jvozba::get_lujvo("te rinju", false).unwrap().0);
-    assert_eq!("selri'a", jvozba::get_lujvo("se rinka", false).unwrap().0);
-    assert_eq!("teryri'a", jvozba::get_lujvo("te rinka", false).unwrap().0);
-    assert_eq!("selrinsa", jvozba::get_lujvo("se rinsa", false).unwrap().0);
-    assert_eq!("teryrinsa", jvozba::get_lujvo("te rinsa", false).unwrap().0);
-    assert_eq!("selrirci", jvozba::get_lujvo("se rirci", false).unwrap().0);
-    assert_eq!("teryrirci", jvozba::get_lujvo("te rirci", false).unwrap().0);
-    assert_eq!("selrirni", jvozba::get_lujvo("se rirni", false).unwrap().0);
-    assert_eq!("selri'e", jvozba::get_lujvo("se rirxe", false).unwrap().0);
-    assert_eq!("teryri'e", jvozba::get_lujvo("te rirxe", false).unwrap().0);
-    assert_eq!("velri'e", jvozba::get_lujvo("ve rirxe", false).unwrap().0);
-    assert_eq!("selrismi", jvozba::get_lujvo("se rismi", false).unwrap().0);
-    assert_eq!("selrisna", jvozba::get_lujvo("se risna", false).unwrap().0);
-    assert_eq!("selri'i", jvozba::get_lujvo("se ritli", false).unwrap().0);
-    assert_eq!("teryri'i", jvozba::get_lujvo("te ritli", false).unwrap().0);
-    assert_eq!("velri'i", jvozba::get_lujvo("ve ritli", false).unwrap().0);
-    assert_eq!("selrivbi", jvozba::get_lujvo("se rivbi", false).unwrap().0);
-    assert_eq!("teryrivbi", jvozba::get_lujvo("te rivbi", false).unwrap().0);
-    assert_eq!("selro'i", jvozba::get_lujvo("se rokci", false).unwrap().0);
-    assert_eq!("teryro'i", jvozba::get_lujvo("te rokci", false).unwrap().0);
-    assert_eq!("selromge", jvozba::get_lujvo("se romge", false).unwrap().0);
-    assert_eq!("selro'o", jvozba::get_lujvo("se ropno", false).unwrap().0);
-    assert_eq!("selrorci", jvozba::get_lujvo("se rorci", false).unwrap().0);
-    assert_eq!("teryrorci", jvozba::get_lujvo("te rorci", false).unwrap().0);
-    assert_eq!("seltsu", jvozba::get_lujvo("se rotsu", false).unwrap().0);
-    assert_eq!("tertsu", jvozba::get_lujvo("te rotsu", false).unwrap().0);
-    assert_eq!("selzgu", jvozba::get_lujvo("se rozgu", false).unwrap().0);
-    assert_eq!("selble", jvozba::get_lujvo("se ruble", false).unwrap().0);
-    assert_eq!("terble", jvozba::get_lujvo("te ruble", false).unwrap().0);
-    assert_eq!("selrunme", jvozba::get_lujvo("se runme", false).unwrap().0);
-    assert_eq!("teryrunme", jvozba::get_lujvo("te runme", false).unwrap().0);
-    assert_eq!("selrunta", jvozba::get_lujvo("se runta", false).unwrap().0);
-    assert_eq!("teryrunta", jvozba::get_lujvo("te runta", false).unwrap().0);
-    assert_eq!("velrunta", jvozba::get_lujvo("ve runta", false).unwrap().0);
-    assert_eq!("selru'u", jvozba::get_lujvo("se rupnu", false).unwrap().0);
-    assert_eq!("teryru'u", jvozba::get_lujvo("te rupnu", false).unwrap().0);
-    assert_eq!("selru'o", jvozba::get_lujvo("se rusko", false).unwrap().0);
-    assert_eq!("selrutni", jvozba::get_lujvo("se rutni", false).unwrap().0);
-    assert_eq!("selsabji", jvozba::get_lujvo("se sabji", false).unwrap().0);
-    assert_eq!("tersabji", jvozba::get_lujvo("te sabji", false).unwrap().0);
-    assert_eq!("selsabnu", jvozba::get_lujvo("se sabnu", false).unwrap().0);
-    assert_eq!("selsacki", jvozba::get_lujvo("se sacki", false).unwrap().0);
-    assert_eq!("selsaclu", jvozba::get_lujvo("se saclu", false).unwrap().0);
-    assert_eq!("tersaclu", jvozba::get_lujvo("te saclu", false).unwrap().0);
-    assert_eq!("seldjo", jvozba::get_lujvo("se sadjo", false).unwrap().0);
-    assert_eq!("selsakci", jvozba::get_lujvo("se sakci", false).unwrap().0);
-    assert_eq!("tersakci", jvozba::get_lujvo("te sakci", false).unwrap().0);
-    assert_eq!("selsakli", jvozba::get_lujvo("se sakli", false).unwrap().0);
-    assert_eq!("selsakta", jvozba::get_lujvo("se sakta", false).unwrap().0);
-    assert_eq!("tersakta", jvozba::get_lujvo("te sakta", false).unwrap().0);
-    assert_eq!("selsla", jvozba::get_lujvo("se salci", false).unwrap().0);
-    assert_eq!("tersla", jvozba::get_lujvo("te salci", false).unwrap().0);
-    assert_eq!("selsa'o", jvozba::get_lujvo("se salpo", false).unwrap().0);
-    assert_eq!("tersa'o", jvozba::get_lujvo("te salpo", false).unwrap().0);
-    assert_eq!("selsalta", jvozba::get_lujvo("se salta", false).unwrap().0);
-    assert_eq!("selsamcu", jvozba::get_lujvo("se samcu", false).unwrap().0);
-    assert_eq!("selsampu", jvozba::get_lujvo("se sampu", false).unwrap().0);
-    assert_eq!("selsna", jvozba::get_lujvo("se sance", false).unwrap().0);
-    assert_eq!("selsa'a", jvozba::get_lujvo("se sanga", false).unwrap().0);
-    assert_eq!("tersa'a", jvozba::get_lujvo("te sanga", false).unwrap().0);
-    assert_eq!("selsanji", jvozba::get_lujvo("se sanji", false).unwrap().0);
-    assert_eq!("selsa'i", jvozba::get_lujvo("se sanli", false).unwrap().0);
-    assert_eq!("tersa'i", jvozba::get_lujvo("te sanli", false).unwrap().0);
-    assert_eq!("selsai", jvozba::get_lujvo("se sanmi", false).unwrap().0);
-    assert_eq!("selsanso", jvozba::get_lujvo("se sanso", false).unwrap().0);
-    assert_eq!("tersanso", jvozba::get_lujvo("te sanso", false).unwrap().0);
-    assert_eq!("selsanta", jvozba::get_lujvo("se santa", false).unwrap().0);
-    assert_eq!("tersanta", jvozba::get_lujvo("te santa", false).unwrap().0);
-    assert_eq!("velsanta", jvozba::get_lujvo("ve santa", false).unwrap().0);
-    assert_eq!("xelsanta", jvozba::get_lujvo("xe santa", false).unwrap().0);
-    assert_eq!("selsa'u", jvozba::get_lujvo("se sarcu", false).unwrap().0);
-    assert_eq!("tersa'u", jvozba::get_lujvo("te sarcu", false).unwrap().0);
-    assert_eq!("selsra", jvozba::get_lujvo("se sarji", false).unwrap().0);
-    assert_eq!("tersra", jvozba::get_lujvo("te sarji", false).unwrap().0);
-    assert_eq!("velsra", jvozba::get_lujvo("ve sarji", false).unwrap().0);
-    assert_eq!("selsarlu", jvozba::get_lujvo("se sarlu", false).unwrap().0);
-    assert_eq!("tersarlu", jvozba::get_lujvo("te sarlu", false).unwrap().0);
-    assert_eq!("selsarxe", jvozba::get_lujvo("se sarxe", false).unwrap().0);
-    assert_eq!("tersarxe", jvozba::get_lujvo("te sarxe", false).unwrap().0);
-    assert_eq!("selske", jvozba::get_lujvo("se saske", false).unwrap().0);
-    assert_eq!("terske", jvozba::get_lujvo("te saske", false).unwrap().0);
-    assert_eq!("selsatci", jvozba::get_lujvo("se satci", false).unwrap().0);
-    assert_eq!("tersatci", jvozba::get_lujvo("te satci", false).unwrap().0);
-    assert_eq!("selsa'e", jvozba::get_lujvo("se satre", false).unwrap().0);
-    assert_eq!("selvru", jvozba::get_lujvo("se savru", false).unwrap().0);
-    assert_eq!("tervru", jvozba::get_lujvo("te savru", false).unwrap().0);
-    assert_eq!("selsazri", jvozba::get_lujvo("se sazri", false).unwrap().0);
-    assert_eq!("tersazri", jvozba::get_lujvo("te sazri", false).unwrap().0);
-    assert_eq!("selsfe", jvozba::get_lujvo("se sefta", false).unwrap().0);
-    assert_eq!("tersfe", jvozba::get_lujvo("te sefta", false).unwrap().0);
-    assert_eq!("velsfe", jvozba::get_lujvo("ve sefta", false).unwrap().0);
-    assert_eq!("selsle", jvozba::get_lujvo("se selci", false).unwrap().0);
-    assert_eq!("selse'u", jvozba::get_lujvo("se selfu", false).unwrap().0);
-    assert_eq!("terse'u", jvozba::get_lujvo("te selfu", false).unwrap().0);
-    assert_eq!("selsme", jvozba::get_lujvo("se semto", false).unwrap().0);
-    assert_eq!("selsenpi", jvozba::get_lujvo("se senpi", false).unwrap().0);
-    assert_eq!("selsenta", jvozba::get_lujvo("se senta", false).unwrap().0);
-    assert_eq!("tersenta", jvozba::get_lujvo("te senta", false).unwrap().0);
-    assert_eq!("selsne", jvozba::get_lujvo("se senva", false).unwrap().0);
-    assert_eq!("selsei", jvozba::get_lujvo("se sepli", false).unwrap().0);
-    assert_eq!("tersei", jvozba::get_lujvo("te sepli", false).unwrap().0);
-    assert_eq!("selserti", jvozba::get_lujvo("se serti", false).unwrap().0);
-    assert_eq!("terserti", jvozba::get_lujvo("te serti", false).unwrap().0);
-    assert_eq!("selse'a", jvozba::get_lujvo("se setca", false).unwrap().0);
-    assert_eq!("terse'a", jvozba::get_lujvo("te setca", false).unwrap().0);
-    assert_eq!("selse'i", jvozba::get_lujvo("se sevzi", false).unwrap().0);
-    assert_eq!("selsfani", jvozba::get_lujvo("se sfani", false).unwrap().0);
-    assert_eq!("selsfa", jvozba::get_lujvo("se sfasa", false).unwrap().0);
-    assert_eq!("tersfa", jvozba::get_lujvo("te sfasa", false).unwrap().0);
-    assert_eq!("velsfa", jvozba::get_lujvo("ve sfasa", false).unwrap().0);
-    assert_eq!("selsu'u", jvozba::get_lujvo("se sfubu", false).unwrap().0);
-    assert_eq!("tersu'u", jvozba::get_lujvo("te sfubu", false).unwrap().0);
-    assert_eq!("selsiclu", jvozba::get_lujvo("se siclu", false).unwrap().0);
-    assert_eq!("selsi'i", jvozba::get_lujvo("se sicni", false).unwrap().0);
-    assert_eq!("tersi'i", jvozba::get_lujvo("te sicni", false).unwrap().0);
-    assert_eq!("velsi'i", jvozba::get_lujvo("ve sicni", false).unwrap().0);
-    assert_eq!("selsi'o", jvozba::get_lujvo("se sidbo", false).unwrap().0);
-    assert_eq!("tersi'o", jvozba::get_lujvo("te sidbo", false).unwrap().0);
-    assert_eq!("seldju", jvozba::get_lujvo("se sidju", false).unwrap().0);
-    assert_eq!("terdju", jvozba::get_lujvo("te sidju", false).unwrap().0);
-    assert_eq!("selsigja", jvozba::get_lujvo("se sigja", false).unwrap().0);
-    assert_eq!("tersigja", jvozba::get_lujvo("te sigja", false).unwrap().0);
-    assert_eq!("selsilka", jvozba::get_lujvo("se silka", false).unwrap().0);
-    assert_eq!("selsilna", jvozba::get_lujvo("se silna", false).unwrap().0);
-    assert_eq!("tersilna", jvozba::get_lujvo("te silna", false).unwrap().0);
-    assert_eq!("selmlu", jvozba::get_lujvo("se simlu", false).unwrap().0);
-    assert_eq!("termlu", jvozba::get_lujvo("te simlu", false).unwrap().0);
-    assert_eq!("velmlu", jvozba::get_lujvo("ve simlu", false).unwrap().0);
-    assert_eq!("selsmi", jvozba::get_lujvo("se simsa", false).unwrap().0);
-    assert_eq!("tersmi", jvozba::get_lujvo("te simsa", false).unwrap().0);
-    assert_eq!("selsi'u", jvozba::get_lujvo("se simxu", false).unwrap().0);
-    assert_eq!("selsince", jvozba::get_lujvo("se since", false).unwrap().0);
-    assert_eq!("selsi'a", jvozba::get_lujvo("se sinma", false).unwrap().0);
-    assert_eq!("selsinso", jvozba::get_lujvo("se sinso", false).unwrap().0);
-    assert_eq!("selsni", jvozba::get_lujvo("se sinxa", false).unwrap().0);
-    assert_eq!("tersni", jvozba::get_lujvo("te sinxa", false).unwrap().0);
-    assert_eq!("selsirji", jvozba::get_lujvo("se sirji", false).unwrap().0);
-    assert_eq!("tersirji", jvozba::get_lujvo("te sirji", false).unwrap().0);
-    assert_eq!("selsirxo", jvozba::get_lujvo("se sirxo", false).unwrap().0);
-    assert_eq!("selsisku", jvozba::get_lujvo("se sisku", false).unwrap().0);
-    assert_eq!("tersisku", jvozba::get_lujvo("te sisku", false).unwrap().0);
-    assert_eq!("selsti", jvozba::get_lujvo("se sisti", false).unwrap().0);
-    assert_eq!("selsitna", jvozba::get_lujvo("se sitna", false).unwrap().0);
-    assert_eq!("tersitna", jvozba::get_lujvo("te sitna", false).unwrap().0);
-    assert_eq!("selsivni", jvozba::get_lujvo("se sivni", false).unwrap().0);
-    assert_eq!("selskaci", jvozba::get_lujvo("se skaci", false).unwrap().0);
-    assert_eq!("selskami", jvozba::get_lujvo("se skami", false).unwrap().0);
-    assert_eq!("selskapi", jvozba::get_lujvo("se skapi", false).unwrap().0);
-    assert_eq!("selska", jvozba::get_lujvo("se skari", false).unwrap().0);
-    assert_eq!("terska", jvozba::get_lujvo("te skari", false).unwrap().0);
-    assert_eq!("velska", jvozba::get_lujvo("ve skari", false).unwrap().0);
-    assert_eq!("selski", jvozba::get_lujvo("se skicu", false).unwrap().0);
-    assert_eq!("terski", jvozba::get_lujvo("te skicu", false).unwrap().0);
-    assert_eq!("velski", jvozba::get_lujvo("ve skicu", false).unwrap().0);
-    assert_eq!("selskiji", jvozba::get_lujvo("se skiji", false).unwrap().0);
-    assert_eq!("terskiji", jvozba::get_lujvo("te skiji", false).unwrap().0);
-    assert_eq!("selskina", jvozba::get_lujvo("se skina", false).unwrap().0);
-    assert_eq!("terskina", jvozba::get_lujvo("te skina", false).unwrap().0);
-    assert_eq!("velskina", jvozba::get_lujvo("ve skina", false).unwrap().0);
-    assert_eq!("selsko", jvozba::get_lujvo("se skori", false).unwrap().0);
-    assert_eq!("selko'o", jvozba::get_lujvo("se skoto", false).unwrap().0);
-    assert_eq!("selku'o", jvozba::get_lujvo("se skuro", false).unwrap().0);
-    assert_eq!("selsau", jvozba::get_lujvo("se slabu", false).unwrap().0);
-    assert_eq!("tersau", jvozba::get_lujvo("te slabu", false).unwrap().0);
-    assert_eq!("velsau", jvozba::get_lujvo("ve slabu", false).unwrap().0);
-    assert_eq!("selslaka", jvozba::get_lujvo("se slaka", false).unwrap().0);
-    assert_eq!("selslami", jvozba::get_lujvo("se slami", false).unwrap().0);
-    assert_eq!("selslanu", jvozba::get_lujvo("se slanu", false).unwrap().0);
-    assert_eq!("selslari", jvozba::get_lujvo("se slari", false).unwrap().0);
-    assert_eq!("selslasi", jvozba::get_lujvo("se slasi", false).unwrap().0);
-    assert_eq!("selsligu", jvozba::get_lujvo("se sligu", false).unwrap().0);
-    assert_eq!("tersligu", jvozba::get_lujvo("te sligu", false).unwrap().0);
-    assert_eq!("selsli", jvozba::get_lujvo("se slilu", false).unwrap().0);
-    assert_eq!("tersli", jvozba::get_lujvo("te slilu", false).unwrap().0);
-    assert_eq!("selylo'o", jvozba::get_lujvo("se slovo", false).unwrap().0);
-    assert_eq!("selslu", jvozba::get_lujvo("se sluji", false).unwrap().0);
-    assert_eq!("terslu", jvozba::get_lujvo("te sluji", false).unwrap().0);
-    assert_eq!("selsluni", jvozba::get_lujvo("se sluni", false).unwrap().0);
-    assert_eq!("selsmacu", jvozba::get_lujvo("se smacu", false).unwrap().0);
-    assert_eq!("selsmadi", jvozba::get_lujvo("se smadi", false).unwrap().0);
-    assert_eq!("tersmadi", jvozba::get_lujvo("te smadi", false).unwrap().0);
-    assert_eq!("selsma", jvozba::get_lujvo("se smaji", false).unwrap().0);
-    assert_eq!("tersma", jvozba::get_lujvo("te smaji", false).unwrap().0);
-    assert_eq!("selsmani", jvozba::get_lujvo("se smani", false).unwrap().0);
-    assert_eq!("selsmo", jvozba::get_lujvo("se smoka", false).unwrap().0);
-    assert_eq!("selsmuci", jvozba::get_lujvo("se smuci", false).unwrap().0);
-    assert_eq!("tersmuci", jvozba::get_lujvo("te smuci", false).unwrap().0);
-    assert_eq!("selsmu", jvozba::get_lujvo("se smuni", false).unwrap().0);
-    assert_eq!("tersmu", jvozba::get_lujvo("te smuni", false).unwrap().0);
-    assert_eq!("selsnada", jvozba::get_lujvo("se snada", false).unwrap().0);
-    assert_eq!("tersnada", jvozba::get_lujvo("te snada", false).unwrap().0);
-    assert_eq!("selsnanu", jvozba::get_lujvo("se snanu", false).unwrap().0);
-    assert_eq!("tersnanu", jvozba::get_lujvo("te snanu", false).unwrap().0);
-    assert_eq!("selsnidu", jvozba::get_lujvo("se snidu", false).unwrap().0);
-    assert_eq!("tersnidu", jvozba::get_lujvo("te snidu", false).unwrap().0);
-    assert_eq!("selsnipa", jvozba::get_lujvo("se snipa", false).unwrap().0);
-    assert_eq!("selsnuji", jvozba::get_lujvo("se snuji", false).unwrap().0);
-    assert_eq!("tersnuji", jvozba::get_lujvo("te snuji", false).unwrap().0);
-    assert_eq!("selnu'a", jvozba::get_lujvo("se snura", false).unwrap().0);
-    assert_eq!("selsnuti", jvozba::get_lujvo("se snuti", false).unwrap().0);
-    assert_eq!("selso'e", jvozba::get_lujvo("se sobde", false).unwrap().0);
-    assert_eq!("selsodna", jvozba::get_lujvo("se sodna", false).unwrap().0);
-    assert_eq!("selsodva", jvozba::get_lujvo("se sodva", false).unwrap().0);
-    assert_eq!("selsofto", jvozba::get_lujvo("se softo", false).unwrap().0);
-    assert_eq!("selsolri", jvozba::get_lujvo("se solri", false).unwrap().0);
-    assert_eq!("tersolri", jvozba::get_lujvo("te solri", false).unwrap().0);
-    assert_eq!("selso'o", jvozba::get_lujvo("se sombo", false).unwrap().0);
-    assert_eq!("terso'o", jvozba::get_lujvo("te sombo", false).unwrap().0);
-    assert_eq!("selsoi", jvozba::get_lujvo("se sonci", false).unwrap().0);
-    assert_eq!("selsro", jvozba::get_lujvo("se sorcu", false).unwrap().0);
-    assert_eq!("tersro", jvozba::get_lujvo("te sorcu", false).unwrap().0);
-    assert_eq!("selsorgu", jvozba::get_lujvo("se sorgu", false).unwrap().0);
-    assert_eq!("selso'a", jvozba::get_lujvo("se sovda", false).unwrap().0);
-    assert_eq!("selspaji", jvozba::get_lujvo("se spaji", false).unwrap().0);
-    assert_eq!("selspali", jvozba::get_lujvo("se spali", false).unwrap().0);
-    assert_eq!("terspali", jvozba::get_lujvo("te spali", false).unwrap().0);
-    assert_eq!("velspali", jvozba::get_lujvo("ve spali", false).unwrap().0);
-    assert_eq!("selspano", jvozba::get_lujvo("se spano", false).unwrap().0);
-    assert_eq!("selspa", jvozba::get_lujvo("se spati", false).unwrap().0);
-    assert_eq!("selspe", jvozba::get_lujvo("se speni", false).unwrap().0);
-    assert_eq!("terspe", jvozba::get_lujvo("te speni", false).unwrap().0);
-    assert_eq!("selspi", jvozba::get_lujvo("se spisa", false).unwrap().0);
-    assert_eq!("selspita", jvozba::get_lujvo("se spita", false).unwrap().0);
-    assert_eq!("terspita", jvozba::get_lujvo("te spita", false).unwrap().0);
-    assert_eq!("selpo'u", jvozba::get_lujvo("se spofu", false).unwrap().0);
-    assert_eq!("selpo'a", jvozba::get_lujvo("se spoja", false).unwrap().0);
-    assert_eq!("selspu", jvozba::get_lujvo("se spuda", false).unwrap().0);
-    assert_eq!("terspu", jvozba::get_lujvo("te spuda", false).unwrap().0);
-    assert_eq!("selpu'u", jvozba::get_lujvo("se sputu", false).unwrap().0);
-    assert_eq!("terpu'u", jvozba::get_lujvo("te sputu", false).unwrap().0);
-    assert_eq!("velpu'u", jvozba::get_lujvo("ve sputu", false).unwrap().0);
-    assert_eq!("selsraji", jvozba::get_lujvo("se sraji", false).unwrap().0);
-    assert_eq!("selsraku", jvozba::get_lujvo("se sraku", false).unwrap().0);
-    assert_eq!("selsralo", jvozba::get_lujvo("se sralo", false).unwrap().0);
-    assert_eq!("selra'a", jvozba::get_lujvo("se srana", false).unwrap().0);
-    assert_eq!("selsrasu", jvozba::get_lujvo("se srasu", false).unwrap().0);
-    assert_eq!("selsre", jvozba::get_lujvo("se srera", false).unwrap().0);
-    assert_eq!("tersre", jvozba::get_lujvo("te srera", false).unwrap().0);
-    assert_eq!("velsre", jvozba::get_lujvo("ve srera", false).unwrap().0);
-    assert_eq!("selsrito", jvozba::get_lujvo("se srito", false).unwrap().0);
-    assert_eq!("selru'a", jvozba::get_lujvo("se sruma", false).unwrap().0);
-    assert_eq!("teryru'a", jvozba::get_lujvo("te sruma", false).unwrap().0);
-    assert_eq!("selsru", jvozba::get_lujvo("se sruri", false).unwrap().0);
-    assert_eq!("tersru", jvozba::get_lujvo("te sruri", false).unwrap().0);
-    assert_eq!("selstace", jvozba::get_lujvo("se stace", false).unwrap().0);
-    assert_eq!("terstace", jvozba::get_lujvo("te stace", false).unwrap().0);
-    assert_eq!("selstagi", jvozba::get_lujvo("se stagi", false).unwrap().0);
-    assert_eq!("terstagi", jvozba::get_lujvo("te stagi", false).unwrap().0);
-    assert_eq!("selstaku", jvozba::get_lujvo("se staku", false).unwrap().0);
-    assert_eq!("terstaku", jvozba::get_lujvo("te staku", false).unwrap().0);
-    assert_eq!("velstaku", jvozba::get_lujvo("ve staku", false).unwrap().0);
-    assert_eq!("selsta", jvozba::get_lujvo("se stali", false).unwrap().0);
-    assert_eq!("selstani", jvozba::get_lujvo("se stani", false).unwrap().0);
-    assert_eq!("selstapa", jvozba::get_lujvo("se stapa", false).unwrap().0);
-    assert_eq!("terstapa", jvozba::get_lujvo("te stapa", false).unwrap().0);
-    assert_eq!("selstasu", jvozba::get_lujvo("se stasu", false).unwrap().0);
-    assert_eq!("selstati", jvozba::get_lujvo("se stati", false).unwrap().0);
-    assert_eq!("selsteba", jvozba::get_lujvo("se steba", false).unwrap().0);
-    assert_eq!("selte'i", jvozba::get_lujvo("se steci", false).unwrap().0);
-    assert_eq!("terte'i", jvozba::get_lujvo("te steci", false).unwrap().0);
-    assert_eq!("selstedu", jvozba::get_lujvo("se stedu", false).unwrap().0);
-    assert_eq!("selstela", jvozba::get_lujvo("se stela", false).unwrap().0);
-    assert_eq!("terstela", jvozba::get_lujvo("te stela", false).unwrap().0);
-    assert_eq!("selte'o", jvozba::get_lujvo("se stero", false).unwrap().0);
-    assert_eq!("terte'o", jvozba::get_lujvo("te stero", false).unwrap().0);
-    assert_eq!("selstici", jvozba::get_lujvo("se stici", false).unwrap().0);
-    assert_eq!("terstici", jvozba::get_lujvo("te stici", false).unwrap().0);
-    assert_eq!("selti'i", jvozba::get_lujvo("se stidi", false).unwrap().0);
-    assert_eq!("terti'i", jvozba::get_lujvo("te stidi", false).unwrap().0);
-    assert_eq!("selstika", jvozba::get_lujvo("se stika", false).unwrap().0);
-    assert_eq!("terstika", jvozba::get_lujvo("te stika", false).unwrap().0);
-    assert_eq!("selsto", jvozba::get_lujvo("se stodi", false).unwrap().0);
-    assert_eq!("tersto", jvozba::get_lujvo("te stodi", false).unwrap().0);
-    assert_eq!("selstuna", jvozba::get_lujvo("se stuna", false).unwrap().0);
-    assert_eq!("terstuna", jvozba::get_lujvo("te stuna", false).unwrap().0);
-    assert_eq!("selsu'a", jvozba::get_lujvo("se stura", false).unwrap().0);
-    assert_eq!("selstu", jvozba::get_lujvo("se stuzi", false).unwrap().0);
-    assert_eq!("selsucta", jvozba::get_lujvo("se sucta", false).unwrap().0);
-    assert_eq!("tersucta", jvozba::get_lujvo("te sucta", false).unwrap().0);
-    assert_eq!("selsudga", jvozba::get_lujvo("se sudga", false).unwrap().0);
-    assert_eq!("selsfu", jvozba::get_lujvo("se sufti", false).unwrap().0);
-    assert_eq!("selsuksa", jvozba::get_lujvo("se suksa", false).unwrap().0);
-    assert_eq!("tersuksa", jvozba::get_lujvo("te suksa", false).unwrap().0);
-    assert_eq!("selsumji", jvozba::get_lujvo("se sumji", false).unwrap().0);
-    assert_eq!("tersumji", jvozba::get_lujvo("te sumji", false).unwrap().0);
-    assert_eq!("selsumne", jvozba::get_lujvo("se sumne", false).unwrap().0);
-    assert_eq!("selsu'i", jvozba::get_lujvo("se sumti", false).unwrap().0);
-    assert_eq!("tersu'i", jvozba::get_lujvo("te sumti", false).unwrap().0);
-    assert_eq!("selsunga", jvozba::get_lujvo("se sunga", false).unwrap().0);
-    assert_eq!("selsunla", jvozba::get_lujvo("se sunla", false).unwrap().0);
-    assert_eq!("selsurla", jvozba::get_lujvo("se surla", false).unwrap().0);
-    assert_eq!("selsutra", jvozba::get_lujvo("se sutra", false).unwrap().0);
-    assert_eq!("seltadji", jvozba::get_lujvo("se tadji", false).unwrap().0);
-    assert_eq!("tertadji", jvozba::get_lujvo("te tadji", false).unwrap().0);
-    assert_eq!("seltadni", jvozba::get_lujvo("se tadni", false).unwrap().0);
-    assert_eq!("seltagji", jvozba::get_lujvo("se tagji", false).unwrap().0);
-    assert_eq!("tertagji", jvozba::get_lujvo("te tagji", false).unwrap().0);
-    assert_eq!("veltagji", jvozba::get_lujvo("ve tagji", false).unwrap().0);
-    assert_eq!("seltalsa", jvozba::get_lujvo("se talsa", false).unwrap().0);
-    assert_eq!("tertalsa", jvozba::get_lujvo("te talsa", false).unwrap().0);
-    assert_eq!("seltamca", jvozba::get_lujvo("se tamca", false).unwrap().0);
-    assert_eq!("seltamji", jvozba::get_lujvo("se tamji", false).unwrap().0);
-    assert_eq!("tertamji", jvozba::get_lujvo("te tamji", false).unwrap().0);
-    assert_eq!("seltamne", jvozba::get_lujvo("se tamne", false).unwrap().0);
-    assert_eq!("tertamne", jvozba::get_lujvo("te tamne", false).unwrap().0);
-    assert_eq!("selta'o", jvozba::get_lujvo("se tanbo", false).unwrap().0);
-    assert_eq!("seltance", jvozba::get_lujvo("se tance", false).unwrap().0);
-    assert_eq!("seltanjo", jvozba::get_lujvo("se tanjo", false).unwrap().0);
-    assert_eq!("seltanko", jvozba::get_lujvo("se tanko", false).unwrap().0);
-    assert_eq!("seltau", jvozba::get_lujvo("se tanru", false).unwrap().0);
-    assert_eq!("tertau", jvozba::get_lujvo("te tanru", false).unwrap().0);
-    assert_eq!("veltau", jvozba::get_lujvo("ve tanru", false).unwrap().0);
-    assert_eq!("xeltau", jvozba::get_lujvo("xe tanru", false).unwrap().0);
-    assert_eq!("seltansi", jvozba::get_lujvo("se tansi", false).unwrap().0);
-    assert_eq!("tertansi", jvozba::get_lujvo("te tansi", false).unwrap().0);
-    assert_eq!("selta'e", jvozba::get_lujvo("se tanxe", false).unwrap().0);
-    assert_eq!("terta'e", jvozba::get_lujvo("te tanxe", false).unwrap().0);
-    assert_eq!("seltapla", jvozba::get_lujvo("se tapla", false).unwrap().0);
-    assert_eq!("tertapla", jvozba::get_lujvo("te tapla", false).unwrap().0);
-    assert_eq!("veltapla", jvozba::get_lujvo("ve tapla", false).unwrap().0);
-    assert_eq!("seltarbi", jvozba::get_lujvo("se tarbi", false).unwrap().0);
-    assert_eq!("tertarbi", jvozba::get_lujvo("te tarbi", false).unwrap().0);
-    assert_eq!("seltarci", jvozba::get_lujvo("se tarci", false).unwrap().0);
-    assert_eq!("seltarla", jvozba::get_lujvo("se tarla", false).unwrap().0);
-    assert_eq!("seltai", jvozba::get_lujvo("se tarmi", false).unwrap().0);
-    assert_eq!("seltra", jvozba::get_lujvo("se tarti", false).unwrap().0);
-    assert_eq!("tertra", jvozba::get_lujvo("te tarti", false).unwrap().0);
-    assert_eq!("seltaske", jvozba::get_lujvo("se taske", false).unwrap().0);
-    assert_eq!("selta'i", jvozba::get_lujvo("se tatpi", false).unwrap().0);
-    assert_eq!("seltatru", jvozba::get_lujvo("se tatru", false).unwrap().0);
-    assert_eq!("selta'a", jvozba::get_lujvo("se tavla", false).unwrap().0);
-    assert_eq!("terta'a", jvozba::get_lujvo("te tavla", false).unwrap().0);
-    assert_eq!("velta'a", jvozba::get_lujvo("ve tavla", false).unwrap().0);
-    assert_eq!("selta'u", jvozba::get_lujvo("se taxfu", false).unwrap().0);
-    assert_eq!("terta'u", jvozba::get_lujvo("te taxfu", false).unwrap().0);
-    assert_eq!("seltcaci", jvozba::get_lujvo("se tcaci", false).unwrap().0);
-    assert_eq!("tertcaci", jvozba::get_lujvo("te tcaci", false).unwrap().0);
-    assert_eq!("seltca", jvozba::get_lujvo("se tcadu", false).unwrap().0);
-    assert_eq!("tertca", jvozba::get_lujvo("te tcadu", false).unwrap().0);
-    assert_eq!("veltca", jvozba::get_lujvo("ve tcadu", false).unwrap().0);
-    assert_eq!("seltcana", jvozba::get_lujvo("se tcana", false).unwrap().0);
-    assert_eq!("seltcati", jvozba::get_lujvo("se tcati", false).unwrap().0);
-    assert_eq!("seltcena", jvozba::get_lujvo("se tcena", false).unwrap().0);
-    assert_eq!("tertcena", jvozba::get_lujvo("te tcena", false).unwrap().0);
-    assert_eq!("veltcena", jvozba::get_lujvo("ve tcena", false).unwrap().0);
-    assert_eq!("seltcica", jvozba::get_lujvo("se tcica", false).unwrap().0);
-    assert_eq!("tertcica", jvozba::get_lujvo("te tcica", false).unwrap().0);
-    assert_eq!("seltcidu", jvozba::get_lujvo("se tcidu", false).unwrap().0);
-    assert_eq!("tertcidu", jvozba::get_lujvo("te tcidu", false).unwrap().0);
-    assert_eq!("seltcika", jvozba::get_lujvo("se tcika", false).unwrap().0);
-    assert_eq!("tertcika", jvozba::get_lujvo("te tcika", false).unwrap().0);
-    assert_eq!("veltcika", jvozba::get_lujvo("ve tcika", false).unwrap().0);
-    assert_eq!("seltcila", jvozba::get_lujvo("se tcila", false).unwrap().0);
-    assert_eq!("selti'a", jvozba::get_lujvo("se tcima", false).unwrap().0);
-    assert_eq!("seltcini", jvozba::get_lujvo("se tcini", false).unwrap().0);
-    assert_eq!("seltcita", jvozba::get_lujvo("se tcita", false).unwrap().0);
-    assert_eq!("tertcita", jvozba::get_lujvo("te tcita", false).unwrap().0);
-    assert_eq!("seltei", jvozba::get_lujvo("se temci", false).unwrap().0);
-    assert_eq!("tertei", jvozba::get_lujvo("te temci", false).unwrap().0);
-    assert_eq!("seltenfa", jvozba::get_lujvo("se tenfa", false).unwrap().0);
-    assert_eq!("tertenfa", jvozba::get_lujvo("te tenfa", false).unwrap().0);
-    assert_eq!("selte'u", jvozba::get_lujvo("se tengu", false).unwrap().0);
-    assert_eq!("selterdi", jvozba::get_lujvo("se terdi", false).unwrap().0);
-    assert_eq!("selte'a", jvozba::get_lujvo("se terpa", false).unwrap().0);
-    assert_eq!("selterto", jvozba::get_lujvo("se terto", false).unwrap().0);
-    assert_eq!("terterto", jvozba::get_lujvo("te terto", false).unwrap().0);
-    assert_eq!("seltigni", jvozba::get_lujvo("se tigni", false).unwrap().0);
-    assert_eq!("tertigni", jvozba::get_lujvo("te tigni", false).unwrap().0);
-    assert_eq!("seltikpa", jvozba::get_lujvo("se tikpa", false).unwrap().0);
-    assert_eq!("tertikpa", jvozba::get_lujvo("te tikpa", false).unwrap().0);
-    assert_eq!("veltikpa", jvozba::get_lujvo("ve tikpa", false).unwrap().0);
-    assert_eq!("seltilju", jvozba::get_lujvo("se tilju", false).unwrap().0);
-    assert_eq!("seltinbe", jvozba::get_lujvo("se tinbe", false).unwrap().0);
-    assert_eq!("tertinbe", jvozba::get_lujvo("te tinbe", false).unwrap().0);
-    assert_eq!("seltinsa", jvozba::get_lujvo("se tinsa", false).unwrap().0);
-    assert_eq!("tertinsa", jvozba::get_lujvo("te tinsa", false).unwrap().0);
-    assert_eq!("veltinsa", jvozba::get_lujvo("ve tinsa", false).unwrap().0);
-    assert_eq!("seltirna", jvozba::get_lujvo("se tirna", false).unwrap().0);
-    assert_eq!("tertirna", jvozba::get_lujvo("te tirna", false).unwrap().0);
-    assert_eq!("seltirxu", jvozba::get_lujvo("se tirxu", false).unwrap().0);
-    assert_eq!("tertirxu", jvozba::get_lujvo("te tirxu", false).unwrap().0);
-    assert_eq!("seltisna", jvozba::get_lujvo("se tisna", false).unwrap().0);
-    assert_eq!("seltitla", jvozba::get_lujvo("se titla", false).unwrap().0);
-    assert_eq!("seltivni", jvozba::get_lujvo("se tivni", false).unwrap().0);
-    assert_eq!("tertivni", jvozba::get_lujvo("te tivni", false).unwrap().0);
-    assert_eq!("veltivni", jvozba::get_lujvo("ve tivni", false).unwrap().0);
-    assert_eq!("seltoknu", jvozba::get_lujvo("se toknu", false).unwrap().0);
-    assert_eq!("seltoldi", jvozba::get_lujvo("se toldi", false).unwrap().0);
-    assert_eq!("selto'a", jvozba::get_lujvo("se tonga", false).unwrap().0);
-    assert_eq!("terto'a", jvozba::get_lujvo("te tonga", false).unwrap().0);
-    assert_eq!("selto'u", jvozba::get_lujvo("se tordu", false).unwrap().0);
-    assert_eq!("terto'u", jvozba::get_lujvo("te tordu", false).unwrap().0);
-    assert_eq!("selto'i", jvozba::get_lujvo("se torni", false).unwrap().0);
-    assert_eq!("selrai", jvozba::get_lujvo("se traji", false).unwrap().0);
-    assert_eq!("teryrai", jvozba::get_lujvo("te traji", false).unwrap().0);
-    assert_eq!("velrai", jvozba::get_lujvo("ve traji", false).unwrap().0);
-    assert_eq!("seltrati", jvozba::get_lujvo("se trati", false).unwrap().0);
-    assert_eq!("selre'e", jvozba::get_lujvo("se trene", false).unwrap().0);
-    assert_eq!("teryre'e", jvozba::get_lujvo("te trene", false).unwrap().0);
-    assert_eq!("velre'e", jvozba::get_lujvo("ve trene", false).unwrap().0);
-    assert_eq!("seltricu", jvozba::get_lujvo("se tricu", false).unwrap().0);
-    assert_eq!("seltri", jvozba::get_lujvo("se trina", false).unwrap().0);
-    assert_eq!("tertri", jvozba::get_lujvo("te trina", false).unwrap().0);
-    assert_eq!("selti'e", jvozba::get_lujvo("se trixe", false).unwrap().0);
-    assert_eq!("terti'e", jvozba::get_lujvo("te trixe", false).unwrap().0);
-    assert_eq!("seltoi", jvozba::get_lujvo("se troci", false).unwrap().0);
-    assert_eq!("tertoi", jvozba::get_lujvo("te troci", false).unwrap().0);
-    assert_eq!("seltsa", jvozba::get_lujvo("se tsali", false).unwrap().0);
-    assert_eq!("tertsa", jvozba::get_lujvo("te tsali", false).unwrap().0);
-    assert_eq!("seltsani", jvozba::get_lujvo("se tsani", false).unwrap().0);
-    assert_eq!("seltsapi", jvozba::get_lujvo("se tsapi", false).unwrap().0);
-    assert_eq!("seltsi", jvozba::get_lujvo("se tsiju", false).unwrap().0);
-    assert_eq!("tertsi", jvozba::get_lujvo("te tsiju", false).unwrap().0);
-    assert_eq!("seltsina", jvozba::get_lujvo("se tsina", false).unwrap().0);
-    assert_eq!("tertsina", jvozba::get_lujvo("te tsina", false).unwrap().0);
-    assert_eq!("veltsina", jvozba::get_lujvo("ve tsina", false).unwrap().0);
-    assert_eq!("seltu'u", jvozba::get_lujvo("se tubnu", false).unwrap().0);
-    assert_eq!("tertu'u", jvozba::get_lujvo("te tubnu", false).unwrap().0);
-    assert_eq!("seltu'i", jvozba::get_lujvo("se tugni", false).unwrap().0);
-    assert_eq!("tertu'i", jvozba::get_lujvo("te tugni", false).unwrap().0);
-    assert_eq!("veltu'i", jvozba::get_lujvo("ve tugni", false).unwrap().0);
-    assert_eq!("seltujli", jvozba::get_lujvo("se tujli", false).unwrap().0);
-    assert_eq!("seltu'a", jvozba::get_lujvo("se tumla", false).unwrap().0);
-    assert_eq!("seltunba", jvozba::get_lujvo("se tunba", false).unwrap().0);
-    assert_eq!("tertunba", jvozba::get_lujvo("te tunba", false).unwrap().0);
-    assert_eq!("seltunta", jvozba::get_lujvo("se tunta", false).unwrap().0);
-    assert_eq!("seltu'e", jvozba::get_lujvo("se tuple", false).unwrap().0);
-    assert_eq!("seltru", jvozba::get_lujvo("se turni", false).unwrap().0);
-    assert_eq!("seltci", jvozba::get_lujvo("se tutci", false).unwrap().0);
-    assert_eq!("seltutra", jvozba::get_lujvo("se tutra", false).unwrap().0);
-    assert_eq!("selvacri", jvozba::get_lujvo("se vacri", false).unwrap().0);
-    assert_eq!("tervacri", jvozba::get_lujvo("te vacri", false).unwrap().0);
-    assert_eq!("selvai", jvozba::get_lujvo("se vajni", false).unwrap().0);
-    assert_eq!("tervai", jvozba::get_lujvo("te vajni", false).unwrap().0);
-    assert_eq!("selvla", jvozba::get_lujvo("se valsi", false).unwrap().0);
-    assert_eq!("tervla", jvozba::get_lujvo("te valsi", false).unwrap().0);
-    assert_eq!("selva'i", jvozba::get_lujvo("se vamji", false).unwrap().0);
-    assert_eq!("terva'i", jvozba::get_lujvo("te vamji", false).unwrap().0);
-    assert_eq!("velva'i", jvozba::get_lujvo("ve vamji", false).unwrap().0);
-    assert_eq!("selvamtu", jvozba::get_lujvo("se vamtu", false).unwrap().0);
-    assert_eq!("selvanbi", jvozba::get_lujvo("se vanbi", false).unwrap().0);
-    assert_eq!("selvanci", jvozba::get_lujvo("se vanci", false).unwrap().0);
-    assert_eq!("tervanci", jvozba::get_lujvo("te vanci", false).unwrap().0);
-    assert_eq!("selvanju", jvozba::get_lujvo("se vanju", false).unwrap().0);
-    assert_eq!("selvau", jvozba::get_lujvo("se vasru", false).unwrap().0);
-    assert_eq!("selva'u", jvozba::get_lujvo("se vasxu", false).unwrap().0);
-    assert_eq!("selve'u", jvozba::get_lujvo("se vecnu", false).unwrap().0);
-    assert_eq!("terve'u", jvozba::get_lujvo("te vecnu", false).unwrap().0);
-    assert_eq!("velve'u", jvozba::get_lujvo("ve vecnu", false).unwrap().0);
-    assert_eq!("selvenfu", jvozba::get_lujvo("se venfu", false).unwrap().0);
-    assert_eq!("tervenfu", jvozba::get_lujvo("te venfu", false).unwrap().0);
-    assert_eq!("velvenfu", jvozba::get_lujvo("ve venfu", false).unwrap().0);
-    assert_eq!("selvensa", jvozba::get_lujvo("se vensa", false).unwrap().0);
-    assert_eq!("tervensa", jvozba::get_lujvo("te vensa", false).unwrap().0);
-    assert_eq!("selve'a", jvozba::get_lujvo("se verba", false).unwrap().0);
-    assert_eq!("terve'a", jvozba::get_lujvo("te verba", false).unwrap().0);
-    assert_eq!("selvibna", jvozba::get_lujvo("se vibna", false).unwrap().0);
-    assert_eq!("selvidni", jvozba::get_lujvo("se vidni", false).unwrap().0);
-    assert_eq!("selvidru", jvozba::get_lujvo("se vidru", false).unwrap().0);
-    assert_eq!("tervidru", jvozba::get_lujvo("te vidru", false).unwrap().0);
-    assert_eq!("selvi'i", jvozba::get_lujvo("se vikmi", false).unwrap().0);
-    assert_eq!("tervi'i", jvozba::get_lujvo("te vikmi", false).unwrap().0);
-    assert_eq!("velvi'i", jvozba::get_lujvo("ve vikmi", false).unwrap().0);
-    assert_eq!("selviknu", jvozba::get_lujvo("se viknu", false).unwrap().0);
-    assert_eq!("selvi'u", jvozba::get_lujvo("se vimcu", false).unwrap().0);
-    assert_eq!("tervi'u", jvozba::get_lujvo("te vimcu", false).unwrap().0);
-    assert_eq!("velvi'u", jvozba::get_lujvo("ve vimcu", false).unwrap().0);
-    assert_eq!("selvindu", jvozba::get_lujvo("se vindu", false).unwrap().0);
-    assert_eq!("selvinji", jvozba::get_lujvo("se vinji", false).unwrap().0);
-    assert_eq!("tervinji", jvozba::get_lujvo("te vinji", false).unwrap().0);
-    assert_eq!("selvipsi", jvozba::get_lujvo("se vipsi", false).unwrap().0);
-    assert_eq!("tervipsi", jvozba::get_lujvo("te vipsi", false).unwrap().0);
-    assert_eq!("selvri", jvozba::get_lujvo("se virnu", false).unwrap().0);
-    assert_eq!("tervri", jvozba::get_lujvo("te virnu", false).unwrap().0);
-    assert_eq!("selvi'a", jvozba::get_lujvo("se viska", false).unwrap().0);
-    assert_eq!("tervi'a", jvozba::get_lujvo("te viska", false).unwrap().0);
-    assert_eq!("selvitci", jvozba::get_lujvo("se vitci", false).unwrap().0);
-    assert_eq!("selvi'e", jvozba::get_lujvo("se vitke", false).unwrap().0);
-    assert_eq!("tervi'e", jvozba::get_lujvo("te vitke", false).unwrap().0);
-    assert_eq!("selvi'o", jvozba::get_lujvo("se vitno", false).unwrap().0);
-    assert_eq!("tervi'o", jvozba::get_lujvo("te vitno", false).unwrap().0);
-    assert_eq!("selvlagi", jvozba::get_lujvo("se vlagi", false).unwrap().0);
-    assert_eq!("selvlina", jvozba::get_lujvo("se vlina", false).unwrap().0);
-    assert_eq!("tervlina", jvozba::get_lujvo("te vlina", false).unwrap().0);
-    assert_eq!("selvli", jvozba::get_lujvo("se vlipa", false).unwrap().0);
-    assert_eq!("tervli", jvozba::get_lujvo("te vlipa", false).unwrap().0);
-    assert_eq!("selvoi", jvozba::get_lujvo("se vofli", false).unwrap().0);
-    assert_eq!("selvo'a", jvozba::get_lujvo("se voksa", false).unwrap().0);
-    assert_eq!("selvro", jvozba::get_lujvo("se vorme", false).unwrap().0);
-    assert_eq!("tervro", jvozba::get_lujvo("te vorme", false).unwrap().0);
-    assert_eq!("velvro", jvozba::get_lujvo("ve vorme", false).unwrap().0);
-    assert_eq!("selvra", jvozba::get_lujvo("se vraga", false).unwrap().0);
-    assert_eq!("tervra", jvozba::get_lujvo("te vraga", false).unwrap().0);
-    assert_eq!("velvra", jvozba::get_lujvo("ve vraga", false).unwrap().0);
-    assert_eq!("selvei", jvozba::get_lujvo("se vreji", false).unwrap().0);
-    assert_eq!("tervei", jvozba::get_lujvo("te vreji", false).unwrap().0);
-    assert_eq!("velvei", jvozba::get_lujvo("ve vreji", false).unwrap().0);
-    assert_eq!("selvre", jvozba::get_lujvo("se vreta", false).unwrap().0);
-    assert_eq!("selvrici", jvozba::get_lujvo("se vrici", false).unwrap().0);
-    assert_eq!("selvu'e", jvozba::get_lujvo("se vrude", false).unwrap().0);
-    assert_eq!("selvu'i", jvozba::get_lujvo("se vrusi", false).unwrap().0);
-    assert_eq!("selvu'o", jvozba::get_lujvo("se vukro", false).unwrap().0);
-    assert_eq!("selxa'u", jvozba::get_lujvo("se xabju", false).unwrap().0);
-    assert_eq!("selxadba", jvozba::get_lujvo("se xadba", false).unwrap().0);
-    assert_eq!("terxadba", jvozba::get_lujvo("te xadba", false).unwrap().0);
-    assert_eq!("selxadni", jvozba::get_lujvo("se xadni", false).unwrap().0);
-    assert_eq!("selxagji", jvozba::get_lujvo("se xagji", false).unwrap().0);
-    assert_eq!("selxagri", jvozba::get_lujvo("se xagri", false).unwrap().0);
-    assert_eq!("selxajmi", jvozba::get_lujvo("se xajmi", false).unwrap().0);
-    assert_eq!("terxajmi", jvozba::get_lujvo("te xajmi", false).unwrap().0);
-    assert_eq!("selxaksu", jvozba::get_lujvo("se xaksu", false).unwrap().0);
-    assert_eq!("selxalbo", jvozba::get_lujvo("se xalbo", false).unwrap().0);
-    assert_eq!("selxalka", jvozba::get_lujvo("se xalka", false).unwrap().0);
-    assert_eq!("terxalka", jvozba::get_lujvo("te xalka", false).unwrap().0);
-    assert_eq!("selxalni", jvozba::get_lujvo("se xalni", false).unwrap().0);
-    assert_eq!("selxau", jvozba::get_lujvo("se xamgu", false).unwrap().0);
-    assert_eq!("terxau", jvozba::get_lujvo("te xamgu", false).unwrap().0);
-    assert_eq!("selxa'o", jvozba::get_lujvo("se xampo", false).unwrap().0);
-    assert_eq!("terxa'o", jvozba::get_lujvo("te xampo", false).unwrap().0);
-    assert_eq!("selxamsi", jvozba::get_lujvo("se xamsi", false).unwrap().0);
-    assert_eq!("terxamsi", jvozba::get_lujvo("te xamsi", false).unwrap().0);
-    assert_eq!("selxa'e", jvozba::get_lujvo("se xance", false).unwrap().0);
-    assert_eq!("selxanka", jvozba::get_lujvo("se xanka", false).unwrap().0);
-    assert_eq!("terxanka", jvozba::get_lujvo("te xanka", false).unwrap().0);
-    assert_eq!("selxanri", jvozba::get_lujvo("se xanri", false).unwrap().0);
-    assert_eq!("selxanto", jvozba::get_lujvo("se xanto", false).unwrap().0);
-    assert_eq!("selxa'i", jvozba::get_lujvo("se xarci", false).unwrap().0);
-    assert_eq!("terxa'i", jvozba::get_lujvo("te xarci", false).unwrap().0);
-    assert_eq!("selxarju", jvozba::get_lujvo("se xarju", false).unwrap().0);
-    assert_eq!("selxarnu", jvozba::get_lujvo("se xarnu", false).unwrap().0);
-    assert_eq!("terxarnu", jvozba::get_lujvo("te xarnu", false).unwrap().0);
-    assert_eq!("selxasli", jvozba::get_lujvo("se xasli", false).unwrap().0);
-    assert_eq!("selxasne", jvozba::get_lujvo("se xasne", false).unwrap().0);
-    assert_eq!("terxasne", jvozba::get_lujvo("te xasne", false).unwrap().0);
-    assert_eq!("selxa'a", jvozba::get_lujvo("se xatra", false).unwrap().0);
-    assert_eq!("terxa'a", jvozba::get_lujvo("te xatra", false).unwrap().0);
-    assert_eq!("velxa'a", jvozba::get_lujvo("ve xatra", false).unwrap().0);
-    assert_eq!("selxatsi", jvozba::get_lujvo("se xatsi", false).unwrap().0);
-    assert_eq!("terxatsi", jvozba::get_lujvo("te xatsi", false).unwrap().0);
-    assert_eq!("selzdo", jvozba::get_lujvo("se xazdo", false).unwrap().0);
-    assert_eq!("selxei", jvozba::get_lujvo("se xebni", false).unwrap().0);
-    assert_eq!("selbro", jvozba::get_lujvo("se xebro", false).unwrap().0);
-    assert_eq!("selcto", jvozba::get_lujvo("se xecto", false).unwrap().0);
-    assert_eq!("tercto", jvozba::get_lujvo("te xecto", false).unwrap().0);
-    assert_eq!("selxe'a", jvozba::get_lujvo("se xedja", false).unwrap().0);
-    assert_eq!("selxelso", jvozba::get_lujvo("se xelso", false).unwrap().0);
-    assert_eq!("selxe'o", jvozba::get_lujvo("se xendo", false).unwrap().0);
-    assert_eq!("terxe'o", jvozba::get_lujvo("te xendo", false).unwrap().0);
-    assert_eq!("selxe'u", jvozba::get_lujvo("se xenru", false).unwrap().0);
-    assert_eq!("selxexso", jvozba::get_lujvo("se xexso", false).unwrap().0);
-    assert_eq!("terxexso", jvozba::get_lujvo("te xexso", false).unwrap().0);
-    assert_eq!("selxindo", jvozba::get_lujvo("se xindo", false).unwrap().0);
-    assert_eq!("selxinmo", jvozba::get_lujvo("se xinmo", false).unwrap().0);
-    assert_eq!("terxinmo", jvozba::get_lujvo("te xinmo", false).unwrap().0);
-    assert_eq!("selxi'a", jvozba::get_lujvo("se xirma", false).unwrap().0);
-    assert_eq!("selxi'u", jvozba::get_lujvo("se xislu", false).unwrap().0);
-    assert_eq!("terxi'u", jvozba::get_lujvo("te xislu", false).unwrap().0);
-    assert_eq!("selxispo", jvozba::get_lujvo("se xispo", false).unwrap().0);
-    assert_eq!("selxla", jvozba::get_lujvo("se xlali", false).unwrap().0);
-    assert_eq!("terxla", jvozba::get_lujvo("te xlali", false).unwrap().0);
-    assert_eq!("selxlu", jvozba::get_lujvo("se xlura", false).unwrap().0);
-    assert_eq!("terxlu", jvozba::get_lujvo("te xlura", false).unwrap().0);
-    assert_eq!("velxlu", jvozba::get_lujvo("ve xlura", false).unwrap().0);
-    assert_eq!("selxoi", jvozba::get_lujvo("se xotli", false).unwrap().0);
-    assert_eq!("terxoi", jvozba::get_lujvo("te xotli", false).unwrap().0);
-    assert_eq!("selxrabo", jvozba::get_lujvo("se xrabo", false).unwrap().0);
-    assert_eq!("selxai", jvozba::get_lujvo("se xrani", false).unwrap().0);
-    assert_eq!("terxai", jvozba::get_lujvo("te xrani", false).unwrap().0);
-    assert_eq!("velxai", jvozba::get_lujvo("ve xrani", false).unwrap().0);
-    assert_eq!("selxi'o", jvozba::get_lujvo("se xriso", false).unwrap().0);
-    assert_eq!("selxruba", jvozba::get_lujvo("se xruba", false).unwrap().0);
-    assert_eq!("selxruki", jvozba::get_lujvo("se xruki", false).unwrap().0);
-    assert_eq!("selxrula", jvozba::get_lujvo("se xrula", false).unwrap().0);
-    assert_eq!("selxru", jvozba::get_lujvo("se xruti", false).unwrap().0);
-    assert_eq!("terxru", jvozba::get_lujvo("te xruti", false).unwrap().0);
-    assert_eq!("velxru", jvozba::get_lujvo("ve xruti", false).unwrap().0);
-    assert_eq!("selxu'i", jvozba::get_lujvo("se xukmi", false).unwrap().0);
-    assert_eq!("terxu'i", jvozba::get_lujvo("te xukmi", false).unwrap().0);
-    assert_eq!("selxu'o", jvozba::get_lujvo("se xurdo", false).unwrap().0);
-    assert_eq!("selxu'a", jvozba::get_lujvo("se xusra", false).unwrap().0);
-    assert_eq!("selza'a", jvozba::get_lujvo("se zabna", false).unwrap().0);
-    assert_eq!("terza'a", jvozba::get_lujvo("te zabna", false).unwrap().0);
-    assert_eq!("selzajba", jvozba::get_lujvo("se zajba", false).unwrap().0);
-    assert_eq!("selzalvi", jvozba::get_lujvo("se zalvi", false).unwrap().0);
-    assert_eq!("terzalvi", jvozba::get_lujvo("te zalvi", false).unwrap().0);
-    assert_eq!("selzau", jvozba::get_lujvo("se zanru", false).unwrap().0);
-    assert_eq!("selzai", jvozba::get_lujvo("se zarci", false).unwrap().0);
-    assert_eq!("terzai", jvozba::get_lujvo("te zarci", false).unwrap().0);
-    assert_eq!("selza'u", jvozba::get_lujvo("se zargu", false).unwrap().0);
-    assert_eq!("selzasni", jvozba::get_lujvo("se zasni", false).unwrap().0);
-    assert_eq!("terzasni", jvozba::get_lujvo("te zasni", false).unwrap().0);
-    assert_eq!("selza'i", jvozba::get_lujvo("se zasti", false).unwrap().0);
-    assert_eq!("terza'i", jvozba::get_lujvo("te zasti", false).unwrap().0);
-    assert_eq!("selzbabu", jvozba::get_lujvo("se zbabu", false).unwrap().0);
-    assert_eq!("terzbabu", jvozba::get_lujvo("te zbabu", false).unwrap().0);
-    assert_eq!("selzbani", jvozba::get_lujvo("se zbani", false).unwrap().0);
-    assert_eq!("selzba", jvozba::get_lujvo("se zbasu", false).unwrap().0);
-    assert_eq!("terzba", jvozba::get_lujvo("te zbasu", false).unwrap().0);
-    assert_eq!("selzbe", jvozba::get_lujvo("se zbepi", false).unwrap().0);
-    assert_eq!("terzbe", jvozba::get_lujvo("te zbepi", false).unwrap().0);
-    assert_eq!("selzda", jvozba::get_lujvo("se zdani", false).unwrap().0);
-    assert_eq!("selzdi", jvozba::get_lujvo("se zdile", false).unwrap().0);
-    assert_eq!("terzdi", jvozba::get_lujvo("te zdile", false).unwrap().0);
-    assert_eq!("selzei", jvozba::get_lujvo("se zekri", false).unwrap().0);
-    assert_eq!("selze'a", jvozba::get_lujvo("se zenba", false).unwrap().0);
-    assert_eq!("terze'a", jvozba::get_lujvo("te zenba", false).unwrap().0);
-    assert_eq!("selzepti", jvozba::get_lujvo("se zepti", false).unwrap().0);
-    assert_eq!("terzepti", jvozba::get_lujvo("te zepti", false).unwrap().0);
-    assert_eq!("selzetro", jvozba::get_lujvo("se zetro", false).unwrap().0);
-    assert_eq!("terzetro", jvozba::get_lujvo("te zetro", false).unwrap().0);
-    assert_eq!("selzga", jvozba::get_lujvo("se zgana", false).unwrap().0);
-    assert_eq!("terzga", jvozba::get_lujvo("te zgana", false).unwrap().0);
-    assert_eq!("velzga", jvozba::get_lujvo("ve zgana", false).unwrap().0);
-    assert_eq!("selzgi", jvozba::get_lujvo("se zgike", false).unwrap().0);
-    assert_eq!("selzi'e", jvozba::get_lujvo("se zifre", false).unwrap().0);
-    assert_eq!("terzi'e", jvozba::get_lujvo("te zifre", false).unwrap().0);
-    assert_eq!("selvle", jvozba::get_lujvo("se zivle", false).unwrap().0);
-    assert_eq!("tervle", jvozba::get_lujvo("te zivle", false).unwrap().0);
-    assert_eq!("velvle", jvozba::get_lujvo("ve zivle", false).unwrap().0);
-    assert_eq!("selmau", jvozba::get_lujvo("se zmadu", false).unwrap().0);
-    assert_eq!("termau", jvozba::get_lujvo("te zmadu", false).unwrap().0);
-    assert_eq!("velmau", jvozba::get_lujvo("ve zmadu", false).unwrap().0);
-    assert_eq!("selzmi", jvozba::get_lujvo("se zmiku", false).unwrap().0);
-    assert_eq!("terzmi", jvozba::get_lujvo("te zmiku", false).unwrap().0);
-    assert_eq!("selzu'e", jvozba::get_lujvo("se zukte", false).unwrap().0);
-    assert_eq!("terzu'e", jvozba::get_lujvo("te zukte", false).unwrap().0);
-    assert_eq!("selzmu", jvozba::get_lujvo("se zumri", false).unwrap().0);
-    assert_eq!("selzungi", jvozba::get_lujvo("se zungi", false).unwrap().0);
-    assert_eq!("selzunle", jvozba::get_lujvo("se zunle", false).unwrap().0);
-    assert_eq!("terzunle", jvozba::get_lujvo("te zunle", false).unwrap().0);
-    assert_eq!("selzu'i", jvozba::get_lujvo("se zunti", false).unwrap().0);
-    assert_eq!("terzu'i", jvozba::get_lujvo("te zunti", false).unwrap().0);
-    assert_eq!("seltse", jvozba::get_lujvo("se zutse", false).unwrap().0);
-    assert_eq!("selzva", jvozba::get_lujvo("se zvati", false).unwrap().0);
+    let tests = [
+        ["zmogai", "-zmo- gacri"],
+        ["barbytadji", "-barb- tadji"],
+        ["barpytadji", "-barp- tadji"],
+        ["bloblobloblobloblobloblobloblo", "bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti"],
+        ["blacyblacyblacyblacyblacyblacyblacyblacyblacyblaci", "blaci blaci blaci blaci blaci blaci blaci blaci blaci blaci"],
+        ["birjunla", "birka junla"],
+        ["daklyflani", "dakli flani"],
+        ["dicre'e", "dikca trene"],
+        ["gikfagri", "ginka fagri"],
+        ["likrokro'i", "litki rokci rokci"],
+        ["lorkerlo", "lorxu kerlo"],
+        ["rensazri", "trene sazri"],
+        ["tcanyja'a", "tcana jatna"],
+        ["varterjabre", "vacri te jabre"],
+        ["xasycakrespa", "xamsi calku respa"],
+        ["latkerlo", "mlatu kerlo"],
+        ["duskemsezlacri", "dukse ke sevzi lacri"],
+        ["ta'orskami", "tanbo skami"],
+        ["ta'orsamdu'e", "tanbo skami dukse"],
+        ["ri'odje", "crino djedi"],
+        ["sairbu'u", "sanmi bukpu"],
+        ["co'unre'e", "co'u trene"],
+        ["co'unrensazri", "co'u trene sazri"],
+        ["tcanytcanytcana", "tcana tcana tcana"],
+        ["kosymabru", "kosta mabru"],
+        ["kosykosmabru", "kosta kosta mabru"],
+        ["va'armlatu", "va'arga mlatu"],
+        ["xixykerlo", "xi kerlo"],
+        ["ba'armo'a", "barna morna"],
+        ["ba'orzu'e", "banro zukte"],
+        ["ba'ostu", "banro stuzi"],
+        ["ba'urdu'u", "bacru dunku"],
+        ["ba'urnoi", "bacru notci"],
+        ["ba'urtadji", "bacru tadji"],
+        ["ba'usku", "bacru cusku"],
+        ["bacycta", "bancu catlu"],
+        ["bajyjvi", "bajra jivna"],
+        ["bajykla", "bajra klama"],
+        ["bajli'a", "bajra cliva"],
+        ["bajystu", "bajra stuzi"],
+        ["bakcange", "bakni cange"],
+        ["bakcatra", "bakni catra"],
+        ["bakplixa", "bakni plixa"],
+        ["bakre'u", "bakni rectu"],
+        ["bakryta'o", "bakri tanbo"],
+        ["bakyjanbe", "bakni janbe"],
+        ["bakykakpa", "bakni kakpa"],
+        ["balcu'e", "banli ckule"],
+        ["baldakyxa'i", "banli dakfu xarci"],
+        ["baljamna", "banli jamna"],
+        ["balku'a", "banli kumfa"],
+        ["balnunjamna", "banli nu jamna"],
+        ["balrai", "banli traji"],
+        ["balsoi", "banli sonci"],
+        ["baltutra", "banli tutra"],
+        ["bacybau", "bancu bangu"],
+        ["bacycripu", "bancu cripu"],
+        ["bacycu'e", "bancu ckule"],
+        ["backemselrerkru", "bancu ke se renro kruvi"],
+        ["backla", "bancu klama"],
+        ["banjikske", "bangu jikca saske"],
+        ["baupli", "bangu pilno"],
+        ["banpliske", "bangu pilno saske"],
+        ["banta'a", "bangu tavla"],
+        ["bantadni", "bangu tadni"],
+        ["banvelsku", "bangu ve cusku"],
+        ["baple'i", "bapli pleji"],
+        ["barca'e", "bartu catke"],
+        ["brablo", "barda bloti"],
+        ["barfle", "bartu flecu"],
+        ["bagyce'a", "bargu cecla"],
+        ["bagyxai", "bargu xrani"],
+        ["barjyja'a", "barja jatna"],
+        ["barkalri", "bartu kalri"],
+        ["barkla", "bartu klama"],
+        ["barli'a", "bartu cliva"],
+        ["bartca", "bartu tcadu"],
+        ["barterzga", "bartu te zgana"],
+        ["basme'e", "basti cmene"],
+        ["basygau", "basti gasnu"],
+        ["basyvla", "basti valsi"],
+        ["batfendi", "batci fendi"],
+        ["batkyci'a", "batke ciska"],
+        ["batkyke'a", "batke kevna"],
+        ["baucmu", "bangu jicmu"],
+        ["baucre", "bangu certu"],
+        ["bauske", "bangu saske"],
+        ["bavla'i", "balvi lamji"],
+        ["bavlamdei", "balvi lamji djedi"],
+        ["bavlamjeftu", "balvi lamji jeftu"],
+        ["bavna'arefma'i", "balvi nanca krefu masti"],
+        ["bavna'ake'udei", "balvi nanca krefu djedi"],
+        ["bavyspe", "balvi speni"],
+        ["bavyteike'u", "balvi temci krefu"],
+        ["bavyteirefma'i", "balvi temci krefu masti"],
+        ["bavyteireftei", "balvi temci krefu temci"],
+        ["be'aspe", "bersa speni"],
+        ["befcro", "betfu cortu"],
+        ["bebgei", "bebna gleki"],
+        ["befke'a", "betfu kevna"],
+        ["befsfeke'a", "betfu sefta kevna"],
+        ["befsri", "betfu dasri"],
+        ["be'udzu", "betfu cadzu"],
+        ["beipre", "bevri prenu"],
+        ["bejmu'o", "benji mulno"],
+        ["bemjoitco", "bemro joi ketco"],
+        ["benmro", "besna morsi"],
+        ["bermau", "berti zmadu"],
+        ["berpau", "berti pagbu"],
+        ["berstici", "berti stici"],
+        ["berstuna", "berti stuna"],
+        ["besmamta", "bersa mamta"],
+        ["bevma'e", "bevri marce"],
+        ["beircarce", "bevri carce"],
+        ["bifcau", "brife claxu"],
+        ["bifkluza", "brife kluza"],
+        ["bifmlo", "brife molki"],
+        ["bifyvilcarvi", "brife vlile carvi"],
+        ["bigygau", "bilga gasnu"],
+        ["bijyjbu", "briju jubme"],
+        ["bijyku'a", "briju kumfa"],
+        ["bijyta'e", "briju tanxe"],
+        ["bikydamri", "bikla damri"],
+        ["bikykla", "bikla klama"],
+        ["bi'arbi'o", "bilma binxo"],
+        ["bi'amlu", "bilma simlu"],
+        ["bimxra", "bitmu pixra"],
+        ["binkemgaste'i", "jbini ke ganse steci"],
+        ["binrydi'a", "binra jdima"],
+        ["binryve'u", "binra vecnu"],
+        ["velbinryve'u", "ve binra vecnu"],
+        ["binynalvokselba'u", "jbini na'e voksa se bacru"],
+        ["bircidni", "birka cidni"],
+        ["birdadykla", "birka dandu klama"],
+        ["birjai", "birka jgari"],
+        ["birjaiki'e", "birka jgari kicne"],
+        ["birtafpau", "birka taxfu pagbu"],
+        ["birtu'u", "birka tubnu"],
+        ["birtu'ucau", "birka tubnu claxu"],
+        ["birvrajvi", "birka vraga jivna"],
+        ["bisycmaplini", "bisli cmalu plini"],
+        ["bivjetka'u", "bi jetnu kantu"],
+        ["blari'o", "blanu crino"],
+        ["blita'o", "bliku tanbo"],
+        ["blogre", "bloti pagre"],
+        ["blokla", "bloti klama"],
+        ["bloli'u", "bloti litru"],
+        ["blomuvga'a", "bloti muvdu grana"],
+        ["blosazri", "bloti sazri"],
+        ["blufle", "ciblu flecu"],
+        ["bluselpi'a", "ciblu se pilka"],
+        ["bofsnipa", "boxfo snipa"],
+        ["bogygreku", "bongu greku"],
+        ["bogykamju", "bongu kamju"],
+        ["boldi'u", "bolci dinju"],
+        ["bolga'axa'i", "bolci grana xarci"],
+        ["bolgrijvi", "bolci girzu jivna"],
+        ["bolgu'o", "bolci gunro"],
+        ["boijme", "bolci jemna"],
+        ["bolkei", "bolci kelci"],
+        ["bolkeijvi", "bolci kelci jivna"],
+        ["boltikpa", "bolci tikpa"],
+        ["boltipkei", "bolci tikpa kelci"],
+        ["boltipyboi", "bolci tikpa bolci"],
+        ["boltipyjvi", "bolci tikpa jivna"],
+        ["brabi'o", "barda binxo"],
+        ["brabra", "barda barda"],
+        ["brabracrida", "barda barda crida"],
+        ["bracutci", "barda cutci"],
+        ["bradzu", "barda cadzu"],
+        ["brafe'a", "barda fenra"],
+        ["braje'a", "barda jecta"],
+        ["brajmadegji", "barda jamfu degji"],
+        ["brajmadegycalku", "barda jamfu degji calku"],
+        ["brakruca", "barda kruca"],
+        ["bramau", "barda zmadu"],
+        ["brapatxu", "barda patxu"],
+        ["braplu", "barda daplu"],
+        ["braro'i", "barda rokci"],
+        ["brasa'o", "barda salpo"],
+        ["bravau", "barda vasru"],
+        ["brivla", "bridi valsi"],
+        ["bromalsi", "xebro malsi"],
+        ["brulu'i", "burcu lumci"],
+        ["bukydi'u", "bukpu dinju"],
+        ["bukcilta", "bukpu cilta"],
+        ["bukfa'u", "bukpu farlu"],
+        ["bukfe'a", "bukpu fenra"],
+        ["bu'udru", "bukpu drudi"],
+        ["bukmra", "bukpu marbi"],
+        ["buktaiterjo'e", "bukpu tarmi te jorne"],
+        ["bukterjo'e", "bukpu te jorne"],
+        ["bukyjabre", "bukpu jabre"],
+        ["bukykoi", "bukpu korbi"],
+        ["bunspe", "bruna speni"],
+        ["burnanba", "bunre nanba"],
+        ["ca'arcau", "cabra claxu"],
+        ["ca'erbi'e", "catke brife"],
+        ["ca'erslanu", "catke slanu"],
+        ["ca'icru", "catni curmi"],
+        ["ca'irci'a", "catni ciska"],
+        ["cabdei", "cabna djedi"],
+        ["cabma'i", "cabna masti"],
+        ["cabmamta", "cabna mamta"],
+        ["cabmi'u", "cabna mintu"],
+        ["cabmo'a", "cabna morna"],
+        ["cabnalza'i", "cabna na'e zasti"],
+        ["cabna'a", "cabna nanca"],
+        ["cabycedra", "cabna cedra"],
+        ["cabysna", "cabna sance"],
+        ["cabysni", "cabna sinxa"],
+        ["cacyju'o", "tcaci djuno"],
+        ["cacyjva", "tcaci javni"],
+        ["cadgau", "cando gasnu"],
+        ["cadykei", "cando kelci"],
+        ["cadysti", "cando sisti"],
+        ["cagyce'u", "cange cecmu"],
+        ["cagyselxa'u", "cange se xabju"],
+        ["cagzaita'u", "cange zarci taxfu"],
+        ["cagzai", "cange zarci"],
+        ["caicni", "carmi cinmo"],
+        ["caicpe", "carmi cpedu"],
+        ["caicta", "carmi catlu"],
+        ["caidji", "carmi djica"],
+        ["camcinla", "carmi cinla"],
+        ["cinlyrai", "cinla traji"],
+        ["caizma", "carmi zmadu"],
+        ["caivru", "carmi savru"],
+        ["cakcinki", "calku cinki"],
+        ["cakcurnu", "calku curnu"],
+        ["cakybe'ujma", "calku betfu jamfu"],
+        ["cakyda'u", "calku danlu"],
+        ["cakyrespa", "calku respa"],
+        ["calze'a", "canlu zenba"],
+        ["caibra", "carmi barda"],
+        ["camcarvi", "carmi carvi"],
+        ["camcikna", "carmi cikna"],
+        ["camcilce", "carmi cilce"],
+        ["camcintungau", "carmi cinse tunta gasnu"],
+        ["camcniri'a", "carmi cinmo rinka"],
+        ["camganra", "carmi ganra"],
+        ["camgei", "carmi gleki"],
+        ["campei", "carmi pensi"],
+        ["camselci'i", "carmi se cinri"],
+        ["camselci'igri", "carmi se cinri girzu"],
+        ["caitcu", "carmi nitcu"],
+        ["camte'a", "carmi terpa"],
+        ["camtoi", "carmi troci"],
+        ["camvrici", "carmi vrici"],
+        ["cagypre", "cange prenu"],
+        ["capli'u", "ckape litru"],
+        ["capti'i", "ckape stidi"],
+        ["capyjde", "ckape kajde"],
+        ["carcpu", "carna lacpu"],
+        ["cargau", "carna gasnu"],
+        ["carna'ivinji", "carna nalci vinji"],
+        ["ca'irvei", "catni vreji"],
+        ["cavlu'i", "carvi lumci"],
+        ["cavyfle", "carvi flecu"],
+        ["cavykosta", "carvi kosta"],
+        ["cavysezlu'i", "carvi sevzi lumci"],
+        ["cazyfusra", "ca'a fusra"],
+        ["cazytcini", "ca'a tcini"],
+        ["cedrymi'u", "cedra mintu"],
+        ["celtci", "cecla tutci"],
+        ["cemlanzu", "cecmu lanzu"],
+        ["cempre", "cecmu prenu"],
+        ["cnecme", "cenba cmene"],
+        ["centre", "centi mitre"],
+        ["cermurse", "cerni murse"],
+        ["cespre", "censa prenu"],
+        ["cesri'a", "censa rinka"],
+        ["cesri'isi'a", "censa ritli sinma"],
+        ["cestoldapma", "censa to'e dapma"],
+        ["cesycku", "censa cukta"],
+        ["cesystu", "censa stuzi"],
+        ["cevrirni", "cevni rirni"],
+        ["ceirselcpe", "cevni se cpedu"],
+        ["ceirselxa'u", "cevni se xabju"],
+        ["ceizda", "cevni zdani"],
+        ["cfagau", "cfari gasnu"],
+        ["cfatse", "cfari zutse"],
+        ["fi'unri'abau", "cfipu rinka bangu"],
+        ["ci'ajbu", "ciska jubme"],
+        ["ci'arfi'i", "ciska finti"],
+        ["ci'arse'u", "ciska selfu"],
+        ["ci'asku", "ciska cusku"],
+        ["ci'izma", "cinri zmadu"],
+        ["cibdei", "ci djedi"],
+        ["reldei", "re djedi"],
+        ["pavdei", "pa djedi"],
+        ["vondei", "vo djedi"],
+        ["mumdei", "mu djedi"],
+        ["xavdei", "xa djedi"],
+        ["nondei", "no djedi"],
+        ["zeldei", "ze djedi"],
+        ["cibjantradamri", "ci janco tarti damri"],
+        ["cibjgatai", "ci jganu tarmi"],
+        ["cibmeilei", "ci mei klesi"],
+        ["cibylajyterkruca", "ci klaji te kruca"],
+        ["cibyselxi'u", "ci se xislu"],
+        ["cibyskosa'e", "ci skori satre"],
+        ["cibyslakyvla", "ci slaka valsi"],
+        ["cibyteryrau", "ci te gradu"],
+        ["cicfe'u", "cilce fengu"],
+        ["cicfoi", "cilce foldi"],
+        ["cicpre", "cilce prenu"],
+        ["cicre'a", "cilce remna"],
+        ["cicti'a", "cilce tcima"],
+        ["cicyractu", "cilce ractu"],
+        ["cicyspa", "cilce spati"],
+        ["cicyspafoi", "cilce spati foldi"],
+        ["cidbajgre", "cidni bajra pagre"],
+        ["cidbajykla", "cidni bajra klama"],
+        ["cidydzu", "cidni cadzu"],
+        ["cidydzukla", "cidni cadzu klama"],
+        ["cidykla", "cidni klama"],
+        ["cifylisri", "cifnu lisri"],
+        ["cifydatka", "cifnu datka"],
+        ["ciksne", "cikna senva"],
+        ["cikybi'o", "cikna binxo"],
+        ["cikygau", "cikna gasnu"],
+        ["cimde'u", "cilmo dertu"],
+        ["cimdilnu", "cilmo dilnu"],
+        ["cimnytei", "cimni temci"],
+        ["cimri'a", "cilmo rinka"],
+        ["cimxra", "cilmo pixra"],
+        ["cincigla", "cinse cigla"],
+        ["cingafpre", "cinse galfi prenu"],
+        ["cintungau", "cinse tunta gasnu"],
+        ["cintyfaigau", "cinta fatri gasnu"],
+        ["cinvi'i", "cinse vikmi"],
+        ["circre", "citri certu"],
+        ["circtu", "citri ctuca"],
+        ["cirmi'o", "citri misno"],
+        ["citkanba", "citno kanba"],
+        ["citmau", "citno zmadu"],
+        ["citnanla", "citno nanla"],
+        ["citnau", "citno nanmu"],
+        ["citni'u", "citno ninmu"],
+        ["citpe'o", "citno pendo"],
+        ["citrai", "citno traji"],
+        ["civysfani", "civla sfani"],
+        ["cizda'u", "cizra danlu"],
+        ["ckabu'u", "ckana bukpu"],
+        ["ckali'a", "ckana cliva"],
+        ["kafpanci", "ckafi panci"],
+        ["kafpatxu", "ckafi patxu"],
+        ["kafyzai", "ckafi zarci"],
+        ["ckagai", "ckana gacri"],
+        ["ckakla", "ckana klama"],
+        ["ckazbe", "ckana zbepi"],
+        ["ckudi'u", "cukta dinju"],
+        ["ckuku'a", "cukta kumfa"],
+        ["kulpikta", "ckule pikta"],
+        ["kultadni", "ckule tadni"],
+        ["ckupau", "cukta pagbu"],
+        ["ckupaupau", "cukta pagbu pagbu"],
+        ["ckupra", "cukta cupra"],
+        ["ckusro", "cukta sorcu"],
+        ["ckuzda", "cukta zdani"],
+        ["ckuzdacre", "cukta zdani certu"],
+        ["ckuzdaske", "cukta zdani saske"],
+        ["clacku", "clani cukta"],
+        ["cladakyxa'i", "clani dakfu xarci"],
+        ["cladjine", "clani djine"],
+        ["claga'u", "clani galtu"],
+        ["clakurfa", "clani kurfa"],
+        ["clamau", "clani zmadu"],
+        ["clapi'e", "clani plipe"],
+        ["clapi'ejvi", "clani plipe jivna"],
+        ["clapre", "clani prenu"],
+        ["clara'i", "clani ranji"],
+        ["clare'i", "clani renvi"],
+        ["claselxadni", "clani se xadni"],
+        ["clatei", "clani temci"],
+        ["claxa'i", "clani xarci"],
+        ["caurgau", "claxu gasnu"],
+        ["clinoi", "cilre notci"],
+        ["lirgli", "clira glico"],
+        ["cupypijne", "clupa pijne"],
+        ["cmabanfi", "cmalu banfi"],
+        ["cmabu'u", "cmalu bukpu"],
+        ["cmacai", "cmalu carmi"],
+        ["cmaca'e", "cmalu catke"],
+        ["cmacifnu", "cmalu cifnu"],
+        ["cmacinfo", "cmalu cinfo"],
+        ["cinfypanzi", "cinfo panzi"],
+        ["cmacpi", "cmalu cipni"],
+        ["cmacma", "cmalu cmalu"],
+        ["cmami'a", "cmalu cmila"],
+        ["cmacrida", "cmalu crida"],
+        ["cmactatci", "cmalu catlu tutci"],
+        ["cmaplu", "cmalu daplu"],
+        ["cmafle", "cmalu flecu"],
+        ["cmagu'e", "cmalu gugde"],
+        ["cmagu'etru", "cmalu gugde turni"],
+        ["cmalauca'a", "cmalu cladu cabra"],
+        ["cmala'u", "cmalu lalxu"],
+        ["cmama'a", "cmalu cmana"],
+        ["cmamudyspi", "cmalu mudri spisa"],
+        ["cmapinflani", "cmalu pinta flani"],
+        ["cmaplini", "cmalu plini"],
+        ["cmari'e", "cmalu rirxe"],
+        ["cmaro'i", "cmalu rokci"],
+        ["cmaste", "cmalu liste"],
+        ["cmataisni", "cmalu tarmi sinxa"],
+        ["cmatca", "cmalu tcadu"],
+        ["cmatricu", "cmalu tricu"],
+        ["cmatru", "cmalu turni"],
+        ["cmave'a", "cmalu verba"],
+        ["cmaxli", "cmalu nixli"],
+        ["cmazda", "cmalu zdani"],
+        ["cmebasti", "cmene basti"],
+        ["cmeju'o", "cmene djuno"],
+        ["selcmeju'o", "se cmene djuno"],
+        ["cmekancu", "cmene kancu"],
+        ["cmemo'i", "cmene morji"],
+        ["cmesanji", "cmene sanji"],
+        ["cmetcita", "cmene tcita"],
+        ["cmeterge'a", "cmene te gerna"],
+        ["cmevla", "cmene valsi"],
+        ["cmibi'o", "cmima binxo"],
+        ["cmoba'u", "cmoni bacru"],
+        ["cmodji", "cmoni djica"],
+        ["cmosku", "cmoni cusku"],
+        ["cnadakfu", "canpa dakfu"],
+        ["nebykoi", "cnebo korbi"],
+        ["cnedatni", "cenba datni"],
+        ["cnelai", "cenba klani"],
+        ["cnicro", "cinmo cortu"],
+        ["nicygau", "cnici gasnu"],
+        ["cnidu'e", "cinmo dukse"],
+        ["cnija'o", "cinmo jarco"],
+        ["cnijbi", "cinmo jibni"],
+        ["cnikansa", "cinmo kansa"],
+        ["cnima'o", "cinmo cmavo"],
+        ["ninja'o", "cnino jarco"],
+        ["cniri'a", "cinmo rinka"],
+        ["cnisei", "cinmo sepli"],
+        ["cnisni", "cinmo sinxa"],
+        ["cnita'u", "cinmo taxfu"],
+        ["crodri", "cortu badri"],
+        ["crotsapi", "cortu tsapi"],
+        ["crovu'i", "cortu vrusi"],
+        ["cpadji", "cpacu djica"],
+        ["selkemcpadji", "se ke cpacu djica"],
+        ["cpatu'i", "cpacu tugni"],
+        ["cpesku", "cpedu cusku"],
+        ["cpinytsapi", "cpina tsapi"],
+        ["cpizda", "cipni zdani"],
+        ["cpumuvgau", "lacpu muvdu gasnu"],
+        ["cradyvelcradi", "cradi ve cradi"],
+        ["craku'a", "crane kumfa"],
+        ["crale'u", "crane lerfu"],
+        ["crapau", "crane pagbu"],
+        ["crasfe", "crane sefta"],
+        ["crastu", "crane stuzi"],
+        ["cravro", "crane vorme"],
+        ["crelei", "certu klesi"],
+        ["cistcika", "crisa tcika"],
+        ["crogla", "cortu glare"],
+        ["crogle", "cortu gletu"],
+        ["crori'a", "cortu rinka"],
+        ["cruvei", "curmi vreji"],
+        ["ctacarna", "catlu carna"],
+        ["ctebixtei", "nicte binxo temci"],
+        ["ctejau", "nicte djacu"],
+        ["ctemanku", "nicte manku"],
+        ["ctemurse", "nicte murse"],
+        ["ctesai", "nicte sanmi"],
+        ["cticinza", "citka cinza"],
+        ["cticpe", "citka cpedu"],
+        ["ctidakfu", "citka dakfu"],
+        ["ctidji", "citka djica"],
+        ["kamctidji", "ka citka djica"],
+        ["ctigau", "citka gasnu"],
+        ["ctiku'a", "citka kumfa"],
+        ["ctilyvau", "ctile vasru"],
+        ["ctinei", "citka nelci"],
+        ["ctipla", "citka platu"],
+        ["ctiru'e", "citka pruce"],
+        ["ctiru'egau", "citka pruce gasnu"],
+        ["ctisla", "citka salci"],
+        ["ctitci", "citka tutci"],
+        ["ctitcilu'i", "citka tutci lumci"],
+        ["ctona'a", "xecto nanca"],
+        ["ctucku", "ctuca cukta"],
+        ["ctufau", "ctuca fasnu"],
+        ["ctunoi", "ctuca notci"],
+        ["ctutertcidu", "ctuca te tcidu"],
+        ["cuxselgre", "cuxna se pagre"],
+        ["cunyna'u", "cunso namcu"],
+        ["cu'urzu'e", "cuntu zukte"],
+        ["cucma'e", "cutci marce"],
+        ["cucti'e", "cutci trixe"],
+        ["cucycau", "cutci claxu"],
+        ["cucyxelkla", "cutci xe klama"],
+        ["cucyza'u", "cutci zargu"],
+        ["cucyzbi", "cutci nazbi"],
+        ["cukmakyvelvei", "cukla maksi ve vreji"],
+        ["cukmu'o", "cukla mulno"],
+        ["cukselba'a", "cukla se barna"],
+        ["cuktai", "cukla tarmi"],
+        ["cukygu'ivelvei", "cukla gusni ve vreji"],
+        ["culcpe", "cumla cpedu"],
+        ["cumselpei", "cumki se pensi"],
+        ["cumymu'efi'a", "cumki munje cfika"],
+        ["cundinkei", "cunso jdini kelci"],
+        ["cunfaigau", "cunso fatri gasnu"],
+        ["cunpe'i", "cunso penmi"],
+        ["cupli'u", "clupa litru"],
+        ["cuxtinbe", "cuxna tinbe"],
+        ["da'acre", "damba certu"],
+        ["da'erca'u", "danre canlu"],
+        ["dabja'a", "damba jatna"],
+        ["dabycalku", "damba calku"],
+        ["dabysmifau", "damba simsa fasnu"],
+        ["da'asnu", "damba casnu"],
+        ["dadgau", "dandu gasnu"],
+        ["dadgreku", "dandu greku"],
+        ["dadne'ota'u", "dandu cnebo taxfu"],
+        ["dadysli", "dandu slilu"],
+        ["dafcpe", "danfu cpedu"],
+        ["dafsku", "danfu cusku"],
+        ["dagysfe", "dargu sefta"],
+        ["dagytcityta'o", "dargu tcita tanbo"],
+        ["dakyxa'i", "dakfu xarci"],
+        ["daklycka", "dakli ckana"],
+        ["dalcange", "danlu cange"],
+        ["damfri", "danmo lifri"],
+        ["damselzdi", "danmo se zdile"],
+        ["damva'u", "danmo vasxu"],
+        ["danlu'a", "danti pluta"],
+        ["danvau", "danti vasru"],
+        ["dapsku", "dapma cusku"],
+        ["daptutra", "dapma tutra"],
+        ["dapyda'i", "dapma darxi"],
+        ["darctatci", "darno catlu tutci"],
+        ["dagysni", "dargu sinxa"],
+        ["darkla", "darno klama"],
+        ["darbajra", "darno bajra"],
+        ["darstuna", "darno stuna"],
+        ["darsyli'u", "darsi litru"],
+        ["darxa'u", "darno xabju"],
+        ["daryra'i", "darno ranji"],
+        ["daryri'a", "darno rinka"],
+        ["daskybu'u", "daski bukpu"],
+        ["spopli", "daspo pilno"],
+        ["datcinglepre", "drata cinse gletu prenu"],
+        ["datcinpampre", "drata cinse prami prenu"],
+        ["datcinselta'u", "drata cinse se taxfu"],
+        ["datklu", "drata kulnu"],
+        ["datkypi'u", "datka pimlu"],
+        ["datnyvau", "datni vasru"],
+        ["datnyvaugunma", "datni vasru gunma"],
+        ["datnyvei", "datni vreji"],
+        ["datnyveiste", "datni vreji liste"],
+        ["datpavycinglepre", "drata pa cinse gletu prenu"],
+        ["datpavycinpampre", "drata pa cinse prami prenu"],
+        ["datpre", "drata prenu"],
+        ["datygu'e", "drata gugde"],
+        ["datygugvi'e", "drata gugde vitke"],
+        ["daupro", "darlu fapro"],
+        ["daxfle", "darxi flecu"],
+        ["dazmoipru", "da'a moi purci"],
+        ["densrumikce", "denci sruri mikce"],
+        ["densru", "denci sruri"],
+        ["degja'i", "degji jadni"],
+        ["degja'o", "degji jarco"],
+        ["degycpu", "degji lacpu"],
+        ["degyke'a", "degji kevna"],
+        ["demcarvi", "denmi carvi"],
+        ["demlanzu", "denmi lanzu"],
+        ["demri'a", "denmi rinka"],
+        ["demspa", "denmi spati"],
+        ["demtse", "denmi zutse"],
+        ["demxa'e", "denmi xance"],
+        ["denmikce", "denci mikce"],
+        ["densai", "denci sanmi"],
+        ["denterjo'e", "denci te jorne"],
+        ["denvanbi", "denci vanbi"],
+        ["depcni", "denpa cinmo"],
+        ["depri'a", "denpa rinka"],
+        ["depstu", "denpa stuzi"],
+        ["derba'o", "dertu banro"],
+        ["derjbe", "dertu jbena"],
+        ["derni'a", "dertu cnita"],
+        ["derni'agau", "dertu cnita gasnu"],
+        ["dersfe", "dertu sefta"],
+        ["desygau", "desku gasnu"],
+        ["detcartu", "detri cartu"],
+        ["detcku", "detri cukta"],
+        ["detke'u", "detri krefu"],
+        ["detyselylacri", "detri se lacri"],
+        ["di'esna", "dirce sance"],
+        ["dijypanka", "dinju panka"],
+        ["dibdji", "dirba djica"],
+        ["dibrai", "dirba traji"],
+        ["dibzda", "dirba zdani"],
+        ["dicfatka'u", "dikca fatne kantu"],
+        ["dicfle", "dikca flecu"],
+        ["dicka'u", "dikca kantu"],
+        ["dicka'udenmi", "dikca kantu denmi"],
+        ["dicka'ujdika", "dikca kantu jdika"],
+        ["dicka'uze'a", "dikca kantu zenba"],
+        ["dirtadji", "dicra tadji"],
+        ["dicycau", "dikca claxu"],
+        ["dicydenmi", "dikca denmi"],
+        ["dicyjdika", "dikca jdika"],
+        ["dicysro", "dikca sorcu"],
+        ["digyligykamju", "dirgo sligu kamju"],
+        ["dijbartu", "dinju bartu"],
+        ["dijlu'a", "dinju pluta"],
+        ["dijysenta", "dinju senta"],
+        ["dikle'i", "dikni pleji"],
+        ["dikcaigu'i", "dikni carmi gusni"],
+        ["dikydemgu'i", "dikni denmi gusni"],
+        ["diktau", "dikni tanru"],
+        ["diktcika", "dikni tcika"],
+        ["dikyjvo", "dikni lujvo"],
+        ["dimcei", "dimna cevni"],
+        ["dimri'a", "dimna rinka"],
+        ["dincpa", "jdini cpacu"],
+        ["dinpa'i", "jdini prami"],
+        ["dinseldu'a", "jdini se dunda"],
+        ["dinselxaksu", "jdini se xaksu"],
+        ["dinske", "jdini saske"],
+        ["dinsro", "jdini sorcu"],
+        ["dintro", "jdini jitro"],
+        ["di'idji", "jdini djica"],
+        ["dirsno", "dicra masno"],
+        ["dzimuvgau", "dizlo muvdu gasnu"],
+        ["dzirai", "dizlo traji"],
+        ["dzitricu", "dizlo tricu"],
+        ["djabei", "cidja bevri"],
+        ["djabeipre", "cidja bevri prenu"],
+        ["djacautsi", "cidja claxu tsiju"],
+        ["djacpi", "cidja cipni"],
+        ["jausna", "djacu sance"],
+        ["djagru", "cidja gurni"],
+        ["djaruntygau", "cidja runta gasnu"],
+        ["djaselcrepu", "cidja se crepu"],
+        ["djaspi", "cidja spisa"],
+        ["djave'u", "cidja vecnu"],
+        ["djecitsi", "djedi citsi"],
+        ["djecitsi", "djedi citsi"],
+        ["djerolmeicabrefkai", "djedi ro mei cabna krefu ckaji"],
+        ["djekarni", "djedi karni"],
+        ["djetei", "djedi temci"],
+        ["djunoi", "sidju notci"],
+        ["dotygu'e", "dotco gugde"],
+        ["donma'o", "do cmavo"],
+        ["dormidju", "donri midju"],
+        ["dormijbalvi", "donri midju balvi"],
+        ["dormijysai", "donri midju sanmi"],
+        ["drabai", "drani bapli"],
+        ["dracydi'u", "draci dinju"],
+        ["dracystu", "draci stuzi"],
+        ["draga'i", "drani galfi"],
+        ["draga'igau", "drani galfi gasnu"],
+        ["drarajytse", "drani sraji zutse"],
+        ["drari'a", "drani rinka"],
+        ["draseltai", "drani se tarmi"],
+        ["datyzu'e", "drata zukte"],
+        ["driselsa'a", "badri se sanga"],
+        ["dritrasma", "badri tarti smaji"],
+        ["drutapla", "drudi tapla"],
+        ["du'ecla", "dukse clani"],
+        ["dusyda'o", "dukse darno"],
+        ["dusyva'u", "dukse vasxu"],
+        ["dunjbi", "dunli jibni"],
+        ["dubjavmau", "du ja zmadu"],
+        ["dubjavme'a", "du ja mleca"],
+        ["dudnei", "dunda nelci"],
+        ["dugyste", "dugri liste"],
+        ["dujyca'a", "dunja cabra"],
+        ["dujyku'a", "dunja kumfa"],
+        ["dukri'a", "dunku rinka"],
+        ["dutsinso", "dukti sinso"],
+        ["dukyba'u", "dunku bacru"],
+        ["dusnei", "dukse nelci"],
+        ["dusta'i", "dukse tatpi"],
+        ["dusto'u", "dukse tordu"],
+        ["dusydarsi", "dukse darsi"],
+        ["dutpi'i", "dukti pilji"],
+        ["dutydikca", "dukti dikca"],
+        ["dzeko'o", "dzena skoto"],
+        ["dzispa", "dizlo spati"],
+        ["dzugre", "cadzu pagre"],
+        ["dzukansa", "cadzu kansa"],
+        ["dzukla", "cadzu klama"],
+        ["dzuklaji", "cadzu klaji"],
+        ["dzupoikansa", "cadzu porsi kansa"],
+        ["fatydu'i", "fatne dunli"],
+        ["fatpo'a", "fatne spoja"],
+        ["fatytisygau", "fatne tisna gasnu"],
+        ["fadme'e", "fadni cmene"],
+        ["fagdirpre", "fagri dicra prenu"],
+        ["fagycfatci", "fagri cfari tutci"],
+        ["fagyfesti", "fagri festi"],
+        ["fagyfesyska", "fagri festi skari"],
+        ["fagyfesyvau", "fagri festi vasru"],
+        ["fagyka'u", "fagri kantu"],
+        ["fagysti", "fagri sisti"],
+        ["fagystigau", "fagri sisti gasnu"],
+        ["fagytergu'i", "fagri te gusni"],
+        ["fairbei", "fatri bevri"],
+        ["falbu'u", "farlu bukpu"],
+        ["falcru", "farlu curmi"],
+        ["fanbu'u", "falnu bukpu"],
+        ["famdakfu", "fanmo dakfu"],
+        ["famfa'o", "fanmo fanmo"],
+        ["famyma'o", "fanmo cmavo"],
+        ["fancyju'a", "fancu jufra"],
+        ["fankla", "falnu klama"],
+        ["fanvyca'a", "fanva cabra"],
+        ["fanvyca'ate'i", "fanva cabra steci"],
+        ["fancyju'a", "fancu jufra"],
+        ["farcne", "farna cenba"],
+        ["fargau", "farna gasnu"],
+        ["farja'o", "farna jarco"],
+        ["fasygu'e", "fraso gugde"],
+        ["fatna'u", "fatne namcu"],
+        ["faurju'a", "fasnu jufra"],
+        ["faurpai", "fasnu pajni"],
+        ["favgau", "farvi gasnu"],
+        ["faxri'a", "fraxu rinka"],
+        ["fazykei", "fanza kelci"],
+        ["fazyta'a", "fanza tavla"],
+        ["febgau", "febvi gasnu"],
+        ["fegba'u", "fengu bacru"],
+        ["fegba'ugunta", "fengu bacru gunta"],
+        ["fegboixa'e", "fengu bolci xance"],
+        ["fegycau", "fengu claxu"],
+        ["fekpre", "fenki prenu"],
+        ["fekri'a", "fenki rinka"],
+        ["fekygei", "fenki gleki"],
+        ["fengidmo'a", "fenso gidva morna"],
+        ["fepsi'i", "fepni sicni"],
+        ["fesydai", "festi dacti"],
+        ["fetcinfo", "fetsi cinfo"],
+        ["fetci'o", "fetsi citno"],
+        ["fetnalspe", "fetsi na'e speni"],
+        ["fetno'i", "fetsi nobli"],
+        ["fetnolraitru", "fetsi nobli traji turni"],
+        ["fetpe'o", "fetsi pendo"],
+        ["fetpa'i", "fetsi prami"],
+        ["fetspe", "fetsi speni"],
+        ["fetyganti", "fetsi ganti"],
+        ["ficri'a", "frica rinka"],
+        ["fikcku", "cfika cukta"],
+        ["filri'a", "frili rinka"],
+        ["filseljmi", "frili se jimpe"],
+        ["filselzga", "frili se zgana"],
+        ["finfriti", "finti friti"],
+        ["fipybirka", "finpe birka"],
+        ["fipfalnu", "finpe falnu"],
+        ["fipyrebla", "finpe rebla"],
+        ["finxu'a", "finti xusra"],
+        ["fipcange", "finpe cange"],
+        ["fipkalte", "finpe kalte"],
+        ["firgai", "flira gacri"],
+        ["firkre", "flira kerfa"],
+        ["firkrevi'u", "flira kerfa vimcu"],
+        ["firsku", "flira cusku"],
+        ["flacau", "flalu claxu"],
+        ["flanaltinbe", "flalu na'e tinbe"],
+        ["flecarvi", "flecu carvi"],
+        ["fleri'u", "flecu rinju"],
+        ["fletisygau", "flecu tisna gasnu"],
+        ["flobimvro", "foldi bitmu vorme"],
+        ["flulimna", "fulta limna"],
+        ["fomke'acirla", "fonmo kevna cirla"],
+        ["fomsle", "fonmo selci"],
+        ["fonsnu", "fonxa casnu"],
+        ["fonjudri", "fonxa judri"],
+        ["fonta'a", "fonxa tavla"],
+        ["velfonynoi", "ve fonxa notci"],
+        ["fonynoi", "fonxa notci"],
+        ["fraba'u", "frati bacru"],
+        ["fragu'i", "frati gusni"],
+        ["frasku", "frati cusku"],
+        ["frecande'u", "ferti canre dertu"],
+        ["fregau", "ferti gasnu"],
+        ["frerai", "ferti traji"],
+        ["freri'a", "ferti rinka"],
+        ["fi'ormerko", "friko merko"],
+        ["fi'ortutra", "friko tutra"],
+        ["filmau", "frili zmadu"],
+        ["frinyna'u", "frinu namcu"],
+        ["fu'ivla", "fukpi valsi"],
+        ["fuzyji'i", "fuzme jinvi"],
+        ["fuzyka'eji'i", "fuzme kakne jinvi"],
+        ["fu'esku", "fuzme cusku"],
+        ["ga'acpu", "grana lacpu"],
+        ["ga'arxa'i", "grana xarci"],
+        ["ga'avro", "grana vorme"],
+        ["ga'orbi'o", "ganlo binxo"],
+        ["ga'orga'i", "ganlo galfi"],
+        ["ga'orgau", "ganlo gasnu"],
+        ["galcla", "galtu clani"],
+        ["gafto'a", "galfi tonga"],
+        ["gafto'atci", "galfi tonga tutci"],
+        ["gafygau", "galfi gasnu"],
+        ["ga'izba", "galfi zbasu"],
+        ["gairbu'u", "gacri bukpu"],
+        ["gairgau", "gacri gasnu"],
+        ["gairja'i", "gacri jadni"],
+        ["gairki'e", "gacri kicne"],
+        ["gairkosta", "gacri kosta"],
+        ["galbirka", "galtu birka"],
+        ["galmau", "galtu zmadu"],
+        ["galpau", "galtu pagbu"],
+        ["galrai", "galtu traji"],
+        ["galsu'a", "galtu stura"],
+        ["galtu'e", "galtu tuple"],
+        ["gancuktai", "ganra cukla tarmi"],
+        ["ganle'u", "ganra lerfu"],
+        ["gankurfa", "ganra kurfa"],
+        ["gapcpare", "gapru cpare"],
+        ["gapcta", "gapru catlu"],
+        ["gapkla", "gapru klama"],
+        ["gapydzu", "gapru cadzu"],
+        ["garka'afendi", "garna katna fendi"],
+        ["gasfri", "ganse lifri"],
+        ["gaurkalsa", "gasnu kalsa"],
+        ["gaxmolgle", "ganxo moklu gletu"],
+        ["gaxygle", "ganxo gletu"],
+        ["gaxykafke", "ganxo kafke"],
+        ["gendra", "gerna drani"],
+        ["geipre", "gleki prenu"],
+        ["geirde'a", "gleki denpa"],
+        ["geirgau", "gleki gasnu"],
+        ["geirxe'o", "gleki xendo"],
+        ["geizma", "gleki zmadu"],
+        ["gekcisma", "gleki cisma"],
+        ["gekpanpi", "gleki panpi"],
+        ["gekrai", "gleki traji"],
+        ["geirki'a", "gleki krixa"],
+        ["genlalske", "gerna lanli saske"],
+        ["gensu'a", "gerna stura"],
+        ["genturfa'i", "gerna stura facki"],
+        ["gercmo", "gerku cmoni"],
+        ["gerpre", "gerku prenu"],
+        ["gerzda", "gerku zdani"],
+        ["gimste", "gismu liste"],
+        ["glinai", "glico natmi"],
+        ["glige'a", "glico gerna"],
+        ["glivla", "glico valsi"],
+        ["gincilta", "jgina cilta"],
+        ["ginlazmi'u", "jgina lanzu mintu"],
+        ["ginpoi", "jgina porsi"],
+        ["grinunpei", "girzu nu pensi"],
+        ["grisa'a", "girzu sanga"],
+        ["griselpei", "girzu se pensi"],
+        ["grivlici'e", "girzu vlipa ciste"],
+        ["gimlebvla", "gismu lebna valsi"],
+        ["gitsko", "jgita skori"],
+        ["glacai", "glare carmi"],
+        ["glagau", "glare gasnu"],
+        ["glari'a", "glare rinka"],
+        ["glaxlafri", "glare xlali lifri"],
+        ["gledji", "gletu djica"],
+        ["glefi'a", "gletu cfika"],
+        ["gletci", "gletu tutci"],
+        ["gletro", "gletu jitro"],
+        ["glevi'i", "gletu vikmi"],
+        ["glibau", "glico bangu"],
+        ["glibaukragu'e", "glico bangu krasi gugde"],
+        ["gligu'e", "glico gugde"],
+        ["glikragu'e", "glico krasi gugde"],
+        ["glimerko", "glico merko"],
+        ["ga'ardanti", "grana danti"],
+        ["ga'ardance'a", "grana danti cecla"],
+        ["grebe'i", "pagre benji"],
+        ["greblo", "pagre bloti"],
+        ["greblopre", "pagre bloti prenu"],
+        ["grece'i", "pagre cteki"],
+        ["gregau", "pagre gasnu"],
+        ["greke'a", "pagre kevna"],
+        ["grile'u", "girzu lerfu"],
+        ["grinunjvi", "girzu nu jivna"],
+        ["gripau", "girzu pagbu"],
+        ["grusko", "gurni skori"],
+        ["rutytricu", "grute tricu"],
+        ["gunstu", "gunka stuzi"],
+        ["gugypa'i", "gugde prami"],
+        ["guryre'o", "gunro renro"],
+        ["gurgau", "gunro gasnu"],
+        ["gubgau", "gubni gasnu"],
+        ["gubnoi", "gubni notci"],
+        ["gubnunsnu", "gubni nu casnu"],
+        ["gubyternoi", "gubni te notci"],
+        ["gugbandu", "gugde bandu"],
+        ["gugyka'i", "gugde krati"],
+        ["gukcanre", "guska canre"],
+        ["gumpe'i", "gunma penmi"],
+        ["gungri", "gunka girzu"],
+        ["gunku'a", "gunka kumfa"],
+        ["gurcutci", "gunro cutci"],
+        ["gructi", "gurni citka"],
+        ["gusminra", "gusni minra"],
+        ["gustci", "gusni tutci"],
+        ["gusyvelvei", "gusni ve vreji"],
+        ["gustytigni", "gusta tigni"],
+        ["gusycai", "gusni carmi"],
+        ["ja'esni", "jalge sinxa"],
+        ["ja'orca'o", "jarco canko"],
+        ["ja'urjukni", "jgalu jukni"],
+        ["jabytu'u", "janbe tubnu"],
+        ["jacke'o", "djacu kelvo"],
+        ["jaclu'a", "djacu pluta"],
+        ["jacnalselgre", "djacu na'e se pagre"],
+        ["jaurca'ega'a", "djacu catke grana"],
+        ["jaurde'u", "djacu dertu"],
+        ["jaurdirgo", "djacu dirgo"],
+        ["jaurvi'u", "djacu vimcu"],
+        ["jadnoi", "jadni notci"],
+        ["jadycau", "jadni claxu"],
+        ["jadypijne", "jadni pijne"],
+        ["jmatamji", "jamfu tamji"],
+        ["jmatajycalku", "jamfu tamji calku"],
+        ["jmati'e", "jamfu trixe"],
+        ["jagdimna", "jalge dimna"],
+        ["jagdimnalpei", "jalge dimna na'e pensi"],
+        ["jairxa'e", "jgari xance"],
+        ["jajgau", "jmaji gasnu"],
+        ["jakcai", "jarki carmi"],
+        ["jakle'u", "jarki lerfu"],
+        ["jamkansa", "jamna kansa"],
+        ["jarcinki", "jdari cinki"],
+        ["jarkitybli", "jdari kliti bliku"],
+        ["jarple", "jdari pelji"],
+        ["jarpu'i", "jdari punji"],
+        ["jaryri'a", "jdari rinka"],
+        ["seljaryri'a", "se jdari rinka"],
+        ["jasysnu", "jansu casnu"],
+        ["jaurbumru", "djacu bumru"],
+        ["jaurcarna", "djacu carna"],
+        ["jaurda'i", "djacu darxi"],
+        ["jaurde'uro'i", "djacu dertu rokci"],
+        ["jacfa'u", "djacu farlu"],
+        ["jaurgairi'a", "djacu gacri rinka"],
+        ["jaurgapci", "djacu gapci"],
+        ["jaurmabru", "djacu mabru"],
+        ["jaurselylu'i", "djacu se lumci"],
+        ["jaurvacri", "djacu vacri"],
+        ["jbebe'a", "jbena bersa"],
+        ["jbedei", "jbena djedi"],
+        ["jbedetnunsla", "jbena detri nu salci"],
+        ["jbedetsla", "jbena detri salci"],
+        ["jbesla", "jbena salci"],
+        ["jbetcaxa'u", "jbena tcadu xabju"],
+        ["jbetutra", "jbena tutra"],
+        ["jbibi'o", "jibni binxo"],
+        ["jbidra", "jibni drani"],
+        ["jbigendra", "jibni gerna drani"],
+        ["jbikla", "jibni klama"],
+        ["jbimau", "jibni zmadu"],
+        ["jbirai", "jibni traji"],
+        ["jbire'a", "jibni remna"],
+        ["jbixa'u", "jibni xabju"],
+        ["jbota'a", "lojbo tavla"],
+        ["jbobauta'a", "lojbo bangu tavla"],
+        ["jbobau", "lojbo bangu"],
+        ["jboce'u", "lojbo cecmu"],
+        ["jbofinpla", "lojbo finti platu"],
+        ["jbofonta'a", "lojbo fonxa tavla"],
+        ["jboge'a", "lojbo gerna"],
+        ["jbogri", "lojbo girzu"],
+        ["jbogu'a", "lojbo gunka"],
+        ["jbojikca", "lojbo jikca"],
+        ["jbomi'u", "lojbo mintu"],
+        ["jbomidju", "lojbo midju"],
+        ["jbonunsku", "lojbo nu cusku"],
+        ["jbopre", "lojbo prenu"],
+        ["jbosla", "lojbo salci"],
+        ["seljbosla", "se lojbo salci"],
+        ["jboselba'u", "lojbo se bacru"],
+        ["jboselsku", "lojbo se cusku"],
+        ["jboslanunpe'i", "lojbo salci nu penmi"],
+        ["jbosni", "lojbo sinxa"],
+        ["jboste", "lojbo liste"],
+        ["jbotcidu", "lojbo tcidu"],
+        ["jbotermri", "lojbo te mrilu"],
+        ["jbovla", "lojbo valsi"],
+        ["jboxelmri", "lojbo xe mrilu"],
+        ["jbozi'u", "lojbo zirpu"],
+        ["jbuboikei", "jubme bolci kelci"],
+        ["jbusfe", "jubme sefta"],
+        ["jbustu", "jubme stuzi"],
+        ["jdace'u", "lijda cecmu"],
+        ["jdacuvgau", "lijda curve gasnu"],
+        ["jdadapma", "lijda dapma"],
+        ["jdajinru", "lijda jinru"],
+        ["jdaka'i", "lijda krati"],
+        ["jdami'u", "lijda mintu"],
+        ["jdapli", "lijda pilno"],
+        ["jdaralju", "lijda ralju"],
+        ["jdaselsa'a", "lijda se sanga"],
+        ["jdaselsku", "lijda se cusku"],
+        ["jdasi'a", "lijda sinma"],
+        ["jdasku", "lijda cusku"],
+        ["jdaskuzei", "lijda cusku zekri"],
+        ["jdasoi", "lijda sonci"],
+        ["jdaxanmuvgau", "lijda xance muvdu gasnu"],
+        ["jdazei", "lijda zekri"],
+        ["jdecisma", "kajde cisma"],
+        ["jdeselsku", "kajde se cusku"],
+        ["jdigu'a", "jdice gunka"],
+        ["jdikyri'a", "jdika rinka"],
+        ["jditadji", "jdice tadji"],
+        ["jdufi'e", "jduli finpe"],
+        ["jectrukamni", "jecta turni kamni"],
+        ["jecydinsro", "jecta jdini sorcu"],
+        ["jecyga'ibai", "jecta galfi bapli"],
+        ["jecyga'ibaigau", "jecta galfi bapli gasnu"],
+        ["jecpau", "jecta pagbu"],
+        ["jecyselpo'e", "jecta se ponse"],
+        ["jecyselpo'ega'i", "jecta se ponse galfi"],
+        ["jecyselxaizei", "jecta se xrani zekri"],
+        ["jefyfa'o", "jeftu fanmo"],
+        ["jelgau", "jelca gasnu"],
+        ["jelgauca'a", "jelca gasnu cabra"],
+        ["jelspo", "jelca daspo"],
+        ["jempau", "jenmi pagbu"],
+        ["jercru", "jbera curmi"],
+        ["jerle'i", "jbera pleji"],
+        ["jesycro", "jesni cortu"],
+        ["jesyspa", "jesni spati"],
+        ["jetfa'i", "jetnu facki"],
+        ["jetka'u", "jetnu kantu"],
+        ["jetka'ubivmei", "jetnu kantu bi mei"],
+        ["jetpai", "jetnu pajni"],
+        ["jetycipra", "jetnu cipra"],
+        ["jgarau", "jganu gradu"],
+        ["jgene'ota'u", "jgena cnebo taxfu"],
+        ["jgiski", "jgira skicu"],
+        ["jgisku", "jgira cusku"],
+        ["ji'ecla", "jmive clani"],
+        ["ji'efri", "jmive lifri"],
+        ["selji'efri", "se jmive lifri"],
+        ["ji'epru", "jmive purci"],
+        ["ji'esti", "jmive sisti"],
+        ["ji'icni", "jinvi cinmo"],
+        ["ji'isku", "jinvi cusku"],
+        ["jibgu'a", "jibri gunka"],
+        ["jibja'a", "jibri jatna"],
+        ["jibypli", "jibri pilno"],
+        ["jibysti", "jibri sisti"],
+        ["jibystigau", "jibri sisti gasnu"],
+        ["jifselkri", "jitfa se krici"],
+        ["jifsku", "jitfa cusku"],
+        ["jifyjovnarje'u", "jitfa jo na jetnu"],
+        ["jiglanxe", "jinga lanxe"],
+        ["jikybebna", "jikca bebna"],
+        ["jikce'u", "jikca cecmu"],
+        ["jikfanza", "jikca fanza"],
+        ["jikfazgau", "jikca fanza gasnu"],
+        ["jiknei", "jikca nelci"],
+        ["jikri'i", "jikca ritli"],
+        ["jikri'ipro", "jikca ritli fapro"],
+        ["jiksre", "jikca srera"],
+        ["jiktamne", "jikca tamne"],
+        ["jikydu'i", "jikca dunli"],
+        ["jikyju'o", "jikca djuno"],
+        ["jikyzeitra", "jikca zekri tarti"],
+        ["jimcai", "jinme carmi"],
+        ["jimda'izbe", "jinme darxi zbepi"],
+        ["jimdaxsna", "jinme darxi sance"],
+        ["jimto'a", "jinme tonga"],
+        ["jincarna", "djine carna"],
+        ["jincla", "djine clani"],
+        ["jirgau", "jinru gasnu"],
+        ["jintitnanba", "djine titla nanba"],
+        ["jintydi'u", "jinto dinju"],
+        ["jipmokca", "jipno mokca"],
+        ["jirlu'i", "jinru lumci"],
+        ["jirsezlu'i", "jinru sevzi lumci"],
+        ["jisygau", "jinsa gasnu"],
+        ["jisysa'e", "jinsa satre"],
+        ["jivrei", "jinvi preti"],
+        ["jizvanbi", "jinzi vanbi"],
+        ["jmadegji", "jamfu degji"],
+        ["jmadegycalku", "jamfu degji calku"],
+        ["jmavra", "jamfu vraga"],
+        ["jmeja'i", "jemna jadni"],
+        ["jmekunra", "jemna kunra"],
+        ["cakyjmepi'a", "calku jemna pilka"],
+        ["jmero'i", "jemna rokci"],
+        ["jmigau", "jimpe gasnu"],
+        ["jmimau", "jimpe zmadu"],
+        ["mivyselna'a", "jmive se nanca"],
+        ["jomcmi", "jo'e cmima"],
+        ["jonja'e", "jorne jalge"],
+        ["jonjmina", "jorne jmina"],
+        ["jonma'o", "jorne cmavo"],
+        ["ju'itra", "jundi tarti"],
+        ["judri'a", "jundi rinka"],
+        ["judzga", "jundi zgana"],
+        ["jufsu'a", "jufra stura"],
+        ["ju'agri", "jufra girzu"],
+        ["jugyklu", "jungo kulnu"],
+        ["julra'o", "junla radno"],
+        ["junbe'i", "djuno benji"],
+        ["jungau", "djuno gasnu"],
+        ["junri'a", "djuno rinka"],
+        ["juryri'a", "junri rinka"],
+        ["juntytri", "junta trina"],
+        ["jupfi'i", "jukpa finti"],
+        ["jupku'a", "jukpa kumfa"],
+        ["jupyzba", "jukpa zbasu"],
+        ["jurdri", "junri badri"],
+        ["jurja'o", "junri jarco"],
+        ["jvajvo", "javni lujvo"],
+        ["jvige'u", "jivna gerku"],
+        ["veljvine'u", "ve jivna cnemu"],
+        ["jvipai", "jivna pajni"],
+        ["jvixi'a", "jivna xirma"],
+        ["jvoste", "lujvo liste"],
+        ["jvozba", "lujvo zbasu"],
+        ["ka'amru", "katna mruli"],
+        ["ka'anri'a", "katna rinka"],
+        ["ka'arkakpa", "katna kakpa"],
+        ["ka'arkomcu", "katna komcu"],
+        ["ka'arvi'u", "katna vimcu"],
+        ["ka'inruxpre", "krati pruxi prenu"],
+        ["ka'urbi'o", "kantu binxo"],
+        ["kabryca'u", "kabri canlu"],
+        ["kabrylai", "kabri klani"],
+        ["kabryselmre", "kabri se merli"],
+        ["kacna'u", "kancu namcu"],
+        ["kadnymergli", "kadno merko glico"],
+        ["kadyto'a", "kandi tonga"],
+        ["kadyto'atci", "kandi tonga tutci"],
+        ["kafkytrofli", "kafke jitro fliba"],
+        ["kafybarja", "ckafi barja"],
+        ["kagycange", "kagni cange"],
+        ["kagytrocange", "kagni jitro cange"],
+        ["kairpai", "ckaji pajni"],
+        ["kakpyca'a", "kakpa cabra"],
+        ["kakmli", "klaku milxe"],
+        ["kalgai", "kanla gacri"],
+        ["kalgaikre", "kanla gacri kerfa"],
+        ["karsna", "kalri sance"],
+        ["kalselvi'i", "kanla se vikmi"],
+        ["kasydzu", "kalsa cadzu"],
+        ["kasfle", "kalsa flecu"],
+        ["kasygri", "kalsa girzu"],
+        ["kaskla", "kalsa klama"],
+        ["kasri'a", "kalsa rinka"],
+        ["kasystu", "kalsa stuzi"],
+        ["kasysu'a", "kalsa stura"],
+        ["kalvi'i", "kanla vikmi"],
+        ["kambitki'u", "ka birti krinu"],
+        ["kamcemtamne", "ka cecmu tamne"],
+        ["kamgubga'i", "ka gubni galfi"],
+        ["kamgubgau", "ka gubni gasnu"],
+        ["kamje'uja'o", "ka jetnu jarco"],
+        ["kamjybo'u", "kamju bongu"],
+        ["kamjybo'usle", "kamju bongu selci"],
+        ["kamna'ujbi", "ka namcu jibni"],
+        ["kamnynunpe'i", "kamni nu penmi"],
+        ["kampavyselmanri", "ka pa se manri"],
+        ["kampeikai", "ka pensi ckaji"],
+        ["kamsorselmanri", "ka so'i se manri"],
+        ["kamyzanfu'a", "ka zabna funca"],
+        ["kankei", "kansa kelci"],
+        ["kelkansa", "kelci kansa"],
+        ["kankla", "kansa klama"],
+        ["ka'ozma", "kanro zmadu"],
+        ["ka'orze'a", "kanro zenba"],
+        ["kanydzu", "kansa cadzu"],
+        ["kanzutla'i", "kansa zutse lamji"],
+        ["kapsle", "skapi selci"],
+        ["kapta'u", "skapi taxfu"],
+        ["kapyplita", "skapi plita"],
+        ["karbi'o", "kalri binxo"],
+        ["karcykla", "karce klama"],
+        ["karcyli'u", "karce litru"],
+        ["karcylu'a", "karce pluta"],
+        ["karcymuvgau", "karce muvdu gasnu"],
+        ["kargau", "kalri gasnu"],
+        ["karmolcinba", "kalri moklu cinba"],
+        ["karnyfi'u", "karni cfipu"],
+        ["karnyke'u", "karni krefu"],
+        ["karnypra", "karni cupra"],
+        ["karnysku", "karni cusku"],
+        ["karpo'i", "kalri porpi"],
+        ["katcpi", "kalte cipni"],
+        ["katstu", "kalte stuzi"],
+        ["kaurpo'esi'opre", "kampu ponse sidbo prenu"],
+        ["refcfa", "krefu cfari"],
+        ["refcpa", "krefu cpacu"],
+        ["kelbe'e", "kelci bende"],
+        ["keiblo", "kelci bloti"],
+        ["keicre", "kelci certu"],
+        ["keldai", "kelci dacti"],
+        ["keigri", "kelci girzu"],
+        ["kelgrimi'u", "kelci girzu mintu"],
+        ["kelkarda", "kelci karda"],
+        ["kelkubli", "kelci kubli"],
+        ["kelpi'e", "kelci plipe"],
+        ["keipro", "kelci fapro"],
+        ["kelsnada", "kelci snada"],
+        ["keizdi", "kelci zdile"],
+        ["selkeizdi", "se kelci zdile"],
+        ["kercrida", "kerlo crida"],
+        ["kercrori'a", "kerlo cortu rinka"],
+        ["krekandi", "kerfa kandi"],
+        ["kerjbikre", "kerlo jibni kerfa"],
+        ["kesli'ufi'a", "kensa litru cfika"],
+        ["kevykakpa", "kevna kakpa"],
+        ["kevykalri", "kevna kalri"],
+        ["kevykargau", "kevna kalri gasnu"],
+        ["kevzda", "kevna zdani"],
+        ["kixsku", "krixa cusku"],
+        ["ki'ijdi", "ckini jdice"],
+        ["ki'orgratretrefrinynidysnidu", "kilto grake mitre mitre frinu snidu snidu"],
+        ["skebailai", "saske bapli klani"],
+        ["ki'orsamsrorau", "kilto skami sorcu gradu"],
+        ["ki'otre", "kilto mitre"],
+        ["kicymatci", "kicne matci"],
+        ["kijyselspo", "kijno se daspo"],
+        ["kikla'a", "ckiku lasna"],
+        ["kilcna", "kinli canpa"],
+        ["kilga'a", "kinli grana"],
+        ["kilga'axa'i", "kinli grana xarci"],
+        ["kilmru", "kinli mruli"],
+        ["kiltci", "kinli tutci"],
+        ["kindi'u", "skina dinju"],
+        ["kinplapre", "skina platu prenu"],
+        ["kityzba", "kliti zbasu"],
+        ["selkityzba", "se kliti zbasu"],
+        ["klacpe", "klama cpedu"],
+        ["kladji", "klama djica"],
+        ["selkladji", "se klama djica"],
+        ["klagau", "klama gasnu"],
+        ["klakansa", "klama kansa"],
+        ["kakydirgo", "klaku dirgo"],
+        ["kakyjau", "klaku djacu"],
+        ["klamu'o", "klama mulno"],
+        ["klasti", "klama sisti"],
+        ["klastigau", "klama sisti gasnu"],
+        ["leicmi", "klesi cmima"],
+        ["klecmiri'a", "klesi cmima rinka"],
+        ["klemi'u", "klesi mintu"],
+        ["klerafsi", "klesi rafsi"],
+        ["kligau", "klina gasnu"],
+        ["tolkligau", "to'e klina gasnu"],
+        ["kalselklijmi", "kanla se klina jimpe"],
+        ["klode'a", "diklo denpa"],
+        ["klunu'i", "kulnu nutli"],
+        ["klusmu", "kulnu smuni"],
+        ["kluzei", "kulnu zekri"],
+        ["kotygu'e", "skoto gugde"],
+        ["komnicygau", "komcu cnici gasnu"],
+        ["koncuptai", "konju clupa tarmi"],
+        ["kosne'ota'u", "kosta cnebo taxfu"],
+        ["kosycreka", "kosta creka"],
+        ["krastu", "krasi stuzi"],
+        ["kreblabi", "kerfa blabi"],
+        ["krecau", "kerfa claxu"],
+        ["kreka'apre", "kerfa katna prenu"],
+        ["krekemburpelxu", "kerfa ke bunre pelxu"],
+        ["krepelxu", "kerfa pelxu"],
+        ["kriselsku", "krici se cusku"],
+        ["kroce'a", "korcu cecla"],
+        ["krogarna", "korcu garna"],
+        ["krokurfa", "korcu kurfa"],
+        ["kroranda", "korcu randa"],
+        ["krori'a", "korcu rinka"],
+        ["kroxadjbi", "korcu xadni jibni"],
+        ["krudakyxa'i", "kruvi dakfu xarci"],
+        ["kubykurfa", "kubli kurfa"],
+        ["kuctai", "kruca tarmi"],
+        ["kucyga'a", "kruca grana"],
+        ["kukydja", "kukte cidja"],
+        ["kuncpastu", "kunra cpacu stuzi"],
+        ["kurkubli", "kurfa kubli"],
+        ["kurtre", "kurfa mitre"],
+        ["kusyja'a", "kusru jatna"],
+        ["kuzycmi", "ku'a cmima"],
+        ["la'agle", "lasna gletu"],
+        ["la'arjai", "lasna jgari"],
+        ["la'enri'a", "lakne rinka"],
+        ["la'erme'a", "lakne mleca"],
+        ["la'ornai", "latmo natmi"],
+        ["labypiltricu", "blabi pilka tricu"],
+        ["labyxu'e", "blabi xunre"],
+        ["lactcicygau", "lacri tcica gasnu"],
+        ["ladycange", "ladru cange"],
+        ["ladyfaigau", "ladru fatri gasnu"],
+        ["lafcpa", "lafti cpacu"],
+        ["lafmuvgau", "lafti muvdu gasnu"],
+        ["lagnirbakfu", "vlagi nirna bakfu"],
+        ["lagygasrango", "vlagi ganse rango"],
+        ["lagypinji", "vlagi pinji"],
+        ["lagypunli", "vlagi punli"],
+        ["lagyselkukrango", "vlagi se kukte rango"],
+        ["lairdu'i", "klani dunli"],
+        ["lairpai", "klani pajni"],
+        ["lajre'e", "klaji trene"],
+        ["laktergu'i", "lakse te gusni"],
+        ["lambavdei", "lamji balvi djedi"],
+        ["lamgri", "lamji girzu"],
+        ["slelamgri", "selci lamji girzu"],
+        ["lamjeftu", "lamji jeftu"],
+        ["lampru", "lamji purci"],
+        ["lamprudo'i", "lamji purci donri"],
+        ["lamxa'u", "lamji xabju"],
+        ["lalcta", "lanli catlu"],
+        ["cpumi'i", "lacpu minji"],
+        ["larfi'i", "larcu finti"],
+        ["larja'ostu", "larcu jarco stuzi"],
+        ["larjdixau", "larcu jdice xamgu"],
+        ["larjdixla", "larcu jdice xlali"],
+        ["larku'a", "larcu kumfa"],
+        ["larmuzga", "larcu muzga"],
+        ["larsku", "larcu cusku"],
+        ["larxau", "larcu xamgu"],
+        ["la'avla", "lasna valsi"],
+        ["lasysilka", "slasi silka"],
+        ["laurba'u", "cladu bacru"],
+        ["laurbi'o", "cladu binxo"],
+        ["laurckasu", "cladu ckasu"],
+        ["laurgau", "cladu gasnu"],
+        ["laurgauca'a", "cladu gasnu cabra"],
+        ["laurxajmi", "cladu xajmi"],
+        ["laurxampre", "cladu xajmi prenu"],
+        ["lausku", "cladu cusku"],
+        ["lauzma", "cladu zmadu"],
+        ["laxli'i", "lanxe linji"],
+        ["lazyki'i", "lanzu ckini"],
+        ["lazmi'u", "lanzu mintu"],
+        ["lazycange", "lanzu cange"],
+        ["lazycmi", "lanzu cmima"],
+        ["lazyzda", "lanzu zdani"],
+        ["lebdji", "lebna djica"],
+        ["lebyka'e", "lebna kakne"],
+        ["lebvla", "lebna valsi"],
+        ["lejbai", "pleji bapli"],
+        ["lejyselmu'i", "pleji se mukti"],
+        ["le'otci", "lenjo tutci"],
+        ["lebri'a", "lebna rinka"],
+        ["lecydo'i", "lerci donri"],
+        ["lecydu'e", "lerci dukse"],
+        ["lecysoltei", "lerci solri temci"],
+        ["ledgrute", "mledi grute"],
+        ["leivla", "klesi valsi"],
+        ["lejypi'o", "pleji pipno"],
+        ["lekta'e", "lenku tanxe"],
+        ["lerlogji", "lerfu logji"],
+        ["lerpoi", "lerfu porsi"],
+        ["lerseltcidu", "lerfu se tcidu"],
+        ["lervla", "lerfu valsi"],
+        ["li'erbe'a", "lidne bersa"],
+        ["li'erbu'a", "lidne bruna"],
+        ["li'ergenja", "lidne genja"],
+        ["li'urnei", "litru nelci"],
+        ["li'urta'e", "litru tanxe"],
+        ["lidbi'e", "lindi brife"],
+        ["lidvru", "lindi savru"],
+        ["friselku'e", "lifri se kuspe"],
+        ["lijgri", "linji girzu"],
+        ["lijvelsku", "linji ve cusku"],
+        ["lijyselni'a", "linji se cnita"],
+        ["lijysu'a", "linji stura"],
+        ["likybi'o", "litki binxo"],
+        ["likygau", "litki gasnu"],
+        ["limkla", "limna klama"],
+        ["limvra", "limna vraga"],
+        ["lidysna", "lindi sance"],
+        ["linga'axai", "linsi grana xrani"],
+        ["lirgau", "clira gasnu"],
+        ["lirmau", "clira zmadu"],
+        ["liryrai", "clira traji"],
+        ["lisku'a", "lisri kumfa"],
+        ["lisnuntoi", "lisri nu troci"],
+        ["listigni", "lisri tigni"],
+        ["lisycku", "lisri cukta"],
+        ["litli'avla", "clite cliva valsi"],
+        ["livbai", "cliva bapli"],
+        ["jbopli", "lojbo pilno"],
+        ["lojbaugri", "logji bangu girzu"],
+        ["lojbau", "logji bangu"],
+        ["jbotadni", "lojbo tadni"],
+        ["lojycipra", "logji cipra"],
+        ["lojytadji", "logji tadji"],
+        ["lolbu'u", "loldi bukpu"],
+        ["lolcau", "loldi claxu"],
+        ["lolde'u", "loldi dertu"],
+        ["lolni'a", "loldi cnita"],
+        ["lolro'iboi", "loldi rokci bolci"],
+        ["blocra", "bloti crane"],
+        ["lumcu'i", "lumci cumki"],
+        ["lujlu'adi'u", "pluja pluta dinju"],
+        ["lumpu'o", "lumci purmo"],
+        ["lumvau", "lumci vasru"],
+        ["lubyseljma", "lunbe se jamfu"],
+        ["lurboi", "lunra bolci"],
+        ["lurcukla", "lunra cukla"],
+        ["luptci", "klupe tutci"],
+        ["lutfa'o", "pluta fanmo"],
+        ["lutke'a", "pluta kevna"],
+        ["lutku'a", "pluta kumfa"],
+        ["luzbi'o", "kluza binxo"],
+        ["luzycre", "kluza certu"],
+        ["ma'arbi'i", "cmana jbini"],
+        ["ma'arfe'a", "cmana fenra"],
+        ["ma'ersazri", "marce sazri"],
+        ["ma'onrafsi", "cmavo rafsi"],
+        ["ma'oste", "cmavo liste"],
+        ["ma'ucla", "makcu clani"],
+        ["macri'a", "manci rinka"],
+        ["mafcre", "makfa certu"],
+        ["mafmi'e", "makfa minde"],
+        ["maixra", "marji pixra"],
+        ["majmi'u", "marji mintu"],
+        ["makfartci", "maksi farna tutci"],
+        ["makyvelvei", "maksi ve vreji"],
+        ["maldu'ecni", "mabla dukse cinmo"],
+        ["malgletoi", "mabla gletu troci"],
+        ["malgli", "mabla glico"],
+        ["maljgita'a", "mabla jgira tavla"],
+        ["malkemcombau", "mabla ke co'e bangu"],
+        ["malmliselgu'i", "mabla milxe se gusni"],
+        ["malpavyselbau", "mabla pa se bangu"],
+        ["malrarbau", "mabla rarna bangu"],
+        ["malticta'axlu", "mabla tcica tavla xlura"],
+        ["malxlujikca", "mabla xlura jikca"],
+        ["malxlujikta'a", "mabla xlura jikca tavla"],
+        ["mamjipci", "mamta jipci"],
+        ["mampa'u", "mamta patfu"],
+        ["manbi'o", "manku binxo"],
+        ["manrai", "manku traji"],
+        ["manri'a", "manku rinka"],
+        ["mansykanji", "mansa kanji"],
+        ["mantyjalra", "manti jalra"],
+        ["mantymamta", "manti mamta"],
+        ["mantyzda", "manti zdani"],
+        ["manze'a", "manku zenba"],
+        ["matybi'o", "mapti binxo"],
+        ["matpai", "mapti pajni"],
+        ["mardikca", "manri dikca"],
+        ["marnybu'u", "marna bukpu"],
+        ["masyce'u", "malsi cecmu"],
+        ["zmana'u", "zmadu namcu"],
+        ["zmazau", "zmadu zanru"],
+        ["maxyvru", "marxa savru"],
+        ["mecna'u", "mleca namcu"],
+        ["me'ispe", "mensi speni"],
+        ["mecrai", "mleca traji"],
+        ["mekpau", "mekso pagbu"],
+        ["menbe'i", "menli benji"],
+        ["menca'a", "menli cabra"],
+        ["menji'u", "menli jvinu"],
+        ["menmikce", "menli mikce"],
+        ["merbau", "merko bangu"],
+        ["merfei", "merko fepni"],
+        ["mergu'e", "merko gugde"],
+        ["merja'a", "merko jatna"],
+        ["merje'a", "merko jecta"],
+        ["merkadno", "merko kadno"],
+        ["merklu", "merko kulnu"],
+        ["mernai", "merko natmi"],
+        ["mertru", "merko turni"],
+        ["meryru'u", "merko rupnu"],
+        ["mextutra", "mexno tutra"],
+        ["mi'ecpe", "minde cpedu"],
+        ["midnoi", "minde notci"],
+        ["mi'esku", "minde cusku"],
+        ["termi'esku", "te minde cusku"],
+        ["midvla", "minde valsi"],
+        ["mi'irlarcu", "minji larcu"],
+        ["mi'irlarfi'a", "minji larcu cfika"],
+        ["mi'irselfinfi'a", "minji se finti cfika"],
+        ["mi'ispi", "minji spisa"],
+        ["misyselsi'a", "misno se sinma"],
+        ["misyzau", "misno zanru"],
+        ["mitmlu", "mintu simlu"],
+        ["mibma'o", "mi cmavo"],
+        ["micka'agau", "mikce katna gasnu"],
+        ["micka'aku'a", "mikce katna kumfa"],
+        ["mickarli", "mikce karli"],
+        ["micydi'u", "mikce dinju"],
+        ["mijdo'i", "midju donri"],
+        ["mijdorsai", "midju donri sanmi"],
+        ["mijycisysla", "midju crisa salci"],
+        ["mijycte", "midju nicte"],
+        ["miksnidu", "mikri snidu"],
+        ["mikygra", "mikri grake"],
+        ["milsnidu", "milti snidu"],
+        ["cmizu'e", "cmima zukte"],
+        ["minba'u", "jmina bacru"],
+        ["minci'a", "jmina ciska"],
+        ["midyca'a", "minde cabra"],
+        ["mirlanxe", "minra lanxe"],
+        ["mirsarxe", "minra sarxe"],
+        ["mipstu", "mipri stuzi"],
+        ["mipypro", "mipri fapro"],
+        ["mipypu'i", "mipri punji"],
+        ["mirsna", "minra sance"],
+        ["mitcinglepre", "mintu cinse gletu prenu"],
+        ["mitcinpampre", "mintu cinse prami prenu"],
+        ["mitfa'e", "mintu fatne"],
+        ["mitmo'a", "mintu morna"],
+        ["mitnarsi'u", "mintu na simxu"],
+        ["mitpavycinglepre", "mintu pa cinse gletu prenu"],
+        ["mitpavycinpampre", "mintu pa cinse prami prenu"],
+        ["mitsi'u", "mintu simxu"],
+        ["mitsmuvla", "mintu smuni valsi"],
+        ["mivdalmuzga", "jmive danlu muzga"],
+        ["mivgau", "jmive gasnu"],
+        ["mivmu'i", "jmive mukti"],
+        ["mivmu'e", "jmive munje"],
+        ["mlabimke'a", "mlana bitmu kevna"],
+        ["mlakla", "mlana klama"],
+        ["mlaselfa'a", "mlana se farna"],
+        ["mleba'i", "melbi banli"],
+        ["mlejgi", "melbi jgira"],
+        ["mlerai", "melbi traji"],
+        ["mliba'u", "milxe bacru"],
+        ["mlibra", "milxe barda"],
+        ["mlibi'e", "milxe brife"],
+        ["mliburna", "milxe burna"],
+        ["mlicintunta", "milxe cinse tunta"],
+        ["mlifanza", "milxe fanza"],
+        ["mlifrili", "milxe frili"],
+        ["mligapru", "milxe gapru"],
+        ["mligla", "milxe glare"],
+        ["mliri'a", "milxe rinka"],
+        ["mliselmabla", "milxe se mabla"],
+        ["mlisli", "milxe slilu"],
+        ["mlisnosli", "milxe masno slilu"],
+        ["mlisutsli", "milxe sutra slilu"],
+        ["mlitoinandu", "milxe troci nandu"],
+        ["mlixai", "milxe xrani"],
+        ["mluri'a", "simlu rinka"],
+        ["mo'isro", "morji sorcu"],
+        ["mo'isti", "morji sisti"],
+        ["mocpecli'i", "mokca pencu linji"],
+        ["mojri'a", "morji rinka"],
+        ["mojypei", "morji pensi"],
+        ["mojysu'a", "morji stura"],
+        ["molgapru", "moklu gapru"],
+        ["molgle", "moklu gletu"],
+        ["molko'a", "moklu kojna"],
+        ["molre'u", "moklu rectu"],
+        ["moltu'u", "moklu tubnu"],
+        ["monfu'i", "morna fukpi"],
+        ["monfu'igau", "morna fukpi gasnu"],
+        ["monmuprai", "morna mupli traji"],
+        ["mojgau", "morji gasnu"],
+        ["mojmau", "morji zmadu"],
+        ["mosyvi'u", "mosra vimcu"],
+        ["mosycpu", "mosra lacpu"],
+        ["mrajymledi", "mraji mledi"],
+        ["mrena'u", "merli namcu"],
+        ["mriste", "mrilu liste"],
+        ["mrobi'o", "morsi binxo"],
+        ["mrocanci", "morsi canci"],
+        ["mrofanta", "morsi fanta"],
+        ["mrofoi", "morsi foldi"],
+        ["mroke'a", "morsi kevna"],
+        ["mromu'e", "morsi munje"],
+        ["mrori'a", "morsi rinka"],
+        ["mrori'i", "morsi ritli"],
+        ["mroruxpre", "morsi pruxi prenu"],
+        ["mrospe", "morsi speni"],
+        ["mrostu", "morsi stuzi"],
+        ["mrovau", "morsi vasru"],
+        ["muclai", "smuci klani"],
+        ["mudbli", "mudri bliku"],
+        ["mudyctijalra", "mudri citka jalra"],
+        ["mudyfagri", "mudri fagri"],
+        ["mudyka'apre", "mudri katna prenu"],
+        ["mudypexsilka", "mudri pesxu silka"],
+        ["mudyselcrepu", "mudri se crepu"],
+        ["mu'ejva", "munje javni"],
+        ["mu'etru", "munje turni"],
+        ["mukygei", "mukti gleki"],
+        ["mulbri", "mulno bridi"],
+        ["mulgau", "mulno gasnu"],
+        ["mulgri", "mulno girzu"],
+        ["mulna'u", "mulno namcu"],
+        ["smuge'a", "smuni gerna"],
+        ["mu'ezda", "munje zdani"],
+        ["musmalsi", "muslo malsi"],
+        ["tcebra", "mutce barda"],
+        ["muvra'itra", "muvdu ranji tarti"],
+        ["na'acto", "nanca xecto"],
+        ["na'arcartu", "nanca cartu"],
+        ["na'arke'udei", "nanca krefu djedi"],
+        ["na'irmabru", "nalci mabru"],
+        ["nabysmi", "nanba simsa"],
+        ["nabzba", "nanba zbasu"],
+        ["nadmau", "nandu zmadu"],
+        ["nadmo'i", "nandu morji"],
+        ["nadrai", "nandu traji"],
+        ["nadva'u", "nandu vasxu"],
+        ["nafmupli", "natfe mupli"],
+        ["nafxu'a", "natfe xusra"],
+        ["nairterfi'a", "natmi te cfika"],
+        ["naiske", "natmi saske"],
+        ["naknalspe", "nakni na'e speni"],
+        ["nakyganti", "nakni ganti"],
+        ["nakpa'i", "nakni prami"],
+        ["kamnakseltro", "ka nakni se jitro"],
+        ["naktro", "nakni jitro"],
+        ["kamnakseltru", "ka nakni se turni"],
+        ["naktru", "nakni turni"],
+        ["kamnakydzeseltru", "ka nakni dzena se turni"],
+        ["nakydzetru", "nakni dzena turni"],
+        ["kamfe'idzeseltru", "ka fetsi dzena se turni"],
+        ["fetydzetru", "fetsi dzena turni"],
+        ["kamfetseltro", "ka fetsi se jitro"],
+        ["fe'itro", "fetsi jitro"],
+        ["kamfetseltru", "ka fetsi se turni"],
+        ["fe'itru", "fetsi turni"],
+        ["nakspe", "nakni speni"],
+        ["nakybakni", "nakni bakni"],
+        ["nalci'o", "na'e citno"],
+        ["nalcnedatni", "na'e cenba datni"],
+        ["nalcumselfanva", "na'e cumki se fanva"],
+        ["na'irselpezli", "nalci se pezli"],
+        ["naldasri'a", "na'e dasni rinka"],
+        ["naldzukla", "na'e cadzu klama"],
+        ["nalfadysmato'a", "na'e fadni smaji tonga"],
+        ["nalfrinyna'u", "na'e frinu namcu"],
+        ["nalgaixai", "na'e gacri xrani"],
+        ["nalgeiselflira", "na'e gleki se flira"],
+        ["nalgundei", "na'e gunka djedi"],
+        ["naljizykai", "na'e jinzi ckaji"],
+        ["nalkiryri'a", "na'e ckire rinka"],
+        ["nalkrecau", "na'e kerfa claxu"],
+        ["nalmatryma'e", "na'e matra marce"],
+        ["nalmuvzbe", "na'e muvdu zbepi"],
+        ["nalnerkla", "na'e nenri klama"],
+        ["nalpruselpli", "na'e purci se pilno"],
+        ["nalre'ucti", "na'e rectu citka"],
+        ["nalrolmei", "na'e ro mei"],
+        ["nalrolmeilei", "na'e ro mei klesi"],
+        ["nalsajypei", "na'e sanji pensi"],
+        ["nalseljuncizra", "na'e se djuno cizra"],
+        ["nalselvau", "na'e se vasru"],
+        ["nalsimcabna", "na'e simxu cabna"],
+        ["nalsirkla", "na'e sirji klama"],
+        ["nalsti", "na'e sisti"],
+        ["nalspaji", "na'e spaji"],
+        ["nalsutydzukepkla", "na'e sutra cadzu ke'e klama"],
+        ["nalsutydzukla", "na'e sutra cadzu klama"],
+        ["nalterjuncizra", "na'e te djuno cizra"],
+        ["naltinri'a", "na'e tirna rinka"],
+        ["nalvo'aba'ubinselba'u", "na'e voksa bacru jbini se bacru"],
+        ["nalvo'abinselba'u", "na'e voksa jbini se bacru"],
+        ["nalxaumau", "na'e xamgu zmadu"],
+        ["nalylecyvu'e", "na'e lerci vrude"],
+        ["nalyli'u", "na'e litru"],
+        ["nalylumcu'i", "na'e lumci cumki"],
+        ["nabysnuji", "nanba snuji"],
+        ["nanfi'o", "snanu friko"],
+        ["nanmerko", "snanu merko"],
+        ["narmitsi'u", "na mintu simxu"],
+        ["narselfendi", "na se fendi"],
+        ["natpau", "natmi pagbu"],
+        ["nairbau", "natmi bangu"],
+        ["naudre", "nanmu derxi"],
+        ["zbibu'u", "nazbi bukpu"],
+        ["nebyka'a", "cnebo katna"],
+        ["nebyka'aca'a", "cnebo katna cabra"],
+        ["neizma", "nelci zmadu"],
+        ["neldu'e", "nelci dukse"],
+        ["nenxaksu", "nejni xaksu"],
+        ["nerbi'o", "nenri binxo"],
+        ["nercreka", "nenri creka"],
+        ["nerfle", "nenri flecu"],
+        ["nerkla", "nenri klama"],
+        ["nermolre'u", "nenri moklu rectu"],
+        ["nerta'u", "nenri taxfu"],
+        ["ni'ablo", "cnita bloti"],
+        ["nitkro", "cnita korcu"],
+        ["nitcpare", "cnita cpare"],
+        ["ninrai", "cnino traji"],
+        ["nibgei", "nibli gleki"],
+        ["nibypoi", "nibli porsi"],
+        ["nicygai", "cnici gacri"],
+        ["nilcitmidju", "ni citno midju"],
+        ["nilcre", "ni certu"],
+        ["nilda'ibandu", "ni darxi bandu"],
+        ["nildicka'ukezyjdika", "ni dikca kantu kei jdika"],
+        ["nilji'a", "ni jinga"],
+        ["niljigrau", "ni jinga gradu"],
+        ["nilre'i", "ni renvi"],
+        ["nilsau", "ni slabu"],
+        ["niltermakfa", "ni te makfa"],
+        ["niltolci'o", "ni to'e citno"],
+        ["nilxa'u", "ni xabju"],
+        ["nilyla'e", "ni lakne"],
+        ["nimci'o", "ninmu citno"],
+        ["nimcre", "ninmu certu"],
+        ["nimjizdunkri", "ninmu jinzi dunli krici"],
+        ["nimnaujizdunkri", "ninmu nanmu jinzi dunli krici"],
+        ["ninpe'i", "cnino penmi"],
+        ["ninpengau", "cnino penmi gasnu"],
+        ["ninselkakpa", "cnino se kakpa"],
+        ["ninzba", "cnino zbasu"],
+        ["nipsri", "snipa dasri"],
+        ["nipsrisro", "snipa dasri sorcu"],
+        ["nirci'e", "nirna ciste"],
+        ["nitflevoi", "cnita flecu vofli"],
+        ["nitkla", "cnita klama"],
+        ["nitmu'e", "cnita munje"],
+        ["nitsa'o", "cnita salpo"],
+        ["nitybu'u", "cnita bukpu"],
+        ["nityta'u", "cnita taxfu"],
+        ["nitytu'u", "cnita tubnu"],
+        ["normro", "no'e morsi"],
+        ["normromi'e", "no'e morsi minde"],
+        ["normu'o", "no'e mulno"],
+        ["norpante", "no'e pante"],
+        ["norvaismu", "no'e vajni smuni"],
+        ["nolnei", "nobli nelci"],
+        ["nolni'u", "nobli ninmu"],
+        ["nolrai", "nobli traji"],
+        ["nolrainanla", "nobli traji nanla"],
+        ["nolraiti'u", "nobli traji tixnu"],
+        ["nolraitru", "nobli traji turni"],
+        ["nolraitrube'a", "nobli traji turni bersa"],
+        ["nolraitruti'u", "nobli traji turni tixnu"],
+        ["nolraixli", "nobli traji nixli"],
+        ["nolraizda", "nobli traji zdani"],
+        ["nolzda", "nobli zdani"],
+        ["nonmau", "no zmadu"],
+        ["nonmauna'u", "no zmadu namcu"],
+        ["nonme'a", "no mleca"],
+        ["nonmecna'u", "no mleca namcu"],
+        ["norsi'ata'a", "no'e sinma tavla"],
+        ["norsnosli", "no'e masno slilu"],
+        ["norsutsli", "no'e sutra slilu"],
+        ["noryra'e", "no'e ralte"],
+        ["notcreka", "notci creka"],
+        ["notcrida", "notci crida"],
+        ["nujdja", "snuji cidja"],
+        ["nunbavyfi'a", "nu balvi cfika"],
+        ["nunboitipyjvikezboi", "nu bolci tikpa jivna kei bolci"],
+        ["nunci'ebasti", "nu ciste basti"],
+        ["nunclapi'e", "nu clani plipe"],
+        ["nunctikezgau", "nu citka kei gasnu"],
+        ["nunje'aga'ibai", "nu jecta galfi bapli"],
+        ["nunjupca'u", "nu jukpa canlu"],
+        ["nunkeici'e", "nu kelci ciste"],
+        ["nunlejnei", "nu pleji nelci"],
+        ["nunmafyjoida'a", "nu makfa joi damba"],
+        ["nunmroruxpre", "nu morsi pruxi prenu"],
+        ["nunmrostu", "nu morsi stuzi"],
+        ["nunpencku", "nu penmi cukta"],
+        ["nunpeiri'a", "nu pensi rinka"],
+        ["nunposnei", "nu ponse nelci"],
+        ["nunseltickri", "nu se tcica krici"],
+        ["nunsimta'a", "nu simxu tavla"],
+        ["nunsladansu", "nu salci dansu"],
+        ["nunsoidji", "nu sonci djica"],
+        ["nunsolcanci", "nu solri canci"],
+        ["nunterlejnei", "nu te pleji nelci"],
+        ["nunxumsne", "nu xukmi senva"],
+        ["nunzgaju'a", "nu zgana jufra"],
+        ["nunzvaju'o", "nu zvati djuno"],
+        ["nurbe'i", "snura benji"],
+        ["nurcau", "snura claxu"],
+        ["nurgau", "snura gasnu"],
+        ["nurprecau", "snura prenu claxu"],
+        ["nurpu'i", "snura punji"],
+        ["nutli'a", "snuti cliva"],
+        ["nuzyki'a", "nuzba krixa"],
+        ["nuzyxagji", "nuzba xagji"],
+        ["pa'arcau", "pacna claxu"],
+        ["pa'arpei", "pacna pensi"],
+        ["pa'ezma", "prane zmadu"],
+        ["pafspe", "patfu speni"],
+        ["pacraistu", "palci traji stuzi"],
+        ["pacruxpre", "palci pruxi prenu"],
+        ["pacruxtutra", "palci pruxi tutra"],
+        ["pacyselzu'e", "palci se zukte"],
+        ["pacyxlu", "palci xlura"],
+        ["pacyzu'e", "palci zukte"],
+        ["pafybu'a", "patfu bruna"],
+        ["pafybunspeme'i", "patfu bruna speni mensi"],
+        ["pairvu'e", "pajni vrude"],
+        ["pakskaci", "palku skaci"],
+        ["palcau", "prali claxu"],
+        ["paltydamri", "palta damri"],
+        ["paltylu'i", "palta lumci"],
+        ["paltylumca'a", "palta lumci cabra"],
+        ["pambasti", "prami basti"],
+        ["pamnabmi", "prami nabmi"],
+        ["pampemyzba", "prami pemci zbasu"],
+        ["pamsa'a", "prami sanga"],
+        ["pamta'a", "prami tavla"],
+        ["pamyzautra", "prami zanru tarti"],
+        ["patydzu", "pante cadzu"],
+        ["patpai", "pante pajni"],
+        ["papcpi", "panpi cipni"],
+        ["papkufra", "panpi kufra"],
+        ["papri'a", "panpi rinka"],
+        ["paprysfe", "papri sefta"],
+        ["paprysfelai", "papri sefta klani"],
+        ["papygei", "panpi gleki"],
+        ["paspalku", "pastu palku"],
+        ["pasyskaci", "pastu skaci"],
+        ["paurpo'e", "pagbu ponse"],
+        ["pavdeicitsi", "pa djedi citsi"],
+        ["pavmeijbe", "pa mei jbena"],
+        ["pavmoijbe", "pa moi jbena"],
+        ["pavycinglepre", "pa cinse gletu prenu"],
+        ["pavycinpampre", "pa cinse prami prenu"],
+        ["pavypruda'i", "pa purci darxi"],
+        ["pavysei", "pa sepli"],
+        ["pavyseljirna", "pa se jirna"],
+        ["pavyskojmavra", "pa skori jamfu vraga"],
+        ["pavysu'i", "pa sumti"],
+        ["pavmoisu'i", "pa moi sumti"],
+        ["pavyterfrinyna'u", "pa te frinu namcu"],
+        ["pavyvla", "pa valsi"],
+        ["pazvau", "panzi vasru"],
+        ["pazyspe", "panzi speni"],
+        ["pazysperirni", "panzi speni rirni"],
+        ["pe'ocme", "pendo cmene"],
+        ["pecke'a", "pencu kevna"],
+        ["peckevgai", "pencu kevna gacri"],
+        ["pecta'o", "pencu tanbo"],
+        ["pecta'osle", "pencu tanbo selci"],
+        ["pectcu", "pencu nitcu"],
+        ["pesrei", "pensi preti"],
+        ["peircauji'i", "pensi claxu jinvi"],
+        ["pesnunpe'i", "pensi nu penmi"],
+        ["peirselra'u", "pensi se raktu"],
+        ["peitse", "pensi zutse"],
+        ["pejri'a", "preja rinka"],
+        ["pelselkre", "pelxu se kerfa"],
+        ["pelnimre", "pelxu nimre"],
+        ["pempau", "pemci pagbu"],
+        ["pempra", "pemci cupra"],
+        ["pemsa'a", "pemci sanga"],
+        ["pedrai", "pendo traji"],
+        ["pengri", "penmi girzu"],
+        ["penydjuxa'a", "penmi sidju xatra"],
+        ["pespe'i", "pensi penmi"],
+        ["pesri'a", "pensi rinka"],
+        ["pesti'i", "pensi stidi"],
+        ["selpeiti'i", "se pensi stidi"],
+        ["pevbakykalci", "pe'a bakni kalci"],
+        ["pevjicla", "pe'a jicla"],
+        ["pevrisnyjelca", "pe'a risna jelca"],
+        ["pevycuvgau", "pe'a curve gasnu"],
+        ["pezyfaltricu", "pezli farlu tricu"],
+        ["pezysigja", "pezli sigja"],
+        ["pi'ejvi", "plipe jivna"],
+        ["pi'orci'a", "pipno ciska"],
+        ["pibrango", "plibu rango"],
+        ["pibyta'u", "plibu taxfu"],
+        ["pidrai", "pindi traji"],
+        ["pifstidi'a", "pinfu sisti jdima"],
+        ["pijvri", "prije virnu"],
+        ["pijvritra", "prije virnu tarti"],
+        ["pimselpezli", "pimlu se pezli"],
+        ["pincyvi'i", "pinca vikmi"],
+        ["pinflani", "pinta flani"],
+        ["pinjyca'a", "pinji cabra"],
+        ["pinjydakli", "pinji dakli"],
+        ["pinjymolgle", "pinji moklu gletu"],
+        ["pinke'a", "pinta kevna"],
+        ["piksku", "pinka cusku"],
+        ["pipcinki", "plipe cinki"],
+        ["pipybanfi", "plipe banfi"],
+        ["pipyjalra", "plipe jalra"],
+        ["xraski", "pixra skicu"],
+        ["pitytu'a", "plita tumla"],
+        ["pixri'a", "pinxe rinka"],
+        ["pixsla", "pinxe salci"],
+        ["pixydji", "pinxe djica"],
+        ["pizysostei", "pi so'o temci"],
+        ["pledi'i", "pelji jdini"],
+        ["plesigja", "pelji sigja"],
+        ["plexa'a", "pelji xatra"],
+        ["plicru", "pilno curmi"],
+        ["terplicru", "te pilno curmi"],
+        ["pliri'a", "pilno rinka"],
+        ["plisytisna", "plise tisna"],
+        ["plisytricu", "plise tricu"],
+        ["plitadji", "pilno tadji"],
+        ["pitna'u", "plita namcu"],
+        ["plixau", "pilno xamgu"],
+        ["plokarlycreka", "polje karli creka"],
+        ["plopijne", "polje pijne"],
+        ["plopijnyla'a", "polje pijne lasna"],
+        ["plopijnytci", "polje pijne tutci"],
+        ["pojyfa'u", "spoja farlu"],
+        ["po'aspo", "spoja daspo"],
+        ["porja'este", "porsi jalge liste"],
+        ["pojma'a", "spoja cmana"],
+        ["pojri'a", "spoja rinka"],
+        ["popri'a", "porpi rinka"],
+        ["popselgu'i", "porpi se gusni"],
+        ["popygau", "porpi gasnu"],
+        ["porjmina", "porsi jmina"],
+        ["porla'i", "porsi lamji"],
+        ["porselfai", "porsi se fatri"],
+        ["porveljmina", "porsi ve jmina"],
+        ["posnei", "ponse nelci"],
+        ["posri'a", "ponse rinka"],
+        ["po'edji", "ponse djica"],
+        ["precau", "prenu claxu"],
+        ["pregri", "prenu girzu"],
+        ["pretai", "prenu tarmi"],
+        ["pretrocange", "prenu jitro cange"],
+        ["retpei", "preti pensi"],
+        ["velprevelma'e", "ve prenu ve marce"],
+        ["prezda", "prenu zdani"],
+        ["pripre", "prina prenu"],
+        ["prityxa'e", "pritu xance"],
+        ["prolanxe", "fapro lanxe"],
+        ["prucedra", "purci cedra"],
+        ["prucimri'a", "purci cilmo rinka"],
+        ["prujeftu", "purci jeftu"],
+        ["prulamjeftu", "purci lamji jeftu"],
+        ["prula'i", "purci lamji"],
+        ["prulamcte", "purci lamji nicte"],
+        ["prulamvanci", "purci lamji vanci"],
+        ["bavlamvanci", "balvi lamji vanci"],
+        ["pruru'a", "purci sruma"],
+        ["selpruru'a", "se purci sruma"],
+        ["pruselpli", "purci se pilno"],
+        ["pruselpo'e", "purci se ponse"],
+        ["prusoi", "purci sonci"],
+        ["ruxycrida", "pruxi crida"],
+        ["prulamdei", "purci lamji djedi"],
+        ["prulamrai", "purci lamji traji"],
+        ["prupla", "purci platu"],
+        ["prusofto", "purci softo"],
+        ["ra'artei", "srana temci"],
+        ["ra'etci", "ralte tutci"],
+        ["ra'irta'a", "ranji tavla"],
+        ["ra'udri", "raktu badri"],
+        ["ra'urcau", "raktu claxu"],
+        ["racmau", "ralci zmadu"],
+        ["rairgu'e", "traji gugde"],
+        ["rairnau", "traji nanmu"],
+        ["rajma'a", "sraji cmana"],
+        ["rajycla", "sraji clani"],
+        ["rajyclamau", "sraji clani zmadu"],
+        ["rajyflani", "sraji flani"],
+        ["rajyke'a", "sraji kevna"],
+        ["rajykevloi", "sraji kevna loldi"],
+        ["rajymudri", "sraji mudri"],
+        ["rajysirdra", "sraji sirji drani"],
+        ["rajyto'agri", "sraji tonga girzu"],
+        ["rajytu'u", "sraji tubnu"],
+        ["ralgau", "ralju gasnu"],
+        ["ralselva'i", "ralju se vamji"],
+        ["raltca", "ralju tcadu"],
+        ["ranbo'u", "ranti bongu"],
+        ["rancimde'u", "ranti cilmo dertu"],
+        ["rancimderke'a", "ranti cilmo dertu kevna"],
+        ["rancindu", "ranti cindu"],
+        ["rapcki", "rapli ciksi"],
+        ["rapteryrei", "rapli te preti"],
+        ["rapyda'i", "rapli darxi"],
+        ["rarbau", "rarna bangu"],
+        ["rarge'a", "rarna gerna"],
+        ["rarjva", "rarna javni"],
+        ["rarlalske", "rarna lanli saske"],
+        ["rarmi'e", "rarna minde"],
+        ["rarske", "rarna saske"],
+        ["rartapla", "rarna tapla"],
+        ["rarvanbi", "rarna vanbi"],
+        ["rastergu'i", "grasu te gusni"],
+        ["rasyselpi'a", "grasu se pilka"],
+        ["ratmidju", "ratni midju"],
+        ["ratske", "ratni saske"],
+        ["ratsru", "ratni sruri"],
+        ["ravycta", "ragve catlu"],
+        ["ravypi'e", "ragve plipe"],
+        ["re'azda", "remna zdani"],
+        ["rerjvi", "renro jivna"],
+        ["recyjupcarca'a", "rectu jukpa carna cabra"],
+        ["bregau", "bredi gasnu"],
+        ["refsipna", "krefu sipna"],
+        ["refsku", "krefu cusku"],
+        ["refyfa'i", "krefu facki"],
+        ["rejgau", "vreji gasnu"],
+        ["veirse'u", "vreji selfu"],
+        ["veirseljibri", "vreji se jibri"],
+        ["rekybo'u", "greku bongu"],
+        ["relba'eka'a", "re balre katna"],
+        ["relcimdyna'u", "re cimde namcu"],
+        ["relcinglepre", "re cinse gletu prenu"],
+        ["relcinpampre", "re cinse prami prenu"],
+        ["relcte", "re nicte"],
+        ["pavycte", "pa nicte"],
+        ["cibycte", "ci nicte"],
+        ["voncte", "vo nicte"],
+        ["mumcte", "mu nicte"],
+        ["xavycte", "xa nicte"],
+        ["noncte", "no nicte"],
+        ["zelcte", "ze nicte"],
+        ["reldo'i", "re donri"],
+        ["pavdo'i", "pa donri"],
+        ["cibdo'i", "ci donri"],
+        ["vondo'i", "vo donri"],
+        ["mumdo'i", "mu donri"],
+        ["xavdo'i", "xa donri"],
+        ["nondo'i", "no donri"],
+        ["zeldo'i", "ze donri"],
+        ["relvanbi", "re vanbi"],
+        ["pavyvanbi", "pa vanbi"],
+        ["cibvanbi", "ci vanbi"],
+        ["vonvanbi", "vo vanbi"],
+        ["mumvanbi", "mu vanbi"],
+        ["xavyvanbi", "xa vanbi"],
+        ["nonvanbi", "no vanbi"],
+        ["zelvanbi", "ze vanbi"],
+        ["relpi'i", "re pilji"],
+        ["velrelprevelma'e", "ve re prenu ve marce"],
+        ["relpru", "re purci"],
+        ["relpruda'i", "re purci darxi"],
+        ["relselba'e", "re se balre"],
+        ["relselcalku", "re se calku"],
+        ["relseljimca", "re se jimca"],
+        ["relselmla", "re se mlana"],
+        ["relselxi'u", "re se xislu"],
+        ["relskosa'e", "re skori satre"],
+        ["relteryrau", "re te gradu"],
+        ["relxagri", "re xagri"],
+        ["relxilma'e", "re xislu marce"],
+        ["rembau", "remna bangu"],
+        ["rembi'o", "remna binxo"],
+        ["remdja", "remna cidja"],
+        ["remgri", "remna girzu"],
+        ["remska", "remna skari"],
+        ["remskapi", "remna skapi"],
+        ["remso'a", "remna sovda"],
+        ["remtai", "remna tarmi"],
+        ["remtsi", "remna tsiju"],
+        ["remyma'utei", "remna makcu temci"],
+        ["renkla", "trene klama"],
+        ["rerce'a", "renro cecla"],
+        ["resycrida", "respa crida"],
+        ["reisku", "preti cusku"],
+        ["reispu", "preti spuda"],
+        ["reirsisku", "preti sisku"],
+        ["re'icla", "renvi clani"],
+        ["ri'emla", "rirxe mlana"],
+        ["ri'erkrajinto", "rirxe krasi jinto"],
+        ["ri'irdzuzgibe'e", "ritli cadzu zgike bende"],
+        ["ri'irju'a", "ritli jufra"],
+        ["ri'irti'i", "ritli stidi"],
+        ["ri'ixra", "ritli pixra"],
+        ["ri'ortcati", "crino tcati"],
+        ["ri'urtulsru", "rinju tunlo sruri"],
+        ["ricfoi", "tricu foldi"],
+        ["ricpurdi", "tricu purdi"],
+        ["ricyci'e", "tricu ciste"],
+        ["ricycrida", "tricu crida"],
+        ["ricyratcu", "tricu ratcu"],
+        ["ricyselsru", "tricu se sruri"],
+        ["ridrirni", "crida rirni"],
+        ["rijyska", "rijno skari"],
+        ["rijysmi", "rijno simsa"],
+        ["rikygei", "rinka gleki"],
+        ["rindatni", "krinu datni"],
+        ["ringei", "krinu gleki"],
+        ["rirbu'a", "rirni bruna"],
+        ["rirme'i", "rirni mensi"],
+        ["riryriryrirni", "rirni rirni rirni"],
+        ["risnyjelca", "risna jelca"],
+        ["ritkemna'aterjvi", "brito ke nanca te jivna"],
+        ["ri'irme'a", "ritli mleca"],
+        ["ritna'aterjvi", "brito nanca te jivna"],
+        ["ritnai", "brito natmi"],
+        ["ritpre", "brito prenu"],
+        ["ritybartu", "brito bartu"],
+        ["ritygu'e", "brito gugde"],
+        ["rityjbo", "brito lojbo"],
+        ["rivli'a", "rivbi cliva"],
+        ["rokcmaplini", "rokci cmalu plini"],
+        ["rokspi", "rokci spisa"],
+        ["rolbaukai", "ro bangu ckaji"],
+        ["roldei", "ro djedi"],
+        ["rolgu'e", "ro gugde"],
+        ["rolcte", "ro nicte"],
+        ["rolpre", "ro prenu"],
+        ["rolre'azda", "ro remna zdani"],
+        ["rolsliparbi", "ro slilu parbi"],
+        ["rolstu", "ro stuzi"],
+        ["roltei", "ro temci"],
+        ["rolterdi", "ro terdi"],
+        ["rolterslidi'e", "ro te slilu dirce"],
+        ["roltru", "ro turni"],
+        ["rolzda", "ro zdani"],
+        ["ruxpre", "pruxi prenu"],
+        ["rulpezli", "xrula pezli"],
+        ["rulpurdi", "xrula purdi"],
+        ["rulzda", "xrula zdani"],
+        ["rumpe'a", "runme preja"],
+        ["rumro'i", "runme rokci"],
+        ["runbau", "rutni bangu"],
+        ["runge'a", "rutni gerna"],
+        ["rutpesxu", "grute pesxu"],
+        ["rutpurdi", "grute purdi"],
+        ["rutyjdu", "grute jduli"],
+        ["rutyve'u", "grute vecnu"],
+        ["ruxse'i", "pruxi sevzi"],
+        ["ruxyzau", "pruxi zanru"],
+        ["sa'erjgita", "satre jgita"],
+        ["sa'irlai", "sanli klani"],
+        ["sa'orkurfa", "salpo kurfa"],
+        ["sa'unri'a", "sarcu rinka"],
+        ["sa'urmi'e", "sarcu minde"],
+        ["sadrai", "snada traji"],
+        ["sadyda'a", "snada damba"],
+        ["sagbarja", "sanga barja"],
+        ["sagdraci", "sanga draci"],
+        ["sa'asku", "sanga cusku"],
+        ["saisla", "sanmi salci"],
+        ["sakcpu", "sakci lacpu"],
+        ["sakygau", "sakci gasnu"],
+        ["sakselylu'i", "sakci se lumci"],
+        ["sakto'a", "sakci tonga"],
+        ["salsiltci", "sakli siclu tutci"],
+        ["saltu'u", "sakli tubnu"],
+        ["sakmuvgau", "sakci muvdu gasnu"],
+        ["sakyva'u", "sakci vasxu"],
+        ["slafagri", "salci fagri"],
+        ["sa'ordziselfa'a", "salpo dizlo se farna"],
+        ["samci'a", "skami ciska"],
+        ["samci'eta'a", "skami ciste tavla"],
+        ["samjudri", "skami judri"],
+        ["samki'o", "skami kilto"],
+        ["sampei", "skami pensi"],
+        ["sampla", "skami platu"],
+        ["selsampla", "se skami platu"],
+        ["sample", "skami pelji"],
+        ["saprai", "sampu traji"],
+        ["samralsle", "skami ralju selci"],
+        ["samru'e", "skami pruce"],
+        ["samse'u", "skami selfu"],
+        ["samselpla", "skami se platu"],
+        ["samske", "skami saske"],
+        ["samsnuci'e", "skami casnu ciste"],
+        ["samsroka'u", "skami sorcu kantu"],
+        ["samsrorau", "skami sorcu gradu"],
+        ["samsrosle", "skami sorcu selci"],
+        ["samstu", "skami stuzi"],
+        ["samtadji", "skami tadji"],
+        ["samtermi'e", "skami te minde"],
+        ["samvidni", "skami vidni"],
+        ["samgi'o", "skami gigdo"],
+        ["samymegdo", "skami megdo"],
+        ["samymidnoi", "skami minde notci"],
+        ["samymri", "skami mrilu"],
+        ["samyzva", "skami zvati"],
+        ["sange'u", "spano gerku"],
+        ["sajbi'o", "sanji binxo"],
+        ["sajri'a", "sanji rinka"],
+        ["sankrabau", "spano krasi bangu"],
+        ["sankragu'e", "spano krasi gugde"],
+        ["santyse'u", "santa selfu"],
+        ["saptciklu", "sampu tutci kulnu"],
+        ["sarlyja'i", "sarlu jadni"],
+        ["sasfoi", "srasu foldi"],
+        ["saspurdi", "srasu purdi"],
+        ["sastu'a", "srasu tumla"],
+        ["satcymau", "satci zmadu"],
+        ["satcyri'a", "satci rinka"],
+        ["satcyski", "satci skicu"],
+        ["saurckusro", "slabu cukta sorcu"],
+        ["saurdai", "slabu dacti"],
+        ["saurgu'e", "slabu gugde"],
+        ["saursutsabdja", "slabu sutra sabji cidja"],
+        ["vrule'u", "savru lerfu"],
+        ["vruri'a", "savru rinka"],
+        ["sazvanbi", "sazri vanbi"],
+        ["sazycau", "sazri claxu"],
+        ["sazyci'e", "sazri ciste"],
+        ["sazysti", "sazri sisti"],
+        ["sazytcila", "sazri tcila"],
+        ["se'isku", "sevzi cusku"],
+        ["se'isni", "sevzi sinxa"],
+        ["se'ixru", "sevzi xruti"],
+        ["se'izga", "sevzi zgana"],
+        ["sedbo'u", "stedu bongu"],
+        ["sedja'o", "stedu jarco"],
+        ["sedycro", "stedu cortu"],
+        ["sedykre", "stedu kerfa"],
+        ["sedyterjo'e", "stedu te jorne"],
+        ["seicni", "sepli cinmo"],
+        ["selbadydji", "se bandu djica"],
+        ["selbauka'e", "se bangu kakne"],
+        ["selca'u", "se canlu"],
+        ["selcmipi'i", "se cmima pilji"],
+        ["selcmisumji", "se cmima sumji"],
+        ["seldamgau", "se danmo gasnu"],
+        ["seldansazri", "se danti sazri"],
+        ["seldjixau", "se djica xamgu"],
+        ["selfi'usa'i", "se cfipu sanli"],
+        ["selfinfi'a", "se finti cfika"],
+        ["selfityjbu", "se friti jubme"],
+        ["selga'esmu", "se ganse smuni"],
+        ["selgaita'u", "se gacri taxfu"],
+        ["selgapygau", "se gapru gasnu"],
+        ["selgeimau", "se gleki zmadu"],
+        ["selgreka'e", "se pagre kakne"],
+        ["selgrenalka'e", "se pagre na'e kakne"],
+        ["selgusrai", "se gusni traji"],
+        ["selja'efau", "se jalge fasnu"],
+        ["selja'esku", "se jalge cusku"],
+        ["seljdadji", "se lijda djica"],
+        ["seljdagei", "se lijda gleki"],
+        ["seljdami'u", "se lijda mintu"],
+        ["seljmaji", "se jmaji"],
+        ["seljmiri'a", "se jimpe rinka"],
+        ["selju'ixau", "se jundi xamgu"],
+        ["seljunbe'i", "se djuno benji"],
+        ["selkecmlu", "se kecti simlu"],
+        ["selkeiste", "se kelci liste"],
+        ["selma'e", "se marce"],
+        ["selma'ecu'e", "se marce ckule"],
+        ["selmamspemamta", "se mamta speni mamta"],
+        ["selmi'e", "se minde"],
+        ["selmonmi'u", "se morna mintu"],
+        ["selneirai", "se nelci traji"],
+        ["selneimau", "se nelci zmadu"],
+        ["selneixau", "se nelci xamgu"],
+        ["selpeixau", "se pensi xamgu"],
+        ["selplidu'i", "se pilno dunli"],
+        ["selplika'e", "se pilno kakne"],
+        ["selplimi'u", "se pilno mintu"],
+        ["selplixau", "se pilno xamgu"],
+        ["selplopijne", "se polje pijne"],
+        ["selpopselta'u", "se porpi se taxfu"],
+        ["selrepydja", "se crepu cidja"],
+        ["selrerkru", "se renro kruvi"],
+        ["selrigvamtu", "se rigni vamtu"],
+        ["selsabytutra", "se sabji tutra"],
+        ["selsajgau", "se sanji gasnu"],
+        ["selskuvei", "se cusku vreji"],
+        ["selsmujmi", "se smuni jimpe"],
+        ["selsnuka'e", "se casnu kakne"],
+        ["seltavma'o", "se tavla cmavo"],
+        ["seltepmau", "se terpa zmadu"],
+        ["selteprai", "se terpa traji"],
+        ["selti'ifla", "se stidi flalu"],
+        ["selti'ismu", "se stidi smuni"],
+        ["selti'u", "se tixnu"],
+        ["seltilmau", "se tcila zmadu"],
+        ["seltolnei", "se to'e nelci"],
+        ["seltutrai", "se tutra traji"],
+        ["selviska'eri'a", "se viska kakne rinka"],
+        ["selvrestu", "se vreta stuzi"],
+        ["selxaumau", "se xamgu zmadu"],
+        ["selxaumaugau", "se xamgu zmadu gasnu"],
+        ["selxagryvau", "se xagri vasru"],
+        ["selxlupai", "se xlura pajni"],
+        ["selylauca'a", "se cladu cabra"],
+        ["selylazmi'u", "se lanzu mintu"],
+        ["selylebvla", "se lebna valsi"],
+        ["senlanli", "senpi lanli"],
+        ["senxu'i", "senpi xukmi"],
+        ["seirgau", "sepli gasnu"],
+        ["snebaigau", "senva bapli gasnu"],
+        ["sezdrari'a", "sevzi drani rinka"],
+        ["sezlacri", "sevzi lacri"],
+        ["sezlu'i", "sevzi lumci"],
+        ["sezvelski", "sevzi ve skicu"],
+        ["sezyci'i", "sevzi cinri"],
+        ["sezycitri", "sevzi citri"],
+        ["sezyju'o", "sevzi djuno"],
+        ["sezykarni", "sevzi karni"],
+        ["sezykemxaumaupai", "sevzi ke xamgu zmadu pajni"],
+        ["sezypa'i", "sevzi prami"],
+        ["sezypevdu'a", "sevzi pe'a dunda"],
+        ["se'ipli", "sevzi pilno"],
+        ["sezyse'u", "sevzi selfu"],
+        ["se'itru", "sevzi turni"],
+        ["kamse'itru", "ka sevzi turni"],
+        ["sezyxangle", "sevzi xance gletu"],
+        ["sezyxaumaupai", "sevzi xamgu zmadu pajni"],
+        ["sezyxu'a", "sevzi xusra"],
+        ["sezyzdakla", "sevzi zdani klama"],
+        ["sfacatra", "sfasa catra"],
+        ["sfala'a", "sfasa lasna"],
+        ["sfanalseljde", "sfasa na'e se kajde"],
+        ["sfaxai", "sfasa xrani"],
+        ["sfecra", "sefta crane"],
+        ["sfefli", "sefta fliba"],
+        ["sfesti", "sefta sisti"],
+        ["sfestigau", "sefta sisti gasnu"],
+        ["si'arfriti", "sinma friti"],
+        ["si'asnu", "sinma casnu"],
+        ["si'erbi'e", "snime brife"],
+        ["sibycanja", "sidbo canja"],
+        ["sibyti'i", "sidbo stidi"],
+        ["selsi'oti'isni", "se sidbo stidi sinxa"],
+        ["sibdai", "sidbo dacti"],
+        ["sicko'o", "stici skoto"],
+        ["siltci", "siclu tutci"],
+        ["silto'a", "siclu tonga"],
+        ["sigdamva'u", "sigja danmo vasxu"],
+        ["sigdanmo", "sigja danmo"],
+        ["sigva'u", "sigja vasxu"],
+        ["sigycko", "sigja cokcu"],
+        ["sigyfesyvau", "sigja festi vasru"],
+        ["sigyfespalta", "sigja festi palta"],
+        ["sigyfri", "sigja lifri"],
+        ["sigypli", "sigja pilno"],
+        ["sijycutci", "skiji cutci"],
+        ["sijykla", "skiji klama"],
+        ["tersijykla", "te skiji klama"],
+        ["sikcurnu", "silka curnu"],
+        ["silgei", "siclu gleki"],
+        ["simcabna", "simxu cabna"],
+        ["simcatra", "simxu catra"],
+        ["simda'a", "simxu damba"],
+        ["simda'e", "simxu danre"],
+        ["simda'i", "simxu darxi"],
+        ["simju'o", "simxu djuno"],
+        ["simpro", "simxu fapro"],
+        ["simfra", "simxu frati"],
+        ["simfrica", "simxu frica"],
+        ["simgle", "simxu gletu"],
+        ["simjikca", "simxu jikca"],
+        ["simjvi", "simxu jivna"],
+        ["simkansa", "simxu kansa"],
+        ["simkruca", "simxu kruca"],
+        ["simla'i", "simxu lamji"],
+        ["simlivbaigau", "simxu cliva bapli gasnu"],
+        ["simpanpi", "simxu panpi"],
+        ["simpe'o", "simxu pendo"],
+        ["simpe'u", "simxu pencu"],
+        ["simpe'i", "simxu penmi"],
+        ["simsarxe", "simxu sarxe"],
+        ["nalsimsarxe", "na'e simxu sarxe"],
+        ["simselyli'e", "simxu se lidne"],
+        ["simta'a", "simxu tavla"],
+        ["simtipyda'a", "simxu tikpa damba"],
+        ["simxanja'i", "simxu xance jadni"],
+        ["si'umri", "simxu mrilu"],
+        ["si'uzva", "simxu zvati"],
+        ["sincycrida", "since crida"],
+        ["sincysna", "since sance"],
+        ["si'arseldu'a", "sinma se dunda"],
+        ["sipku'a", "sipna kumfa"],
+        ["sipsavgau", "sipna savru gasnu"],
+        ["sipyvru", "sipna savru"],
+        ["sipstu", "sipna stuzi"],
+        ["sipta'u", "sipna taxfu"],
+        ["sipydakli", "sipna dakli"],
+        ["sivdju", "sivni sidju"],
+        ["sivycni", "sivni cinmo"],
+        ["sivyta'u", "sivni taxfu"],
+        ["kapkandi", "skapi kandi"],
+        ["skavrici", "skari vrici"],
+        ["skefa'i", "saske facki"],
+        ["skefi'a", "saske cfika"],
+        ["skegu'a", "saske gunka"],
+        ["skepre", "saske prenu"],
+        ["skinoi", "skicu notci"],
+        ["skola'a", "skori lasna"],
+        ["skora'e", "skori ralte"],
+        ["skosra", "skori sarji"],
+        ["skovrede'a", "skori vreta denpa"],
+        ["skucre", "cusku certu"],
+        ["skuci'a", "cusku ciska"],
+        ["skutadji", "cusku tadji"],
+        ["skuzau", "cusku zanru"],
+        ["slacfa", "salci cfari"],
+        ["slacfagau", "salci cfari gasnu"],
+        ["slacti", "salci citka"],
+        ["sladei", "salci djedi"],
+        ["slagei", "salci gleki"],
+        ["slapemci", "salci pemci"],
+        ["sligau", "slilu gasnu"],
+        ["slivru", "slilu savru"],
+        ["slisko", "slilu skori"],
+        ["sludemcro", "sluji denmi cortu"],
+        ["slugu'a", "sluji gunka"],
+        ["slukemcakfi'e", "sluji ke calku finpe"],
+        ["slunandu", "sluji nandu"],
+        ["sluseltro", "sluji se jitro"],
+        ["slutro", "sluji jitro"],
+        ["smaba'u", "smaji bacru"],
+        ["smacni", "smaji cinmo"],
+        ["smagai", "smaji gacri"],
+        ["smajmavra", "smaji jamfu vraga"],
+        ["smatci", "smaji tutci"],
+        ["smigau", "simsa gasnu"],
+        ["smimlu", "simsa simlu"],
+        ["smirai", "simsa traji"],
+        ["smizu'e", "simsa zukte"],
+        ["smudu'i", "smuni dunli"],
+        ["smujmi", "smuni jimpe"],
+        ["smulei", "smuni klesi"],
+        ["smuske", "smuni saske"],
+        ["snacau", "sance claxu"],
+        ["snacko", "sance cokcu"],
+        ["sadmi'o", "snada misno"],
+        ["snaga'e", "sance ganse"],
+        ["snage'a", "sance gerna"],
+        ["snagenske", "sance gerna saske"],
+        ["snajalra", "sance jalra"],
+        ["snakamju", "sance kamju"],
+        ["snaku'ocukca'a", "sance skuro cukla cabra"],
+        ["snaku'ocukla", "sance skuro cukla"],
+        ["snaku'ocukyzmi", "sance skuro cukla zmiku"],
+        ["nanstici", "snanu stici"],
+        ["nanstuna", "snanu stuna"],
+        ["snasrica'a", "sance dasri cabra"],
+        ["snasrita'e", "sance dasri tanxe"],
+        ["snaterga'e", "sance te ganse"],
+        ["snaterga'eca'a", "sance te ganse cabra"],
+        ["snavei", "sance vreji"],
+        ["snaveiku'ocukla", "sance vreji skuro cukla"],
+        ["snaveisrica'a", "sance vreji dasri cabra"],
+        ["snavelminra", "sance ve minra"],
+        ["snavelmiryri'a", "sance ve minra rinka"],
+        ["snaze'a", "sance zenba"],
+        ["snexu'i", "senva xukmi"],
+        ["snima'o", "sinxa cmavo"],
+        ["sniti'i", "sinxa stidi"],
+        ["snoraisli", "masno traji slilu"],
+        ["snosli", "masno slilu"],
+        ["snoslijgita", "masno slilu jgita"],
+        ["snulalske", "casnu lanli saske"],
+        ["snununpe'i", "casnu nu penmi"],
+        ["snusna", "casnu sance"],
+        ["snuxau", "casnu xamgu"],
+        ["so'etsi", "sobde tsiju"],
+        ["sorpra", "so'i cupra"],
+        ["sorpre", "so'i prenu"],
+        ["sorna'a", "so'i nanca"],
+        ["sorprema'e", "so'i prenu marce"],
+        ["sorpruda'i", "so'i purci darxi"],
+        ["sorzu'edzukla", "so'i zukte cadzu klama"],
+        ["soidji", "sonci djica"],
+        ["soirnei", "sonci nelci"],
+        ["solboi", "solri bolci"],
+        ["solgu'i", "solri gusni"],
+        ["solro'i", "solri rokci"],
+        ["solseldi'e", "solri se dirce"],
+        ["solxrula", "solri xrula"],
+        ["sonralju", "sonci ralju"],
+        ["sorkoitai", "so'i korbi tarmi"],
+        ["sorprekarce", "so'i prenu karce"],
+        ["soryre'a", "so'i remna"],
+        ["sosma'o", "so'o cmavo"],
+        ["sosyjetka'u", "so'o jetnu kantu"],
+        ["sosyselcmipi'i", "so'o se cmima pilji"],
+        ["sosyselcmisumji", "so'o se cmima sumji"],
+        ["sosyzda", "so'o zdani"],
+        ["sotprekarce", "so'u prenu karce"],
+        ["sovrango", "sovda rango"],
+        ["sovyseltai", "sovda se tarmi"],
+        ["spabi'u", "spati bitmu"],
+        ["spacange", "spati cange"],
+        ["spacau", "spati claxu"],
+        ["spatadni", "spati tadni"],
+        ["spagunma", "spati gunma"],
+        ["spebi'o", "speni binxo"],
+        ["spebu'a", "speni bruna"],
+        ["spebunspe", "speni bruna speni"],
+        ["specfari'i", "speni cfari ritli"],
+        ["spegau", "speni gasnu"],
+        ["spekemlazyki'i", "speni ke lanzu ckini"],
+        ["spelazmi'u", "speni lanzu mintu"],
+        ["spemamta", "speni mamta"],
+        ["speme'i", "speni mensi"],
+        ["speme'ispe", "speni mensi speni"],
+        ["sperirni", "speni rirni"],
+        ["spepa'u", "speni patfu"],
+        ["spesi'u", "speni simxu"],
+        ["speti'u", "speni tixnu"],
+        ["spetubyspe", "speni tunba speni"],
+        ["spetunba", "speni tunba"],
+        ["spezau", "speni zanru"],
+        ["spicku", "spisa cukta"],
+        ["spixra", "spisa pixra"],
+        ["spofriti", "daspo friti"],
+        ["spusku", "spuda cusku"],
+        ["sraki'e", "sarji kicne"],
+        ["raksku", "sraku cusku"],
+        ["srimakyvelvei", "dasri maksi ve vreji"],
+        ["sropanka", "sorcu panka"],
+        ["srota'e", "sorcu tanxe"],
+        ["sacrai", "stace traji"],
+        ["stagau", "stali gasnu"],
+        ["stagypurdi", "stagi purdi"],
+        ["stagyve'u", "stagi vecnu"],
+        ["sicmla", "stici mlana"],
+        ["stiri'a", "sisti rinka"],
+        ["stodatni", "stodi datni"],
+        ["stufa'i", "stuzi facki"],
+        ["stula'i", "stuzi lamji"],
+        ["sunzdo", "stuna xazdo"],
+        ["sunzdopre", "stuna xazdo prenu"],
+        ["sucri'a", "sucta rinka"],
+        ["sudgau", "sudga gasnu"],
+        ["sudgaubu'u", "sudga gasnu bukpu"],
+        ["sudyfoi", "sudga foldi"],
+        ["sudysrasu", "sudga srasu"],
+        ["sudytu'a", "sudga tumla"],
+        ["sukli'a", "suksa cliva"],
+        ["sukybajykla", "suksa bajra klama"],
+        ["sulkai", "sunla ckaji"],
+        ["sulmai", "sunla marji"],
+        ["sumnyjirna", "sumne jirna"],
+        ["sumtcita", "sumti tcita"],
+        ["sunko'o", "stuna skoto"],
+        ["surbi'o", "surla binxo"],
+        ["surdzu", "surla cadzu"],
+        ["sutctidja", "sutra citka cidja"],
+        ["sutfau", "sutra fasnu"],
+        ["sutfle", "sutra flecu"],
+        ["sutkemjupsabdja", "sutra ke jukpa sabji cidja"],
+        ["sutrai", "sutra traji"],
+        ["sutraisli", "sutra traji slilu"],
+        ["sutybai", "sutra bapli"],
+        ["sutfi'i", "sutra finti"],
+        ["sutygau", "sutra gasnu"],
+        ["sutyjvi", "sutra jivna"],
+        ["sutkla", "sutra klama"],
+        ["sutmau", "sutra zmadu"],
+        ["sutyterjvi", "sutra te jivna"],
+        ["sutyzbadja", "sutra zbasu cidja"],
+        ["sutsabdja", "sutra sabji cidja"],
+        ["sutspu", "sutra spuda"],
+        ["sutyjupydja", "sutra jukpa cidja"],
+        ["tavjmi", "tavla jimpe"],
+        ["ta'atci", "tavla tutci"],
+        ["ta'axlu", "tavla xlura"],
+        ["taxyca'a", "tanxe cabra"],
+        ["ta'irgau", "tatpi gasnu"],
+        ["ta'orda'i", "tanbo darxi"],
+        ["ta'orstizu", "tanbo stizu"],
+        ["ta'uzba", "taxfu zbasu"],
+        ["tacpinxe", "tance pinxe"],
+        ["tacto'acfa", "tance tonga cfari"],
+        ["tacti'e", "tance trixe"],
+        ["tactungau", "tance tunta gasnu"],
+        ["tacycra", "tance crane"],
+        ["tacydzi", "tance dizlo"],
+        ["tacyga'u", "tance galtu"],
+        ["tacymidju", "tance midju"],
+        ["tadgri", "tadni girzu"],
+        ["tadju'i", "tadni jundi"],
+        ["tadnunpe'i", "tadni nu penmi"],
+        ["tadypre", "tadni prenu"],
+        ["tadycku", "tadni cukta"],
+        ["tadysmadyfi'a", "tadni smadi cfika"],
+        ["tafkoi", "taxfu korbi"],
+        ["taflumpu'o", "taxfu lumci purmo"],
+        ["tafygunma", "taxfu gunma"],
+        ["tagmau", "tagji zmadu"],
+        ["tagysna", "tagji sance"],
+        ["tamglefri", "tarmi gletu lifri"],
+        ["taktapla", "staku tapla"],
+        ["takybli", "staku bliku"],
+        ["tamdu'i", "tarmi dunli"],
+        ["tamju'o", "tarmi djuno"],
+        ["taismi", "tarmi simsa"],
+        ["tankycacpli", "tanko tcaci pilno"],
+        ["tankydanmo", "tanko danmo"],
+        ["tankyjelfri", "tanko jelca lifri"],
+        ["tankyjelgau", "tanko jelca gasnu"],
+        ["tankypli", "tanko pilno"],
+        ["tankyxu'i", "tanko xukmi"],
+        ["tauzba", "tanru zbasu"],
+        ["tapkla", "stapa klama"],
+        ["taplytai", "tapla tarmi"],
+        ["tatyji'o", "tatru jipno"],
+        ["tatyta'u", "tatru taxfu"],
+        ["taurselpli", "tanru se pilno"],
+        ["taursu'a", "tanru stura"],
+        ["tavba'u", "tavla bacru"],
+        ["tavma'o", "tavla cmavo"],
+        ["tavnei", "tavla nelci"],
+        ["taxmi'i", "tanxe minji"],
+        ["cacysku", "tcaci cusku"],
+        ["tcakarni", "tcadu karni"],
+        ["tcanai", "tcadu natmi"],
+        ["tcare'etcana", "tcadu trene tcana"],
+        ["tcatru", "tcadu turni"],
+        ["tcatytei", "tcati temci"],
+        ["tcavro", "tcadu vorme"],
+        ["tcavru", "tcadu savru"],
+        ["tcaxa'u", "tcadu xabju"],
+        ["tcebi'o", "mutce binxo"],
+        ["tceci'i", "mutce cinri"],
+        ["tcecla", "mutce clani"],
+        ["tcecli", "mutce cilre"],
+        ["tcecne", "mutce cenba"],
+        ["tcefri", "mutce lifri"],
+        ["tcegei", "mutce gleki"],
+        ["tcesau", "mutce slabu"],
+        ["tceselpu'a", "mutce se pluka"],
+        ["tceselspaji", "mutce se spaji"],
+        ["tceselxai", "mutce se xrani"],
+        ["tcesnosli", "mutce masno slilu"],
+        ["tcesutsli", "mutce sutra slilu"],
+        ["tceta'i", "mutce tatpi"],
+        ["tcete'a", "mutce terpa"],
+        ["tceva'uvruto'a", "mutce vasxu savru tonga"],
+        ["tcexai", "mutce xrani"],
+        ["tcikyselylacri", "tcika se lacri"],
+        ["tcikyzga", "tcika zgana"],
+        ["tcityta'o", "tcita tanbo"],
+        ["tciveljai", "tutci ve jgari"],
+        ["tcokumte", "ketco kumte"],
+        ["tcudu'u", "nitcu dunku"],
+        ["tebykre", "ctebi kerfa"],
+        ["tecmau", "steci zmadu"],
+        ["tedboi", "terdi bolci"],
+        ["tedyplini", "terdi plini"],
+        ["teicla", "temci clani"],
+        ["teirmo'a", "temci morna"],
+        ["teistu", "temci stuzi"],
+        ["tembavdei", "temci balvi djedi"],
+        ["tembavna'a", "temci balvi nanca"],
+        ["tembavytei", "temci balvi temci"],
+        ["temcimni", "temci cimni"],
+        ["temge'a", "temci gerna"],
+        ["tepcau", "terpa claxu"],
+        ["teprai", "terpa traji"],
+        ["tepri'a", "terpa rinka"],
+        ["tepringau", "terpa krinu gasnu"],
+        ["tepygau", "terpa gasnu"],
+        ["tercakyjme", "te calku jemna"],
+        ["terda'akoi", "te damba korbi"],
+        ["tergusmi'i", "te gusni minji"],
+        ["terkemselgeimau", "te ke se gleki zmadu"],
+        ["terlumpu'o", "te lumci purmo"],
+        ["termo'ixau", "te morji xamgu"],
+        ["terpecfoi", "te pencu foldi"],
+        ["tersa'e", "te satre"],
+        ["tersa'ecpu", "te satre lacpu"],
+        ["tersliroldu'i", "te slilu ro dunli"],
+        ["tersacmau", "te stace zmadu"],
+        ["terto'asko", "te tonga skori"],
+        ["tervlimau", "te vlipa zmadu"],
+        ["rixybakfu", "trixe bakfu"],
+        ["rixybo'u", "trixe bongu"],
+        ["rixykansa", "trixe kansa"],
+        ["rixpau", "trixe pagbu"],
+        ["rixtu'e", "trixe tuple"],
+        ["rixsfe", "trixe sefta"],
+        ["ti'icki", "stidi ciksi"],
+        ["ti'ifla", "stidi flalu"],
+        ["ti'ortai", "ctino tarmi"],
+        ["ti'otci", "ctino tutci"],
+        ["tixspe", "tixnu speni"],
+        ["tibmli", "tinbe milxe"],
+        ["ticyjifsku", "tcica jitfa cusku"],
+        ["ticysku", "tcica cusku"],
+        ["tigdi'u", "tigni dinju"],
+        ["tigygusta", "tigni gusta"],
+        ["tigypre", "tigni prenu"],
+        ["tikygau", "stika gasnu"],
+        ["tilcau", "tcila claxu"],
+        ["tilmau", "tcila zmadu"],
+        ["tilsku", "tcila cusku"],
+        ["tinca'a", "tirna cabra"],
+        ["tinju'i", "tirna jundi"],
+        ["tinsybu'u", "tinsa bukpu"],
+        ["tinsyple", "tinsa pelji"],
+        ["tipyboi", "tikpa bolci"],
+        ["tisnanba", "tisna nanba"],
+        ["tisycanti", "tisna canti"],
+        ["tisydja", "tisna cidja"],
+        ["titnanba", "titla nanba"],
+        ["titselpa'i", "titla se prami"],
+        ["tixmamta", "tixnu mamta"],
+        ["to'acfa", "tonga cfari"],
+        ["to'acru", "tonga curmi"],
+        ["togykaigri", "tonga ckaji girzu"],
+        ["to'asti", "tonga sisti"],
+        ["to'asto", "tonga stodi"],
+        ["tolcitnau", "to'e citno nanmu"],
+        ["tolci'o", "to'e citno"],
+        ["tolcu'i", "to'e cumki"],
+        ["toldarsi", "to'e darsi"],
+        ["tolno'i", "to'e nobli"],
+        ["tolpante", "to'e pante"],
+        ["tolsi'a", "to'e sinma"],
+        ["tolte'i", "to'e steci"],
+        ["tolte'igau", "to'e steci gasnu"],
+        ["tolvri", "to'e virnu"],
+        ["tolzba", "to'e zbasu"],
+        ["tocnunpe'i", "troci nu penmi"],
+        ["toirca'a", "troci cabra"],
+        ["togdicra", "tonga dicra"],
+        ["togle'u", "tonga lerfu"],
+        ["togra'ijmavra", "tonga ranji jamfu vraga"],
+        ["togyci'e", "tonga ciste"],
+        ["togycnesli", "tonga cenba slilu"],
+        ["to'apra", "tonga cupra"],
+        ["to'asli", "tonga slilu"],
+        ["togytikygau", "tonga stika gasnu"],
+        ["togytikpijne", "tonga stika pijne"],
+        ["togytikpijnyvau", "tonga stika pijne vasru"],
+        ["togytikyke'a", "tonga stika kevna"],
+        ["tolbanzu", "to'e banzu"],
+        ["tolcanci", "to'e canci"],
+        ["tolka'eselylacri", "to'e kakne se lacri"],
+        ["tolnindai", "to'e cnino dacti"],
+        ["tolpaivu'e", "to'e pajni vrude"],
+        ["tolpa'e", "to'e prane"],
+        ["toltiljvo", "to'e tcila lujvo"],
+        ["tolzau", "to'e zanru"],
+        ["tolzaupai", "to'e zanru pajni"],
+        ["torcrida", "tordu crida"],
+        ["tordakyxa'i", "tordu dakfu xarci"],
+        ["torga'axa'i", "tordu grana xarci"],
+        ["tormau", "tordu zmadu"],
+        ["tornunkruca", "tordu nu kruca"],
+        ["torselsku", "tordu se cusku"],
+        ["tortei", "tordu temci"],
+        ["toryre'a", "tordu remna"],
+        ["rairnei", "traji nelci"],
+        ["rairtoi", "traji troci"],
+        ["tramo'a", "tarti morna"],
+        ["tranydro", "trano cidro"],
+        ["tratygarna", "trati garna"],
+        ["ricyzbe", "tricu zbepi"],
+        ["truci'e", "turni ciste"],
+        ["trukamni", "turni kamni"],
+        ["truspe", "turni speni"],
+        ["trusragri", "turni sarji girzu"],
+        ["trustizu", "turni stizu"],
+        ["tsacinla", "tsali cinla"],
+        ["tsamau", "tsali zmadu"],
+        ["tsame'a", "tsali mleca"],
+        ["tanbargu", "tsani bargu"],
+        ["tanxa'u", "tsani xabju"],
+        ["tsarai", "tsali traji"],
+        ["tsejbi", "zutse jibni"],
+        ["tsifaigau", "tsiju fatri gasnu"],
+        ["tsilitki", "tsiju litki"],
+        ["tsipejgau", "tsiju preja gasnu"],
+        ["tsise'a", "tsiju setca"],
+        ["tsiselcigla", "tsiju se cigla"],
+        ["tsivi'i", "tsiju vikmi"],
+        ["tsubu'u", "rotsu bukpu"],
+        ["tsugrusi", "rotsu grusi"],
+        ["tu'ucra", "tubnu crane"],
+        ["tubyspe", "tunba speni"],
+        ["tubyti'u", "tunba tixnu"],
+        ["tupcutci", "tuple cutci"],
+        ["tupyga'u", "tuple galtu"],
+        ["turdu'i", "stura dunli"],
+        ["tutkoi", "tutra korbi"],
+        ["tutske", "tutra saske"],
+        ["tutytu'a", "tutra tumla"],
+        ["vajba'u", "vajni bacru"],
+        ["vajrai", "vajni traji"],
+        ["vairxu'a", "vajni xusra"],
+        ["selvaixu'a", "se vajni xusra"],
+        ["vlakei", "valsi kelci"],
+        ["vlanunkei", "valsi nu kelci"],
+        ["vlaselkei", "valsi se kelci"],
+        ["vlaturge'a", "valsi stura gerna"],
+        ["vlatercu'a", "valsi te cuxna"],
+        ["vampai", "vamji pajni"],
+        ["vacysai", "vanci sanmi"],
+        ["vanjba", "vanju jbari"],
+        ["varjei", "vacri jenmi"],
+        ["varmuvmi'i", "vacri muvdu minji"],
+        ["varselclu", "vacri se culno"],
+        ["varsoi", "vacri sonci"],
+        ["vasnanba", "vasru nanba"],
+        ["vaurgau", "vasru gasnu"],
+        ["vaxterje'e", "vasxu te jetce"],
+        ["vaxtu'o", "vasxu tunlo"],
+        ["vaxtu'upau", "vasxu tubnu pagbu"],
+        ["vaxyba'u", "vasxu bacru"],
+        ["vaxyke'a", "vasxu kevna"],
+        ["vaxyvi'i", "vasxu vikmi"],
+        ["vazdzu", "va cadzu"],
+        ["venynoi", "vecnu notci"],
+        ["vensni", "vecnu sinxa"],
+        ["vefsfa", "venfu sfasa"],
+        ["vefydji", "venfu djica"],
+        ["veirci'a", "vreji ciska"],
+        ["veljoicradi", "ve joi cradi"],
+        ["velkemprema'e", "ve ke prenu marce"],
+        ["velklali'i", "ve klama linji"],
+        ["velma'ekla", "ve marce klama"],
+        ["velma'epre", "ve marce prenu"],
+        ["velmirsna", "ve minra sance"],
+        ["velskicau", "ve skicu claxu"],
+        ["venski", "vecnu skicu"],
+        ["vesyspa", "vensa spati"],
+        ["venzmi", "vecnu zmiku"],
+        ["verjipci", "verba jipci"],
+        ["verku'i", "verba kurji"],
+        ["vi'ajmi", "viska jimpe"],
+        ["vi'ecpe", "vitke cpedu"],
+        ["vibgle", "vibna gletu"],
+        ["viblitki", "vibna litki"],
+        ["vibmolgle", "vibna moklu gletu"],
+        ["vibyselcigla", "vibna se cigla"],
+        ["vidnyveica'a", "vidni vreji cabra"],
+        ["vijyja'a", "vinji jatna"],
+        ["vijysazri", "vinji sazri"],
+        ["vilkla", "vlile klama"],
+        ["vilti'a", "vlile tcima"],
+        ["vilyle'a", "vlile lebna"],
+        ["vimku'a", "vikmi kumfa"],
+        ["viptru", "vipsi turni"],
+        ["vipyja'a", "vipsi jatna"],
+        ["viska'e", "viska kakne"],
+        ["viska'eri'a", "viska kakne rinka"],
+        ["viskli", "viska klina"],
+        ["visnalka'eri'a", "viska na'e kakne rinka"],
+        ["vi'adji", "viska djica"],
+        ["visfa'i", "viska facki"],
+        ["visyvei", "viska vreji"],
+        ["vi'orji'e", "vitno jmive"],
+        ["vizbei", "vi bevri"],
+        ["vizyklo", "vi diklo"],
+        ["vizystu", "vi stuzi"],
+        ["vlaba'i", "valsi banli"],
+        ["vlacku", "valsi cukta"],
+        ["vlaja'o", "valsi jarco"],
+        ["vlali'i", "valsi linji"],
+        ["vlami'u", "valsi mintu"],
+        ["vlaste", "valsi liste"],
+        ["vlastocku", "valsi stodi cukta"],
+        ["vlaxajmi", "valsi xajmi"],
+        ["vliki'a", "vlipa krixa"],
+        ["vlikla", "vlipa klama"],
+        ["vlimau", "vlipa zmadu"],
+        ["vlinyselkau", "vlina se kampu"],
+        ["voikla", "vofli klama"],
+        ["voirli'u", "vofli litru"],
+        ["volmabru", "vofli mabru"],
+        ["voksnaske", "voksa sance saske"],
+        ["vokle'u", "voksa lerfu"],
+        ["voksli", "voksa slilu"],
+        ["volcukla", "vofli cukla"],
+        ["volfalnu", "vofli falnu"],
+        ["volgau", "vofli gasnu"],
+        ["volselkei", "vofli se kelci"],
+        ["vonpitytai", "vo plita tarmi"],
+        ["vonselmla", "vo se mlana"],
+        ["vonmlatai", "vo mlana tarmi"],
+        ["vonskosa'e", "vo skori satre"],
+        ["vrostu", "vorme stuzi"],
+        ["vrede'a", "vreta denpa"],
+        ["vresraki'e", "vreta sarji kicne"],
+        ["vriba'i", "virnu banli"],
+        ["vricyvipsi", "vrici vipsi"],
+        ["vrikla", "virnu klama"],
+        ["vrirai", "virnu traji"],
+        ["vrobi'u", "vorme bitmu"],
+        ["vroca'o", "vorme canko"],
+        ["vrogai", "vorme gacri"],
+        ["vrozu'itci", "vorme zunti tutci"],
+        ["vruca'a", "savru cabra"],
+        ["vrucau", "savru claxu"],
+        ["vu'igla", "vrusi glare"],
+        ["xa'argai", "xatra gacri"],
+        ["xa'arvau", "xatra vasru"],
+        ["xa'urjudri", "xabju judri"],
+        ["xa'urvanbi", "xabju vanbi"],
+        ["xabyplu", "xadba daplu"],
+        ["xabmapti", "xadba mapti"],
+        ["xabminli", "xadba minli"],
+        ["xabnilganra", "xadba ni ganra"],
+        ["xabybumru", "xadba bumru"],
+        ["xacysanta", "xarci santa"],
+        ["xacysantyse'u", "xarci santa selfu"],
+        ["xadbi'o", "xadni binxo"],
+        ["xadmidju", "xadni midju"],
+        ["xadmuvgau", "xadni muvdu gasnu"],
+        ["xadycarna", "xadni carna"],
+        ["xadycla", "xadni clani"],
+        ["xadykro", "xadni korcu"],
+        ["xadypau", "xadni pagbu"],
+        ["xadyplijvi", "xadni pilno jivna"],
+        ["xadysku", "xadni cusku"],
+        ["xadytaixau", "xadni tarmi xamgu"],
+        ["xadyti'e", "xadni trixe"],
+        ["xadyxai", "xadni xrani"],
+        ["xauzma", "xamgu zmadu"],
+        ["xagmaubi'o", "xamgu zmadu binxo"],
+        ["xagmaugau", "xamgu zmadu gasnu"],
+        ["xagmaupai", "xamgu zmadu pajni"],
+        ["xagrai", "xamgu traji"],
+        ["xagri'a", "xamgu rinka"],
+        ["xaursirji", "xamgu sirji"],
+        ["xagze'a", "xamgu zenba"],
+        ["xajre'u", "xarju rectu"],
+        ["xalbarja", "xalka barja"],
+        ["xalbebna", "xalka bebna"],
+        ["xalcro", "xalka cortu"],
+        ["xaldji", "xalka djica"],
+        ["xalfenki", "xalka fenki"],
+        ["xalgei", "xalka gleki"],
+        ["xalkai", "xalka ckaji"],
+        ["xalnunvindu", "xalka nu vindu"],
+        ["xalpinxe", "xalka pinxe"],
+        ["xalpixydji", "xalka pinxe djica"],
+        ["xalsa'a", "xalka sanga"],
+        ["xalsedycro", "xalka stedu cortu"],
+        ["xalsipna", "xalka sipna"],
+        ["xalsla", "xalka salci"],
+        ["xalvamtu", "xalka vamtu"],
+        ["xalxre", "xalka mixre"],
+        ["xamfi'i", "xajmi finti"],
+        ["xamgau", "xajmi gasnu"],
+        ["xamselfi'i", "xajmi se finti"],
+        ["xamyzu'e", "xajmi zukte"],
+        ["xanboi", "xance bolci"],
+        ["xandakyxa'i", "xance dakfu xarci"],
+        ["xandegji", "xance degji"],
+        ["xandegycalku", "xance degji calku"],
+        ["xangle", "xance gletu"],
+        ["xanjanbe", "xance janbe"],
+        ["xanjoifirsku", "xance joi flira cusku"],
+        ["xansku", "xance cusku"],
+        ["xantamji", "xance tamji"],
+        ["xanterjo'e", "xance te jorne"],
+        ["xantydenmai", "xanto denci marji"],
+        ["xanzunto'a", "xance zunti tonga"],
+        ["xarpre", "xanri prenu"],
+        ["xaskla", "xamsi klama"],
+        ["xaskoi", "xamsi korbi"],
+        ["xaslycmo", "xasli cmoni"],
+        ["xasxelkla", "xamsi xe klama"],
+        ["xasyda'u", "xamsi danlu"],
+        ["xasymabru", "xamsi mabru"],
+        ["xasysfe", "xamsi sefta"],
+        ["xasyspa", "xamsi spati"],
+        ["xaufri", "xamgu lifri"],
+        ["xaujdi", "xamgu jdice"],
+        ["jikykamxaujdi", "jikca ka xamgu jdice"],
+        ["xaupre", "xamgu prenu"],
+        ["xaurfu'a", "xamgu funca"],
+        ["xaurka'e", "xamgu kakne"],
+        ["xaurpai", "xamgu pajni"],
+        ["xaurprepro", "xamgu prenu fapro"],
+        ["xaurtoi", "xamgu troci"],
+        ["xavyselmla", "xa se mlana"],
+        ["xavyto'a", "xa tonga"],
+        ["xekselkre", "xekri se kerfa"],
+        ["xejyji'o", "xedja jipno"],
+        ["xejykoi", "xedja korbi"],
+        ["xe'akre", "xedja kerfa"],
+        ["xekli'ikai", "xekri linji ckaji"],
+        ["xekyblabi", "xekri blabi"],
+        ["xekselskapi", "xekri se skapi"],
+        ["xelbe'iple", "xe benji pelji"],
+        ["xernunba'u", "xenru nu bacru"],
+        ["xerselfriti", "xenru se friti"],
+        ["xervla", "xenru valsi"],
+        ["xesxei", "xelso xebni"],
+        ["xesygu'e", "xelso gugde"],
+        ["xilcucli'u", "xislu cutci litru"],
+        ["xilcutci", "xislu cutci"],
+        ["xingu'e", "xindo gugde"],
+        ["xirkla", "xirma klama"],
+        ["xircmo", "xirma cmoni"],
+        ["xirno'i", "xirma nobli"],
+        ["xirselma'e", "xirma se marce"],
+        ["xirselma'ecu'e", "xirma se marce ckule"],
+        ["xirselma'eno'i", "xirma se marce nobli"],
+        ["xirno'i", "xirma nobli"],
+        ["xirza'u", "xirma zargu"],
+        ["xisli'icutci", "xriso linji cutci"],
+        ["xismalsi", "xriso malsi"],
+        ["xi'octu", "xriso ctuca"],
+        ["xlabu'u", "xlali bukpu"],
+        ["xlafu'a", "xlali funca"],
+        ["xlapre", "xlali prenu"],
+        ["xlari'a", "xlali rinka"],
+        ["xlati'a", "xlali tcima"],
+        ["xleserti", "naxle serti"],
+        ["xluga'i", "xlura galfi"],
+        ["xrakarni", "pixra karni"],
+        ["xrare'o", "pixra renro"],
+        ["xrube'i", "xruti benji"],
+        ["xrucpa", "xruti cpacu"],
+        ["xrufle", "xruti flecu"],
+        ["xrukla", "xruti klama"],
+        ["xu'acmu", "xusra jicmu"],
+        ["terxuspli", "te xusra pilno"],
+        ["xukske", "xruki saske"],
+        ["xuksle", "xruki selci"],
+        ["xumcacpli", "xukmi tcaci pilno"],
+        ["xumsne", "xukmi senva"],
+        ["xunkrexli", "xunre kerfa nixli"],
+        ["xusnoi", "xusra notci"],
+        ["xusycmuma'o", "xusra jicmu cmavo"],
+        ["xusypapri", "xusra papri"],
+        ["xusyvei", "xusra vreji"],
+        ["zaglamtu'e", "zargu lamji tuple"],
+        ["zajyctu", "zajba ctuca"],
+        ["zalre'u", "zalvi rectu"],
+        ["zaltapla", "zalvi tapla"],
+        ["zancimstu", "zabna cilmo stuzi"],
+        ["zanfri", "zabna lifri"],
+        ["zarki'a", "zanru krixa"],
+        ["zasmo'isro", "zasni morji sorcu"],
+        ["zasyspo", "zasni daspo"],
+        ["zasysti", "zasni sisti"],
+        ["macyva'uzasysti", "manci vasxu zasni sisti"],
+        ["zatfa'i", "zasti facki"],
+        ["zatsta", "zasti stali"],
+        ["zausku", "zanru cusku"],
+        ["zbaske", "zbasu saske"],
+        ["zbaveljmina", "zbasu ve jmina"],
+        ["zbero'i", "zbepi rokci"],
+        ["zbisakci", "nazbi sakci"],
+        ["zdabartu", "zdani bartu"],
+        ["zdacravro", "zdani crane vorme"],
+        ["zdadi'u", "zdani dinju"],
+        ["zdaku'i", "zdani kurji"],
+        ["zdamu'e", "zdani munje"],
+        ["zdane'i", "zdani nenri"],
+        ["zdasazri", "zdani sazri"],
+        ["zdaspe", "zdani speni"],
+        ["zdasta", "zdani stali"],
+        ["zdatutra", "zdani tutra"],
+        ["zdaxru", "zdani xruti"],
+        ["zdida'asnu", "zdile damba casnu"],
+        ["zdifanza", "zdile fanza"],
+        ["zdilisri", "zdile lisri"],
+        ["zenri'a", "zenba rinka"],
+        ["zergau", "zekri gasnu"],
+        ["zerkalte", "zekri kalte"],
+        ["zerle'a", "zekri lebna"],
+        ["blozeile'a", "bloti zekri lebna"],
+        ["nunblozeile'a", "nu bloti zekri lebna"],
+        ["nunzeile'a", "nu zekri lebna"],
+        ["zernerkla", "zekri nenri klama"],
+        ["zerxai", "zekri xrani"],
+        ["zerxaigau", "zekri xrani gasnu"],
+        ["zetcla", "zetro clani"],
+        ["zgama'o", "zgana cmavo"],
+        ["zgatirna", "zgana tirna"],
+        ["zgica'a", "zgike cabra"],
+        ["zgifau", "zgike fasnu"],
+        ["zgifi'i", "zgike finti"],
+        ["zgijvexajmi", "zgike je xajmi"],
+        ["zgikabri", "zgike kabri"],
+        ["zgikalsa", "zgike kalsa"],
+        ["zgipi'o", "zgike pipno"],
+        ["zgiselsku", "zgike se cusku"],
+        ["zgisku", "zgike cusku"],
+        ["selzgisku", "se zgike cusku"],
+        ["zgizu'e", "zgike zukte"],
+        ["zifri'a", "zifre rinka"],
+        ["zirjbo", "zirpu lojbo"],
+        ["maudji", "zmadu djica"],
+        ["zmanei", "zmadu nelci"],
+        ["termaupu'a", "te zmadu pluka"],
+        ["zmari'a", "zmadu rinka"],
+        ["zmitra", "zmiku tarti"],
+        ["zmutu'a", "zumri tumla"],
+        ["zu'edji", "zukte djica"],
+        ["zugyxu'a", "zungi xusra"],
+        ["zulxa'e", "zunle xance"],
+        ["zunsna", "zunti sance"],
+        ["tsekansa", "zutse kansa"],
+        ["tsela'i", "zutse lamji"],
+        ["zvaju'o", "zvati djuno"],
+        ["zvakansa", "zvati kansa"],
+        ["zvapre", "zvati prenu"],
+        ["zvaste", "zvati liste"],
+        ["zvastejbu", "zvati liste jubme"],
+        ["selba'u", "se bacru"],
+        ["selbadna", "se badna"],
+        ["seldri", "se badri"],
+        ["selbajra", "se bajra"],
+        ["terbajra", "te bajra"],
+        ["velbajra", "ve bajra"],
+        ["selbakfu", "se bakfu"],
+        ["terbakfu", "te bakfu"],
+        ["selbakni", "se bakni"],
+        ["selbakri", "se bakri"],
+        ["terbakri", "te bakri"],
+        ["selbaktu", "se baktu"],
+        ["terbaktu", "te baktu"],
+        ["selbalji", "se balji"],
+        ["selbalni", "se balni"],
+        ["selba'e", "se balre"],
+        ["selbalvi", "se balvi"],
+        ["selbancu", "se bancu"],
+        ["terbancu", "te bancu"],
+        ["velbancu", "ve bancu"],
+        ["selbandu", "se bandu"],
+        ["terbandu", "te bandu"],
+        ["selbanfi", "se banfi"],
+        ["selbau", "se bangu"],
+        ["terbau", "te bangu"],
+        ["selba'i", "se banli"],
+        ["terba'i", "te banli"],
+        ["selba'o", "se banro"],
+        ["terba'o", "te banro"],
+        ["selbanxa", "se banxa"],
+        ["terbanxa", "te banxa"],
+        ["selbanzu", "se banzu"],
+        ["terbanzu", "te banzu"],
+        ["selbai", "se bapli"],
+        ["selbra", "se barda"],
+        ["terbra", "te barda"],
+        ["selbargu", "se bargu"],
+        ["terbargu", "te bargu"],
+        ["selbarja", "se barja"],
+        ["terbarja", "te barja"],
+        ["selba'a", "se barna"],
+        ["terba'a", "te barna"],
+        ["selbartu", "se bartu"],
+        ["selbasna", "se basna"],
+        ["terbasna", "te basna"],
+        ["selbasti", "se basti"],
+        ["terbasti", "te basti"],
+        ["selbatci", "se batci"],
+        ["terbatci", "te batci"],
+        ["velbatci", "ve batci"],
+        ["selbatke", "se batke"],
+        ["terbatke", "te batke"],
+        ["velbatke", "ve batke"],
+        ["selbavmi", "se bavmi"],
+        ["selbaxso", "se baxso"],
+        ["selbebna", "se bebna"],
+        ["selbe'o", "se bemro"],
+        ["selbe'e", "se bende"],
+        ["terbe'e", "te bende"],
+        ["velbe'e", "ve bende"],
+        ["selbengo", "se bengo"],
+        ["selbe'i", "se benji"],
+        ["terbe'i", "te benji"],
+        ["velbe'i", "ve benji"],
+        ["xelbe'i", "xe benji"],
+        ["selbe'a", "se bersa"],
+        ["selberti", "se berti"],
+        ["terberti", "te berti"],
+        ["selbesna", "se besna"],
+        ["selbe'u", "se betfu"],
+        ["selbetri", "se betri"],
+        ["selbei", "se bevri"],
+        ["terbei", "te bevri"],
+        ["velbei", "ve bevri"],
+        ["xelbei", "xe bevri"],
+        ["selbidju", "se bidju"],
+        ["selbifce", "se bifce"],
+        ["selbilga", "se bilga"],
+        ["terbilga", "te bilga"],
+        ["selbi'a", "se bilma"],
+        ["terbi'a", "te bilma"],
+        ["selbilni", "se bilni"],
+        ["terbilni", "te bilni"],
+        ["selbindo", "se bindo"],
+        ["selbinra", "se binra"],
+        ["terbinra", "te binra"],
+        ["velbinra", "ve binra"],
+        ["selbi'o", "se binxo"],
+        ["terbi'o", "te binxo"],
+        ["selbirje", "se birje"],
+        ["selbirka", "se birka"],
+        ["selbirti", "se birti"],
+        ["selbisli", "se bisli"],
+        ["selbi'u", "se bitmu"],
+        ["terbi'u", "te bitmu"],
+        ["velbi'u", "ve bitmu"],
+        ["selblaci", "se blaci"],
+        ["selbli", "se bliku"],
+        ["terbli", "te bliku"],
+        ["selblo", "se bloti"],
+        ["terblo", "te bloti"],
+        ["selboi", "se bolci"],
+        ["selbo'u", "se bongu"],
+        ["terbo'u", "te bongu"],
+        ["selbo'i", "se botpi"],
+        ["terbo'i", "te botpi"],
+        ["velbo'i", "ve botpi"],
+        ["selbo'o", "se boxfo"],
+        ["selbo'a", "se boxna"],
+        ["terbo'a", "te boxna"],
+        ["velbo'a", "ve boxna"],
+        ["xelbo'a", "xe boxna"],
+        ["selbradi", "se bradi"],
+        ["terbradi", "te bradi"],
+        ["selbratu", "se bratu"],
+        ["selbrazo", "se brazo"],
+        ["selbre", "se bredi"],
+        ["selbri", "se bridi"],
+        ["terbri", "te bridi"],
+        ["selbi'e", "se brife"],
+        ["terbi'e", "te brife"],
+        ["selbriju", "se briju"],
+        ["terbriju", "te briju"],
+        ["selbrito", "se brito"],
+        ["selbu'a", "se bruna"],
+        ["terbu'a", "te bruna"],
+        ["selbu'o", "se budjo"],
+        ["selbu'u", "se bukpu"],
+        ["selbumru", "se bumru"],
+        ["selbunda", "se bunda"],
+        ["terbunda", "te bunda"],
+        ["velbunda", "ve bunda"],
+        ["selbru", "se burcu"],
+        ["terbru", "te burcu"],
+        ["selburna", "se burna"],
+        ["selcabna", "se cabna"],
+        ["selca'a", "se cabra"],
+        ["terca'a", "te cabra"],
+        ["selcacra", "se cacra"],
+        ["tercacra", "te cacra"],
+        ["seldzu", "se cadzu"],
+        ["terdzu", "te cadzu"],
+        ["selcafne", "se cafne"],
+        ["selcalku", "se calku"],
+        ["tercalku", "te calku"],
+        ["selcanci", "se canci"],
+        ["tercanci", "te canci"],
+        ["selcange", "se cange"],
+        ["tercange", "te cange"],
+        ["velcange", "ve cange"],
+        ["selcanja", "se canja"],
+        ["tercanja", "te canja"],
+        ["velcanja", "ve canja"],
+        ["selca'o", "se canko"],
+        ["selcna", "se canpa"],
+        ["selcanre", "se canre"],
+        ["tercanre", "te canre"],
+        ["selcanti", "se canti"],
+        ["selcarce", "se carce"],
+        ["tercarce", "te carce"],
+        ["selcai", "se carmi"],
+        ["tercai", "te carmi"],
+        ["selcarna", "se carna"],
+        ["tercarna", "te carna"],
+        ["selcartu", "se cartu"],
+        ["tercartu", "te cartu"],
+        ["selcarvi", "se carvi"],
+        ["tercarvi", "te carvi"],
+        ["selsnu", "se casnu"],
+        ["selca'e", "se catke"],
+        ["terca'e", "te catke"],
+        ["selcta", "se catlu"],
+        ["selca'i", "se catni"],
+        ["terca'i", "te catni"],
+        ["selcatra", "se catra"],
+        ["tercatra", "te catra"],
+        ["selcaxno", "se caxno"],
+        ["tercaxno", "te caxno"],
+        ["velcaxno", "ve caxno"],
+        ["selce'a", "se cecla"],
+        ["terce'a", "te cecla"],
+        ["selce'u", "se cecmu"],
+        ["selcedra", "se cedra"],
+        ["selcne", "se cenba"],
+        ["tercne", "te cenba"],
+        ["velcne", "ve cenba"],
+        ["selcensa", "se censa"],
+        ["selcenti", "se centi"],
+        ["tercenti", "te centi"],
+        ["selcerda", "se cerda"],
+        ["tercerda", "te cerda"],
+        ["velcerda", "ve cerda"],
+        ["selcerni", "se cerni"],
+        ["tercerni", "te cerni"],
+        ["selcre", "se certu"],
+        ["tercre", "te certu"],
+        ["selcei", "se cevni"],
+        ["tercei", "te cevni"],
+        ["selfi'a", "se cfika"],
+        ["terfi'a", "te cfika"],
+        ["selcfi", "se cfila"],
+        ["tercfi", "te cfila"],
+        ["selcfine", "se cfine"],
+        ["selfi'u", "se cfipu"],
+        ["terfi'u", "te cfipu"],
+        ["selblu", "se ciblu"],
+        ["seldja", "se cidja"],
+        ["selcidni", "se cidni"],
+        ["tercidni", "te cidni"],
+        ["selcifnu", "se cifnu"],
+        ["selcigla", "se cigla"],
+        ["tercigla", "te cigla"],
+        ["selcikre", "se cikre"],
+        ["tercikre", "te cikre"],
+        ["selcki", "se ciksi"],
+        ["tercki", "te ciksi"],
+        ["velcki", "ve ciksi"],
+        ["selcilmo", "se cilmo"],
+        ["selcli", "se cilre"],
+        ["tercli", "te cilre"],
+        ["velcli", "ve cilre"],
+        ["xelcli", "xe cilre"],
+        ["selcilta", "se cilta"],
+        ["selcimde", "se cimde"],
+        ["tercimde", "te cimde"],
+        ["selcimni", "se cimni"],
+        ["tercimni", "te cimni"],
+        ["selcinba", "se cinba"],
+        ["tercinba", "te cinba"],
+        ["selcindu", "se cindu"],
+        ["selcinfo", "se cinfo"],
+        ["selcinje", "se cinje"],
+        ["selcinki", "se cinki"],
+        ["selcinla", "se cinla"],
+        ["tercinla", "te cinla"],
+        ["selcni", "se cinmo"],
+        ["tercni", "te cinmo"],
+        ["selci'i", "se cinri"],
+        ["selcinse", "se cinse"],
+        ["tercinse", "te cinse"],
+        ["velcinse", "ve cinse"],
+        ["selcinta", "se cinta"],
+        ["tercinta", "te cinta"],
+        ["selcinza", "se cinza"],
+        ["tercinza", "te cinza"],
+        ["selcpi", "se cipni"],
+        ["selcipra", "se cipra"],
+        ["tercipra", "te cipra"],
+        ["selcri", "se cirko"],
+        ["tercri", "te cirko"],
+        ["selcirla", "se cirla"],
+        ["selci'a", "se ciska"],
+        ["terci'a", "te ciska"],
+        ["velci'a", "ve ciska"],
+        ["selci'e", "se ciste"],
+        ["terci'e", "te ciste"],
+        ["velci'e", "ve ciste"],
+        ["selcti", "se citka"],
+        ["selci'o", "se citno"],
+        ["selcitri", "se citri"],
+        ["tercitri", "te citri"],
+        ["selcitsi", "se citsi"],
+        ["tercitsi", "te citsi"],
+        ["selcivla", "se civla"],
+        ["tercivla", "te civla"],
+        ["selcizra", "se cizra"],
+        ["tercizra", "te cizra"],
+        ["selckabu", "se ckabu"],
+        ["terckabu", "te ckabu"],
+        ["selckafi", "se ckafi"],
+        ["selkai", "se ckaji"],
+        ["selcka", "se ckana"],
+        ["tercka", "te ckana"],
+        ["selckape", "se ckape"],
+        ["terckape", "te ckape"],
+        ["selckasu", "se ckasu"],
+        ["terckasu", "te ckasu"],
+        ["velckasu", "ve ckasu"],
+        ["selcke", "se ckeji"],
+        ["tercke", "te ckeji"],
+        ["selckiku", "se ckiku"],
+        ["terckiku", "te ckiku"],
+        ["selci'u", "se ckilu"],
+        ["selki'i", "se ckini"],
+        ["terki'i", "te ckini"],
+        ["selckire", "se ckire"],
+        ["terckire", "te ckire"],
+        ["selcu'e", "se ckule"],
+        ["tercu'e", "te ckule"],
+        ["velcu'e", "ve ckule"],
+        ["xelcu'e", "xe ckule"],
+        ["selku'u", "se ckunu"],
+        ["terku'u", "te ckunu"],
+        ["selylau", "se cladu"],
+        ["terlau", "te cladu"],
+        ["selcla", "se clani"],
+        ["tercla", "te clani"],
+        ["selcau", "se claxu"],
+        ["selclika", "se clika"],
+        ["terclika", "te clika"],
+        ["selclira", "se clira"],
+        ["selclite", "se clite"],
+        ["terclite", "te clite"],
+        ["selyli'a", "se cliva"],
+        ["terli'a", "te cliva"],
+        ["selclupa", "se clupa"],
+        ["selcmaci", "se cmaci"],
+        ["selcma", "se cmalu"],
+        ["tercma", "te cmalu"],
+        ["selma'a", "se cmana"],
+        ["selma'o", "se cmavo"],
+        ["terma'o", "te cmavo"],
+        ["velma'o", "ve cmavo"],
+        ["selcme", "se cmene"],
+        ["tercme", "te cmene"],
+        ["selcmi", "se cmima"],
+        ["selcmo", "se cmoni"],
+        ["tercmo", "te cmoni"],
+        ["selna'o", "se cnano"],
+        ["terna'o", "te cnano"],
+        ["velna'o", "ve cnano"],
+        ["selne'o", "se cnebo"],
+        ["selne'u", "se cnemu"],
+        ["terne'u", "te cnemu"],
+        ["velne'u", "ve cnemu"],
+        ["selcnici", "se cnici"],
+        ["selni'o", "se cnino"],
+        ["terni'o", "te cnino"],
+        ["velni'o", "ve cnino"],
+        ["selni'a", "se cnita"],
+        ["terni'a", "te cnita"],
+        ["selcko", "se cokcu"],
+        ["tercko", "te cokcu"],
+        ["velcko", "ve cokcu"],
+        ["selcoi", "se condi"],
+        ["tercoi", "te condi"],
+        ["velcoi", "ve condi"],
+        ["selcro", "se cortu"],
+        ["selcpa", "se cpacu"],
+        ["tercpa", "te cpacu"],
+        ["selcpana", "se cpana"],
+        ["tercpana", "te cpana"],
+        ["selcpare", "se cpare"],
+        ["tercpare", "te cpare"],
+        ["velcpare", "ve cpare"],
+        ["selcpe", "se cpedu"],
+        ["tercpe", "te cpedu"],
+        ["velcpe", "ve cpedu"],
+        ["selcpina", "se cpina"],
+        ["selcradi", "se cradi"],
+        ["tercradi", "te cradi"],
+        ["velcradi", "ve cradi"],
+        ["selcra", "se crane"],
+        ["tercra", "te crane"],
+        ["selcreka", "se creka"],
+        ["selcrepu", "se crepu"],
+        ["tercrepu", "te crepu"],
+        ["selcribe", "se cribe"],
+        ["selcrida", "se crida"],
+        ["selcripu", "se cripu"],
+        ["tercripu", "te cripu"],
+        ["velcripu", "ve cripu"],
+        ["selcrisa", "se crisa"],
+        ["tercrisa", "te crisa"],
+        ["selcritu", "se critu"],
+        ["tercritu", "te critu"],
+        ["selctaru", "se ctaru"],
+        ["terctaru", "te ctaru"],
+        ["selctebi", "se ctebi"],
+        ["terctebi", "te ctebi"],
+        ["selce'i", "se cteki"],
+        ["terce'i", "te cteki"],
+        ["velce'i", "ve cteki"],
+        ["selctile", "se ctile"],
+        ["selti'o", "se ctino"],
+        ["terti'o", "te ctino"],
+        ["selctu", "se ctuca"],
+        ["terctu", "te ctuca"],
+        ["velctu", "ve ctuca"],
+        ["xelctu", "xe ctuca"],
+        ["selcku", "se cukta"],
+        ["tercku", "te cukta"],
+        ["velcku", "ve cukta"],
+        ["xelcku", "xe cukta"],
+        ["selclu", "se culno"],
+        ["selcu'i", "se cumki"],
+        ["selcumla", "se cumla"],
+        ["selcunmi", "se cunmi"],
+        ["selcu'o", "se cunso"],
+        ["tercu'o", "te cunso"],
+        ["selcu'u", "se cuntu"],
+        ["selpra", "se cupra"],
+        ["terpra", "te cupra"],
+        ["selcru", "se curmi"],
+        ["tercru", "te curmi"],
+        ["selcurnu", "se curnu"],
+        ["selcurve", "se curve"],
+        ["selsku", "se cusku"],
+        ["tersku", "te cusku"],
+        ["velsku", "ve cusku"],
+        ["selcutci", "se cutci"],
+        ["tercutci", "te cutci"],
+        ["selcutne", "se cutne"],
+        ["selcu'a", "se cuxna"],
+        ["tercu'a", "te cuxna"],
+        ["seldacru", "se dacru"],
+        ["terdacru", "te dacru"],
+        ["seldadjo", "se dadjo"],
+        ["seldakfu", "se dakfu"],
+        ["terdakfu", "te dakfu"],
+        ["seldakli", "se dakli"],
+        ["terdakli", "te dakli"],
+        ["selda'a", "se damba"],
+        ["terda'a", "te damba"],
+        ["seldamri", "se damri"],
+        ["seldandu", "se dandu"],
+        ["terdandu", "te dandu"],
+        ["seldanfu", "se danfu"],
+        ["selda'u", "se danlu"],
+        ["seldanmo", "se danmo"],
+        ["selda'e", "se danre"],
+        ["seldansu", "se dansu"],
+        ["seldanti", "se danti"],
+        ["selplu", "se daplu"],
+        ["terplu", "te daplu"],
+        ["seldapma", "se dapma"],
+        ["terdapma", "te dapma"],
+        ["seldargu", "se dargu"],
+        ["terdargu", "te dargu"],
+        ["veldargu", "ve dargu"],
+        ["seldau", "se darlu"],
+        ["terdau", "te darlu"],
+        ["selda'o", "se darno"],
+        ["terda'o", "te darno"],
+        ["seldarsi", "se darsi"],
+        ["selda'i", "se darxi"],
+        ["terda'i", "te darxi"],
+        ["velda'i", "ve darxi"],
+        ["seldaski", "se daski"],
+        ["seldasni", "se dasni"],
+        ["terdasni", "te dasni"],
+        ["selspo", "se daspo"],
+        ["selsri", "se dasri"],
+        ["seldatka", "se datka"],
+        ["seldatni", "se datni"],
+        ["terdatni", "te datni"],
+        ["seldecti", "se decti"],
+        ["terdecti", "te decti"],
+        ["seldegji", "se degji"],
+        ["terdegji", "te degji"],
+        ["seldejni", "se dejni"],
+        ["terdejni", "te dejni"],
+        ["veldejni", "ve dejni"],
+        ["seldekpu", "se dekpu"],
+        ["terdekpu", "te dekpu"],
+        ["veldekpu", "ve dekpu"],
+        ["seldekto", "se dekto"],
+        ["terdekto", "te dekto"],
+        ["selde'o", "se delno"],
+        ["terde'o", "te delno"],
+        ["seldembi", "se dembi"],
+        ["selde'i", "se denci"],
+        ["seldenmi", "se denmi"],
+        ["terdenmi", "te denmi"],
+        ["selde'a", "se denpa"],
+        ["terde'a", "te denpa"],
+        ["velde'a", "ve denpa"],
+        ["selde'u", "se dertu"],
+        ["terde'u", "te dertu"],
+        ["seldre", "se derxi"],
+        ["terdre", "te derxi"],
+        ["seldesku", "se desku"],
+        ["seldetri", "se detri"],
+        ["terdetri", "te detri"],
+        ["veldetri", "ve detri"],
+        ["seldicra", "se dicra"],
+        ["terdicra", "te dicra"],
+        ["seldikca", "se dikca"],
+        ["terdikca", "te dikca"],
+        ["selklo", "se diklo"],
+        ["terklo", "te diklo"],
+        ["seldikni", "se dikni"],
+        ["terdikni", "te dikni"],
+        ["seldilcu", "se dilcu"],
+        ["terdilcu", "te dilcu"],
+        ["veldilcu", "ve dilcu"],
+        ["seldilnu", "se dilnu"],
+        ["terdilnu", "te dilnu"],
+        ["veldilnu", "ve dilnu"],
+        ["seldimna", "se dimna"],
+        ["seldi'u", "se dinju"],
+        ["seldi'o", "se dinko"],
+        ["terdi'o", "te dinko"],
+        ["seldirba", "se dirba"],
+        ["seldi'e", "se dirce"],
+        ["terdi'e", "te dirce"],
+        ["seldirgo", "se dirgo"],
+        ["terdirgo", "te dirgo"],
+        ["seldzi", "se dizlo"],
+        ["terdzi", "te dizlo"],
+        ["seldei", "se djedi"],
+        ["terdei", "te djedi"],
+        ["seldji", "se djica"],
+        ["terdji", "te djica"],
+        ["seldjine", "se djine"],
+        ["terdjine", "te djine"],
+        ["veldjine", "ve djine"],
+        ["selju'o", "se djuno"],
+        ["terju'o", "te djuno"],
+        ["velju'o", "ve djuno"],
+        ["seldo'i", "se donri"],
+        ["terdo'i", "te donri"],
+        ["seldo'o", "se dotco"],
+        ["seldraci", "se draci"],
+        ["terdraci", "te draci"],
+        ["veldraci", "ve draci"],
+        ["xeldraci", "xe draci"],
+        ["seldra", "se drani"],
+        ["terdra", "te drani"],
+        ["veldra", "ve drani"],
+        ["seldrata", "se drata"],
+        ["terdrata", "te drata"],
+        ["seldru", "se drudi"],
+        ["seldu'o", "se du"],
+        ["terdu'o", "te du"],
+        ["seldugri", "se dugri"],
+        ["terdugri", "te dugri"],
+        ["seldu'e", "se dukse"],
+        ["terdu'e", "te dukse"],
+        ["seldukti", "se dukti"],
+        ["terdukti", "te dukti"],
+        ["seldu'a", "se dunda"],
+        ["terdu'a", "te dunda"],
+        ["seldunja", "se dunja"],
+        ["terdunja", "te dunja"],
+        ["seldu'u", "se dunku"],
+        ["seldu'i", "se dunli"],
+        ["terdu'i", "te dunli"],
+        ["seldunra", "se dunra"],
+        ["terdunra", "te dunra"],
+        ["seldze", "se dzena"],
+        ["terdze", "te dzena"],
+        ["selzi'o", "se dzipo"],
+        ["selfa'i", "se facki"],
+        ["terfa'i", "te facki"],
+        ["selfadni", "se fadni"],
+        ["terfadni", "te fadni"],
+        ["selfagri", "se fagri"],
+        ["terfagri", "te fagri"],
+        ["selfalnu", "se falnu"],
+        ["terfalnu", "te falnu"],
+        ["selfamti", "se famti"],
+        ["terfamti", "te famti"],
+        ["selfancu", "se fancu"],
+        ["terfancu", "te fancu"],
+        ["velfancu", "ve fancu"],
+        ["selfange", "se fange"],
+        ["terfange", "te fange"],
+        ["selfa'o", "se fanmo"],
+        ["selfanri", "se fanri"],
+        ["terfanri", "te fanri"],
+        ["selfanta", "se fanta"],
+        ["selfanva", "se fanva"],
+        ["terfanva", "te fanva"],
+        ["velfanva", "ve fanva"],
+        ["xelfanva", "xe fanva"],
+        ["selfanza", "se fanza"],
+        ["selpro", "se fapro"],
+        ["terpro", "te fapro"],
+        ["selfa'u", "se farlu"],
+        ["terfa'u", "te farlu"],
+        ["velfa'u", "ve farlu"],
+        ["selfa'a", "se farna"],
+        ["terfa'a", "te farna"],
+        ["selfarvi", "se farvi"],
+        ["terfarvi", "te farvi"],
+        ["velfarvi", "ve farvi"],
+        ["selfa'e", "se fatne"],
+        ["selfai", "se fatri"],
+        ["terfai", "te fatri"],
+        ["selfebvi", "se febvi"],
+        ["terfebvi", "te febvi"],
+        ["selfemti", "se femti"],
+        ["terfemti", "te femti"],
+        ["selfendi", "se fendi"],
+        ["terfendi", "te fendi"],
+        ["velfendi", "ve fendi"],
+        ["selfe'u", "se fengu"],
+        ["terfe'u", "te fengu"],
+        ["selfenki", "se fenki"],
+        ["selfe'a", "se fenra"],
+        ["selfe'o", "se fenso"],
+        ["terfe'o", "te fenso"],
+        ["velfe'o", "ve fenso"],
+        ["selfei", "se fepni"],
+        ["terfei", "te fepni"],
+        ["selfepri", "se fepri"],
+        ["selfre", "se ferti"],
+        ["selfesti", "se festi"],
+        ["selfe'i", "se fetsi"],
+        ["terfe'i", "te fetsi"],
+        ["selfigre", "se figre"],
+        ["selfilso", "se filso"],
+        ["selfi'e", "se finpe"],
+        ["selfi'i", "se finti"],
+        ["terfi'i", "te finti"],
+        ["velfi'i", "ve finti"],
+        ["selfla", "se flalu"],
+        ["terfla", "te flalu"],
+        ["velfla", "ve flalu"],
+        ["xelfla", "xe flalu"],
+        ["selfle", "se flecu"],
+        ["terfle", "te flecu"],
+        ["velfle", "ve flecu"],
+        ["selfli", "se fliba"],
+        ["selflira", "se flira"],
+        ["selfoi", "se foldi"],
+        ["selfo'o", "se fonmo"],
+        ["terfo'o", "te fonmo"],
+        ["selfonxa", "se fonxa"],
+        ["selfro", "se forca"],
+        ["terfro", "te forca"],
+        ["velfro", "ve forca"],
+        ["selfraso", "se fraso"],
+        ["selfra", "se frati"],
+        ["terfra", "te frati"],
+        ["velfra", "ve frati"],
+        ["selfraxu", "se fraxu"],
+        ["terfraxu", "te fraxu"],
+        ["selfrica", "se frica"],
+        ["terfrica", "te frica"],
+        ["selfi'o", "se friko"],
+        ["selfrili", "se frili"],
+        ["terfrili", "te frili"],
+        ["selfrinu", "se frinu"],
+        ["terfrinu", "te frinu"],
+        ["selfriti", "se friti"],
+        ["terfriti", "te friti"],
+        ["velfriti", "ve friti"],
+        ["selfu'i", "se fukpi"],
+        ["terfu'i", "te fukpi"],
+        ["velfu'i", "ve fukpi"],
+        ["selflu", "se fulta"],
+        ["selfu'a", "se funca"],
+        ["selfusra", "se fusra"],
+        ["selfu'e", "se fuzme"],
+        ["terfu'e", "te fuzme"],
+        ["selgai", "se gacri"],
+        ["selgadri", "se gadri"],
+        ["tergadri", "te gadri"],
+        ["velgadri", "ve gadri"],
+        ["selga'i", "se galfi"],
+        ["terga'i", "te galfi"],
+        ["selga'u", "se galtu"],
+        ["terga'u", "te galtu"],
+        ["selgalxe", "se galxe"],
+        ["selga'o", "se ganlo"],
+        ["terga'o", "te ganlo"],
+        ["selganra", "se ganra"],
+        ["terganra", "te ganra"],
+        ["selga'e", "se ganse"],
+        ["terga'e", "te ganse"],
+        ["velga'e", "ve ganse"],
+        ["selganti", "se ganti"],
+        ["terganti", "te ganti"],
+        ["selganxo", "se ganxo"],
+        ["selganzu", "se ganzu"],
+        ["terganzu", "te ganzu"],
+        ["velganzu", "ve ganzu"],
+        ["selgapci", "se gapci"],
+        ["tergapci", "te gapci"],
+        ["selgapru", "se gapru"],
+        ["tergapru", "te gapru"],
+        ["selgarna", "se garna"],
+        ["tergarna", "te garna"],
+        ["selgau", "se gasnu"],
+        ["selgasta", "se gasta"],
+        ["selgenja", "se genja"],
+        ["selge'o", "se gento"],
+        ["selgenxu", "se genxu"],
+        ["selge'u", "se gerku"],
+        ["selge'a", "se gerna"],
+        ["terge'a", "te gerna"],
+        ["selgi'a", "se gidva"],
+        ["tergi'a", "te gidva"],
+        ["selgi'o", "se gigdo"],
+        ["tergi'o", "te gigdo"],
+        ["selginka", "se ginka"],
+        ["terginka", "te ginka"],
+        ["selgri", "se girzu"],
+        ["tergri", "te girzu"],
+        ["velgri", "ve girzu"],
+        ["selgi'u", "se gismu"],
+        ["tergi'u", "te gismu"],
+        ["velgi'u", "ve gismu"],
+        ["selgla", "se glare"],
+        ["selgei", "se gleki"],
+        ["selgle", "se gletu"],
+        ["selgli", "se glico"],
+        ["selglu", "se gluta"],
+        ["selgocti", "se gocti"],
+        ["tergocti", "te gocti"],
+        ["selgotro", "se gotro"],
+        ["tergotro", "te gotro"],
+        ["selrau", "se gradu"],
+        ["teryrau", "te gradu"],
+        ["selgra", "se grake"],
+        ["tergra", "te grake"],
+        ["selga'a", "se grana"],
+        ["selgrasu", "se grasu"],
+        ["selgreku", "se greku"],
+        ["selgrute", "se grute"],
+        ["selgubni", "se gubni"],
+        ["selgu'e", "se gugde"],
+        ["tergu'e", "te gugde"],
+        ["selgundi", "se gundi"],
+        ["tergundi", "te gundi"],
+        ["selgu'a", "se gunka"],
+        ["tergu'a", "te gunka"],
+        ["selgunma", "se gunma"],
+        ["selgu'o", "se gunro"],
+        ["tergu'o", "te gunro"],
+        ["selgunse", "se gunse"],
+        ["selgunta", "se gunta"],
+        ["tergunta", "te gunta"],
+        ["selgru", "se gurni"],
+        ["selguska", "se guska"],
+        ["terguska", "te guska"],
+        ["selgu'i", "se gusni"],
+        ["tergu'i", "te gusni"],
+        ["selgusta", "se gusta"],
+        ["tergusta", "te gusta"],
+        ["selgutci", "se gutci"],
+        ["tergutci", "te gutci"],
+        ["velgutci", "ve gutci"],
+        ["selgutra", "se gutra"],
+        ["selzme", "se guzme"],
+        ["seljabre", "se jabre"],
+        ["terjabre", "te jabre"],
+        ["selja'i", "se jadni"],
+        ["seljakne", "se jakne"],
+        ["terjakne", "te jakne"],
+        ["selja'e", "se jalge"],
+        ["seljalna", "se jalna"],
+        ["terjalna", "te jalna"],
+        ["seljalra", "se jalra"],
+        ["seljma", "se jamfu"],
+        ["seljamna", "se jamna"],
+        ["terjamna", "te jamna"],
+        ["seljanbe", "se janbe"],
+        ["seljanco", "se janco"],
+        ["terjanco", "te janco"],
+        ["seljanli", "se janli"],
+        ["seljansu", "se jansu"],
+        ["terjansu", "te jansu"],
+        ["veljansu", "ve jansu"],
+        ["seljanta", "se janta"],
+        ["terjanta", "te janta"],
+        ["veljanta", "ve janta"],
+        ["seljarbu", "se jarbu"],
+        ["selja'o", "se jarco"],
+        ["terja'o", "te jarco"],
+        ["seljarki", "se jarki"],
+        ["terjarki", "te jarki"],
+        ["seljaspu", "se jaspu"],
+        ["terjaspu", "te jaspu"],
+        ["veljaspu", "ve jaspu"],
+        ["selja'a", "se jatna"],
+        ["seljva", "se javni"],
+        ["terjva", "te javni"],
+        ["seljbama", "se jbama"],
+        ["seljba", "se jbari"],
+        ["seljbe", "se jbena"],
+        ["terjbe", "te jbena"],
+        ["veljbe", "ve jbena"],
+        ["seljbera", "se jbera"],
+        ["terjbera", "te jbera"],
+        ["veljbera", "ve jbera"],
+        ["selbi'i", "se jbini"],
+        ["terbi'i", "te jbini"],
+        ["seljdari", "se jdari"],
+        ["terjdari", "te jdari"],
+        ["seljdi", "se jdice"],
+        ["terjdi", "te jdice"],
+        ["seljdika", "se jdika"],
+        ["terjdika", "te jdika"],
+        ["seldi'a", "se jdima"],
+        ["terdi'a", "te jdima"],
+        ["veldi'a", "ve jdima"],
+        ["seldi'i", "se jdini"],
+        ["seljdu", "se jduli"],
+        ["selje'a", "se jecta"],
+        ["seljeftu", "se jeftu"],
+        ["terjeftu", "te jeftu"],
+        ["selje'o", "se jegvo"],
+        ["seljelca", "se jelca"],
+        ["terjelca", "te jelca"],
+        ["seljme", "se jemna"],
+        ["terjme", "te jemna"],
+        ["seljenca", "se jenca"],
+        ["seljendu", "se jendu"],
+        ["terjendu", "te jendu"],
+        ["seljei", "se jenmi"],
+        ["terjei", "te jenmi"],
+        ["seljerna", "se jerna"],
+        ["terjerna", "te jerna"],
+        ["selje'i", "se jersi"],
+        ["seljerxo", "se jerxo"],
+        ["seljesni", "se jesni"],
+        ["selje'e", "se jetce"],
+        ["terje'e", "te jetce"],
+        ["selje'u", "se jetnu"],
+        ["selja'u", "se jgalu"],
+        ["seljga", "se jganu"],
+        ["terjga", "te jganu"],
+        ["seljai", "se jgari"],
+        ["terjai", "te jgari"],
+        ["seljge", "se jgena"],
+        ["seljgina", "se jgina"],
+        ["terjgina", "te jgina"],
+        ["seljgi", "se jgira"],
+        ["seljgita", "se jgita"],
+        ["seljbi", "se jibni"],
+        ["terjbi", "te jibni"],
+        ["seljibri", "se jibri"],
+        ["seljicla", "se jicla"],
+        ["selcmu", "se jicmu"],
+        ["seljijnu", "se jijnu"],
+        ["terjijnu", "te jijnu"],
+        ["seljikca", "se jikca"],
+        ["seljikru", "se jikru"],
+        ["seljilka", "se jilka"],
+        ["seljilra", "se jilra"],
+        ["terjilra", "te jilra"],
+        ["seljimca", "se jimca"],
+        ["seljmi", "se jimpe"],
+        ["terjmi", "te jimpe"],
+        ["seljimte", "se jimte"],
+        ["terjimte", "te jimte"],
+        ["seljinci", "se jinci"],
+        ["selji'a", "se jinga"],
+        ["terji'a", "te jinga"],
+        ["velji'a", "ve jinga"],
+        ["seljinku", "se jinku"],
+        ["terjinku", "te jinku"],
+        ["veljinku", "ve jinku"],
+        ["seljinme", "se jinme"],
+        ["seljinru", "se jinru"],
+        ["seljinsa", "se jinsa"],
+        ["terjinsa", "te jinsa"],
+        ["seljinto", "se jinto"],
+        ["terjinto", "te jinto"],
+        ["selji'i", "se jinvi"],
+        ["terji'i", "te jinvi"],
+        ["velji'i", "ve jinvi"],
+        ["seljinzi", "se jinzi"],
+        ["seljipci", "se jipci"],
+        ["selji'o", "se jipno"],
+        ["terji'o", "te jipno"],
+        ["seljirna", "se jirna"],
+        ["seljisra", "se jisra"],
+        ["seljitfa", "se jitfa"],
+        ["seltro", "se jitro"],
+        ["tertro", "te jitro"],
+        ["seljivbu", "se jivbu"],
+        ["terjivbu", "te jivbu"],
+        ["seljvi", "se jivna"],
+        ["terjvi", "te jivna"],
+        ["veljvi", "ve jivna"],
+        ["seljmaji", "se jmaji"],
+        ["terjmaji", "te jmaji"],
+        ["seljmifa", "se jmifa"],
+        ["terjmifa", "te jmifa"],
+        ["seljmina", "se jmina"],
+        ["terjmina", "te jmina"],
+        ["veljmina", "ve jmina"],
+        ["selji'e", "se jmive"],
+        ["seljo'o", "se jordo"],
+        ["seljo'e", "se jorne"],
+        ["terjo'e", "te jorne"],
+        ["seljbu", "se jubme"],
+        ["terjbu", "te jubme"],
+        ["seljudri", "se judri"],
+        ["terjudri", "te judri"],
+        ["selju'a", "se jufra"],
+        ["terju'a", "te jufra"],
+        ["seljukni", "se jukni"],
+        ["seljukpa", "se jukpa"],
+        ["terjukpa", "te jukpa"],
+        ["selju'e", "se julne"],
+        ["terju'e", "te julne"],
+        ["velju'e", "ve julne"],
+        ["selju'i", "se jundi"],
+        ["seljungo", "se jungo"],
+        ["seljunla", "se junla"],
+        ["terjunla", "te junla"],
+        ["veljunla", "ve junla"],
+        ["seljunri", "se junri"],
+        ["seljunta", "se junta"],
+        ["terjunta", "te junta"],
+        ["seljurme", "se jurme"],
+        ["seljursa", "se jursa"],
+        ["seljutsi", "se jutsi"],
+        ["terjutsi", "te jutsi"],
+        ["seljuxre", "se juxre"],
+        ["selji'u", "se jvinu"],
+        ["terji'u", "te jvinu"],
+        ["selkabri", "se kabri"],
+        ["terkabri", "te kabri"],
+        ["selkacma", "se kacma"],
+        ["terkacma", "te kacma"],
+        ["selkadno", "se kadno"],
+        ["selkafke", "se kafke"],
+        ["terkafke", "te kafke"],
+        ["selkagni", "se kagni"],
+        ["terkagni", "te kagni"],
+        ["seljde", "se kajde"],
+        ["terjde", "te kajde"],
+        ["selkajna", "se kajna"],
+        ["terkajna", "te kajna"],
+        ["selka'e", "se kakne"],
+        ["terka'e", "te kakne"],
+        ["selkakpa", "se kakpa"],
+        ["terkakpa", "te kakpa"],
+        ["velkakpa", "ve kakpa"],
+        ["selkalci", "se kalci"],
+        ["selkalri", "se kalri"],
+        ["terkalri", "te kalri"],
+        ["selkalsa", "se kalsa"],
+        ["selkalte", "se kalte"],
+        ["terkalte", "te kalte"],
+        ["selkamju", "se kamju"],
+        ["selkamni", "se kamni"],
+        ["terkamni", "te kamni"],
+        ["selkau", "se kampu"],
+        ["selkanba", "se kanba"],
+        ["selkancu", "se kancu"],
+        ["terkancu", "te kancu"],
+        ["velkancu", "ve kancu"],
+        ["selkandi", "se kandi"],
+        ["terkandi", "te kandi"],
+        ["selkanji", "se kanji"],
+        ["terkanji", "te kanji"],
+        ["velkanji", "ve kanji"],
+        ["selkanla", "se kanla"],
+        ["selka'o", "se kanro"],
+        ["selkansa", "se kansa"],
+        ["terkansa", "te kansa"],
+        ["selka'u", "se kantu"],
+        ["selkanxe", "se kanxe"],
+        ["terkanxe", "te kanxe"],
+        ["selkarbi", "se karbi"],
+        ["terkarbi", "te karbi"],
+        ["velkarbi", "ve karbi"],
+        ["xelkarbi", "xe karbi"],
+        ["selkarce", "se karce"],
+        ["terkarce", "te karce"],
+        ["selkarda", "se karda"],
+        ["terkarda", "te karda"],
+        ["selkargu", "se kargu"],
+        ["terkargu", "te kargu"],
+        ["selkarli", "se karli"],
+        ["terkarli", "te karli"],
+        ["selkarni", "se karni"],
+        ["terkarni", "te karni"],
+        ["velkarni", "ve karni"],
+        ["selka'a", "se katna"],
+        ["terka'a", "te katna"],
+        ["selkavbu", "se kavbu"],
+        ["terkavbu", "te kavbu"],
+        ["selke'i", "se kecti"],
+        ["terke'i", "te kecti"],
+        ["selkei", "se kelci"],
+        ["selke'o", "se kelvo"],
+        ["terke'o", "te kelvo"],
+        ["selkenra", "se kenra"],
+        ["selkensa", "se kensa"],
+        ["selkre", "se kerfa"],
+        ["terkre", "te kerfa"],
+        ["selkerlo", "se kerlo"],
+        ["seltco", "se ketco"],
+        ["selke'a", "se kevna"],
+        ["selki'e", "se kicne"],
+        ["terki'e", "te kicne"],
+        ["selki'o", "se kilto"],
+        ["terki'o", "te kilto"],
+        ["selkinli", "se kinli"],
+        ["selkisto", "se kisto"],
+        ["selklaji", "se klaji"],
+        ["terklaji", "te klaji"],
+        ["selklaku", "se klaku"],
+        ["terklaku", "te klaku"],
+        ["selkla", "se klama"],
+        ["terkla", "te klama"],
+        ["velkla", "ve klama"],
+        ["xelkla", "xe klama"],
+        ["selylai", "se klani"],
+        ["terlai", "te klani"],
+        ["selkle", "se klesi"],
+        ["terlei", "te klesi"],
+        ["selkli", "se klina"],
+        ["selkliru", "se kliru"],
+        ["selkliti", "se kliti"],
+        ["selylu'e", "se klupe"],
+        ["terlu'e", "te klupe"],
+        ["velylu'e", "ve klupe"],
+        ["selkluza", "se kluza"],
+        ["terkluza", "te kluza"],
+        ["selko'i", "se kobli"],
+        ["selko'a", "se kojna"],
+        ["terko'a", "te kojna"],
+        ["selko'e", "se kolme"],
+        ["selkomcu", "se komcu"],
+        ["terkomcu", "te komcu"],
+        ["selko'u", "se konju"],
+        ["terko'u", "te konju"],
+        ["selkoi", "se korbi"],
+        ["terkoi", "te korbi"],
+        ["selkorka", "se korka"],
+        ["selkosta", "se kosta"],
+        ["selkramu", "se kramu"],
+        ["terkramu", "te kramu"],
+        ["velkramu", "ve kramu"],
+        ["selkra", "se krasi"],
+        ["selka'i", "se krati"],
+        ["terka'i", "te krati"],
+        ["selke'u", "se krefu"],
+        ["selkri", "se krici"],
+        ["terkri", "te krici"],
+        ["selkrili", "se krili"],
+        ["terkrili", "te krili"],
+        ["selki'u", "se krinu"],
+        ["selki'a", "se krixa"],
+        ["selkruca", "se kruca"],
+        ["terkruca", "te kruca"],
+        ["selkruji", "se kruji"],
+        ["selkru", "se kruvi"],
+        ["terkru", "te kruvi"],
+        ["velkru", "ve kruvi"],
+        ["selkubli", "se kubli"],
+        ["terkubli", "te kubli"],
+        ["selkucli", "se kucli"],
+        ["selkufra", "se kufra"],
+        ["selkukte", "se kukte"],
+        ["selklu", "se kulnu"],
+        ["selku'a", "se kumfa"],
+        ["terku'a", "te kumfa"],
+        ["selkumte", "se kumte"],
+        ["selkunra", "se kunra"],
+        ["terkunra", "te kunra"],
+        ["selkunti", "se kunti"],
+        ["selkurfa", "se kurfa"],
+        ["terkurfa", "te kurfa"],
+        ["selku'i", "se kurji"],
+        ["selkurki", "se kurki"],
+        ["selku'e", "se kuspe"],
+        ["selkusru", "se kusru"],
+        ["selylabno", "se labno"],
+        ["selcpu", "se lacpu"],
+        ["tercpu", "te lacpu"],
+        ["selylacri", "se lacri"],
+        ["terlacri", "te lacri"],
+        ["selyladru", "se ladru"],
+        ["selylafti", "se lafti"],
+        ["terlafti", "te lafti"],
+        ["velylafti", "ve lafti"],
+        ["selyla'e", "se lakne"],
+        ["selylakse", "se lakse"],
+        ["selyla'u", "se lalxu"],
+        ["selyla'i", "se lamji"],
+        ["terla'i", "te lamji"],
+        ["velyla'i", "ve lamji"],
+        ["selylanbi", "se lanbi"],
+        ["selylanci", "se lanci"],
+        ["terlanci", "te lanci"],
+        ["velylanci", "ve lanci"],
+        ["selylanka", "se lanka"],
+        ["terlanka", "te lanka"],
+        ["selylanli", "se lanli"],
+        ["terlanli", "te lanli"],
+        ["selylanme", "se lanme"],
+        ["terlanme", "te lanme"],
+        ["selylante", "se lante"],
+        ["terlante", "te lante"],
+        ["selylanxe", "se lanxe"],
+        ["selylanzu", "se lanzu"],
+        ["terlanzu", "te lanzu"],
+        ["selylarcu", "se larcu"],
+        ["selyla'a", "se lasna"],
+        ["terla'a", "te lasna"],
+        ["velyla'a", "ve lasna"],
+        ["selylastu", "se lastu"],
+        ["selyla'o", "se latmo"],
+        ["selylatna", "se latna"],
+        ["terlatna", "te latna"],
+        ["velylatna", "ve latna"],
+        ["selylazni", "se lazni"],
+        ["selyle'a", "se lebna"],
+        ["terle'a", "te lebna"],
+        ["selyle'o", "se lenjo"],
+        ["terle'o", "te lenjo"],
+        ["velyle'o", "ve lenjo"],
+        ["selylenku", "se lenku"],
+        ["selylerci", "se lerci"],
+        ["selyle'u", "se lerfu"],
+        ["terle'u", "te lerfu"],
+        ["selylibjo", "se libjo"],
+        ["selyli'e", "se lidne"],
+        ["terli'e", "te lidne"],
+        ["selfri", "se lifri"],
+        ["seljda", "se lijda"],
+        ["terjda", "te lijda"],
+        ["selylimna", "se limna"],
+        ["selylindi", "se lindi"],
+        ["terlindi", "te lindi"],
+        ["selyli'i", "se linji"],
+        ["selylinsi", "se linsi"],
+        ["terlinsi", "te linsi"],
+        ["selyli'o", "se linto"],
+        ["selylisri", "se lisri"],
+        ["terlisri", "te lisri"],
+        ["velylisri", "ve lisri"],
+        ["selste", "se liste"],
+        ["terste", "te liste"],
+        ["velste", "ve liste"],
+        ["selylitce", "se litce"],
+        ["terlitce", "te litce"],
+        ["selylitki", "se litki"],
+        ["terlitki", "te litki"],
+        ["selyli'u", "se litru"],
+        ["terli'u", "te litru"],
+        ["selylivga", "se livga"],
+        ["selylivla", "se livla"],
+        ["selylogji", "se logji"],
+        ["seljbo", "se lojbo"],
+        ["selyloi", "se loldi"],
+        ["selylo'u", "se lorxu"],
+        ["selylu'o", "se lubno"],
+        ["seljvo", "se lujvo"],
+        ["terjvo", "te lujvo"],
+        ["veljvo", "ve lujvo"],
+        ["selylu'i", "se lumci"],
+        ["terlu'i", "te lumci"],
+        ["velylu'i", "ve lumci"],
+        ["selylunra", "se lunra"],
+        ["selylunsa", "se lunsa"],
+        ["terlunsa", "te lunsa"],
+        ["velylunsa", "ve lunsa"],
+        ["selmabla", "se mabla"],
+        ["termabla", "te mabla"],
+        ["selmabru", "se mabru"],
+        ["selcnu", "se macnu"],
+        ["tercnu", "te macnu"],
+        ["selma'u", "se makcu"],
+        ["selmakfa", "se makfa"],
+        ["termakfa", "te makfa"],
+        ["selmaksi", "se maksi"],
+        ["selmalsi", "se malsi"],
+        ["termalsi", "te malsi"],
+        ["selmamta", "se mamta"],
+        ["selmanci", "se manci"],
+        ["selmanfo", "se manfo"],
+        ["selmanri", "se manri"],
+        ["termanri", "te manri"],
+        ["selmansa", "se mansa"],
+        ["termansa", "te mansa"],
+        ["selmanti", "se manti"],
+        ["selmapku", "se mapku"],
+        ["selmapti", "se mapti"],
+        ["termapti", "te mapti"],
+        ["selmra", "se marbi"],
+        ["termra", "te marbi"],
+        ["terma'e", "te marce"],
+        ["velma'e", "ve marce"],
+        ["selmarde", "se marde"],
+        ["termarde", "te marde"],
+        ["selmai", "se marji"],
+        ["termai", "te marji"],
+        ["selmarna", "se marna"],
+        ["selmarxa", "se marxa"],
+        ["termarxa", "te marxa"],
+        ["selsno", "se masno"],
+        ["selma'i", "se masti"],
+        ["terma'i", "te masti"],
+        ["selmatci", "se matci"],
+        ["selmatne", "se matne"],
+        ["selmatra", "se matra"],
+        ["selmavji", "se mavji"],
+        ["selxri", "se maxri"],
+        ["selmebri", "se mebri"],
+        ["selmegdo", "se megdo"],
+        ["termegdo", "te megdo"],
+        ["selmei", "se mei"],
+        ["termei", "te mei"],
+        ["selme'o", "se mekso"],
+        ["selmle", "se melbi"],
+        ["termle", "te melbi"],
+        ["velmle", "ve melbi"],
+        ["selmeljo", "se meljo"],
+        ["selmenli", "se menli"],
+        ["selme'i", "se mensi"],
+        ["terme'i", "te mensi"],
+        ["selme'u", "se mentu"],
+        ["terme'u", "te mentu"],
+        ["selmerko", "se merko"],
+        ["selmre", "se merli"],
+        ["termre", "te merli"],
+        ["velmre", "ve merli"],
+        ["xelmre", "xe merli"],
+        ["selmexno", "se mexno"],
+        ["selmidju", "se midju"],
+        ["selmifra", "se mifra"],
+        ["termifra", "te mifra"],
+        ["selmikce", "se mikce"],
+        ["termikce", "te mikce"],
+        ["velmikce", "ve mikce"],
+        ["selmikri", "se mikri"],
+        ["termikri", "te mikri"],
+        ["selmilti", "se milti"],
+        ["termilti", "te milti"],
+        ["selmli", "se milxe"],
+        ["termi'e", "te minde"],
+        ["selmi'i", "se minji"],
+        ["selminli", "se minli"],
+        ["terminli", "te minli"],
+        ["velminli", "ve minli"],
+        ["selminra", "se minra"],
+        ["terminra", "te minra"],
+        ["velminra", "ve minra"],
+        ["selmi'u", "se mintu"],
+        ["termi'u", "te mintu"],
+        ["selmipri", "se mipri"],
+        ["termipri", "te mipri"],
+        ["velmipri", "ve mipri"],
+        ["selmirli", "se mirli"],
+        ["selmi'o", "se misno"],
+        ["selmisro", "se misro"],
+        ["seltre", "se mitre"],
+        ["tertre", "te mitre"],
+        ["veltre", "ve mitre"],
+        ["selxre", "se mixre"],
+        ["selmla", "se mlana"],
+        ["termla", "te mlana"],
+        ["velmla", "ve mlana"],
+        ["selmlatu", "se mlatu"],
+        ["selme'a", "se mleca"],
+        ["terme'a", "te mleca"],
+        ["velme'a", "ve mleca"],
+        ["selmledi", "se mledi"],
+        ["termledi", "te mledi"],
+        ["selmluni", "se mluni"],
+        ["termluni", "te mluni"],
+        ["velmluni", "ve mluni"],
+        ["selmoi", "se moi"],
+        ["termoi", "te moi"],
+        ["selmokca", "se mokca"],
+        ["selmo'u", "se moklu"],
+        ["selmlo", "se molki"],
+        ["selmo'o", "se molro"],
+        ["termo'o", "te molro"],
+        ["selmo'i", "se morji"],
+        ["termo'i", "te morji"],
+        ["selmorko", "se morko"],
+        ["selmo'a", "se morna"],
+        ["termo'a", "te morna"],
+        ["selmosra", "se mosra"],
+        ["termosra", "te mosra"],
+        ["selmraji", "se mraji"],
+        ["selmri", "se mrilu"],
+        ["termri", "te mrilu"],
+        ["velmri", "ve mrilu"],
+        ["xelmri", "xe mrilu"],
+        ["selmru", "se mruli"],
+        ["termru", "te mruli"],
+        ["velmru", "ve mruli"],
+        ["selmudri", "se mudri"],
+        ["selmu'i", "se mukti"],
+        ["termu'i", "te mukti"],
+        ["selmu'o", "se mulno"],
+        ["termu'o", "te mulno"],
+        ["selmu'e", "se munje"],
+        ["termu'e", "te munje"],
+        ["selmupli", "se mupli"],
+        ["termupli", "te mupli"],
+        ["selmurse", "se murse"],
+        ["termurse", "te murse"],
+        ["selmu'a", "se murta"],
+        ["termu'a", "te murta"],
+        ["selmuslo", "se muslo"],
+        ["seltce", "se mutce"],
+        ["tertce", "te mutce"],
+        ["selmu'u", "se muvdu"],
+        ["termu'u", "te muvdu"],
+        ["velmu'u", "ve muvdu"],
+        ["selmuzga", "se muzga"],
+        ["termuzga", "te muzga"],
+        ["selnabmi", "se nabmi"],
+        ["ternabmi", "te nabmi"],
+        ["selnakni", "se nakni"],
+        ["ternakni", "te nakni"],
+        ["selna'i", "se nalci"],
+        ["selnanba", "se nanba"],
+        ["selna'a", "se nanca"],
+        ["terna'a", "te nanca"],
+        ["selnandu", "se nandu"],
+        ["ternandu", "te nandu"],
+        ["selnanla", "se nanla"],
+        ["ternanla", "te nanla"],
+        ["selnanvi", "se nanvi"],
+        ["ternanvi", "te nanvi"],
+        ["selnarge", "se narge"],
+        ["ternarge", "te narge"],
+        ["velnarge", "ve narge"],
+        ["selna'e", "se natfe"],
+        ["terna'e", "te natfe"],
+        ["selnai", "se natmi"],
+        ["selnavni", "se navni"],
+        ["selxle", "se naxle"],
+        ["terxle", "te naxle"],
+        ["velxle", "ve naxle"],
+        ["selzbi", "se nazbi"],
+        ["terzbi", "te nazbi"],
+        ["selnejni", "se nejni"],
+        ["ternejni", "te nejni"],
+        ["selnei", "se nelci"],
+        ["selne'i", "se nenri"],
+        ["selni'i", "se nibli"],
+        ["terni'i", "te nibli"],
+        ["selcte", "se nicte"],
+        ["tercte", "te nicte"],
+        ["selni'e", "se nilce"],
+        ["terni'e", "te nilce"],
+        ["selnimre", "se nimre"],
+        ["selnirna", "se nirna"],
+        ["seltcu", "se nitcu"],
+        ["tertcu", "te nitcu"],
+        ["selnivji", "se nivji"],
+        ["ternivji", "te nivji"],
+        ["selxli", "se nixli"],
+        ["terxli", "te nixli"],
+        ["selno'i", "se nobli"],
+        ["selnoi", "se notci"],
+        ["ternoi", "te notci"],
+        ["velnoi", "ve notci"],
+        ["selnu'e", "se nupre"],
+        ["ternu'e", "te nupre"],
+        ["selnurma", "se nurma"],
+        ["selnu'i", "se nutli"],
+        ["selnuzba", "se nuzba"],
+        ["ternuzba", "te nuzba"],
+        ["velnuzba", "ve nuzba"],
+        ["selpa'a", "se pacna"],
+        ["terpa'a", "te pacna"],
+        ["selpau", "se pagbu"],
+        ["selgre", "se pagre"],
+        ["tergre", "te pagre"],
+        ["velgre", "ve pagre"],
+        ["selpai", "se pajni"],
+        ["selpalci", "se palci"],
+        ["selpalku", "se palku"],
+        ["selpalne", "se palne"],
+        ["terpalne", "te palne"],
+        ["selpalta", "se palta"],
+        ["selpambe", "se pambe"],
+        ["terpambe", "te pambe"],
+        ["velpambe", "ve pambe"],
+        ["xelpambe", "xe pambe"],
+        ["selpanci", "se panci"],
+        ["terpanci", "te panci"],
+        ["selpandi", "se pandi"],
+        ["terpandi", "te pandi"],
+        ["velpandi", "ve pandi"],
+        ["selpanka", "se panka"],
+        ["terpanka", "te panka"],
+        ["selpa'o", "se panlo"],
+        ["selpanpi", "se panpi"],
+        ["selpanra", "se panra"],
+        ["terpanra", "te panra"],
+        ["velpanra", "ve panra"],
+        ["selpante", "se pante"],
+        ["terpante", "te pante"],
+        ["velpante", "ve pante"],
+        ["selpanzi", "se panzi"],
+        ["selpapri", "se papri"],
+        ["selparbi", "se parbi"],
+        ["terparbi", "te parbi"],
+        ["selpastu", "se pastu"],
+        ["selpa'u", "se patfu"],
+        ["selpatlu", "se patlu"],
+        ["selpatxu", "se patxu"],
+        ["terpatxu", "te patxu"],
+        ["selple", "se pelji"],
+        ["selpemci", "se pemci"],
+        ["terpemci", "te pemci"],
+        ["velpemci", "ve pemci"],
+        ["selpenbi", "se penbi"],
+        ["terpenbi", "te penbi"],
+        ["selpe'u", "se pencu"],
+        ["terpe'u", "te pencu"],
+        ["selpe'o", "se pendo"],
+        ["selpe'i", "se penmi"],
+        ["terpe'i", "te penmi"],
+        ["selpei", "se pensi"],
+        ["selperli", "se perli"],
+        ["selpesxu", "se pesxu"],
+        ["selpetso", "se petso"],
+        ["terpetso", "te petso"],
+        ["selpezli", "se pezli"],
+        ["selpicti", "se picti"],
+        ["terpicti", "te picti"],
+        ["selpijne", "se pijne"],
+        ["terpijne", "te pijne"],
+        ["selpikci", "se pikci"],
+        ["terpikci", "te pikci"],
+        ["selpikta", "se pikta"],
+        ["terpikta", "te pikta"],
+        ["velpikta", "ve pikta"],
+        ["selpi'i", "se pilji"],
+        ["terpi'i", "te pilji"],
+        ["selpi'a", "se pilka"],
+        ["selpli", "se pilno"],
+        ["terpli", "te pilno"],
+        ["selpi'u", "se pimlu"],
+        ["selpinca", "se pinca"],
+        ["selpindi", "se pindi"],
+        ["selpinfu", "se pinfu"],
+        ["terpinfu", "te pinfu"],
+        ["selpinji", "se pinji"],
+        ["selpinka", "se pinka"],
+        ["terpinka", "te pinka"],
+        ["velpinka", "ve pinka"],
+        ["selpinsi", "se pinsi"],
+        ["terpinsi", "te pinsi"],
+        ["selpinta", "se pinta"],
+        ["selpinxe", "se pinxe"],
+        ["terpinxe", "te pinxe"],
+        ["selxra", "se pixra"],
+        ["terxra", "te pixra"],
+        ["velxra", "ve pixra"],
+        ["selplana", "se plana"],
+        ["selpla", "se platu"],
+        ["terpla", "te platu"],
+        ["selyle'i", "se pleji"],
+        ["terle'i", "te pleji"],
+        ["velyle'i", "ve pleji"],
+        ["selplibu", "se plibu"],
+        ["selplini", "se plini"],
+        ["terplini", "te plini"],
+        ["velplini", "ve plini"],
+        ["selpi'e", "se plipe"],
+        ["terpi'e", "te plipe"],
+        ["velpi'e", "ve plipe"],
+        ["xelpi'e", "xe plipe"],
+        ["selplise", "se plise"],
+        ["selplita", "se plita"],
+        ["selplixa", "se plixa"],
+        ["terplixa", "te plixa"],
+        ["velplixa", "ve plixa"],
+        ["selpluja", "se pluja"],
+        ["terpluja", "te pluja"],
+        ["selpu'a", "se pluka"],
+        ["terpu'a", "te pluka"],
+        ["selylu'a", "se pluta"],
+        ["terlu'a", "te pluta"],
+        ["velylu'a", "ve pluta"],
+        ["selplo", "se polje"],
+        ["terplo", "te polje"],
+        ["selpolno", "se polno"],
+        ["selpo'o", "se ponjo"],
+        ["selpo'e", "se ponse"],
+        ["terpo'e", "te ponse"],
+        ["selpo'i", "se porpi"],
+        ["selpoi", "se porsi"],
+        ["terpoi", "te porsi"],
+        ["selporto", "se porto"],
+        ["selprali", "se prali"],
+        ["terprali", "te prali"],
+        ["selpa'i", "se prami"],
+        ["selpa'e", "se prane"],
+        ["selpe'a", "se preja"],
+        ["terpe'a", "te preja"],
+        ["selrei", "se preti"],
+        ["teryrei", "te preti"],
+        ["velrei", "ve preti"],
+        ["selprije", "se prije"],
+        ["terprije", "te prije"],
+        ["selpri", "se prina"],
+        ["terpri", "te prina"],
+        ["selpritu", "se pritu"],
+        ["terpritu", "te pritu"],
+        ["selro'a", "se prosa"],
+        ["teryro'a", "te prosa"],
+        ["velro'a", "ve prosa"],
+        ["selru'e", "se pruce"],
+        ["teryru'e", "te pruce"],
+        ["velru'e", "ve pruce"],
+        ["selpu'e", "se pulce"],
+        ["terpu'e", "te pulce"],
+        ["selpulji", "se pulji"],
+        ["selpulni", "se pulni"],
+        ["terpulni", "te pulni"],
+        ["selpu'i", "se punji"],
+        ["terpu'i", "te punji"],
+        ["selpunli", "se punli"],
+        ["terpunli", "te punli"],
+        ["selpru", "se purci"],
+        ["selpurdi", "se purdi"],
+        ["terpurdi", "te purdi"],
+        ["selpu'o", "se purmo"],
+        ["selracli", "se racli"],
+        ["selractu", "se ractu"],
+        ["selra'o", "se radno"],
+        ["teryra'o", "te radno"],
+        ["selrafsi", "se rafsi"],
+        ["teryrafsi", "te rafsi"],
+        ["velrafsi", "ve rafsi"],
+        ["selragve", "se ragve"],
+        ["teryragve", "te ragve"],
+        ["selrakso", "se rakso"],
+        ["selra'u", "se raktu"],
+        ["teryra'u", "te raktu"],
+        ["selralci", "se ralci"],
+        ["selralju", "se ralju"],
+        ["teryralju", "te ralju"],
+        ["selra'e", "se ralte"],
+        ["selranda", "se randa"],
+        ["teryranda", "te randa"],
+        ["selrango", "se rango"],
+        ["teryrango", "te rango"],
+        ["selra'i", "se ranji"],
+        ["selranmi", "se ranmi"],
+        ["teryranmi", "te ranmi"],
+        ["velranmi", "ve ranmi"],
+        ["selransu", "se ransu"],
+        ["selranti", "se ranti"],
+        ["teryranti", "te ranti"],
+        ["selranxi", "se ranxi"],
+        ["teryranxi", "te ranxi"],
+        ["selrapli", "se rapli"],
+        ["selratcu", "se ratcu"],
+        ["selratni", "se ratni"],
+        ["teryratni", "te ratni"],
+        ["selrebla", "se rebla"],
+        ["selre'u", "se rectu"],
+        ["selre'o", "se renro"],
+        ["teryre'o", "te renro"],
+        ["selre'i", "se renvi"],
+        ["teryre'i", "te renvi"],
+        ["selrespa", "se respa"],
+        ["selcfu", "se ricfu"],
+        ["selrigni", "se rigni"],
+        ["teryrigni", "te rigni"],
+        ["selrilti", "se rilti"],
+        ["selrimni", "se rimni"],
+        ["teryrimni", "te rimni"],
+        ["velrimni", "ve rimni"],
+        ["selrinci", "se rinci"],
+        ["teryrinci", "te rinci"],
+        ["velrinci", "ve rinci"],
+        ["selri'u", "se rinju"],
+        ["teryri'u", "te rinju"],
+        ["selri'a", "se rinka"],
+        ["teryri'a", "te rinka"],
+        ["selrinsa", "se rinsa"],
+        ["teryrinsa", "te rinsa"],
+        ["selrirci", "se rirci"],
+        ["teryrirci", "te rirci"],
+        ["selrirni", "se rirni"],
+        ["selri'e", "se rirxe"],
+        ["teryri'e", "te rirxe"],
+        ["velri'e", "ve rirxe"],
+        ["selrismi", "se rismi"],
+        ["selrisna", "se risna"],
+        ["selri'i", "se ritli"],
+        ["teryri'i", "te ritli"],
+        ["velri'i", "ve ritli"],
+        ["selrivbi", "se rivbi"],
+        ["teryrivbi", "te rivbi"],
+        ["selro'i", "se rokci"],
+        ["teryro'i", "te rokci"],
+        ["selromge", "se romge"],
+        ["selro'o", "se ropno"],
+        ["selrorci", "se rorci"],
+        ["teryrorci", "te rorci"],
+        ["seltsu", "se rotsu"],
+        ["tertsu", "te rotsu"],
+        ["selzgu", "se rozgu"],
+        ["selble", "se ruble"],
+        ["terble", "te ruble"],
+        ["selrunme", "se runme"],
+        ["teryrunme", "te runme"],
+        ["selrunta", "se runta"],
+        ["teryrunta", "te runta"],
+        ["velrunta", "ve runta"],
+        ["selru'u", "se rupnu"],
+        ["teryru'u", "te rupnu"],
+        ["selru'o", "se rusko"],
+        ["selrutni", "se rutni"],
+        ["selsabji", "se sabji"],
+        ["tersabji", "te sabji"],
+        ["selsabnu", "se sabnu"],
+        ["selsacki", "se sacki"],
+        ["selsaclu", "se saclu"],
+        ["tersaclu", "te saclu"],
+        ["seldjo", "se sadjo"],
+        ["selsakci", "se sakci"],
+        ["tersakci", "te sakci"],
+        ["selsakli", "se sakli"],
+        ["selsakta", "se sakta"],
+        ["tersakta", "te sakta"],
+        ["selsla", "se salci"],
+        ["tersla", "te salci"],
+        ["selsa'o", "se salpo"],
+        ["tersa'o", "te salpo"],
+        ["selsalta", "se salta"],
+        ["selsamcu", "se samcu"],
+        ["selsampu", "se sampu"],
+        ["selsna", "se sance"],
+        ["selsa'a", "se sanga"],
+        ["tersa'a", "te sanga"],
+        ["selsanji", "se sanji"],
+        ["selsa'i", "se sanli"],
+        ["tersa'i", "te sanli"],
+        ["selsai", "se sanmi"],
+        ["selsanso", "se sanso"],
+        ["tersanso", "te sanso"],
+        ["selsanta", "se santa"],
+        ["tersanta", "te santa"],
+        ["velsanta", "ve santa"],
+        ["xelsanta", "xe santa"],
+        ["selsa'u", "se sarcu"],
+        ["tersa'u", "te sarcu"],
+        ["selsra", "se sarji"],
+        ["tersra", "te sarji"],
+        ["velsra", "ve sarji"],
+        ["selsarlu", "se sarlu"],
+        ["tersarlu", "te sarlu"],
+        ["selsarxe", "se sarxe"],
+        ["tersarxe", "te sarxe"],
+        ["selske", "se saske"],
+        ["terske", "te saske"],
+        ["selsatci", "se satci"],
+        ["tersatci", "te satci"],
+        ["selsa'e", "se satre"],
+        ["selvru", "se savru"],
+        ["tervru", "te savru"],
+        ["selsazri", "se sazri"],
+        ["tersazri", "te sazri"],
+        ["selsfe", "se sefta"],
+        ["tersfe", "te sefta"],
+        ["velsfe", "ve sefta"],
+        ["selsle", "se selci"],
+        ["selse'u", "se selfu"],
+        ["terse'u", "te selfu"],
+        ["selsme", "se semto"],
+        ["selsenpi", "se senpi"],
+        ["selsenta", "se senta"],
+        ["tersenta", "te senta"],
+        ["selsne", "se senva"],
+        ["selsei", "se sepli"],
+        ["tersei", "te sepli"],
+        ["selserti", "se serti"],
+        ["terserti", "te serti"],
+        ["selse'a", "se setca"],
+        ["terse'a", "te setca"],
+        ["selse'i", "se sevzi"],
+        ["selsfani", "se sfani"],
+        ["selsfa", "se sfasa"],
+        ["tersfa", "te sfasa"],
+        ["velsfa", "ve sfasa"],
+        ["selsu'u", "se sfubu"],
+        ["tersu'u", "te sfubu"],
+        ["selsiclu", "se siclu"],
+        ["selsi'i", "se sicni"],
+        ["tersi'i", "te sicni"],
+        ["velsi'i", "ve sicni"],
+        ["selsi'o", "se sidbo"],
+        ["tersi'o", "te sidbo"],
+        ["seldju", "se sidju"],
+        ["terdju", "te sidju"],
+        ["selsigja", "se sigja"],
+        ["tersigja", "te sigja"],
+        ["selsilka", "se silka"],
+        ["selsilna", "se silna"],
+        ["tersilna", "te silna"],
+        ["selmlu", "se simlu"],
+        ["termlu", "te simlu"],
+        ["velmlu", "ve simlu"],
+        ["selsmi", "se simsa"],
+        ["tersmi", "te simsa"],
+        ["selsi'u", "se simxu"],
+        ["selsince", "se since"],
+        ["selsi'a", "se sinma"],
+        ["selsinso", "se sinso"],
+        ["selsni", "se sinxa"],
+        ["tersni", "te sinxa"],
+        ["selsirji", "se sirji"],
+        ["tersirji", "te sirji"],
+        ["selsirxo", "se sirxo"],
+        ["selsisku", "se sisku"],
+        ["tersisku", "te sisku"],
+        ["selsti", "se sisti"],
+        ["selsitna", "se sitna"],
+        ["tersitna", "te sitna"],
+        ["selsivni", "se sivni"],
+        ["selskaci", "se skaci"],
+        ["selskami", "se skami"],
+        ["selskapi", "se skapi"],
+        ["selska", "se skari"],
+        ["terska", "te skari"],
+        ["velska", "ve skari"],
+        ["selski", "se skicu"],
+        ["terski", "te skicu"],
+        ["velski", "ve skicu"],
+        ["selskiji", "se skiji"],
+        ["terskiji", "te skiji"],
+        ["selskina", "se skina"],
+        ["terskina", "te skina"],
+        ["velskina", "ve skina"],
+        ["selsko", "se skori"],
+        ["selko'o", "se skoto"],
+        ["selku'o", "se skuro"],
+        ["selsau", "se slabu"],
+        ["tersau", "te slabu"],
+        ["velsau", "ve slabu"],
+        ["selslaka", "se slaka"],
+        ["selslami", "se slami"],
+        ["selslanu", "se slanu"],
+        ["selslari", "se slari"],
+        ["selslasi", "se slasi"],
+        ["selsligu", "se sligu"],
+        ["tersligu", "te sligu"],
+        ["selsli", "se slilu"],
+        ["tersli", "te slilu"],
+        ["selylo'o", "se slovo"],
+        ["selslu", "se sluji"],
+        ["terslu", "te sluji"],
+        ["selsluni", "se sluni"],
+        ["selsmacu", "se smacu"],
+        ["selsmadi", "se smadi"],
+        ["tersmadi", "te smadi"],
+        ["selsma", "se smaji"],
+        ["tersma", "te smaji"],
+        ["selsmani", "se smani"],
+        ["selsmo", "se smoka"],
+        ["selsmuci", "se smuci"],
+        ["tersmuci", "te smuci"],
+        ["selsmu", "se smuni"],
+        ["tersmu", "te smuni"],
+        ["selsnada", "se snada"],
+        ["tersnada", "te snada"],
+        ["selsnanu", "se snanu"],
+        ["tersnanu", "te snanu"],
+        ["selsnidu", "se snidu"],
+        ["tersnidu", "te snidu"],
+        ["selsnipa", "se snipa"],
+        ["selsnuji", "se snuji"],
+        ["tersnuji", "te snuji"],
+        ["selnu'a", "se snura"],
+        ["selsnuti", "se snuti"],
+        ["selso'e", "se sobde"],
+        ["selsodna", "se sodna"],
+        ["selsodva", "se sodva"],
+        ["selsofto", "se softo"],
+        ["selsolri", "se solri"],
+        ["tersolri", "te solri"],
+        ["selso'o", "se sombo"],
+        ["terso'o", "te sombo"],
+        ["selsoi", "se sonci"],
+        ["selsro", "se sorcu"],
+        ["tersro", "te sorcu"],
+        ["selsorgu", "se sorgu"],
+        ["selso'a", "se sovda"],
+        ["selspaji", "se spaji"],
+        ["selspali", "se spali"],
+        ["terspali", "te spali"],
+        ["velspali", "ve spali"],
+        ["selspano", "se spano"],
+        ["selspa", "se spati"],
+        ["selspe", "se speni"],
+        ["terspe", "te speni"],
+        ["selspi", "se spisa"],
+        ["selspita", "se spita"],
+        ["terspita", "te spita"],
+        ["selpo'u", "se spofu"],
+        ["selpo'a", "se spoja"],
+        ["selspu", "se spuda"],
+        ["terspu", "te spuda"],
+        ["selpu'u", "se sputu"],
+        ["terpu'u", "te sputu"],
+        ["velpu'u", "ve sputu"],
+        ["selsraji", "se sraji"],
+        ["selsraku", "se sraku"],
+        ["selsralo", "se sralo"],
+        ["selra'a", "se srana"],
+        ["selsrasu", "se srasu"],
+        ["selsre", "se srera"],
+        ["tersre", "te srera"],
+        ["velsre", "ve srera"],
+        ["selsrito", "se srito"],
+        ["selru'a", "se sruma"],
+        ["teryru'a", "te sruma"],
+        ["selsru", "se sruri"],
+        ["tersru", "te sruri"],
+        ["selstace", "se stace"],
+        ["terstace", "te stace"],
+        ["selstagi", "se stagi"],
+        ["terstagi", "te stagi"],
+        ["selstaku", "se staku"],
+        ["terstaku", "te staku"],
+        ["velstaku", "ve staku"],
+        ["selsta", "se stali"],
+        ["selstani", "se stani"],
+        ["selstapa", "se stapa"],
+        ["terstapa", "te stapa"],
+        ["selstasu", "se stasu"],
+        ["selstati", "se stati"],
+        ["selsteba", "se steba"],
+        ["selte'i", "se steci"],
+        ["terte'i", "te steci"],
+        ["selstedu", "se stedu"],
+        ["selstela", "se stela"],
+        ["terstela", "te stela"],
+        ["selte'o", "se stero"],
+        ["terte'o", "te stero"],
+        ["selstici", "se stici"],
+        ["terstici", "te stici"],
+        ["selti'i", "se stidi"],
+        ["terti'i", "te stidi"],
+        ["selstika", "se stika"],
+        ["terstika", "te stika"],
+        ["selsto", "se stodi"],
+        ["tersto", "te stodi"],
+        ["selstuna", "se stuna"],
+        ["terstuna", "te stuna"],
+        ["selsu'a", "se stura"],
+        ["selstu", "se stuzi"],
+        ["selsucta", "se sucta"],
+        ["tersucta", "te sucta"],
+        ["selsudga", "se sudga"],
+        ["selsfu", "se sufti"],
+        ["selsuksa", "se suksa"],
+        ["tersuksa", "te suksa"],
+        ["selsumji", "se sumji"],
+        ["tersumji", "te sumji"],
+        ["selsumne", "se sumne"],
+        ["selsu'i", "se sumti"],
+        ["tersu'i", "te sumti"],
+        ["selsunga", "se sunga"],
+        ["selsunla", "se sunla"],
+        ["selsurla", "se surla"],
+        ["selsutra", "se sutra"],
+        ["seltadji", "se tadji"],
+        ["tertadji", "te tadji"],
+        ["seltadni", "se tadni"],
+        ["seltagji", "se tagji"],
+        ["tertagji", "te tagji"],
+        ["veltagji", "ve tagji"],
+        ["seltalsa", "se talsa"],
+        ["tertalsa", "te talsa"],
+        ["seltamca", "se tamca"],
+        ["seltamji", "se tamji"],
+        ["tertamji", "te tamji"],
+        ["seltamne", "se tamne"],
+        ["tertamne", "te tamne"],
+        ["selta'o", "se tanbo"],
+        ["seltance", "se tance"],
+        ["seltanjo", "se tanjo"],
+        ["seltanko", "se tanko"],
+        ["seltau", "se tanru"],
+        ["tertau", "te tanru"],
+        ["veltau", "ve tanru"],
+        ["xeltau", "xe tanru"],
+        ["seltansi", "se tansi"],
+        ["tertansi", "te tansi"],
+        ["selta'e", "se tanxe"],
+        ["terta'e", "te tanxe"],
+        ["seltapla", "se tapla"],
+        ["tertapla", "te tapla"],
+        ["veltapla", "ve tapla"],
+        ["seltarbi", "se tarbi"],
+        ["tertarbi", "te tarbi"],
+        ["seltarci", "se tarci"],
+        ["seltarla", "se tarla"],
+        ["seltai", "se tarmi"],
+        ["seltra", "se tarti"],
+        ["tertra", "te tarti"],
+        ["seltaske", "se taske"],
+        ["selta'i", "se tatpi"],
+        ["seltatru", "se tatru"],
+        ["selta'a", "se tavla"],
+        ["terta'a", "te tavla"],
+        ["velta'a", "ve tavla"],
+        ["selta'u", "se taxfu"],
+        ["terta'u", "te taxfu"],
+        ["seltcaci", "se tcaci"],
+        ["tertcaci", "te tcaci"],
+        ["seltca", "se tcadu"],
+        ["tertca", "te tcadu"],
+        ["veltca", "ve tcadu"],
+        ["seltcana", "se tcana"],
+        ["seltcati", "se tcati"],
+        ["seltcena", "se tcena"],
+        ["tertcena", "te tcena"],
+        ["veltcena", "ve tcena"],
+        ["seltcica", "se tcica"],
+        ["tertcica", "te tcica"],
+        ["seltcidu", "se tcidu"],
+        ["tertcidu", "te tcidu"],
+        ["seltcika", "se tcika"],
+        ["tertcika", "te tcika"],
+        ["veltcika", "ve tcika"],
+        ["seltcila", "se tcila"],
+        ["selti'a", "se tcima"],
+        ["seltcini", "se tcini"],
+        ["seltcita", "se tcita"],
+        ["tertcita", "te tcita"],
+        ["seltei", "se temci"],
+        ["tertei", "te temci"],
+        ["seltenfa", "se tenfa"],
+        ["tertenfa", "te tenfa"],
+        ["selte'u", "se tengu"],
+        ["selterdi", "se terdi"],
+        ["selte'a", "se terpa"],
+        ["selterto", "se terto"],
+        ["terterto", "te terto"],
+        ["seltigni", "se tigni"],
+        ["tertigni", "te tigni"],
+        ["seltikpa", "se tikpa"],
+        ["tertikpa", "te tikpa"],
+        ["veltikpa", "ve tikpa"],
+        ["seltilju", "se tilju"],
+        ["seltinbe", "se tinbe"],
+        ["tertinbe", "te tinbe"],
+        ["seltinsa", "se tinsa"],
+        ["tertinsa", "te tinsa"],
+        ["veltinsa", "ve tinsa"],
+        ["seltirna", "se tirna"],
+        ["tertirna", "te tirna"],
+        ["seltirxu", "se tirxu"],
+        ["tertirxu", "te tirxu"],
+        ["seltisna", "se tisna"],
+        ["seltitla", "se titla"],
+        ["seltivni", "se tivni"],
+        ["tertivni", "te tivni"],
+        ["veltivni", "ve tivni"],
+        ["seltoknu", "se toknu"],
+        ["seltoldi", "se toldi"],
+        ["selto'a", "se tonga"],
+        ["terto'a", "te tonga"],
+        ["selto'u", "se tordu"],
+        ["terto'u", "te tordu"],
+        ["selto'i", "se torni"],
+        ["selrai", "se traji"],
+        ["teryrai", "te traji"],
+        ["velrai", "ve traji"],
+        ["seltrati", "se trati"],
+        ["selre'e", "se trene"],
+        ["teryre'e", "te trene"],
+        ["velre'e", "ve trene"],
+        ["seltricu", "se tricu"],
+        ["seltri", "se trina"],
+        ["tertri", "te trina"],
+        ["selti'e", "se trixe"],
+        ["terti'e", "te trixe"],
+        ["seltoi", "se troci"],
+        ["tertoi", "te troci"],
+        ["seltsa", "se tsali"],
+        ["tertsa", "te tsali"],
+        ["seltsani", "se tsani"],
+        ["seltsapi", "se tsapi"],
+        ["seltsi", "se tsiju"],
+        ["tertsi", "te tsiju"],
+        ["seltsina", "se tsina"],
+        ["tertsina", "te tsina"],
+        ["veltsina", "ve tsina"],
+        ["seltu'u", "se tubnu"],
+        ["tertu'u", "te tubnu"],
+        ["seltu'i", "se tugni"],
+        ["tertu'i", "te tugni"],
+        ["veltu'i", "ve tugni"],
+        ["seltujli", "se tujli"],
+        ["seltu'a", "se tumla"],
+        ["seltunba", "se tunba"],
+        ["tertunba", "te tunba"],
+        ["seltunta", "se tunta"],
+        ["seltu'e", "se tuple"],
+        ["seltru", "se turni"],
+        ["seltci", "se tutci"],
+        ["seltutra", "se tutra"],
+        ["selvacri", "se vacri"],
+        ["tervacri", "te vacri"],
+        ["selvai", "se vajni"],
+        ["tervai", "te vajni"],
+        ["selvla", "se valsi"],
+        ["tervla", "te valsi"],
+        ["selva'i", "se vamji"],
+        ["terva'i", "te vamji"],
+        ["velva'i", "ve vamji"],
+        ["selvamtu", "se vamtu"],
+        ["selvanbi", "se vanbi"],
+        ["selvanci", "se vanci"],
+        ["tervanci", "te vanci"],
+        ["selvanju", "se vanju"],
+        ["selvau", "se vasru"],
+        ["selva'u", "se vasxu"],
+        ["selve'u", "se vecnu"],
+        ["terve'u", "te vecnu"],
+        ["velve'u", "ve vecnu"],
+        ["selvenfu", "se venfu"],
+        ["tervenfu", "te venfu"],
+        ["velvenfu", "ve venfu"],
+        ["selvensa", "se vensa"],
+        ["tervensa", "te vensa"],
+        ["selve'a", "se verba"],
+        ["terve'a", "te verba"],
+        ["selvibna", "se vibna"],
+        ["selvidni", "se vidni"],
+        ["selvidru", "se vidru"],
+        ["tervidru", "te vidru"],
+        ["selvi'i", "se vikmi"],
+        ["tervi'i", "te vikmi"],
+        ["velvi'i", "ve vikmi"],
+        ["selviknu", "se viknu"],
+        ["selvi'u", "se vimcu"],
+        ["tervi'u", "te vimcu"],
+        ["velvi'u", "ve vimcu"],
+        ["selvindu", "se vindu"],
+        ["selvinji", "se vinji"],
+        ["tervinji", "te vinji"],
+        ["selvipsi", "se vipsi"],
+        ["tervipsi", "te vipsi"],
+        ["selvri", "se virnu"],
+        ["tervri", "te virnu"],
+        ["selvi'a", "se viska"],
+        ["tervi'a", "te viska"],
+        ["selvitci", "se vitci"],
+        ["selvi'e", "se vitke"],
+        ["tervi'e", "te vitke"],
+        ["selvi'o", "se vitno"],
+        ["tervi'o", "te vitno"],
+        ["selvlagi", "se vlagi"],
+        ["selvlina", "se vlina"],
+        ["tervlina", "te vlina"],
+        ["selvli", "se vlipa"],
+        ["tervli", "te vlipa"],
+        ["selvoi", "se vofli"],
+        ["selvo'a", "se voksa"],
+        ["selvro", "se vorme"],
+        ["tervro", "te vorme"],
+        ["velvro", "ve vorme"],
+        ["selvra", "se vraga"],
+        ["tervra", "te vraga"],
+        ["velvra", "ve vraga"],
+        ["selvei", "se vreji"],
+        ["tervei", "te vreji"],
+        ["velvei", "ve vreji"],
+        ["selvre", "se vreta"],
+        ["selvrici", "se vrici"],
+        ["selvu'e", "se vrude"],
+        ["selvu'i", "se vrusi"],
+        ["selvu'o", "se vukro"],
+        ["selxa'u", "se xabju"],
+        ["selxadba", "se xadba"],
+        ["terxadba", "te xadba"],
+        ["selxadni", "se xadni"],
+        ["selxagji", "se xagji"],
+        ["selxagri", "se xagri"],
+        ["selxajmi", "se xajmi"],
+        ["terxajmi", "te xajmi"],
+        ["selxaksu", "se xaksu"],
+        ["selxalbo", "se xalbo"],
+        ["selxalka", "se xalka"],
+        ["terxalka", "te xalka"],
+        ["selxalni", "se xalni"],
+        ["selxau", "se xamgu"],
+        ["terxau", "te xamgu"],
+        ["selxa'o", "se xampo"],
+        ["terxa'o", "te xampo"],
+        ["selxamsi", "se xamsi"],
+        ["terxamsi", "te xamsi"],
+        ["selxa'e", "se xance"],
+        ["selxanka", "se xanka"],
+        ["terxanka", "te xanka"],
+        ["selxanri", "se xanri"],
+        ["selxanto", "se xanto"],
+        ["selxa'i", "se xarci"],
+        ["terxa'i", "te xarci"],
+        ["selxarju", "se xarju"],
+        ["selxarnu", "se xarnu"],
+        ["terxarnu", "te xarnu"],
+        ["selxasli", "se xasli"],
+        ["selxasne", "se xasne"],
+        ["terxasne", "te xasne"],
+        ["selxa'a", "se xatra"],
+        ["terxa'a", "te xatra"],
+        ["velxa'a", "ve xatra"],
+        ["selxatsi", "se xatsi"],
+        ["terxatsi", "te xatsi"],
+        ["selzdo", "se xazdo"],
+        ["selxei", "se xebni"],
+        ["selbro", "se xebro"],
+        ["selcto", "se xecto"],
+        ["tercto", "te xecto"],
+        ["selxe'a", "se xedja"],
+        ["selxelso", "se xelso"],
+        ["selxe'o", "se xendo"],
+        ["terxe'o", "te xendo"],
+        ["selxe'u", "se xenru"],
+        ["selxexso", "se xexso"],
+        ["terxexso", "te xexso"],
+        ["selxindo", "se xindo"],
+        ["selxinmo", "se xinmo"],
+        ["terxinmo", "te xinmo"],
+        ["selxi'a", "se xirma"],
+        ["selxi'u", "se xislu"],
+        ["terxi'u", "te xislu"],
+        ["selxispo", "se xispo"],
+        ["selxla", "se xlali"],
+        ["terxla", "te xlali"],
+        ["selxlu", "se xlura"],
+        ["terxlu", "te xlura"],
+        ["velxlu", "ve xlura"],
+        ["selxoi", "se xotli"],
+        ["terxoi", "te xotli"],
+        ["selxrabo", "se xrabo"],
+        ["selxai", "se xrani"],
+        ["terxai", "te xrani"],
+        ["velxai", "ve xrani"],
+        ["selxi'o", "se xriso"],
+        ["selxruba", "se xruba"],
+        ["selxruki", "se xruki"],
+        ["selxrula", "se xrula"],
+        ["selxru", "se xruti"],
+        ["terxru", "te xruti"],
+        ["velxru", "ve xruti"],
+        ["selxu'i", "se xukmi"],
+        ["terxu'i", "te xukmi"],
+        ["selxu'o", "se xurdo"],
+        ["selxu'a", "se xusra"],
+        ["selza'a", "se zabna"],
+        ["terza'a", "te zabna"],
+        ["selzajba", "se zajba"],
+        ["selzalvi", "se zalvi"],
+        ["terzalvi", "te zalvi"],
+        ["selzau", "se zanru"],
+        ["selzai", "se zarci"],
+        ["terzai", "te zarci"],
+        ["selza'u", "se zargu"],
+        ["selzasni", "se zasni"],
+        ["terzasni", "te zasni"],
+        ["selza'i", "se zasti"],
+        ["terza'i", "te zasti"],
+        ["selzbabu", "se zbabu"],
+        ["terzbabu", "te zbabu"],
+        ["selzbani", "se zbani"],
+        ["selzba", "se zbasu"],
+        ["terzba", "te zbasu"],
+        ["selzbe", "se zbepi"],
+        ["terzbe", "te zbepi"],
+        ["selzda", "se zdani"],
+        ["selzdi", "se zdile"],
+        ["terzdi", "te zdile"],
+        ["selzei", "se zekri"],
+        ["selze'a", "se zenba"],
+        ["terze'a", "te zenba"],
+        ["selzepti", "se zepti"],
+        ["terzepti", "te zepti"],
+        ["selzetro", "se zetro"],
+        ["terzetro", "te zetro"],
+        ["selzga", "se zgana"],
+        ["terzga", "te zgana"],
+        ["velzga", "ve zgana"],
+        ["selzgi", "se zgike"],
+        ["selzi'e", "se zifre"],
+        ["terzi'e", "te zifre"],
+        ["selvle", "se zivle"],
+        ["tervle", "te zivle"],
+        ["velvle", "ve zivle"],
+        ["selmau", "se zmadu"],
+        ["termau", "te zmadu"],
+        ["velmau", "ve zmadu"],
+        ["selzmi", "se zmiku"],
+        ["terzmi", "te zmiku"],
+        ["selzu'e", "se zukte"],
+        ["terzu'e", "te zukte"],
+        ["selzmu", "se zumri"],
+        ["selzungi", "se zungi"],
+        ["selzunle", "se zunle"],
+        ["terzunle", "te zunle"],
+        ["selzu'i", "se zunti"],
+        ["terzu'i", "te zunti"],
+        ["seltse", "se zutse"],
+        ["selzva", "se zvati"],
+    ];
+    for test in tests {
+        println!("{} / {}", test[0], test[1]);
+        assert_eq!(test[0], jvozba::get_lujvo(test[1], false).unwrap().0);
+        println!("zbasu: pass");
+        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        println!("katna: pass");
+    }
 }
 
 #[test]
 fn cmene_tests() {
+    let tests = [
+        ["latker", "mlatu kerlo"],
+        ["rensaz", "trene sazri"],
+        ["renlat", "trene mlatu"],
+        ["renren", "trene trene"],
+        ["ci'iren", "cinri trene"],
+        ["sansman", "spano smani"],
+        ["sansyman", "sanso manku"],
+        ["zinzman", "zinki -zman-"],
+        ["zinzyman", "-zinz- manku"],
+        ["veimi'ikeira'asam", "vreji minji kelci srana skami"],
+        ["veimi'ikeicinfyra'asam", "vreji minji kelci cinfo srana skami"],
+    ];
 }
 
 #[test]
 fn jvozba_only_tests() {
+    let tests = [
+        ["latkerlo", "['mlatu', 'kerlo']"],
+        ["latkerlo", "mlatu  kerlo"],
+        ["latkerlo", "mlatu　kerlo"],
+        ["kelrykerlo", "kelro kerlo"],
+        ["varterjabre", "-var- -ter- -jabre-"],
+        ["lotlo'i", "-lot- -lo'i-"],
+        ["mibdoi", "mido"],
+    ];
 }
 
 #[test]
@@ -5293,6 +5324,58 @@ fn jvozba_fail_tests() {
 
 #[test]
 fn jvokaha_only_tests() {
+    let tests = [
+        ["latkerl", "mlatu kerlo"],
+        ["mlatykerlo", "mlatu kerlo"],
+        ["dictrene", "dikca trene"],
+        ["dikcyre'e", "dikca trene"],
+        ["dikcytrene", "dikca trene"],
+        ["lotlo'i", "bloti bloti"],
+        ["tsublo", "rotsu bloti"],
+        ["ro'ublo", "rotsu bloti"],
+        ["tsulo'i", "rotsu bloti"],
+        ["rotlo'i", "rotsu bloti"],
+        ["rotyblo", "rotsu bloti"],
+        ["tsubloti", "rotsu bloti"],
+        ["ro'urlo'i", "rotsu bloti"],
+        ["rotsyblo", "rotsu bloti"],
+        ["rotsylo'i", "rotsu bloti"],
+        ["rotybloti", "rotsu bloti"],
+        ["ro'urbloti", "rotsu bloti"],
+        ["rotsybloti", "rotsu bloti"],
+        ["blotsu", "bloti rotsu"],
+        ["lo'itsu", "bloti rotsu"],
+        ["bloro'u", "bloti rotsu"],
+        ["lotro'u", "bloti rotsu"],
+        ["lotytsu", "bloti rotsu"],
+        ["blorotsu", "bloti rotsu"],
+        ["lo'inro'u", "bloti rotsu"],
+        ["blotytsu", "bloti rotsu"],
+        ["blotyro'u", "bloti rotsu"],
+        ["lotyrotsu", "bloti rotsu"],
+        ["lo'inrotsu", "bloti rotsu"],
+        ["lo'inro'u", "bloti rotsu"],
+        ["blotyrotsu", "bloti rotsu"],
+        ["tsulot", "rotsu bloti"],
+        ["rotlot", "rotsu bloti"],
+        ["tsublot", "rotsu bloti"],
+        ["ro'ulot", "rotsu bloti"],
+        ["rotyblot", "rotsu bloti"],
+        ["rotsylot", "rotsu bloti"],
+        ["ro'ublot", "rotsu bloti"],
+        ["rotsyblot", "rotsu bloti"],
+        ["blorot", "bloti rotsu"],
+        ["lotrot", "bloti rotsu"],
+        ["blorots", "bloti rotsu"],
+        ["lotrots", "bloti rotsu"],
+        ["lo'irot", "bloti rotsu"],
+        ["blotyrot", "bloti rotsu"],
+        ["lo'irots", "bloti rotsu"],
+        ["blotyrots", "bloti rotsu"],
+        ["re'esaz", "trene sazri"],
+        ["re'emlat", "trene mlatu"],
+        ["re'eren", "trene trene"],
+    ];
 }
 
 #[test]
@@ -5301,5 +5384,22 @@ fn jvokaha_fail_tests() {
 
 #[test]
 fn lujvo_score_tests() {
+    let tests = [
+        ["mlatu kerlo", "7937"],
+        ["lorxu kerlo", "7937"],
+        ["vacri te jabre", "10886"],
+        ["sevzi lacri", "7937"],
+        ["dukse ke sevzi lacri", "13835"],
+        ["tanbo skami", "9506"],
+        ["tanbo skami dukse", "10925"],
+        ["crino djedi", "6367"],
+        ["sanmi bukpu", "7456"],
+        ["co'u trene", "7976"],
+        ["co'u trene sazri", "12475"],
+        ["tcana jatna", "8497"],
+        ["tcana tcana tcana", "15086"],
+        ["kosta mabru", "9037"],
+        ["kosta kosta mabru", "11986"],
+    ];
 }
 

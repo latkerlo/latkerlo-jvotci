@@ -57,7 +57,7 @@ pub fn get_rafsi_list_list(valsi_list: Vec<String>, cmene: bool) -> Result<Vec<V
             }
             if is_gismu(&v) {
                 if !is_valid_rafsi(&v) {
-                    return Err(format!("invalid cluster in {v}"));
+                    return Err(format!("invalid cluster in {{{v}}}"));
                 }
                 if i == valsi_list.len() - 1 {
                     if cmene {
