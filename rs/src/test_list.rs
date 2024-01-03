@@ -5500,6 +5500,7 @@ fn jvokaha_fail_tests() {
     ];
     for test in tests {
         println!("{}", test[0]);
+        let _ = katna::get_veljvo(test[0]);
     }
 }
 
