@@ -5305,13 +5305,17 @@ fn cmene_tests() {
         ["veimi'ikeicinfyra'asam", "vreji minji kelci cinfo srana skami"],
     ];
     for test in tests {
+        println!("{} / {}", test[0], test[1]);
+        assert_eq!(test[0], jvozba::get_lujvo(test[1], true).unwrap().0);
+        println!("zbasu: pass");
+        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        println!("katna: pass");
     }
 }
 
 #[test]
 fn jvozba_only_tests() {
     let tests = [
-        ["latkerlo", "['mlatu', 'kerlo']"],
         ["latkerlo", "mlatu  kerlo"],
         ["latkerlo", "mlatu　kerlo"],
         ["kelrykerlo", "kelro kerlo"],
@@ -5320,6 +5324,9 @@ fn jvozba_only_tests() {
         ["mibdoi", "mido"],
     ];
     for test in tests {
+        println!("{} / {}", test[0], test[1]);
+        assert_eq!(test[0], jvozba::get_lujvo(test[1], false).unwrap().0);
+        println!("zbasu: pass");
     }
 }
 
@@ -5382,6 +5389,9 @@ fn jvokaha_only_tests() {
         ["re'eren", "trene trene"],
     ];
     for test in tests {
+        println!("{} / {}", test[0], test[1]);
+        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        println!("katna: pass");
     }
 }
 
@@ -5409,6 +5419,7 @@ fn lujvo_score_tests() {
         ["kosta kosta mabru", "11986"],
     ];
     for test in tests {
+        println!("{} / {}", test[0], test[1]);
     }
 }
 
