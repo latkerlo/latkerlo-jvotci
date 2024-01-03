@@ -1,5 +1,6 @@
 #[cfg(test)]
 use crate::*;
+
 #[test]
 fn jvozbajvekaha_tests() {
     let tests = [
@@ -5303,6 +5304,8 @@ fn cmene_tests() {
         ["veimi'ikeira'asam", "vreji minji kelci srana skami"],
         ["veimi'ikeicinfyra'asam", "vreji minji kelci cinfo srana skami"],
     ];
+    for test in tests {
+    }
 }
 
 #[test]
@@ -5316,6 +5319,8 @@ fn jvozba_only_tests() {
         ["lotlo'i", "-lot- -lo'i-"],
         ["mibdoi", "mido"],
     ];
+    for test in tests {
+    }
 }
 
 #[test]
@@ -5376,6 +5381,8 @@ fn jvokaha_only_tests() {
         ["re'emlat", "trene mlatu"],
         ["re'eren", "trene trene"],
     ];
+    for test in tests {
+    }
 }
 
 #[test]
@@ -5401,5 +5408,7 @@ fn lujvo_score_tests() {
         ["kosta mabru", "9037"],
         ["kosta kosta mabru", "11986"],
     ];
+    for test in tests {
+    }
 }
 

@@ -24,7 +24,7 @@ pub fn jvokaha(lujvo: &str) -> Result<Vec<String>, String> {
     let arr = jvokaha2(lujvo);
     arr.as_ref()?;
     let arr = arr.unwrap();
-    let rafsi_tanru = arr.iter().filter(|x| !x.is_empty()).map(|x| format!("-{x}-")).collect();
+    let rafsi_tanru = arr.iter().filter(|x| x.len() > 1).map(|x| format!("-{x}-")).collect();
     let correct_lujvo = get_lujvo2(rafsi_tanru, is_consonant(char(&arr[arr.len() - 1], arr[arr.len() - 1].len() - 1)));
     if correct_lujvo.is_ok() && lujvo == correct_lujvo.clone().unwrap().0 {
         Ok(arr)
@@ -87,7 +87,7 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
 }
 
 pub fn get_veljvo(lujvo: &str) -> Vec<String> {
-    let rafsi_list = jvokaha(lujvo).unwrap().iter().filter(|&x| !x.is_empty()).cloned().collect::<Vec<String>>();
+    let rafsi_list = jvokaha(lujvo).unwrap().iter().filter(|&x| x.len() > 1).cloned().collect::<Vec<String>>();
     let selrafsi_list = rafsi_list.iter().map(|x| search_selrafsi_from_rafsi(x).unwrap_or(format!("-{x}-"))).collect::<Vec<String>>();
     selrafsi_list
 }

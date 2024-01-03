@@ -29,7 +29,7 @@ with open("js/docs/jvozba_test_list.js", "w", encoding="utf-8") as opf:
         opf.write("]\n\n")
 
 with open("rs/src/test_list.rs", "w", encoding="utf-8") as opf:
-    opf.write("#[cfg(test)]\nuse crate::*;\n")
+    opf.write("#[cfg(test)]\nuse crate::*;\n\n")
     for list_name, test_list in TEST_LISTS.items():
         opf.write(f"#[test]\nfn {list_name.lower()}() {{\n")
         if "FAIL" in list_name:
@@ -41,13 +41,13 @@ with open("rs/src/test_list.rs", "w", encoding="utf-8") as opf:
             for test in test_list:
                 opf.write("        [\"" + test[0] + "\", \"" + f"{test[1]}" + "\"],\n")
             opf.write("    ];\n")
+            opf.write("    for test in tests {\n")
             match list_name:
                 case "JVOZBAJVEKAhA_TESTS":
-                    opf.write("    for test in tests {\n")
                     opf.write("        println!(\"{} / {}\", test[0], test[1]);\n")
                     opf.write("        assert_eq!(test[0], jvozba::get_lujvo(test[1], false).unwrap().0);\n")
                     opf.write("        println!(\"zbasu: pass\");\n")
                     opf.write("        assert_eq!(katna::get_veljvo(test[0]).join(\" \"), test[1]);\n")
                     opf.write("        println!(\"katna: pass\");\n")
-                    opf.write("    }\n")
+            opf.write("    }\n")
         opf.write("}\n\n")
