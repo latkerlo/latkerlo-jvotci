@@ -5331,7 +5331,53 @@ fn jvozba_only_tests() {
 }
 
 #[test]
+#[should_panic]
 fn jvozba_fail_tests() {
+    let tests = [
+        ["2"],
+        [""],
+        ["弱音ハク"],
+        ["弱音 ハク"],
+        ["弱音　ハク"],
+        ["mla2 kerlo"],
+        ["mlatu k3rlo"],
+        ["mi"],
+        ["mlatu"],
+        ["kerlo mi"],
+        ["kerlo mi'e"],
+        ["mi'e kerlo"],
+        ["mutce gbatu"],
+        ["gbatu mutce"],
+        ["tarti -jno-"],
+        ["lat kerlo"],
+        ["palci latkerlo"],
+        ["jaurgacmi'imle"],
+        ["jaurgacmi'imle kerlo"],
+        ["-kerlo- kerlo"],
+        ["-123- kerlo"],
+        ["-k1r- kerlo"],
+        ["-弱音- -ハク-"],
+        ["-弱音- -ハku-"],
+        ["-弱音- -haku-"],
+        ["mlatu -弱音-"],
+        ["mlatu -ハク-"],
+        ["mlatu -ハku-"],
+        ["mlatu -haku-"],
+        ["-弱音- kerlo"],
+        ["-ハク- kerlo"],
+        ["-ハku- kerlo"],
+        ["-haku- kerlo"],
+        ["mlatu -kelo-"],
+        ["-matu- kerlo"],
+        ["kerlo -kerlo- kerlo"],
+        ["-kerlolo- kerlo"],
+        ["kerlo xi"],
+        ["tu'a kerlo"],
+    ];
+    for test in tests {
+        println!("{}", test[0]);
+        let _ = jvozba::get_lujvo(test[0], false);
+    }
 }
 
 #[test]
@@ -5396,30 +5442,64 @@ fn jvokaha_only_tests() {
 }
 
 #[test]
+#[should_panic]
 fn jvokaha_fail_tests() {
-}
-
-#[test]
-fn lujvo_score_tests() {
     let tests = [
-        ["mlatu kerlo", "7937"],
-        ["lorxu kerlo", "7937"],
-        ["vacri te jabre", "10886"],
-        ["sevzi lacri", "7937"],
-        ["dukse ke sevzi lacri", "13835"],
-        ["tanbo skami", "9506"],
-        ["tanbo skami dukse", "10925"],
-        ["crino djedi", "6367"],
-        ["sanmi bukpu", "7456"],
-        ["co'u trene", "7976"],
-        ["co'u trene sazri", "12475"],
-        ["tcana jatna", "8497"],
-        ["tcana tcana tcana", "15086"],
-        ["kosta mabru", "9037"],
-        ["kosta kosta mabru", "11986"],
+        [""],
+        ["弱音ハク"],
+        ["mlatu"],
+        ["latk3rlo"],
+        ["latrkerlo"],
+        ["latnkerlo"],
+        ["tosmabru"],
+        ["fu'irvla"],
+        ["selbazti"],
+        ["dindji"],
+        ["samynlatu"],
+        ["branlatu"],
+        ["tcegbatu"],
+        ["gbatytce"],
+        ["co'unre'"],
+        ["co'ure'"],
+        ["co'ure'e"],
+        ["lonumico'e"],
+        ["trajno"],
+        ["lamzac"],
+        ["miscac"],
+        ["miszac"],
+        ["tolmiszac"],
+        ["nontsap"],
+        ["veimi'ikeicinfra'asam"],
+        ["akti"],
+        ["na'akti"],
+        ["aktigau"],
+        ["na'aktigau"],
+        ["atkerlo"],
+        ["valslinku'i"],
+        ["va'islinku'i"],
+        ["slinkuui"],
+        ["spageti"],
+        ["cidjrspageti"],
+        ["djarspageti"],
+        ["uinmo"],
+        ["uirnainmo"],
+        ["ge'enmo"],
+        ["barduku'ykei"],
+        ["miby'ismu"],
+        ["mibyiismu"],
+        ["iismynei"],
+        ["norycrezuue"],
+        ["zganyiicne"],
+        ["zgazga'yiicne"],
+        ["zgafai'yiicne"],
+        ["bapyiicne"],
+        ["bapyiicne"],
+        ["fatryiicne"],
+        ["fatry'aicne"],
+        ["mlatu'ykerlo"],
     ];
     for test in tests {
-        println!("{} / {}", test[0], test[1]);
+        println!("{}", test[0]);
     }
 }
 
