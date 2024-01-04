@@ -4,6 +4,7 @@ use crate::{tarmi::{is_gismu, is_consonant}, katna::jvokaha2};
 pub fn char(s: &str, n: usize) -> char {
     s.chars().nth(n).unwrap_or_default()
 }
+/// (supports negative indices)
 pub fn slice(s: &str, a: isize, b: isize) -> String {
     let mut a = if a >= 0 {a as usize} else {s.len() - -a as usize};
     let mut b = if b >= 0 {b as usize} else {s.len() - -b as usize};
@@ -22,6 +23,7 @@ pub fn is_gismu_or_lujvo(s: &str) -> bool {
     }
 }
 
+/// Splits off a cmavo (particle). Assumes it does need to be split and the remainder is valid Lojban. Panics on non-Lojban characters.
 pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
     let mut i = 0;
     let mut will_end = false;
@@ -55,6 +57,7 @@ pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
     Ok([&s[0..i], &s[i..]])
 }
 
+/// Chops all the cmavo off the front and returns a list of the resulting words
 pub fn split_words(s: &str) -> Vec<String> {
     if s.is_empty() {
         return vec![];

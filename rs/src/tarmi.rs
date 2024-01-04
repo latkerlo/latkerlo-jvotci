@@ -1,6 +1,9 @@
+//! Various methods for determining the shape of a word.
+
 use regex::Regex;
 use crate::{tools::char, data::{VALID, INITIAL}};
 
+/// The shape (*tarmi*) of a rafsi.
 #[derive(PartialEq, Clone, Debug)]
 pub enum Tarmi {
     Hyphen = 0,
@@ -13,7 +16,6 @@ pub enum Tarmi {
     Ccv = 7,
     Cvv = 8,
     Fuhivla = 9
-    // is there some way to avoid having to `as usize` etc these?
 }
 impl Tarmi {
     pub fn as_usize(&self) -> usize {
@@ -29,6 +31,7 @@ pub fn is_consonant(c: char) -> bool {
     "bcdfgjklmnprstvxz".contains(c)
 }
 
+/// Does **not** include *y*, since here this is only used on rafsi.
 pub fn is_only_lojban_characters(valsi: &str) -> bool {
     Regex::new("^[aeioubcdfgjklmnprstvxz']+$").unwrap().is_match(valsi)
 }
@@ -75,6 +78,7 @@ pub fn rafsi_tarmi(rafsi: &str) -> Tarmi {
         _ => Tarmi::Fuhivla
     }
 }
+
 pub fn tarmi_ignoring_hyphen(mut rafsi: &str) -> Tarmi {
     if rafsi.ends_with('y') {
         rafsi = &rafsi[..rafsi.len() - 1];

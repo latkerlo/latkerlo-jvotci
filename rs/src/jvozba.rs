@@ -1,12 +1,14 @@
+//! Tools for making lujvo.
+
 use std::collections::HashMap;
 use regex::Regex;
 use crate::{tarmi::{tarmi_ignoring_hyphen, is_only_lojban_characters, is_valid_rafsi, is_gismu, Tarmi, rafsi_tarmi, is_consonant, is_vowel}, tools::{split_words, slice, char}, rafsi::RAFSI, data::{VALID, INITIAL}};
 
+/// Returns the score for the given rafsi.
 pub fn score(rafsi: &str) -> usize {
     1000 * rafsi.len() - 500 * rafsi.matches('\'').count() + 100 * rafsi.matches('y').count() - 10 * tarmi_ignoring_hyphen(rafsi).as_usize() - rafsi.matches(|c| "aeiou".contains(c)).count()
 }
 
-// wanna pass a string? trim & split_whitespace it
 pub fn process_tanru(tanru: Vec<String>) -> Vec<String> {
     let valsi_list = tanru;
     let mut expanded = Vec::<String>::new();
@@ -16,6 +18,7 @@ pub fn process_tanru(tanru: Vec<String>) -> Vec<String> {
     expanded
 }
 
+/// Takes a list of words and whether the lujvo is intended to be a name (end in a consonant); returns rafsi for all of the words. Panics on invalid clusters/letters or nonfinal 5-letter rafsi
 pub fn get_rafsi_list_list(valsi_list: Vec<String>, cmene: bool) -> Result<Vec<Vec<String>>, String> {
     let mut rafsi_list_list = Vec::new();
     for (i, v) in valsi_list.iter().enumerate() {
@@ -75,6 +78,7 @@ pub fn get_rafsi_list_list(valsi_list: Vec<String>, cmene: bool) -> Result<Vec<V
     Ok(rafsi_list_list)
 }
 
+/// Appends a rafsi to a lujvo-in-progress
 pub fn combine(lujvo: &str, rafsi: &str, score: usize, mut tosmabru: bool, cmene: bool, tanru_len: usize) -> Option<(usize, usize, String)> {
     let lujvo_final = char(lujvo, lujvo.len() - 1);
     let rafsi_initial = char(rafsi, 0);
@@ -118,7 +122,7 @@ pub fn combine(lujvo: &str, rafsi: &str, score: usize, mut tosmabru: bool, cmene
     Some((tosmabru as usize, score + 1100 * hyphen.len() + self::score(rafsi), lujvo.to_owned() + hyphen + rafsi))
 }
 
-type BestLujvoMap = HashMap<String, (String, usize)>;
+pub type BestLujvoMap = HashMap<String, (String, usize)>;
 
 pub fn update_current_best(result: Option<(usize, usize, String)>, mut current_best: [BestLujvoMap; 2]) -> [BestLujvoMap; 2] {
     if let Some((tosmabru, res_score, res_lujvo)) = result {
@@ -130,6 +134,7 @@ pub fn update_current_best(result: Option<(usize, usize, String)>, mut current_b
     current_best
 }
 
+/// Makes a lujvo! `cmene` is whether or not it should end in a consonant
 pub fn get_lujvo(tanru: &str, cmene: bool) -> Result<(String, usize), String> {
     get_lujvo2(process_tanru(tanru.to_string().split_whitespace().map(String::from).collect()), cmene)
 }
