@@ -23,7 +23,7 @@ pub fn is_gismu_or_lujvo(s: &str) -> bool {
     }
 }
 
-/// Splits off a cmavo (particle). Assumes it does need to be split and the remainder is valid Lojban. Panics on non-Lojban characters.
+/// Splits off a cmavo (particle). Assumes it does need to be split and the remainder is valid Lojban. Returns an Err on non-Lojban characters.
 pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
     let mut i = 0;
     let mut will_end = false;

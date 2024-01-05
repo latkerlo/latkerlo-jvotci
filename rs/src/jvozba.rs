@@ -18,7 +18,7 @@ pub fn process_tanru(tanru: Vec<String>) -> Vec<String> {
     expanded
 }
 
-/// Takes a list of words and whether the lujvo is intended to be a name (end in a consonant); returns rafsi for all of the words. Panics on invalid clusters/letters or nonfinal 5-letter rafsi
+/// Takes a list of words and whether the lujvo is intended to be a name (end in a consonant); returns rafsi for all of the words. Returns an Err on invalid clusters/letters or nonfinal 5-letter rafsi
 pub fn get_rafsi_list_list(valsi_list: Vec<String>, cmene: bool) -> Result<Vec<Vec<String>>, String> {
     let mut rafsi_list_list = Vec::new();
     for (i, v) in valsi_list.iter().enumerate() {
