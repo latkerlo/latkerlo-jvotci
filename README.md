@@ -1,7 +1,7 @@
 # latkerlo jvotci
 
 A set of tools for creating and decomposing lujvo. Available in Python and 
-JavaScript, and as the Rust `latkerlo_jvotci` crate.
+JavaScript, and as the Rust [`latkerlo_jvotci` crate](https://crates.io/crates/latkerlo-jvotci).
 
 This is essentially of combination and translation (where applicable) of three 
 other lujvo projects:
