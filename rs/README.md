@@ -1,7 +1,6 @@
 # latkerlo jvotci
 
-A set of tools for creating and decomposing lujvo. Available in Python and 
-JavaScript, and as the Rust `latkerlo_jvotci` crate.
+A set of tools for creating and decomposing lujvo, also available in Python and JavaScript [here](https://github.com/latkerlo-jvotci).
 
 This is essentially of combination and translation (where applicable) of three 
 other lujvo projects:
@@ -10,7 +9,7 @@ other lujvo projects:
 - [jvozba](https://github.com/uakci/jvozba/tree/v3) by uakci
 - [sozysozbot jvozba](https://github.com/sozysozbot/sozysozbot_jvozba) by sozysozbot
 
-See NOTICE.md for license details.
+See NOTICE.md in the GitHub repo for license details.
 
 Despite the limited amount of original work contributed, the author nonetheless 
 decided to name the project after themself.

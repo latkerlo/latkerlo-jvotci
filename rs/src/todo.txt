@@ -1,0 +1,3 @@
+x data, rafsi, tarmi, tools, jvozba, katna
+
+test_list (aaaa pain)
