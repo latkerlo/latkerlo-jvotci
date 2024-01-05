@@ -7,3 +7,6 @@ pub mod tools;
 pub mod jvozba;
 pub mod katna;
 mod test_list;
+
+pub use jvozba::get_lujvo;
+pub use katna::get_veljvo;
