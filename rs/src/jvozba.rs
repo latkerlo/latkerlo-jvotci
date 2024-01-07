@@ -140,7 +140,7 @@ pub fn get_lujvo(tanru: &str, cmene: bool) -> Result<(String, usize), String> {
 }
 
 pub fn get_lujvo2(valsi_list: Vec<String>, cmene: bool) -> Result<(String, usize), String> {
-    let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), cmene).unwrap();
+    let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), cmene)?;
     let mut current_best = [BestLujvoMap::new(), BestLujvoMap::new()];
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
