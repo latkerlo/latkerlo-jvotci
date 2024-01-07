@@ -32,8 +32,10 @@ pub fn jvokaha(lujvo: &str) -> Result<Vec<String>, String> {
     let correct_lujvo = get_lujvo2(rafsi_tanru, is_consonant(char(&arr[arr.len() - 1], arr[arr.len() - 1].len() - 1)));
     if correct_lujvo.is_ok() && lujvo == correct_lujvo.clone().unwrap().0 {
         Ok(arr)
-    } else {
+    } else if correct_lujvo.is_ok() {
         Err(format!("malformed lujvo {{{lujvo}}}, should be {{{}}}", correct_lujvo.unwrap().0))
+    } else {
+        Err(format!("{{{lujvo}}} is not a lujvo"))
     }
 }
 
