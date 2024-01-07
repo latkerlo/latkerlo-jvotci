@@ -51,6 +51,6 @@ with open("rs/src/test_list.rs", "w", encoding="utf-8") as opf:
                 opf.write("        assert_eq!(test[0], jvozba::get_lujvo(test[1], " + str("C" in list_name).lower() + ").unwrap().0);\n")
                 opf.write("        println!(\"zbasu: pass\");\n")
             if "K" in list_name or "M" in list_name:
-                opf.write("        assert_eq!(katna::get_veljvo(test[0]).join(\" \"), test[1]);\n")
+                opf.write("        assert_eq!(katna::get_veljvo(test[0]).unwrap().join(\" \"), test[1]);\n")
                 opf.write("        println!(\"katna: pass\");\n")
         opf.write("    }\n}\n\n")

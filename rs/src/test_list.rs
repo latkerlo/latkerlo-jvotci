@@ -5284,7 +5284,7 @@ fn jvozbajvekaha_tests() {
         println!("{} / {}", test[0], test[1]);
         assert_eq!(test[0], jvozba::get_lujvo(test[1], false).unwrap().0);
         println!("zbasu: pass");
-        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        assert_eq!(katna::get_veljvo(test[0]).unwrap().join(" "), test[1]);
         println!("katna: pass");
     }
 }
@@ -5308,7 +5308,7 @@ fn cmene_tests() {
         println!("{} / {}", test[0], test[1]);
         assert_eq!(test[0], jvozba::get_lujvo(test[1], true).unwrap().0);
         println!("zbasu: pass");
-        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        assert_eq!(katna::get_veljvo(test[0]).unwrap().join(" "), test[1]);
         println!("katna: pass");
     }
 }
@@ -5436,7 +5436,7 @@ fn jvokaha_only_tests() {
     ];
     for test in tests {
         println!("{} / {}", test[0], test[1]);
-        assert_eq!(katna::get_veljvo(test[0]).join(" "), test[1]);
+        assert_eq!(katna::get_veljvo(test[0]).unwrap().join(" "), test[1]);
         println!("katna: pass");
     }
 }
