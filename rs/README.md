@@ -1,6 +1,6 @@
 # latkerlo jvotci
 
-A set of tools for creating and decomposing lujvo, also available in Python and JavaScript [here](https://github.com/latkerlo-jvotci).
+A set of tools for creating and decomposing lujvo, also available in Python and JavaScript [here](https://github.com/latkerlo/latkerlo-jvotci).
 
 This is essentially of combination and translation (where applicable) of three 
 other lujvo projects:
