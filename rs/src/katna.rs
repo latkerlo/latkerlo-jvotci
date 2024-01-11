@@ -89,7 +89,7 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
             lujvo = slice(&lujvo, 3, lujvo.len() as isize);
             continue;
         }
-        break Err(format!("failed to decompose {original}"));
+        break Err(format!("failed to decompose {{{original}}}"));
     }
 }
 
