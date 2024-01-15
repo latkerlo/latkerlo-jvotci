@@ -31,11 +31,12 @@ pub fn is_consonant(c: char) -> bool {
     "bcdfgjklmnprstvxz".contains(c)
 }
 
-/// Does **not** include *y*, since here this is only used on rafsi.
+/// Does not include *y*, since internally this is only used on (valid) rafsi.
 pub fn is_only_lojban_characters(valsi: &str) -> bool {
     Regex::new("^[aeioubcdfgjklmnprstvxz']+$").unwrap().is_match(valsi)
 }
 
+/// This only checks if the *shape* is CVCCV or CCVCV, ignoring if the clusters are valid.
 pub fn is_gismu(valsi: &str) -> bool {
     valsi.len() == 5 && is_consonant(char(valsi, 0)) && is_consonant(char(valsi, 3)) && is_vowel(char(valsi, 4)) && (
         (is_vowel(char(valsi, 1)) && is_consonant(char(valsi, 2))) || (is_consonant(char(valsi, 1)) && is_vowel(char(valsi, 2)))
