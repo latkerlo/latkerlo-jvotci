@@ -1,17 +1,33 @@
+use crate::{
+    katna::jvokaha2,
+    tarmi::{is_consonant, is_gismu},
+};
 use regex::Regex;
-use crate::{tarmi::{is_gismu, is_consonant}, katna::jvokaha2};
 
 pub fn char(s: &str, n: usize) -> char {
     s.chars().nth(n).unwrap_or_default()
 }
 /// (supports negative indices)
 pub fn slice(s: &str, a: isize, b: isize) -> String {
-    let mut a = if a >= 0 {a as usize} else {s.len() - -a as usize};
-    let mut b = if b >= 0 {b as usize} else {s.len() - -b as usize};
+    let mut a = if a >= 0 {
+        a as usize
+    } else {
+        s.len() - (-a as usize)
+    };
+    let mut b = if b >= 0 {
+        b as usize
+    } else {
+        s.len() - (-b as usize)
+    };
     if a > b {
         std::mem::swap(&mut a, &mut b);
     }
-    let x = s.chars().enumerate().filter(|&(i, _)| a <= i && i < b).map(|(_, c)| c).collect::<String>();
+    let x = s
+        .chars()
+        .enumerate()
+        .filter(|&(i, _)| a <= i && i < b)
+        .map(|(_, c)| c)
+        .collect::<String>();
     x
 }
 
@@ -28,10 +44,14 @@ pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
     let mut i = 0;
     let mut will_end = false;
     while i < s.len() {
-        if i + 2 < s.len() && ["ai", "ei", "oi", "au"].contains(&&s[i..i + 2]) && !"aeiouy".contains(char(s, i + 2)) {
+        if i + 2 < s.len()
+            && ["ai", "ei", "oi", "au"].contains(&&s[i..i + 2])
+            && !"aeiouy".contains(char(s, i + 2))
+        {
             i += 2;
             will_end = true;
-        } else if i + 1 < s.len() && "iu".contains(char(s, i)) && "aeiouy".contains(char(s, i + 1)) {
+        } else if i + 1 < s.len() && "iu".contains(char(s, i)) && "aeiouy".contains(char(s, i + 1))
+        {
             if will_end {
                 break;
             }
@@ -51,7 +71,12 @@ pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
                 break;
             }
         } else {
-            return Err(format!("non-Lojban character {{{}}} in {{{}}} at index {{{}}}", char(s, i), s, i));
+            return Err(format!(
+                "non-Lojban character {{{}}} in {{{}}} at index {{{}}}",
+                char(s, i),
+                s,
+                i
+            ));
         }
     }
     Ok([&s[0..i], &s[i..]])
@@ -68,10 +93,19 @@ pub fn split_words(s: &str) -> Vec<String> {
     let first5 = slice(&s.replace(['y', '\''], ""), 0, 5);
     let cluster = if let Some(m) = Regex::new("[bcdfgjklmnprstvxz]{2}").unwrap().find(&first5) {
         m.start() as isize
-    } else {-1};
+    } else {
+        -1
+    };
     if cluster == -1 {
         let [cmavo, remainder] = split_one_cmavo(s).unwrap();
-        return [vec![cmavo.to_string()], split_words(remainder).iter().map(|x| x.to_string()).collect()].concat()
+        return [
+            vec![cmavo.to_string()],
+            split_words(remainder)
+                .iter()
+                .map(|x| x.to_string())
+                .collect(),
+        ]
+        .concat();
     }
     if is_gismu_or_lujvo(s) {
         return vec![s.to_string()];
