@@ -22,7 +22,7 @@ pub fn search_selrafsi_from_rafsi(rafsi: &str) -> Option<String> {
         }
     }
     for (v, r) in RAFSI.iter() {
-        if r.contains(&rafsi) {
+        if r.contains(&rafsi.to_string()) {
             return Some(v.to_string());
         }
     }
