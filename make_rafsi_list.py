@@ -86,7 +86,7 @@ for selrafsi, proposed_rafsi_list in exp_rafsi_list.items():
             except KeyError:
                 rafsi_list[selrafsi] = {rafsi}
 
-rafsi_list = {selrafsi: list(rafsi) for selrafsi, rafsi in rafsi_list.items()}
+rafsi_list = {selrafsi: sorted(list(rafsi), key=lambda x: rafsi_tarmi(x) % 9) for selrafsi, rafsi in rafsi_list.items()}
 
 with open("py/rafsi_list.json", "w") as opf:
     json.dump(rafsi_list, opf)
