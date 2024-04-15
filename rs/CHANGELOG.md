@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.0.5
+- the rafsi map is now constructed with `HashMap::from()`
+
 ## 1.0.4
 - changed type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
 
