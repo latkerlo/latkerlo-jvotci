@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.0.6
+- added git url to Cargo.toml
+
 ## 1.0.5
 - the rafsi map is now constructed with `HashMap::from()`
 

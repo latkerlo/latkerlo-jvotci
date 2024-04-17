@@ -1,9 +1,10 @@
 [package]
 name = "latkerlo-jvotci"
-version = "1.0.5"
+version = "1.0.6"
 edition = "2021"
 license-file = "NOTICE.md"
 description = "Tools for creating and decomposing lojban lujvo."
+repository = "https://github.com/latkerlo/latkerlo-jvotci"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
