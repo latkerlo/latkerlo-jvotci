@@ -1,5 +1,5 @@
 """
-Copyright (c) 2023 Antonia Brown (https://codeberg.org/tb148)
+Copyright (c) 2023 la latxli (https://codeberg.org/tb148)
 Licensed under the Apache License, Version 2.0
 
 Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023

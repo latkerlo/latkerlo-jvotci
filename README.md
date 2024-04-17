@@ -6,7 +6,7 @@ JavaScript, and as the Rust [`latkerlo_jvotci` crate](https://crates.io/crates/l
 This is essentially of combination and translation (where applicable) of three 
 other lujvo projects:
 
-- [p-lujvo](https://codeberg.org/tb148/p-lujvo) by Antonia Brown
+- [p-lujvo](https://codeberg.org/tb148/p-lujvo) by la latxli
 - [jvozba](https://github.com/uakci/jvozba/tree/v3) by uakci
 - [sozysozbot jvozba](https://github.com/sozysozbot/sozysozbot_jvozba) by sozysozbot
 

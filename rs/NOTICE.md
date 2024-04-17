@@ -4,7 +4,7 @@
 their work available under different licenses:
 
 **p-lujvo** (https://codeberg.org/tb148/p-lujvo) \
-Author: Antonia Brown (https://codeberg.org/tb148) \
+Author: la latxli (https://codeberg.org/tb148) \
 License: Apache License, Version 2.0
 
 **jvozba** (https://github.com/uakci/jvozba/tree/v3) \
@@ -19,7 +19,7 @@ Any modifications or additions made by latkerlo are licensed under the MIT
 License. The original author and license are marked in comments at the top of 
 each file. Each author's license text is included below.
 
-# Antonia Brown (Apache License, Version 2.0)
+# la latxli (Apache License, Version 2.0)
 
 Apache License
 Version 2.0, January 2004
