@@ -1,6 +1,6 @@
 //! Contains the const RAFSI, a map from words to their affixes. docs.rs thinks it's a struct due to `lazy_static!`.
-use std::collections::HashMap;
 use lazy_static::lazy_static;
+use std::collections::HashMap;
 lazy_static! {
     pub static ref RAFSI: HashMap<&'static str, Vec<String>> = HashMap::from([
         ("babda", vec![]),
@@ -85,7 +85,10 @@ lazy_static! {
         ("bliku", vec!["bli".to_string()]),
         ("blina", vec![]),
         ("blolo", vec![]),
-        ("bloti", vec!["lot".to_string(), "lo'i".to_string(), "blo".to_string()]),
+        (
+            "bloti",
+            vec!["lot".to_string(), "lo'i".to_string(), "blo".to_string()]
+        ),
         ("bluji", vec![]),
         ("bo", vec!["bor".to_string()]),
         ("bolci", vec!["bol".to_string(), "boi".to_string()]),
@@ -276,7 +279,10 @@ lazy_static! {
         ("co'e", vec!["com".to_string(), "co'e".to_string()]),
         ("cokcu", vec!["cko".to_string()]),
         ("cokte", vec![]),
-        ("condi", vec!["con".to_string(), "cno".to_string(), "coi".to_string()]),
+        (
+            "condi",
+            vec!["con".to_string(), "cno".to_string(), "coi".to_string()]
+        ),
         ("conka", vec![]),
         ("corci", vec!["coc".to_string()]),
         ("cortu", vec!["cor".to_string(), "cro".to_string()]),
@@ -1329,7 +1335,10 @@ lazy_static! {
         ("ronti", vec![]),
         ("ropno", vec!["ron".to_string(), "ro'o".to_string()]),
         ("rorci", vec!["ror".to_string()]),
-        ("rotsu", vec!["rot".to_string(), "ro'u".to_string(), "tsu".to_string()]),
+        (
+            "rotsu",
+            vec!["rot".to_string(), "ro'u".to_string(), "tsu".to_string()]
+        ),
         ("rozgu", vec!["roz".to_string(), "zgu".to_string()]),
         ("ruble", vec!["rub".to_string(), "ble".to_string()]),
         ("rucni", vec![]),
