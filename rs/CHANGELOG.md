@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.0.7
+- the type of `RAFSI` is now `HashMap<&'static str, Vec<&'static str>>`
+
 ## 1.0.6
 - added git url to Cargo.toml
 
