@@ -1,7 +1,8 @@
 # latkerlo jvotci
 
 A set of tools for creating and decomposing Lojban lujvo. Available in Python 
-and JavaScript.
+and JavaScript. You can also try it out 
+[here](https://latkerlo.github.io/latkerlo-jvotci/).
 
 In general, the distinction between morphologically valid brivla and other 
 strings is intended to mirror the results produced by 
@@ -194,15 +195,6 @@ to Lojban's morphology. As a CLL sympathiser, la latkerlo does not necessarily
 personally approve of any of them. Nonetheless, there may be some value in 
 using them experimentally, and the code is already written, so it might as well
 be published. :)
-
-With no options specified, the results for which strings are words, and what
-types of words they are, should match the results provided by 
-[jbovlaste](https://jbovlaste.lojban.org) (when you submit a new word) and 
-[Camxes: Standard](http://lojban.github.io/ilmentufa/camxes.html). A few 
-intentional differences are documented at the bottom of 
-[this page](https://latkerlo.com/jvotci-test/) (click "show explanation"). Any
-other discrepancies are probably bugs. Please open an issue or contact latkerlo
-if you find one!
 
 The following five modifications are available as options in all functions
 described above, except for `getRafsiIndices`.

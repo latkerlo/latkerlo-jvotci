@@ -1,16 +1,12 @@
-For most input strings, the default settings should give you the same answer as
-[Camxes: Standard](http://lojban.github.io/ilmentufa/camxes.html) and 
-[JVS](https://jbovlaste.lojban.org) (when you search for a string that is not
-a word in the dictionary). The following is a list of types of cases where the
-results produced by *latkerlo jvotci* are intentionally different from one or
-both of them. In each case, *latkerlo jvotci* implements the morphology the way
-I believe we as Lojbanists "should" want it to work. However, I would be 
-willing to make modifications to conform to community consensus if further
-discussion were to take place.
+With no options specified, the results for which strings are words, and what
+types of words they are, should match the results provided by 
+[jbovlaste](https://jbovlaste.lojban.org) (when you submit a new word) and 
+[Camxes: Standard](http://lojban.github.io/ilmentufa/camxes.html). The 
+following is a list of types of cases where the results produced by 
+*latkerlo jvotci* are intentionally different from one or both of them. 
 
-If you find a difference that isn't documented here, that may be a bug! It
-would be great if you could leave an issue or otherwise get in touch to let me 
-know.
+Any other discrepancies are probably bugs. Please open an issue or contact 
+latkerlo if you find one!
 
 <table>
   <tr>
