@@ -33,7 +33,7 @@ with open("rs/src/test_list.rs", "w", encoding="utf-8") as opf:
     for list_name, test_list in TEST_LISTS.items():
         if list_name == "JVOZBA_ONLY_TESTS":
             test_list.pop(0)
-        opf.write("#[test]\n" + ("#[should_panic]\n" if "F" in list_name else "") + f"fn {list_name.lower()}() {{\n")
+        opf.write("#[test]\n" + f"fn {list_name.lower()}() {{\n")
         opf.write("    let tests = [\n")
         for test in test_list:
             opf.write(f"        (\"{test[0]}\"" + (f", {test[1]}" if "R" in list_name else f", \"{test[1]}\"" if "F" not in list_name else "") + "),\n")
@@ -42,9 +42,11 @@ with open("rs/src/test_list.rs", "w", encoding="utf-8") as opf:
         if "FAIL" in list_name:
             opf.write("        println!(\"{}\", test);\n")
             if "Z" in list_name:
-                opf.write(f"        jvozba::get_lujvo(test, false).unwrap();\n")
+                opf.write(f"        let r = std::panic::catch_unwind(|| {{\n            let _ = jvozba::get_lujvo(test, false);\n        }});\n")
+                opf.write(f"        assert!(r.is_err() || jvozba::get_lujvo(test, false).is_err());\n")
             if "K" in list_name:
-                opf.write(f"        katna::get_veljvo(test).unwrap();\n")
+                opf.write(f"        let r = std::panic::catch_unwind(|| {{\n            let _ = katna::get_veljvo(test);\n        }});\n")
+                opf.write(f"        assert!(r.is_err() || katna::get_veljvo(test).is_err());\n")
         else:
             opf.write("        println!(\"{} / {}\", test.0, test.1);\n")
             if "Z" in list_name or "M" in list_name:

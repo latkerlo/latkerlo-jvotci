@@ -7,14 +7,8 @@ fn jvozbajvekaha_tests() {
         ("zmogai", "-zmo- gacri"),
         ("barbytadji", "-barb- tadji"),
         ("barpytadji", "-barp- tadji"),
-        (
-            "bloblobloblobloblobloblobloblo",
-            "bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti",
-        ),
-        (
-            "blacyblacyblacyblacyblacyblacyblacyblacyblacyblaci",
-            "blaci blaci blaci blaci blaci blaci blaci blaci blaci blaci",
-        ),
+        ("bloblobloblobloblobloblobloblo", "bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti"),
+        ("blacyblacyblacyblacyblacyblacyblacyblacyblacyblaci", "blaci blaci blaci blaci blaci blaci blaci blaci blaci blaci"),
         ("birjunla", "birka junla"),
         ("daklyflani", "dakli flani"),
         ("dicre'e", "dikca trene"),
@@ -1229,10 +1223,7 @@ fn jvozbajvekaha_tests() {
         ("kevzda", "kevna zdani"),
         ("kixsku", "krixa cusku"),
         ("ki'ijdi", "ckini jdice"),
-        (
-            "ki'orgratretrefrinynidysnidu",
-            "kilto grake mitre mitre frinu snidu snidu",
-        ),
+        ("ki'orgratretrefrinynidysnidu", "kilto grake mitre mitre frinu snidu snidu"),
         ("skebailai", "saske bapli klani"),
         ("ki'orsamsrorau", "kilto skami sorcu gradu"),
         ("ki'otre", "kilto mitre"),
@@ -5310,10 +5301,7 @@ fn cmene_tests() {
         ("zinzman", "zinki -zman-"),
         ("zinzyman", "-zinz- manku"),
         ("veimi'ikeira'asam", "vreji minji kelci srana skami"),
-        (
-            "veimi'ikeicinfyra'asam",
-            "vreji minji kelci cinfo srana skami",
-        ),
+        ("veimi'ikeicinfyra'asam", "vreji minji kelci cinfo srana skami"),
     ];
     for test in tests {
         println!("{} / {}", test.0, test.1);
@@ -5340,7 +5328,6 @@ fn jvozba_only_tests() {
     }
 }
 #[test]
-#[should_panic]
 fn jvozba_fail_tests() {
     let tests = [
         ("2"),
@@ -5385,7 +5372,10 @@ fn jvozba_fail_tests() {
     ];
     for test in tests {
         println!("{}", test);
-        jvozba::get_lujvo(test, false).unwrap();
+        let r = std::panic::catch_unwind(|| {
+            let _ = jvozba::get_lujvo(test, false);
+        });
+        assert!(r.is_err() || jvozba::get_lujvo(test, false).is_err());
     }
 }
 #[test]
@@ -5449,7 +5439,6 @@ fn jvokaha_only_tests() {
     }
 }
 #[test]
-#[should_panic]
 fn jvokaha_fail_tests() {
     let tests = [
         (""),
@@ -5507,7 +5496,10 @@ fn jvokaha_fail_tests() {
     ];
     for test in tests {
         println!("{}", test);
-        katna::get_veljvo(test).unwrap();
+        let r = std::panic::catch_unwind(|| {
+            let _ = katna::get_veljvo(test);
+        });
+        assert!(r.is_err() || katna::get_veljvo(test).is_err());
     }
 }
 #[test]

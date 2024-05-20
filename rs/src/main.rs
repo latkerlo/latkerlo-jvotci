@@ -7,5 +7,5 @@ fn main() {
             .expect("can't make that lujvo")
             .0
     );
-    println!("{}", get_veljvo("jvoco'e").expect("not a lujvo").join(" "));
+    println!("{}", get_veljvo("iismynei").expect("not a lujvo").join(" "));
 }
