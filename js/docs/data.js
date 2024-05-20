@@ -1,8 +1,8 @@
 /*
-Copyright (c) 2023 Antonia Brown (https://codeberg.org/tb148)
+Copyright (c) 2023 Miao Liang (https://codeberg.org/tb148)
 Licensed under the Apache License, Version 2.0
 
-Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023
+Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023-2024
 */
 const VALID = [
     "bd",
@@ -185,6 +185,7 @@ const VALID = [
     "zr",
     "zv",
 ];
+const MZ_VALID = VALID.concat(["mz"]);
 const INITIAL = [
     "bl",
     "br",
@@ -234,4 +235,67 @@ const INITIAL = [
     "zg",
     "zm",
     "zv",
+];
+const ZIhEVLA_INITIAL = [
+    "bl",
+    "br",
+    "dr",
+    "fl",
+    "fr",
+    "gl",
+    "gr",
+    "kl",
+    "kr",
+    "ml",
+    "mr",
+    "pl",
+    "pr",
+    "tr",
+    "vl",
+    "vr",
+];
+const BANNED_TRIPLES = [
+    "ndj",
+    "ndz",
+    "ntc",
+    "nts",
+];
+const START_VOWEL_CLUSTERS = [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "au",
+    "ai",
+    "ei",
+    "oi"
+];
+const FOLLOW_VOWEL_CLUSTERS = [
+    "ia",
+    "ie",
+    "ii",
+    "io",
+    "iu",
+    "iau",
+    "iai",
+    "iei",
+    "ioi",
+    "ua",
+    "ue",
+    "ui",
+    "uo",
+    "uu",
+    "uau",
+    "uai",
+    "uei",
+    "uoi"
+];
+const HYPHENS = [
+    "r",
+    "n",
+    "y",
+    "'y",
+    "y'",
+    "'y'"
 ];

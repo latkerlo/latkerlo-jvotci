@@ -1,0 +1,28 @@
+[project]
+name = "latkerlo_jvotci"
+version = "2.0.0"
+description = "Tools for creating and decomposing lojban lujvo."
+authors = [
+    {name = "latkerlo", email = "latkerlo@latkerlo.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+
+[project.urls]
+Repository = "https://github.com/latkerlo/latkerlo-jvotci"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true

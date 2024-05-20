@@ -1,4 +1,10 @@
 *.xml
 .DS_Store
-/.idea/
-__pycache__/
+.pdm-python
+**/.idea/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/venv/
+**/__pypackages__/
+**/.pdm-build/

@@ -1,5 +1,5 @@
 """
-Copyright (c) 2023 latkerlo (https://github.com/latkerlo)
+Copyright (c) 2023-2024 latkerlo (https://github.com/latkerlo)
 Licensed under the MIT License
 """
 
@@ -20,5 +20,15 @@ class NoLujvoFoundError(Exception):
 
 
 class NonLojbanCharacterError(Exception):
+    def __init__(self, message=""):
+        super().__init__(message)
+
+
+class NotBrivlaError(Exception):
+    def __init__(self, message=""):
+        super().__init__(message)
+
+
+class NotZihevlaError(Exception):
     def __init__(self, message=""):
         super().__init__(message)

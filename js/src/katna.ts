@@ -2,44 +2,175 @@
 Copyright (c) 2021 sozysozbot (https://github.com/sozysozbot)
 Licensed under the MIT License
 
-Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023
+Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023-2024
 */
 
+/**
+ * Return the selrafsi for a given rafsi, if one exists.
+ * Otherwise, null is returned.
+ *
+ * @param rafsi The rafsi to search for.
+ * @returns The corresponding selrafsi, if applicable, otherwise None.
+ */
 function searchSelrafsiFromRafsi(rafsi: string): string | null {
-  if (rafsi.length === 5 && RAFSI.has(rafsi))
-    return rafsi;  // 5-letter rafsi
-
   if (rafsi !== "brod" && rafsi.length === 4 && !rafsi.includes("'")) {  // 4-letter rafsi
     for (let u = 0; u < 5; u++) {
       const gismuCandid = rafsi + "aeiou"[u];
-      if (RAFSI.has(gismuCandid))
+      if (RAFSI_LIST.has(gismuCandid))
         return gismuCandid;
     }
   }
-  for (const [valsi, rafsi_list] of RAFSI.entries()) {
+  for (const [valsi, rafsi_list] of RAFSI_LIST.entries()) {
     if (rafsi_list.includes(rafsi))
       return valsi;
   }
   return null;
 }
 
-function jvokaha(lujvo: string): string[] {
-  const arr = jvokaha2(lujvo);
+/**
+ * Create a list of selrafsi and formatted rafsi from a list of rafsi.
+ *
+ * Example:
+ * ["lat", "mot", "kelr", "y", "kerlo"] ->
+ * ["mlatu", "-mot-", "kelr-", "kerlo"]
+ * 
+ * @param rafsiList List of rafsi and hyphens (a decomposed word).
+ * @param allowMZ True if mz is a valid consonant cluster.
+ * @returns List of selrafsi and formatted rafsi.
+ */
+function selrafsiListFromRafsiList(
+  rafsiList: string[], 
+  allowMZ = false
+): string[] {
+  const result = rafsiList.map((rafsi) => HYPHENS.includes(rafsi) ? "" : rafsi); 
+  const selrafsiList = result.map((rafsi) => searchSelrafsiFromRafsi(rafsi));
+  for (let i = 0; i < result.length; i++) {
+    if (result[i].length === 0)
+      continue;
 
-  const rafsiTanru = arr.filter(x => x.length > 1).map(x => `-${x}-`);
-  const correctLujvo = getLujvo2(
-    rafsiTanru, 
-    isConsonant(arr[arr.length - 1].slice(-1))
-  )[0];
+    if (selrafsiList[i] !== null)
+      result[i] = selrafsiList[i]!;
+    else if (i < rafsiList.length - 2 && rafsiList[i+1][0] === "y" && isBrivla(result[i] + "a", {allowMZ: allowMZ}))
+      result[i] = result[i] + "-";
+    else if (isBrivla(result[i], {allowMZ: allowMZ}))
+      {}
+    else if (i === rafsiList.length - 1 && isBrivla(result[i] + "a", {allowMZ: allowMZ}))
+      result[i] = result[i] + "-";
+    else
+      result[i] = "-" + result[i] + "-";
+  }
+  return result.filter((rafsi) => rafsi.length > 0);
+}
 
-  if (lujvo === correctLujvo)
+/**
+ * Check if corr and other represent the same lujvo.
+ * other may have unnecessary hyphens.
+ * 
+ * @param corr A list of parts of the correct lujvo.
+ * @param other A list of parts of a candidate to test.
+ * @returns True if the lujvo are the same except for hyphens.
+ */
+function compareLujvoPieces(corr: string[], other: string[]): boolean {
+  let i = 0;
+  for (let j = 0; j < corr.length; j++) {
+    const part = corr[j];
+    if (part === other[i]) {
+      i += 1;
+      continue;
+    }
+
+    if (
+      0 < i && i < other.length - 1 
+      && "rn".includes(other[i]) 
+      && [Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(other[i-1]))
+      && (i > 1 || [Tarmi.CCVCV, Tarmi.CCVC, Tarmi.CCV].includes(rafsiTarmi(other[i+1])))
+    ) {
+      i += 1;
+    }
+
+    if (part === other[i])
+      i += 1;
+    else
+      return false;
+  }
+
+  return i == other.length;
+}
+
+/**
+ * Decompose lujvo to get a list of pieces (rafsi and hyphens). Raise
+ * an error if the lujvo is not well-formed.
+ * 
+ * @param lujvo A lujvo to decompose.
+ * @param allowRNHyphens True if unnecessary r & n hyphens are allowed.
+ * @param yHyphens Which y-hyphen rules to use.
+ * @param consonants Which consonant rules to use.
+ * @param glides True if glides count as consonants.
+ * @param allowMZ True if mz is a valid consonant cluster.
+ * @returns List of lujvo pieces (rafsi and hyphens).
+ */
+function jvokaha(
+  lujvo: string, 
+  {
+    allowRNHyphens = false, 
+    yHyphens = YHyphenSetting.STANDARD, 
+    consonants = ConsonantSetting.CLUSTER,
+    glides = false,
+    allowMZ = false 
+  } = {}
+): string[] {
+  const arr = jvokaha2(lujvo, {yHyphens: yHyphens, allowMZ: allowMZ});
+
+  const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
+  let correctLujvo: string;
+  try {
+    correctLujvo = getLujvoFromList(
+      rafsiTanru, 
+      {
+        generateCmevla: isConsonant(arr[arr.length - 1].slice(-1)),
+        yHyphens: yHyphens,
+        consonants: consonants,
+        glides: glides,
+        allowMZ: allowMZ
+      }
+    )[0];
+  } catch (e) {
+    if (e instanceof NoLujvoFoundError)
+      throw new DecompositionError(`no lujvo for ${rafsiTanru}`);
+    else
+      throw e;
+  }
+
+  let coolAndGood: boolean;
+  if (allowRNHyphens && yHyphens !== YHyphenSetting.FORCE_Y)
+    coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, {yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ}), arr);
+  else
+    coolAndGood = correctLujvo === lujvo;
+
+  if (coolAndGood)
     return arr;
   else
-    throw new Error("malformed lujvo {" + lujvo + 
+    throw new DecompositionError("malformed lujvo {" + lujvo + 
     "}; it should be {" + correctLujvo + "}")
 }
 
-function jvokaha2(lujvo: string): string[] {
+/**
+ * Decompose lujvo to get a list of pieces (rafsi and hyphens).
+ * Raises an error if the string is not decomposable, but not if it
+ * is invalid for other reasons.
+ * 
+ * @param lujvo A lujvo to decompose.
+ * @param yHyphens Which y-hyphen rules to use.
+ * @param allowMZ True if mz is a valid consonant cluster.
+ * @returns List of lujvo pieces (rafsi and hyphens).
+ */
+function jvokaha2(
+  lujvo: string, 
+  {
+    yHyphens = YHyphenSetting.STANDARD, 
+    allowMZ = false
+  } = {}
+): string[] {
   const original_lujvo = lujvo;
   const res: string[] = [];
   while (true) {
@@ -48,13 +179,23 @@ function jvokaha2(lujvo: string): string[] {
 
     // remove hyphen
     if (res.length > 0 && res[res.length - 1].length !== 1) {  // hyphen cannot begin a word; nor can two hyphens
-      if (
-        lujvo[0] === "y"  // y-hyphen
-        || lujvo.slice(0, 2) === "nr"  // n-hyphen is only allowed before r
-        || lujvo[0] === "r" && isConsonant(lujvo[1])  // r followed by a consonant
+      if (lujvo[0] === "y") {  // y-hyphen
+        res.push(lujvo[0]);
+        lujvo = lujvo.slice(1);
+        continue;
+
+      } else if (
+        yHyphens !== YHyphenSetting.FORCE_Y
+        && (lujvo.slice(0, 2) === "nr"  // n-hyphen is only allowed before r
+        || lujvo[0] === "r" && isConsonant(lujvo[1]))  // r followed by a consonant
       ) {
         res.push(lujvo[0]);
         lujvo = lujvo.slice(1);
+        continue;
+
+      } else if (yHyphens !== YHyphenSetting.STANDARD && lujvo.slice(0, 2) === "'y") {
+        res.push(lujvo.slice(0, 2));
+        lujvo = lujvo.slice(2);
         continue;
       }
     }
@@ -79,12 +220,12 @@ function jvokaha2(lujvo: string): string[] {
     // CVCCY and CCVCY can always be dropped
     if ([Tarmi.CVCC, Tarmi.CCVC].includes(rafsiTarmi(lujvo.slice(0, 4)))) {
       if (isVowel(lujvo[1])) {
-        if (!VALID.includes(lujvo.slice(2, 4)))
-          throw new Error(`Invalid cluster {${lujvo.slice(2, 4)}} in 
+        if (!(allowMZ ? MZ_VALID : VALID).includes(lujvo.slice(2, 4)))
+          throw new InvalidClusterError(`Invalid cluster {${lujvo.slice(2, 4)}} in 
           {${original_lujvo}}`);
       } else {
         if (!INITIAL.includes(lujvo.slice(0, 2)))
-          throw new Error(`Invalid initial cluster {${lujvo.slice(0, 2)}} in 
+          throw new InvalidClusterError(`Invalid initial cluster {${lujvo.slice(0, 2)}} in 
           {${original_lujvo}}`);
       }
 
@@ -103,8 +244,15 @@ function jvokaha2(lujvo: string): string[] {
       return res;
     }
 
-    if ([Tarmi.CVC, Tarmi.CCV].includes(rafsiTarmi(lujvo.slice(0, 3)))) {
-      // TODO: Why is a test for valid initial not needed here?
+    if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CVC) {
+      res.push(lujvo.slice(0, 3));
+      lujvo = lujvo.slice(3);
+      continue;
+    }
+
+    if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CCV) {
+      if (!INITIAL.includes(lujvo.slice(0, 2)))
+        throw new InvalidClusterError(`Invalid initial cluster {${lujvo.slice(0, 2)}} in {${original_lujvo}}`);
       res.push(lujvo.slice(0, 3));
       lujvo = lujvo.slice(3);
       continue;
@@ -112,14 +260,43 @@ function jvokaha2(lujvo: string): string[] {
 
     // if all fails...
     // console.log(res, lujvo)
-    throw new Error("Failed to decompose {" + original_lujvo + "}");
+    throw new DecompositionError("Failed to decompose {" + original_lujvo + "}");
   }
 }
 
-function getVeljvo(lujvo: string): string[] {
-  const rafsiList = jvokaha(lujvo).filter(x => x.length > 1);
-  const selrafsiList = rafsiList.map(x => searchSelrafsiFromRafsi(x));
-  for (const [i, selrafsi] of selrafsiList.entries())
-    rafsiList[i] = selrafsi !== null ? selrafsi : `-${rafsiList[i]}-`;
-  return rafsiList;
+/**
+ * Decompose a lujvo into a list of selrafsi and formatted rafsi.
+ * 
+ * @param lujvo Lujvo to decompose.
+ * @param yHyphens Which y-hyphen rules to use.
+ * @param exp_rafsi_shapes True if experimental rafsi shapes are allowed.
+ * @param consonants Which consonant rules to use.
+ * @param glides True if glides count as consonants.
+ * @param allowMZ True if mz is a valid consonant cluster.
+ * @returns List of selrafsi and rafsi.
+ */
+function getVeljvo(
+  lujvo: string,
+  {
+    yHyphens = YHyphenSetting.STANDARD,
+    expRafsiShapes = false,
+    consonants = ConsonantSetting.CLUSTER,
+    glides = false,
+    allowMZ = false
+  } = {}
+): string[] {
+  const [bType, rafsiList] = analyseBrivla(
+    lujvo,
+    {
+      yHyphens: yHyphens,
+      expRafsiShapes: expRafsiShapes,
+      consonants: consonants,
+      glides: glides,
+      allowMZ: allowMZ
+    }
+  );
+
+  if (![BrivlaType.LUJVO, BrivlaType.EXTENDED_LUJVO, BrivlaType.CMEVLA].includes(bType))
+    throw new DecompositionError("Valsi is of type {" + bType + "}");
+  return selrafsiListFromRafsiList(rafsiList, allowMZ);
 }

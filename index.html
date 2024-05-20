@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>latkerlo jvotci</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="js/docs/data.js"></script>
+    <script src="js/docs/exceptions.js"></script>
+    <script src="js/docs/rafsi.js"></script>
+    <script src="js/docs/tarmi.js"></script>
+    <script src="js/docs/tools.js"></script>
+    <script src="js/docs/jvozba.js"></script>
+    <script src="js/docs/katna.js"></script>
+    <script src="demo_page.js"></script>
+    <style>
+      html {
+        font-family: arial, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      input {
+        margin: 8px;
+        width: 90%;
+        font-size: 16px;
+      }
+
+      .red {
+        background-color: rgb(237, 141, 141);
+        color: #500;
+      }
+
+      .blue {
+        background-color: rgb(134, 174, 239);
+        color: #005;
+      }
+
+      .green {
+        background-color: rgb(134, 239, 159);
+        color: #050;
+      }
+
+      .yellow {
+        background-color: rgb(244, 247, 177);
+        color: rgb(97, 68, 0);
+      }
+
+      button {
+        background-color: rgb(255, 255, 255);
+        border-width: 4px;
+        border-color: #55f;
+        border-style: solid;
+        border-radius: 10px;
+        color: #55f;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+      .active {
+        background-color: #55f;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="brivla" class="active">brivla</button>
+    <button id="cmevla">cmevla</button>
+    <button id="ezmode">easy mode</button>
+    <input
+      autocomplete="off"
+      autocapitalize="off"
+      autocorrect="off"
+      spellcheck="false"
+      id="source"
+      placeholder='try "mlatu kerlo" or "latkerlo"'
+      size=80
+    />
+    <table id="hard-mode" style="width:100%">
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

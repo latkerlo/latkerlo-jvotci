@@ -1,0 +1,423 @@
+# TANRU	C	CONDITION	LUJVO	SCORE	INDICES	CONDITION	LUJVO	SCORE	INDICES	CONDITION	LUJVO	SCORE	INDICES
+mlatu kerlo		ELSE	latkerlo	7937	0-3,3-8
+-lat- kerlo		ELSE	latkerlo	7937	0-3,3-8
+-mlat- kerlo		ELSE	mlatykerlo		0-4,5-10
+bloti bloti		ELSE	bloblo		0-3,3-6
+-blo- -blo-		ELSE	bloblo		0-3,3-6
+bloti -blo-		ELSE	bloblo		0-3,3-6
+-blo- bloti		ELSE	bloblo		0-3,3-6
+xamgu zmadu		ELSE	xauzma		0-3,3-6
+-xau- -zma-		ELSE	xauzma		0-3,3-6
+midju donri sanmi		ELSE	mijdorsai		0-3,3-6,6-9
+jesni spati		ELSE	jesyspa		0-3,4-7
+vacri te jabre		ELSE	varterjabre	10886	0-3,3-6,6-11
+-var- -ter- -jabre-		ELSE	varterjabre	10886	0-3,3-6,6-11
+lorxu kerlo		ELSE	lorkerlo	7937	0-3,3-8
+sevzi lacri		ELSE	sezlacri	7937	0-3,3-8
+dukse ke sevzi lacri		ELSE	duskemsezlacri	13835	0-3,3-6,6-9,9-14
+tanb- skami		ELSE	tanbyskami	10047	0-4,5-10
+crino djedi		ELSE	ri'odje	6467	0-4,4-7
+sanmi bukpu		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	sai'ybu'u	8156	0-3,5-9	FORCE_Y	sanmybu'u	8617	0-4,5-9	ELSE	sairbu'u	7556	0-3,4-8
+co'u trene		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	co'u'yre'e	8776	0-4,6-10	FORCE_Y	co'u'ytrene	10206	0-4,6-11	ELSE	co'unre'e	8176	0-4,5-9
+co'u trene sazri		FORCE_Y	co'u'yrensazri		0-4,6-9,9-14	ELSE	co'unrensazri	12575	0-4,5-8,8-13
+tcana jatna		ELSE	tcanyja'a	8597	0-4,5-9
+tcana tcana tcana		ELSE	tcanytcanytcana	15086	0-4,5-9,10-15
+bisli ladru		ELSE	bisyladru	9037	0-3,4-9
+bisli bisli ladru		ELSE	bisybisladru	11986	0-3,4-7,7-12
+cukla litr- mlatu		ELSE	cuklitrymlatu		0-3,3-7,8-13
+kumfa zdani		YES_MZ	kumzda		0-3,3-6	ELSE	ku'azda		0-4,4-7
+-kum- zdani		YES_MZ	kumzda		0-3,3-6	ELSE	kumyzda		0-3,4-7
+gimzu gismu		YES_MZ	gimzygi'u		0-4,5-9	ELSE	NONE
+gismu gimzu		YES_MZ	gimgimzu		0-3,3-8	ELSE	NONE
+imzu kerlo		YES_MZ	imzu'ykerlo		0-4,6-11	ELSE	NONE
+kerlo imzu		YES_MZ	kery'imzu		0-3,5-9	ELSE	NONE
+gimzu -fa'u'u-		MORE_RAF & YES_MZ	gimzyfa'u'u		0-4,5-11	ELSE	NONE
+gimz- -fa'u'u-		MORE_RAF & YES_MZ	gimzyfa'u'u		0-4,5-11	ELSE	NONE
+-voi- gimzu		FORCE_Y & YES_MZ	voi'ygimzu		0-3,5-10	YES_MZ	voirgimzu		0-3,4-9	ELSE	NONE
+-voi- gimzu -fa'u'u-		FORCE_Y & MORE_RAF & YES_MZ	voi'ygimzyfa'u'u		0-3,5-9,10-16	MORE_RAF & YES_MZ	voirgimzyfa'u'u		0-3,4-8,9-15	ELSE	NONE
+-voi- iimzu		(ALLOW_Y | FORCE_Y) & YES_MZ	voi'yiimzu		0-3,5-10	ELSE	NONE
+-voi- iimzu -fa'u'u-		(ALLOW_Y | FORCE_Y) & MORE_RAF & YES_MZ	voi'yiimzu'yfa'u'u		0-3,5-10,12-18	ELSE	NONE
+fulta ismu		ELSE	fuly'ismu		0-3,5-9
+se lidne		ELSE	selyli'e		0-3,4-8
+nelci zmadu		ELSE	neizma		0-3,3-6
+fukpi valsi		ELSE	fu'ivla		0-4,4-7
+akt- iismu		ELSE	aktyiismu		0-3,4-9
+akt- gasnu		ELSE	aktygau		0-3,4-7
+akti gasnu		ELSE	akti'ygau		0-4,6-9
+akt- akti		ELSE	akty'akti		0-3,5-9
+akti akti		ELSE	akti'y'akti		0-4,7-11
+gismu iismu		ELSE	gimyiismu		0-3,4-9
+gism- iismu		ELSE	gismyiismu		0-4,5-10
+gismu iausmu		ELSE	gimyiausmu		0-3,4-10
+gism- iausmu		ELSE	gismyiausmu		0-4,5-11
+brii- iismu		ELSE	briiyiismu		0-4,5-10
+iism- nelci		ELSE	iismynei		0-4,5-8
+iismu nelci		ELSE	iismu'ynei		0-5,7-10
+iism- smuni		ELSE	iismysmu		0-4,5-8
+iismu smuni		ELSE	iismu'ysmu		0-5,7-10
+mlatu -kerlo- trene		ELSE	latkerlo'yre'e		0-3,3-8,10-14
+-mlatu- trene		ELSE	mlatu'yre'e		0-5,7-11
+trene trene		ELSE	renre'e		0-3,3-7
+traji mlatu		FORCE_Y	rai'ymlatu		0-3,5-10	ELSE	rairmlatu		0-3,4-9
+lojbo sanmi		ELSE	jbosai		0-3,3-6
+trene ractu		ELSE	renractu		0-3,3-8
+trene mlatu		ELSE	renmlatu		0-3,3-8
+trene trene mlatu		ELSE	renrenmlatu		0-3,3-6,6-11
+nelci mlatu		ELSE	nelmlatu		0-3,3-8
+nelci nelci mlatu		ELSE	nelneimlatu		0-3,3-6,6-11
+-nei- nelci mlatu		FORCE_Y	nei'yneimlatu		0-3,5-8,8-13	ELSE	neirneimlatu		0-3,4-7,7-12
+nelci trene		ELSE	nelre'e		0-3,3-7
+-nei- trene		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	nei'yre'e	8156	0-3,5-9	FORCE_Y	nei'ytrene	9586	0-3,5-10	ELSE	neinre'e	7556	0-3,4-8
+traji lojbo mlatu		FORCE_Y	rai'yjbomlatu		0-3,5-8,8-13	ELSE	rairjbomlatu		0-3,4-7,7-12
+lojbo traji mlatu		ELSE	jboraimlatu		0-3,3-6,6-11
+jesni spre'e		ELSE	jesyspre'e		0-3,4-10
+jesni spati trene		ELSE	jesyspare'e		0-3,4-7,7-11
+mutce nelci iismu		ELSE	tcenelyiismu		0-3,3-6,7-12
+mutce -nei- iismu		ELSE	tcenei'yiismu		0-3,3-6,8-13
+mlat- fa'u'u'u'u'u'u'u'unmo		ELSE	mlatyfa'u'u'u'u'u'u'u'unmo		0-4,5-26
+-mlatu- fa'u'u'u'u'u'u'u'unmo		ELSE	mlatu'yfa'u'u'u'u'u'u'u'unmo		0-5,7-28
+mlatu fa'u'u'u'u'u'u'u'unmo		ELSE	latyfa'u'u'u'u'u'u'u'unmo		0-3,4-25
+ism- fa'u'u'u'u'u'u'u'unmo		ELSE	ismyfa'u'u'u'u'u'u'u'unmo		0-3,4-25
+ismu fa'u'u'u'u'u'u'u'unmo		ELSE	ismu'yfa'u'u'u'u'u'u'u'unmo		0-4,6-27
+mlatu iismu		ELSE	latyiismu		0-3,4-9
+-gismu- kerlo		ELSE	NONE
+nelci akti		ELSE	nely'akti		0-3,5-9
+jesni -spati- trene		ELSE	jesyspati'yre'e		0-3,4-9,11-15
+-spati- -spati- -spati-		ELSE	spati'yspati'yspati		0-5,7-12,14-19
+-spati- -spati- spati		ELSE	spati'yspati'yspa		0-5,7-12,14-17
+spati spati spati		ELSE	spaspaspa		0-3,3-6,6-9
+kerlo kerlo kerlo		ELSE	kerkerkerlo		0-3,3-6,6-11
+kerlo -kerlo- kerlo		ELSE	kerkerlo'ykerlo		0-3,3-8,10-15
+-kerlo- kerlo kerlo		ELSE	kerlo'ykerkerlo		0-5,7-10,10-15
+-kerlo- -kerlo- -kerlo-		ELSE	kerlo'ykerlo'ykerlo		0-5,7-12,14-19
+trene ismu		ELSE	reny'ismu		0-3,5-9
+cfa'u'u'u'u'u'u'u'u kerlo		ELSE	cfa'u'u'u'u'u'u'u'u'ykerlo		0-19,21-26
+-cfa'u'u'u'u'u'u'u'u- kerlo		ELSE	cfa'u'u'u'u'u'u'u'u'ykerlo		0-19,21-26
+kerl- farlu kerlo		ELSE	kerlyfalkerlo		0-4,5-8,8-13
+kerl- -fa'u- kerlo		ELSE	kerlyfa'ukerlo		0-4,5-9,9-14
+kerl- cmana kerlo		ELSE	kerlyma'akerlo		0-4,5-9,9-14
+-kerlo- farlu ismu		ELSE	kerlo'yfaly'ismu		0-5,7-10,12-16
+-kerlo- -fa'u- ismu		ELSE	kerlo'yfa'u'y'ismu		0-5,7-11,14-18
+-re'e- spati		ELSE	re'espa		0-4,4-7
+-kerlo- -re'e- spati		ELSE	kerlo'yre'espa		0-5,7-11,11-14
+spati trene spati		ELSE	sparenspa		0-3,3-6,6-9
+spati -re'e- spati		ELSE	spare'espa		0-3,3-7,7-10
+kerlo iismu		ELSE	keryiismu		0-3,4-9
+kerlo ismu		ELSE	kery'ismu		0-3,5-9
+ismu farlu kerlo		ELSE	ismu'yfalkerlo		0-4,6-9,9-14
+ismu -fa'u- kerlo		ELSE	ismu'yfa'ukerlo		0-4,6-10,10-15
+ismu cmana kerlo		ELSE	ismu'yma'akerlo		0-4,6-10,10-15
+ism- farlu kerlo		ELSE	ismyfalkerlo		0-3,4-7,7-12
+ism- -fa'u- kerlo		ELSE	ismyfa'ukerlo		0-3,4-8,8-13
+ism- cmana kerlo		ELSE	ismyma'akerlo		0-3,4-8,8-13
+ismu farlu farlu farlu		ELSE	ismu'yfalfalfa'u		0-4,6-9,9-12,12-16
+ismu -fa'u- -fa'u- farlu		ELSE	ismu'yfa'ufa'ufa'u		0-4,6-10,10-14,14-18
+ismu cmana cmana cmana		ELSE	ismu'yma'ama'ama'a		0-4,6-10,10-14,14-18
+ismu farlu farlu farlu ismu		ELSE	ismu'yfalfalfaly'ismu		0-4,6-9,9-12,12-15,17-21
+ismu -fa'u- -fa'u- -fa'u- ismu		ELSE	ismu'yfa'ufa'ufa'u'y'ismu		0-4,6-10,10-14,14-18,21-25
+atkerlo carmi troci ismu		ELSE	atkerlo'ycaitocy'ismu		0-7,9-12,12-15,17-21
+atkerlo -cam- -toi- ismu		ELSE	atkerlo'ycamtoi'y'ismu		0-7,9-12,12-15,18-22
+atkerlo camtoi- ismu		ELSE	atkerlo'ycamtoiy'ismu		0-7,9-15,17-21
+ism- -toi- kerlo		ELSE	ismytoikerlo		0-3,4-7,7-12
+ismu -toi- kerlo		ELSE	ismu'ytoikerlo		0-4,6-9,9-14
+ism- farlu ismu		ELSE	ismyfaly'ismu		0-3,4-7,9-13
+ism- -fa'u- ismu		ELSE	ismyfa'u'y'ismu		0-3,4-8,11-15
+ismu farlu ismu		ELSE	ismu'yfaly'ismu		0-4,6-9,11-15
+ismu -fa'u- ismu		ELSE	ismu'yfa'u'y'ismu		0-4,6-10,13-17
+ismei kerlo		ELSE	ismei'ykerlo		0-5,7-12
+slasi kerlo ismu		ELSE	laskerly'ismu		0-3,3-7,9-13
+slasi mlat- ismu		ELSE	lasmlaty'ismu
+slasi mlatu ismu		ELSE	lasmlaty'ismu
+spati ismu		ELSE	spa'y'ismu	9227	0-3,6-10
+frica stodraunju		ELSE	ficystodraunju
+bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti -lot- -lo'i-		ELSE	bloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i
+-mlatu- bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti -lot- -lo'i- smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi ismu		ELSE	mlatu'ybloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i'ysmuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi'y'ismu
+-kerlo- -u'u- ismu		MORE_RAF	kerlo'y'u'u'y'ismu			ELSE	NONE
+kerl- -u'u- ismu		MORE_RAF	kerly'u'u'y'ismu			ELSE	NONE
+-nei- iismu		ALLOW_Y | FORCE_Y	nei'yiismu			ELSE	NONE
+nelci kerlo		ELSE	nelkerlo
+-nei- kerlo		FORCE_Y	nei'ykerlo			ELSE	neirkerlo
+vofli litru		FORCE_Y	volyli'u			ELSE	voirli'u
+-voi- litru		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	voi'yli'u	8156	0-3,5-9	FORCE_Y	voi'ylitru	9606	0-3,5-10	ELSE	voirli'u	7556	0-3,4-8
+traji litru		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	rai'yli'u	8156	0-3,5-9	FORCE_Y	trajyli'u	8597	0-4,5-9	ELSE	rairli'u	7556	0-3,4-8
+-re'e- kerlo		FORCE_Y	re'e'ykerlo			ELSE	re'erkerlo
+-re'e- iismu		ALLOW_Y | FORCE_Y	re'e'yiismu			ELSE	NONE
+-fa'u'u'u'u'u'u'u'u- kerlo		(ALLOW_Y | FORCE_Y) & MORE_RAF	fa'u'u'u'u'u'u'u'u'ykerlo			ELSE	NONE
+-fa'u'u'u'u'u'u'u'u- iismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	fa'u'u'u'u'u'u'u'u'yiismu			ELSE	NONE
+-fa'u'u- -fa'u'u'u- kerlo		(ALLOW_Y | FORCE_Y) & MORE_RAF	fa'u'u'yfa'u'u'u'ykerlo			ELSE	NONE
+-fa'u'u- -fa'u'u'u- iismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	fa'u'u'yfa'u'u'u'yiismu			ELSE	NONE
+-fa'u'u- -fa'u'u'u- ismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	fa'u'u'yfa'u'u'u'y'ismu			ELSE	NONE
+-fa'u'u'u'u'u'u'u'u- ismu		MORE_RAF	fa'u'u'u'u'u'u'u'u'y'ismu			ELSE	NONE
+-fa'u'u'u'u'u- -u'u- ismu		MORE_RAF	fa'u'u'u'u'u'y'u'u'y'ismu			ELSE	NONE
+ism- -fa'u'u'u'u'u'u'u'u- ismu		MORE_RAF	ismyfa'u'u'u'u'u'u'u'u'y'ismu			ELSE	NONE
+ismu -fa'u'u'u'u'u'u'u'u- ismu		MORE_RAF	ismu'yfa'u'u'u'u'u'u'u'u'y'ismu			ELSE	NONE
+kerl- -fa'u'u'u'u'u'u'u'u- ismu		MORE_RAF	kerlyfa'u'u'u'u'u'u'u'u'y'ismu			ELSE	NONE
+-kerlo- -fa'u'u'u'u'u'u'u'u- ismu		MORE_RAF	kerlo'yfa'u'u'u'u'u'u'u'u'y'ismu			ELSE	NONE
+-kerlo- -fa'u'u- ismu		MORE_RAF	kerlo'yfa'u'u'y'ismu			ELSE	NONE
+kerl- -fa'u'u- ismu		MORE_RAF	kerlyfa'u'u'y'ismu			ELSE	NONE
+-ii- smuni		(ALLOW_Y | FORCE_Y) & MORE_RAF	ii'ysmu			ELSE	NONE
+-do- smuni		(ALLOW_Y | FORCE_Y) & MORE_RAF	do'ysmu			ELSE	NONE
+brii- -ii-		MORE_RAF	briiyii			ELSE	NONE
+mlatu -fa'u'u'u'u'u'u'u'u-		MORE_RAF	latyfa'u'u'u'u'u'u'u'u			ELSE	NONE
+mlat- -fa'u'u'u'u'u'u'u'u-		MORE_RAF	mlatyfa'u'u'u'u'u'u'u'u			ELSE	NONE
+ism- -fa'u'u'u'u'u'u'u'u-		MORE_RAF	ismyfa'u'u'u'u'u'u'u'u			ELSE	NONE
+akt- -do-		MORE_RAF	aktydo			ELSE	NONE
+akti -mi-		MORE_RAF	akti'ymi			ELSE	NONE
+akti -mi'au-		MORE_RAF	akti'ymi'au			ELSE	NONE
+-fa'u'u'u'u'u'u- -u- ismu		MORE_RAF	fa'u'u'u'u'u'u'y'u'y'ismu			ELSE	NONE
+kerl- -fa'u'u'u'u'u'u'u'u- kerlo		MORE_RAF	kerlyfa'u'u'u'u'u'u'u'u'ykerlo			ELSE	NONE
+-kerlo- -fa'u'u'u'u'u'u'u'u-		MORE_RAF	kerlo'yfa'u'u'u'u'u'u'u'u			ELSE	NONE
+kerl- -fa'u'u'u'u'u'u'u'u-		MORE_RAF	kerlyfa'u'u'u'u'u'u'u'u			ELSE	NONE
+kerl- -fa'u'u- kerlo		MORE_RAF	kerlyfa'u'u'ykerlo			ELSE	NONE
+-kerlo- -fa'u'u- kerlo		MORE_RAF	kerlo'yfa'u'u'ykerlo			ELSE	NONE
+kerl- -fa'u'u- iismu		MORE_RAF	kerlyfa'u'u'yiismu			ELSE	NONE
+-kerlo- -fa'u'u- iismu		MORE_RAF	kerlo'yfa'u'u'yiismu			ELSE	NONE
+kerl- -u- ismu		MORE_RAF	kerly'u'y'ismu			ELSE	NONE
+kerl- -u'u- kerlo		MORE_RAF	kerly'u'u'ykerlo			ELSE	NONE
+-kerlo- -u'u- kerlo		MORE_RAF	kerlo'y'u'u'ykerlo			ELSE	NONE
+-kerlo- -u'u- iismu		MORE_RAF	kerlo'y'u'u'yiismu			ELSE	NONE
+kerl- -u'u- iismu		MORE_RAF	kerly'u'u'yiismu			ELSE	NONE
+kerlo -u- ismu		MORE_RAF	kery'u'y'ismu			ELSE	NONE
+kerlo -u'u- ismu		MORE_RAF	kery'u'u'y'ismu			ELSE	NONE
+-u- kerlo		(ALLOW_Y | FORCE_Y) & MORE_RAF	u'ykerlo			ELSE	NONE
+-kerlo- -u-		MORE_RAF	kerlo'y'u			ELSE	NONE
+kerlo -u-		MORE_RAF	kerly'u			ELSE	NONE
+-u- iismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	u'yiismu			ELSE	NONE
+iismu -u-		MORE_RAF	iismu'y'u			ELSE	NONE
+iism- -u-		MORE_RAF	iismy'u			ELSE	NONE
+-u- ismu		MORE_RAF	u'y'ismu			ELSE	NONE
+ismu -u-		MORE_RAF	ismu'y'u			ELSE	NONE
+ism- -u-		MORE_RAF	ismy'u			ELSE	NONE
+-u'u- kerlo		(ALLOW_Y | FORCE_Y) & MORE_RAF	u'u'ykerlo			ELSE	NONE
+-kerlo- -u'u-		MORE_RAF	kerlo'y'u'u			ELSE	NONE
+kerlo -u'u-		MORE_RAF	kerly'u'u			ELSE	NONE
+-u'u- iismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	u'u'yiismu			ELSE	NONE
+iismu -u'u-		MORE_RAF	iismu'y'u'u			ELSE	NONE
+iism- -u'u-		MORE_RAF	iismy'u'u			ELSE	NONE
+-u'u- ismu		MORE_RAF	u'u'y'ismu			ELSE	NONE
+ismu -u'u-		MORE_RAF	ismu'y'u'u			ELSE	NONE
+ism- -u'u-		MORE_RAF	ismy'u'u			ELSE	NONE
+traji ismu		ELSE	rai'y'ismu
+traji -u- ismu		MORE_RAF	rai'y'u'y'ismu			ELSE	NONE
+traji -u'u- ismu		MORE_RAF	rai'y'u'u'y'ismu			ELSE	NONE
+traji -u'u'u- ismu		MORE_RAF	rai'y'u'u'u'y'ismu			ELSE	NONE
+traji -ai- ismu		MORE_RAF	rai'y'ai'y'ismu			ELSE	NONE
+traji -ai'u- ismu		MORE_RAF	rai'y'ai'u'y'ismu			ELSE	NONE
+traji -mi'au- ismu		(ALLOW_Y | FORCE_Y) & MORE_RAF	rai'ymi'au'y'ismu			MORE_RAF	trajymi'au'y'ismu			ELSE	NONE
+-u- imzu		MORE_RAF & YES_MZ	u'y'imzu			ELSE	NONE
+imzu -u'u-		MORE_RAF & YES_MZ	imzu'y'u'u			ELSE	NONE
+farlu imzu		YES_MZ	faly'imzu			ELSE	NONE
+-fa'u- imzu		YES_MZ	fa'u'y'imzu			ELSE	NONE
+-u- smuni		(ALLOW_Y | FORCE_Y) & MORE_RAF	u'ysmu			ELSE	NONE
+troci smuni		ELSE	toismu
+troci troci smuni		ELSE	toctoismu
+-toi- troci smuni		FORCE_Y	toi'ytoismu			ELSE	toirtoismu
+troci kerlolo		ELSE	tocykerlolo
+-toi- kerlolo		ALLOW_Y | FORCE_Y	toi'ykerlolo			ELSE	NONE
+-toi- iismu		ALLOW_Y | FORCE_Y	toi'yiismu			ELSE	NONE
+-le- -le-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT)	le'yle		0-2,4-6	ELSE	NONE
+mi -mi-		MORE_RAF	mibymi		0-3,4-6	ELSE	NONE
+-mi- mi -mi-		(ALLOW_Y | FORCE_Y) & MORE_RAF	mi'ymibymi		0-2,4-7,8-10	ELSE	NONE
+mi mi kerlo		ELSE	mibmibykerlo		0-3,3-6,7-12
+re'erspa kerlo		FORCE_Y	re'erspa'ykerlo			ELSE	NONE
+re'erspa iismu		FORCE_Y	re'erspa'yiismu			ELSE	NONE
+re'erspa ismu		FORCE_Y	re'erspa'y'ismu			ELSE	NONE
+re'enre'e kerlo		FORCE_Y	re'enre'e'ykerlo			ELSE	NONE
+re'enre'e iismu		FORCE_Y	re'enre'e'yiismu			ELSE	NONE
+re'enre'e ismu		FORCE_Y	re'enre'e'y'ismu			ELSE	NONE
+kerlo re'erspa		FORCE_Y	keryre'erspa			ELSE	NONE
+-kerlo- re'erspa		FORCE_Y	kerlo'yre'erspa			ELSE	NONE
+iismu re'erspa		FORCE_Y	iismu'yre'erspa			ELSE	NONE
+iism- re'erspa		FORCE_Y	iismyre'erspa			ELSE	NONE
+ism- re'erspa		FORCE_Y	ismyre'erspa			ELSE	NONE
+ismu re'erspa		FORCE_Y	ismu'yre'erspa			ELSE	NONE
+kerlo re'enre'e		FORCE_Y	keryre'enre'e			ELSE	NONE
+-kerlo- re'enre'e		FORCE_Y	kerlo'yre'enre'e			ELSE	NONE
+iismu re'enre'e		FORCE_Y	iismu'yre'enre'e			ELSE	NONE
+iism- re'enre'e		FORCE_Y	iismyre'enre'e			ELSE	NONE
+ismu re'enre'e		FORCE_Y	ismu'yre'enre'e			ELSE	NONE
+ism- re'enre'e		FORCE_Y	ismyre'enre'e			ELSE	NONE
+ism- -fa'u'u-		MORE_RAF	ismyfa'u'u			ELSE	NONE
+ismu -fa'u'u-		MORE_RAF	ismu'yfa'u'u			ELSE	NONE
+-le- -ia-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	le'yia			ELSE	NONE
+-ia- -ia-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT) & GLIDES	ia'yia			ELSE	NONE
+-ia- -le-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	ia'yle			ELSE	NONE
+-fa'u- -ia-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	fa'u'yia			ELSE	NONE
+-ia- -fa'u-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	ia'yfa'u			ELSE	NONE
+mutce -ia-		MORE_RAF	tce'yia		0-3,5-7	ELSE	NONE
+mutc- -ia-		MORE_RAF	mutcyia	7077	0-4,5-7	ELSE	NONE
+-mutce- -ia-		ELSE	NONE
+-ia- mutce		(ALLOW_Y | FORCE_Y) & MORE_RAF	ia'ytce			ELSE	NONE
+-ia- -mutce-		(ALLOW_Y | FORCE_Y) & MORE_RAF	ia'ymutce			ELSE	NONE
+-fa'u- ismu		ELSE	fa'u'y'ismu
+-fa'u- iismu		ALLOW_Y | FORCE_Y	fa'u'yiismu			ELSE	NONE
+-fa'u- kerlo		FORCE_Y	fa'u'ykerlo			ELSE	fa'urkerlo
+gismu -u-		MORE_RAF	gismy'u	6678		ELSE	NONE
+-gismu- -u-		ELSE	NONE
+barduku ecre		ELSE	barduku'y'ecre
+barduku kelci		ELSE	barduku'ykei
+barduk- ecre		ELSE	NONE
+barduk- kelci		ELSE	NONE
+-barduk- ecre		ELSE	NONE
+-barduk- kelci		ELSE	NONE
+bartu dunku ecre		ELSE	barduky'ecre		0-3,3-6,8-12
+bartu -duk- kelci		ELSE	bardukykei		0-3,3-6,7-10
+re'erduk- kelci		FORCE_Y	re'erdukykei		0-8,9-12	ELSE	NONE
+tceneirduk- kelci		FORCE_Y	tceneirdukykei		0-10,11-14	ELSE	NONE
+
+mi ismu		ELSE	miby'ismu
+mi iismu		ELSE	mibyiismu
+no'e crezuue		ELSE	norycrezuue
+zgana iicne		ELSE	zga'yiicne		0-3,5-10
+zgana zgana iicne		ELSE	zgazga'yiicne	12555	0-3,3-6,8-13
+zgana -zga- iicne		ELSE	zgazga'yiicne	12555	0-3,3-6,8-13
+zgana zgan- iicne		ELSE	zgazganyiicne	12985	0-3,3-7,8-13
+-zgana- iicne		ELSE	zgana'yiicne		0-5,7-12
+zgana fatri iicne		ELSE	zgafai'yiicne
+bapli iicne		ELSE	bapyiicne
+fatri iicne		ALLOW_Y | FORCE_Y	fai'yiicne			ELSE	fatryiicne
+fatri aicne		ELSE	fai'y'aicne
+fatr- iicne		ELSE	fatryiicne
+-fai- iicne		ALLOW_Y | FORCE_Y	fai'yiicne			ELSE	NONE
+mlatu fatri iicne		ELSE	latfai'yiicne
+mlatu tanb- iicne		ELSE	latytanbyiicne
+-ta'o- iicne		ALLOW_Y | FORCE_Y	ta'o'yiicne			ELSE	NONE
+		
+		ELSE	NONE
+-u- -u-		ELSE	NONE
+agti gasnu		ELSE	NONE
+agt- gasnu		ELSE	NONE
+latkerlo		ELSE	NONE
+弱音ハク		ELSE	NONE
+弱音 ハク		ELSE	NONE
+弱音　ハク		ELSE	NONE
+mlatu -fa'uu'u-		ELSE	NONE
+mlatu -fa'u'ufu-		ELSE	NONE
+mi mi		ELSE	NONE
+mlatu mi mi		ELSE	NONE
+atkentso kerlo		ELSE	NONE
+bange'e'- lojbo		ELSE	NONE
+-ker- -u-		ELSE	NONE
+-ker- -u'u-		ELSE	NONE
+mla2 kerlo		ELSE	NONE
+mlatu k3rlo		ELSE	NONE
+mi		ELSE	NONE
+mlatu		ELSE	NONE
+kerlo mi		ELSE	NONE
+kerlo mi'e		ELSE	NONE
+mi'e kerlo		ELSE	NONE
+mutce gbatu		ELSE	NONE
+gbatu mutce		ELSE	NONE
+tarti -jno-		ELSE	NONE
+lat kerlo		ELSE	NONE
+palci latkerlo		ELSE	NONE
+jaurgacmi'imle		ELSE	NONE
+jaurgacmi'imle kerlo		FORCE_Y	jaurgacmi'imle'ykerlo			ELSE	NONE
+-123- kerlo		ELSE	NONE
+-k1r- kerlo		ELSE	NONE
+-弱音- -ハク-		ELSE	NONE
+-弱音- -ハku-		ELSE	NONE
+-弱音- -haku-		ELSE	NONE
+mlatu -弱音-		ELSE	NONE
+mlatu -ハク-		ELSE	NONE
+mlatu -ハku-		ELSE	NONE
+mlatu -haku-		ELSE	NONE
+-弱音- kerlo		ELSE	NONE
+-ハク- kerlo		ELSE	NONE
+-ハku- kerlo		ELSE	NONE
+-haku- kerlo		ELSE	NONE
+mlatu -kelo-		ELSE	NONE
+-matu- kerlo		ELSE	NONE
+kerlo xi		ELSE	NONE
+tu'a kerlo		ELSE	NONE
+mlatu --		ELSE	NONE
+mlatu -		ELSE	NONE
+-- kerlo		ELSE	NONE
+- kerlo		ELSE	NONE
+mlatu -ker		ELSE	NONE
+mlatu -kerlo		ELSE	NONE
+-lat kerlo		ELSE	NONE
+-mlatu kerlo		ELSE	NONE
+
+mlatu kerlo	C	ELSE	latker	5898
+lorxu kerlo	C	ELSE	lorker	5898
+ismu mlatu	C	ELSE	ismu'ylat
+mlatu ism-	C	ELSE	laty'ism
+mlatu itkij-	C	ELSE	laty'itkij
+mlatu itkii-	C	ELSE	NONE
+mlatu itkii-  mlatu	C	ELSE	laty'itkiiylat
+mlatu ismu	C	ELSE	NONE
+
+trene sazri	C	ELSE	rensaz	5898
+trene mlatu	C	ELSE	renlat	5898
+trene trene	C	ELSE	renren	5898
+cinri trene	C	ELSE	ci'iren
+spano smani	C	ELSE	sansman	6908
+sanso manku	C	ELSE	sansyman	8028
+zinki -zman-	C	ELSE	zinzman
+-zinz- manku	C	ELSE	zinzyman
+vreji minji kelci srana skami	C	ELSE	veimi'ikeira'asam	15861
+vreji minji kelci cinfo srana skami	C	ELSE	veimi'ikeicinfyra'asam	20940
+mlatu ze'e	C	ELSE	NONE
+
+mlatu  kerlo		ELSE	latkerlo			(2 spaces)
+mlatu　kerlo		ELSE	latkerlo			(ideographic space U+3000)
+kelro kerlo		ELSE	kelrykerlo
+-lot- -lo'i-		ELSE	lotlo'i
+mi do		ELSE	mibdoi
+
+akti ismu		ELSE	akti'y'ismu
+akti iismu		ELSE	akti'yiismu
+akti kerlo gasnu		ELSE	akti'ykergau
+kerlo akti gasnu		ELSE	kery'akti'ygau
+kelro akti gasnu		ELSE	kelry'akti'ygau
+mlatu kerlo akti gasnu		ELSE	latkery'akti'ygau
+akti mlatu kerlo ismu		ELSE	akti'ylatkery'ismu
+akti mlatu kerlo iismu		ELSE	akti'ylatkeryiismu
+akt- mlatu kerlo ismu		ELSE	aktylatkery'ismu
+akti mlatu kerlo -fu'u-		ELSE	akti'ylatkerfu'u
+akti mlatu kerlo -fu'u'u-		MORE_RAF	akti'ylatkeryfu'u'u			ELSE	NONE
+akti mlatu kerlo -fu'u- kerlo		ELSE	akti'ylatkerfu'ukerlo
+akti mlatu kerlo -fu'u'u- kerlo		MORE_RAF	akti'ylatkeryfu'u'u'ykerlo			ELSE	NONE
+akti mlatu kerlo -fu'u- ismu		ELSE	akti'ylatkerfu'u'y'ismu
+akti mlatu kerlo -fu'u'u- ismu		MORE_RAF	akti'ylatkeryfu'u'u'y'ismu			ELSE	NONE
+
+mlatu sleirku'i		ELSE	NONE
+mlatu tosleirku'i		FORCE_Y	latytosleirku'i			ELSE	NONE
+mlatu sleirleirku'i		ELSE	NONE
+mlatu tosleirleirku'i		FORCE_Y	latytosleirleirku'i			ELSE	NONE
+mlatu sleinku'i		ELSE	latysleinku'i
+
+plukauaii melbi		ELSE	plukauaii'ymle
+plukauai- melbi		ELSE	plukauaiymle
+plukauai melbi		ELSE	plukauai'ymle
+va'arga melbi		ELSE	va'amle
+-va'arga- melbi		ELSE	va'arga'ymle
+va'arg- melbi		ELSE	va'argymle
+
+klesi djedi		ELSE	leidje	5847		(not important that it works like this, but kind of nice to avoid the initial cluster)
+-kle- djedi		ELSE	kledei	5847
+klesi -dei-		ELSE	kledei	5847
+djedi klesi		ELSE	deikle	5847
+-dje- klesi		ELSE	djelei	5847
+djedi -lei-		ELSE	djelei	5847
+
+jesni spati akti		ELSE	jesyspa'y'akti
+jesni spati briii		ELSE	jesyspa'ybriii
+
+
+tanbo skami		FORCE_Y	tanbyskami			ELSE	ta'orskami
+tanbo skami dukse		FORCE_Y	tanbysamdu'e			ELSE	ta'orsamdu'e
+cukla litru utka		ELSE	cuklitry'utka
+mlatu tanbo iicne		ELSE	latytanbyiicne
+-kerlo- cmana ismu		ELSE	kerlo'ycmany'ismu
+ismu cmana cmana cmana ismu		ELSE	ismu'yma'ama'acmany'ismu
+ism- cmana ismu		ELSE	ismycmany'ismu
+ismu cmana ismu		ELSE	ismu'ycmany'ismu
+
+nelci nelci		ELSE	nelnei	5867	0-3,3-6
+nelci -nei-		ELSE	nelnei	5867	0-3,3-6
+-nei- nelci		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	nei'ynei	7536	0-3,5-8	FORCE_Y	nei'ynelci	9606	0-3,5-10	ELSE	neirnei	6936	0-3,4-7
+-nei- -nei-		FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	nei'ynei	7536	0-3,5-8	FORCE_Y	NONE			ELSE	neirnei	6936	0-3,4-7
+nelci -nelci-		ELSE	nelnelci	7937	0-3,3-8
+-nei- -nelci-		FORCE_Y	nei'ynelci	9606	0-3,5-10	ELSE	neirnelci	9006	0-3,4-9

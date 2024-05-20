@@ -1,29 +1,39 @@
 """
-Copyright (c) 2023 latkerlo (https://github.com/latkerlo)
+Copyright (c) 2023-2024 latkerlo (https://github.com/latkerlo)
 Licensed under the MIT License
 """
 
-import sys
-sys.path.append("py")
-from py.jvozba_test_list import *
+import csv
+import json
 
-TEST_LISTS = {
-    "JVOZBAJVEKAhA_TESTS": JVOZBAJVEKAhA_TESTS,
-    "CMENE_TESTS": CMENE_TESTS,
-    "JVOZBA_ONLY_TESTS": JVOZBA_ONLY_TESTS,
-    "JVOZBA_FAIL_TESTS": JVOZBA_FAIL_TESTS,
-    "JVOKAhA_ONLY_TESTS": JVOKAhA_ONLY_TESTS,
-    "JVOKAhA_FAIL_TESTS": JVOKAhA_FAIL_TESTS,
-    "LUJVO_SCORE_TESTS": LUJVO_SCORE_TESTS
-}
+TEST_LISTS = [
+    "basic_test_list",
+    "jvozba_test_list",
+    "katna_test_list",
+]
 
-with open("js/docs/jvozba_test_list.js", "w") as opf:
-    for list_name, test_list in TEST_LISTS.items():
-        opf.write(f"const {list_name} = [\n")
-        if "FAIL" in list_name:
-            for test in test_list:
-                opf.write(f"  {test[0:1]},\n")
-        else:
-            for test in test_list:
-                opf.write(f"  {test},\n")
-        opf.write("]\n\n")
+with open(f"tests/js_tests.js", "w") as opf:
+    for test_name in TEST_LISTS:
+        with open(f"tests/{test_name}.csv") as ipf:
+            opf.write(f"const {test_name.upper()} = [\n")
+            reader = csv.reader(ipf, delimiter="\t")
+            for row in reader:
+                try:
+                    if (not row[0] and not row[1]) or row[0][0] == "#":
+                        continue
+                except IndexError:
+                    continue
+
+                opf.write(f"""  ["{'", "'.join(row)}"],\n""")
+            opf.write("]\n\n")
+
+    with open(f"tests/jvs_words.json") as ipf:
+        jvs_words = json.load(ipf)
+
+    opf.write("const JVS_WORDS = new Map([\n")
+    for b_type, words in jvs_words.items():
+        opf.write(f'  ["{b_type}", [\n')
+        for word in words:
+            opf.write(f'    "{word}",\n')
+        opf.write(f'  ]],\n')
+    opf.write("])\n")

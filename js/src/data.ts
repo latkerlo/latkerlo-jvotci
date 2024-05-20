@@ -1,8 +1,8 @@
 /*
-Copyright (c) 2023 Antonia Brown (https://codeberg.org/tb148)
+Copyright (c) 2023 Miao Liang (https://codeberg.org/tb148)
 Licensed under the Apache License, Version 2.0
 
-Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023
+Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023-2024
 */
 
 const VALID: string[] = [
@@ -187,6 +187,8 @@ const VALID: string[] = [
   "zv",
 ];
 
+const MZ_VALID: string[] = VALID.concat(["mz"]);
+
 const INITIAL: string[] = [
   "bl",
   "br",
@@ -237,3 +239,71 @@ const INITIAL: string[] = [
   "zm",
   "zv",
 ];
+
+const ZIhEVLA_INITIAL: string[] = [
+  "bl",
+  "br",
+  "dr",
+  "fl",
+  "fr",
+  "gl",
+  "gr",
+  "kl",
+  "kr",
+  "ml",
+  "mr",
+  "pl",
+  "pr",
+  "tr",
+  "vl",
+  "vr",
+]
+
+const BANNED_TRIPLES: string[] = [
+  "ndj",
+  "ndz",
+  "ntc",
+  "nts",
+]
+
+const START_VOWEL_CLUSTERS: string[] = [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "au",
+  "ai",
+  "ei",
+  "oi"
+]
+
+const FOLLOW_VOWEL_CLUSTERS: string[] = [
+  "ia",
+  "ie",
+  "ii",
+  "io",
+  "iu",
+  "iau",
+  "iai",
+  "iei",
+  "ioi",
+  "ua",
+  "ue",
+  "ui",
+  "uo",
+  "uu",
+  "uau",
+  "uai",
+  "uei",
+  "uoi"
+]
+
+const HYPHENS: string[] = [
+  "r", 
+  "n", 
+  "y", 
+  "'y", 
+  "y'", 
+  "'y'"
+]

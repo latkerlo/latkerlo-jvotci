@@ -1,0 +1,605 @@
+# WORD	CONDITION	TYPE	DECOMP	TANRU	INDICES	CONDITION	TYPE	DECOMP	TANRU	INDICES	CONDITION	TYPE	DECOMP	TANRU	INDICES
+gismu	ELSE	GISMU	gismu	gismu	0-5
+bloti	ELSE	GISMU	bloti	bloti	0-5
+latkerlo	ELSE	LUJVO	lat kerlo	mlatu kerlo	0-3,3-8
+mlatykerlo	ELSE	LUJVO	mlat kerlo	mlatu kerlo	0-4,5-10
+bloblo	ELSE	LUJVO	blo blo	bloti bloti	0-3,3-6
+xauzma	ELSE	LUJVO	xau zma	xamgu zmadu	0-3,3-6
+mijdorsai	ELSE	LUJVO	mij dor sai	midju donri sanmi	0-3,3-6,6-9
+jesyspa	ELSE	LUJVO	jes spa	jesni spati	0-3,4-7
+varterjabre	ELSE	LUJVO	var ter jabre	vacri te jabre	0-3,3-6,6-11
+cuklitrymlatu	ELSE	LUJVO	cuk litr mlatu	cukla litru mlatu	0-3,3-7,8-13
+kumyzda	YES_MZ	EXTENDED	kum zda	kumfa zdani	0-3,4-7	ELSE	LUJVO	kum zda	kumfa zdani	0-3,4-7
+selyli'e	ELSE	LUJVO	sel li'e	se lidne	0-3,4-8
+neirzma	FORCE_Y	ZIhEVLA	neirzma	neirzma	0-7	ELSE	LUJVO	nei zma	nelci zmadu	0-3,4-7
+fu'irvla	FORCE_Y	ZIhEVLA	fu'irvla	fu'irvla	0-8	ELSE	LUJVO	fu'i vla	fukpi valsi	0-4,5-8
+akti	ELSE	ZIhEVLA	akti	akti	0-4
+iismu	ELSE	ZIhEVLA	iismu	iismu	0-5
+iausmu	ELSE	ZIhEVLA	iausmu	iausmu	0-6
+aismu	ELSE	ZIhEVLA	aismu	aismu	0-5
+plukauaii	ELSE	ZIhEVLA	plukauaii	plukauaii	0-9
+latykerlo	ELSE	EXTENDED	lat kerlo	mlatu kerlo	0-3,4-9
+aktyiismu	ELSE	EXTENDED	akt iismu	akt- iismu	0-3,4-9
+aktygau	ELSE	EXTENDED	akt gau	akt- gasnu	0-3,4-7
+akti'ygau	ELSE	EXTENDED	akti gau	akti gasnu	0-4,6-9
+akty'akti	ELSE	EXTENDED	akt akti	akt- akti	0-3,5-9
+akti'y'akti	ELSE	EXTENDED	akti akti	akti akti	0-4,7-11
+fa'u'u'u'u'u'u'u'unmo	ELSE	ZIhEVLA	fa'u'u'u'u'u'u'u'unmo	fa'u'u'u'u'u'u'u'unmo	0-21
+a'a'a'a'a'atkerlo	ELSE	ZIhEVLA	a'a'a'a'a'atkerlo	a'a'a'a'a'atkerlo	0-17
+fulmotondro	ELSE	ZIhEVLA	fulmotondro	fulmotondro	0-11
+cidjrspageti	ELSE	ZIhEVLA	cidjrspageti	cidjrspageti	0-12
+briii	ELSE	ZIhEVLA	briii	briii	0-5
+briiau	ELSE	ZIhEVLA	briiau	briiau	0-6
+briiaii	ELSE	ZIhEVLA	briiaii	briiaii	0-7
+briiauii	ELSE	ZIhEVLA	briiauii	briiauii	0-8
+briiauiauiiuuueiuaiau	ELSE	ZIhEVLA	briiauiauiiuuueiuaiau	briiauiauiiuuueiuaiau	0-21
+briuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiui	ELSE	ZIhEVLA	briuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiui	briuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiuiui	0-51
+briuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuii	ELSE	ZIhEVLA	briuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuii	briuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuii	0-51
+briiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii	ELSE	ZIhEVLA	briiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii	briiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii	0-51
+ismsmsmsmsmsmsmsmi	ELSE	ZIhEVLA	ismsmsmsmsmsmsmsmi	ismsmsmsmsmsmsmsmi	0-18
+isnsnsnsnsnsnsnsni	ELSE	ZIhEVLA	isnsnsnsnsnsnsnsni	isnsnsnsnsnsnsnsni	0-18
+islslslslslslslsli	ELSE	ZIhEVLA	islslslslslslslsli	islslslslslslslsli	0-18
+isrsrsrsrsrsrsrsri	ELSE	ZIhEVLA	isrsrsrsrsrsrsrsri	isrsrsrsrsrsrsrsri	0-18
+ismsmsmsmsmsmsmsmsi	ELSE	ZIhEVLA	ismsmsmsmsmsmsmsmsi	ismsmsmsmsmsmsmsmsi
+isnsnsnsnsnsnsnsnsi	ELSE	ZIhEVLA	isnsnsnsnsnsnsnsnsi	isnsnsnsnsnsnsnsnsi
+islslslslslslslslsi	ELSE	ZIhEVLA	islslslslslslslslsi	islslslslslslslslsi
+isrsrsrsrsrsrsrsrsi	ELSE	ZIhEVLA	isrsrsrsrsrsrsrsrsi	isrsrsrsrsrsrsrsrsi
+ilrlrlrlrlrlrlrlrlri	ELSE	ZIhEVLA	ilrlrlrlrlrlrlrlrlri	ilrlrlrlrlrlrlrlrlri
+ilrlrlrlrlrlrlrlrlrli	ELSE	ZIhEVLA	ilrlrlrlrlrlrlrlrlrli	ilrlrlrlrlrlrlrlrlrli
+irlrlrlrlrlrlrlrlrli	ELSE	ZIhEVLA	irlrlrlrlrlrlrlrlrli	irlrlrlrlrlrlrlrlrli
+irlrlrlrlrlrlrlrlrlri	ELSE	ZIhEVLA	irlrlrlrlrlrlrlrlrlri	irlrlrlrlrlrlrlrlrlri
+ilrlrlri	ELSE	ZIhEVLA	ilrlrlri	ilrlrlri
+ilrlrli	ELSE	ZIhEVLA	ilrlrli	ilrlrli
+irlrlrli	ELSE	ZIhEVLA	irlrlrli	irlrlrli
+irlrlri	ELSE	ZIhEVLA	irlrlri	irlrlri
+islrlrlri	ELSE	ZIhEVLA	islrlrlri	islrlrlri
+islrlrli	ELSE	ZIhEVLA	islrlrli	islrlrli
+isrlrlrli	ELSE	ZIhEVLA	isrlrlrli	isrlrlrli
+isrlrlri	ELSE	ZIhEVLA	isrlrlri	isrlrlri
+itclrlrlri	ELSE	ZIhEVLA	itclrlrlri	itclrlrlri
+itcrlrlrli	ELSE	ZIhEVLA	itcrlrlrli	itcrlrlrli
+ilrlrlrsi	ELSE	ZIhEVLA	ilrlrlrsi	ilrlrlrsi
+ilrlrlsi	ELSE	ZIhEVLA	ilrlrlsi	ilrlrlsi
+irlrlrlsi	ELSE	ZIhEVLA	irlrlrlsi	irlrlrlsi
+irlrlrsi	ELSE	ZIhEVLA	irlrlrsi	irlrlrsi
+islrlrlrsi	ELSE	ZIhEVLA	islrlrlrsi	islrlrlrsi
+islrlrlsi	ELSE	ZIhEVLA	islrlrlsi	islrlrlsi
+isrlrlrlsi	ELSE	ZIhEVLA	isrlrlrlsi	isrlrlrlsi
+isrlrlrsi	ELSE	ZIhEVLA	isrlrlrsi	isrlrlrsi
+itclrlrlsi	ELSE	ZIhEVLA	itclrlrlsi	itclrlrlsi
+itcrlrlrsi	ELSE	ZIhEVLA	itcrlrlrsi	itcrlrlrsi
+ilrlrlrtci	ELSE	ZIhEVLA	ilrlrlrtci	ilrlrlrtci
+ilrlrltci	ELSE	ZIhEVLA	ilrlrltci	ilrlrltci
+irlrlrltci	ELSE	ZIhEVLA	irlrlrltci	irlrlrltci
+irlrlrtci	ELSE	ZIhEVLA	irlrlrtci	irlrlrtci
+islrlrlrtci	ELSE	ZIhEVLA	islrlrlrtci	islrlrlrtci
+islrlrltci	ELSE	ZIhEVLA	islrlrltci	islrlrltci
+isrlrlrltci	ELSE	ZIhEVLA	isrlrlrltci	isrlrlrltci
+isrlrlrtci	ELSE	ZIhEVLA	isrlrlrtci	isrlrlrtci
+itclrlrltci	ELSE	ZIhEVLA	itclrlrltci	itclrlrltci
+itcrlrlrtci	ELSE	ZIhEVLA	itcrlrlrtci	itcrlrlrtci
+islrstri	ELSE	ZIhEVLA	islrstri	islrstri
+itcrstri	ELSE	ZIhEVLA	itcrstri	itcrstri
+blotiti	ELSE	ZIhEVLA	blotiti	blotiti
+kerlolo	ELSE	ZIhEVLA	kerlolo	kerlolo
+mlatutu	ELSE	ZIhEVLA	mlatutu	mlatutu
+mlatumlatu	ELSE	ZIhEVLA	mlatumlatu	mlatumlatu
+mlatumutce	ELSE	ZIhEVLA	mlatumutce	mlatumutce
+ismei	ELSE	ZIhEVLA	ismei	ismei
+latkerfu'u'u'u	ELSE	ZIhEVLA	latkerfu'u'u'u	latkerfu'u'u'u
+camtoia	ELSE	ZIhEVLA	camtoia	camtoia
+gismyiismu	ELSE	EXTENDED	gism iismu	gismu iismu	0-4,5-10
+gismyiausmu	ELSE	EXTENDED	gism iausmu	gismu iausmu	0-4,5-11
+stribilo	ELSE	ZIhEVLA	stribilo	stribilo
+mlautu	ELSE	ZIhEVLA	mlautu	mlautu
+briiyiismu	ELSE	EXTENDED	brii iismu	brii- iismu	0-4,5-10
+briiatstri	ELSE	ZIhEVLA	briiatstri	briiatstri
+briiatsltri	ELSE	ZIhEVLA	briiatsltri	briiatsltri
+briiatslri	ELSE	ZIhEVLA	briiatslri	briiatslri
+briiatsmtsi	ELSE	ZIhEVLA	briiatsmtsi	briiatsmtsi
+briianxandi	ELSE	ZIhEVLA	briianxandi	briianxandi
+iismynei	ELSE	EXTENDED	iism nei	iism- nelci	0-4,5-8
+iismu'ynei	ELSE	EXTENDED	iismu nei	iismu nelci	0-5,7-10
+iismysmu	ELSE	EXTENDED	iism smu	iism- smuni	0-4,5-8
+iismu'ysmu	ELSE	EXTENDED	iismu smu	iismu smuni	0-5,7-10
+itsltsi	ELSE	ZIhEVLA	itsltsi	itsltsi
+itsmlmtsi	ELSE	ZIhEVLA	itsmlmtsi	itsmlmtsi
+istri	ELSE	ZIhEVLA	istri	istri
+istrsi	ELSE	ZIhEVLA	istrsi	istrsi
+istrsti	ELSE	ZIhEVLA	istrsti	istrsti
+istrstri	ELSE	ZIhEVLA	istrstri	istrstri
+tcenelyiismu	ELSE	EXTENDED	tce nel iismu	mutce nelci iismu	0-3,3-6,7-12
+idgli	ELSE	ZIhEVLA	idgli	idgli
+idglri	ELSE	ZIhEVLA	idglri	idglri
+idgnri	ELSE	ZIhEVLA	idgnri	idgnri
+idgnmri	ELSE	ZIhEVLA	idgnmri	idgnmri
+idgrmri	ELSE	ZIhEVLA	idgrmri	idgrmri
+idgrmlri	ELSE	ZIhEVLA	idgrmlri	idgrmlri
+idgrmldri	ELSE	ZIhEVLA	idgrmldri	idgrmldri
+idgrmlzdri	ELSE	ZIhEVLA	idgrmlzdri	idgrmlzdri
+idgrmi	ELSE	ZIhEVLA	idgrmi	idgrmi
+briiatmtlsi'i	ELSE	ZIhEVLA	briiatmtlsi'i	briiatmtlsi'i
+briiatmtlsi	ELSE	ZIhEVLA	briiatmtlsi	briiatmtlsi
+arto	ELSE	ZIhEVLA	arto	arto
+atmo	ELSE	ZIhEVLA	atmo	atmo
+astri	ELSE	ZIhEVLA	astri	astri
+ismustri	ELSE	ZIhEVLA	ismustri	ismustri
+itci	ELSE	ZIhEVLA	itci	itci
+itcli	ELSE	ZIhEVLA	itcli	itcli
+itclri	ELSE	ZIhEVLA	itclri	itclri
+itclrlcrlrtci	ELSE	ZIhEVLA	itclrlcrlrtci	itclrlcrlrtci
+itclrlrlcrtci	ELSE	ZIhEVLA	itclrlrlcrtci	itclrlrlcrtci
+idgnli	ELSE	ZIhEVLA	idgnli	idgnli
+itrsmli	ELSE	ZIhEVLA	itrsmli	itrsmli
+itrmli	ELSE	ZIhEVLA	itrmli	itrmli
+istnli	ELSE	ZIhEVLA	istnli	istnli
+islslslslslslmli	ELSE	ZIhEVLA	islslslslslslmli	islslslslslslmli
+islslslslslslsmli	ELSE	ZIhEVLA	islslslslslslsmli	islslslslslslsmli
+islslslslslslpnli	ELSE	ZIhEVLA	islslslslslslpnli	islslslslslslpnli
+sakprtlfmsnge'a	ELSE	ZIhEVLA	sakprtlfmsnge'a	sakprtlfmsnge'a
+idzmli	ELSE	ZIhEVLA	idzmli	idzmli
+idnzmli	ELSE	ZIhEVLA	idnzmli	idnzmli
+idndnzmli	ELSE	ZIhEVLA	idndnzmli	idndnzmli
+ismndri	ELSE	ZIhEVLA	ismndri	ismndri
+latkerlo'yre'e	ELSE	EXTENDED	lat kerlo re'e	mlatu kerlo trene	0-3,3-8,10-14
+latkerlre'e	ELSE	ZIhEVLA	latkerlre'e	latkerlre'e	0-11
+mlatu'yre'e	ELSE	EXTENDED	mlatu re'e	mlatu trene	0-5,7-11
+re'eltu	ELSE	ZIhEVLA	re'eltu	re'eltu	0-7
+re'enre'e	FORCE_Y	ZIhEVLA	re'enre'e	re'enre'e	0-9	ELSE	LUJVO	re'e re'e	trene trene	0-4,5-9
+jbosai	ELSE	LUJVO	jbo sai	lojbo sanmi	0-3,3-6
+re'enractu	FORCE_Y	ZIhEVLA	re'enractu	re'enractu	0-10	ELSE	LUJVO	re'e ractu	trene ractu	0-4,5-10
+re'enmlatu	ELSE	ZIhEVLA	re'enmlatu	re'enmlatu	0-10
+re'ermlatu	FORCE_Y	ZIhEVLA	re'ermlatu	re'ermlatu	0-10	ELSE	LUJVO	re'e mlatu	trene mlatu	0-4,5-10
+re'enre'ermlatu	FORCE_Y	ZIhEVLA	re'enre'ermlatu	re'enre'ermlatu	0-15	ELSE	LUJVO	re'e re'e mlatu	trene trene mlatu	0-4,5-9,10-15
+neirmlatu	FORCE_Y	ZIhEVLA	neirmlatu	neirmlatu	0-9	ELSE	LUJVO	nei mlatu	nelci mlatu	0-3,4-9
+neirneirmlatu	FORCE_Y	ZIhEVLA	neirneirmlatu	neirneirmlatu	0-13	ELSE	LUJVO	nei nei mlatu	nelci nelci mlatu	0-3,4-7,8-13
+neirneimlatu	FORCE_Y	ZIhEVLA	neirneimlatu	neirneimlatu	0-12	ELSE	LUJVO	nei nei mlatu	nelci nelci mlatu	0-3,4-7,7-12
+neinre'e	FORCE_Y	ZIhEVLA	neinre'e	neinre'e	0-8	ELSE	LUJVO	nei re'e	nelci trene	0-3,4-8
+neirjbomlatu	FORCE_Y	ZIhEVLA	neirjbomlatu	neirjbomlatu	0-12	ELSE	LUJVO	nei jbo mlatu	nelci lojbo mlatu	0-3,4-7,7-12
+jboneirmlatu	FORCE_Y	ZIhEVLA	jboneirmlatu	jboneirmlatu	0-12	ELSE	LUJVO	jbo nei mlatu	lojbo nelci mlatu	0-3,3-6,7-12
+jboneimlatu	ELSE	LUJVO	jbo nei mlatu	lojbo nelci mlatu	0-3,3-6,6-11
+jesyspre'e	ELSE	EXTENDED	jes spre'e	jesni spre'e	0-3,4-10
+latrkerlo	ELSE	ZIhEVLA	latrkerlo	latrkerlo	0-9
+neirjbormlatu	ELSE	ZIhEVLA	neirjbormlatu	neirjbormlatu	0-13
+neijbormlatu	ELSE	ZIhEVLA	neijbormlatu	neijbormlatu	0-12
+jesyspare'e	ELSE	LUJVO	jes spa re'e	jesni spati trene	0-3,4-7,7-11
+tcenei'yiismu	ELSE	EXTENDED	tce nei iismu	mutce nelci iismu	0-3,3-6,8-13
+mlatyfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	mlat fa'u'u'u'u'u'u'u'unmo	mlatu fa'u'u'u'u'u'u'u'unmo	0-4,5-26
+mlatu'yfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	mlatu fa'u'u'u'u'u'u'u'unmo	mlatu fa'u'u'u'u'u'u'u'unmo	0-5,7-28
+ismyfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	ism fa'u'u'u'u'u'u'u'unmo	ism- fa'u'u'u'u'u'u'u'unmo	0-3,4-25
+ismu'yfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	ismu fa'u'u'u'u'u'u'u'unmo	ismu fa'u'u'u'u'u'u'u'unmo	0-4,6-27
+latyiismu	ELSE	EXTENDED	lat iismu	mlatu iismu	0-3,4-9
+gismu'ykerlo	ELSE	NONE	(gi smu'ykerlo)
+nely'akti	ELSE	EXTENDED	nel akti	nelci akti	0-3,5-9
+jesyspati'yre'e	ELSE	EXTENDED	jes spati re'e	jesni spati trene	0-3,4-9,11-15
+spati'yspati'yspati	ELSE	EXTENDED	spati spati spati	spati spati spati	0-5,7-12,14-19
+spati'yspati'yspa	ELSE	EXTENDED	spati spati spa	spati spati spati	0-5,7-12,14-17
+kerykerykerlo	ELSE	EXTENDED	ker ker kerlo	kerlo kerlo kerlo	0-3,4-7,8-13
+kerykerlo'ykerlo	ELSE	EXTENDED	ker kerlo kerlo	kerlo kerlo kerlo	0-3,4-9,11-16
+kerlo'ykerykerlo	ELSE	EXTENDED	kerlo ker kerlo	kerlo kerlo kerlo	0-5,7-10,11-16
+kerlo'ykerlo'ykerlo	ELSE	EXTENDED	kerlo kerlo kerlo	kerlo kerlo kerlo	0-5,7-12,14-19
+keryiismu	ELSE	EXTENDED	ker iismu	kerlo iismu	0-3,4-9
+kery'ismu	ELSE	EXTENDED	ker ismu	kerlo ismu	0-3,5-9
+re'e'y'ismu	ELSE	EXTENDED	re'e ismu	trene ismu	0-4,7-11
+cfa'u'u'u'u'u'u'u'u'ykerlo	ELSE	EXTENDED	cfa'u'u'u'u'u'u'u'u kerlo	cfa'u'u'u'u'u'u'u'u kerlo	0-19,21-26
+kerlyfa'ukerlo	ELSE	LUJVO	kerl fa'u kerlo	kerlo farlu kerlo	0-4,5-9,9-14
+kerlo'yfa'u'y'ismu	ELSE	EXTENDED	kerlo fa'u ismu	kerlo farlu ismu	0-5,7-11,14-18
+re'e'yspa	ALLOW_Y | FORCE_Y	EXTENDED	re'e spa	trene spati	0-4,6-9	ELSE	NONE
+kerlo'yre'e'yspa	ELSE	EXTENDED	kerlo re'e spa	kerlo trene spati
+spare'e'yspa	ELSE	EXTENDED	spa re'e spa	spati trene spati
+ismu'yfa'ukerlo	ELSE	EXTENDED	ismu fa'u kerlo	ismu farlu kerlo
+ismyfa'ukerlo	ELSE	EXTENDED	ism fa'u kerlo	ism- farlu kerlo
+ismu'yfa'ufa'ufa'u	ELSE	EXTENDED	ismu fa'u fa'u fa'u	ismu farlu farlu farlu
+ismu'yfa'u'ykerlo	ELSE	EXTENDED	ismu fa'u kerlo	ismu farlu kerlo
+ismyfa'u'ykerlo	ELSE	EXTENDED	ism fa'u kerlo	ism- farlu kerlo
+ismu'yfa'ufa'ufa'u'y'ismu	ELSE	EXTENDED	ismu fa'u fa'u fa'u ismu	ismu farlu farlu farlu ismu
+atkerlo'ycamtoiy'ismu	ELSE	EXTENDED	atkerlo camtoi ismu	atkerlo camtoi- ismu
+atkerlo'ycamtoi'y'ismu	ELSE	EXTENDED	atkerlo cam toi ismu	atkerlo carmi troci ismu
+ismytoi'ykerlo	ELSE	EXTENDED	ism toi kerlo	ism- troci kerlo
+ismu'ytoi'ykerlo	ELSE	EXTENDED	ismu toi kerlo	ismu troci kerlo
+ismyfa'u'y'ismu	ELSE	EXTENDED	ism fa'u ismu	ism- farlu ismu
+ismu'yfa'u'y'ismu	ELSE	EXTENDED	ismu fa'u ismu	ismu farlu ismu
+ismei'ykerlo	ELSE	EXTENDED	ismei kerlo	ismei kerlo
+cuklitry'utka	ELSE	EXTENDED	cuk litr utka	cukla litru utka
+laskerly'ismu	ELSE	EXTENDED	las kerl ismu	slasi kerlo ismu
+lasmlaty'ismu	ELSE	EXTENDED	las mlat ismu	slasi mlatu ismu
+ficystodraunju	ELSE	EXTENDED	fic stodraunju	frica stodraunju
+stodraunju	ELSE	ZIhEVLA	stodraunju	stodraunju
+draunju	ELSE	ZIhEVLA	draunju	draunju
+raunju	ELSE	ZIhEVLA	raunju	raunju
+iutkelo	ELSE	ZIhEVLA	iutkelo	iutkelo
+bloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i	ELSE	LUJVO	blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo lot lo'i	bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti
+smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi	ELSE	ZIhEVLA	smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi	smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi
+mlatu'ybloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i'ysmuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi'y'ismu	ELSE	EXTENDED	mlatu blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo blo lot lo'i smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi ismu	mlatu bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi ismu
+
+kerlo'y'u'u'y'ismu	MORE_RAF	EXTENDED	kerlo u'u ismu	kerlo -u'u- ismu		ELSE	NONE
+kerly'u'u'y'ismu	MORE_RAF	EXTENDED	kerl u'u ismu	kerlo -u'u- ismu		ELSE	NONE
+nei'yiismu	ALLOW_Y | FORCE_Y	EXTENDED	nei iismu	nelci iismu		ELSE	NONE
+nei'ykerlo	FORCE_Y	LUJVO	nei kerlo	nelci kerlo		ALLOW_Y	EXTENDED	nei kerlo	nelci kerlo		ELSE	NONE
+voi'yli'u	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	LUJVO	voi li'u	vofli litru		ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	voi li'u	vofli litru		ELSE	NONE
+re'e'ykerlo	FORCE_Y	LUJVO	re'e kerlo	trene kerlo		ALLOW_Y	EXTENDED	re'e kerlo	trene kerlo		ELSE	NONE
+re'e'yiismu	ALLOW_Y | FORCE_Y	EXTENDED	re'e iismu	trene iismu		ELSE	NONE
+fa'u'u'u'u'u'u'u'u'ykerlo	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	fa'u'u'u'u'u'u'u'u kerlo	-fa'u'u'u'u'u'u'u'u- kerlo		ELSE	NONE
+fa'u'u'u'u'u'u'u'u'yiismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	fa'u'u'u'u'u'u'u'u iismu	-fa'u'u'u'u'u'u'u'u- iismu		ELSE	NONE
+fa'u'u'yfa'u'u'u'ykerlo	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	fa'u'u fa'u'u'u kerlo	-fa'u'u- -fa'u'u'u- kerlo		ELSE	NONE
+fa'u'u'yfa'u'u'u'yiismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	fa'u'u fa'u'u'u iismu	-fa'u'u- -fa'u'u'u- iismu		ELSE	NONE
+fa'u'u'yfa'u'u'u'y'ismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	fa'u'u fa'u'u'u ismu	-fa'u'u- -fa'u'u'u- ismu		ELSE	NONE
+fa'u'u'u'u'u'u'u'u'y'ismu	MORE_RAF	EXTENDED	fa'u'u'u'u'u'u'u'u ismu	-fa'u'u'u'u'u'u'u'u- ismu		ELSE	NONE
+fa'u'u'u'u'u'y'u'u'y'ismu	MORE_RAF	EXTENDED	fa'u'u'u'u'u u'u ismu	-fa'u'u'u'u'u- -u'u- ismu		ELSE	NONE
+ismyfa'u'u'u'u'u'u'u'u'y'ismu	MORE_RAF	EXTENDED	ism fa'u'u'u'u'u'u'u'u ismu	ism- -fa'u'u'u'u'u'u'u'u- ismu		ELSE	NONE
+ismu'yfa'u'u'u'u'u'u'u'u'y'ismu	MORE_RAF	EXTENDED	ismu fa'u'u'u'u'u'u'u'u ismu	ismu -fa'u'u'u'u'u'u'u'u- ismu		ELSE	NONE
+kerlyfa'u'u'u'u'u'u'u'u'y'ismu	MORE_RAF	EXTENDED	kerl fa'u'u'u'u'u'u'u'u ismu	kerlo -fa'u'u'u'u'u'u'u'u- ismu		ELSE	NONE
+kerlo'yfa'u'u'u'u'u'u'u'u'y'ismu	MORE_RAF	EXTENDED	kerlo fa'u'u'u'u'u'u'u'u ismu	kerlo -fa'u'u'u'u'u'u'u'u- ismu		ELSE	NONE
+kerlo'yfa'u'u'y'ismu	MORE_RAF	EXTENDED	kerlo fa'u'u ismu	kerlo -fa'u'u- ismu		ELSE	NONE
+kerlyfa'u'u'y'ismu	MORE_RAF	EXTENDED	kerl fa'u'u ismu	kerlo -fa'u'u- ismu		ELSE	NONE
+	ELSE	NONE	(empty string)
+mlatu kerlo	ELSE	NONE	(already two words)
+弱音ハク	ELSE	NONE	(non-lojban characters)
+latqerlo	ELSE	NONE	(non-lojban characters)
+lonu	ELSE	NONE	(falls apart)
+le	ELSE	NONE	(ma'ortai)
+rlolo	ELSE	NONE	(invalid initial cluster)
+gimzu	YES_MZ	GISMU	gimzu	gimzu		ELSE	NONE	(mz)
+kumzda	YES_MZ	LUJVO	kum zda	kumfa zdani		ELSE	NONE	(mz)
+imzu	YES_MZ	ZIhEVLA	imzu	imzu		ELSE	NONE	(mz)
+iimzu	YES_MZ	ZIhEVLA	iimzu	iimzu		ELSE	NONE	(mz)
+ci'au'u'au'i	ELSE	NONE	(ma'ortai)
+mi'elalatkerlo	ELSE	NONE	(falls apart)
+coidomi'elalatkerlo	ELSE	NONE	(falls apart)
+iulalatkerlo	ELSE	NONE	(falls apart)
+tosmabru	ELSE	NONE	(falls apart)
+nmotci	ELSE	NONE	(invalid initial cluster)
+creueiii	ELSE	NONE	(glide off and on i)
+creiii	ELSE	NONE	(glide off and on i)
+tce	ELSE	NONE	(totce)
+nmo	ELSE	NONE	(tonmo, and invalid initial cluster)
+ykti	ELSE	NONE	(starts with y)
+akty	ELSE	NONE	(ends with y)
+iysmu	ELSE	NONE	(can't drop rafsi vowel)
+ii'ysmu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	ii smu	-ii- smuni		ELSE	NONE
+do'ysmu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	do smu	-do- smuni		ELSE	NONE
+mutcemutce	ELSE	NONE	(mu tcemutce)
+mutcemlatu	ELSE	NONE	(mu tcemlatu)
+gismuu	ELSE	NONE	(CGV)
+gismyiauismu	ELSE	NONE	(not a zie'evla or rafsi shape)
+slinku'i	ELSE	NONE	(toslinku'i)
+tkerlo	ELSE	NONE	(latkerlo)
+jesspa	ELSE	NONE	(double consonant)
+mlaotu	ELSE	NONE	(double vowel)
+kuarka	ELSE	NONE	(CGV)
+briiyii	MORE_RAF	EXTENDED	brii ii	brii- -ii-		ELSE	NONE
+briiyiimu	ELSE	NONE	(not a zie'evla or rafsi shape)
+briiatstsi	ELSE	NONE	(bad cluster)
+briiynxandi	ELSE	NONE
+briiybyiismu	ELSE	NONE	(can't drop rafsi vowel)
+stcibilo	ELSE	NONE	(bad initial cluster)
+streamline	ELSE	NONE	(double vowel)
+itslmtsi	ELSE	NONE
+itsmltsi	ELSE	NONE
+istrstci	ELSE	NONE
+mlatyykerlo	ELSE	NONE	(double y)
+y	ELSE	NONE	(just y)
+t	ELSE	NONE	(cmevlatai)
+posytmo	ELSE	NONE	(I don't dislike this particular word, but the form is not allowed)
+gudjrati	ELSE	NONE
+mlatyfa'u'u'u'u'u'u'u'u	MORE_RAF	EXTENDED	mlat fa'u'u'u'u'u'u'u'u	mlatu -fa'u'u'u'u'u'u'u'u-		ELSE	NONE
+ismyfa'u'u'u'u'u'u'u'u	MORE_RAF	EXTENDED	ism fa'u'u'u'u'u'u'u'u	ism- -fa'u'u'u'u'u'u'u'u-		ELSE	NONE
+mlatytosma'u'u	ELSE	NONE	(to sma'u'u)
+tosma'u'u	ELSE	NONE
+latratyzmu	ELSE	NONE	(la tratyzmu)
+latraty'ismu	ELSE	NONE
+latratratratratratratraty'ismu	ELSE	NONE
+latratratratratratratraty'ismy'ismy'ismu	ELSE	NONE
+laitraty'ismu	ELSE	NONE
+la'itraty'ismu	ELSE	NONE
+idgmri	ELSE	NONE
+idgrmldgri	ELSE	NONE
+idgrmdgri	ELSE	NONE
+idgmdgri	ELSE	NONE
+idgrri	ELSE	NONE
+briiatstlsi	ELSE	NONE
+briiatstrsi	ELSE	NONE
+briiatstlsi'i	ELSE	NONE
+bisrctci	ELSE	NONE
+idgmli	ELSE	NONE
+istmli	ELSE	NONE
+islslslslslslpmli	ELSE	NONE
+minelcilekerlobelemlatu	ELSE	NONE
+uecaireilatsoi	ELSE	NONE
+idmzmli	YES_MZ	ZIhEVLA	idmzmli	idmzmli		ELSE	NONE
+idndzmli	ELSE	NONE
+ndriii	ELSE	NONE
+mtsiii	ELSE	NONE
+re'emlatu	ELSE	NONE	(re'e mlatu)
+jborsai	ELSE	NONE	(tojborsai)
+jbormlatu	ELSE	NONE	(tojbormlatu)
+neijbomlatu	ELSE	NONE	(nei jbomlatu)
+neikerlo	ELSE	NONE	(nei kerlo)
+re'ekerlo	ELSE	NONE	(re'e kerlo)
+jesyspyre'e	ELSE	NONE	(can't drop rafsi vowel)
+jesyspa'yre'e	ELSE	EXTENDED	jes spa re'e	jesni spati trene
+aktydo	MORE_RAF	EXTENDED	akt do	akt- -do-		ELSE	NONE
+akti'ymi	MORE_RAF	EXTENDED	akti mi	akti -mi-		ELSE	NONE
+akti'yminelci	ELSE	NONE	(mi nelci)
+akti'ymi'au	MORE_RAF	EXTENDED	akti mi'au	akti -mi'au-		ELSE	NONE
+akti'ymilonu	ELSE	NONE	(mi lo nu)
+smu'ynei	ELSE	EXTENDED	smu nei	smuni nelci
+smu'ykerlo	ELSE	EXTENDED	smu kerlo	smuni kerlo
+sto'ysmu	ELSE	EXTENDED	sto smu	stodi smuni
+spa'yspa'yspa	ELSE	EXTENDED	spa spa spa	spati spati spati
+spa'yspa'yspati	ELSE	EXTENDED	spa spa spati	spati spati spati
+spa'yspati'yspa	ELSE	EXTENDED	spa spati spa	spati spati spati
+spa'yspati'yspati	ELSE	EXTENDED	spa spati spati	spati spati spati
+spati'yspa'yspa	ELSE	EXTENDED	spati spa spa	spati spati spati
+spati'yspa'yspati	ELSE	EXTENDED	spati spa spati	spati spati spati
+sproi	ELSE	NONE	(not enough syllables)
+fa'u'u'u'u'y'y'u'u'y'ismu	ELSE	NONE	(y'y)
+fa'u'u'u'u'u'u'y'u'y'ismu	MORE_RAF	EXTENDED	fa'u'u'u'u'u'u u ismu	-fa'u'u'u'u'u'u- -u- ismu		ELSE	NONE
+fa'u'u'u'u'u'y'u'u	ELSE	NONE	(not enough consonants)
+kerlyfa'u'u'u'u'u'u'u'u'ykerlo	MORE_RAF	EXTENDED	kerl fa'u'u'u'u'u'u'u'u kerlo	kerlo -fa'u'u'u'u'u'u'u'u- kerlo		ELSE	NONE
+kerlo'yfa'u'u'u'u'u'u'u'u	MORE_RAF	EXTENDED	kerlo fa'u'u'u'u'u'u'u'u	kerlo -fa'u'u'u'u'u'u'u'u-		ELSE	NONE
+kerlyfa'u'u'u'u'u'u'u'u	MORE_RAF	EXTENDED	kerl fa'u'u'u'u'u'u'u'u	kerlo -fa'u'u'u'u'u'u'u'u-		ELSE	NONE
+kerlyfa'u'u'ykerlo	MORE_RAF	EXTENDED	kerl fa'u'u kerlo	kerlo -fa'u'u- kerlo		ELSE	NONE
+kerlo'yfa'u'u'ykerlo	MORE_RAF	EXTENDED	kerlo fa'u'u kerlo	kerlo -fa'u'u- kerlo		ELSE	NONE
+kerlyfa'u'u'yiismu	MORE_RAF	EXTENDED	kerl fa'u'u iismu	kerlo -fa'u'u- iismu		ELSE	NONE
+kerlo'yfa'u'u'yiismu	MORE_RAF	EXTENDED	kerlo fa'u'u iismu	kerlo -fa'u'u- iismu		ELSE	NONE
+kerly'u'y'ismu	MORE_RAF	EXTENDED	kerl u ismu	kerlo -u- ismu		ELSE	NONE
+kerly'u'u'ykerlo	MORE_RAF	EXTENDED	kerl u'u kerlo	kerlo -u'u- kerlo		ELSE	NONE
+kerlo'y'u'u'ykerlo	MORE_RAF	EXTENDED	kerlo u'u kerlo	kerlo -u'u- kerlo		ELSE	NONE
+kerlo'y'u'u'yiismu	MORE_RAF	EXTENDED	kerlo u'u iismu	kerlo -u'u- iismu		ELSE	NONE
+kerly'u'u'yiismu	MORE_RAF	EXTENDED	kerl u'u iismu	kerlo -u'u- iismu		ELSE	NONE
+kery'u'u'y'ismu	MORE_RAF	EXTENDED	ker u'u ismu	kerlo -u'u- ismu		ELSE	NONE
+
+u'ykerlo	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u kerlo	-u- kerlo		ELSE	NONE
+kerlo'y'u	MORE_RAF	EXTENDED	kerlo u	kerlo -u-		ELSE	NONE
+kerly'u	MORE_RAF	EXTENDED	kerl u	kerlo -u-		ELSE	NONE
+
+u'yiismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u iismu	-u- iismu		ELSE	NONE
+iismu'y'u	MORE_RAF	EXTENDED	iismu u	iismu -u-		ELSE	NONE
+iismy'u	MORE_RAF	EXTENDED	iism u	iism- -u-		ELSE	NONE
+
+u'y'ismu	MORE_RAF	EXTENDED	u ismu	-u- ismu		ELSE	NONE
+ismu'y'u	MORE_RAF	EXTENDED	ismu u	ismu -u-		ELSE	NONE
+ismy'u	MORE_RAF	EXTENDED	ism u	ism- -u-		ELSE	NONE
+
+
+u'u'ykerlo	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u'u kerlo	-u'u- kerlo		ELSE	NONE
+kerlo'y'u'u	MORE_RAF	EXTENDED	kerlo u'u	kerlo -u'u-		ELSE	NONE
+kerly'u'u	MORE_RAF	EXTENDED	kerl u'u	kerlo -u'u-		ELSE	NONE
+
+u'u'yiismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u'u iismu	-u'u- iismu		ELSE	NONE
+iismu'y'u'u	MORE_RAF	EXTENDED	iismu u'u	iismu -u'u-		ELSE	NONE
+iismy'u'u	MORE_RAF	EXTENDED	iism u'u	iism- -u'u-		ELSE	NONE
+
+u'u'y'ismu	MORE_RAF	EXTENDED	u'u ismu	-u'u- ismu		ELSE	NONE
+ismu'y'u'u	MORE_RAF	EXTENDED	ismu u'u	ismu -u'u-		ELSE	NONE
+ismy'u'u	MORE_RAF	EXTENDED	ism u'u	ism- -u'u-		ELSE	NONE
+
+kerlo'yfa'u'u'u'u'u'u'u'ukerlo	ELSE	NONE	(fa'u... not standard rafsi, so needs y separation)
+kerlyfa'u'u'u'u'u'u'u'ukerlo	ELSE	NONE	(fa'u... not standard rafsi, so needs y separation)
+
+gismy'u	MORE_RAF	EXTENDED	gism u	gismu -u-		ELSE	NONE
+gismy'u'yiismu	MORE_RAF	EXTENDED	gism u iismu	gismu -u- iismu		ELSE	NONE
+gismu'y'u	ELSE	NONE	(gi smu'y'u)
+gismu'y'u'y'ismu	ELSE	NONE	(gi smu'y'u'y'ismu)
+
+tce'y'u'u'y'ismu	MORE_RAF	EXTENDED	tce u'u ismu	mutce -u'u- ismu		ELSE	NONE
+mutce'y'u'u'y'ismu	ELSE	NONE	(mu tce'y'u'u'y'ismu)
+rai'y'ismu	ELSE	EXTENDED	rai ismu	traji ismu
+rai'y'u'y'ismu	MORE_RAF	EXTENDED	rai u ismu	traji -u- ismu		ELSE	NONE
+rai'y'u'u'y'ismu	MORE_RAF	EXTENDED	rai u'u ismu	traji -u'u- ismu		ELSE	NONE
+rai'y'u'u'u'y'ismu	MORE_RAF	EXTENDED	rai u'u'u ismu	traji -u'u'u- ismu		ELSE	NONE
+rai'y'ai'y'ismu	MORE_RAF	EXTENDED	rai ai ismu	traji -ai- ismu		ELSE	NONE
+rai'y'ai'u'y'ismu	MORE_RAF	EXTENDED	rai ai'u ismu	traji -ai'u- ismu		ELSE	NONE
+rai'ymi'au'y'ismu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	rai mi'au ismu	traji -mi'au- ismu		ELSE	NONE
+
+u'y'imzu	MORE_RAF & YES_MZ	EXTENDED	u imzu	-u- imzu		ELSE	NONE
+imzu'y'u'u	MORE_RAF & YES_MZ	EXTENDED	imzu u'u	imzu -u'u-		ELSE	NONE
+fa'u'y'imzu	YES_MZ	EXTENDED	fa'u imzu	farlu imzu		ELSE	NONE
+
+u'ysmu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u smu	-u- smuni		ELSE	NONE
+smu'y'u	MORE_RAF	EXTENDED	smu u	smuni -u-		ELSE	NONE
+kery'u	ELSE	NONE	(ke ry'u)
+ke'ery'u	ELSE	NONE	(ke'e ry'u)
+ke'e'e'e'e'e'e'ery'u	ELSE	NONE	(ke'e'e'e'e'e'e'e ry'u)
+kery'u'u	ELSE	NONE	(ke ry'u'u)
+kery'u'ykery'u	ELSE	NONE	(ke ry'u'y ke ry'u)
+gimy'u	ELSE	NONE	(gi mu'y)
+toiysmu	ELSE	NONE	(weird rafsi shape)
+toi'ysmu	ALLOW_Y | FORCE_Y	EXTENDED	toi smu	troci smuni	0-3,5-8	ELSE	NONE
+toi'ytoismu	FORCE_Y	LUJVO	toi toi smu	troci troci smuni	0-3,5-8,8-11	ALLOW_Y	EXTENDED	toi toi smu	troci troci smuni	0-3,5-8,8-11	ELSE	NONE
+toiykerlolo	ELSE	NONE	(weird rafsi shape)
+toi'ykerlolo	ALLOW_Y | FORCE_Y	EXTENDED	toi kerlolo	troci kerlolo	0-3,5-12	ELSE	NONE
+toiyiismu	ELSE	NONE	(weird rafsi shape)
+toi'yiismu	ALLOW_Y | FORCE_Y	EXTENDED	toi iismu	troci iismu	0-3,5-10	ELSE	NONE
+kerlytoiysmu	ELSE	NONE	(weird rafsi shape)
+kerlo'ytoiy'ismu	ELSE	NONE	(weird rafsi shape)
+ismu'ytoiy'ismu	ELSE	NONE	(weird rafsi shape)
+kerlytoiyiismu	ELSE	NONE	(weird rafsi shape)
+ke'erytce	ELSE	NONE	(weird rafsi shape)
+le'yle	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	le le	-le- -le-	0-2,4-6	ELSE	NONE
+fa'y'u	ELSE	NONE	(ma'ortai)
+u'u'yli'u	(ALLOW_Y | FORCE_Y) & MORE_RAF & ONE_CONSONANT	EXTENDED	u'u li'u	-u'u- litru	0-3,5-9	ELSE	NONE
+mibymi	MORE_RAF	EXTENDED	mib mi	mi -mi-	0-3,4-6	ELSE	NONE
+mi'ymibymi	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	mi mib mi	-mi- mi -mi-	0-2,4-7,8-10	ELSE	NONE
+iuskelo	ELSE	NONE	(iu skelo)
+a'a'a'a'a'akerlo	ELSE	NONE	(a'a'a'a'a'a kerlo)
+
+re'erspa'ykerlo	FORCE_Y	EXTENDED	re'erspa kerlo	re'erspa kerlo	0-8,10-15	ELSE	EXTENDED	re'e spa kerlo	trene spati kerlo	0-4,5-8,10-15
+re'erspa'yiismu	FORCE_Y	EXTENDED	re'erspa iismu	re'erspa iismu		ELSE	EXTENDED	re'e spa iismu	trene spati iismu
+re'erspa'y'ismu	FORCE_Y	EXTENDED	re'erspa ismu	re'erspa ismu		ELSE	EXTENDED	re'e spa ismu	trene spati ismu
+re'enre'e'ykerlo	FORCE_Y	EXTENDED	re'enre'e kerlo	re'enre'e kerlo		ELSE	EXTENDED	re'e re'e kerlo	trene trene kerlo
+re'enre'e'yiismu	FORCE_Y	EXTENDED	re'enre'e iismu	re'enre'e iismu		ELSE	EXTENDED	re'e re'e iismu	trene trene iismu
+re'enre'e'y'ismu	FORCE_Y	EXTENDED	re'enre'e ismu	re'enre'e ismu		ELSE	EXTENDED	re'e re'e ismu	trene trene ismu
+kerlo'yre'erspa	FORCE_Y	EXTENDED	kerlo re'erspa	kerlo re'erspa		ELSE	EXTENDED	kerlo re'e spa	kerlo trene spati
+iismu'yre'erspa	FORCE_Y	EXTENDED	iismu re'erspa	iismu re'erspa		ELSE	EXTENDED	iismu re'e spa	iismu trene spati
+iismyre'erspa	FORCE_Y	EXTENDED	iism re'erspa	iism- re'erspa		ELSE	EXTENDED	iism re'e spa	iism- trene spati
+ismyre'erspa	FORCE_Y	EXTENDED	ism re'erspa	ism- re'erspa		ELSE	EXTENDED	ism re'e spa	ism- trene spati
+ismu'yre'erspa	FORCE_Y	EXTENDED	ismu re'erspa	ismu re'erspa		ELSE	EXTENDED	ismu re'e spa	ismu trene spati
+kerlo'yre'enre'e	FORCE_Y	EXTENDED	kerlo re'enre'e	kerlo re'enre'e		ELSE	EXTENDED	kerlo re'e re'e	kerlo trene trene
+iismu'yre'enre'e	FORCE_Y	EXTENDED	iismu re'enre'e	iismu re'enre'e		ELSE	EXTENDED	iismu re'e re'e	iismu trene trene
+iismyre'enre'e	FORCE_Y	EXTENDED	iism re'enre'e	iism- re'enre'e		ELSE	EXTENDED	iism re'e re'e	iism- trene trene
+ismu'yre'enre'e	FORCE_Y	EXTENDED	ismu re'enre'e	ismu re'enre'e		ELSE	EXTENDED	ismu re'e re'e	ismu trene trene
+ismyre'enre'e	FORCE_Y	EXTENDED	ism re'enre'e	ism- re'enre'e		ELSE	EXTENDED	ism re'e re'e	ism- trene trene
+mlatyre'enre'ymlatu	ELSE	EXTENDED	mlat re'enre mlatu	mlatu re'enre mlatu
+re'enre	ELSE	ZIhEVLA	re'enre	re'enre
+
+torai'y'ismu	ELSE	NONE	(why would that be a word)
+ismeykerlo	ELSE	NONE	(ey bad)
+ismuykerlo	ELSE	NONE	(implies CG)
+ismui	ELSE	NONE	(CG)
+ismyfa'u'u	MORE_RAF	EXTENDED	ism fa'u'u	ism- -fa'u'u-		ELSE	NONE
+ismu'yfa'u'u	MORE_RAF	EXTENDED	ismu fa'u'u	ismu -fa'u'u-		ELSE	NONE
+ismu'yu'u	ELSE	NONE
+ismuy'u'u	ELSE	NONE
+latytcey'u'u	ELSE	NONE
+kerloy'u'u	ELSE	NONE
+kerlo'yismu	ELSE	NONE
+kerlo'yaismu	ELSE	NONE
+kerlo'yiismu	ELSE	EXTENDED	kerlo iismu	kerlo iismu
+ism'y'ismu	ELSE	NONE
+ker'y'kerlo	ELSE	NONE
+kerly'iismu	ELSE	NONE
+kerly'tce	ELSE	NONE
+kerly'nei	ELSE	NONE
+brii'y'ismu	ELSE	NONE
+mlaty'iii'y'ismu	ELSE	NONE
+mlaty'ymlatu	ELSE	NONE
+mlaty''ymlatu	ELSE	NONE
+mlaty'''ymlatu	ELSE	NONE
+mlaty''''ymlatu	ELSE	NONE
+
+le'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	le ia	-le- -ia-		ELSE	NONE
+ia'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT) & GLIDES	EXTENDED	ia ia	-ia- -ia-		ELSE	NONE
+ia'yle	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	ia le	-ia- -le-		ELSE	NONE
+tce'yia	MORE_RAF	EXTENDED	tce ia	mutce -ia-		ELSE	NONE
+mutce'yia	ELSE	NONE	(mu tce'yia)
+toia	ELSE	NONE	(two cmavo)
+ia'ymutce	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	ia mutce	-ia- mutce		ELSE	NONE
+iismuia	ELSE	NONE	(ii smuia)
+bisladru'y'u'u'y'ismu	ELSE	NONE	(bi sladru...)
+
+artmozaiko	ELSE	NONE
+artmo	ELSE	NONE
+ismurtmo	ELSE	NONE
+itclrlrli	ELSE	NONE
+itcrlrlri	ELSE	NONE
+itclrlrlrsi	ELSE	NONE
+itcrlrlrlsi	ELSE	NONE
+itclrlrlrtci	ELSE	NONE
+itcrlrlrltci	ELSE	NONE
+itsrlrlrlsi	ELSE	NONE
+itclrli	ELSE	NONE
+itclrlrclrtci	ELSE	NONE
+balndji	ELSE	NONE
+balndzi	ELSE	NONE
+balntci	ELSE	NONE
+balntsi	ELSE	NONE
+indji	ELSE	NONE
+indzi	ELSE	NONE
+intci	ELSE	NONE
+intsi	ELSE	NONE
+balmdji	ELSE	ZIhEVLA	balmdji	balmdji
+balmdzi	ELSE	ZIhEVLA	balmdzi	balmdzi
+balmtci	ELSE	ZIhEVLA	balmtci	balmtci
+balmtsi	ELSE	ZIhEVLA	balmtsi	balmtsi
+imdji	ELSE	ZIhEVLA	imdji	imdji
+imdzi	ELSE	ZIhEVLA	imdzi	imdzi
+imtci	ELSE	ZIhEVLA	imtci	imtci
+imtsi	ELSE	ZIhEVLA	imtsi	imtsi
+ilnspi	ELSE	ZIhEVLA	ilnspi	ilnspi
+ilnkpi	ELSE	NONE
+ilnskri	ELSE	ZIhEVLA	ilnskri	ilnskri
+ilntkri	ELSE	NONE
+skriii	ELSE	ZIhEVLA	skriii	skriii
+tkriii	ELSE	NONE
+
+latker	ELSE	CMEVLA	lat ker	mlatu kerlo
+ismu'ylat	ELSE	CMEVLA	ismu lat	ismu mlatu
+laty'ism	ELSE	CMEVLA	lat ism	mlatu ism-
+vlabuk	ELSE	CMEVLA	vla buk	valsi bukpu
+alis	ELSE	NONE	(non-decomposing cmevla)
+bab	ELSE	NONE	(non-decomposing cmevla)
+kerl	ELSE	NONE	(non-decomposing cmevla)
+ism	ELSE	NONE	(non-decomposing cmevla)
+atkerl	ELSE	NONE	(non-decomposing cmevla)
+voiriismu	ELSE	NONE
+
+barduku'ykei	ELSE	EXTENDED	barduku kei	barduku kelci
+bardukykei	ELSE	LUJVO	bar duk kei	bartu dunku kelci
+miby'ismu	ELSE	EXTENDED	mib ismu	mi ismu
+mibyiismu	ELSE	EXTENDED	mib iismu	mi iismu
+norycrezuue	ELSE	EXTENDED	nor crezuue	no'e crezuue
+zganyiicne	ELSE	EXTENDED	zgan iicne	zgana iicne
+zgazga'yiicne	ELSE	EXTENDED	zga zga iicne	zgana zgana iicne
+zgafai'yiicne	ELSE	EXTENDED	zga fai iicne	zgana fatri iicne
+fatryiicne	ELSE	EXTENDED	fatr iicne	fatri iicne
+fatry'aicne	ELSE	EXTENDED	fatr aicne	fatri aicne
+mibydoi	ELSE	EXTENDED	mib doi	mi do
+tceneirdukykei	FORCE_Y	EXTENDED	tceneirduk kei	tceneirduk- kelci		ELSE	LUJVO	tce nei duk kei	mutce nelci dunku kelci
+
+rensaz	ELSE	CMEVLA	ren saz	trene sazri
+renlat	ELSE	CMEVLA	ren lat	trene mlatu
+renren	ELSE	CMEVLA	ren ren	trene trene
+ci'iren	ELSE	CMEVLA	ci'i ren	cinri trene
+sansman	ELSE	CMEVLA	san sman	spano smani
+sansyman	ELSE	CMEVLA	sans man	sanso manku
+zinzman	ELSE	CMEVLA	zin zman	zinki zman-
+zinzyman	ELSE	CMEVLA	zinz man	zinz- manku
+veimi'ikeira'asam	ELSE	CMEVLA	vei mi'i kei ra'a sam	vreji minji kelci srana skami
+veimi'ikeicinfyra'asam	ELSE	CMEVLA	vei mi'i kei cinf ra'a sam	vreji minji kelci cinfo srana skami
+
+sleirku'i	ELSE	NONE
+tosleirku'i	FORCE_Y	ZIhEVLA	tosleirku'i	tosleirku'i		ELSE	LUJVO	tos lei ku'i	-tos- klesi kurji
+sleirleirku'i	ELSE	NONE
+tosleirleirku'i	FORCE_Y	ZIhEVLA	tosleirleirku'i	tosleirleirku'i		ELSE	LUJVO	tos lei lei ku'i	-tos- klesi klesi kurji
+sleinku'i	ELSE	ZIhEVLA	sleinku'i	sleinku'i
+tosleinku'i	ELSE	NONE
+
+fairiicne	ELSE	NONE
+fairliicne	ELSE	NONE
+fairlriicne	ELSE	NONE
+itcariicne	ELSE	NONE
+itcarliicne	ELSE	NONE
+itcarlriicne	ELSE	NONE
+
+plukauai'ymle	ELSE	EXTENDED	plukauai mle	plukauai melbi
+plukauaii'ymle	ELSE	EXTENDED	plukauaii mle	plukauaii melbi
+plukauaiymle	ELSE	EXTENDED	plukauai mle	plukauai- melbi
+plukauaiiymle	ELSE	NONE
+plukauaiiiymle	ELSE	EXTENDED	plukauaiii mle	plukauaiii- melbi
+va'amle	ELSE	LUJVO	va'a mle	va'arga melbi
+va'arga'ymle	ELSE	EXTENDED	va'arga mle	va'arga melbi
+va'argymle	ELSE	EXTENDED	va'arg mle	va'arg- melbi
+melyplukauai	ELSE	EXTENDED	mel plukauai	melbi plukauai
+melyplukauaii	ELSE	EXTENDED	mel plukauaii	melbi plukauaii
+
+jesyspa'y'akti	ELSE	EXTENDED	jes spa akti	jesni spati akti
+jesyspa'ybriii	ELSE	EXTENDED	jes spa briii	jesni spati briii
+tolspa'ybriii	ELSE	EXTENDED	tol spa briii	to'e spati briii
+
+vacysai	ELSE	LUJVO	vac sai	vanci sanmi	0-3,4-7
+nei'ynei	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	LUJVO	nei nei	nelci nelci	0-3,5-8	ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei	nelci nelci	0-3,5-8	ELSE	NONE
+nei'ytrene	FORCE_Y	LUJVO	nei trene	nelci trene	0-3,5-10	ALLOW_Y	EXTENDED	nei trene	nelci trene	0-3,5-10	ELSE	NONE
+nei'yle	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei le	nelci -le-	0-3,5-7	ELSE	NONE
+ia'yia'ytce	(ALLOW_Y | FORCE_Y) & MORE_RAF 	EXTENDED	ia ia tce	-ia- -ia- mutce	0-2,4-6,8-11	ELSE	NONE
+nei'ytce	ALLOW_Y | FORCE_Y	EXTENDED	nei tce	nelci mutce	0-3,5-8	ELSE	NONE
+a'ynei	(ALLOW_Y | FORCE_Y) & MORE_RAF & ONE_CONSONANT	EXTENDED	a nei	-a- nelci	0-1,3-6	ELSE	NONE
+a'yneinei	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	a nei nei	-a- nelci nelci	0-1,3-6,6-9	ELSE	NONE
+a'ytce	(ALLOW_Y | FORCE_Y) & MORE_RAF 	EXTENDED	a tce	-a- mutce	0-1,3-6	ELSE	NONE
+a'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & ONE_CONSONANT & GLIDES	EXTENDED	a ia	-a- -ia-	0-1,3-5	ELSE	NONE
+ia'ynei	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	ia nei	-ia- nelci	0-2,4-7	ELSE	NONE
+nei'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	nei ia	nelci -ia-	0-3,5-7	ELSE	NONE
+nelyia	MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT | GLIDES)	EXTENDED	nel ia	nelci -ia-	0-3,4-6	ELSE	NONE
+nely'ei	ELSE	NONE	(ne ly'ei)
+nei'y'ei	ELSE	NONE
+tce'y'ei	MORE_RAF	EXTENDED	tce ei	mutce -ei-	0-3,6-8	ELSE	NONE
+mutce'y'ei	ELSE	NONE	(mu tce'y'ei)
+fa'u'u'u'y'u'u'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	fa'u'u'u u'u ia	-fa'u'u'u- -u'u- -ia-	0-8,11-14,16-18	ELSE	NONE
+nei'ynei'ynei	(ALLOW_Y | FORCE_Y) & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei	nelci nelci nelci	0-3,5-8,10-13	ELSE	NONE
+nei'yneinei	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	LUJVO	nei nei nei	nelci nelci nelci	0-3,5-8,8-11	ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei	nelci nelci nelci	0-3,5-8,8-11	ELSE	NONE
+nei'ynei'ynei'ynei	(ALLOW_Y | FORCE_Y) & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei nei	nelci nelci nelci nelci	0-3,5-8,10-13,15-18	ELSE	NONE
+nei'yneineinei	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	LUJVO	nei nei nei nei	nelci nelci nelci nelci	0-3,5-8,8-11,11-14	ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei nei	nelci nelci nelci nelci	0-3,5-8,8-11,11-14	ELSE	NONE
+nei'ynei'ytce	ALLOW_Y | FORCE_Y	EXTENDED	nei nei tce	nelci nelci mutce	0-3,5-8,10-13	ELSE	NONE
+nei'yneitce	FORCE_Y	LUJVO	nei nei tce	nelci nelci mutce	0-3,5-8,8-11	ALLOW_Y	EXTENDED	nei nei tce	nelci nelci mutce	0-3,5-8,8-11	ELSE	NONE
+ta'a'yta'a'yta'a	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	ta'a ta'a ta'a	tavla tavla tavla	0-4,6-10,12-16	ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	ta'a ta'a ta'a	tavla tavla tavla	0-4,6-10,12-16	ELSE	NONE

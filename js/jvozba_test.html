@@ -1,131 +1,465 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <title>latkerlo jvotci js tests</title>
     <script src="docs/data.js"></script>
     <script src="docs/rafsi.js"></script>
+    <script src="docs/exceptions.js"></script>
     <script src="docs/tarmi.js"></script>
     <script src="docs/tools.js"></script>
     <script src="docs/jvozba.js"></script>
     <script src="docs/katna.js"></script>
-    <script src="docs/jvozba_test_list.js"></script>
+    <script src="../tests/js_tests.js"></script>
   </head>
   <body>
+    <h1>latkerlo jvotci js tests</h1>
     <p id="results"></p>
-    <p id="demo"></p>
 
     <script>
-      // console.log(getRafsiListList(["-zmo-", "gacri"]))
-      // let valsi = "kelro"
-      // console.log(valsi.substring(0, valsi.length - 1) + "y")
-      function testJvozba() {
-        let fullList = JVOZBAJVEKAhA_TESTS.concat(JVOZBA_ONLY_TESTS);
-        for (const [index, lujvoTanru] of fullList.entries()) {
-          let [lujvo, tanru] = lujvoTanru;
-          let [result, score] = getLujvo(tanru);
-          if (lujvo != result) {
-            return `on example #${index}: expected ${lujvo}, got ${result} (input: ${tanru})`;
-          }
+      function checkConditions(conditionStr, yHyphens, moreRafsi, consonants, glides, mz) {
+        if (conditionStr.length === 0)
+          return true;
+
+        switch (conditionStr) {  // I should, but don't feel like writing an actual parser.
+          case "ELSE":
+            return true;
+          case "ALLOW_Y":
+            return yHyphens === YHyphenSetting.ALLOW_Y;
+          case "FORCE_Y":
+            return yHyphens === YHyphenSetting.FORCE_Y;
+          case "MORE_RAF":
+            return moreRafsi;
+          case "TWO_CONSONANTS":
+            return consonants === ConsonantSetting.TWO_CONSONANTS;
+          case "ONE_CONSONANT":
+            return consonants === ConsonantSetting.ONE_CONSONANT;
+          case "GLIDES":
+            return glides;
+          case "YES_MZ":
+            return mz;
         }
-        return "Passed"
+
+        let leftString;
+        let i = 0;
+        if (conditionStr[i] === "(") {
+          let depth = 1;
+          while (depth > 0) {
+            i += 1;
+            if (conditionStr[i] === "(")
+              depth += 1;
+            else if (conditionStr[i] === ")")
+              depth -= 1;
+          }
+          leftString = conditionStr.slice(1, i);
+          i += 1;
+          if (i === conditionStr.length)
+            return checkConditions(leftString, yHyphens, moreRafsi, consonants, glides, mz);
+
+        } else {
+          while (!"|&".includes(conditionStr[i]))
+            i += 1;
+          leftString = conditionStr.slice(0, i).trim();
+        }
+
+        const operator = conditionStr.slice(i).trim()[0];
+
+        const rightString = conditionStr.slice(i+1).trim();
+
+        const leftSide = checkConditions(leftString, yHyphens, moreRafsi, consonants, glides, mz);
+        const rightSide = checkConditions(rightString, yHyphens, moreRafsi, consonants, glides, mz);
+
+        if (operator === "|")
+          return leftSide || rightSide;
+        else if (operator == "&")
+          return leftSide && rightSide;
+        else
+          throw new Error(operator);
+      }
+    
+
+      function getRafsiString(resultList) {
+        resultList = resultList.filter((x) => !HYPHENS.includes(x));
+        return resultList.join(" ");
       }
 
-      function testJvozbaCmene() {
-        for (const [index, lujvoTanru] of CMENE_TESTS.entries()) {
-          let [lujvo, tanru] = lujvoTanru;
-          let [result, score] = getLujvo(tanru, true);
-          if (lujvo != result) {
-            return `on example #${index}: expected ${lujvo}, got ${result} (input: ${tanru})`;
+      function testGetLujvoBasic() {
+        for (const [i, row] of BASIC_TEST_LIST.entries()) {
+          const lujvo = row[0];
+          const tanru = row[1];
+          let conditions;
+          if (row.length > 2)
+            conditions = row[2];
+          else
+            conditions = null;
+          const doCmevla = conditions === "CMEVLA";
+
+          if (conditions === "KATNA")
+            continue;
+
+          let res;
+          if (lujvo !== "FAIL") {
+            try {
+              res = getLujvo(tanru, {generateCmevla: doCmevla});
+            } catch(e) {
+              return `Example ${i}: Expected ${lujvo}, got Error. Input: ${[tanru, lujvo, conditions]}. Message: ${e.message}`;
+            }
+
+            if (lujvo !== res)
+              return `Example ${i}: Expected ${lujvo}, got ${res}. Input: ${[tanru, lujvo, conditions]}`;
+                   
+          } else {
+            let didFail;
+            try {
+              res = getLujvo(tanru, {generateCmevla: doCmevla})
+              didFail = false;
+            } catch {
+              didFail = true;
+            }
+            if (!didFail)
+              return `Example ${i}: Expected exception, got ${res}. Input: ${[tanru, lujvo, conditions]}`;
           }
         }
-        return "Passed"
+        return "Passed";
       }
 
-      function testJvozbaExceptions() {
-        for (const [index, tanruError] of JVOZBA_FAIL_TESTS.entries()) {
-          let tanru = tanruError[0];
-          let res = "";
-          let didException = false;
-          try {
-            res = getLujvo(tanru);
-          } catch (error) {
-            didException = true;
+      function testGetLujvoMyList() {
+        for (const [i, row] of JVOZBA_TEST_LIST.entries()) {
+          const string = row[0];
+          const doCmevla = row[1] === "C";
+
+          const conditions = [];
+          for (j = 2; j < row.length; j++) {
+            if (j % 4 === 2)
+              conditions.push([]);
+            conditions[conditions.length-1].push(row[j]);
           }
-          if (!didException)
-            return `on example #${index}: expected Exception, got ${res} (input: ${tanru})`
+
+          const iter = makeSettingsIterator(SETTINGS);
+          let result = iter.next();
+          while (!result.done) {
+            const yHyphen = result.value[0];
+            const moreRafsi = result.value[1];
+            const consonants = result.value[2];
+            const glides = result.value[3];
+            const mz = result.value[4];
+            result = iter.next();
+
+            let lujvo = null;
+            let score = null;
+            let indexList = null;
+            for (const cd of conditions) {
+              if (checkConditions(cd[0], yHyphen, moreRafsi, consonants, glides, mz)) {
+                lujvo = cd[1];
+                if (cd.length > 2 && cd[2].length > 0)
+                  score = Number(cd[2]);
+                if (cd.length > 3 && cd[3].length > 0)
+                  indexList = cd[3];
+                break;
+              }
+            }
+            if (lujvo === null)
+              return `Did not find matching conditions: ${i}, [${conditions}]`;
+
+            let res;
+            if (lujvo !== "NONE") {
+              try {
+                res = getLujvoWithAnalytics(string, {generateCmevla: doCmevla, yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+              } catch (e) {
+                return `Example ${i}: Expected ${lujvo}, got Error. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}. Message: ${e.message}`;
+              }
+
+              if (!doCmevla) {
+                let reRes;
+                try {
+                  reRes = analyseBrivla(res[0], {yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+                } catch (e) {
+                  return `Example ${i}: Brivla check threw error. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}. Message: ${e.message}`;
+                }
+                if (![BrivlaType.LUJVO, BrivlaType.EXTENDED_LUJVO].includes(reRes[0]))
+                  return `Example ${i}: Produced non-brivla: ${lujvo}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              }
+              if (lujvo !== res[0])
+                return `Example ${i}: Expected ${lujvo}, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+
+              if (score !== null && score !== res[1])
+                return `Example ${i}: Expected ${score}, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              
+              if (indexList !== null) {
+                const resIndList = res[2].map((x) => x.join("-")).join(",");
+                if (indexList !== resIndList)
+                  return `Example ${i}: Expected ${indexList}, got ${res}. Input ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              }
+                    
+            } else {
+              let didFail;
+              try {
+                res = getLujvo(string, {generateCmevla: doCmevla, yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+                didFail = false;
+              } catch {
+                didFail = true;
+              }
+              if (!didFail)
+                return `Example ${i}: Expected exception, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+            }
+          }
         }
-        return "Passed"
+        return "Passed";
       }
 
-      function testJvozbaBrivlaScore() {
-        for (const [index, tanruScore] of LUJVO_SCORE_TESTS.entries()) {
-          let [tanru, score, cmeneScore] = tanruScore;
-          let [result, resScore] = getLujvo(tanru);
-          if (score != resScore) {
-            return `on example #${index}: expected ${score}, got ${resScore} (input: ${tanru} [cmevla])`;
+      function testGetVeljvoBasic() {
+        for (const [i, row] of BASIC_TEST_LIST.entries()) {
+          const lujvo = row[0];
+          const tanru = row[1];
+          let conditions;
+          if (row.length > 2)
+            conditions = row[2];
+          else
+            conditions = null;
+
+          if (conditions === "JVOZBA")
+            continue;
+
+          let res;
+          if (tanru !== "FAIL") {
+            try {
+              res = getVeljvo(lujvo);
+            } catch(e) {
+              return `Example ${i}: Expected ${tanru}, got Error. Input: ${[lujvo, tanru, conditions]}. Message: ${e.message}`;
+            }
+            
+            const resString = res.join(" ");
+            if (tanru !== resString)
+              return `Example ${i}: Expected ${tanru}, got ${res}. Input: ${[lujvo, tanru, conditions]}`;
+                   
+          } else {
+            let didFail;
+            try {
+              res = getVeljvo(lujvo);
+              didFail = false;
+            } catch {
+              didFail = true;
+            }
+            if (!didFail)
+              return `Example ${i}: Expected exception, got ${res}. Input: ${[lujvo, tanru, conditions]}`;
           }
         }
-        return "Passed"
+        return "Passed";
       }
 
-      function testJvozbaCmevlaScore() {
-        for (const [index, tanruScore] of LUJVO_SCORE_TESTS.entries()) {
-          let [tanru, score, cmeneScore] = tanruScore;
-          let [result, resScore] = getLujvo(tanru, true);
-          if (cmeneScore != resScore) {
-            return `on example #${index}: expected ${cmeneScore}, got ${resScore} (input: ${tanru} [cmevla])`;
+      function testGetVeljvoMyList() {
+        for (const [i, row] of KATNA_TEST_LIST.entries()) {
+          const string = row[0];
+
+          const conditions = [];
+          for (j = 1; j < row.length; j++) {
+            if (j % 5 === 1)
+              conditions.push([]);
+            conditions[conditions.length-1].push(row[j]);
+          }
+
+          const iter = makeSettingsIterator(SETTINGS);
+          let result = iter.next();
+          while (!result.done) {
+            const yHyphen = result.value[0];
+            const moreRafsi = result.value[1];
+            const consonants = result.value[2];
+            const glides = result.value[3];
+            const mz = result.value[4];
+            result = iter.next();
+
+            let tanru = null;
+            for (const cd of conditions) {
+              if (checkConditions(cd[0], yHyphen, moreRafsi, consonants, glides, mz)) {
+                bType = cd[1];
+                if (cd.length > 3 && cd[3].length > 0)
+                  tanru = cd[3];
+                break;
+              }
+            }
+
+            let res;
+            if (["LUJVO", "EXTENDED", "CMEVLA"].includes(bType)) {
+              try {
+                res = getVeljvo(string, {yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+              } catch(e) {
+                return `Example ${i}: Expected ${tanru}, got Error. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}. Message: ${e}`;
+              }
+              if (tanru !== res.join(" "))
+                return `Example ${i}: Expected ${tanru}, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+            } else {
+              let didFail;
+              try {
+                res = getVeljvo(lujvo, {yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+                didFail = false;
+              } catch {
+                didFail = true;
+              }
+              if (!didFail)
+                return `Example ${i}: Expected exception, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+            }
           }
         }
-        return "Passed"
+        return "Passed";
       }
 
-      function testVeljvo() {
-        let fullList = JVOZBAJVEKAhA_TESTS.concat(CMENE_TESTS, JVOKAhA_ONLY_TESTS);
-        for (const [index, lujvoTanru] of fullList.entries()) {
-          let [lujvo, tanru] = lujvoTanru;
-          let result = getVeljvo(lujvo).join(" ");
-          if (tanru != result) {
-            return `on example #${index}: expected ${tanru}, got ${result} (input: ${lujvo})`;
+      function testAnalyseBrivlaMyList() {
+        for (const [i, row] of KATNA_TEST_LIST.entries()) {
+          const string = row[0];
+
+          const conditions = [];
+          for (j = 1; j < row.length; j++) {
+            if (j % 5 === 1)
+              conditions.push([]);
+            conditions[conditions.length-1].push(row[j]);
+          }
+
+          const iter = makeSettingsIterator(SETTINGS);
+          let result = iter.next();
+          while (!result.done) {
+            const yHyphen = result.value[0];
+            const moreRafsi = result.value[1];
+            const consonants = result.value[2];
+            const glides = result.value[3];
+            const mz = result.value[4];
+            result = iter.next();
+
+            let bType = null;
+            let decomp = null;
+            let indexList = null;
+            for (const cd of conditions) {
+              if (checkConditions(cd[0], yHyphen, moreRafsi, consonants, glides, mz)) {
+                bType = cd[1];
+
+                if (cd.length > 2 && cd[2].length > 0)
+                  decomp = cd[2];
+
+                if (cd.length > 4 && cd[4].length > 0)
+                  indexList = cd[4];
+
+                break;
+              }
+            }
+            if (bType === null)
+              return `Did not find matching conditions: ${i}, [${conditions}]`;
+            if (bType === "EXTENDED")
+              bType = BrivlaType.EXTENDED_LUJVO;
+
+            let res;
+            if (bType !== "NONE") {
+              try {
+                res = analyseBrivla(string, {yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+              } catch(e) {
+                return `Example ${i}: Expected ${bType}, got Error. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}. Message: ${e.message}`;
+              }
+
+              if (bType !== res[0])
+                return `Example ${i}: Expected ${bType}, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              if (decomp !== getRafsiString(res[1]))
+                return `Example ${i}: Expected ${decomp}, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              
+              if (indexList !== null) {
+                const resIndList = getRafsiIndices(res[1]).map((x) => x.join("-")).join(",");
+                if (indexList !== resIndList)
+                  return `Example ${i}: Expected ${indexList}, got ${resIndList}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+              }
+
+            } else {
+              let didFail = false;
+              try {
+                res = analyseBrivla(string, {yHyphens: yHyphen, expRafsiShapes: moreRafsi, consonants: consonants, glides: glides, allowMZ: mz});
+              } catch {
+                didFail = true;
+              }
+              if (!didFail)
+                return `Example ${i}: Expected exception, got ${res}. Input: ${[string, yHyphen, moreRafsi, consonants, glides, mz]}`;
+            }
           }
         }
-        return "Passed"
+        return "Passed";
       }
 
-      function testVeljvoExceptions() {
-        for (const [index, lujvoError] of JVOKAhA_FAIL_TESTS.entries()) {
-          let lujvo = lujvoError[0];
-          let res = "";
-          let didException = false;
-          try {
-            res = getVeljvo(lujvo);
-          } catch (error) {
-            didException = true;
-          }
-          if (!didException)
-            return `on example #${index}: expected Exception, got ${res} (input: ${lujvo})`
+      function testAnalyseBrivlaDictionary() {
+        function matchType(fromList, resultType) {
+          if (fromList === "LUJVO")
+            return [BrivlaType.LUJVO, BrivlaType.EXTENDED_LUJVO].includes(resultType);
+          else
+            return fromList === resultType
         }
-        return "Passed"
+
+        for (const [bType, wordList] of JVS_WORDS.entries()) {
+          for (const word of wordList) {
+            if (["posytmo", "gudjrati"].includes(word))
+              continue;
+
+            let res;
+            if (bType !== "OTHER") {
+              try {
+                res = analyseBrivla(word);
+              } catch {
+                return `Expected ${bType}, got Error (input: ${word})`;
+              }
+              if (!matchType(bType, res[0]))
+                return `Expected ${bType}, got ${res[1]} (input: ${word})`;
+
+            } else {
+              let didFail = false;
+              try {
+                res = analyseBrivla(word);
+              } catch {
+                didFail = true;
+              }
+
+              if (!(didFail || res[0] === BrivlaType.CMEVLA))
+                return `Expected exception, got ${res}. (input: ${word})`;
+            }
+          }
+        }
+
+        return "Passed";
+      }
+
+      function testIsGismuDictionary() {
+        for (const [bType, wordList] of JVS_WORDS.entries()) {
+          for (let word of wordList) {
+            word = normalise(word);
+
+            if (!((bType === BrivlaType.GISMU) === isGismu(word)))
+              return `gismu check failed. (input: ${word})`;
+            if (bType === BrivlaType.GISMU && !isGismuOrLujvo(word))
+              return `gismu/lujvo check failed. (input; ${word})`;
+          }
+        }
+
+        return "Passed";
       }
 
       let resultsP = document.getElementById("results");
 
       const MIMI = [
-        [testJvozba, "jvozba"], 
-        [testJvozbaCmene, "jvozba cmevla"], 
-        [testJvozbaExceptions, "jvozba exceptions"], 
-        [testJvozbaBrivlaScore, "jvozba brivla score"], 
-        [testJvozbaCmevlaScore, "jvozba cmevla score"], 
-        [testVeljvo, "veljvo"], 
-        [testVeljvoExceptions, "veljvo exceptions"]
+        [testGetLujvoBasic, "get lujvo basic"],
+        [testGetLujvoMyList, "get lujvo my list"],
+        [testGetVeljvoBasic, "get veljvo basic"],
+        [testGetVeljvoMyList, "get veljvo my list"],
+        [testAnalyseBrivlaMyList, "analyse brivla my list"],
+        [testAnalyseBrivlaDictionary, "analyse brivla dictionary"],
+        [testIsGismuDictionary, "is gismu dictionary"],
       ]
-
+      
+      let numFailed = 0;
       for (const [test, testName] of MIMI) {
         resultsP.innerHTML += `${testName}<br>`;
         const t0 = new Date();
         result = test();
-        resultsP.innerHTML += `<span style="color:${result === "Passed" ? 'green' : 'red'}">${result}</span><br>`;
         const t1 = new Date();
+        resultsP.innerHTML += `<span style="color:${result === "Passed" ? 'green' : 'red'}">${result}</span><br>`;
+        if (result !== "Passed")
+          numFailed += 1;
         resultsP.innerHTML += `${(t1 - t0) / 1000} seconds<br><br>`;
       }
+      if (numFailed > 0)
+        resultsP.innerHTML += `${numFailed} failed. `;
+      resultsP.innerHTML += `${MIMI.length - numFailed} / ${MIMI.length} tests passed.`;
     </script>
 
   </body>
