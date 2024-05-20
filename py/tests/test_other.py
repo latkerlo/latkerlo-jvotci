@@ -74,7 +74,7 @@ def get_rafsi_string(result_list: list[str]):
 
 class TestOther(unittest.TestCase):
     def test_analyse_brivla_my_list(self):
-        with open(os.path.join(os.path.dirname(__file__), "../../tests/katna_test_list.csv")) as ipf:
+        with open(os.path.join(os.path.dirname(__file__), "../../tests/katna_test_list.tsv")) as ipf:
             reader = csv.reader(ipf, delimiter="\t")
             for i, row in enumerate(reader):
                 try:

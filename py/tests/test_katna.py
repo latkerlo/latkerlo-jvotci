@@ -16,7 +16,7 @@ import os
 
 class TestKatna(unittest.TestCase):
     def test_veljvo_basic(self):
-        with open(os.path.join(os.path.dirname(__file__), "../../tests/basic_test_list.csv")) as ipf:
+        with open(os.path.join(os.path.dirname(__file__), "../../tests/basic_test_list.tsv")) as ipf:
             reader = csv.reader(ipf, delimiter="\t")
             for i, row in enumerate(reader):
                 try:
@@ -51,7 +51,7 @@ class TestKatna(unittest.TestCase):
                     self.assertTrue(did_fail, f"Example {i}: Expected exception, got {res}. Input: {[lujvo, tanru, conditions]}")
 
     def test_veljvo_my_list(self):
-        with open(os.path.join(os.path.dirname(__file__), "../../tests/katna_test_list.csv")) as ipf:
+        with open(os.path.join(os.path.dirname(__file__), "../../tests/katna_test_list.tsv")) as ipf:
             reader = csv.reader(ipf, delimiter="\t")
             for i, row in enumerate(reader):
                 try:

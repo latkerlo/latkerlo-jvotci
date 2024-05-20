@@ -14,7 +14,7 @@ TEST_LISTS = [
 
 with open(f"tests/js_tests.js", "w") as opf:
     for test_name in TEST_LISTS:
-        with open(f"tests/{test_name}.csv") as ipf:
+        with open(f"tests/{test_name}.tsv") as ipf:
             opf.write(f"const {test_name.upper()} = [\n")
             reader = csv.reader(ipf, delimiter="\t")
             for row in reader:

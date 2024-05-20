@@ -16,7 +16,7 @@ import os
 
 class TestJvozba(unittest.TestCase):
     def test_get_lujvo_basic(self):
-        with open(os.path.join(os.path.dirname(__file__), "../../tests/basic_test_list.csv")) as ipf:
+        with open(os.path.join(os.path.dirname(__file__), "../../tests/basic_test_list.tsv")) as ipf:
             reader = csv.reader(ipf, delimiter="\t")
             for i, row in enumerate(reader):
                 try:
@@ -55,7 +55,7 @@ class TestJvozba(unittest.TestCase):
                                     f"Example {i}: Expected exception, got {res}. Input: {[tanru, lujvo, conditions]}")
 
     def test_get_lujvo_my_list(self):
-        with open(os.path.join(os.path.dirname(__file__), "../../tests/jvozba_test_list.csv")) as ipf:
+        with open(os.path.join(os.path.dirname(__file__), "../../tests/jvozba_test_list.tsv")) as ipf:
             reader = csv.reader(ipf, delimiter="\t")
             for i, row in enumerate(reader):
                 try:
