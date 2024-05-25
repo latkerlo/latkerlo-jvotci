@@ -180,7 +180,7 @@ def check_zihevla_or_rafsi(
             if is_brivla(valsi_copy[cluster_pos:]):
                 raise NotZihevlaError(f"falls apart at cluster: {{{valsi_copy[0:cluster_pos]}_{valsi_copy[cluster_pos:]}}}")
 
-            for i in range(cluster_pos):
+            for i in range(1, cluster_pos):
                 if is_consonant(valsi_copy[cluster_pos - i]):
                     if is_brivla(valsi_copy[cluster_pos - i:]):
                         raise NotZihevlaError(f"falls apart before cluster: {{{valsi_copy[0:cluster_pos-i]}_{valsi_copy[cluster_pos-i:]}}}")

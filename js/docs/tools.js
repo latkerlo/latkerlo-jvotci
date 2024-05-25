@@ -173,7 +173,7 @@ function checkZihevlaOrRafsi(valsi, { requireZihevla = false, expRafsiShapes = f
         if (clusterPos !== null && clusterPos > 0) {
             if (isBrivla(valsiCopy.slice(clusterPos)))
                 throw new NotZihevlaError(`falls apart at cluster: {${valsiCopy.slice(0, clusterPos)}_${valsiCopy.slice(clusterPos)}}`);
-            for (let i = 0; i < clusterPos; i++) {
+            for (let i = 1; i < clusterPos; i++) {
                 if (isConsonant(valsiCopy[clusterPos - i]) && isBrivla(valsiCopy.slice(clusterPos - i)))
                     throw new NotZihevlaError(`falls apart before cluster: {${valsiCopy.slice(0, clusterPos - i)}_${valsiCopy.slice(clusterPos - i)}}`);
             }

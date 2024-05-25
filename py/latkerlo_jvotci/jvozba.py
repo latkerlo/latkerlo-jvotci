@@ -416,7 +416,7 @@ def get_lujvo_from_list(
         exp_rafsi_shapes: bool = False,
         consonants: str = CLUSTER,
         glides: bool = False,
-        allow_mz = False) \
+        allow_mz: bool = False) \
         -> (str, int, list[(int, int)]):
     """
     Create the best lujvo for the given tanru (normalised list). Also get its
