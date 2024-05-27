@@ -6,7 +6,7 @@ Licensed under the MIT License
 class DecompositionError extends Error {
   constructor(message: string) {
     super(message);
-    this.name = "DecopositionError";
+    this.name = "DecompositionError";
   }
 }
 

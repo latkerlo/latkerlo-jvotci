@@ -8,3 +8,5 @@
 **/venv/
 **/__pypackages__/
 **/.pdm-build/
+
+rs/target

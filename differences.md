@@ -90,6 +90,6 @@ when no y-hyphen is present</td>
     <td>❌ Not Brivla</td>
     <td>❌ Not Brivla</td>
     <td>✅ Brivla</td>
-    <td>Egregioius.</td>
+    <td>Egregious.</td>
   </tr>
 </table>
