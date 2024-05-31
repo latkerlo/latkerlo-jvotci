@@ -22,18 +22,17 @@ pub fn regex_replace_all(regex: &str, from: &str, with: &str) -> String {
 }
 
 pub fn char(s: &str, i: isize) -> char {
+    if s.is_empty() {
+        return char::default();
+    }
     let i = (s.len() as isize + i) % s.len() as isize;
     s.chars().nth(i as usize).unwrap_or_default()
 }
 pub fn slice(s: &str, i: isize, j: isize) -> &str {
     let mut i = if i >= 0 { 0 } else { s.len() as isize } + i;
     let mut j = if j >= 0 { 0 } else { s.len() as isize } + j;
-    if i > s.len() as isize {
-        i = s.len() as isize;
-    }
-    if j > s.len() as isize {
-        j = s.len() as isize;
-    }
+    i = i.clamp(0, s.len() as isize);
+    j = j.clamp(0, s.len() as isize);
     &s[i as usize..j as usize]
 }
 pub fn slice_(s: &str, i: isize) -> &str {
@@ -119,7 +118,7 @@ pub fn check_zihevla_or_rafsi(
                     "invalid word initial: {{{valsi_}}}"
                 )));
             }
-            for i in 0..chunk.len() - 1 {
+            for i in 0..chunk.len().saturating_sub(1) {
                 let i = i as isize;
                 let cluster = slice(&chunk, i, i + 2);
                 if !if settings.allow_mz {
@@ -134,10 +133,10 @@ pub fn check_zihevla_or_rafsi(
                     )));
                 }
             }
-            for i in 0..chunk.len() - 2 {
+            for i in 0..chunk.len().saturating_sub(2) {
                 let i = i as isize;
                 let cluster = slice(&chunk, i, i + 3);
-                if !BANNED_TRIPLES.contains(&cluster) {
+                if BANNED_TRIPLES.contains(&cluster) {
                     return Err(Jvonunfli::NotZihevlaError(format!(
                         "banned triple {{{cluster}}} in word {{{valsi_}}}"
                     )));
@@ -306,10 +305,10 @@ pub fn analyze_brivla(
     let res_parts = jvokaha(&valsi, settings);
     if let Err(ref e) = res_parts {
         match e {
-            Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => {
-                return Err(e.clone())
-            }
-            _ => (),
+            Jvonunfli::DecompositionError(_)
+            | Jvonunfli::InvalidClusterError(_)
+            | Jvonunfli::FakeTypeError(_) => (),
+            _ => return Err(e.clone()),
         }
     } else {
         let res_parts = res_parts.unwrap();
@@ -436,9 +435,9 @@ pub fn analyze_brivla(
             let mut found_parts = jvokaha2(part_, settings);
             if let Err(ref e) = found_parts {
                 match e {
-                    Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => {
-                        found_parts = Ok(vec![part.to_string()])
-                    }
+                    Jvonunfli::DecompositionError(_)
+                    | Jvonunfli::InvalidClusterError(_)
+                    | Jvonunfli::FakeTypeError(_) => found_parts = Ok(vec![part.to_string()]),
                     _ => return Err(e.clone()),
                 }
             }

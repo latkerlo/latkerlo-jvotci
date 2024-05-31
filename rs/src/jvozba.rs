@@ -77,7 +77,7 @@ pub fn get_rafsi_for_rafsi(
     {
         if last {
             res.push((r, 2))
-        } else {
+        } else if !(r_type == Tarmi::Cvccv.to_string() && INITIAL.contains(&slice(&r, 2, 4))) {
             res.push((format!("{r}'y"), 2))
         }
     } else if r_type == "ExperimentalRafsi" {
@@ -110,7 +110,7 @@ pub fn get_rafsi_for_rafsi(
     } else if r_type == Tarmi::Cvc.to_string() {
         res.push((r.clone(), 2));
         if !last {
-            res.push((format!("{r}'y"), 2));
+            res.push((format!("{r}y"), 2));
         }
     } else {
         panic!("unrecognized rafsi type {r_type}");
@@ -254,15 +254,16 @@ pub fn get_rafsi_list_list(
             if let Some(srl) = short_rafsi_list {
                 srl.iter().for_each(|r| {
                     let raftai = rafsi_tarmi(r);
-                    if raftai != Tarmi::OtherRafsi || settings.exp_rafsi {
-                        rafsi_list.extend(get_rafsi_for_rafsi(
-                            r,
-                            &raftai.to_string(),
-                            first,
-                            last,
-                            settings,
-                        ))
+                    if raftai == Tarmi::OtherRafsi && settings.exp_rafsi {
+                        return;
                     }
+                    rafsi_list.extend(get_rafsi_for_rafsi(
+                        r,
+                        &raftai.to_string(),
+                        first,
+                        last,
+                        settings,
+                    ))
                 })
             }
             let b_type = analyze_brivla(valsi, settings);
@@ -468,6 +469,11 @@ pub fn get_lujvo_from_list(
         ],
     ];
     let rafsi_list_list = rafsi_list_list?;
+    if rafsi_list_list.len() < 2 {
+        return Err(Jvonunfli::FakeTypeError(format!(
+            "rafsi_list_list is too short: {rafsi_list_list:?}"
+        )));
+    }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
             let mut tosmabru_type = Tosytype::Tosynone;

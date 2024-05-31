@@ -1,5 +1,3 @@
-use regex::Regex;
-
 use crate::{
     data::{
         FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID, ZIHEVLA_INITIAL,
@@ -7,6 +5,9 @@ use crate::{
     exceptions::Jvonunfli,
     tools::{char, regex_replace_all, slice, slice_},
 };
+use itertools::{iproduct, Itertools};
+use lazy_static::lazy_static;
+use regex::Regex;
 use std::collections::VecDeque;
 
 #[derive(Debug, PartialEq, Clone, Copy)]
@@ -58,6 +59,36 @@ pub struct Settings {
     pub glides: bool,
     pub allow_mz: bool,
 }
+lazy_static! {
+    #[derive(Clone, Copy)]
+    pub static ref SETTINGS_ITERATOR: Vec<Settings> = iproduct!(
+        [false, true],
+        [
+            YHyphenSetting::Standard,
+            YHyphenSetting::AllowY,
+            YHyphenSetting::ForceY
+        ],
+        [false, true],
+        [
+            ConsonantSetting::Cluster,
+            ConsonantSetting::TwoConsonants,
+            ConsonantSetting::OneConsonant
+        ],
+        [false, true],
+        [false, true]
+    )
+    .map(
+        |(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| Settings {
+            generate_cmevla,
+            y_hyphens,
+            exp_rafsi,
+            consonants,
+            glides,
+            allow_mz
+        }
+    )
+    .collect_vec();
+}
 
 /// Auto-impl `Display` on an enum
 #[macro_export]
@@ -86,7 +117,7 @@ pub fn is_consonant(c: char) -> bool {
 }
 /// True if `s` is an on-glide (*i*/*u* + vowel)
 pub fn is_glide(s: &str) -> bool {
-    s.len() == 2 && "iu".contains(char(s, 0)) && is_vowel(char(s, 1))
+    s.len() >= 2 && "iu".contains(char(s, 0)) && is_vowel(char(s, 1))
 }
 /// True if there are only Lojban letters in `s` (non-*y*, -period, -comma)
 pub fn is_only_lojban_characters(s: &str) -> bool {
