@@ -97,7 +97,7 @@ pub fn get_rafsi_for_rafsi(
     ]
     .contains(&r_type)
     {
-        let num_consonants = (settings.consonants == ConsonantSetting::Cluster) as i32;
+        let num_consonants = (settings.consonants != ConsonantSetting::Cluster) as i32;
         if first {
             res.push((format!("{r}'"), num_consonants));
         } else if !last {
@@ -391,13 +391,10 @@ pub fn combine(
         while char(rafsi, j) == '\'' {
             j += 1;
         }
-        new_c = if is_consonant(char(lujvo, i))
-            && (is_consonant(char(rafsi, j)) || settings.glides && is_glide(slice_(rafsi, j)))
-        {
-            2
-        } else {
-            0
-        }
+        new_c = (is_consonant(char(lujvo, i))
+            && (is_consonant(char(rafsi, j)) || settings.glides && is_glide(slice_(rafsi, j))))
+            as i32
+            * 2;
     }
     let mut total_c = 2.min(lujvo_c + new_c);
     if settings.consonants == ConsonantSetting::OneConsonant && total_c > 0 {

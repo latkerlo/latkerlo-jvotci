@@ -10,3 +10,4 @@
 **/.pdm-build/
 
 rs/target
+debug-ts.html
