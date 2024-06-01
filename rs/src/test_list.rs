@@ -195,24 +195,23 @@ fn t_zba() {
             last = tanru;
             last_c = c;
             non_else = vec![];
-        } else {
-            if c != last_c {
-                last_c = c;
-            }
-            if cond != "ELSE" {
-                non_else.push(cond);
-            }
+        }
+        if c != last_c {
+            last_c = c;
+        }
+        if cond != "ELSE" {
+            non_else.push(cond);
         }
         for settings in SETTINGS_ITERATOR.iter() {
             if c == "C" && !settings.generate_cmevla || c.is_empty() && settings.generate_cmevla {
                 continue;
             }
-            if cond == "ELSE" && non_else.iter().any(|n| check_conditions(n, settings))
-                || cond != "ELSE" && !check_conditions(cond, settings)
+            if non_else.iter().any(|n| check_conditions(n, settings))
+                || !check_conditions(cond, settings)
             {
                 continue;
             }
-            println!("\nsettings: {settings:?}\ncond: {c} / {cond}");
+            println!("\nsettings: {settings:?}\ncond: {c} / {cond}\nprev: {non_else:?}");
             if e_lujvo == "NONE" {
                 zba_f(test[0], settings);
                 continue;
