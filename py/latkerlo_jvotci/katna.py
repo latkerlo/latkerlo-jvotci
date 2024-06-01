@@ -30,7 +30,7 @@ def search_selrafsi_from_rafsi(rafsi: str) -> str:
             return valsi
 
 
-def selrafsi_list_from_rafsi_list(rafsi_list: list[str], allow_mz=False) -> list[str]:
+def selrafsi_list_from_rafsi_list(rafsi_list: list[str], y_hyphens=STANDARD, allow_mz=False) -> list[str]:
     """
     Create a list of selrafsi and formatted rafsi from a list of rafsi.
 
@@ -39,6 +39,7 @@ def selrafsi_list_from_rafsi_list(rafsi_list: list[str], allow_mz=False) -> list
     ["mlatu", "-mot-", "kelr-", "kerlo"]
 
     :param rafsi_list: List of rafsi and hyphens (a decomposed word).
+    :param y_hyphens: Which y-hyphen rules to use.
     :param allow_mz: True if mz is a valid consonant cluster.
     :return: List of selrafsi and formatted rafsi.
     """
@@ -50,11 +51,12 @@ def selrafsi_list_from_rafsi_list(rafsi_list: list[str], allow_mz=False) -> list
 
         if selrafsi is not None:
             result[i] = selrafsi
-        elif i < len(rafsi_list) - 2 and rafsi_list[i+1][0] == "y" and is_brivla(result[i] + "a", allow_mz=allow_mz):
+        elif i < len(rafsi_list) - 2 and rafsi_list[i+1][0] == "y" and \
+                is_brivla(result[i] + "a", y_hyphens=y_hyphens, allow_mz=allow_mz):
             result[i] = f'{result[i]}-'
-        elif is_brivla(result[i], allow_mz=allow_mz):
+        elif is_brivla(result[i], y_hyphens=y_hyphens, allow_mz=allow_mz):
             pass
-        elif i == len(rafsi_list) - 1 and is_brivla(result[i] + "a", allow_mz=allow_mz):
+        elif i == len(rafsi_list) - 1 and is_brivla(result[i] + "a", y_hyphens=y_hyphens, allow_mz=allow_mz):
             result[i] = f'{result[i]}-'
         else:
             result[i] = f'-{result[i]}-'
@@ -267,7 +269,7 @@ def get_veljvo(
 
     if b_type not in [LUJVO, EXTENDED_LUJVO, CMEVLA]:
         raise DecompositionError(f"Valsi is of type {b_type}")
-    return selrafsi_list_from_rafsi_list(rafsi_list, allow_mz)
+    return selrafsi_list_from_rafsi_list(rafsi_list, y_hyphens=y_hyphens, allow_mz=allow_mz)
 
 
 if __name__ == "__main__":

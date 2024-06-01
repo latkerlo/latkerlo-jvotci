@@ -6380,6 +6380,7 @@ const KATNA_TEST_LIST = [
   ["tosleirleirku'i", "FORCE_Y", "NONE", "", "", "", "ELSE", "LUJVO", "tos lei lei ku'i", "-tos- klesi klesi kurji"],
   ["sleinku'i", "ELSE", "ZIhEVLA", "sleinku'i", "sleinku'i"],
   ["tosleinku'i", "ELSE", "NONE"],
+  ["latysleirku'i", "FORCE_Y", "EXTENDED", "lat sleirku'i", "mlatu sleirku'i", "", "ELSE", "NONE"],
   ["fairiicne", "ELSE", "NONE"],
   ["fairliicne", "ELSE", "NONE"],
   ["fairlriicne", "ELSE", "NONE"],

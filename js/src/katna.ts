@@ -35,12 +35,16 @@ function searchSelrafsiFromRafsi(rafsi: string): string | null {
  * ["mlatu", "-mot-", "kelr-", "kerlo"]
  * 
  * @param rafsiList List of rafsi and hyphens (a decomposed word).
+ * @param yHyphens Which y-hyphen rules to use.
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns List of selrafsi and formatted rafsi.
  */
 function selrafsiListFromRafsiList(
   rafsiList: string[], 
-  allowMZ = false
+  {
+    yHyphens = YHyphenSetting.STANDARD,
+    allowMZ = false
+  } = {}
 ): string[] {
   const result = rafsiList.map((rafsi) => HYPHENS.includes(rafsi) ? "" : rafsi); 
   const selrafsiList = result.map((rafsi) => searchSelrafsiFromRafsi(rafsi));
@@ -50,11 +54,11 @@ function selrafsiListFromRafsiList(
 
     if (selrafsiList[i] !== null)
       result[i] = selrafsiList[i]!;
-    else if (i < rafsiList.length - 2 && rafsiList[i+1][0] === "y" && isBrivla(result[i] + "a", {allowMZ: allowMZ}))
+    else if (i < rafsiList.length - 2 && rafsiList[i+1][0] === "y" && isBrivla(result[i] + "a", {yHyphens: yHyphens, allowMZ: allowMZ}))
       result[i] = result[i] + "-";
-    else if (isBrivla(result[i], {allowMZ: allowMZ}))
+    else if (isBrivla(result[i], {yHyphens: yHyphens, allowMZ: allowMZ}))
       {}
-    else if (i === rafsiList.length - 1 && isBrivla(result[i] + "a", {allowMZ: allowMZ}))
+    else if (i === rafsiList.length - 1 && isBrivla(result[i] + "a", {yHyphens: yHyphens, allowMZ: allowMZ}))
       result[i] = result[i] + "-";
     else
       result[i] = "-" + result[i] + "-";
@@ -297,5 +301,5 @@ function getVeljvo(
 
   if (![BrivlaType.LUJVO, BrivlaType.EXTENDED_LUJVO, BrivlaType.CMEVLA].includes(bType))
     throw new DecompositionError("Valsi is of type {" + bType + "}");
-  return selrafsiListFromRafsiList(rafsiList, allowMZ);
+  return selrafsiListFromRafsiList(rafsiList, {yHyphens: yHyphens, allowMZ: allowMZ});
 }
