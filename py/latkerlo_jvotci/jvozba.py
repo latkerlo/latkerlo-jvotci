@@ -88,10 +88,10 @@ def get_rafsi_for_rafsi(
         rafsi = "'" + rafsi
 
     if r_type in ["SHORT BRIVLA", CCVC, CVCC]:
-        if is_last:
-            result.append((rafsi, 2))
-        else:
+        if not is_last:
             result.append((rafsi + "y", 2))
+        elif not is_vowel(rafsi[-1]):
+            result.append((rafsi, 2))
 
     elif r_type in ["LONG BRIVLA", CCVCV, CVCCV]:
         if is_last:

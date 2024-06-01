@@ -76,10 +76,10 @@ function getRafsiForRafsi(
     rafsi = "'" + rafsi;
 
   if (["SHORT BRIVLA", Tarmi.CCVC, Tarmi.CVCC].includes(rType)) {
-    if (isLast)
-      result.push([rafsi, 2]);
-    else
+    if (!isLast)
       result.push([rafsi + "y", 2]);
+    else if (!isVowel(rafsi.slice(-1)))
+      result.push([rafsi, 2]);
 
   } else if (["LONG BRIVLA", Tarmi.CCVCV, Tarmi.CVCCV].includes(rType)) {
     if (isLast)

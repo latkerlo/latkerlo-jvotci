@@ -5,7 +5,7 @@ Licensed under the MIT License
 class DecompositionError extends Error {
     constructor(message) {
         super(message);
-        this.name = "DecopositionError";
+        this.name = "DecompositionError";
     }
 }
 class InvalidClusterError extends Error {

@@ -5769,6 +5769,7 @@ const JVOZBA_TEST_LIST = [
   ["mlatu -kerlo", "", "ELSE", "NONE"],
   ["-lat kerlo", "", "ELSE", "NONE"],
   ["-mlatu kerlo", "", "ELSE", "NONE"],
+  ["mlatu itkii-", "", "ELSE", "NONE"],
   ["mlatu kerlo", "C", "ELSE", "latker", "5898"],
   ["lorxu kerlo", "C", "ELSE", "lorker", "5898"],
   ["ismu mlatu", "C", "ELSE", "ismu'ylat"],
@@ -6422,6 +6423,14 @@ const KATNA_TEST_LIST = [
   ["nei'ynei'ytce", "ALLOW_Y | FORCE_Y", "EXTENDED", "nei nei tce", "nelci nelci mutce", "0-3,5-8,10-13", "ELSE", "NONE"],
   ["nei'yneitce", "FORCE_Y", "LUJVO", "nei nei tce", "nelci nelci mutce", "0-3,5-8,8-11", "ALLOW_Y", "EXTENDED", "nei nei tce", "nelci nelci mutce", "0-3,5-8,8-11", "ELSE", "NONE"],
   ["ta'a'yta'a'yta'a", "FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)", "EXTENDED", "ta'a ta'a ta'a", "tavla tavla tavla", "0-4,6-10,12-16", "ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)", "EXTENDED", "ta'a ta'a ta'a", "tavla tavla tavla", "0-4,6-10,12-16", "ELSE", "NONE"],
+  ["mriiaucmo", "ELSE", "ZIhEVLA", "mriiaucmo", "mriiaucmo"],
+  ["mi'aucmo", "ELSE", "ZIhEVLA", "mi'aucmo", "mi'aucmo"],
+  ["miiaucmo", "ELSE", "NONE"],
+  ["miiicmo", "ELSE", "NONE"],
+  ["miicmo", "ELSE", "NONE"],
+  ["maiueicmo", "ELSE", "NONE"],
+  ["mauicmo", "ELSE", "NONE"],
+  ["mrauicmo", "ELSE", "ZIhEVLA", "mrauicmo", "mrauicmo"],
 ]
 
 const JVS_WORDS = new Map([

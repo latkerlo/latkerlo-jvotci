@@ -338,6 +338,7 @@ mlatu -ker		ELSE	NONE
 mlatu -kerlo		ELSE	NONE
 -lat kerlo		ELSE	NONE
 -mlatu kerlo		ELSE	NONE
+mlatu itkii-		ELSE	NONE
 
 mlatu kerlo	C	ELSE	latker	5898
 lorxu kerlo	C	ELSE	lorker	5898
