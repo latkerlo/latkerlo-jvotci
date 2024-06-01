@@ -180,6 +180,7 @@ function getRafsiListList(valsiList, { yHyphens = YHyphenSetting.STANDARD, expRa
                         if (expRafsiShapes) {
                             try {
                                 const shape = checkZihevlaOrRafsi(valsi, {
+                                    yHyphens: yHyphens,
                                     expRafsiShapes: expRafsiShapes,
                                     allowMZ: allowMZ
                                 });

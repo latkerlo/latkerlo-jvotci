@@ -27,14 +27,14 @@ function normalise(word: string): string {
  * Check if the string is a valid gismu or lujvo.
  * 
  * @param aString Some string.
- * @param allowRNHyphens True if unnecessary r & n hyphens are allowed.
+ * @param yHyphens Which y-hyphen rules to use.
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns Return true if the string is a valid gismu or lujvo.
  */
 function isGismuOrLujvo(
   aString: string, 
   {
-    allowRNHyphens = false, 
+    yHyphens = YHyphenSetting.STANDARD, 
     allowMZ = false
   } = {}
 ): boolean {
@@ -50,8 +50,7 @@ function isGismuOrLujvo(
     jvokaha(
       aString, 
       {
-        allowRNHyphens: allowRNHyphens, 
-        yHyphens: YHyphenSetting.STANDARD, 
+        yHyphens: yHyphens, 
         allowMZ: allowMZ
       });
   } catch (e) {
@@ -69,12 +68,19 @@ function isGismuOrLujvo(
  * would combine to create a lujvo. (slinku'i)
  * 
  * @param aString A string.
+ * @param yHyphens Which y-hyphen rules to use.
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns True if string fails slinku'i test.
  */
-function isSlinkuhi(aString: string, allowMZ = false) {
+function isSlinkuhi(
+  aString: string, 
+  {
+    yHyphens = YHyphenSetting.STANDARD, 
+    allowMZ = false
+  } = {}
+): boolean {
   try {
-    jvokaha("to" + aString, { allowRNHyphens: true, allowMZ: allowMZ });
+    jvokaha("to" + aString, {yHyphens: yHyphens, allowMZ: allowMZ});
     return true;
   } catch (e) {
     if (e instanceof DecompositionError || e instanceof InvalidClusterError)
@@ -92,6 +98,7 @@ function isSlinkuhi(aString: string, allowMZ = false) {
  * 
  * @param valsi A string.
  * @param requireZihevla True if rafsi-shapes should raise an Error.
+ * @param yHyphens Which y-hyphen rules to use.
  * @param expRafsiShapes True if experimental rafsi shapes are allowed.
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns ZIhEVLA or RAFSI if string passes tests.
@@ -100,6 +107,7 @@ function checkZihevlaOrRafsi(
   valsi: string,
   {
     requireZihevla = false,
+    yHyphens = YHyphenSetting.STANDARD,
     expRafsiShapes = false,
     allowMZ = false
   } = {}
@@ -202,12 +210,12 @@ function checkZihevlaOrRafsi(
 
   } else if (numSyllables > 2) {
     if (clusterPos !== null && clusterPos > 0) {
-      if (isBrivla(valsiCopy.slice(clusterPos)))
+      if (isBrivla(valsiCopy.slice(clusterPos), { yHyphens: yHyphens }))
         throw new NotZihevlaError(`falls apart at cluster: {${valsiCopy.slice(0, clusterPos)}_${valsiCopy.slice(clusterPos)}}`);
 
       for (let i = 1; i < clusterPos; i++) {
         if (isConsonant(valsiCopy[clusterPos-i]) || isGlide(valsiCopy.slice(clusterPos-i))) {
-          if (isBrivla(valsiCopy.slice(clusterPos-i)))
+          if (isBrivla(valsiCopy.slice(clusterPos-i), { yHyphens: yHyphens }))
             throw new NotZihevlaError(`falls apart before cluster: {${valsiCopy.slice(0, clusterPos-i)}_${valsiCopy.slice(clusterPos-i)}}`);
         } 
       }
@@ -226,7 +234,7 @@ function checkZihevlaOrRafsi(
 
   } else {
     if (!(isVowel(valsiCopy[0]) && isConsonant(valsiCopy[1]))) {
-      if (isSlinkuhi(valsiCopy, allowMZ))
+      if (isSlinkuhi(valsiCopy, { yHyphens: yHyphens, allowMZ: allowMZ }))
         throw new NotZihevlaError(`slinku'i: {to,${valsiCopy}}`);
     }
   }
@@ -309,8 +317,7 @@ function analyseBrivla(
   }
 
   try {
-    const allowRN = yHyphens !== YHyphenSetting.FORCE_Y;
-    const resultParts = jvokaha(valsi, {allowRNHyphens: allowRN, yHyphens: yHyphens, consonants: consonants, glides: glides, allowMZ: allowMZ});
+    const resultParts = jvokaha(valsi, {yHyphens: yHyphens, consonants: consonants, glides: glides, allowMZ: allowMZ});
     return [isCmevlatai ? BrivlaType.CMEVLA : BrivlaType.LUJVO, resultParts];
   } catch (e) {
     if (!(e instanceof DecompositionError || e instanceof InvalidClusterError || e instanceof TypeError))
@@ -327,7 +334,7 @@ function analyseBrivla(
       throw new NotBrivlaError(`non-decomposable cmevla: {${valsi}}`);
 
     try {
-      checkZihevlaOrRafsi(valsi, {requireZihevla: true, expRafsiShapes: expRafsiShapes, allowMZ: allowMZ});
+      checkZihevlaOrRafsi(valsi, {requireZihevla: true, yHyphens: yHyphens, expRafsiShapes: expRafsiShapes, allowMZ: allowMZ});
       return [BrivlaType.ZIhEVLA, [valsi]];
     } catch (e) {
       if (e instanceof NotZihevlaError)
@@ -460,7 +467,7 @@ function analyseBrivla(
             throw new NotBrivlaError("tosmabru");
 
           try {
-            jvokaha(smabruPart, {allowMZ: allowMZ});
+            jvokaha(smabruPart, {yHyphens: yHyphens, allowMZ: allowMZ});
             throw new NotBrivlaError("tosmabru");
           } catch (e) {
             if (!(e instanceof DecompositionError || e instanceof InvalidClusterError))
@@ -477,6 +484,7 @@ function analyseBrivla(
           part,
           {
             requireZihevla: requireZihevla,
+            yHyphens: yHyphens,
             expRafsiShapes: expRafsiShapes,
             allowMZ: allowMZ
           }
@@ -512,7 +520,7 @@ function analyseBrivla(
   }
 
   if (!(isVowel(valsi[0]) && (isConsonant(valsi[1]) || valsi[1] == "y"))) {
-    if (isSlinkuhi(valsi, allowMZ))
+    if (isSlinkuhi(valsi, {yHyphens: yHyphens, allowMZ: allowMZ}))
       throw new NotBrivlaError(`slinku'i: {to,${valsi}}`);
   }
 

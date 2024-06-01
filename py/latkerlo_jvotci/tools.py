@@ -27,13 +27,12 @@ def normalise(word: str) -> str:
     return word
 
 
-def is_gismu_or_lujvo(a_string: str, allow_rn_hyphens: bool = False, allow_mz: bool = False) -> bool:
+def is_gismu_or_lujvo(a_string: str, y_hyphens: str = STANDARD, allow_mz: bool = False) -> bool:
     """
     Check if the string is a valid gismu or lujvo.
 
     :param a_string: Some string.
-    :param allow_rn_hyphens: True if unnecessary r & n hyphens are
-    allowed.
+    :param y_hyphens: Which y-hyphen rules to use.
     :param allow_mz: True if mz is a valid consonant cluster.
     :return: Return true if the string is a valid gismu or lujvo.
     """
@@ -48,25 +47,26 @@ def is_gismu_or_lujvo(a_string: str, allow_rn_hyphens: bool = False, allow_mz: b
         return True
 
     try:
-        jvokaha(a_string, allow_rn_hyphens, allow_mz=allow_mz)  # TODO more settings?
+        jvokaha(a_string, y_hyphens=y_hyphens, allow_mz=allow_mz)  # TODO more settings?
     except (DecompositionError, InvalidClusterError):
         return False
 
     return True
 
 
-def is_slinkuhi(string: str, allow_mz: bool = False) -> bool:
+def is_slinkuhi(string: str, y_hyphens: str = STANDARD, allow_mz: bool = False) -> bool:
     """
     Check if string is not a valid word because a leading CV cmavo
     would combine to create a lujvo. (slinku'i)
 
     :param string: A string.
+    :param y_hyphens: Which y-hyphen rules to use.
     :param allow_mz: True if mz is a valid consonant cluster.
     :return: True if string fails slinku'i test.
     """
     from latkerlo_jvotci.katna import jvokaha
     try:
-        jvokaha("to" + string, allow_rn_hyphens=True, allow_mz=allow_mz)
+        jvokaha("to" + string, y_hyphens=y_hyphens, allow_mz=allow_mz)
         return True
     except (DecompositionError, InvalidClusterError):
         return False
@@ -75,6 +75,7 @@ def is_slinkuhi(string: str, allow_mz: bool = False) -> bool:
 def check_zihevla_or_rafsi(
         valsi: str,
         require_zihevla: bool = False,
+        y_hyphens: str = STANDARD,
         exp_rafsi_shapes: bool = False,
         allow_mz: bool = False) \
         -> str:
@@ -86,6 +87,7 @@ def check_zihevla_or_rafsi(
 
     :param valsi: A string.
     :param require_zihevla: True if rafsi-shapes should raise an Error.
+    :param y_hyphens: Which y-hyphen rules to use.
     :param exp_rafsi_shapes: True if experimental rafsi shapes are
     allowed.
     :param allow_mz: True if mz is a valid consonant cluster.
@@ -177,12 +179,12 @@ def check_zihevla_or_rafsi(
 
     elif num_syllables > 2:
         if cluster_pos and cluster_pos > 0:
-            if is_brivla(valsi_copy[cluster_pos:]):
+            if is_brivla(valsi_copy[cluster_pos:], y_hyphens=y_hyphens):
                 raise NotZihevlaError(f"falls apart at cluster: {{{valsi_copy[0:cluster_pos]}_{valsi_copy[cluster_pos:]}}}")
 
             for i in range(1, cluster_pos):
                 if is_consonant(valsi_copy[cluster_pos - i]) or is_glide(valsi_copy[cluster_pos - i:]):
-                    if is_brivla(valsi_copy[cluster_pos - i:]):
+                    if is_brivla(valsi_copy[cluster_pos - i:], y_hyphens=y_hyphens):
                         raise NotZihevlaError(f"falls apart before cluster: {{{valsi_copy[0:cluster_pos-i]}_{valsi_copy[cluster_pos-i:]}}}")
 
     if cluster_pos is None:
@@ -196,7 +198,7 @@ def check_zihevla_or_rafsi(
             raise NotZihevlaError(f"non-initial consonant(s) without cluster: {{{valsi_copy}}}")
     else:
         if not (is_vowel(valsi_copy[0]) and is_consonant(valsi_copy[1])):
-            if is_slinkuhi(valsi_copy, allow_mz=allow_mz):
+            if is_slinkuhi(valsi_copy, y_hyphens=y_hyphens, allow_mz=allow_mz):
                 raise NotZihevlaError(f"slinku'i: {{to,{valsi_copy}}}")
 
     return ZIhEVLA if cluster_pos is not None else RAFSI
@@ -273,8 +275,7 @@ def analyse_brivla(
             return GISMU, [valsi]
 
     try:
-        allow_rn = y_hyphens != FORCE_Y
-        result_parts = jvokaha(valsi, allow_rn_hyphens=allow_rn, y_hyphens=y_hyphens, consonants=consonants, glides=glides, allow_mz=allow_mz)
+        result_parts = jvokaha(valsi, y_hyphens=y_hyphens, consonants=consonants, glides=glides, allow_mz=allow_mz)
         return CMEVLA if is_cmevlatai else LUJVO, result_parts
     except (DecompositionError, InvalidClusterError, IndexError):
         pass
@@ -289,7 +290,7 @@ def analyse_brivla(
             raise NotBrivlaError(f"non-decomposable cmevla: {{{valsi}}}")
 
         try:
-            check_zihevla_or_rafsi(valsi, require_zihevla=True, exp_rafsi_shapes=exp_rafsi_shapes, allow_mz=allow_mz)
+            check_zihevla_or_rafsi(valsi, require_zihevla=True, y_hyphens=y_hyphens, exp_rafsi_shapes=exp_rafsi_shapes, allow_mz=allow_mz)
             return ZIhEVLA, [valsi]
         except NotZihevlaError:
             raise NotBrivlaError("no hyphens, and not valid zi'evla")
@@ -401,7 +402,7 @@ def analyse_brivla(
                         raise NotBrivlaError("tosmabru")
 
                     try:
-                        jvokaha(smabru_part, allow_mz=allow_mz)
+                        jvokaha(smabru_part, y_hyphens=y_hyphens, allow_mz=allow_mz)
                         raise NotBrivlaError("tosmabru")
                     except (DecompositionError, InvalidClusterError):
                         pass
@@ -411,6 +412,7 @@ def analyse_brivla(
                 shape_type = check_zihevla_or_rafsi(
                     part,
                     require_zihevla=require_zihevla,
+                    y_hyphens=y_hyphens,
                     exp_rafsi_shapes=exp_rafsi_shapes,
                     allow_mz=allow_mz)
             except NotZihevlaError as e:
@@ -437,7 +439,7 @@ def analyse_brivla(
             raise NotBrivlaError("cmavo shaped or maybe multiple cmavo shaped")
 
     if not (is_vowel(valsi[0]) and (is_consonant(valsi[1]) or valsi[1] == "y")):
-        if is_slinkuhi(valsi, allow_mz=allow_mz):
+        if is_slinkuhi(valsi, y_hyphens=y_hyphens, allow_mz=allow_mz):
             raise NotBrivlaError("slinku'i")
 
     return CMEVLA if is_cmevlatai else EXTENDED_LUJVO, result_parts

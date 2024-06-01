@@ -112,7 +112,6 @@ function compareLujvoPieces(corr: string[], other: string[]): boolean {
 function jvokaha(
   lujvo: string, 
   {
-    allowRNHyphens = false, 
     yHyphens = YHyphenSetting.STANDARD, 
     consonants = ConsonantSetting.CLUSTER,
     glides = false,
@@ -142,10 +141,10 @@ function jvokaha(
   }
 
   let coolAndGood: boolean;
-  if (allowRNHyphens && yHyphens !== YHyphenSetting.FORCE_Y)
-    coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, {yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ}), arr);
-  else
+  if (yHyphens == YHyphenSetting.FORCE_Y)
     coolAndGood = correctLujvo === lujvo;
+  else
+    coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, {yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ}), arr);
 
   if (coolAndGood)
     return arr;

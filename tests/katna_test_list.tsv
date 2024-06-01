@@ -549,10 +549,10 @@ zinzyman	ELSE	CMEVLA	zinz man	zinz- manku
 veimi'ikeira'asam	ELSE	CMEVLA	vei mi'i kei ra'a sam	vreji minji kelci srana skami
 veimi'ikeicinfyra'asam	ELSE	CMEVLA	vei mi'i kei cinf ra'a sam	vreji minji kelci cinfo srana skami
 
-sleirku'i	ELSE	NONE
-tosleirku'i	FORCE_Y	ZIhEVLA	tosleirku'i	tosleirku'i		ELSE	LUJVO	tos lei ku'i	-tos- klesi kurji
-sleirleirku'i	ELSE	NONE
-tosleirleirku'i	FORCE_Y	ZIhEVLA	tosleirleirku'i	tosleirleirku'i		ELSE	LUJVO	tos lei lei ku'i	-tos- klesi klesi kurji
+sleirku'i	FORCE_Y	ZIhEVLA	sleirku'i	sleirku'i		ELSE	NONE
+tosleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei ku'i	-tos- klesi kurji
+sleirleirku'i	FORCE_Y	ZIhEVLA	sleirleirku'i	sleirleirku'i		ELSE	NONE
+tosleirleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei lei ku'i	-tos- klesi klesi kurji
 sleinku'i	ELSE	ZIhEVLA	sleinku'i	sleinku'i
 tosleinku'i	ELSE	NONE
 

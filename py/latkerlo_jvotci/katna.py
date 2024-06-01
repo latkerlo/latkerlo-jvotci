@@ -98,7 +98,6 @@ def compare_lujvo_pieces(corr: [str], other: [str]) -> bool:
 # jvokaha("pasmabru") --> error // because {pasmabru} is actually {pa smabru}
 def jvokaha(
         lujvo: str,
-        allow_rn_hyphens: bool = False,
         y_hyphens: str = STANDARD,
         consonants: str = CLUSTER,
         glides: bool = False,
@@ -109,8 +108,6 @@ def jvokaha(
     an error if the lujvo is not well-formed.
 
     :param lujvo: A lujvo to decompose.
-    :param allow_rn_hyphens: True if unnecessary r & n hyphens are
-    allowed.
     :param y_hyphens: Which y-hyphen rules to use.
     :param consonants: Which consonant rules to use.
     :param glides: True if glides count as consonants.
@@ -131,10 +128,10 @@ def jvokaha(
     except NoLujvoFoundError:
         raise DecompositionError(f"no lujvo for {rafsi_tanru}")
 
-    if allow_rn_hyphens and not y_hyphens == FORCE_Y:
-        cool_and_good = compare_lujvo_pieces(jvokaha_2(correct_lujvo, allow_mz=allow_mz), arr)
-    else:
+    if y_hyphens == FORCE_Y:
         cool_and_good = correct_lujvo == lujvo
+    else:
+        cool_and_good = compare_lujvo_pieces(jvokaha_2(correct_lujvo, y_hyphens=y_hyphens, allow_mz=allow_mz), arr)
 
     if cool_and_good:
         return arr

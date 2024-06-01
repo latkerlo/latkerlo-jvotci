@@ -104,7 +104,6 @@ class TestOther(unittest.TestCase):
                             except IndexError:
                                 pass
 
-
                             try:
                                 index_list = cd[4] if len(cd[4]) > 0 else None
                             except IndexError:

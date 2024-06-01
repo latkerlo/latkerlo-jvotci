@@ -95,7 +95,7 @@ function compareLujvoPieces(corr, other) {
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns List of lujvo pieces (rafsi and hyphens).
  */
-function jvokaha(lujvo, { allowRNHyphens = false, yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, glides = false, allowMZ = false } = {}) {
+function jvokaha(lujvo, { yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, glides = false, allowMZ = false } = {}) {
     const arr = jvokaha2(lujvo, { yHyphens: yHyphens, allowMZ: allowMZ });
     const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
     let correctLujvo;
@@ -115,10 +115,10 @@ function jvokaha(lujvo, { allowRNHyphens = false, yHyphens = YHyphenSetting.STAN
             throw e;
     }
     let coolAndGood;
-    if (allowRNHyphens && yHyphens !== YHyphenSetting.FORCE_Y)
-        coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, { yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ }), arr);
-    else
+    if (yHyphens == YHyphenSetting.FORCE_Y)
         coolAndGood = correctLujvo === lujvo;
+    else
+        coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, { yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ }), arr);
     if (coolAndGood)
         return arr;
     else

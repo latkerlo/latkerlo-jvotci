@@ -383,11 +383,12 @@ akti mlatu kerlo -fu'u'u- kerlo		MORE_RAF	akti'ylatkeryfu'u'u'ykerlo			ELSE	NONE
 akti mlatu kerlo -fu'u- ismu		ELSE	akti'ylatkerfu'u'y'ismu
 akti mlatu kerlo -fu'u'u- ismu		MORE_RAF	akti'ylatkeryfu'u'u'y'ismu			ELSE	NONE
 
-mlatu sleirku'i		ELSE	NONE
-mlatu tosleirku'i		FORCE_Y	latytosleirku'i			ELSE	NONE
-mlatu sleirleirku'i		ELSE	NONE
-mlatu tosleirleirku'i		FORCE_Y	latytosleirleirku'i			ELSE	NONE
+mlatu sleirku'i		FORCE_Y	latysleirku'i			ELSE	NONE
+mlatu tosleirku'i		ELSE	NONE
+mlatu sleirleirku'i		FORCE_Y	latysleirleirku'i			ELSE	NONE
+mlatu tosleirleirku'i		ELSE	NONE
 mlatu sleinku'i		ELSE	latysleinku'i
+mlatu tosleinku'i		ELSE	NONE
 
 plukauaii melbi		ELSE	plukauaii'ymle
 plukauai- melbi		ELSE	plukauaiymle

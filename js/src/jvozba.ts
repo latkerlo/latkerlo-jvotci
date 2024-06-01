@@ -217,6 +217,7 @@ function getRafsiListList(
                 const shape = checkZihevlaOrRafsi(
                   valsi,
                   {
+                    yHyphens: yHyphens,
                     expRafsiShapes: expRafsiShapes,
                     allowMZ: allowMZ
                   }

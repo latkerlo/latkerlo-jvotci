@@ -215,6 +215,7 @@ def get_rafsi_list_list(
                             try:
                                 shape = check_zihevla_or_rafsi(
                                     valsi,
+                                    y_hyphens=y_hyphens,
                                     exp_rafsi_shapes=exp_rafsi_shapes,
                                     allow_mz=allow_mz
                                 )
