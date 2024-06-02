@@ -63,10 +63,10 @@ pub fn get_rafsi_for_rafsi(
     ]
     .contains(&r_type)
     {
-        if last {
-            res.push((r, 2))
-        } else {
-            res.push((format!("{r}y"), 2))
+        if !last {
+            res.push((format!("{r}y"), 2));
+        } else if !is_vowel(char(&r, -1)) {
+            res.push((r, 2));
         }
     } else if [
         "LongBrivla",
@@ -298,6 +298,13 @@ pub fn get_rafsi_list_list(
         rafsi_list_list.push(rafsi_list);
     }
     Ok(rafsi_list_list)
+}
+/// `get_rafsi_list_list` but shorter to write manually
+pub fn grill(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
+    get_rafsi_list_list(
+        vl.split_whitespace().map(|v| v.to_string()).collect_vec(),
+        settings,
+    )
 }
 
 /// Try to add a rafsi to a lujvo and calculate the score

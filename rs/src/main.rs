@@ -1,16 +1,8 @@
 use latkerlo_jvotci::*;
+use rafsi::RAFSI;
 
 fn main() {
     // things
-    println!(
-        "{:?}",
-        jvozba::get_rafsi_list_list(
-            vec!["sanmi".to_string(), "bukpu".to_string()],
-            &Settings {
-                y_hyphens: ForceY,
-                consonants: TwoConsonants,
-                ..Settings::default()
-            }
-        )
-    );
+    println!("{:?}", RAFSI.get("klesi"));
+    println!("{:?}", get_lujvo("klesi klesi djedi", &Settings::default()));
 }

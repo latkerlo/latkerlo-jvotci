@@ -121,7 +121,7 @@ pub fn is_glide(s: &str) -> bool {
 }
 /// True if there are only Lojban letters in `s` (non-*y*, -period, -comma)
 pub fn is_only_lojban_characters(s: &str) -> bool {
-    s.chars().all(|c| "aeioubcdfgjklmnprstvxz'".contains(c))
+    !s.is_empty() && s.chars().all(|c| "aeioubcdfgjklmnprstvxz'".contains(c))
 }
 /// True if any character is a consonant
 pub fn contains_consonant(s: &str) -> bool {
@@ -190,11 +190,11 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
 
 /// True if `c` can start a zi'evla
 pub fn is_zihevla_initial_cluster(c: &str) -> bool {
-    c.len() <= 3
-        && (c.len() == 2 && INITIAL.contains(&c)
-            || c.len() == 3
-                && INITIAL.contains(&slice(c, 0, 2))
-                && ZIHEVLA_INITIAL.contains(&slice_(c, 1)))
+    c.len() == 1
+        || c.len() == 2 && INITIAL.contains(&c)
+        || c.len() == 3
+            && INITIAL.contains(&slice(c, 0, 2))
+            && ZIHEVLA_INITIAL.contains(&slice_(c, 1))
 }
 /// True if `c` can be in a zi'evla
 pub fn is_zihevla_middle_cluster(c: &str) -> bool {

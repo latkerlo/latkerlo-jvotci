@@ -218,7 +218,8 @@ pub fn check_zihevla_or_rafsi(
             )));
         }
         for i in 1..cluster_pos.unwrap() {
-            if is_consonant(char(valsi_, cluster_pos.unwrap() - i))
+            if (is_consonant(char(valsi_, cluster_pos.unwrap() - i))
+                || is_glide(slice_(valsi_, cluster_pos.unwrap() - i)))
                 && is_brivla(slice_(valsi_, cluster_pos.unwrap() - i), settings)?
             {
                 return Err(Jvonunfli::NotZihevlaError(format!(

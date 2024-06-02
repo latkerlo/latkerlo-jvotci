@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jvotci testy thing (ts)</title>
+        <meta charset="utf-8" />
+        <style>
+            :not(pre){font-family:inherit;}
+            pre{font-family: "iosevie";}
+            td:first-of-type{text-align:right;}
+            body>button{font-size:1.25em;}
+            .dark{color:white;background-color:black;}
+            .dark #dark{display:none;}
+        </style>
+    </head>
+    <body>
+        <h1>jvotci testy thing (ts)</h1>
+        <button id="dark">stop blinding me</button>
+        <p>open debugger --></p>
+        <p>mode <select name="mode" id="mode">
+            <option value="getLujvo">zbasu</option>
+            <option value="getVeljvo">katna</option>
+        </select></p>
+        <p>"input" <input type="text" name="the" id="the" /></p>
+        <fieldset style="width: fit-content;">
+            <legend>settings <button id="default">default</button></legend>
+            <table>
+                <tr>
+                    <td>cmevla</td>
+                    <td><input type="checkbox" name="cmevla" id="cmevla" /> (zbasu only)</td>
+                </tr>
+                <tr>
+                    <td>y hyphens</td>
+                    <td><select name="y_hyphens" id="y_hyphens">
+                        <option value="standard">standard</option>
+                        <option value="allow_y">allow_y</option>
+                        <option value="force_y">force_y</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>exp rafsi</td>
+                    <td><input type="checkbox" name="exp_rafsi" id="exp_rafsi" /></td>
+                </tr>
+                <tr>
+                    <td>consonants</td>
+                    <td><select name="consonants" id="consonants">
+                        <option value="cluster">cluster</option>
+                        <option value="two_consonants">two anywhere</option>
+                        <option value="one_consonant">one anywhere</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>glides are c</td>
+                    <td><input type="checkbox" name="glides" id="glides" /></td>
+                </tr>
+                <tr>
+                    <td>allow mz</td>
+                    <td><input type="checkbox" name="mz" id="mz" /></td>
+                </tr>
+            </table>
+        </fieldset><br />
+        <button id="ko" disabled>ko co'e</button>
+        <p id="out"></p>
+        <script src="js/docs/data.js"></script>
+        <script src="js/docs/rafsi.js"></script>
+        <script src="js/docs/exceptions.js"></script>
+        <script src="js/docs/tarmi.js"></script>
+        <script src="js/docs/tools.js"></script>
+        <script src="js/docs/jvozba.js"></script>
+        <script src="js/docs/katna.js"></script>
+        <script>
+            const id = x => document.getElementById(x);
+            id`ko`.disabled = false;
+            id`dark`.addEventListener("click", function() {document.body.classList.add("dark");});
+            id`ko`.addEventListener("click", function() {
+                let y = id`y_hyphens`.value.toUpperCase();
+                let c = id`consonants`.value.toUpperCase();
+                let s = {
+                    generateCmevla: id`cmevla`.checked,
+                    expRafsiShapes: id`exp_rafsi`.checked,
+                    allowMZ: id`mz`.checked,
+                    glides: id`glides`.checked,
+                    yHyphens: eval(`YHyphenSetting.${y}`),
+                    consonants: eval(`ConsonantSetting.${c}`)
+                };
+                let f = id`mode`.value;
+                let i = id`the`.value;
+                try {
+                    if (f == "getLujvo") {
+                        id`out`.innerHTML = getLujvo(i, s);
+                    } else {
+                        id`out`.innerHTML = getVeljvo(i, s);
+                    }
+                }
+                catch (e) {
+                    id`out`.innerText = e.message;
+                }
+            });
+            id`default`.addEventListener("click", function() {
+                id`cmevla`.checked = false;
+                id`glides`.checked = false;
+                id`mz`.checked = false;
+                id`exp_rafsi`.checked = false;
+                id`y_hyphens`.value = "standard";
+                id`consonants`.value = "cluster";
+            })
+        </script>
+    </body>
+</html>
