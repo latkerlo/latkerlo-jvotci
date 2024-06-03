@@ -1,6 +1,3 @@
-use itertools::Itertools;
-use lazy_static::lazy_static;
-
 pub const VALID: [&str; 179] = [
     "bd", "bg", "bj", "bl", "bm", "bn", "br", "bv", "bz", "cf", "ck", "cl", "cm", "cn", "cp", "cr",
     "ct", "db", "dg", "dj", "dl", "dm", "dn", "dr", "dv", "dz", "fc", "fk", "fl", "fm", "fn", "fp",
@@ -15,9 +12,20 @@ pub const VALID: [&str; 179] = [
     "vn", "vr", "vz", "xf", "xl", "xm", "xn", "xp", "xr", "xs", "xt", "zb", "zd", "zg", "zl", "zm",
     "zn", "zr", "zv",
 ];
-lazy_static! {
-    pub static ref MZ_VALID: Vec<&'static str> = VALID.iter().chain([&"mz"]).cloned().collect_vec();
-}
+pub const MZ_VALID: [&str; 180] = [
+    "bd", "bg", "bj", "bl", "bm", "bn", "br", "bv", "bz", "cf", "ck", "cl", "cm", "cn", "cp", "cr",
+    "ct", "db", "dg", "dj", "dl", "dm", "dn", "dr", "dv", "dz", "fc", "fk", "fl", "fm", "fn", "fp",
+    "fr", "fs", "ft", "fx", "gb", "gd", "gj", "gl", "gm", "gn", "gr", "gv", "gz", "jb", "jd", "jg",
+    "jl", "jm", "jn", "jr", "jv", "kc", "kf", "kl", "km", "kn", "kp", "kr", "ks", "kt", "lb", "lc",
+    "ld", "lf", "lg", "lj", "lk", "lm", "ln", "lp", "lr", "ls", "lt", "lv", "lx", "lz", "mb", "mc",
+    "md", "mf", "mg", "mj", "mk", "ml", "mn", "mp", "mr", "ms", "mt", "mv", "mx", "mz", "nb", "nc",
+    "nd", "nf", "ng", "nj", "nk", "nl", "nm", "np", "nr", "ns", "nt", "nv", "nx", "nz", "pc", "pf",
+    "pk", "pl", "pm", "pn", "pr", "ps", "pt", "px", "rb", "rc", "rd", "rf", "rg", "rj", "rk", "rl",
+    "rm", "rn", "rp", "rs", "rt", "rv", "rx", "rz", "sf", "sk", "sl", "sm", "sn", "sp", "sr", "st",
+    "sx", "tc", "tf", "tk", "tl", "tm", "tn", "tp", "tr", "ts", "tx", "vb", "vd", "vg", "vj", "vl",
+    "vm", "vn", "vr", "vz", "xf", "xl", "xm", "xn", "xp", "xr", "xs", "xt", "zb", "zd", "zg", "zl",
+    "zm", "zn", "zr", "zv",
+];
 
 pub const INITIAL: [&str; 48] = [
     "bl", "br", "cf", "ck", "cl", "cm", "cn", "cp", "cr", "ct", "dj", "dr", "dz", "fl", "fr", "gl",
