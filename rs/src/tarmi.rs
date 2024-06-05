@@ -164,7 +164,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
                 || char($new_c, 0) == 'u' && slice_(new_v, -2) == "au"
             {
                 return Err(Jvonunfli::DecompositionError(format!(
-                    "couldn't decompose {{{old_v}}}"
+                    "{{{old_v}}} is a bad vowel sequence"
                 )));
             }
             res.push_front($new_c.to_string());
@@ -182,7 +182,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
             return Ok(res.iter().cloned().collect());
         } else {
             return Err(Jvonunfli::DecompositionError(format!(
-                "couldn't decompose {{{old_v}}}"
+                "{{{old_v}}} is a bad vowel sequence"
             )));
         }
     }

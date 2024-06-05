@@ -134,12 +134,12 @@ pub fn get_rafsi_list_list(
             valsi = &hyphenless;
             if !is_only_lojban_characters(valsi) {
                 return Err(Jvonunfli::NonLojbanCharacterError(format!(
-                    "non-lojban character in {{{valsi}}}"
+                    "{{{valsi}}} contains a non-lojban character"
                 )));
             }
             if char(valsi, -1) == '\'' {
                 return Err(Jvonunfli::NonLojbanCharacterError(format!(
-                    "rafsi cannot end with ': {{{valsi}}}"
+                    "{{{valsi}}} ends in an apostrophe"
                 )));
             }
             if is_short_brivla {
@@ -148,7 +148,7 @@ pub fn get_rafsi_list_list(
                     match e {
                         Jvonunfli::NoLujvoFoundError(_) => {
                             return Err(Jvonunfli::NoLujvoFoundError(format!(
-                                "rafsi + a is not a brivla: {{{valsi}}}"
+                                "{{{valsi}a}} is not a brivla"
                             )))
                         }
                         _ => return Err(e),
@@ -157,7 +157,7 @@ pub fn get_rafsi_list_list(
                 let b_type = b_type.unwrap().0;
                 if ![BrivlaType::Zihevla, BrivlaType::Gismu].contains(&b_type) {
                     return Err(Jvonunfli::NoLujvoFoundError(format!(
-                        "rafsi + a is not a gismu or zi'evla: {{{valsi}}}"
+                        "{{{valsi}a}} is not a gismu or zi'evla"
                     )));
                 }
                 if valsi.len() > 5 && is_consonant(char(valsi, -1)) {
@@ -173,7 +173,7 @@ pub fn get_rafsi_list_list(
                     }
                     if decomposes {
                         return Err(Jvonunfli::NoLujvoFoundError(format!(
-                            "short zi'evla rafsi falls apart: {{{valsi}}}"
+                            "{{{valsi}}} falls apart"
                         )));
                     }
                 }
@@ -198,7 +198,7 @@ pub fn get_rafsi_list_list(
                                         match e {
                                             Jvonunfli::NotZihevlaError(_) => {
                                                 return Err(Jvonunfli::NoLujvoFoundError(format!(
-                                                    "not a valid rafsi shape: {{{valsi}}}"
+                                                    "{{{valsi}}} is an invalid rafsi"
                                                 )))
                                             }
                                             _ => return Err(e),
@@ -220,7 +220,7 @@ pub fn get_rafsi_list_list(
                     }
                     if zihevla_or_rafsi.is_none() {
                         return Err(Jvonunfli::NotZihevlaError(format!(
-                            "not a valid rafsi or zi'evla shape: {{{valsi}}}"
+                            "{{{valsi}}} is an invalid rafsi or zi'evla"
                         )));
                     }
                     let r_type = if zihevla_or_rafsi == Some(BrivlaType::Zihevla) {
@@ -232,7 +232,7 @@ pub fn get_rafsi_list_list(
                 } else {
                     if !is_valid_rafsi(valsi, settings) {
                         return Err(Jvonunfli::InvalidClusterError(format!(
-                            "invalid cluster in rafsi: {{{valsi}}}"
+                            "{{{valsi}}} contains an invalid cluster"
                         )));
                     }
                     rafsi_list.extend(get_rafsi_for_rafsi(
@@ -247,7 +247,7 @@ pub fn get_rafsi_list_list(
         } else {
             if !is_only_lojban_characters(valsi) {
                 return Err(Jvonunfli::NonLojbanCharacterError(format!(
-                    "non-lojban character in {{{valsi}}}"
+                    "{{{valsi}}} contains a non-lojban character"
                 )));
             }
             let short_rafsi_list = RAFSI.get(valsi.as_str());
@@ -553,7 +553,7 @@ pub fn get_lujvo_from_list(
     }
     if best_lujvo.is_empty() {
         return Err(Jvonunfli::NoLujvoFoundError(format!(
-            "no lujvo found for {{{}}}",
+            "{{{}}} can't be turned into a lujvo",
             valsi_list.join(" ")
         )));
     }

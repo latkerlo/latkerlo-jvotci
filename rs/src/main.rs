@@ -1,10 +1,9 @@
 use latkerlo_jvotci::*;
-use rafsi::RAFSI;
+use tarmi::rafsi_tarmi;
+// use rafsi::RAFSI;
 
 fn main() {
-    // things
-    println!("{:?}", RAFSI.get("condi"));
-    println!("{:?}", grill("condi djedi", &Settings::default()));
-    println!("{:?}", get_lujvo("condi djedi", &Settings::default()));
-    println!("{:?}", get_veljvo("zi'evlyjvo", &Settings::default()))
+    let settings = &Settings::default();
+    println!("{:?}", rafsi_tarmi("jesy"));
+    println!("{:?}", get_lujvo("condi djedi", settings));
 }

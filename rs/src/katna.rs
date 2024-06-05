@@ -52,7 +52,8 @@ pub fn selrafsi_list_from_rafsi_list(
         }
         if selrafsi_list[i].is_some() {
             res[i] = selrafsi_list[i].clone().unwrap();
-        } else if i < rafsi_list.len() - 2
+        } else if rafsi_list.len() >= 2
+            && i < rafsi_list.len() - 2
             && char(&rafsi_list[i + 1], 0) == 'y'
             && is_brivla(&format!("{}a", res[i]), settings)?
         {
@@ -133,7 +134,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         Ok(arr)
     } else {
         Err(Jvonunfli::DecompositionError(format!(
-            "malformed lujvo {{{lujvo}}}; it should be {{{correct_lujvo}}}"
+            "{{{lujvo}}} is malformed and should be {{{correct_lujvo}}}"
         )))
     }
 }
@@ -183,15 +184,14 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                 }
                 .contains(&slice(lujvo, 2, 4))
                 {
+                    println!("{}", slice(lujvo, 2, 4));
                     return Err(Jvonunfli::InvalidClusterError(format!(
-                        "invalid cluster {{{}}} in {{{orig}}}",
-                        slice(lujvo, 2, 4)
+                        "{{{orig}}} contains an invalid cluster",
                     )));
                 }
             } else if !INITIAL.contains(&slice(lujvo, 0, 2)) {
                 return Err(Jvonunfli::InvalidClusterError(format!(
-                    "invalid initial cluster {{{}}} in {{{orig}}}",
-                    slice(lujvo, 0, 2)
+                    "{{{orig}}} starts with an invalid cluster",
                 )));
             }
             if lujvo.len() == 4 || char(lujvo, 4) == 'y' {
@@ -215,8 +215,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         if rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Ccv {
             if !INITIAL.contains(&slice(lujvo, 0, 2)) {
                 return Err(Jvonunfli::InvalidClusterError(format!(
-                    "invalid initial cluster {{{}}} in {{{orig}}}",
-                    slice(lujvo, 0, 2)
+                    "{{{orig}}} starts with an invalid cluster",
                 )));
             }
             res.push(slice(lujvo, 0, 3));
@@ -224,7 +223,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             continue;
         }
         return Err(Jvonunfli::DecompositionError(format!(
-            "failed to decompose {{{orig}}}"
+            "{{{orig}}} can't be decomposed"
         )));
     }
 }
@@ -240,7 +239,8 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
     .contains(&b_type)
     {
         return Err(Jvonunfli::DecompositionError(format!(
-            "{{{lujvo}}} is a {b_type}"
+            "{{{lujvo}}} is a {}, not a lujvo or decomposablle cmevla",
+            b_type.to_string().to_lowercase()
         )));
     }
     selrafsi_list_from_rafsi_list(rafsi_list, settings)
