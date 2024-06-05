@@ -10,6 +10,8 @@
             body>button{font-size:1.25em;}
             .dark{color:white;background-color:black;}
             .dark #dark{display:none;}
+            .err{color:red;}
+            .dark .err{color:orange;}
         </style>
     </head>
     <body>
@@ -19,12 +21,13 @@
         <p>mode <select name="mode" id="mode">
             <option value="getLujvo">zbasu</option>
             <option value="getVeljvo">katna</option>
+            <option value="analyseBrivla">lanli</option>
         </select></p>
         <p>"input" <input type="text" name="the" id="the" /></p>
         <fieldset style="width: fit-content;">
             <legend>settings <button id="default">default</button></legend>
             <table>
-                <tr>
+                <tr id="cmevla_row">
                     <td>cmevla</td>
                     <td><input type="checkbox" name="cmevla" id="cmevla" /> (zbasu only)</td>
                 </tr>
@@ -72,6 +75,7 @@
             id`ko`.disabled = false;
             id`dark`.addEventListener("click", function() {document.body.classList.add("dark");});
             id`ko`.addEventListener("click", function() {
+                id`out`.classList.remove("err");
                 let y = id`y_hyphens`.value.toUpperCase();
                 let c = id`consonants`.value.toUpperCase();
                 let s = {
@@ -86,13 +90,18 @@
                 let i = id`the`.value;
                 try {
                     if (f == "getLujvo") {
-                        id`out`.innerHTML = getLujvo(i, s);
-                    } else {
+                        let the = getLujvoWithAnalytics(i, s);
+                        id`out`.innerHTML = `${the[0]}<br />${the[1]}<br />${the[2].map(i => i.join("-")).join(", ")}`;
+                    } else if (f == "getVeljvo") {
                         id`out`.innerHTML = getVeljvo(i, s).join(" ");
+                    } else {
+                        let the = analyseBrivla(i, s);
+                        id`out`.innerHTML = `${the[0].toLowerCase().replace(/_/g, " ")}<br />${the[1].join(" ")}`;
                     }
                 }
                 catch (e) {
                     id`out`.innerText = e.message;
+                    id`out`.classList.add("err");
                 }
             });
             id`default`.addEventListener("click", function() {
@@ -102,7 +111,12 @@
                 id`exp_rafsi`.checked = false;
                 id`y_hyphens`.value = "standard";
                 id`consonants`.value = "cluster";
-            })
+            });
+            id`mode`.addEventListener("change", function() {
+                let f = id`mode`.value;
+                let i = id`the`.value;
+                id`cmevla`.disabled = f != "getLujvo";
+            });
         </script>
     </body>
 </html>

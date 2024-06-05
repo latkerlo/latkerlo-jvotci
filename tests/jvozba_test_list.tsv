@@ -397,6 +397,14 @@ va'arga melbi		ELSE	va'amle
 -va'arga- melbi		ELSE	va'arga'ymle
 va'arg- melbi		ELSE	va'argymle
 
+condi djedi		ELSE	coidje	5847		(pls be deterministic 🥺)
+-con- djedi		ELSE	condei	5867
+-cno- djedi		ELSE	cnodei	5847
+condi -dei-		ELSE	cnodei	5847
+djedi condi		ELSE	deicno	5847
+-dje- condi		ELSE	djecoi	5847
+djedi -coi-		ELSE	djecoi	5847
+
 klesi djedi		ELSE	leidje	5847		(not important that it works like this, but kind of nice to avoid the initial cluster)
 -kle- djedi		ELSE	kledei	5847
 klesi -dei-		ELSE	kledei	5847
