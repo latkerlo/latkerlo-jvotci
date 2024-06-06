@@ -7,7 +7,7 @@ use itertools::Itertools;
 use katna::selrafsi_list_from_rafsi_list;
 use std::fs;
 use tarmi::{is_consonant, SETTINGS_ITERATOR};
-use tools::{char, slice, slice_};
+use tools::{char, get_rafsi_indices, slice, slice_};
 
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: &Settings) -> bool {
@@ -105,9 +105,21 @@ fn zba_f(tanru: &str, settings: &Settings) {
     println!("        actual: {lujvo:?}");
     assert!(lujvo.is_err());
 }
-fn kaha(lujvo: &str, expect: &str, e_btype: &str, e_rafsi: &str, settings: &Settings) {
+fn kaha(
+    lujvo: &str,
+    expect: &str,
+    e_btype: &str,
+    e_rafsi: &str,
+    e_indices: &str,
+    settings: &Settings,
+) {
     println!("\n{lujvo}\nkatna - expect: {expect}");
-    let tanru = selrafsi_list_from_rafsi_list(analyze_brivla(lujvo, settings).unwrap().1, settings)
+    let _tanru = analyze_brivla(lujvo, settings);
+    if let Err(e) = _tanru {
+        println!("        actual: {e:?}");
+        panic!();
+    }
+    let tanru = selrafsi_list_from_rafsi_list(_tanru.as_ref().unwrap().1.clone(), settings)
         .unwrap_or_else(|e| vec![e.to_string()])
         .join(" ");
     println!("        actual: {tanru}");
@@ -122,13 +134,14 @@ fn kaha(lujvo: &str, expect: &str, e_btype: &str, e_rafsi: &str, settings: &Sett
             _ => panic!("found btype {{{e_btype}}}"),
         };
         println!("btype - expect: {e_btype}");
-        let btype = analyze_brivla(lujvo, settings).unwrap().0;
+        let btype = _tanru.as_ref().unwrap().0;
         println!("        actual: {btype}");
         assert_eq!(e_btype, btype.to_string());
     }
     if !e_rafsi.is_empty() {
         println!("rafsi - expect: {e_rafsi}");
-        let rafsi = analyze_brivla(lujvo, settings)
+        let rafsi = _tanru
+            .as_ref()
             .unwrap()
             .1
             .iter()
@@ -136,6 +149,15 @@ fn kaha(lujvo: &str, expect: &str, e_btype: &str, e_rafsi: &str, settings: &Sett
             .join(" ");
         println!("        actual: {rafsi}");
         assert_eq!(e_rafsi, rafsi);
+    }
+    if !e_indices.is_empty() {
+        println!("index - expect: {e_indices}");
+        let indices = get_rafsi_indices(_tanru.unwrap().1.iter().map(|r| r.as_str()).collect_vec())
+            .iter()
+            .map(|i| format!("{}-{}", i[0], i[1]))
+            .join(",");
+        println!("        actual: {indices}");
+        assert_eq!(e_indices, indices);
     }
 }
 fn kaha_f(lujvo: &str, settings: &Settings) {
@@ -168,7 +190,7 @@ fn t_basic() {
                     ..Settings::default()
                 };
                 if test[1] != "FAIL" {
-                    kaha(test[0], test[1], "", "", &settings);
+                    kaha(test[0], test[1], "", "", "", &settings);
                 } else {
                     kaha_f(test[0], &settings);
                 }
@@ -314,7 +336,7 @@ fn t_kaha() {
                 kaha_f(test[0], settings);
                 continue;
             } else {
-                kaha(lujvo, e_tanru, e_btype, e_rafsi, settings);
+                kaha(lujvo, e_tanru, e_btype, e_rafsi, e_indices, settings);
             }
         }
     }

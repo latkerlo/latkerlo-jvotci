@@ -108,7 +108,8 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         match e {
             Jvonunfli::NoLujvoFoundError(_) => {
                 return Err(Jvonunfli::DecompositionError(format!(
-                    "no lujvo for {rafsi_tanru:?}"
+                    "{{{}}} can't be turned into a lujvo",
+                    rafsi_tanru.join(" ")
                 )))
             }
             _ => return Err(e),
@@ -184,7 +185,6 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                 }
                 .contains(&slice(lujvo, 2, 4))
                 {
-                    println!("{}", slice(lujvo, 2, 4));
                     return Err(Jvonunfli::InvalidClusterError(format!(
                         "{{{orig}}} contains an invalid cluster",
                     )));
@@ -239,7 +239,7 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
     .contains(&b_type)
     {
         return Err(Jvonunfli::DecompositionError(format!(
-            "{{{lujvo}}} is a {}, not a lujvo or decomposablle cmevla",
+            "{{{lujvo}}} is a {}, not a lujvo or decomposable cmevla",
             b_type.to_string().to_lowercase()
         )));
     }

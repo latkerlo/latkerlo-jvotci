@@ -5,5 +5,5 @@ use tarmi::rafsi_tarmi;
 fn main() {
     let settings = &Settings::default();
     println!("{:?}", rafsi_tarmi("jesy"));
-    println!("{:?}", get_lujvo("condi djedi", settings));
+    println!("{:?}", get_lujvo("djedi", settings));
 }

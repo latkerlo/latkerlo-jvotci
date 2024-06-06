@@ -26,7 +26,7 @@ pub enum Tarmi {
 
 pub const SONORANT_CONSONANTS: &str = "lmnr";
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone, Copy)]
 pub enum BrivlaType {
     Gismu,
     Zihevla,
@@ -271,7 +271,7 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
             (false, true) => Tarmi::Ccv,
             _ => Tarmi::OtherRafsi,
         },
-        4 => match (is_vowel(char(r, 1)), is_vowel(char(r, 3))) {
+        4 if char(r, 3) != 'y' => match (is_vowel(char(r, 1)), is_vowel(char(r, 3))) {
             (true, true) if char(r, 2) == '\'' => Tarmi::Cvhv,
             (true, false) if is_consonant(char(r, 2)) => Tarmi::Cvcc,
             (false, false) if is_vowel(char(r, 2)) => Tarmi::Ccvc,

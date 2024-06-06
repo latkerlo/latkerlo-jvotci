@@ -213,7 +213,7 @@ pub fn check_zihevla_or_rafsi(
     } else if num_syllables > 2 && cluster_pos.is_some() && cluster_pos > Some(0) {
         if is_brivla(slice_(valsi_, cluster_pos.unwrap()), settings)? {
             return Err(Jvonunfli::NotZihevlaError(format!(
-                "{{{valsi_}}} falls apart at a cluster: {{{}_{}}}",
+                "{{{valsi_}}} falls apart at a cluster: {{{} {}}}",
                 slice(valsi_, 0, cluster_pos.unwrap()),
                 slice_(valsi_, cluster_pos.unwrap())
             )));
@@ -224,7 +224,7 @@ pub fn check_zihevla_or_rafsi(
                 && is_brivla(slice_(valsi_, cluster_pos.unwrap() - i), settings)?
             {
                 return Err(Jvonunfli::NotZihevlaError(format!(
-                    "{{{valsi_}}} falls apart before a cluster: {{{}_{}}}",
+                    "{{{valsi_}}} falls apart before a cluster: {{{} {}}}",
                     slice(valsi_, 0, cluster_pos.unwrap() - i),
                     slice_(valsi_, cluster_pos.unwrap() - i)
                 )));
@@ -299,14 +299,13 @@ pub fn analyze_brivla(
     if is_cmetai {
         if is_gismu(&format!("{valsi}a"), settings) {
             return Err(Jvonunfli::NotBrivlaError(format!(
-                "{{{valsi}}} is a non-decomposable cmevla, one vowel short of being a gismu"
+                "{{{valsi}}} is a non-decomposable cmevla"
             )));
         }
     } else if is_gismu(&valsi, settings) {
         return Ok((BrivlaType::Gismu, vec![valsi]));
     }
     let res_parts = jvokaha(&valsi, settings);
-    println!("{res_parts:?}");
     if let Err(ref e) = res_parts {
         match e {
             Jvonunfli::DecompositionError(_)
@@ -379,7 +378,7 @@ pub fn analyze_brivla(
             }
             if !is_vowel(char(part, 0)) || is_glide(part) {
                 return Err(Jvonunfli::NotBrivlaError(format!(
-                    "{{{valsi}}} has a consonant or glide after an apostrophe"
+                    "{{{valsi}}} contains an apostrophe followed by a consonant or glide"
                 )));
             }
         } else if i > 0 && is_vowel(char(part, 0)) && !is_glide(part) {

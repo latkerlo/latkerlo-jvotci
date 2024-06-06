@@ -471,9 +471,7 @@ pub fn get_lujvo_from_list(
     ];
     let rafsi_list_list = rafsi_list_list?;
     if rafsi_list_list.len() < 2 {
-        return Err(Jvonunfli::FakeTypeError(format!(
-            "rafsi_list_list is too short: {rafsi_list_list:?}"
-        )));
+        return Err(Jvonunfli::FakeTypeError("rafsi_list_list is too short".to_string()));
     }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
