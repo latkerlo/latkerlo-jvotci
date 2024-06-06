@@ -206,7 +206,7 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         return true;
     }
     // i don't know how many of these parentheses are unnecessary
-    let regex = Regex::new(r"^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstv00xz][lmnr])*)?$").unwrap();
+    let regex = Regex::new(r"^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap();
     let matches = if char(c, -2) == 'm' && INITIAL.contains(&slice_(c, -2)) {
         regex.captures(slice(
             c,
@@ -224,10 +224,13 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         )
         .unwrap()
         .captures(c)
+    };
+    if matches.is_none() {
+        return false;
     }
-    .unwrap();
-    matches.get(matches.len() - 2).is_some()
-        && is_zihevla_initial_cluster(&matches[matches.len() - 2])
+    let matches = matches.unwrap();
+    matches.get(matches.len() - 2).is_none()
+        || is_zihevla_initial_cluster(&matches[matches.len() - 2])
 }
 
 /// True if `r` is a valid CLL rafsi
@@ -258,23 +261,17 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
         return Tarmi::OtherRafsi;
     }
     match l {
-        1 => {
-            if is_vowel(char(r, 0)) {
-                Tarmi::OtherRafsi
-            } else {
-                Tarmi::Hyphen
-            }
-        }
+        1 if !is_vowel(char(r, 0)) => Tarmi::Hyphen,
         3 => match (is_vowel(char(r, 1)), is_vowel(char(r, 2))) {
+            (true, false) if is_consonant(char(r, 2)) => Tarmi::Cvc,
             (true, true) => Tarmi::Cvv,
-            (true, false) => Tarmi::Cvc,
             (false, true) => Tarmi::Ccv,
             _ => Tarmi::OtherRafsi,
         },
-        4 if char(r, 3) != 'y' => match (is_vowel(char(r, 1)), is_vowel(char(r, 3))) {
-            (true, true) if char(r, 2) == '\'' => Tarmi::Cvhv,
-            (true, false) if is_consonant(char(r, 2)) => Tarmi::Cvcc,
-            (false, false) if is_vowel(char(r, 2)) => Tarmi::Ccvc,
+        4 => match (is_vowel(char(r, 1)), char(r, 2), is_vowel(char(r, 3))) {
+            (true, '\'', true) => Tarmi::Cvhv,
+            (true, _, false) if is_consonant(char(r, 3)) => Tarmi::Cvcc,
+            (false, v, false) if is_vowel(v) => Tarmi::Ccvc,
             _ => Tarmi::OtherRafsi,
         },
         5 if is_gismu_shape(r) => {

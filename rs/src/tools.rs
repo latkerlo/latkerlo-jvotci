@@ -248,9 +248,8 @@ pub fn check_zihevla_or_rafsi(
             )));
         }
         if final_consonant_pos > 0 {
-            panic!("found one!");
             return Err(Jvonunfli::NotZihevlaError(format!(
-                "non-initial consonant(s) without cluster: {{{valsi_}}}"
+                "{{{valsi_}}} contains internal consonants that don't cluster"
             )));
         }
     } else if !(is_vowel(char(valsi_, 0)) && is_consonant(char(valsi_, 1)))

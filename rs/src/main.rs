@@ -4,6 +4,6 @@ use tarmi::rafsi_tarmi;
 
 fn main() {
     let settings = &Settings::default();
-    println!("{:?}", rafsi_tarmi("jesy"));
+    println!("{:?}", rafsi_tarmi("lo'"));
     println!("{:?}", get_lujvo("djedi", settings));
 }

@@ -119,17 +119,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     let cool_and_good = if settings.y_hyphens == YHyphenSetting::ForceY {
         correct_lujvo == lujvo
     } else {
-        compare_lujvo_pieces(
-            jvokaha2(
-                &correct_lujvo,
-                &Settings {
-                    y_hyphens: YHyphenSetting::Standard,
-                    allow_mz: settings.allow_mz,
-                    ..Settings::default()
-                },
-            )?,
-            arr.clone(),
-        )
+        compare_lujvo_pieces(jvokaha2(&correct_lujvo, settings)?, arr.clone())
     };
     if cool_and_good {
         Ok(arr)
