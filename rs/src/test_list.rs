@@ -1,5 +1,4 @@
 #![cfg(test)]
-// cargo test -- --nocapture --test-threads=1
 
 use crate::*;
 use data::HYPHENS;
