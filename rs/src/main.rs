@@ -6,11 +6,15 @@ fn main() {
     let settings = &Settings::default();
     let mut the = HashMap::new();
     let start = Instant::now();
-    const END: u32 = 10000; // takes ~10m with `--release`
+    const END: u32 = 100000; // takes ~10m with `--release`
     for i in 0..END {
         println!(
             "{i}    {}",
-            format_duration(start.elapsed() / if i != 0 { i } else { 1 } * (END - i))
+            if i != 0 {
+                format_duration(start.elapsed() / i * (END - i)).to_string()
+            } else {
+                "".to_string()
+            }
         );
         let k = get_lujvo("condi djedi", settings).unwrap();
         if the.contains_key(&k) {
@@ -20,9 +24,10 @@ fn main() {
         }
     }
     println!("{the:?}");
+    println!("{}\n", format_duration(start.elapsed()));
     println!("{:?}", get_veljvo("jvo'ytci", settings)); // bad
     println!("{:?}", get_veljvo("lujvo'ytci", settings)); // ok
     println!("{:?}", get_veljvo("uajvo'ytci", settings)); // ok
-    println!("{:?}", get_veljvo("latratyraty'ismu", settings)); // bad, la falls off
+    println!("{:?}", get_veljvo("latratraty'ismu", settings)); // bad, la falls off
     println!("{:?}", get_veljvo("tratraty'ismu", settings)); // ok
 }
