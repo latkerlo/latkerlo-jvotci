@@ -25,9 +25,9 @@ fn main() {
     }
     println!("{the:?}");
     println!("{}\n", format_duration(start.elapsed()));
-    println!("{:?}", get_veljvo("jvo'ytci", settings)); // bad
+    println!("{:?}", get_veljvo("jvo'ytci", settings)); // bad, slinku'i
     println!("{:?}", get_veljvo("lujvo'ytci", settings)); // ok
     println!("{:?}", get_veljvo("uajvo'ytci", settings)); // ok
-    println!("{:?}", get_veljvo("latratraty'ismu", settings)); // bad, la falls off
+    println!("{:?}", get_veljvo("latratraty'ismu", settings)); // bad, tosmabru
     println!("{:?}", get_veljvo("tratraty'ismu", settings)); // ok
 }

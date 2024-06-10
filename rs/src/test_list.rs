@@ -6,7 +6,7 @@ use itertools::Itertools;
 use katna::selrafsi_list_from_rafsi_list;
 use std::fs;
 use tarmi::{is_consonant, SETTINGS_ITERATOR};
-use tools::{char, get_rafsi_indices, slice, slice_};
+use tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_};
 
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: &Settings) -> bool {
@@ -55,54 +55,98 @@ fn check_conditions(cond: &str, settings: &Settings) -> bool {
     }
 }
 
-fn both(test: Vec<&str>) {
+fn both(test: Vec<&str>) -> i32 {
     let settings = Settings {
         generate_cmevla: is_consonant(char(test[0], -1)),
         ..Settings::default()
     };
     let lujvo = test[0];
     let expect = test[1];
-    println!("\n{lujvo}\nkatna - expect: {expect}");
+    let mut output = format!("\n{lujvo}\n");
     let tanru = get_veljvo(lujvo, &settings)
-        .unwrap_or_else(|e| vec![e.to_string()])
+        .unwrap_or_else(|e| vec![format!("Err({e})")])
         .join(" ");
-    println!("        actual: {tanru}");
-    assert_eq!(expect, tanru);
+    output += &if expect == tanru {
+        format!("katna    - \x1b[92m{tanru}\x1b[m\n")
+    } else {
+        format!("katna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\n")
+    };
+    // assert_eq!(expect, tanru);
     let tanru = test[1];
     let expect = test[0];
-    println!("{tanru}\nzbasu - expect: {expect}");
-    let lujvo = get_lujvo(tanru, &settings).unwrap_or_else(|e| e.to_string());
-    println!("        actual: {lujvo}");
-    assert_eq!(expect, lujvo);
+    let lujvo = get_lujvo(tanru, &settings).unwrap_or_else(|e| format!("Err({e})"));
+    output += &format!(
+        "zbasu    - \x1b[9{}m{lujvo}\x1b[m\n",
+        if expect == lujvo { 2 } else { 1 }
+    );
+    // assert_eq!(expect, lujvo);
+    let ohno = output.contains("[91m");
+    if ohno {
+        println!("{output}");
+    }
+    ohno as i32
 }
-fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Settings) {
-    println!("\n{tanru}\nzbasu - expect: {expect}");
-    let lujvo = get_lujvo(tanru, settings).unwrap_or_else(|e| e.to_string());
-    println!("        actual: {lujvo}");
-    assert_eq!(expect, lujvo);
+fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Settings) -> i32 {
+    let mut output = format!("\n{tanru}\n");
+    let lujvo = get_lujvo(tanru, settings);
+    if lujvo.is_err() {
+        let settings = settings.colored();
+        output += &format!("zbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}\nsettings - {settings}\n");
+        println!("{output}");
+        return 1;
+    }
+    let lujvo = lujvo.unwrap_or_else(|e| format!("Err({e})"));
+    output += &if expect == lujvo {
+        format!("zbasu    - \x1b[92m{lujvo}\x1b[m\n")
+    } else {
+        let settings = settings.colored();
+        format!("zbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}\nsettings - {settings}\n")
+    };
+    // assert_eq!(expect, lujvo);
     if e_score != 0 {
-        println!("score - expect: {e_score}");
         let score = get_lujvo_with_analytics(tanru, settings).unwrap().1;
-        println!("        actual: {score}");
-        assert_eq!(e_score, score);
+        output += &if e_score == score {
+            format!("score    - \x1b[92m{score}\x1b[m\n")
+        } else {
+            format!("score    - \x1b[91m{score}\x1b[m\nexpected - {e_score}\n")
+        };
+        // assert_eq!(e_score, score);
     }
     if !e_indices.is_empty() {
-        println!("index - expect: {e_indices}");
         let indices = get_lujvo_with_analytics(tanru, settings)
             .unwrap()
             .2
             .iter()
             .map(|i| format!("{}-{}", i[0], i[1]))
             .join(",");
-        println!("        actual: {indices}");
-        assert_eq!(e_indices, indices);
+        output += &if e_indices == indices {
+            format!("indices  - \x1b[92m{indices}\x1b[m\n")
+        } else {
+            format!("indices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\n")
+        }
+        // assert_eq!(e_indices, indices);
     }
+    let ohno = output.contains("[91m");
+    if ohno {
+        println!("{output}");
+    }
+    ohno as i32
 }
-fn zba_f(tanru: &str, settings: &Settings) {
-    println!("\n{tanru}\nzbasu - expect: Err(...)");
+fn zba_f(tanru: &str, settings: &Settings) -> i32 {
+    let mut output = format!("\n{tanru}");
     let lujvo = get_lujvo(tanru, settings);
-    println!("        actual: {lujvo:?}");
-    assert!(lujvo.is_err());
+    output += &if lujvo.is_err() {
+        format!("zbasu    - \x1b[92m{lujvo:?}\x1b[m\n")
+    } else {
+        let settings = settings.colored();
+        format!("zbasu    - \x1b[91m{lujvo:?}\x1b[m\nsettings - {settings}\n")
+    };
+    let ohno = output.contains("[91m");
+    if ohno {
+        println!("{output}");
+    }
+    ohno as i32
+    // assert!(lujvo.is_err());
 }
 fn kaha(
     lujvo: &str,
@@ -111,34 +155,50 @@ fn kaha(
     e_rafsi: &str,
     e_indices: &str,
     settings: &Settings,
-) {
-    println!("\n{lujvo}\nkatna - expect: {expect}");
+) -> i32 {
+    let mut output = format!("\n{lujvo}\n");
     let _tanru = analyze_brivla(lujvo, settings);
-    if let Err(e) = _tanru {
-        println!("        actual: {e:?}");
-        panic!();
+    if _tanru.is_err() {
+        let settings = settings.colored();
+        output += &format!("katna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}\nsettings - {settings}\n");
+        println!("{output}");
+        return 1;
     }
     let tanru = selrafsi_list_from_rafsi_list(_tanru.as_ref().unwrap().1.clone(), settings)
         .unwrap_or_else(|e| vec![e.to_string()])
         .join(" ");
-    println!("        actual: {tanru}");
-    assert_eq!(expect, tanru);
+    output += &if expect == tanru {
+        format!("katna    - \x1b[92m{tanru}\x1b[m\n")
+    } else {
+        let settings = settings.colored();
+        format!("katna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\nsettings - {settings}\n")
+    };
+    // assert_eq!(expect, tanru);
     if !e_btype.is_empty() {
         let e_btype = match e_btype {
-            "GISMU" => "Gismu",
-            "LUJVO" => "Lujvo",
-            "CMEVLA" => "mevla",
-            "ZIhEVLA" => "Zihevla",
-            "EXTENDED" => "ExtendedLujvo",
+            "GISMU" => "gismu",
+            "LUJVO" => "lujvo",
+            "CMEVLA" => "cmevla",
+            "ZIhEVLA" => "zi'evla",
+            "EXTENDED" => "extended lujvo",
             _ => panic!("found btype {{{e_btype}}}"),
         };
-        println!("btype - expect: {e_btype}");
-        let btype = _tanru.as_ref().unwrap().0;
-        println!("        actual: {btype}");
-        assert_eq!(e_btype, btype.to_string());
+        let btype = regex_replace_all(
+            "dl",
+            &normalize(&_tanru.as_ref().unwrap().0.to_string()),
+            "d l",
+        );
+        output += &if e_btype == btype {
+            format!("brivtype - \x1b[92m{btype}\x1b[m\n")
+        } else {
+            let settings = settings.colored();
+            format!(
+                "brivtype - \x1b[91m{btype}\x1b[m\nexpected - {e_btype}\nsettings - {settings}\n"
+            )
+        };
+        // assert_eq!(e_btype, btype.to_string());
     }
     if !e_rafsi.is_empty() {
-        println!("rafsi - expect: {e_rafsi}");
         let rafsi = _tanru
             .as_ref()
             .unwrap()
@@ -146,42 +206,75 @@ fn kaha(
             .iter()
             .filter(|r| !HYPHENS.contains(&r.as_str()))
             .join(" ");
-        println!("        actual: {rafsi}");
-        assert_eq!(e_rafsi, rafsi);
+        output += &if e_rafsi == rafsi {
+            format!("rafsi    - \x1b[92m{rafsi}\x1b[m\n")
+        } else {
+            let settings = settings.colored();
+            format!(
+                "rafsi    - \x1b[91m{rafsi}\x1b[m\nexpected - {e_rafsi}\nsettings - {settings}\n"
+            )
+        };
+        // assert_eq!(e_rafsi, rafsi);
     }
     if !e_indices.is_empty() {
-        println!("index - expect: {e_indices}");
         let indices = get_rafsi_indices(_tanru.unwrap().1.iter().map(|r| r.as_str()).collect_vec())
             .iter()
             .map(|i| format!("{}-{}", i[0], i[1]))
             .join(",");
-        println!("        actual: {indices}");
-        assert_eq!(e_indices, indices);
+        output += &if e_indices == indices {
+            format!("indices  - \x1b[92m{indices}\x1b[m\n")
+        } else {
+            let settings = settings.colored();
+            format!(
+                "indices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\nsettings - \
+                 {settings}\n"
+            )
+        };
+        // assert_eq!(e_indices, indices);
     }
+    let ohno = output.contains("[91m");
+    if ohno {
+        println!("{output}");
+    }
+    ohno as i32
 }
-fn kaha_f(lujvo: &str, settings: &Settings) {
-    println!("\n{lujvo}\nkatna - expect: Err(...)");
+fn kaha_f(lujvo: &str, settings: &Settings) -> i32 {
+    let mut output = format!("\n{lujvo}\n");
     let tanru = get_veljvo(lujvo, settings);
-    println!("        actual: {tanru:?}");
-    assert!(tanru.is_err());
+    output += &if tanru.is_err() {
+        format!("katna    - \x1b[92m{tanru:?}\x1b[m\n")
+    } else {
+        let settings = settings.colored();
+        format!("katna    - \x1b[91m{tanru:?}\x1b[m\nsettings - {settings}\n")
+    };
+    let ohno = output.contains("[91m");
+    if ohno {
+        println!("{output}");
+    }
+    ohno as i32
+    // assert!(tanru.is_err());
 }
 
 #[test]
 fn t_basic() {
     let file = fs::read_to_string("../tests/basic_test_list.tsv").unwrap();
-    let tests = file.lines().map(|l| l.split('\t').collect_vec());
-    for test in tests {
+    let tests = file
+        .lines()
+        .map(|l| l.split('\t').collect_vec())
+        .collect_vec();
+    let mut ohnos = 0;
+    for test in tests.clone() {
         if test.len() == 2 {
-            both(test);
+            ohnos += both(test);
         } else if test.len() == 3 {
             if test[2] == "CMEVLA" {
-                both(test);
+                ohnos += both(test);
             } else if test[2] == "JVOZBA" {
                 let settings = Settings::default();
                 if test[0] != "FAIL" {
-                    zba(test[1], test[0], 0, "", &settings);
+                    ohnos += zba(test[1], test[0], 0, "", &settings);
                 } else {
-                    zba_f(test[1], &settings);
+                    ohnos += zba_f(test[1], &settings);
                 }
             } else if test[2] == "KATNA" {
                 let settings = Settings {
@@ -189,9 +282,9 @@ fn t_basic() {
                     ..Settings::default()
                 };
                 if test[1] != "FAIL" {
-                    kaha(test[0], test[1], "", "", "", &settings);
+                    ohnos += kaha(test[0], test[1], "", "", "", &settings);
                 } else {
-                    kaha_f(test[0], &settings);
+                    ohnos += kaha_f(test[0], &settings);
                 }
             } else {
                 panic!("found a test with instruction {}", test[2]);
@@ -199,6 +292,9 @@ fn t_basic() {
         } else if !test[0].starts_with('#') && !test[0].is_empty() {
             panic!("found a test with length {}", test.len());
         }
+    }
+    if ohnos > 0 {
+        panic!("\n\x1b[91m{ohnos}\x1b[m/{} tests failed", tests.len());
     }
 }
 
@@ -235,7 +331,9 @@ fn t_zba() {
     let mut last = "";
     let mut last_c = "";
     let mut non_else = vec![];
-    for test in tests2 {
+    let mut ohnos = 0;
+    let mut i = 0;
+    for test in tests2.clone() {
         let (tanru, c, cond, e_lujvo, e_score, e_indices) =
             test.iter().cloned().collect_tuple().unwrap();
         if tanru != last {
@@ -250,20 +348,19 @@ fn t_zba() {
             non_else.push(cond);
         }
         for settings in SETTINGS_ITERATOR.iter() {
-            if c == "C" && !settings.generate_cmevla || c.is_empty() && settings.generate_cmevla {
-                continue;
-            }
-            if non_else.iter().any(|n| check_conditions(n, settings))
+            if (c == "C") ^ settings.generate_cmevla
+                || non_else.iter().enumerate().any(|(i, n)| {
+                    !(cond != "ELSE" && i == non_else.len() - 1) && check_conditions(n, settings)
+                })
                 || !check_conditions(cond, settings)
             {
                 continue;
             }
-            println!("\nsettings: {settings:?}\ncond: {c} / {cond}\nprev: {non_else:?}");
+            i += 1;
             if e_lujvo == "NONE" {
-                zba_f(test[0], settings);
-                continue;
+                ohnos += zba_f(test[0], settings);
             } else {
-                zba(
+                ohnos += zba(
                     tanru,
                     e_lujvo,
                     e_score.parse().unwrap_or(0),
@@ -272,6 +369,9 @@ fn t_zba() {
                 );
             }
         }
+    }
+    if ohnos > 0 {
+        panic!("\n\x1b[91m{ohnos}\x1b[m/{i} tests failed");
     }
 }
 
@@ -311,6 +411,8 @@ fn t_kaha() {
     }
     let mut last = "";
     let mut non_else = vec![];
+    let mut ohnos = 0;
+    let mut i = 0;
     for test in tests2 {
         let (lujvo, cond, e_btype, e_rafsi, e_tanru, e_indices) =
             test.iter().cloned().collect_tuple().unwrap();
@@ -322,21 +424,23 @@ fn t_kaha() {
             non_else.push(cond);
         }
         for settings in SETTINGS_ITERATOR.iter() {
-            if (e_btype == "CMEVLA") ^ settings.generate_cmevla {
-                continue;
-            }
-            if non_else.iter().any(|n| check_conditions(n, settings))
+            if (e_btype == "CMEVLA") ^ settings.generate_cmevla
+                || non_else.iter().enumerate().any(|(i, n)| {
+                    !(cond != "ELSE" && i == non_else.len() - 1) && check_conditions(n, settings)
+                })
                 || !check_conditions(cond, settings)
             {
                 continue;
             }
-            println!("\nsettings: {settings:?}\ncond: {cond}\nprev: {non_else:?}");
+            i += 1;
             if e_btype == "NONE" {
-                kaha_f(test[0], settings);
-                continue;
+                ohnos += kaha_f(test[0], settings);
             } else {
-                kaha(lujvo, e_tanru, e_btype, e_rafsi, e_indices, settings);
+                ohnos += kaha(lujvo, e_tanru, e_btype, e_rafsi, e_indices, settings);
             }
         }
+    }
+    if ohnos > 0 {
+        panic!("\n\x1b[91m{ohnos}\x1b[m/{i} tests failed");
     }
 }

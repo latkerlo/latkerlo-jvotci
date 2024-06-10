@@ -89,6 +89,24 @@ lazy_static! {
     )
     .collect_vec();
 }
+impl Settings {
+    pub fn colored(&self) -> String {
+        format!(
+            "\x1b[9{}mc\x1b[9{}m{}\x1b[9{}mr\x1b[9{}m{}\x1b[9{}mg\x1b[9{}mz\x1b[m",
+            self.generate_cmevla as u8 * 2,
+            (self.y_hyphens != YHyphenSetting::Standard) as u8 * 3,
+            char(&self.y_hyphens.to_string(), 0),
+            self.exp_rafsi as u8 * 2,
+            (self.consonants != ConsonantSetting::Cluster) as u8 * 3,
+            match self.consonants {
+                ConsonantSetting::Cluster => "C".to_string(),
+                n => format!("{}", 3 - n as i8),
+            },
+            self.glides as u8 * 2,
+            self.allow_mz as u8 * 2,
+        )
+    }
+}
 
 /// Auto-impl `Display` on an enum
 #[macro_export]
