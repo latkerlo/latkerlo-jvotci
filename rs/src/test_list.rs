@@ -62,53 +62,52 @@ fn both(test: Vec<&str>) -> i32 {
     };
     let lujvo = test[0];
     let expect = test[1];
-    let mut output = format!("\n{lujvo}\n");
+    let mut output = format!("\n{lujvo}");
     let tanru = get_veljvo(lujvo, &settings)
         .unwrap_or_else(|e| vec![format!("Err({e})")])
         .join(" ");
     output += &if expect == tanru {
-        format!("katna    - \x1b[92m{tanru}\x1b[m\n")
+        format!("\nkatna    - \x1b[92m{tanru}\x1b[m")
     } else {
-        format!("katna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\n")
+        format!("\nkatna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}")
     };
     let tanru = test[1];
     let expect = test[0];
     let lujvo = get_lujvo(tanru, &settings).unwrap_or_else(|e| format!("Err({e})"));
     output += &format!(
-        "zbasu    - \x1b[9{}m{lujvo}\x1b[m\n",
+        "\nzbasu    - \x1b[9{}m{lujvo}\x1b[m",
         (expect == lujvo) as u8 + 1
     );
-    output = output.trim().to_string();
     let ohno = output.contains("[91m");
     if ohno {
-        println!("\n{output}");
+        println!("{output}");
     }
     ohno as i32
 }
 fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Settings) -> i32 {
-    let mut output = format!("\n{tanru}\n");
+    let mut output = format!("\n{tanru}");
     let lujvo = get_lujvo(tanru, settings);
     if lujvo.is_err() {
         let settings = settings.colored();
         output += &format!(
-            "zbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}\nsettings - {settings}\n"
+            "\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}\nsettings - {settings}"
         );
         println!("{output}");
         return 1;
     }
     let lujvo = lujvo.unwrap_or_else(|e| format!("Err({e})"));
     output += &if expect == lujvo {
-        format!("zbasu    - \x1b[92m{lujvo}\x1b[m\n")
+        format!("\nzbasu    - \x1b[92m{lujvo}\x1b[m")
     } else {
         let settings = settings.colored();
-        format!("zbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}\nsettings - {settings}\n")
+        format!("\nzbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}\nsettings - {settings}")
     };
     if e_score != 0 {
         let score = get_lujvo_with_analytics(tanru, settings).unwrap().1;
         output += &if e_score == score {
-            format!("score    - \x1b[92m{score}\x1b[m\n")
+            format!("\nscore    - \x1b[92m{score}\x1b[m")
         } else {
-            format!("score    - \x1b[91m{score}\x1b[m\nexpected - {e_score}\n")
+            format!("\nscore    - \x1b[91m{score}\x1b[m\nexpected - {e_score}")
         };
     }
     if !e_indices.is_empty() {
@@ -119,15 +118,14 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
             .map(|i| format!("{}-{}", i[0], i[1]))
             .join(",");
         output += &if e_indices == indices {
-            format!("indices  - \x1b[92m{indices}\x1b[m\n")
+            format!("\nindices  - \x1b[92m{indices}\x1b[m")
         } else {
-            format!("indices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\n")
+            format!("\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}")
         }
     }
-    output = output.trim().to_string();
     let ohno = output.contains("[91m");
     if ohno {
-        println!("\n{output}");
+        println!("{output}");
     }
     ohno as i32
 }
@@ -135,15 +133,14 @@ fn zba_f(tanru: &str, settings: &Settings) -> i32 {
     let mut output = format!("\n{tanru}");
     let lujvo = get_lujvo(tanru, settings);
     output += &if lujvo.is_err() {
-        format!("zbasu    - \x1b[92m{lujvo:?}\x1b[m\n")
+        format!("\nzbasu    - \x1b[92m{lujvo:?}\x1b[m")
     } else {
         let settings = settings.colored();
-        format!("zbasu    - \x1b[91m{lujvo:?}\x1b[m\nsettings - {settings}\n")
+        format!("\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nsettings - {settings}")
     };
-    output = output.trim().to_string();
     let ohno = output.contains("[91m");
     if ohno {
-        println!("\n{output}");
+        println!("{output}");
     }
     ohno as i32
 }
@@ -155,12 +152,12 @@ fn kaha(
     e_indices: &str,
     settings: &Settings,
 ) -> i32 {
-    let mut output = format!("\n{lujvo}\n");
+    let mut output = format!("\n{lujvo}");
     let _tanru = analyze_brivla(lujvo, settings);
     if _tanru.is_err() {
         let settings = settings.colored();
         output += &format!(
-            "katna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}\nsettings - {settings}\n"
+            "\nkatna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}\nsettings - {settings}"
         );
         println!("{output}");
         return 1;
@@ -169,10 +166,10 @@ fn kaha(
         .unwrap_or_else(|e| vec![e.to_string()])
         .join(" ");
     output += &if expect == tanru {
-        format!("katna    - \x1b[92m{tanru}\x1b[m\n")
+        format!("\nkatna    - \x1b[92m{tanru}\x1b[m")
     } else {
         let settings = settings.colored();
-        format!("katna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\nsettings - {settings}\n")
+        format!("\nkatna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\nsettings - {settings}")
     };
     if !e_btype.is_empty() {
         let e_btype = match e_btype {
@@ -189,11 +186,11 @@ fn kaha(
             "d l",
         );
         output += &if e_btype == btype {
-            format!("brivtype - \x1b[92m{btype}\x1b[m\n")
+            format!("\nbrivtype - \x1b[92m{btype}\x1b[m")
         } else {
             let settings = settings.colored();
             format!(
-                "brivtype - \x1b[91m{btype}\x1b[m\nexpected - {e_btype}\nsettings - {settings}\n"
+                "\nbrivtype - \x1b[91m{btype}\x1b[m\nexpected - {e_btype}\nsettings - {settings}"
             )
         };
     }
@@ -206,11 +203,11 @@ fn kaha(
             .filter(|r| !HYPHENS.contains(&r.as_str()))
             .join(" ");
         output += &if e_rafsi == rafsi {
-            format!("rafsi    - \x1b[92m{rafsi}\x1b[m\n")
+            format!("\nrafsi    - \x1b[92m{rafsi}\x1b[m")
         } else {
             let settings = settings.colored();
             format!(
-                "rafsi    - \x1b[91m{rafsi}\x1b[m\nexpected - {e_rafsi}\nsettings - {settings}\n"
+                "\nrafsi    - \x1b[91m{rafsi}\x1b[m\nexpected - {e_rafsi}\nsettings - {settings}"
             )
         };
     }
@@ -220,35 +217,33 @@ fn kaha(
             .map(|i| format!("{}-{}", i[0], i[1]))
             .join(",");
         output += &if e_indices == indices {
-            format!("indices  - \x1b[92m{indices}\x1b[m\n")
+            format!("\nindices  - \x1b[92m{indices}\x1b[m")
         } else {
             let settings = settings.colored();
             format!(
-                "indices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\nsettings - \
-                 {settings}\n"
+                "\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\nsettings - \
+                 {settings}"
             )
         };
     }
-    output = output.trim().to_string();
     let ohno = output.contains("[91m");
     if ohno {
-        println!("\n{output}");
+        println!("{output}");
     }
     ohno as i32
 }
 fn kaha_f(lujvo: &str, settings: &Settings) -> i32 {
-    let mut output = format!("\n{lujvo}\n");
+    let mut output = format!("\n{lujvo}");
     let tanru = get_veljvo(lujvo, settings);
     output += &if tanru.is_err() {
-        format!("katna    - \x1b[92m{tanru:?}\x1b[m\n")
+        format!("\nkatna    - \x1b[92m{tanru:?}\x1b[m")
     } else {
         let settings = settings.colored();
-        format!("katna    - \x1b[91m{tanru:?}\x1b[m\nsettings - {settings}\n")
+        format!("\nkatna    - \x1b[91m{tanru:?}\x1b[m\nsettings - {settings}")
     };
-    output = output.trim().to_string();
     let ohno = output.contains("[91m");
     if ohno {
-        println!("\n{output}");
+        println!("{output}");
     }
     ohno as i32
 }
@@ -291,8 +286,8 @@ fn t_basic() {
             panic!("found a test with length {}", test.len());
         }
     }
-    println!();
     if ohnos > 0 {
+        println!();
         panic!("\x1b[91m{ohnos}\x1b[m/{} tests failed", tests.len());
     }
 }
@@ -369,8 +364,8 @@ fn t_zba() {
             }
         }
     }
-    println!();
     if ohnos > 0 {
+        println!();
         panic!("\x1b[91m{ohnos}\x1b[m/{i} tests failed");
     }
 }
@@ -440,8 +435,8 @@ fn t_kaha() {
             }
         }
     }
-    println!();
     if ohnos > 0 {
+        println!();
         panic!("\x1b[91m{ohnos}\x1b[m/{i} tests failed");
     }
 }

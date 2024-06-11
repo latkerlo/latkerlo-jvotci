@@ -94,10 +94,10 @@ impl Settings {
         format!(
             "\x1b[9{}mc\x1b[9{}m{}\x1b[9{}mr\x1b[9{}m{}\x1b[9{}mg\x1b[9{}mz\x1b[m",
             self.generate_cmevla as u8 * 2,
-            (self.y_hyphens != YHyphenSetting::Standard) as u8 * 3,
+            (self.y_hyphens != YHyphenSetting::Standard) as u8 * 2,
             char(&self.y_hyphens.to_string(), 0),
             self.exp_rafsi as u8 * 2,
-            (self.consonants != ConsonantSetting::Cluster) as u8 * 3,
+            (self.consonants != ConsonantSetting::Cluster) as u8 * 2,
             match self.consonants {
                 ConsonantSetting::Cluster => "C".to_string(),
                 n => format!("{}", 3 - n as i8),
