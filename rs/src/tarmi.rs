@@ -8,7 +8,7 @@ use crate::{
 use itertools::{iproduct, Itertools};
 use lazy_static::lazy_static;
 use regex::Regex;
-use std::collections::VecDeque;
+use std::{collections::VecDeque, str::FromStr};
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum Tarmi {
@@ -62,30 +62,20 @@ pub struct Settings {
 lazy_static! {
     #[derive(Clone, Copy)]
     pub static ref SETTINGS_ITERATOR: Vec<Settings> = iproduct!(
-        [false, true],
-        [
-            YHyphenSetting::Standard,
-            YHyphenSetting::AllowY,
-            YHyphenSetting::ForceY
-        ],
-        [false, true],
-        [
-            ConsonantSetting::Cluster,
-            ConsonantSetting::TwoConsonants,
-            ConsonantSetting::OneConsonant
-        ],
-        [false, true],
-        [false, true]
+        ["", "c"],
+        ["S", "A", "F"],
+        ["", "r"],
+        ["C", "2", "1"],
+        ["", "g"],
+        ["", "z"]
     )
     .map(
-        |(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| Settings {
-            generate_cmevla,
-            y_hyphens,
-            exp_rafsi,
-            consonants,
-            glides,
-            allow_mz
-        }
+        |(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| {
+            Settings::from_str(&format!(
+                "{generate_cmevla}{y_hyphens}{exp_rafsi}{consonants}{glides}{allow_mz}"
+            ))
+            .unwrap()
+        },
     )
     .collect_vec();
 }
@@ -105,6 +95,48 @@ impl Settings {
             self.glides as u8 * 3,
             self.allow_mz as u8 * 3,
         )
+    }
+}
+#[derive(Debug)]
+pub struct SettingsError;
+impl FromStr for Settings {
+    type Err = SettingsError;
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        if "crgz"
+            .chars()
+            .any(|x| s.chars().filter(|c| *c == x).count() > 1)
+            || s.chars().filter(|c| "SAF".contains(*c)).count() > 1
+            || s.chars().filter(|c| "C21".contains(*c)).count() > 1
+            || s.chars().filter(|c| !"cSAFrC21gz".contains(*c)).count() != 0
+        {
+            return Err(SettingsError);
+        }
+        let generate_cmevla = s.contains('c');
+        let exp_rafsi = s.contains('r');
+        let glides = s.contains('g');
+        let allow_mz = s.contains('z');
+        let y_hyphens = if s.contains('A') {
+            YHyphenSetting::AllowY
+        } else if s.contains('F') {
+            YHyphenSetting::ForceY
+        } else {
+            YHyphenSetting::Standard
+        };
+        let consonants = if s.contains('2') {
+            ConsonantSetting::TwoConsonants
+        } else if s.contains('1') {
+            ConsonantSetting::OneConsonant
+        } else {
+            ConsonantSetting::Cluster
+        };
+        Ok(Settings {
+            generate_cmevla,
+            y_hyphens,
+            exp_rafsi,
+            consonants,
+            glides,
+            allow_mz,
+        })
     }
 }
 
