@@ -1,11 +1,11 @@
 # `latkerlo-jvotci` crate changelog
 
 ## 2.0.0 (soon to release)
-- there's a whole bunch of new stuff; see the [readme](https://github.com/latkerlo/latkerlo-jvotci/blob/zi'evla/README.md) & docs.rs
+- can now put zi'evla in lujvo!
+- new settings to control various things
 
 todo:
-[ ] edit the readme to include rust examples
-[ ] add tests **wip**
+- edit the readme to include rust examples
 
 ## 1.0.7
 - the type of `RAFSI` is now `HashMap<&'static str, Vec<&'static str>>`

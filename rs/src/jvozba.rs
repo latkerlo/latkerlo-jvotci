@@ -300,7 +300,7 @@ pub fn get_rafsi_list_list(
     Ok(rafsi_list_list)
 }
 /// `get_rafsi_list_list` but shorter to write manually
-pub fn grill(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
+pub fn grll(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
     get_rafsi_list_list(process_tanru(vl), settings)
 }
 

@@ -1,0 +1,4142 @@
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 2rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - 1rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Az
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Ag
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Agz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Ar
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Arz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Arg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Argz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A2rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - A1rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Fz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Fg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Fgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Fr
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Frz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Frg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - Frgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F2rgz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1z
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1g
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1gz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1r
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1rz
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1rg
+
+latratratratratratratraty'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+settings - F1rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 2rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - 1rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Az
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Ag
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Agz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Ar
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Arz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Arg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Argz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A2rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - A1rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Fz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Fg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Fgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Fr
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Frz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Frg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - Frgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F2rgz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1z
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1g
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1gz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1r
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1rz
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1rg
+
+latratratratratratratraty'ismy'ismy'ismu
+katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+settings - F1rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 2rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - 1rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Az
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Ag
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Agz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Ar
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Arz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Arg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Argz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A2rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - A1rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Fz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Fg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Fgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Fr
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Frz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Frg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - Frgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F2rgz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1z
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1g
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1gz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1r
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1rz
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1rg
+
+jesyspa'yre'e
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - jesni spati trene
+settings - F1rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 2rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - 1rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Az
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Ag
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Agz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Ar
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Arz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Arg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Argz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A2rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - A1rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Fz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Fg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Fgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Fr
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Frz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Frg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - Frgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F2rgz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1z
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1g
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1gz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1r
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1rz
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1rg
+
+smu'ynei
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni nelci
+settings - F1rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 2rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - 1rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Az
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Ag
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Agz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Ar
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Arz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Arg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Argz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A2rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - A1rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Fz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Fg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Fgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Fr
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Frz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Frg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - Frgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F2rgz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1z
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1g
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1gz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1r
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1rz
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1rg
+
+smu'ykerlo
+katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+expected - smuni kerlo
+settings - F1rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 2rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - 1rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Az
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Ag
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Agz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Ar
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Arz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Arg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Argz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A2rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - A1rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Fz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Fg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Fgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Fr
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Frz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Frg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - Frgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F2rgz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1z
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1g
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1gz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1r
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1rz
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1rg
+
+sto'ysmu
+katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+expected - stodi smuni
+settings - F1rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Az
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Ag
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Agz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Ar
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Arz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Arg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Argz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fr
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rgz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1z
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1g
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1gz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1r
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rz
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rg
+
+spa'yspa'yspa
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 2rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - 1rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Az
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Ag
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Agz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Ar
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Arz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Arg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Argz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A2rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - A1rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Fr
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - Frgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F2rgz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1z
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1g
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1gz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1r
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rz
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rg
+
+spa'yspa'yspati
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - spati spati spati
+settings - F1rgz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - Fr
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - Frz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - Frg
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - Frgz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F2r
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F2rz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F2rg
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F2rgz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F1r
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F1rz
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F1rg
+
+u'ykerlo
+katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
+expected - -u- kerlo
+settings - F1rgz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - r
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - rz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - rg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - rgz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 2r
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 2rz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 2rg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 2rgz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 1r
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 1rz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 1rg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - 1rgz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - Ar
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - Arz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - Arg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - Argz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A2r
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A2rz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A2rg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A2rgz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A1r
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A1rz
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A1rg
+
+ke'ery'u
+katna    - Ok(["ke'e", "-u-"])
+settings - A1rgz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - z
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - g
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - gz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - r
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - rz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - rg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - rgz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2z
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2g
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2gz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2r
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2rz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2rg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 2rgz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1z
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1g
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1gz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1r
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1rz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1rg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - 1rgz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Az
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Ag
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Agz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Ar
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Arz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Arg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - Argz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2z
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2g
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2gz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2r
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2rz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2rg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A2rgz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1z
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1g
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1gz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1r
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1rz
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1rg
+
+ke'erytce
+katna    - Ok(["ke'e", "mutce"])
+settings - A1rgz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - z
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - g
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - gz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - r
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - rz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - rg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - rgz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2z
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2g
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2gz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2r
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2rz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2rg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 2rgz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1z
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1g
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1gz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1r
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1rz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1rg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - 1rgz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Az
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Ag
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Agz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Ar
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Arz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Arg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - Argz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2z
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2g
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2gz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2r
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2rz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2rg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A2rgz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1z
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1g
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1gz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1r
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1rz
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1rg
+
+re'erspa'ykerlo
+katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+expected - trene spati kerlo
+settings - A1rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - g
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 2g
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 2gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 2rg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1z
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1g
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1r
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1rz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1rg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Az
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Ag
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Agz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Ar
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Arz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A2gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A2rz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A2rg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A2rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A1g
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A1gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A1r
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A1rz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - A1rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Fg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Fgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Frg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Frgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F2gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F2rg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F1gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F1rz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F1rgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2z
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2gz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2r
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 1z
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 1r
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 1rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 1rgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Agz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Ar
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Arz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Arg
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A2
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A2z
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A2r
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A2rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A2rg
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A1
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A1g
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A1r
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A1rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - A1rgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Fg
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Fgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Frz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Frgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F2
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F2g
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F2gz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F2rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F1r
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F1rg
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - F1rgz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - z
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - gz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - r
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2g
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2gz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2rgz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 1
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 1gz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 1rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Ar
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Argz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A2
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A2rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A2rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1g
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1r
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1rgz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Fr
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Frz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Frg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2z
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2g
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2gz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F1
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F1z
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F1rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F1rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F1rgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2z
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2r
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2rgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1z
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1g
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1gz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1rz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - Ar
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - Arg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A2
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A2rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A2rgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1g
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1gz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1r
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1rz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1rgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - Fz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - Fgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - Frz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F2z
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F2g
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F2r
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F2rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F1
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F1z
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F1g
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F1gz

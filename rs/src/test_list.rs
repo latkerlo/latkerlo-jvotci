@@ -4,7 +4,10 @@ use crate::*;
 use data::HYPHENS;
 use itertools::Itertools;
 use katna::selrafsi_list_from_rafsi_list;
-use std::fs;
+use std::{
+    fs::{self, OpenOptions},
+    io::Write,
+};
 use tarmi::{is_consonant, SETTINGS_ITERATOR};
 use tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_};
 
@@ -82,25 +85,46 @@ fn both(test: Vec<&str>) -> i32 {
     if ohno {
         println!("{output}");
     }
+    let mut file = OpenOptions::new()
+        .append(true)
+        .create(true)
+        .open(if ohno {
+            "test_diagnostics/bad.txt"
+        } else {
+            "test_diagnostics/good.txt"
+        })
+        .unwrap();
+    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        .unwrap();
     ohno as i32
 }
 fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Settings) -> i32 {
     let mut output = format!("\n{tanru}");
     let lujvo = get_lujvo(tanru, settings);
     if lujvo.is_err() {
-        let settings = settings.colored();
         output += &format!(
-            "\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}\nsettings - {settings}"
+            "\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}{}",
+            if &Settings::default() != settings {
+                format!("\nsettings - {settings}")
+            } else {
+                "".to_string()
+            }
         );
         println!("{output}");
+        let mut file = OpenOptions::new()
+            .append(true)
+            .create(true)
+            .open("test_diagnostics/bad.txt")
+            .unwrap();
+        file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+            .unwrap();
         return 1;
     }
     let lujvo = lujvo.unwrap_or_else(|e| format!("Err({e})"));
     output += &if expect == lujvo {
         format!("\nzbasu    - \x1b[92m{lujvo}\x1b[m")
     } else {
-        let settings = settings.colored();
-        format!("\nzbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}\nsettings - {settings}")
+        format!("\nzbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}")
     };
     if e_score != 0 {
         let score = get_lujvo_with_analytics(tanru, settings).unwrap().1;
@@ -123,25 +147,52 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
             format!("\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}")
         }
     }
+    if &Settings::default() != settings {
+        output += &format!("\nsettings - {settings}");
+    }
     let ohno = output.contains("[91m");
     if ohno {
         println!("{output}");
     }
+    let mut file = OpenOptions::new()
+        .append(true)
+        .create(true)
+        .open(if ohno {
+            "test_diagnostics/bad.txt"
+        } else {
+            "test_diagnostics/good.txt"
+        })
+        .unwrap();
+    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        .unwrap();
     ohno as i32
 }
 fn zba_f(tanru: &str, settings: &Settings) -> i32 {
     let mut output = format!("\n{tanru}");
     let lujvo = get_lujvo(tanru, settings);
     output += &if lujvo.is_err() {
-        format!("\nzbasu    - \x1b[92m{lujvo:?}\x1b[m")
+        format!("\nzbasu    - \x1b[93m{lujvo:?}\x1b[m")
     } else {
-        let settings = settings.colored();
-        format!("\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nsettings - {settings}")
+        format!("\nzbasu    - \x1b[91m{lujvo:?}\x1b[m")
     };
+    if &Settings::default() != settings {
+        output += &format!("\nsettings - {settings}");
+    }
     let ohno = output.contains("[91m");
     if ohno {
         println!("{output}");
     }
+    let mut file = OpenOptions::new()
+        .append(true)
+        .create(true)
+        .open(if ohno {
+            "test_diagnostics/bad.txt"
+        } else {
+            "test_diagnostics/check.txt"
+        })
+        .unwrap();
+    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        .unwrap();
     ohno as i32
 }
 fn kaha(
@@ -155,11 +206,22 @@ fn kaha(
     let mut output = format!("\n{lujvo}");
     let _tanru = analyze_brivla(lujvo, settings);
     if _tanru.is_err() {
-        let settings = settings.colored();
         output += &format!(
-            "\nkatna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}\nsettings - {settings}"
+            "\nkatna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}{}",
+            if &Settings::default() != settings {
+                format!("\nsettings - {settings}")
+            } else {
+                "".to_string()
+            }
         );
         println!("{output}");
+        let mut file = OpenOptions::new()
+            .append(true)
+            .create(true)
+            .open("test_diagnostics/bad.txt")
+            .unwrap();
+        file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+            .unwrap();
         return 1;
     }
     let tanru = selrafsi_list_from_rafsi_list(_tanru.as_ref().unwrap().1.clone(), settings)
@@ -168,8 +230,7 @@ fn kaha(
     output += &if expect == tanru {
         format!("\nkatna    - \x1b[92m{tanru}\x1b[m")
     } else {
-        let settings = settings.colored();
-        format!("\nkatna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}\nsettings - {settings}")
+        format!("\nkatna    - \x1b[91m{tanru}\x1b[m\nexpected - {expect}")
     };
     if !e_btype.is_empty() {
         let e_btype = match e_btype {
@@ -188,10 +249,7 @@ fn kaha(
         output += &if e_btype == btype {
             format!("\nbrivtype - \x1b[92m{btype}\x1b[m")
         } else {
-            let settings = settings.colored();
-            format!(
-                "\nbrivtype - \x1b[91m{btype}\x1b[m\nexpected - {e_btype}\nsettings - {settings}"
-            )
+            format!("\nbrivtype - \x1b[91m{btype}\x1b[m\nexpected - {e_btype}")
         };
     }
     if !e_rafsi.is_empty() {
@@ -205,10 +263,7 @@ fn kaha(
         output += &if e_rafsi == rafsi {
             format!("\nrafsi    - \x1b[92m{rafsi}\x1b[m")
         } else {
-            let settings = settings.colored();
-            format!(
-                "\nrafsi    - \x1b[91m{rafsi}\x1b[m\nexpected - {e_rafsi}\nsettings - {settings}"
-            )
+            format!("\nrafsi    - \x1b[91m{rafsi}\x1b[m\nexpected - {e_rafsi}")
         };
     }
     if !e_indices.is_empty() {
@@ -219,37 +274,61 @@ fn kaha(
         output += &if e_indices == indices {
             format!("\nindices  - \x1b[92m{indices}\x1b[m")
         } else {
-            let settings = settings.colored();
-            format!(
-                "\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}\nsettings - \
-                 {settings}"
-            )
+            format!("\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}")
         };
+    }
+    if &Settings::default() != settings {
+        output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
     if ohno {
         println!("{output}");
     }
+    let mut file = OpenOptions::new()
+        .append(true)
+        .create(true)
+        .open(if ohno {
+            "test_diagnostics/bad.txt"
+        } else {
+            "test_diagnostics/good.txt"
+        })
+        .unwrap();
+    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        .unwrap();
     ohno as i32
 }
 fn kaha_f(lujvo: &str, settings: &Settings) -> i32 {
     let mut output = format!("\n{lujvo}");
     let tanru = get_veljvo(lujvo, settings);
     output += &if tanru.is_err() {
-        format!("\nkatna    - \x1b[92m{tanru:?}\x1b[m")
+        format!("\nkatna    - \x1b[93m{tanru:?}\x1b[m")
     } else {
-        let settings = settings.colored();
-        format!("\nkatna    - \x1b[91m{tanru:?}\x1b[m\nsettings - {settings}")
+        format!("\nkatna    - \x1b[91m{tanru:?}\x1b[m")
     };
+    if &Settings::default() != settings {
+        output += &format!("\nsettings - {settings}");
+    }
     let ohno = output.contains("[91m");
     if ohno {
         println!("{output}");
     }
+    let mut file = OpenOptions::new()
+        .append(true)
+        .create(true)
+        .open(if ohno {
+            "test_diagnostics/bad.txt"
+        } else {
+            "test_diagnostics/check.txt"
+        })
+        .unwrap();
+    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        .unwrap();
     ohno as i32
 }
 
 #[test]
 fn t_basic() {
+    fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/basic_test_list.tsv").unwrap();
     let tests = file
         .lines()
@@ -288,12 +367,18 @@ fn t_basic() {
     }
     if ohnos > 0 {
         println!();
-        panic!("\x1b[91m{ohnos}\x1b[m/{} tests failed", tests.len());
+        panic!(
+            "\x1b[92m{:5}\x1b[m/{} tests passed (see check.txt to ensure the NONE tests failed \
+             for the right reasons)\n\x1b[91m{ohnos:5}\x1b[m/{1} tests failed",
+            tests.len() - ohnos as usize,
+            tests.len()
+        );
     }
 }
 
 #[test]
 fn t_zba() {
+    fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/jvozba_test_list.tsv").unwrap();
     let tests = file
         .lines()
@@ -366,12 +451,17 @@ fn t_zba() {
     }
     if ohnos > 0 {
         println!();
-        panic!("\x1b[91m{ohnos}\x1b[m/{i} tests failed");
+        panic!(
+            "\x1b[92m{:5}\x1b[m/{i} tests passed (see check.txt to ensure the NONE tests failed \
+             for the right reasons)\n\x1b[91m{ohnos:5}\x1b[m/{i} tests failed",
+            i - ohnos,
+        );
     }
 }
 
 #[test]
 fn t_kaha() {
+    fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/katna_test_list.tsv").unwrap();
     let tests = file
         .lines()
@@ -437,6 +527,10 @@ fn t_kaha() {
     }
     if ohnos > 0 {
         println!();
-        panic!("\x1b[91m{ohnos}\x1b[m/{i} tests failed");
+        panic!(
+            "\x1b[92m{:5}\x1b[m/{i} tests passed (see check.txt to ensure the NONE tests failed \
+             for the right reasons)\n\x1b[91m{ohnos:5}\x1b[m/{i} tests failed",
+            i - ohnos,
+        );
     }
 }

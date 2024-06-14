@@ -7,7 +7,7 @@ pub mod rafsi;
 pub mod tarmi;
 mod test_list;
 pub mod tools;
-pub use jvozba::{get_lujvo, get_lujvo_with_analytics, grill};
+pub use jvozba::{get_lujvo, get_lujvo_with_analytics, grll};
 pub use katna::get_veljvo;
 pub use tarmi::{
     ConsonantSetting::{self, *},

@@ -8,7 +8,7 @@ use crate::{
 use itertools::{iproduct, Itertools};
 use lazy_static::lazy_static;
 use regex::Regex;
-use std::{collections::VecDeque, str::FromStr};
+use std::{collections::VecDeque, fmt, str::FromStr};
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum Tarmi {
@@ -50,12 +50,12 @@ pub enum ConsonantSetting {
     OneConsonant,
 }
 
-#[derive(Debug, Default, Clone, Copy)]
+#[derive(Debug, Default, Clone, Copy, PartialEq)]
 pub struct Settings {
     pub generate_cmevla: bool,
     pub y_hyphens: YHyphenSetting,
-    pub exp_rafsi: bool,
     pub consonants: ConsonantSetting,
+    pub exp_rafsi: bool,
     pub glides: bool,
     pub allow_mz: bool,
 }
@@ -63,9 +63,9 @@ lazy_static! {
     #[derive(Clone, Copy)]
     pub static ref SETTINGS_ITERATOR: Vec<Settings> = iproduct!(
         ["", "c"],
-        ["S", "A", "F"],
+        ["", "A", "F"],
+        ["", "2", "1"],
         ["", "r"],
-        ["C", "2", "1"],
         ["", "g"],
         ["", "z"]
     )
@@ -79,35 +79,47 @@ lazy_static! {
     )
     .collect_vec();
 }
-impl Settings {
-    pub fn colored(&self) -> String {
-        format!(
-            "\x1b[9{}mc\x1b[9{}m{}\x1b[9{}mr\x1b[9{}m{}\x1b[9{}mg\x1b[9{}mz\x1b[m",
-            self.generate_cmevla as u8 * 3,
-            (self.y_hyphens != YHyphenSetting::Standard) as u8 * 3,
-            char(&self.y_hyphens.to_string(), 0),
-            self.exp_rafsi as u8 * 3,
-            (self.consonants != ConsonantSetting::Cluster) as u8 * 3,
-            match self.consonants {
-                ConsonantSetting::Cluster => "C".to_string(),
-                n => format!("{}", 3 - n as i8),
+impl fmt::Display for Settings {
+    /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
+    /// Returns "default" when given the default settings
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        let mut s = format!(
+            "{}{}{}{}{}{}",
+            if self.generate_cmevla { "c" } else { "" },
+            match self.y_hyphens {
+                YHyphenSetting::Standard => "",
+                YHyphenSetting::AllowY => "A",
+                YHyphenSetting::ForceY => "F",
             },
-            self.glides as u8 * 3,
-            self.allow_mz as u8 * 3,
-        )
+            match self.consonants {
+                ConsonantSetting::Cluster => "",
+                ConsonantSetting::TwoConsonants => "2",
+                ConsonantSetting::OneConsonant => "1",
+            },
+            if self.exp_rafsi { "r" } else { "" },
+            if self.glides { "g" } else { "" },
+            if self.allow_mz { "z" } else { "" },
+        );
+        if s.is_empty() {
+            s = "default".to_string();
+        }
+        write!(f, "{s}")
     }
 }
 #[derive(Debug)]
 pub struct SettingsError;
 impl FromStr for Settings {
     type Err = SettingsError;
+    /// Returns a `SettingsError` if given any characters other than `cSAFC21rgz` or there are
+    /// multiple of any, unless given "default". `crgz` activate `generate_cmevla`, `exp_rafsi`,
+    /// `glides`, and `allow_mz`; `SAF` and `C21` select a `YHyphenSetting` and `ConsonantSetting`
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         if "crgz"
             .chars()
             .any(|x| s.chars().filter(|c| *c == x).count() > 1)
             || s.chars().filter(|c| "SAF".contains(*c)).count() > 1
             || s.chars().filter(|c| "C21".contains(*c)).count() > 1
-            || s.chars().filter(|c| !"cSAFrC21gz".contains(*c)).count() != 0
+            || s != "default" && s.chars().filter(|c| !"cSAFC21rgz".contains(*c)).count() != 0
         {
             return Err(SettingsError);
         }
@@ -132,8 +144,8 @@ impl FromStr for Settings {
         Ok(Settings {
             generate_cmevla,
             y_hyphens,
-            exp_rafsi,
             consonants,
+            exp_rafsi,
             glides,
             allow_mz,
         })
@@ -144,10 +156,9 @@ impl FromStr for Settings {
 #[macro_export]
 macro_rules! auto_to_string {
     ($($e:ident),*) => {
-        use std::fmt::{self, Display, Formatter};
         $(
-            impl Display for $e {
-                fn fmt(&self, f: &mut Formatter) -> fmt::Result {
+            impl std::fmt::Display for $e {
+                fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
                     write!(f, "{self:?}")
                 }
             }
