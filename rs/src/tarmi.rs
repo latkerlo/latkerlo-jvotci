@@ -67,13 +67,15 @@ pub fn rafsi_tarmi(rafsi: &str) -> Tarmi {
         0 => Tarmi::Fuhivla,
         1 => Tarmi::Hyphen,
         2 if char(rafsi, 0) == '\'' && char(rafsi, 1) == 'y' => Tarmi::Hyphen,
-        3 => match (is_vowel(char(rafsi, 1)), is_consonant(char(rafsi, 2))) {
-            (true, false) => Tarmi::Cvv,
-            (true, true) => Tarmi::Cvc,
-            (false, false) => Tarmi::Ccv,
-            _ => Tarmi::Fuhivla,
-        },
-        4 => match (
+        3 if is_consonant(char(rafsi, 0)) => {
+            match (is_vowel(char(rafsi, 1)), is_consonant(char(rafsi, 2))) {
+                (true, false) => Tarmi::Cvv,
+                (true, true) => Tarmi::Cvc,
+                (false, false) => Tarmi::Ccv,
+                _ => Tarmi::Fuhivla,
+            }
+        }
+        4 if is_consonant(char(rafsi, 0)) => match (
             is_vowel(char(rafsi, 1)),
             is_consonant(char(rafsi, 2)),
             is_consonant(char(rafsi, 3)),

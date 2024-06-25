@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.0.9
+- checks the first letter is a consonant for 3- or 4-letter rafsi. seriously how did i forget this
+
 ## 1.0.8
 - no longer `Err`s when given < 2 words
 
