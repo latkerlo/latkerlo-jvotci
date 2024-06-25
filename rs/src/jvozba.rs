@@ -196,6 +196,9 @@ pub fn get_lujvo(tanru: &str, cmene: bool) -> Result<(String, usize), String> {
 pub fn get_lujvo2(valsi_list: Vec<String>, cmene: bool) -> Result<(String, usize), String> {
     let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), cmene)?;
     let mut current_best = [BestLujvoMap::new(), BestLujvoMap::new()];
+    if rafsi_list_list.len() < 2 {
+        return Err(format!("not enough words: {{{}}}",valsi_list.join(" ")));
+    }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
             let tosmabru = (tarmi_ignoring_hyphen(rafsi0) == Tarmi::Cvc

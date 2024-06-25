@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.0.8
+- no longer `Err`s when given < 2 words
+
 ## 1.0.7
 - the type of `RAFSI` is now `HashMap<&'static str, Vec<&'static str>>`
 
