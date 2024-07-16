@@ -102,7 +102,7 @@ with open("js/docs/rafsi.js", "w") as opf:
     opf.write("]);\n")
 with open("rs/src/rafsi.rs", "w") as opf:
     opf.write("//! Contains the const RAFSI, a map from words to their affixes. docs.rs thinks it's a struct due to `lazy_static!`.\n")
-    opf.write("use std::collections::HashMap;\nuse lazy_static::lazy_static;\nlazy_static! {\n    pub static ref RAFSI: HashMap<&'static str, Vec<&'static str>> = HashMap::from([\n")
+    opf.write("use lazy_static::lazy_static;\nuse std::collections::HashMap;\nlazy_static! {\n    pub static ref RAFSI: HashMap<&'static str, Vec<&'static str>> = HashMap::from([\n")
     for selrafsi, rafsi in rafsi_list.items():
         opf.write('        ("' + selrafsi + '", vec![' + ('"' if len(rafsi) else "") + '", "'.join(rafsi) + ('"' if len(rafsi) else "") + "]" + "),\n")
     opf.write("    ]);\n}")
