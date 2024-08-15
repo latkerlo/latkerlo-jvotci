@@ -104,7 +104,6 @@ pub fn check_zihevla_or_rafsi(
                 chunk += slice(valsi, 0, 1);
                 valsi = slice_(valsi, 1);
             }
-
             if chunk.len() >= 2 && cluster_pos.is_none() {
                 if num_consonants > 1 {
                     return Err(Jvonunfli::NotZihevlaError(format!(
@@ -305,12 +304,12 @@ pub fn analyze_brivla(
         return Ok((BrivlaType::Gismu, vec![valsi]));
     }
     let res_parts = jvokaha(&valsi, settings);
-    if let Err(ref e) = res_parts {
+    if let Err(e) = res_parts {
         match e {
             Jvonunfli::DecompositionError(_)
             | Jvonunfli::InvalidClusterError(_)
             | Jvonunfli::FakeTypeError(_) => (),
-            _ => return Err(e.clone()),
+            _ => return Err(e),
         }
     } else {
         let res_parts = res_parts.unwrap();
@@ -337,11 +336,7 @@ pub fn analyze_brivla(
         }
         if let Err(e) = check_zihevla_or_rafsi(&valsi, settings, true) {
             match e {
-                Jvonunfli::NotZihevlaError(_) => {
-                    return Err(Jvonunfli::NotBrivlaError(format!(
-                        "{{{valsi}}} has no hyphens and isn't a valid zi'evla"
-                    )))
-                }
+                Jvonunfli::NotZihevlaError(m) => return Err(Jvonunfli::NotBrivlaError(m)),
                 _ => return Err(e),
             }
         }
@@ -459,7 +454,7 @@ pub fn analyze_brivla(
             for fp in found_parts {
                 let raftai = rafsi_tarmi(&fp);
                 if [Tarmi::Cvv, Tarmi::Cvhv].contains(&raftai) {
-                    num_consonants += 1
+                    num_consonants += 1;
                 } else if raftai != Tarmi::OtherRafsi {
                     num_consonants += 2;
                     has_cluster = true;
@@ -472,7 +467,7 @@ pub fn analyze_brivla(
                 && !has_cluster
                 && (settings.y_hyphens == YHyphenSetting::Standard
                     || !(i == y_parts.len() - 2
-                        && [Tarmi::Cvv, Tarmi::Cvhv].contains(&rafsi_tarmi(y_parts[1]))))
+                        && [Tarmi::Cvv, Tarmi::Ccv].contains(&rafsi_tarmi(y_parts[1]))))
             {
                 return Err(Jvonunfli::NotBrivlaError(format!(
                     "falls off due to y: {{{part}}}"

@@ -3,12 +3,12 @@ use crate::{
         FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID, ZIHEVLA_INITIAL,
     },
     exceptions::Jvonunfli,
+    jvozba::Tosytype,
     tools::{char, regex_replace_all, slice, slice_},
 };
 use itertools::{iproduct, Itertools};
-use lazy_static::lazy_static;
 use regex::Regex;
-use std::{collections::VecDeque, fmt, str::FromStr};
+use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum Tarmi {
@@ -59,9 +59,8 @@ pub struct Settings {
     pub glides: bool,
     pub allow_mz: bool,
 }
-lazy_static! {
-    #[derive(Clone, Copy)]
-    pub static ref SETTINGS_ITERATOR: Vec<Settings> = iproduct!(
+pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
+    iproduct!(
         ["", "c"],
         ["", "A", "F"],
         ["", "2", "1"],
@@ -77,8 +76,8 @@ lazy_static! {
             .unwrap()
         },
     )
-    .collect_vec();
-}
+    .collect_vec()
+});
 impl fmt::Display for Settings {
     /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
     /// Returns "default" when given the default settings
@@ -166,7 +165,13 @@ macro_rules! auto_to_string {
     };
 }
 
-auto_to_string!(BrivlaType, YHyphenSetting, ConsonantSetting, Tarmi);
+auto_to_string!(
+    BrivlaType,
+    YHyphenSetting,
+    ConsonantSetting,
+    Tarmi,
+    Tosytype
+);
 
 /// True if `c` is a vowel (non-*y*)
 pub fn is_vowel(c: char) -> bool {

@@ -1,576 +1,720 @@
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 2rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - 1rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Az
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Ag
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Agz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Ar
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Arz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Arg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Argz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A2rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - A1rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Fz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Fg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Fgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Fr
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Frz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Frg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - Frgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F2rgz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1z
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1g
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1gz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1r
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1rz
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1rg
 
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ismu
 settings - F1rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 2rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - 1rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Az
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Ag
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Agz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Ar
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Arz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Arg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Argz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A2rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - A1rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Fz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Fg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Fgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Fr
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Frz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Frg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - Frgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F2rgz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1z
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1g
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1gz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1r
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1rz
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1rg
 
 latratratratratratratraty'ismy'ismy'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ism-", "ism-", "ismu"])
+raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1rgz
 
 jesyspa'yre'e
@@ -2789,289 +2933,361 @@ settings - F1rgz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - r
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - rz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - rg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - rgz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 2r
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 2rz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 2rg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 2rgz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 1r
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 1rz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 1rg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - 1rgz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - Ar
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - Arz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - Arg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - Argz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A2r
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A2rz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A2rg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A2rgz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A1r
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A1rz
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A1rg
 
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
+raf+hyph - ke'e r y' u
 settings - A1rgz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - z
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - g
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - gz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - r
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - rz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - rg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - rgz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2z
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2g
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2gz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2r
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2rz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2rg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 2rgz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1z
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1g
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1gz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1r
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1rz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1rg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - 1rgz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Az
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Ag
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Agz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Ar
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Arz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Arg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - Argz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2z
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2g
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2gz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2r
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2rz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2rg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A2rgz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1z
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1g
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1gz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1r
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1rz
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1rg
 
 ke'erytce
 katna    - Ok(["ke'e", "mutce"])
+raf+hyph - ke'e r y tce
 settings - A1rgz
 
 re'erspa'ykerlo
@@ -3313,6 +3529,687 @@ katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
 expected - trene spati kerlo
 settings - A1rgz
 
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - z
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - g
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - gz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - r
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - rz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - rg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - rgz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2z
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2g
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2gz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2r
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2rz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2rg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 2rgz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1z
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1g
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1gz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1r
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1rz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1rg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - 1rgz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Az
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Ag
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Agz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Ar
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Arz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Arg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - Argz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2z
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2g
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2gz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2r
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2rz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2rg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A2rgz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1z
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1g
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1gz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1r
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1rz
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1rg
+
+tosleirku'i
+katna    - tonsi klesi kurji
+expected - -tos- klesi kurji
+brivtype - lujvo
+rafsi    - tos lei ku'i
+settings - A1rgz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - z
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - g
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - gz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - r
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - rz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - rg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - rgz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2z
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2g
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2gz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2r
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2rz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2rg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 2rgz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1z
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1g
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1gz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1r
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1rz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1rg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - 1rgz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Az
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Ag
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Agz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Ar
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Arz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Arg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - Argz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2z
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2g
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2gz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2r
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2rz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2rg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A2rgz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1z
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1g
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1gz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1r
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1rz
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1rg
+
+tosleirleirku'i
+katna    - tonsi klesi klesi kurji
+expected - -tos- klesi klesi kurji
+brivtype - lujvo
+rafsi    - tos lei lei ku'i
+settings - A1rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - z
+
 condi djedi
 zbasu    - cnodei
 expected - coidje
@@ -3329,7 +4226,25 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - rgz
+settings - r
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - rg
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 2
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 2z
 
 condi djedi
 zbasu    - cnodei
@@ -3347,19 +4262,13 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 2rg
+settings - 2rz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1z
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - 1g
+settings - 1
 
 condi djedi
 zbasu    - cnodei
@@ -3371,13 +4280,13 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1rz
+settings - 1rg
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1rg
+settings - A
 
 condi djedi
 zbasu    - cnodei
@@ -3395,31 +4304,25 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Agz
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
 settings - Ar
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Arz
+settings - Argz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2gz
+settings - A2
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2rz
+settings - A2r
 
 condi djedi
 zbasu    - cnodei
@@ -3431,13 +4334,7 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2rgz
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - A1g
+settings - A1
 
 condi djedi
 zbasu    - cnodei
@@ -3455,37 +4352,19 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A1rz
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
 settings - A1rgz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F
+settings - Fr
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Fg
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - Fgz
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - Frg
+settings - Frz
 
 condi djedi
 zbasu    - cnodei
@@ -3497,13 +4376,37 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F2gz
+settings - F2
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F2rg
+settings - F2z
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F2g
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F2r
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F1
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - F1g
 
 condi djedi
 zbasu    - cnodei
@@ -3515,13 +4418,36 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F1rz
+settings - F1r
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F1rgz
+settings - F1rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - z
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - gz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - r
 
 djedi condi
 zbasu    - djecoi
@@ -3533,7 +4459,7 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - 2
+settings - rg
 
 djedi condi
 zbasu    - djecoi
@@ -3545,19 +4471,25 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - 2gz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 2r
+settings - 2g
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
 settings - 2rz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 2rgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - 1
 
 djedi condi
 zbasu    - djecoi
@@ -3581,25 +4513,19 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
+settings - 1rg
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
 settings - 1rgz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Agz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - Ar
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - Arz
+settings - Ag
 
 djedi condi
 zbasu    - djecoi
@@ -3611,25 +4537,7 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - A2
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A2z
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A2r
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A2rz
+settings - Argz
 
 djedi condi
 zbasu    - djecoi
@@ -3641,25 +4549,19 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
+settings - A2rgz
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
 settings - A1
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - A1g
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A1r
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A1rz
+settings - A1gz
 
 djedi condi
 zbasu    - djecoi
@@ -3671,19 +4573,25 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Fg
+settings - F
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Fgz
+settings - Fz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Frz
+settings - Fr
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
+settings - Frg
 
 djedi condi
 zbasu    - djecoi
@@ -3695,43 +4603,19 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - F2
+settings - F2r
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - F2g
+settings - F2rgz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - F2gz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - F2rz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - F1r
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - F1rg
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - F1rgz
+settings - F1z
 
 klesi djedi
 zbasu    - kledei
@@ -3743,43 +4627,19 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - gz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - r
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
 settings - rz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - rg
+settings - rgz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 2g
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - 2gz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - 2rz
+settings - 2z
 
 klesi djedi
 zbasu    - kledei
@@ -3791,31 +4651,49 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 1
+settings - 1z
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 1gz
+settings - 1g
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 1rz
+settings - 1r
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - A
+settings - 1rg
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Ar
+settings - Az
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Ag
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Agz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - Arz
 
 klesi djedi
 zbasu    - kledei
@@ -3833,13 +4711,19 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - A2rz
+settings - A2g
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - A2rg
+settings - A2rgz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1
 
 klesi djedi
 zbasu    - kledei
@@ -3857,13 +4741,13 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - A1rg
+settings - A1rz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - A1rgz
+settings - F
 
 klesi djedi
 zbasu    - kledei
@@ -3875,19 +4759,13 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Frz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
 settings - Frg
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F2
+settings - Frgz
 
 klesi djedi
 zbasu    - kledei
@@ -3905,13 +4783,7 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F2gz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - F2rg
+settings - F2r
 
 klesi djedi
 zbasu    - kledei
@@ -3923,19 +4795,13 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F1z
+settings - F1g
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F1rz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - F1rg
+settings - F1r
 
 klesi djedi
 zbasu    - kledei
@@ -3947,37 +4813,13 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 2
+settings - z
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 2z
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - 2r
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - 2rg
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - 2rgz
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - 1
+settings - rgz
 
 djedi klesi
 zbasu    - djelei
@@ -3989,19 +4831,19 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 1g
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - 1gz
+settings - 1r
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
 settings - 1rz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1rgz
 
 djedi klesi
 zbasu    - djelei
@@ -4019,19 +4861,19 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - Arg
+settings - Argz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A2
+settings - A2z
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A2rg
+settings - A2gz
 
 djedi klesi
 zbasu    - djelei
@@ -4043,7 +4885,13 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A1g
+settings - A1
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A1z
 
 djedi klesi
 zbasu    - djelei
@@ -4079,12 +4927,6 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - Fz
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
 settings - Fgz
 
 djedi klesi
@@ -4103,19 +4945,13 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F2g
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
 settings - F2r
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F2rg
+settings - F2rz
 
 djedi klesi
 zbasu    - djelei
@@ -4128,15 +4964,3 @@ zbasu    - djelei
 expected - deikle
 score    - 5847
 settings - F1z
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - F1g
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
-settings - F1gz

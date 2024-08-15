@@ -106,11 +106,8 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     let correct_lujvo = get_lujvo_from_list(rafsi_tanru.clone(), settings);
     if let Err(e) = correct_lujvo {
         match e {
-            Jvonunfli::NoLujvoFoundError(_) => {
-                return Err(Jvonunfli::DecompositionError(format!(
-                    "{{{}}} can't be turned into a lujvo",
-                    rafsi_tanru.join(" ")
-                )))
+            Jvonunfli::NoLujvoFoundError(m) => {
+                return Err(Jvonunfli::DecompositionError(m))
             }
             _ => return Err(e),
         }

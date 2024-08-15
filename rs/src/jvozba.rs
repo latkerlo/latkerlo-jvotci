@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 use crate::{
     data::{BANNED_TRIPLES, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
@@ -15,8 +13,9 @@ use crate::{
     },
 };
 use itertools::Itertools;
+use std::collections::HashMap;
 
-#[derive(PartialEq, Clone, Copy)]
+#[derive(PartialEq, Clone, Copy, Debug)]
 pub enum Tosytype {
     Tosynone,
     Tosmabru,
@@ -25,15 +24,10 @@ pub enum Tosytype {
 
 /// Calculate the score for a rafsi (possibly including a hyphen)
 pub fn score(r: &str) -> i32 {
-    let t = match tarmi_ignoring_hyphen(r) {
-        Tarmi::OtherRafsi => 0,
-        t => t as usize,
-    };
+    let t = tarmi_ignoring_hyphen(r) as usize % 9;
     (1000 * r.len() - 400 * r.matches('\'').count() + 100 * r.matches('y').count()
         - 10 * t
-        - r.chars().filter(|c| "aeiou".contains(*c)).count())
-    .try_into()
-    .unwrap()
+        - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
 }
 
 /// Clean the tanru
@@ -66,7 +60,7 @@ pub fn get_rafsi_for_rafsi(
         if !last {
             res.push((format!("{r}y"), 2));
         } else if !is_vowel(char(&r, -1)) {
-            res.push((r, 2));
+            res.push((r.clone(), 2));
         }
     } else if [
         "LongBrivla",
@@ -76,7 +70,7 @@ pub fn get_rafsi_for_rafsi(
     .contains(&r_type)
     {
         if last {
-            res.push((r, 2))
+            res.push((r.clone(), 2))
         } else if !(r_type == Tarmi::Cvccv.to_string() && INITIAL.contains(&slice(&r, 2, 4))) {
             res.push((format!("{r}'y"), 2))
         }
@@ -85,7 +79,7 @@ pub fn get_rafsi_for_rafsi(
             && (is_consonant(char(&r, 0)) || settings.glides && is_glide(&r)))
             as i32;
         if last {
-            res.push((r, num_consonants));
+            res.push((r.clone(), num_consonants));
         } else if !first {
             res.push((format!("{r}'y"), num_consonants));
         } else {
@@ -103,7 +97,7 @@ pub fn get_rafsi_for_rafsi(
         } else if !last {
             res.push((format!("{r}'y"), num_consonants));
         }
-        res.push((r, num_consonants));
+        res.push((r.clone(), num_consonants));
     } else if r_type == Tarmi::Ccv.to_string() {
         res.push((r.clone(), 2));
         res.push((format!("{r}'y"), 2));
@@ -146,7 +140,7 @@ pub fn get_rafsi_list_list(
                 let b_type = analyze_brivla(&format!("{valsi}a"), settings);
                 if let Err(e) = b_type {
                     match e {
-                        Jvonunfli::NoLujvoFoundError(_) => {
+                        Jvonunfli::NotBrivlaError(_) => {
                             return Err(Jvonunfli::NoLujvoFoundError(format!(
                                 "{{{valsi}a}} is not a brivla"
                             )))
@@ -196,10 +190,8 @@ pub fn get_rafsi_list_list(
                                     let shape = check_zihevla_or_rafsi(valsi, settings, false);
                                     if let Err(e) = shape {
                                         match e {
-                                            Jvonunfli::NotZihevlaError(_) => {
-                                                return Err(Jvonunfli::NoLujvoFoundError(format!(
-                                                    "{{{valsi}}} is an invalid rafsi"
-                                                )))
+                                            Jvonunfli::NotZihevlaError(m) => {
+                                                return Err(Jvonunfli::NoLujvoFoundError(m))
                                             }
                                             _ => return Err(e),
                                         }
@@ -254,7 +246,7 @@ pub fn get_rafsi_list_list(
             if let Some(srl) = short_rafsi_list {
                 srl.iter().for_each(|r| {
                     let raftai = rafsi_tarmi(r);
-                    if raftai == Tarmi::OtherRafsi && settings.exp_rafsi {
+                    if raftai == Tarmi::OtherRafsi && !settings.exp_rafsi {
                         return;
                     }
                     rafsi_list.extend(get_rafsi_for_rafsi(
@@ -409,13 +401,9 @@ pub fn combine(
     } else {
         1100 * hyphen.len() as i32
     };
-    Some((
-        tosmabru_type,
-        total_c,
-        lujvo_score + hyphen_score + score(rafsi),
-        format!("{lujvo}{hyphen}{rafsi}"),
-        indices,
-    ))
+    let res = format!("{lujvo}{hyphen}{rafsi}");
+    let score = lujvo_score + hyphen_score + score(rafsi);
+    Some((tosmabru_type, total_c, score, res, indices))
 }
 
 type BestLujvoMap = HashMap<String, (String, i32, Vec<[usize; 2]>)>;
@@ -471,7 +459,7 @@ pub fn get_lujvo_from_list(
     ];
     let rafsi_list_list = rafsi_list_list?;
     if rafsi_list_list.len() < 2 {
-        return Err(Jvonunfli::FakeTypeError("rafsi_list_list is too short".to_string()));
+        return Err(Jvonunfli::FakeTypeError("not enough words".to_string()));
     }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {

@@ -1,9 +1,7 @@
-//! Contains the const RAFSI, a map from words to their affixes. docs.rs thinks it's a struct due to
-//! `lazy_static!`.
-use lazy_static::lazy_static;
-use std::collections::HashMap;
-lazy_static! {
-    pub static ref RAFSI: HashMap<&'static str, Vec<&'static str>> = HashMap::from([
+//! Contains the static RAFSI, a map from words to their affixes.
+use std::{collections::HashMap, sync::LazyLock};
+pub static RAFSI: LazyLock<HashMap<&'static str, Vec<&'static str>>> = LazyLock::new(|| {
+    HashMap::from([
         ("babda", vec![]),
         ("bablo", vec![]),
         ("backi", vec![]),
@@ -72,6 +70,7 @@ lazy_static! {
         ("bilma", vec!["bi'a"]),
         ("bilni", vec!["bil"]),
         ("bindo", vec!["bid"]),
+        ("binma", vec![]),
         ("binra", vec![]),
         ("binxo", vec!["bix", "bi'o"]),
         ("birje", vec![]),
@@ -648,6 +647,7 @@ lazy_static! {
         ("jgina", vec!["gin"]),
         ("jgira", vec!["jgi"]),
         ("jgita", vec!["git"]),
+        ("jguna", vec!["jgu"]),
         ("jguvi", vec![]),
         ("jibni", vec!["jbi"]),
         ("jibri", vec!["jib"]),
@@ -862,6 +862,7 @@ lazy_static! {
         ("lacni", vec![]),
         ("lacpu", vec!["lap", "cpu"]),
         ("lacri", vec!["lac"]),
+        ("ladlo", vec![]),
         ("ladru", vec!["lad"]),
         ("lafti", vec!["laf"]),
         ("lakne", vec!["la'e"]),
@@ -1223,6 +1224,7 @@ lazy_static! {
         ("pocli", vec![]),
         ("polje", vec!["plo"]),
         ("polno", vec!["pol"]),
+        ("pombo", vec!["pom"]),
         ("ponjo", vec!["pon", "po'o"]),
         ("ponse", vec!["pos", "po'e"]),
         ("poplu", vec![]),
@@ -1662,6 +1664,7 @@ lazy_static! {
         ("toldi", vec!["tod"]),
         ("tolfa", vec![]),
         ("tonga", vec!["tog", "to'a"]),
+        ("tonsi", vec!["tos"]),
         ("tordu", vec!["tor", "to'u"]),
         ("torni", vec!["ton", "to'i"]),
         ("torso", vec![]),
@@ -1940,5 +1943,5 @@ lazy_static! {
         ("xo'ei", vec!["xon"]),
         ("zei'e", vec!["zex"]),
         ("zei'o", vec!["zes"]),
-    ]);
-}
+    ])
+});

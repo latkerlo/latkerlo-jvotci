@@ -6,5 +6,4 @@ edition = "2021"
 [dependencies]
 humantime = "2.1.0"
 itertools = "0.13.0"
-lazy_static = "1.4.0"
 regex = "1.10.4"

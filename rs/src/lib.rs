@@ -1,4 +1,3 @@
-#![feature(effects, const_trait_impl)]
 pub mod data;
 pub mod exceptions;
 pub mod jvozba;
