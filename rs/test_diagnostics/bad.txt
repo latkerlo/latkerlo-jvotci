@@ -4203,17 +4203,6 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - z
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
 settings - g
 
 condi djedi
@@ -4226,13 +4215,13 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - r
+settings - rg
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - rg
+settings - rgz
 
 condi djedi
 zbasu    - cnodei
@@ -4256,7 +4245,7 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 2gz
+settings - 2r
 
 condi djedi
 zbasu    - cnodei
@@ -4268,19 +4257,31 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1
+settings - 2rgz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1r
+settings - 1z
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - 1rg
+settings - 1gz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1rz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - 1rgz
 
 condi djedi
 zbasu    - cnodei
@@ -4292,13 +4293,13 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Az
+settings - Ag
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Ag
+settings - Agz
 
 condi djedi
 zbasu    - cnodei
@@ -4310,31 +4311,31 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - Argz
+settings - Arz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2
+settings - Arg
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2r
+settings - A2g
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A2rg
+settings - A2rgz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A1
+settings - A1g
 
 condi djedi
 zbasu    - cnodei
@@ -4346,13 +4347,19 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - A1r
+settings - A1rg
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
 settings - A1rgz
+
+condi djedi
+zbasu    - cnodei
+expected - coidje
+score    - 5847
+settings - Fgz
 
 condi djedi
 zbasu    - cnodei
@@ -4376,37 +4383,19 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F2
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - F2z
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
-settings - F2g
-
-condi djedi
-zbasu    - cnodei
-expected - coidje
-score    - 5847
 settings - F2r
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F1
+settings - F2rz
 
 condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F1g
+settings - F2rgz
 
 condi djedi
 zbasu    - cnodei
@@ -4424,18 +4413,12 @@ condi djedi
 zbasu    - cnodei
 expected - coidje
 score    - 5847
-settings - F1rz
+settings - F1rgz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - z
 
 djedi condi
 zbasu    - djecoi
@@ -4447,49 +4430,13 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - r
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - rz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - rg
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 2z
+settings - 2
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
 settings - 2g
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 2rz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 2rgz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 1
 
 djedi condi
 zbasu    - djecoi
@@ -4513,13 +4460,7 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - 1rg
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - 1rgz
+settings - A
 
 djedi condi
 zbasu    - djecoi
@@ -4531,19 +4472,25 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
+settings - Ar
+
+djedi condi
+zbasu    - djecoi
+expected - deicno
+score    - 5847
 settings - Arg
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Argz
+settings - A2gz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - A2rg
+settings - A2r
 
 djedi condi
 zbasu    - djecoi
@@ -4561,19 +4508,7 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - A1gz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - A1rgz
-
-djedi condi
-zbasu    - djecoi
-expected - deicno
-score    - 5847
-settings - F
+settings - A1z
 
 djedi condi
 zbasu    - djecoi
@@ -4597,7 +4532,7 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - Frgz
+settings - F2gz
 
 djedi condi
 zbasu    - djecoi
@@ -4609,31 +4544,36 @@ djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - F2rgz
+settings - F2rz
 
 djedi condi
 zbasu    - djecoi
 expected - deicno
 score    - 5847
-settings - F1z
+settings - F1g
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - z
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - rz
+settings - gz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - rgz
+settings - rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2
 
 klesi djedi
 zbasu    - kledei
@@ -4645,7 +4585,19 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 2rgz
+settings - 2gz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2r
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - 2rz
 
 klesi djedi
 zbasu    - kledei
@@ -4669,7 +4621,7 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - 1rg
+settings - 1rz
 
 klesi djedi
 zbasu    - kledei
@@ -4681,55 +4633,31 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Ag
+settings - Arg
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Agz
+settings - A2rz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Arz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - Argz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - A2
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - A2g
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - A2rgz
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
-settings - A1
+settings - A1z
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
 settings - A1g
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - A1gz
 
 klesi djedi
 zbasu    - kledei
@@ -4747,25 +4675,31 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
+settings - A1rgz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
 settings - F
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Fr
+settings - Fg
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Frg
+settings - Fgz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - Frgz
+settings - F2
 
 klesi djedi
 zbasu    - kledei
@@ -4777,13 +4711,31 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F2g
+settings - F2gz
 
 klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
 settings - F2r
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2rz
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2rg
+
+klesi djedi
+zbasu    - kledei
+expected - leidje
+score    - 5847
+settings - F2rgz
 
 klesi djedi
 zbasu    - kledei
@@ -4801,13 +4753,12 @@ klesi djedi
 zbasu    - kledei
 expected - leidje
 score    - 5847
-settings - F1r
-
-klesi djedi
-zbasu    - kledei
-expected - leidje
-score    - 5847
 settings - F1rgz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
 
 djedi klesi
 zbasu    - djelei
@@ -4819,13 +4770,43 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
+settings - rz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
 settings - rgz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 1z
+settings - 2z
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2gz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2rz
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 2rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - 1gz
 
 djedi klesi
 zbasu    - djelei
@@ -4837,19 +4818,19 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 1rz
+settings - 1rg
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - 1rgz
+settings - Az
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A
+settings - Ag
 
 djedi klesi
 zbasu    - djelei
@@ -4867,13 +4848,25 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
+settings - A2
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
 settings - A2z
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A2gz
+settings - A2g
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - A2r
 
 djedi klesi
 zbasu    - djelei
@@ -4885,19 +4878,13 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A1
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
 settings - A1z
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A1gz
+settings - A1g
 
 djedi klesi
 zbasu    - djelei
@@ -4921,46 +4908,46 @@ djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - A1rgz
-
-djedi klesi
-zbasu    - djelei
-expected - deikle
-score    - 5847
 settings - Fgz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - Frz
+settings - Frg
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F2z
+settings - Frgz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F2r
+settings - F1g
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F2rz
+settings - F1gz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F1
+settings - F1rz
 
 djedi klesi
 zbasu    - djelei
 expected - deikle
 score    - 5847
-settings - F1z
+settings - F1rg
+
+djedi klesi
+zbasu    - djelei
+expected - deikle
+score    - 5847
+settings - F1rgz

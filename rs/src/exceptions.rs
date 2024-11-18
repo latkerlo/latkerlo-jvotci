@@ -7,6 +7,6 @@ pub enum Jvonunfli {
     NonLojbanCharacterError(String),
     NotBrivlaError(String),
     NotZihevlaError(String),
-    FakeTypeError(String)
+    FakeTypeError(String),
 }
 auto_to_string!(Jvonunfli);

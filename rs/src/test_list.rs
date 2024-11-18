@@ -303,7 +303,10 @@ fn kaha_f(lujvo: &str, settings: &Settings) -> i32 {
     output += &if tanru.is_err() {
         format!("\nkatna    - \x1b[93m{tanru:?}\x1b[m")
     } else {
-        format!("\nkatna    - \x1b[91m{tanru:?}\x1b[m\nraf+hyph - \x1b[91m{}\x1b[m", analyze_brivla(lujvo, settings).unwrap().1.join(" "))
+        format!(
+            "\nkatna    - \x1b[91m{tanru:?}\x1b[m\nraf+hyph - \x1b[91m{}\x1b[m",
+            analyze_brivla(lujvo, settings).unwrap().1.join(" ")
+        )
     };
     if &Settings::default() != settings {
         output += &format!("\nsettings - {settings}");
@@ -533,4 +536,10 @@ fn t_kaha() {
             i - ohnos,
         );
     }
+}
+
+#[test]
+fn init() {
+    fs::remove_dir_all("test_diagnostics").unwrap();
+    fs::create_dir_all("test_diagnostics").unwrap();
 }
