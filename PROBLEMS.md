@@ -45,3 +45,5 @@ Rust outputs `coidje` or `cnodei` inconsistently for `condi djedi`, and similarl
 Results of generating `condi djedi` 10,000 times:
 
 ```
+{"coidje": 45398, "cnodei": 54602}
+```
