@@ -12,8 +12,8 @@ use crate::{
         analyze_brivla, char, check_zihevla_or_rafsi, normalize, regex_replace_all, slice, slice_,
     },
 };
+use indexmap::IndexMap;
 use itertools::Itertools;
-use std::collections::HashMap;
 
 #[derive(PartialEq, Clone, Copy, Debug)]
 pub enum Tosytype {
@@ -406,7 +406,7 @@ pub fn combine(
     Some((tosmabru_type, total_c, score, res, indices))
 }
 
-type BestLujvoMap = HashMap<String, (String, i32, Vec<[usize; 2]>)>;
+type BestLujvoMap = IndexMap<String, (String, i32, Vec<[usize; 2]>)>;
 
 /// Add a candidate to current_best
 #[allow(clippy::type_complexity)]

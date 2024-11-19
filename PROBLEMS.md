@@ -37,13 +37,3 @@ Rust decomposes `lavlevlivy'ismu` into `lav-lev-liv-y'-ismu` rather than `la vle
 ## 5. I don't know what to call this one
 
 Rust can decompose `ke'ery'u` in `r` (except `Fr`) and `ke'erytce` in non-`F`. ???
-
-## 6. `coidje` and friends are probabilistic
-
-Rust outputs `coidje` or `cnodei` inconsistently for `condi djedi`, and similarly with `klesi` in place of `condi` and/or when the order is reversed.
-
-Results of generating `condi djedi` 10,000 times:
-
-```
-{"coidje": 45398, "cnodei": 54602}
-```
