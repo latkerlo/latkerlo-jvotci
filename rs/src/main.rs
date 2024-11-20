@@ -26,6 +26,25 @@ fn main() {
             katna = true;
         } else if input == "/zbasu" {
             katna = false;
+        } else if input == "/help" {
+            let instructions = "\x1b[96mchange mode:\n".to_string()
+                + "  /katna - lujvo --> tanru\n"
+                + "  /zbasu - tanru --> lujvo\n"
+                + "flags (default is off):\n"
+                + "  c - cmevla\n"
+                + "  r - experimental rafsi\n"
+                + "  g - treat glides as consonants\n"
+                + "  z - allow `mz`\n"
+                + "hyphens:\n"
+                + "  S - [default] CLL hyphen rules\n"
+                + "  A - allow `'y` etc\n"
+                + "  F - force `'y` etc (no `r` or `n` hyphens)\n"
+                + "consonants:\n"
+                + "  C - [default] require a consonant cluster\n"
+                + "  2 - min. 2 consonants\n"
+                + "  1 - min. 1 consonant\n"
+                + "multiple settings can be set at once, e.g. `/czF`\x1b[m";
+            println!("{instructions}");
         } else if input.starts_with('/') {
             input = input[1..].to_string();
             #[allow(unused_assignments)]
@@ -47,7 +66,11 @@ fn main() {
                 }
             }
             settings_str = new;
-            settings = Settings::from_str(&settings_str).unwrap();
+            if let Ok(s) = Settings::from_str(&settings_str) {
+                settings = s;
+            } else {
+                println!("\x1b[91minvalid settings, see `/help`\x1b[m");
+            }
             settings_str = settings.to_string();
         } else if katna {
             let res = get_veljvo(&input, &settings);
