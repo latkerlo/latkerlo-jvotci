@@ -82,7 +82,7 @@ impl fmt::Display for Settings {
     /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
     /// Returns "default" when given the default settings
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        let mut s = format!(
+        let s = format!(
             "{}{}{}{}{}{}",
             if self.generate_cmevla { "c" } else { "" },
             match self.y_hyphens {
@@ -99,9 +99,6 @@ impl fmt::Display for Settings {
             if self.glides { "g" } else { "" },
             if self.allow_mz { "z" } else { "" },
         );
-        if s.is_empty() {
-            s = "default".to_string();
-        }
         write!(f, "{s}")
     }
 }
@@ -110,15 +107,15 @@ pub struct SettingsError;
 impl FromStr for Settings {
     type Err = SettingsError;
     /// Returns a `SettingsError` if given any characters other than `cSAFC21rgz` or there are
-    /// multiple of any, unless given "default". `crgz` activate `generate_cmevla`, `exp_rafsi`,
-    /// `glides`, and `allow_mz`; `SAF` and `C21` select a `YHyphenSetting` and `ConsonantSetting`
+    /// multiple of any. `crgz` activate `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
+    /// `SAF` and `C21` select a `YHyphenSetting` and `ConsonantSetting`
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         if "crgz"
             .chars()
             .any(|x| s.chars().filter(|c| *c == x).count() > 1)
             || s.chars().filter(|c| "SAF".contains(*c)).count() > 1
             || s.chars().filter(|c| "C21".contains(*c)).count() > 1
-            || s != "default" && s.chars().filter(|c| !"cSAFC21rgz".contains(*c)).count() != 0
+            || s.chars().filter(|c| !"cSAFC21rgz".contains(*c)).count() != 0
         {
             return Err(SettingsError);
         }
