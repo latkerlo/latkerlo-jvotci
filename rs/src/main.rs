@@ -1,4 +1,5 @@
 use itertools::Itertools;
+use katna::selrafsi_list_from_rafsi_list;
 use latkerlo_jvotci::*;
 use std::{
     io::{stdin, stdout, Write},
@@ -9,27 +10,27 @@ fn main() {
     let mut settings = Settings::default();
     let mut settings_str = String::new();
     let mut input = String::new();
-    let mut katna = false;
+    let mut lanli = false;
     loop {
         input.clear();
         print!(
             "\n\x1b[96m{} {settings}\x1b[m\nenter a {}: \x1b[93m",
-            if katna { "katna" } else { "zbasu" },
-            if katna { "lujvo" } else { "tanru" }
+            if lanli { "lanli" } else { "zbasu" },
+            if lanli { "brivla" } else { "tanru" }
         );
         stdout().flush().unwrap();
         stdin().read_line(&mut input).expect("failed to read stdin");
         print!("\x1b[m");
         stdout().flush().unwrap();
         input = input.trim().to_string();
-        if input == "/katna" {
-            katna = true;
+        if input == "/lanli" {
+            lanli = true;
         } else if input == "/zbasu" {
-            katna = false;
+            lanli = false;
         } else if input == "/help" {
             let instructions = "\x1b[96mchange mode:\n".to_string()
-                + "  /katna - lujvo --> tanru\n"
-                + "  /zbasu - tanru --> lujvo\n"
+                + "  /lanli - analyzes a brivla, converts to tanru if possible\n"
+                + "  /zbasu - converts tanru to lujvo\n"
                 + "flags (default is off):\n"
                 + "  c - cmevla\n"
                 + "  r - experimental rafsi\n"
@@ -43,8 +44,11 @@ fn main() {
                 + "  C - [default] require a consonant cluster\n"
                 + "  2 - min. 2 consonants\n"
                 + "  1 - min. 1 consonant\n"
-                + "multiple settings can be set at once, e.g. `/czF`\x1b[m";
+                + "multiple settings can be set at once, e.g. `/czF`\x1b[m\n"
+                + "/quit to stop";
             println!("{instructions}");
+        } else if input == "/quit" {
+            return;
         } else if input.starts_with('/') {
             input = input[1..].to_string();
             #[allow(unused_assignments)]
@@ -72,13 +76,26 @@ fn main() {
                 println!("\x1b[91minvalid settings, see `/help`\x1b[m");
             }
             settings_str = settings.to_string();
-        } else if katna {
-            let res = get_veljvo(&input, &settings);
-            println!(
-                "{}{}\x1b[m",
-                if res.is_err() { "\x1b[91m" } else { "\x1b[92m" },
-                res.unwrap_or_else(|e| vec![e.to_string()]).join(" ")
-            );
+        } else if lanli {
+            let res = analyze_brivla(&input, &settings);
+            if let Err(e) = res {
+                println!("\x1b[91m{e}\x1b[m");
+            } else {
+                let hyphens = res.clone().unwrap().1;
+                println!(
+                    "\x1b[96m{}\n{}\n\x1b[92m{}\x1b[m",
+                    res.unwrap()
+                        .0
+                        .to_string()
+                        .to_lowercase()
+                        .replace("dl", "d l"),
+                    hyphens.join(" "),
+                    selrafsi_list_from_rafsi_list(hyphens, &settings)
+                        .unwrap()
+                        .into_iter()
+                        .join(" ")
+                );
+            }
         } else {
             let res = get_lujvo(&input, &settings);
             println!(
