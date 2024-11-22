@@ -44,8 +44,8 @@ fn main() {
                 + "  C - [default] require a consonant cluster\n"
                 + "  2 - min. 2 consonants\n"
                 + "  1 - min. 1 consonant\n"
-                + "multiple settings can be set at once, e.g. `/czF`\x1b[m\n"
-                + "/quit to stop";
+                + "multiple settings can be set at once, e.g. `/czF`\n"
+                + "/quit to stop\x1b[m";
             println!("{instructions}");
         } else if input == "/quit" {
             return;
