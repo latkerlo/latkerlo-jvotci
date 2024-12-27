@@ -550,9 +550,9 @@ veimi'ikeira'asam	ELSE	CMEVLA	vei mi'i kei ra'a sam	vreji minji kelci srana skam
 veimi'ikeicinfyra'asam	ELSE	CMEVLA	vei mi'i kei cinf ra'a sam	vreji minji kelci cinfo srana skami
 
 sleirku'i	FORCE_Y	ZIhEVLA	sleirku'i	sleirku'i		ELSE	NONE
-tosleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei ku'i	-tos- klesi kurji
+tosleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei ku'i	tonsi klesi kurji
 sleirleirku'i	FORCE_Y	ZIhEVLA	sleirleirku'i	sleirleirku'i		ELSE	NONE
-tosleirleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei lei ku'i	-tos- klesi klesi kurji
+tosleirleirku'i	FORCE_Y	NONE				ELSE	LUJVO	tos lei lei ku'i	tonsi klesi klesi kurji
 sleinku'i	ELSE	ZIhEVLA	sleinku'i	sleinku'i
 tosleinku'i	ELSE	NONE
 latysleirku'i	FORCE_Y	EXTENDED	lat sleirku'i	mlatu sleirku'i		ELSE	NONE
