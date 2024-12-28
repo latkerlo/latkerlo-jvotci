@@ -99,6 +99,9 @@ function compareLujvoPieces(corr, other) {
 function jvokaha(lujvo, { yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, glides = false, allowMZ = false } = {}) {
     const arr = jvokaha2(lujvo, { yHyphens: yHyphens, allowMZ: allowMZ });
     const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
+    if (rafsiTanru.length == 1) {
+        throw new TypeError("not enough rafsi");
+    }    
     let correctLujvo;
     try {
         correctLujvo = getLujvoFromList(rafsiTanru, {
@@ -177,7 +180,7 @@ function jvokaha2(lujvo, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false }
             lujvo = lujvo.slice(4);
             continue;
         }
-        // CVCCY and CCVCY can always be dropped
+        // CVCCy and CCVCy can always be dropped
         if ([Tarmi.CVCC, Tarmi.CCVC].includes(rafsiTarmi(lujvo.slice(0, 4)))) {
             if (isVowel(lujvo[1])) {
                 if (!(allowMZ ? MZ_VALID : VALID).includes(lujvo.slice(2, 4)))
@@ -210,6 +213,9 @@ function jvokaha2(lujvo, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false }
         if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CCV) {
             if (!INITIAL.includes(lujvo.slice(0, 2)))
                 throw new InvalidClusterError(`Invalid initial cluster {${lujvo.slice(0, 2)}} in {${original_lujvo}}`);
+            // no CCV'y
+            if (lujvo == original_lujvo && lujvo.slice(3, 5) == "'y")
+                throw new NotBrivlaError(`{${original_lujvo}} starts with CCV'y, making it a slinku'i`);        
             res.push(lujvo.slice(0, 3));
             lujvo = lujvo.slice(3);
             continue;

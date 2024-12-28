@@ -474,12 +474,16 @@ pub fn analyze_brivla(
                 )));
             }
             if i == 0 {
+                let mut to_part = "";
                 let mut smabru_part = "";
                 if rafsi_tarmi(slice(part, 0, 4)) == Tarmi::Cvhv {
+                    to_part = slice(part, 0, 4);
                     smabru_part = slice_(part, 4);
                 } else if rafsi_tarmi(slice(part, 0, 3)) == Tarmi::Cvv {
+                    to_part = slice(part, 0, 3);
                     smabru_part = slice_(part, 3);
                 } else if is_consonant(char(part, 0)) && is_vowel(char(part, 1)) {
+                    to_part = slice(part, 0, 2);
                     smabru_part = slice_(part, 2);
                 }
                 if !smabru_part.is_empty() {
@@ -489,7 +493,10 @@ pub fn analyze_brivla(
                     } else {
                         smabru_part = &hyphenless;
                     }
-                    if is_valid_rafsi(smabru_part, settings) {
+                    if is_valid_rafsi(smabru_part, settings)
+                        && !(rafsi_tarmi(smabru_part) == Tarmi::Ccv
+                            && char(slice_(y_parts[i], to_part.len() as isize), 3) == '\'')
+                    {
                         return Err(Jvonunfli::NotBrivlaError(format!(
                             "{{{part}}} is a tosmabru"
                         )));
@@ -497,7 +504,8 @@ pub fn analyze_brivla(
                     if let Err(e) = jvokaha(smabru_part, settings) {
                         match e {
                             Jvonunfli::DecompositionError(_)
-                            | Jvonunfli::InvalidClusterError(_) => (),
+                            | Jvonunfli::InvalidClusterError(_)
+                            | Jvonunfli::FakeTypeError(_) => (),
                             _ => return Err(e),
                         }
                     } else {

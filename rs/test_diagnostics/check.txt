@@ -248,293 +248,6 @@ katna    - Err(DecompositionError("{uirnainmo} is a zihevla, not a lujvo or deco
 ge'enmo
 katna    - Err(DecompositionError("{ge'enmo} is a zihevla, not a lujvo or decomposable cmevla"))
 
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Az
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Ag
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Agz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Ar
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Argz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fr
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rgz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1z
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1g
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1gz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1r
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rz
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rg
-
-gismu'ykerlo
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rgz
-
 re'e'yspa
 katna    - Err(NotBrivlaError("falls off due to y: {re'e}"))
 
@@ -33237,578 +32950,290 @@ katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Az
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Ag
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Agz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Ar
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Argz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fg
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fgz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fr
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2gz
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rgz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1z
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1g
 
 gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
 
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1r
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rz
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rg
-
-gismu'y'u
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rgz
+gismu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 2gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 2rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - 1gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - 1rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Az
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Ag
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Agz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Ar
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Arg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Argz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A2gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A2rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - A1gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - A1rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fg
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - Fgz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Fr
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - Frgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F2gz
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F2rgz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1z
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1g
 
 gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1r
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rz
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rg
-
-gismu'y'u'y'ismu
-katna    - Err(NotBrivlaError("{gismu} is a tosmabru"))
-settings - F1rgz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
@@ -33954,291 +33379,147 @@ katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 2
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 2z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 2g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 2gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 1
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 1z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 1g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - 1gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Az
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Ag
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Agz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Ar
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Argz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A2
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A2z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A2g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A2gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A1
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A1z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A1g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - A1gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Fz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Fg
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - Fgz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Fr
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F2
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F2z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F2g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F2gz
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rgz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1z
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1g
 
 mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1gz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1r
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rz
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rg
-
-mutce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rgz
 
 rai'y'u'y'ismu
 katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
@@ -49027,291 +48308,147 @@ katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 2
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 2z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 2g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 2gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 1
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 1z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 1g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - 1gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Az
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Ag
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Agz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Ar
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Argz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A2
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A2z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A2g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A2gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A1
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A1z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A1g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - A1gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Fz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Fg
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - Fgz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Fr
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F2
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F2z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F2g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F2gz
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rgz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1z
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1g
 
 mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1gz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1r
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rz
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rg
-
-mutce'yia
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rgz
 
 toia
 katna    - Err(NotBrivlaError("{toia} lacks a consonant cluster"))
@@ -64815,291 +63952,147 @@ katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F1gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 2
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 2z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 2g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 2gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 2rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 1
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 1z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 1g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - 1gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - 1rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Az
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Ag
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Agz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Ar
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Arg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Argz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A2
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A2z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A2g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A2gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A2rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A1
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A1z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A1g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - A1gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - A1rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Fz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Fg
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - Fgz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Fr
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - Frgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F2
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F2z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F2g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F2gz
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F2rgz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F1
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F1z
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F1g
 
 mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
+katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
 settings - F1gz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1r
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rz
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rg
-
-mutce'y'ei
-katna    - Err(NotBrivlaError("{mutce} is a tosmabru"))
-settings - F1rgz
 
 fa'u'u'u'y'u'u'yia
 katna    - Err(NotBrivlaError("{fa'u'u'u} lacks a consonant cluster"))

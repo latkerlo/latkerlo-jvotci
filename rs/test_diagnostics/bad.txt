@@ -1,4 +1,363 @@
 
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 2rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - 1rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Az
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Ag
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Agz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Ar
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Arz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Arg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Argz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A2rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - A1rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Fz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Fg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Fgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Fr
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Frz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Frg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - Frgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F2rgz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1z
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1g
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1gz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1r
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1rz
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1rg
+
+gismu'ykerlo
+katna    - Ok(["gismu", "kerlo"])
+raf+hyph - gismu 'y kerlo
+settings - F1rgz
+
 latratratratratratratraty'ismu
 katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "ismu"])
 raf+hyph - lat rat rat rat rat rat rat rat y' ismu
@@ -2931,6 +3290,546 @@ katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
 expected - -u- kerlo
 settings - F1rgz
 
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 2r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 2rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 2rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 2rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 1r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 1rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 1rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - 1rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Ar
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Arz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Arg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Argz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A2r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A2rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A2rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A2rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A1r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A1rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A1rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - A1rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Fr
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Frz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Frg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - Frgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F2r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F2rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F2rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F2rgz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F1r
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F1rz
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F1rg
+
+gismu'y'u
+katna    - Ok(["gismu", "-u-"])
+raf+hyph - gismu 'y' u
+settings - F1rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 2r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 2rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 2rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 2rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 1r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 1rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 1rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - 1rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Ar
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Arz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Arg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Argz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A2r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A2rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A2rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A2rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A1r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A1rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A1rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - A1rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Fr
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Frz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Frg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - Frgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F2r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F2rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F2rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F2rgz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F1r
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F1rz
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F1rg
+
+gismu'y'u'y'ismu
+katna    - Ok(["gismu", "-u-", "ismu"])
+raf+hyph - gismu 'y' u 'y' ismu
+settings - F1rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 2r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 2rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 2rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 2rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 1r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 1rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 1rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - 1rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Ar
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Arz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Arg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Argz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A2r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A2rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A2rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A2rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A1r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A1rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A1rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - A1rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Fr
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Frz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Frg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - Frgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F2r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F2rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F2rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F2rgz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F1r
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F1rz
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F1rg
+
+mutce'y'u'u'y'ismu
+katna    - Ok(["mutce", "-u'u-", "ismu"])
+raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F1rgz
+
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
 raf+hyph - ke'e r y' u
@@ -3528,6 +4427,366 @@ re'erspa'ykerlo
 katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
 expected - trene spati kerlo
 settings - A1rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 2r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 2rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 2rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 2rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 1r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 1rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 1rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - 1rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Ar
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Arz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Arg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Argz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A2r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A2rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A2rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A2rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A1r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A1rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A1rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - A1rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Fr
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Frz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Frg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - Frgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F2r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F2rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F2rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F2rgz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F1r
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F1rz
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F1rg
+
+mutce'yia
+katna    - Ok(["mutce", "-ia-"])
+raf+hyph - mutce 'y ia
+settings - F1rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 2r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 2rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 2rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 2rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 1r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 1rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 1rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - 1rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Ar
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Arz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Arg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Argz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A2r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A2rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A2rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A2rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A1r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A1rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A1rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - A1rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Fr
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Frz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Frg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - Frgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F2r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F2rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F2rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F2rgz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F1r
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F1rz
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F1rg
+
+mutce'y'ei
+katna    - Ok(["mutce", "-ei-"])
+raf+hyph - mutce 'y' ei
+settings - F1rgz
 
 condi djedi
 zbasu    - cnodei

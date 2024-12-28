@@ -2,16 +2,6 @@
 
 (all of these are also in "Issues"land)
 
-## 1. initial CCV'y should not be allowed
-
-`uajvo` is a valid zi'evla. Therefore `uajvyvla` should be a valid lujvo (it is), and so should `uajvo'yvla` (it is).
-
-This means `*jvo'yvla` should be invalid, because you could put `ua` in front of it and get a valid lujvo (so if you really wanted the `'y` you'd need to do `lujvo'yvla`).
-
-**Python** and **TS** decomposes `*jvo'yvla` just fine into `lujvo valsi`.
-
-In **Rust** it doesn't work (good) for the wrong reason (bad), because
-
 ## 2. Rust has problems with `'y`
 
 Specifically it doesn't seem to think the apostrophe is part of the hyphen; it emits errors like

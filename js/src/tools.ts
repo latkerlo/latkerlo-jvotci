@@ -449,13 +449,20 @@ function analyseBrivla(
       }
 
       if (i === 0) {
+        let toPart = "";
         let smabruPart = "";
-        if (rafsiTarmi(part.slice(0, 4)) === Tarmi.CVhV)
-          smabruPart = part.slice(4);
-        else if (rafsiTarmi(part.slice(0, 3)) === Tarmi.CVV)
-          smabruPart = part.slice(3);
-        else if (isConsonant(part[0]) && isVowel(part[1]))
-          smabruPart = part.slice(2);
+        if (rafsiTarmi(part.slice(0, 4)) === Tarmi.CVhV) {
+            toPart = part.slice(0, 4);
+            smabruPart = part.slice(4);
+        }
+        else if (rafsiTarmi(part.slice(0, 3)) === Tarmi.CVV) {
+            toPart = part.slice(0, 3);
+            smabruPart = part.slice(3);
+        }
+        else if (isConsonant(part[0]) && isVowel(part[1])) {
+            toPart = part.slice(0, 2);
+            smabruPart = part.slice(2);
+        }
 
         if (smabruPart.length > 0) {
           if (didAddA)
@@ -463,14 +470,14 @@ function analyseBrivla(
           else
             smabruPart = stripHyphens(smabruPart);
 
-          if (isValidRafsi(smabruPart))
+          if (isValidRafsi(smabruPart) && !(rafsiTarmi(smabruPart) == Tarmi.CCV && yParts[i].slice(toPart.length)[3] == "'"))
             throw new NotBrivlaError("tosmabru");
 
           try {
             jvokaha(smabruPart, {yHyphens: yHyphens, allowMZ: allowMZ});
             throw new NotBrivlaError("tosmabru");
           } catch (e) {
-            if (!(e instanceof DecompositionError || e instanceof InvalidClusterError))
+            if (!(e instanceof DecompositionError || e instanceof InvalidClusterError || e instanceof TypeError))
               throw e;
           }
         }

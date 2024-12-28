@@ -103,6 +103,9 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         .filter(|r| r.len() > 2)
         .map(|r| format!("-{r}-"))
         .collect_vec();
+    if rafsi_tanru.len() == 1 {
+        return Err(Jvonunfli::FakeTypeError("not enough rafsi".to_string()));
+    }
     let correct_lujvo = get_lujvo_from_list(rafsi_tanru.clone(), settings);
     if let Err(e) = correct_lujvo {
         match e {
@@ -201,6 +204,11 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             if !INITIAL.contains(&slice(lujvo, 0, 2)) {
                 return Err(Jvonunfli::InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
+                )));
+            }
+            if lujvo == orig && slice(lujvo, 3, 5) == "'y" {
+                return Err(Jvonunfli::NotBrivlaError(format!(
+                    "{{{orig}}} starts with CCV'y, making it a slinku'i"
                 )));
             }
             res.push(slice(lujvo, 0, 3));

@@ -125,6 +125,9 @@ function jvokaha(
   const arr = jvokaha2(lujvo, {yHyphens: yHyphens, allowMZ: allowMZ});
 
   const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
+  if (rafsiTanru.length == 1) {
+    throw new TypeError("not enough rafsi");
+  }
   let correctLujvo: string;
   try {
     correctLujvo = getLujvoFromList(
@@ -256,6 +259,8 @@ function jvokaha2(
     if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CCV) {
       if (!INITIAL.includes(lujvo.slice(0, 2)))
         throw new InvalidClusterError(`Invalid initial cluster {${lujvo.slice(0, 2)}} in {${original_lujvo}}`);
+      if (lujvo == original_lujvo && lujvo.slice(3, 5) == "'y")
+        throw new NotBrivlaError(`{${original_lujvo}} starts with CCV'y, making it a slinku'i`);
       res.push(lujvo.slice(0, 3));
       lujvo = lujvo.slice(3);
       continue;
