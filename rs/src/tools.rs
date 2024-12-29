@@ -107,7 +107,7 @@ pub fn check_zihevla_or_rafsi(
             if chunk.len() >= 2 && cluster_pos.is_none() {
                 if num_consonants > 1 {
                     return Err(Jvonunfli::NotZihevlaError(format!(
-                        "{{{valsi_}}} has too many consonants before a cluster"
+                        "{{{valsi_}}} starts with some cmavo that fall off"
                     )));
                 }
                 cluster_pos = Some(pos);
@@ -212,7 +212,7 @@ pub fn check_zihevla_or_rafsi(
     } else if num_syllables > 2 && cluster_pos.is_some() && cluster_pos > Some(0) {
         if is_brivla(slice_(valsi_, cluster_pos.unwrap()), settings)? {
             return Err(Jvonunfli::NotZihevlaError(format!(
-                "{{{valsi_}}} falls apart at a cluster: {{{} {}}}",
+                "{{{valsi_}}} falls apart: {{{} {}}}",
                 slice(valsi_, 0, cluster_pos.unwrap()),
                 slice_(valsi_, cluster_pos.unwrap())
             )));
@@ -223,7 +223,7 @@ pub fn check_zihevla_or_rafsi(
                 && is_brivla(slice_(valsi_, cluster_pos.unwrap() - i), settings)?
             {
                 return Err(Jvonunfli::NotZihevlaError(format!(
-                    "{{{valsi_}}} falls apart before a cluster: {{{} {}}}",
+                    "{{{valsi_}}} falls apart: {{{} {}}}",
                     slice(valsi_, 0, cluster_pos.unwrap() - i),
                     slice_(valsi_, cluster_pos.unwrap() - i)
                 )));
@@ -243,12 +243,12 @@ pub fn check_zihevla_or_rafsi(
         }
         if num_consonants > 1 {
             return Err(Jvonunfli::NotZihevlaError(format!(
-                "{{{valsi_}}} has too many consonants before a cluster"
+                "{{{valsi_}}} is just a cmavo compound"
             )));
         }
         if final_consonant_pos > 0 {
             return Err(Jvonunfli::NotZihevlaError(format!(
-                "{{{valsi_}}} contains internal consonants that don't cluster"
+                "{{{valsi_}}} lacks a consonant cluster"
             )));
         }
     } else if !(is_vowel(char(valsi_, 0)) && is_consonant(char(valsi_, 1)))
@@ -470,7 +470,7 @@ pub fn analyze_brivla(
                         && [Tarmi::Cvv, Tarmi::Ccv].contains(&rafsi_tarmi(y_parts[1]))))
             {
                 return Err(Jvonunfli::NotBrivlaError(format!(
-                    "falls off due to y: {{{part}}}"
+                    "{{{part}'y}} falls off"
                 )));
             }
             if i == 0 {

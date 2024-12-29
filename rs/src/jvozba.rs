@@ -167,7 +167,7 @@ pub fn get_rafsi_list_list(
                     }
                     if decomposes {
                         return Err(Jvonunfli::NoLujvoFoundError(format!(
-                            "{{{valsi}}} falls apart"
+                            "{{{valsi}a}} is a valid zi'evla, but without the final vowel it is a cmejvo"
                         )));
                     }
                 }
