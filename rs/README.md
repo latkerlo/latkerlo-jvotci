@@ -3,4 +3,4 @@ Features not present in the Python/TypeScript versions:
 
 More docs are in the README of the GitHub repo (https://github.com/latkerlo/latkerlo-jvotci/blob/main/README.md)
 
-If you run the tests please be sure to pass `--nocapture --test_threads=1` and empty/delete `test_diagnostics/` before
+If you run the tests please be sure to pass `--nocapture --test_threads=1`
