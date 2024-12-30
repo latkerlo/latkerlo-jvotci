@@ -3,6 +3,7 @@
 ## 2.0.0 (soon to release)
 - can now put zi'evla in lujvo!
 - new settings to control various things
+- fixed a typo in the changelog entry for 1.0.3 lol
 
 todo:
 - edit the readme to include rust examples
@@ -20,7 +21,7 @@ todo:
 - changed type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
 
 ## 1.0.3
-- `jvoakaha2`'s error is formatted properly
+- `jvokaha2`'s error is formatted properly
 
 ## 1.0.2
 - `get_lujvo2` no longer panics "non-Lojban character in {gry}" for *eiksy'aigryspe*
