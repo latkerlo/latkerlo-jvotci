@@ -1076,2157 +1076,2516 @@ katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "r
 raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1rgz
 
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 2rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - 1rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Az
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Ag
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Agz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Ar
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Arz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Arg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Argz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A2rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - A1rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Fz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Fg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Fgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Fr
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Frz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Frg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - Frgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F2rgz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1z
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1g
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1gz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1r
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1rz
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1rg
-
-jesyspa'yre'e
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - jesni spati trene
-settings - F1rgz
-
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 2rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - 1rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Az
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Ag
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Agz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Ar
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Arz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Arg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Argz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A2rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - A1rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Fz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Fg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Fgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Fr
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Frz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Frg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - Frgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F2rgz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1z
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1g
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1gz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1r
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1rz
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1rg
 
 smu'ynei
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
 expected - smuni nelci
 settings - F1rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 2rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - 1rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Az
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Ag
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Agz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Ar
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Arz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Arg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Argz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A2rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - A1rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Fz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Fg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Fgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Fr
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Frz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Frg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - Frgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F2rgz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1z
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1g
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1gz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1r
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1rz
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1rg
 
 smu'ykerlo
-katna    - Err(NonLojbanCharacterError("{smu'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
 expected - smuni kerlo
 settings - F1rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 2rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - 1rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Az
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Ag
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Agz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Ar
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Arz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Arg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Argz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A2rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - A1rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Fz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Fg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Fgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Fr
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Frz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Frg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - Frgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F2rgz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1z
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1g
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1gz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1r
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1rz
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1rg
 
 sto'ysmu
-katna    - Err(NonLojbanCharacterError("{sto'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
 expected - stodi smuni
 settings - F1rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Az
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Ag
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Agz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Ar
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Arz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Arg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Argz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fr
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rgz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1z
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1g
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1gz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1r
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rz
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rg
 
 spa'yspa'yspa
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 2rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - 1rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Az
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Ag
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Agz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Ar
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Arz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Arg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Argz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A2rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - A1rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Fr
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - Frgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F2rgz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1z
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1g
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1gz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1r
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rz
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rg
 
 spa'yspa'yspati
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Az
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Ag
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Agz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Ar
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Arz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Arg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Argz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fr
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - 1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Az
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Ag
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Agz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Ar
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Arz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Arg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Argz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - A1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Fr
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - Frgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+expected - spati spati spati
+settings - F1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
 expected - spati spati spati
 settings - F1rgz
 
@@ -3650,6 +4009,186 @@ katna    - Ok(["gismu", "-u-", "ismu"])
 raf+hyph - gismu 'y' u 'y' ismu
 settings - F1rgz
 
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 2rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - 1rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Ar
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Arz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Arg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Argz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A2rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - A1rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Fr
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Frz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Frg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - Frgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F2rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+expected - mutce -u'u- ismu
+settings - F1rgz
+
 mutce'y'u'u'y'ismu
 katna    - Ok(["mutce", "-u'u-", "ismu"])
 raf+hyph - mutce 'y' u'u 'y' ismu
@@ -3828,6 +4367,186 @@ settings - F1rg
 mutce'y'u'u'y'ismu
 katna    - Ok(["mutce", "-u'u-", "ismu"])
 raf+hyph - mutce 'y' u'u 'y' ismu
+settings - F1rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 2rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - 1rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Ar
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Arz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Arg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Argz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A2rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - A1rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Fr
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Frz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Frg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - Frgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F2rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
+settings - F1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+expected - smuni -u-
 settings - F1rgz
 
 ke'ery'u
@@ -4189,244 +4908,185 @@ katna    - Ok(["ke'e", "mutce"])
 raf+hyph - ke'e r y tce
 settings - A1rgz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - z
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - g
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - gz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - r
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - rz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - rg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - rgz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 2
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 2z
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 2g
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 2gz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 2r
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 2rz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 2rg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 2rgz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 1
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 1z
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 1g
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - 1gz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 1r
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 1rz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 1rg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - 1rgz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - Az
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - Ag
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - Agz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - Ar
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - Arz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - Arg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - Argz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A2
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A2z
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A2g
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A2gz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A2r
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A2rz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A2rg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A2rgz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A1
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A1z
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A1g
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
-settings - A1gz
-
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A1r
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A1rz
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A1rg
 
-re'erspa'ykerlo
-katna    - Err(NonLojbanCharacterError("{spa'} ends in an apostrophe"))
-expected - trene spati kerlo
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
 settings - A1rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - Fr
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - Frz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - Frg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - Frgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F2r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F2rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F2rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F2rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F1r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F1rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F1rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ia-
+settings - F1rgz
 
 mutce'yia
 katna    - Ok(["mutce", "-ia-"])
@@ -4606,6 +5266,186 @@ settings - F1rg
 mutce'yia
 katna    - Ok(["mutce", "-ia-"])
 raf+hyph - mutce 'y ia
+settings - F1rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 2rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - 1rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Ar
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Arz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Arg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Argz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A2rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - A1rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Fr
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Frz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Frg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - Frgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F2rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
+settings - F1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+expected - mutce -ei-
 settings - F1rgz
 
 mutce'y'ei

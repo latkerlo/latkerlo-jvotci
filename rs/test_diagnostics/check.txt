@@ -33236,146 +33236,146 @@ katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 1
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 1z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 1g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 1gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Az
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Ag
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Agz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A2
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A2z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A2g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A2gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Fz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Fg
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Fgz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F2z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F2g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F2gz
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1z
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1g
 
 tce'y'u'u'y'ismu
-katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
 
 mutce'y'u'u'y'ismu
@@ -35192,146 +35192,146 @@ katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 1
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 1z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 1g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 1gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Az
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Ag
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Agz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A2
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A2z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A2g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A2gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Fz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Fg
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Fgz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F2z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F2g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F2gz
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1z
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1g
 
 smu'y'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
 
 kery'u
@@ -48165,146 +48165,146 @@ katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 1
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 1z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 1g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 1gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Az
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Ag
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Agz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A2
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A2z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A2g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A2gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Fz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Fg
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Fgz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F2z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F2g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F2gz
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1z
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1g
 
 tce'yia
-katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
 
 mutce'yia
@@ -63809,146 +63809,146 @@ katna    - Err(NotBrivlaError("{nei'y'ei} is just a cmavo or cmavo compound"))
 settings - F1rgz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 1
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 1z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 1g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 1gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Az
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Ag
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Agz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A2
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A2z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A2g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A2gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Fz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Fg
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Fgz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F2z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F2g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F2gz
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1z
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1g
 
 tce'y'ei
-katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
 
 mutce'y'ei

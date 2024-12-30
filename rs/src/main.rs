@@ -1,6 +1,6 @@
 use itertools::Itertools;
-use katna::selrafsi_list_from_rafsi_list;
 use latkerlo_jvotci::*;
+use katna::selrafsi_list_from_rafsi_list;
 use std::{
     io::{stdin, stdout, Write},
     str::FromStr,

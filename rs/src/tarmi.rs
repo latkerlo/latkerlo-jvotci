@@ -331,7 +331,7 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
             (false, true) => Tarmi::Ccv,
             _ => Tarmi::OtherRafsi,
         },
-        4 => match (is_vowel(char(r, 1)), char(r, 2), is_vowel(char(r, 3))) {
+        4 if char(r, 3) != '\'' => match (is_vowel(char(r, 1)), char(r, 2), is_vowel(char(r, 3))) {
             (true, '\'', true) => Tarmi::Cvhv,
             (true, _, false) if is_consonant(char(r, 3)) => Tarmi::Cvcc,
             (false, v, false) if is_vowel(v) => Tarmi::Ccvc,
