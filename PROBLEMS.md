@@ -2,6 +2,11 @@
 
 (all of these are also in "Issues"land)
 
+## initial ccv'y related stuff
+
+- need to fix python still
+- can still be zbasu'd (`-jvo- ismu` → `jvo'y'ismu`; `lujvo ismu` → `luvy'ismu`)
+
 ## 3. misidentifying slinku'i
 
 In `Fr`, Rust thinks `u'ykerlo` is a slinku'i. It isn't because putting `pa` in front of it would be `pa.u'ykerlo`.

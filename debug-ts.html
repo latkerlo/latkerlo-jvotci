@@ -4,19 +4,18 @@
         <title>jvotci testy thing (ts)</title>
         <meta charset="utf-8" />
         <style>
-            :not(pre){font-family:inherit;}
-            pre{font-family: "iosevie";}
-            td:first-of-type{text-align:right;}
-            body>button{font-size:1.25em;}
-            .dark{color:white;background-color:black;}
-            .dark #dark{display:none;}
-            .err{color:red;}
-            .dark .err{color:orange;}
+            :not(pre) {font-family: inherit;}
+            td:first-of-type {text-align: right;}
+            body > button {font-size: 1.25em;}
+            .err {color: red;}
+            @media (prefers-color-scheme: dark) {
+                body {color: white; background-color: black;}
+                .dark .err {color: orange;}
+            }
         </style>
     </head>
     <body>
         <h1>jvotci testy thing (ts)</h1>
-        <button id="dark">stop blinding me</button>
         <p>maybe open debugger --></p>
         <p>mode <select name="mode" id="mode">
             <option value="getLujvo">zbasu</option>
@@ -27,7 +26,7 @@
         <fieldset style="width: fit-content;">
             <legend>settings <button id="default">default</button></legend>
             <table>
-                <tr id="cmevla_row">
+                <tr>
                     <td>cmevla</td>
                     <td><input type="checkbox" name="cmevla" id="cmevla" /> (zbasu only)</td>
                 </tr>
@@ -73,7 +72,6 @@
         <script>
             const id = x => document.getElementById(x);
             id`ko`.disabled = false;
-            id`dark`.addEventListener("click", function() {document.body.classList.add("dark");});
             id`ko`.addEventListener("click", function() {
                 id`out`.classList.remove("err");
                 let y = id`y_hyphens`.value.toUpperCase();
