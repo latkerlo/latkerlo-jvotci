@@ -347,7 +347,10 @@ function combine(
       hyphen = "y"
     else
       return null;
-
+  } else if (
+    lujvo.length == 5 && rafsiTarmi(lujvo.slice(0, 3)) == Tarmi.CCV && lujvo.slice(3) == "'y"
+  ) {
+    return null;
   } else if (lujvo.length <= 5 && !generateCmevla) {
     const raftai0 = tarmiIgnoringHyphen(lujvo);
     if ([Tarmi.CVhV, Tarmi.CVV].includes(raftai0)) {
