@@ -4,12 +4,12 @@
 
 ## initial ccv'y related stuff
 
-- need to fix python still
-- can still be zbasu'd (`-jvo- ismu` → `jvo'y'ismu`; `lujvo ismu` → `luvy'ismu`)
+- need to fix python & rewrite tests still
+- in `r`, `mutce ia` errors rather than becoming `mutcyia` even though it can katna that
 
 ## 3. misidentifying slinku'i
 
-In `Fr`, Rust thinks `u'ykerlo` is a slinku'i. It isn't because putting `pa` in front of it would be `pa.u'ykerlo`.
+In `Fr`, Rust thinks `u'ykerlo` is a slinku'i. It isn't because putting `pa` in front of it would be `pa .u'ykerlo` rather than `pau'ykerlo`.
 
 ## 4. not identifying tosmabru before `y'`
 

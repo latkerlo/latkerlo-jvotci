@@ -5628,6 +5628,1408 @@ katna    - Ok(["mutce", "-ei-"])
 raf+hyph - mutce 'y' ei
 settings - F1rgz
 
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 2rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - 1rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Az
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Ag
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Agz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Ar
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Arz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Arg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Argz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A2rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - A1rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Fz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Fg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Fgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Fr
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Frz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Frg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - Frgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F2rgz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1z
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1g
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1gz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1r
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1rz
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1rg
+
+spati ismu
+zbasu    - spaty'ismu
+expected - spa'y'ismu
+score    - 9657
+expected - 9227
+indices  - 0-4,6-10
+expected - 0-3,6-10
+settings - F1rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 2r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 2rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 2rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 2rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 1r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 1rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 1rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - 1rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Ar
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Arz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Arg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Argz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A2r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A2rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A2rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A2rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A1r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A1rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A1rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - A1rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Fr
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Frz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Frg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - Frgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F2r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F2rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F2rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F2rgz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F1r
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F1rz
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F1rg
+
+mutce -ia-
+zbasu    - mutcyia
+expected - tce'yia
+indices  - 0-4,5-7
+expected - 0-3,5-7
+settings - F1rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 2rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - 1rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Az
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Ag
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Agz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Ar
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Arz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Arg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Argz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A2rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - A1rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Fz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Fg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Fgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Fr
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Frz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Frg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - Frgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F2rgz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1z
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1g
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1gz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1r
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1rz
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1rg
+
+zgana iicne
+zbasu    - zganyiicne
+expected - zga'yiicne
+indices  - 0-4,5-10
+expected - 0-3,5-10
+settings - F1rgz
+
 condi djedi
 zbasu    - cnodei
 expected - coidje

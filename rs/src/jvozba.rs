@@ -167,7 +167,8 @@ pub fn get_rafsi_list_list(
                     }
                     if decomposes {
                         return Err(Jvonunfli::NoLujvoFoundError(format!(
-                            "{{{valsi}a}} is a valid zi'evla, but without the final vowel it is a cmejvo"
+                            "{{{valsi}a}} is a valid zi'evla, but without the final vowel it is a \
+                             cmejvo"
                         )));
                     }
                 }
@@ -334,6 +335,11 @@ pub fn combine(
         } else {
             return None;
         }
+    } else if lujvo.len() == 5
+        && rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Ccv
+        && slice_(lujvo, 3) == "'y"
+    {
+        return None;
     } else if lujvo.len() <= 5 && !settings.generate_cmevla {
         let raftai0 = tarmi_ignoring_hyphen(lujvo);
         if [Tarmi::Cvhv, Tarmi::Cvv].contains(&raftai0) {
