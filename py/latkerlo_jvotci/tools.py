@@ -384,12 +384,16 @@ def analyse_brivla(
                     raise NotBrivlaError("falls off because y")
 
             if i == 0:
+                to_part = ""
                 smabru_part = ""
                 if rafsi_tarmi(part[:4]) == CVhV:
+                    to_part = part[:4]
                     smabru_part = part[4:]
                 elif rafsi_tarmi(part[:3]) == CVV:
+                    to_part = part[:3]
                     smabru_part = part[3:]
                 elif is_consonant(part[0]) and is_vowel(part[1]): # and not is_gismu(part):
+                    to_part = part[:2]
                     smabru_part = part[2:]
 
                 if smabru_part:
@@ -398,13 +402,13 @@ def analyse_brivla(
                     else:
                         smabru_part = strip_hyphens(smabru_part)
 
-                    if is_valid_rafsi(smabru_part):
+                    if is_valid_rafsi(smabru_part) and not (rafsi_tarmi(smabru_part) == CCV and y_parts[i][len(to_part) + 3] == "'"):
                         raise NotBrivlaError("tosmabru")
 
                     try:
                         jvokaha(smabru_part, y_hyphens=y_hyphens, allow_mz=allow_mz)
                         raise NotBrivlaError("tosmabru")
-                    except (DecompositionError, InvalidClusterError):
+                    except (DecompositionError, InvalidClusterError, TypeError):
                         pass
         else:
             require_zihevla = require_cluster or not exp_rafsi_shapes

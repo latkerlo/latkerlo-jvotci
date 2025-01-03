@@ -328,6 +328,8 @@ def combine(
             hyphen = "y"
         else:
             return
+    elif len(lujvo) == 5 and rafsi_tarmi(lujvo[0:3]) == CCV and lujvo[3:] == "'y":
+        return
     elif len(lujvo) <= 5 and not generate_cmevla:
         raftai_0 = tarmi_ignoring_hyphen(lujvo)
         if raftai_0 in [CVhV, CVV]:

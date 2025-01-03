@@ -119,6 +119,10 @@ def jvokaha(
     arr = jvokaha_2(lujvo, y_hyphens=y_hyphens, allow_mz=allow_mz)
 
     rafsi_tanru = [f'-{x}-' for x in arr if len(x) > 2]
+
+    if len(rafsi_tanru) == 1:
+        raise TypeError("not enough rafsi")
+
     try:
         correct_lujvo = get_lujvo_from_list(
             rafsi_tanru,
@@ -199,7 +203,7 @@ def jvokaha_2(
             lujvo = lujvo[4:]
             continue
 
-        # CVCCY and CCVCY can always be dropped
+        # CVCCy and CCVCy can always be dropped
         if rafsi_tarmi(lujvo[:4]) in [CVCC, CCVC]:
             if is_vowel(lujvo[1]):
                 if lujvo[2:4] not in (MZ_VALID if allow_mz else VALID):
@@ -231,6 +235,8 @@ def jvokaha_2(
         if rafsi_tarmi(lujvo[:3]) == CCV:
             if lujvo[0:2] not in INITIAL:
                 raise InvalidClusterError(f"Invalid initial cluster {{{lujvo[0:2]}}} in {{{original_lujvo}}}")
+            if lujvo == original_lujvo and lujvo[3:5] == "'y":
+                raise NotBrivlaError(f"{{{original_lujvo}}} starts with CCV'y, making it a slinku'i")
             res.append(lujvo[:3])
             lujvo = lujvo[3:]
             continue
