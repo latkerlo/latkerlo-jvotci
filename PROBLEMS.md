@@ -5,7 +5,6 @@
 ## initial ccv'y related stuff
 
 - need to fix python & rewrite tests still
-- in `r`, `mutce ia` errors rather than becoming `mutcyia` even though it can katna that
 
 ## 3. misidentifying slinku'i
 
