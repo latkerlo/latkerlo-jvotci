@@ -12,9 +12,9 @@ TEST_LISTS = [
     "katna_test_list",
 ]
 
-with open(f"tests/js_tests.js", "w") as opf:
+with open(f"tests/js_tests.js", "w", encoding="utf-8") as opf:
     for test_name in TEST_LISTS:
-        with open(f"tests/{test_name}.tsv") as ipf:
+        with open(f"tests/{test_name}.tsv", encoding="utf-8") as ipf:
             opf.write(f"const {test_name.upper()} = [\n")
             reader = csv.reader(ipf, delimiter="\t")
             for row in reader:
@@ -27,7 +27,7 @@ with open(f"tests/js_tests.js", "w") as opf:
                 opf.write(f"""  ["{'", "'.join(row)}"],\n""")
             opf.write("]\n\n")
 
-    with open(f"tests/jvs_words.json") as ipf:
+    with open(f"tests/jvs_words.json", encoding="utf-8") as ipf:
         jvs_words = json.load(ipf)
 
     opf.write("const JVS_WORDS = new Map([\n")

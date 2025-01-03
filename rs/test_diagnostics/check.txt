@@ -26460,6 +26460,2015 @@ akti'ymilonu
 katna    - Err(NotBrivlaError("{milonu} is just a cmavo compound"))
 settings - F1rgz
 
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+smu'ynei
+katna    - Err(NotBrivlaError("{smu'ynei} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+smu'ykerlo
+katna    - Err(NotBrivlaError("{smu'ykerlo} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+sto'ysmu
+katna    - Err(NotBrivlaError("{sto'ysmu} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+spa'yspa'yspa
+katna    - Err(NotBrivlaError("{spa'yspa'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+spa'yspa'yspati
+katna    - Err(NotBrivlaError("{spa'yspa'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+spa'yspati'yspa
+katna    - Err(NotBrivlaError("{spa'yspati'yspa} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+spa'yspati'yspati
+katna    - Err(NotBrivlaError("{spa'yspati'yspati} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
 sproi
 katna    - Err(NotBrivlaError("{sproi} doesn't have enough syllables"))
 
@@ -33252,6 +35261,22 @@ settings - gz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'y'u'u'y'ismu
@@ -33265,6 +35290,22 @@ settings - 2g
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
@@ -33284,6 +35325,22 @@ settings - 1gz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'y'u'u'y'ismu
@@ -33297,6 +35354,22 @@ settings - Ag
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - Agz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Argz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
@@ -33316,6 +35389,22 @@ settings - A2gz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'y'u'u'y'ismu
@@ -33329,6 +35418,22 @@ settings - A1g
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
@@ -33348,6 +35453,22 @@ settings - Fgz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'y'u'u'y'ismu
@@ -33364,6 +35485,22 @@ settings - F2gz
 
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'y'u'u'y'ismu
@@ -33377,6 +35514,22 @@ settings - F1g
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+tce'y'u'u'y'ismu
+katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
 
 mutce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
@@ -35208,6 +37361,22 @@ settings - gz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 smu'y'u
@@ -35221,6 +37390,22 @@ settings - 2g
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
@@ -35240,6 +37425,22 @@ settings - 1gz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 smu'y'u
@@ -35253,6 +37454,22 @@ settings - Ag
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - Agz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Argz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
@@ -35272,6 +37489,22 @@ settings - A2gz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 smu'y'u
@@ -35285,6 +37518,22 @@ settings - A1g
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
@@ -35304,6 +37553,22 @@ settings - Fgz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 smu'y'u
@@ -35320,6 +37585,22 @@ settings - F2gz
 
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 smu'y'u
@@ -35333,6 +37614,22 @@ settings - F1g
 smu'y'u
 katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+smu'y'u
+katna    - Err(NotBrivlaError("{smu'y'u} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
 
 kery'u
 katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
@@ -48181,6 +50478,22 @@ settings - gz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'yia
@@ -48194,6 +50507,22 @@ settings - 2g
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
@@ -48213,6 +50542,22 @@ settings - 1gz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'yia
@@ -48226,6 +50571,22 @@ settings - Ag
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - Agz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Argz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
@@ -48245,6 +50606,22 @@ settings - A2gz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'yia
@@ -48258,6 +50635,22 @@ settings - A1g
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
@@ -48277,6 +50670,22 @@ settings - Fgz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'yia
@@ -48293,6 +50702,22 @@ settings - F2gz
 
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'yia
@@ -48306,6 +50731,22 @@ settings - F1g
 tce'yia
 katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+tce'yia
+katna    - Err(NotBrivlaError("{tce'yia} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
 
 mutce'yia
 katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
@@ -63825,6 +66266,22 @@ settings - gz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2
 
 tce'y'ei
@@ -63838,6 +66295,22 @@ settings - 2g
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - 2gz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
@@ -63857,6 +66330,22 @@ settings - 1gz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A
 
 tce'y'ei
@@ -63870,6 +66359,22 @@ settings - Ag
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - Agz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Argz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
@@ -63889,6 +66394,22 @@ settings - A2gz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1
 
 tce'y'ei
@@ -63902,6 +66423,22 @@ settings - A1g
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - A1gz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
@@ -63921,6 +66458,22 @@ settings - Fgz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F2
 
 tce'y'ei
@@ -63937,6 +66490,22 @@ settings - F2gz
 
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1
 
 tce'y'ei
@@ -63950,6 +66519,22 @@ settings - F1g
 tce'y'ei
 katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
 settings - F1gz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+tce'y'ei
+katna    - Err(NotBrivlaError("{tce'y'ei} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
 
 mutce'y'ei
 katna    - Err(NotBrivlaError("{ei} is too short to be a zi'evla"))

@@ -169,7 +169,7 @@ mlatu'yfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	mlatu fa'u'u'u'u'u'u'u'unmo	mlatu fa'
 ismyfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	ism fa'u'u'u'u'u'u'u'unmo	ism- fa'u'u'u'u'u'u'u'unmo	0-3,4-25
 ismu'yfa'u'u'u'u'u'u'u'unmo	ELSE	EXTENDED	ismu fa'u'u'u'u'u'u'u'unmo	ismu fa'u'u'u'u'u'u'u'unmo	0-4,6-27
 latyiismu	ELSE	EXTENDED	lat iismu	mlatu iismu	0-3,4-9
-gismu'ykerlo	ELSE	NONE	(gi smu'ykerlo)
+gismu'ykerlo	ELSE	EXTENDED	gismu kerlo	gismu kerlo	0-5,7-12
 nely'akti	ELSE	EXTENDED	nel akti	nelci akti	0-3,5-9
 jesyspati'yre'e	ELSE	EXTENDED	jes spati re'e	jesni spati trene	0-3,4-9,11-15
 spati'yspati'yspati	ELSE	EXTENDED	spati spati spati	spati spati spati	0-5,7-12,14-19
@@ -323,13 +323,13 @@ akti'ymi	MORE_RAF	EXTENDED	akti mi	akti -mi-		ELSE	NONE
 akti'yminelci	ELSE	NONE	(mi nelci)
 akti'ymi'au	MORE_RAF	EXTENDED	akti mi'au	akti -mi'au-		ELSE	NONE
 akti'ymilonu	ELSE	NONE	(mi lo nu)
-smu'ynei	ELSE	EXTENDED	smu nei	smuni nelci
-smu'ykerlo	ELSE	EXTENDED	smu kerlo	smuni kerlo
-sto'ysmu	ELSE	EXTENDED	sto smu	stodi smuni
-spa'yspa'yspa	ELSE	EXTENDED	spa spa spa	spati spati spati
-spa'yspa'yspati	ELSE	EXTENDED	spa spa spati	spati spati spati
-spa'yspati'yspa	ELSE	EXTENDED	spa spati spa	spati spati spati
-spa'yspati'yspati	ELSE	EXTENDED	spa spati spati	spati spati spati
+smu'ynei	ELSE	NONE
+smu'ykerlo	ELSE	NONE
+sto'ysmu	ELSE	NONE
+spa'yspa'yspa	ELSE	NONE
+spa'yspa'yspati	ELSE	NONE
+spa'yspati'yspa	ELSE	NONE
+spa'yspati'yspati	ELSE	NONE
 spati'yspa'yspa	ELSE	EXTENDED	spati spa spa	spati spati spati
 spati'yspa'yspati	ELSE	EXTENDED	spati spa spati	spati spati spati
 sproi	ELSE	NONE	(not enough syllables)
@@ -380,11 +380,11 @@ kerlyfa'u'u'u'u'u'u'u'ukerlo	ELSE	NONE	(fa'u... not standard rafsi, so needs y s
 
 gismy'u	MORE_RAF	EXTENDED	gism u	gismu -u-		ELSE	NONE
 gismy'u'yiismu	MORE_RAF	EXTENDED	gism u iismu	gismu -u- iismu		ELSE	NONE
-gismu'y'u	ELSE	NONE	(gi smu'y'u)
-gismu'y'u'y'ismu	ELSE	NONE	(gi smu'y'u'y'ismu)
+gismu'y'u	MORE_RAF	EXTENDED	gismu u	gismu -u-		ELSE	NONE
+gismu'y'u'y'ismu	MORE_RAF	EXTENDED	gismu u ismu	gismu -u- ismu		ELSE	NONE
 
-tce'y'u'u'y'ismu	MORE_RAF	EXTENDED	tce u'u ismu	mutce -u'u- ismu		ELSE	NONE
-mutce'y'u'u'y'ismu	ELSE	NONE	(mu tce'y'u'u'y'ismu)
+tce'y'u'u'y'ismu	ELSE	NONE
+mutce'y'u'u'y'ismu	MORE_RAF	EXTENDED	mutce u'u ismu	mutce -u'u- ismu		ELSE	NONE
 rai'y'ismu	ELSE	EXTENDED	rai ismu	traji ismu
 rai'y'u'y'ismu	MORE_RAF	EXTENDED	rai u ismu	traji -u- ismu		ELSE	NONE
 rai'y'u'u'y'ismu	MORE_RAF	EXTENDED	rai u'u ismu	traji -u'u- ismu		ELSE	NONE
@@ -398,7 +398,7 @@ imzu'y'u'u	MORE_RAF & YES_MZ	EXTENDED	imzu u'u	imzu -u'u-		ELSE	NONE
 fa'u'y'imzu	YES_MZ	EXTENDED	fa'u imzu	farlu imzu		ELSE	NONE
 
 u'ysmu	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	u smu	-u- smuni		ELSE	NONE
-smu'y'u	MORE_RAF	EXTENDED	smu u	smuni -u-		ELSE	NONE
+smu'y'u	ELSE	NONE
 kery'u	ELSE	NONE	(ke ry'u)
 ke'ery'u	ELSE	NONE	(ke'e ry'u)
 ke'e'e'e'e'e'e'ery'u	ELSE	NONE	(ke'e'e'e'e'e'e'e ry'u)
@@ -472,8 +472,8 @@ mlaty''''ymlatu	ELSE	NONE
 le'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	le ia	-le- -ia-		ELSE	NONE
 ia'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT) & GLIDES	EXTENDED	ia ia	-ia- -ia-		ELSE	NONE
 ia'yle	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	ia le	-ia- -le-		ELSE	NONE
-tce'yia	MORE_RAF	EXTENDED	tce ia	mutce -ia-		ELSE	NONE
-mutce'yia	ELSE	NONE	(mu tce'yia)
+tce'yia	ELSE	NONE
+mutce'yia	MORE_RAF	EXTENDED	mutce ia	mutce -ia-		ELSE	NONE
 toia	ELSE	NONE	(two cmavo)
 ia'ymutce	(ALLOW_Y | FORCE_Y) & MORE_RAF	EXTENDED	ia mutce	-ia- mutce		ELSE	NONE
 iismuia	ELSE	NONE	(ii smuia)
@@ -594,8 +594,8 @@ nei'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLID
 nelyia	MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT | GLIDES)	EXTENDED	nel ia	nelci -ia-	0-3,4-6	ELSE	NONE
 nely'ei	ELSE	NONE	(ne ly'ei)
 nei'y'ei	ELSE	NONE
-tce'y'ei	MORE_RAF	EXTENDED	tce ei	mutce -ei-	0-3,6-8	ELSE	NONE
-mutce'y'ei	ELSE	NONE	(mu tce'y'ei)
+tce'y'ei	ELSE	NONE
+mutce'y'ei	MORE_RAF	EXTENDED	mutce ei	mutce -ei-	0-5,8-10	ELSE	NONE
 fa'u'u'u'y'u'u'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	fa'u'u'u u'u ia	-fa'u'u'u- -u'u- -ia-	0-8,11-14,16-18	ELSE	NONE
 nei'ynei'ynei	(ALLOW_Y | FORCE_Y) & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei	nelci nelci nelci	0-3,5-8,10-13	ELSE	NONE
 nei'yneinei	FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)	LUJVO	nei nei nei	nelci nelci nelci	0-3,5-8,8-11	ALLOW_Y & (TWO_CONSONANTS | ONE_CONSONANT)	EXTENDED	nei nei nei	nelci nelci nelci	0-3,5-8,8-11	ELSE	NONE

@@ -128,7 +128,7 @@ ismei kerlo		ELSE	ismei'ykerlo		0-5,7-12
 slasi kerlo ismu		ELSE	laskerly'ismu		0-3,3-7,9-13
 slasi mlat- ismu		ELSE	lasmlaty'ismu
 slasi mlatu ismu		ELSE	lasmlaty'ismu
-spati ismu		ELSE	spa'y'ismu	9227	0-3,6-10
+spati ismu		ELSE	spaty'ismu	9657	0-4,6-10
 frica stodraunju		ELSE	ficystodraunju
 bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti -lot- -lo'i-		ELSE	bloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i
 -mlatu- bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti bloti -lot- -lo'i- smuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi ismu		ELSE	mlatu'ybloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblobloblolotlo'i'ysmuiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiauiauiauiiuuueiuaiautsmtsisrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsrsi'y'ismu
@@ -244,7 +244,7 @@ ismu -fa'u'u-		MORE_RAF	ismu'yfa'u'u			ELSE	NONE
 -ia- -le-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	ia'yle			ELSE	NONE
 -fa'u- -ia-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	fa'u'yia			ELSE	NONE
 -ia- -fa'u-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	ia'yfa'u			ELSE	NONE
-mutce -ia-		MORE_RAF	tce'yia		0-3,5-7	ELSE	NONE
+mutce -ia-		MORE_RAF	mutcyia	7077	0-4,5-7	ELSE	NONE
 mutc- -ia-		MORE_RAF	mutcyia	7077	0-4,5-7	ELSE	NONE
 -mutce- -ia-		ELSE	NONE
 -ia- mutce		(ALLOW_Y | FORCE_Y) & MORE_RAF	ia'ytce			ELSE	NONE
@@ -268,7 +268,7 @@ tceneirduk- kelci		FORCE_Y	tceneirdukykei		0-10,11-14	ELSE	NONE
 mi ismu		ELSE	miby'ismu
 mi iismu		ELSE	mibyiismu
 no'e crezuue		ELSE	norycrezuue
-zgana iicne		ELSE	zga'yiicne		0-3,5-10
+zgana iicne		ELSE	zganyiicne		0-4,5-10
 zgana zgana iicne		ELSE	zgazga'yiicne	12555	0-3,3-6,8-13
 zgana -zga- iicne		ELSE	zgazga'yiicne	12555	0-3,3-6,8-13
 zgana zgan- iicne		ELSE	zgazganyiicne	12985	0-3,3-7,8-13
