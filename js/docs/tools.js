@@ -60,6 +60,10 @@ function isGismuOrLujvo(aString, { yHyphens = YHyphenSetting.STANDARD, allowMZ =
  * @returns True if string fails slinku'i test.
  */
 function isSlinkuhi(aString, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false } = {}) {
+    if (isVowel(aString[0])) {
+        // words starting with vowels have an invisible `.` at the start
+        return false;
+    }
     try {
         jvokaha("to" + aString, { yHyphens: yHyphens, allowMZ: allowMZ });
         return true;

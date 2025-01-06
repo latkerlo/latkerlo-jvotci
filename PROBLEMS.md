@@ -2,8 +2,6 @@
 
 (all of these are also in "Issues"land)
 
-## 3. `i'ykerlo` bad but `[aeou]'ykerlo` good in `Fr` (all langs)
-
 ## 4. not identifying tosmabru before `y'`
 
 Rust decomposes `lavlevlivy'ismu` into `lav-lev-liv-y'-ismu` rather than `la vle-vliv-y'-ismu`.

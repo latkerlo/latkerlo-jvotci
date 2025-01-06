@@ -79,6 +79,10 @@ function isSlinkuhi(
     allowMZ = false
   } = {}
 ): boolean {
+  if (isVowel(aString[0])) {
+    // words starting with vowels have an invisible `.` at the start
+    return false;
+  }
   try {
     jvokaha("to" + aString, {yHyphens: yHyphens, allowMZ: allowMZ});
     return true;

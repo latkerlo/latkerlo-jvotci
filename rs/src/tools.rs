@@ -67,7 +67,10 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 /// True if `s` isn't a valid word because putting a CV cmavo in front of it makes it a lujvo (e.g.
 /// *pa \*slinku'i*)
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
-    if let Err(e) = jvokaha(&format!("to{s}"), settings) {
+    if is_vowel(char(s, 0)) {
+        // words starting with vowels have an invisible `.` at the start
+        Ok(false)
+    } else if let Err(e) = jvokaha(&format!("pa{s}"), settings) {
         match e {
             Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => Ok(false),
             _ => Err(e),

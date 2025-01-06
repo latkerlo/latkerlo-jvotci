@@ -65,6 +65,9 @@ def is_slinkuhi(string: str, y_hyphens: str = STANDARD, allow_mz: bool = False) 
     :return: True if string fails slinku'i test.
     """
     from latkerlo_jvotci.katna import jvokaha
+    if (is_vowel(string[0])):
+        # words starting with vowels have an invisible `.` at the start
+        return False
     try:
         jvokaha("to" + string, y_hyphens=y_hyphens, allow_mz=allow_mz)
         return True
