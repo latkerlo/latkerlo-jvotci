@@ -67,7 +67,7 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 /// True if `s` isn't a valid word because putting a CV cmavo in front of it makes it a lujvo (e.g.
 /// *pa \*slinku'i*)
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
-    if let Err(e) = jvokaha(&format!("pa{s}"), settings) {
+    if let Err(e) = jvokaha(&format!("to{s}"), settings) {
         match e {
             Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => Ok(false),
             _ => Err(e),
@@ -469,9 +469,7 @@ pub fn analyze_brivla(
                     || !(i == y_parts.len() - 2
                         && [Tarmi::Cvv, Tarmi::Ccv].contains(&rafsi_tarmi(y_parts[1]))))
             {
-                return Err(Jvonunfli::NotBrivlaError(format!(
-                    "{{{part}'y}} falls off"
-                )));
+                return Err(Jvonunfli::NotBrivlaError(format!("{{{part}'y}} falls off")));
             }
             if i == 0 {
                 let mut to_part = "";

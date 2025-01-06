@@ -717,66 +717,6 @@ katna    - Ok(["mlatu", "ratni", "ratni", "ratni", "ratni", "ratni", "ratni", "r
 raf+hyph - lat rat rat rat rat rat rat rat y' ism y' ism y' ismu
 settings - F1rgz
 
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - Fr
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - Frz
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - Frg
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - Frgz
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F2r
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F2rz
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F2rg
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F2rgz
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F1r
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F1rz
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F1rg
-
-u'ykerlo
-katna    - Err(NotBrivlaError("{u'ykerlo} is a slinku'i"))
-expected - -u- kerlo
-settings - F1rgz
-
 ke'ery'u
 katna    - Ok(["ke'e", "-u-"])
 raf+hyph - ke'e r y' u
