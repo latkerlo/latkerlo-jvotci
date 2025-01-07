@@ -1,6 +1,7 @@
 use crate::{
     data::{BANNED_TRIPLES, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
+    extract,
     katna::jvokaha2,
     rafsi::RAFSI,
     tarmi::{
@@ -137,7 +138,10 @@ pub fn get_rafsi_list_list(
                 )));
             }
             if is_short_brivla {
-                let b_type = analyze_brivla(&format!("{valsi}a"), settings);
+                let b_type = analyze_brivla(
+                    &format!("{valsi}a"),
+                    &extract!(settings, y_hyphens, exp_rafsi, allow_mz),
+                );
                 if let Err(e) = b_type {
                     match e {
                         Jvonunfli::NotBrivlaError(_) => {
@@ -156,7 +160,7 @@ pub fn get_rafsi_list_list(
                 }
                 if valsi.len() > 5 && is_consonant(char(valsi, -1)) {
                     let mut decomposes = true;
-                    if let Err(e) = jvokaha2(valsi, settings) {
+                    if let Err(e) = jvokaha2(valsi, &extract!(settings, y_hyphens, allow_mz)) {
                         match e {
                             Jvonunfli::DecompositionError(_)
                             | Jvonunfli::InvalidClusterError(_) => {
@@ -177,18 +181,23 @@ pub fn get_rafsi_list_list(
                     "ShortBrivla",
                     first,
                     last,
-                    settings,
+                    &extract!(settings, consonants, glides),
                 ));
             } else {
                 let raftai = rafsi_tarmi(valsi);
                 if raftai == Tarmi::OtherRafsi {
                     let mut zihevla_or_rafsi = None;
-                    let b_type = analyze_brivla(valsi, settings);
+                    let b_type =
+                        analyze_brivla(valsi, &extract!(settings, y_hyphens, exp_rafsi, allow_mz));
                     if let Err(e) = b_type {
                         match e {
                             Jvonunfli::NotBrivlaError(_) => {
                                 if settings.exp_rafsi {
-                                    let shape = check_zihevla_or_rafsi(valsi, settings, false);
+                                    let shape = check_zihevla_or_rafsi(
+                                        valsi,
+                                        &extract!(settings, y_hyphens, exp_rafsi, allow_mz),
+                                        false,
+                                    );
                                     if let Err(e) = shape {
                                         match e {
                                             Jvonunfli::NotZihevlaError(m) => {
@@ -221,9 +230,15 @@ pub fn get_rafsi_list_list(
                     } else {
                         "ExperimentalRafsi"
                     };
-                    rafsi_list.extend(get_rafsi_for_rafsi(valsi, r_type, first, last, settings));
+                    rafsi_list.extend(get_rafsi_for_rafsi(
+                        valsi,
+                        r_type,
+                        first,
+                        last,
+                        &extract!(settings, consonants, glides),
+                    ));
                 } else {
-                    if !is_valid_rafsi(valsi, settings) {
+                    if !is_valid_rafsi(valsi, &extract!(settings, allow_mz)) {
                         return Err(Jvonunfli::InvalidClusterError(format!(
                             "{{{valsi}}} contains an invalid cluster"
                         )));
@@ -233,7 +248,7 @@ pub fn get_rafsi_list_list(
                         &raftai.to_string(),
                         first,
                         last,
-                        settings,
+                        &extract!(settings, consonants, glides),
                     ));
                 }
             }
@@ -255,11 +270,11 @@ pub fn get_rafsi_list_list(
                         &raftai.to_string(),
                         first,
                         last,
-                        settings,
+                        &extract!(settings, consonants, glides),
                     ))
                 })
             }
-            let b_type = analyze_brivla(valsi, settings);
+            let b_type = analyze_brivla(valsi, &extract!(settings, y_hyphens, exp_rafsi, allow_mz));
             if let Err(e) = b_type {
                 match e {
                     Jvonunfli::NotBrivlaError(_) => {}
@@ -274,7 +289,7 @@ pub fn get_rafsi_list_list(
                         "ShortBrivla",
                         first,
                         last,
-                        settings,
+                        &extract!(settings, consonants, glides),
                     ));
                 }
                 if [BrivlaType::Gismu, BrivlaType::Zihevla].contains(&b_type) {
@@ -283,7 +298,7 @@ pub fn get_rafsi_list_list(
                         "LongBrivla",
                         first,
                         last,
-                        settings,
+                        &extract!(settings, consonants, glides),
                     ));
                 }
             }
@@ -445,7 +460,10 @@ pub fn get_lujvo_from_list(
     valsi_list: Vec<String>,
     settings: &Settings,
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
-    let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), settings);
+    let rafsi_list_list = get_rafsi_list_list(
+        valsi_list.clone(),
+        &extract!(settings, y_hyphens, exp_rafsi, consonants, glides, allow_mz),
+    );
     let mut current_best = [
         [
             BestLujvoMap::new(),
@@ -486,7 +504,14 @@ pub fn get_lujvo_from_list(
                 vec![[0, strip_hyphens(&rafsi0.0).len()]],
                 tosmabru_type,
                 rafsi_list_list.len(),
-                settings,
+                &extract!(
+                    settings,
+                    generate_cmevla,
+                    y_hyphens,
+                    consonants,
+                    glides,
+                    allow_mz
+                ),
             );
             current_best = update_current_best(res, current_best);
         }
@@ -525,7 +550,14 @@ pub fn get_lujvo_from_list(
                             lujvo_and_score.2,
                             tosmabru_type,
                             rafsi_list_list.len(),
-                            settings,
+                            &extract!(
+                                settings,
+                                generate_cmevla,
+                                y_hyphens,
+                                consonants,
+                                glides,
+                                allow_mz
+                            ),
                         );
                         current_best = update_current_best(res, current_best);
                     }

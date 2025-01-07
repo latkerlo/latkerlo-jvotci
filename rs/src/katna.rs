@@ -3,6 +3,7 @@ use itertools::Itertools;
 use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
+    extract,
     jvozba::get_lujvo_from_list,
     rafsi::RAFSI,
     tarmi::{is_consonant, is_vowel, rafsi_tarmi, BrivlaType, Settings, Tarmi, YHyphenSetting},
@@ -55,12 +56,20 @@ pub fn selrafsi_list_from_rafsi_list(
         } else if rafsi_list.len() >= 2
             && i < rafsi_list.len() - 2
             && char(&rafsi_list[i + 1], 0) == 'y'
-            && is_brivla(&format!("{}a", res[i]), settings)?
+            && is_brivla(
+                &format!("{}a", res[i]),
+                &extract!(settings, y_hyphens, allow_mz),
+            )?
         {
             res[i] = format!("{}-", res[i]);
-        } else if is_brivla(&res[i], settings)? {
+        } else if is_brivla(&res[i], &extract!(settings, y_hyphens, allow_mz))? {
             // do nothing
-        } else if i == rafsi_list.len() - 1 && is_brivla(&format!("{}a", res[i]), settings)? {
+        } else if i == rafsi_list.len() - 1
+            && is_brivla(
+                &format!("{}a", res[i]),
+                &extract!(settings, y_hyphens, allow_mz),
+            )?
+        {
             res[i] = format!("{}-", res[i]);
         } else {
             res[i] = format!("-{}-", res[i]);
@@ -97,7 +106,7 @@ pub fn compare_lujvo_pieces(corr: Vec<String>, other: Vec<String>) -> bool {
 
 /// Decompose a lujvo into rafsi and hyphens. Returns `Err` if it is malformed
 pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
-    let arr = jvokaha2(lujvo, settings)?;
+    let arr = jvokaha2(lujvo, &extract!(settings, y_hyphens, allow_mz))?;
     let rafsi_tanru = arr
         .iter()
         .filter(|r| r.len() > 2)
@@ -106,7 +115,13 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     if rafsi_tanru.len() == 1 {
         return Err(Jvonunfli::FakeTypeError("not enough rafsi".to_string()));
     }
-    let correct_lujvo = get_lujvo_from_list(rafsi_tanru.clone(), settings);
+    let correct_lujvo = get_lujvo_from_list(
+        rafsi_tanru.clone(),
+        &Settings {
+            generate_cmevla: is_consonant(char(&arr[arr.len() - 1], -1)),
+            ..extract!(settings, y_hyphens, consonants, glides, allow_mz)
+        },
+    );
     if let Err(e) = correct_lujvo {
         match e {
             Jvonunfli::NoLujvoFoundError(m) => return Err(Jvonunfli::DecompositionError(m)),
@@ -117,7 +132,17 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     let cool_and_good = if settings.y_hyphens == YHyphenSetting::ForceY {
         correct_lujvo == lujvo
     } else {
-        compare_lujvo_pieces(jvokaha2(&correct_lujvo, settings)?, arr.clone())
+        compare_lujvo_pieces(
+            jvokaha2(
+                &correct_lujvo,
+                &Settings {
+                    y_hyphens: YHyphenSetting::Standard,
+                    allow_mz: settings.allow_mz,
+                    ..Settings::default()
+                },
+            )?,
+            arr.clone(),
+        )
     };
     if cool_and_good {
         Ok(arr)
@@ -223,7 +248,17 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
 
 /// Get the selrafsi (source tanru) and formatted unassigned rafsi for this lujvo
 pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
-    let (b_type, rafsi_list) = analyze_brivla(lujvo, settings)?;
+    let (b_type, rafsi_list) = analyze_brivla(
+        lujvo,
+        &extract!(
+            settings,
+            y_hyphens,
+            exp_rafsi,
+            consonants,
+            generate_cmevla,
+            allow_mz
+        ),
+    )?;
     if ![
         BrivlaType::Lujvo,
         BrivlaType::ExtendedLujvo,
@@ -236,5 +271,5 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
             b_type.to_string().to_lowercase()
         )));
     }
-    selrafsi_list_from_rafsi_list(rafsi_list, settings)
+    selrafsi_list_from_rafsi_list(rafsi_list, &extract!(settings, y_hyphens, allow_mz))
 }

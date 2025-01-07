@@ -59,6 +59,15 @@ pub struct Settings {
     pub glides: bool,
     pub allow_mz: bool,
 }
+#[macro_export]
+macro_rules! extract {
+    ($s:ident, $($part:ident),+) => {
+        Settings {
+            $($part: $s.$part),+,
+            ..Settings::default()
+        }
+    };
+}
 pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
     iproduct!(
         ["", "c"],
