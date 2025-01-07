@@ -38493,99 +38493,195 @@ katna    - Err(NotBrivlaError("{kery'u} is just a cmavo or cmavo compound"))
 settings - F1rgz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - z
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - g
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - gz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - r
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rgz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 2
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 2z
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 2g
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 2gz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2r
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rgz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 1
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 1z
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 1g
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - 1gz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1r
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rgz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - Az
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - Ag
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - Agz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Ar
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Arz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Arg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Argz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A2
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A2z
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A2g
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A2gz
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2r
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rgz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A1
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A1z
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A1g
 
 ke'ery'u
-katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
 settings - A1gz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1r
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rz
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rg
+
+ke'ery'u
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rgz
 
 ke'ery'u
 katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
@@ -42219,6 +42315,197 @@ settings - F1rg
 kerlytoiyiismu
 katna    - Err(NotBrivlaError("{toia} lacks a consonant cluster"))
 settings - F1rgz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - z
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - g
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - gz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - r
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - rgz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2z
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2g
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2gz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2r
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 2rgz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1z
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1g
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1gz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1r
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - 1rgz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Az
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Ag
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Agz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Ar
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Arz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Arg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - Argz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2z
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2g
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2gz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2r
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A2rgz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1z
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1g
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1gz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1r
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rz
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rg
+
+ke'erytce
+katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))
+settings - A1rgz
 
 ke'erytce
 katna    - Err(NotBrivlaError("{ke'era} lacks a consonant cluster"))

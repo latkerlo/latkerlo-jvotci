@@ -166,7 +166,9 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             if char(lujvo, 0) == 'y'
                 || settings.y_hyphens != YHyphenSetting::ForceY
                     && (slice(lujvo, 0, 2) == "nr"
-                        || char(lujvo, 0) == 'r' && is_consonant(char(lujvo, 1)))
+                        || char(lujvo, 0) == 'r'
+                            && lujvo.len() >= 2
+                            && is_consonant(char(lujvo, 1)))
             {
                 res.push(slice(lujvo, 0, 1));
                 lujvo = slice_(lujvo, 1);
