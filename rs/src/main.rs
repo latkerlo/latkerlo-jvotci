@@ -1,5 +1,5 @@
 use itertools::Itertools;
-use latkerlo_jvotci::{katna::selrafsi_list_from_rafsi_list, *};
+use latkerlo_jvotci::{analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, Settings};
 use std::{
     io::{stdin, stdout, Write},
     str::FromStr,
@@ -52,7 +52,7 @@ fn main() {
             input = input[1..].to_string();
             #[allow(unused_assignments)]
             if input == "default" {
-                input = settings_str.clone();
+                input.clone_from(&settings_str);
             }
             input = input.chars().sorted().dedup().collect();
             let mut new = String::new();
@@ -89,7 +89,7 @@ fn main() {
                         .to_lowercase()
                         .replace("dl", "d l"),
                     hyphens.join(" "),
-                    selrafsi_list_from_rafsi_list(hyphens, &settings)
+                    selrafsi_list_from_rafsi_list(&hyphens, &settings)
                         .unwrap()
                         .into_iter()
                         .join(" ")

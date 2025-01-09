@@ -20,17 +20,20 @@ pub fn search_selrafsi_from_rafsi(r: &str) -> Option<String> {
             .or_else(|| {
                 RAFSI
                     .iter()
-                    .find_map(|(v, rl)| rl.contains(&r).then(|| v.to_string()))
+                    .find_map(|(v, rl)| rl.contains(&r).then(|| (*v).to_string()))
             })
     } else {
         RAFSI
             .iter()
-            .find_map(|(v, rl)| rl.contains(&r).then(|| v.to_string()))
+            .find_map(|(v, rl)| rl.contains(&r).then(|| (*v).to_string()))
     }
 }
 /// Create a list of selrafsi and formatted unassigned rafsi
+/// # Errors
+/// if any rafsi corresponds to an invalid brivla
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn selrafsi_list_from_rafsi_list(
-    rafsi_list: Vec<String>,
+    rafsi_list: &[String],
     settings: &Settings,
 ) -> Result<Vec<String>, Jvonunfli> {
     let mut res = rafsi_list
@@ -79,7 +82,7 @@ pub fn selrafsi_list_from_rafsi_list(
 }
 
 /// Check if `corr` and `other` represent the same lujvo. `other` may have unnecessary hyphens
-pub fn compare_lujvo_pieces(corr: Vec<String>, other: Vec<String>) -> bool {
+pub fn compare_lujvo_pieces(corr: Vec<String>, other: &[String]) -> bool {
     let mut i = 0;
     for part in corr {
         if part == other[i] {
@@ -104,7 +107,10 @@ pub fn compare_lujvo_pieces(corr: Vec<String>, other: Vec<String>) -> bool {
     i == other.len()
 }
 
-/// Decompose a lujvo into rafsi and hyphens. Returns `Err` if it is malformed
+/// Decompose a lujvo into rafsi and hyphens.
+/// # Errors
+/// if the lujvo is malformed
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
     let arr = jvokaha2(lujvo, &extract!(settings, y_hyphens, allow_mz))?;
     let rafsi_tanru = arr
@@ -116,7 +122,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         return Err(Jvonunfli::FakeTypeError("not enough rafsi".to_string()));
     }
     let correct_lujvo = get_lujvo_from_list(
-        rafsi_tanru.clone(),
+        &rafsi_tanru.clone(),
         &Settings {
             generate_cmevla: is_consonant(char(&arr[arr.len() - 1], -1)),
             ..extract!(settings, y_hyphens, consonants, glides, allow_mz)
@@ -141,7 +147,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
                     ..Settings::default()
                 },
             )?,
-            arr.clone(),
+            &arr.clone(),
         )
     };
     if cool_and_good {
@@ -153,14 +159,16 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     }
 }
 
-/// Decompose a lujvo into rafsi and hyphens. Only returns `Err` if it isn't decomposable
+/// Decompose a lujvo into rafsi and hyphens.
+/// # Errors
+/// if not decomposable.
 pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
     let orig = lujvo;
     let mut lujvo = lujvo;
     let mut res: Vec<&str> = vec![];
     loop {
         if lujvo.is_empty() {
-            return Ok(res.iter().cloned().map(String::from).collect_vec());
+            return Ok(res.iter().copied().map(String::from).collect_vec());
         }
         if !res.is_empty() && res[res.len() - 1].len() != 1 {
             if char(lujvo, 0) == 'y'
@@ -220,7 +228,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         }
         if [Tarmi::Cvccv, Tarmi::Ccvcv].contains(&rafsi_tarmi(lujvo)) {
             res.push(lujvo);
-            return Ok(res.iter().cloned().map(String::from).collect_vec());
+            return Ok(res.iter().copied().map(String::from).collect_vec());
         }
         if rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Cvc {
             res.push(slice(lujvo, 0, 3));
@@ -249,6 +257,8 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
 }
 
 /// Get the selrafsi (source tanru) and formatted unassigned rafsi for this lujvo
+/// # Errors
+/// if not given a lujvo or if decomposing fails
 pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
     let (b_type, rafsi_list) = analyze_brivla(
         lujvo,
@@ -273,5 +283,5 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
             b_type.to_string().to_lowercase()
         )));
     }
-    selrafsi_list_from_rafsi_list(rafsi_list, &extract!(settings, y_hyphens, allow_mz))
+    selrafsi_list_from_rafsi_list(&rafsi_list, &extract!(settings, y_hyphens, allow_mz))
 }

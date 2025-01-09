@@ -51,6 +51,7 @@ pub enum ConsonantSetting {
 }
 
 #[derive(Debug, Default, Clone, Copy, PartialEq)]
+#[allow(clippy::struct_excessive_bools)]
 pub struct Settings {
     pub generate_cmevla: bool,
     pub y_hyphens: YHyphenSetting,
@@ -225,6 +226,8 @@ pub fn is_gismu(v: &str, settings: &Settings) -> bool {
 }
 
 /// Split consecutive vowels into syllables
+/// # Errors
+/// if given a bad vowel sequence
 pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
     let old_v = v;
     let mut v = v;
@@ -269,6 +272,7 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
             && ZIHEVLA_INITIAL.contains(&slice_(c, 1))
 }
 /// True if `c` can be in a zi'evla
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     if c.len() < 3
         || c.len() == 3

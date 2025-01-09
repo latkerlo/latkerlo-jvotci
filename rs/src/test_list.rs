@@ -12,7 +12,7 @@ use tarmi::{is_consonant, SETTINGS_ITERATOR};
 use tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_};
 
 // ported from py/tests/test_other.py
-fn check_conditions(cond: &str, settings: &Settings) -> bool {
+fn check_conditions(cond: &str, settings: Settings) -> bool {
     match cond {
         "" | "ELSE" => return true,
         "ALLOW_Y" => return settings.y_hyphens == AllowY,
@@ -58,7 +58,7 @@ fn check_conditions(cond: &str, settings: &Settings) -> bool {
     }
 }
 
-fn both(test: Vec<&str>) -> i32 {
+fn both(test: &[&str]) -> i32 {
     let settings = Settings {
         generate_cmevla: is_consonant(char(test[0], -1)),
         ..Settings::default()
@@ -98,16 +98,16 @@ fn both(test: Vec<&str>) -> i32 {
         .unwrap();
     ohno as i32
 }
-fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Settings) -> i32 {
+fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Settings) -> i32 {
     let mut output = format!("\n{tanru}");
-    let lujvo = get_lujvo(tanru, settings);
+    let lujvo = get_lujvo(tanru, &settings);
     if lujvo.is_err() {
         output += &format!(
             "\nzbasu    - \x1b[91m{lujvo:?}\x1b[m\nexpected - {expect}{}",
-            if &Settings::default() != settings {
-                format!("\nsettings - {settings}")
+            if Settings::default() == settings {
+                String::new()
             } else {
-                "".to_string()
+                format!("\nsettings - {settings}")
             }
         );
         println!("{output}");
@@ -127,7 +127,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
         format!("\nzbasu    - \x1b[91m{lujvo}\x1b[m\nexpected - {expect}")
     };
     if e_score != 0 {
-        let score = get_lujvo_with_analytics(tanru, settings).unwrap().1;
+        let score = get_lujvo_with_analytics(tanru, &settings).unwrap().1;
         output += &if e_score == score {
             format!("\nscore    - \x1b[92m{score}\x1b[m")
         } else {
@@ -135,7 +135,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
         };
     }
     if !e_indices.is_empty() {
-        let indices = get_lujvo_with_analytics(tanru, settings)
+        let indices = get_lujvo_with_analytics(tanru, &settings)
             .unwrap()
             .2
             .iter()
@@ -147,7 +147,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
             format!("\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}")
         }
     }
-    if &Settings::default() != settings {
+    if Settings::default() != settings {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
@@ -167,15 +167,15 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: &Sett
         .unwrap();
     ohno as i32
 }
-fn zba_f(tanru: &str, settings: &Settings) -> i32 {
+fn zba_f(tanru: &str, settings: Settings) -> i32 {
     let mut output = format!("\n{tanru}");
-    let lujvo = get_lujvo(tanru, settings);
+    let lujvo = get_lujvo(tanru, &settings);
     output += &if lujvo.is_err() {
         format!("\nzbasu    - \x1b[93m{lujvo:?}\x1b[m")
     } else {
         format!("\nzbasu    - \x1b[91m{lujvo:?}\x1b[m")
     };
-    if &Settings::default() != settings {
+    if Settings::default() != settings {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
@@ -201,17 +201,17 @@ fn kaha(
     e_btype: &str,
     e_rafsi: &str,
     e_indices: &str,
-    settings: &Settings,
+    settings: Settings,
 ) -> i32 {
     let mut output = format!("\n{lujvo}");
-    let _tanru = analyze_brivla(lujvo, settings);
-    if _tanru.is_err() {
+    let pre_tanru = analyze_brivla(lujvo, &settings);
+    if pre_tanru.is_err() {
         output += &format!(
-            "\nkatna    - \x1b[91m{_tanru:?}\x1b[m\nexpected - {expect}{}",
-            if &Settings::default() != settings {
-                format!("\nsettings - {settings}")
+            "\nkatna    - \x1b[91m{pre_tanru:?}\x1b[m\nexpected - {expect}{}",
+            if Settings::default() == settings {
+                String::new()
             } else {
-                "".to_string()
+                format!("\nsettings - {settings}")
             }
         );
         println!("{output}");
@@ -224,7 +224,7 @@ fn kaha(
             .unwrap();
         return 1;
     }
-    let tanru = selrafsi_list_from_rafsi_list(_tanru.as_ref().unwrap().1.clone(), settings)
+    let tanru = selrafsi_list_from_rafsi_list(&pre_tanru.as_ref().unwrap().1.clone(), &settings)
         .unwrap_or_else(|e| vec![e.to_string()])
         .join(" ");
     output += &if expect == tanru {
@@ -243,7 +243,7 @@ fn kaha(
         };
         let btype = regex_replace_all(
             "dl",
-            &normalize(&_tanru.as_ref().unwrap().0.to_string()),
+            &normalize(&pre_tanru.as_ref().unwrap().0.to_string()),
             "d l",
         );
         output += &if e_btype == btype {
@@ -253,7 +253,7 @@ fn kaha(
         };
     }
     if !e_rafsi.is_empty() {
-        let rafsi = _tanru
+        let rafsi = pre_tanru
             .as_ref()
             .unwrap()
             .1
@@ -267,17 +267,24 @@ fn kaha(
         };
     }
     if !e_indices.is_empty() {
-        let indices = get_rafsi_indices(_tanru.unwrap().1.iter().map(|r| r.as_str()).collect_vec())
-            .iter()
-            .map(|i| format!("{}-{}", i[0], i[1]))
-            .join(",");
+        let indices = get_rafsi_indices(
+            &pre_tanru
+                .unwrap()
+                .1
+                .iter()
+                .map(String::as_str)
+                .collect_vec(),
+        )
+        .iter()
+        .map(|i| format!("{}-{}", i[0], i[1]))
+        .join(",");
         output += &if e_indices == indices {
             format!("\nindices  - \x1b[92m{indices}\x1b[m")
         } else {
             format!("\nindices  - \x1b[91m{indices}\x1b[m\nexpected - {e_indices}")
         };
     }
-    if &Settings::default() != settings {
+    if Settings::default() != settings {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
@@ -297,18 +304,18 @@ fn kaha(
         .unwrap();
     ohno as i32
 }
-fn kaha_f(lujvo: &str, settings: &Settings) -> i32 {
+fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
     let mut output = format!("\n{lujvo}");
-    let tanru = get_veljvo(lujvo, settings);
+    let tanru = get_veljvo(lujvo, &settings);
     output += &if tanru.is_err() {
         format!("\nkatna    - \x1b[93m{tanru:?}\x1b[m")
     } else {
         format!(
             "\nkatna    - \x1b[91m{tanru:?}\x1b[m\nraf+hyph - \x1b[91m{}\x1b[m",
-            analyze_brivla(lujvo, settings).unwrap().1.join(" ")
+            analyze_brivla(lujvo, &settings).unwrap().1.join(" ")
         )
     };
-    if &Settings::default() != settings {
+    if Settings::default() != settings {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
@@ -340,26 +347,26 @@ fn t_basic() {
     let mut ohnos = 0;
     for test in tests.clone() {
         if test.len() == 2 {
-            ohnos += both(test);
+            ohnos += both(&test);
         } else if test.len() == 3 {
             if test[2] == "CMEVLA" {
-                ohnos += both(test);
+                ohnos += both(&test);
             } else if test[2] == "JVOZBA" {
                 let settings = Settings::default();
-                if test[0] != "FAIL" {
-                    ohnos += zba(test[1], test[0], 0, "", &settings);
+                if test[0] == "FAIL" {
+                    ohnos += zba_f(test[1], settings);
                 } else {
-                    ohnos += zba_f(test[1], &settings);
+                    ohnos += zba(test[1], test[0], 0, "", settings);
                 }
             } else if test[2] == "KATNA" {
                 let settings = Settings {
                     generate_cmevla: is_consonant(char(test[0], -1)),
                     ..Settings::default()
                 };
-                if test[1] != "FAIL" {
-                    ohnos += kaha(test[0], test[1], "", "", "", &settings);
+                if test[1] == "FAIL" {
+                    ohnos += kaha_f(test[0], settings);
                 } else {
-                    ohnos += kaha_f(test[0], &settings);
+                    ohnos += kaha(test[0], test[1], "", "", "", settings);
                 }
             } else {
                 panic!("found a test with instruction {}", test[2]);
@@ -397,12 +404,12 @@ fn t_zba() {
         while test.len() > 3 {
             let cond = test.remove(2);
             let expect = test.remove(2);
-            let score = if test.len() >= 3 && !test[2].starts_with("(") {
+            let score = if test.len() >= 3 && !test[2].starts_with('(') {
                 test.remove(2)
             } else {
                 ""
             };
-            let indices = if test.len() >= 3 && !test[2].starts_with("(") {
+            let indices = if test.len() >= 3 && !test[2].starts_with('(') {
                 test.remove(2)
             } else {
                 ""
@@ -417,7 +424,7 @@ fn t_zba() {
     let mut i = 0;
     for test in tests2.clone() {
         let (tanru, c, cond, e_lujvo, e_score, e_indices) =
-            test.iter().cloned().collect_tuple().unwrap();
+            test.iter().copied().collect_tuple().unwrap();
         if tanru != last {
             last = tanru;
             last_c = c;
@@ -429,7 +436,7 @@ fn t_zba() {
         if cond != "ELSE" {
             non_else.push(cond);
         }
-        for settings in SETTINGS_ITERATOR.iter() {
+        for &settings in SETTINGS_ITERATOR.iter() {
             if (c == "C") ^ settings.generate_cmevla
                 || non_else.iter().enumerate().any(|(i, n)| {
                     !(cond != "ELSE" && i == non_else.len() - 1) && check_conditions(n, settings)
@@ -479,17 +486,17 @@ fn t_kaha() {
         while test.len() > 2 {
             let cond = test.remove(1);
             let btype = test.remove(1);
-            let rafsi = if test.len() >= 2 && !test[1].starts_with("(") {
+            let rafsi = if test.len() >= 2 && !test[1].starts_with('(') {
                 test.remove(1)
             } else {
                 ""
             };
-            let tanru = if test.len() >= 2 && !test[1].starts_with("(") {
+            let tanru = if test.len() >= 2 && !test[1].starts_with('(') {
                 test.remove(1)
             } else {
                 ""
             };
-            let indices = if test.len() >= 2 && !test[1].starts_with("(") {
+            let indices = if test.len() >= 2 && !test[1].starts_with('(') {
                 test.remove(1)
             } else {
                 ""
@@ -503,7 +510,7 @@ fn t_kaha() {
     let mut i = 0;
     for test in tests2 {
         let (lujvo, cond, e_btype, e_rafsi, e_tanru, e_indices) =
-            test.iter().cloned().collect_tuple().unwrap();
+            test.iter().copied().collect_tuple().unwrap();
         if lujvo != last {
             last = lujvo;
             non_else = vec![];
@@ -511,7 +518,7 @@ fn t_kaha() {
         if cond != "ELSE" {
             non_else.push(cond);
         }
-        for settings in SETTINGS_ITERATOR.iter() {
+        for &settings in SETTINGS_ITERATOR.iter() {
             if (e_btype == "CMEVLA") ^ settings.generate_cmevla
                 || non_else.iter().enumerate().any(|(i, n)| {
                     !(cond != "ELSE" && i == non_else.len() - 1) && check_conditions(n, settings)

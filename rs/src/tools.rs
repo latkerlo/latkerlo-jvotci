@@ -15,6 +15,7 @@ use crate::{
 use itertools::Itertools;
 use regex::Regex;
 
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn regex_replace_all(regex: &str, from: &str, with: &str) -> String {
     Regex::new(regex)
         .unwrap()
@@ -42,11 +43,12 @@ pub fn slice_(s: &str, i: isize) -> &str {
 
 /// Convert word to standard form (*h* → *'*, no periods/commas, lowercase)
 pub fn normalize(word: &str) -> String {
-    regex_replace_all(r"^\.|,|\.$", &word.to_lowercase(), "").replace("h", "'")
+    regex_replace_all(r"^\.|,|\.$", &word.to_lowercase(), "").replace('h', "'")
 }
 
 /// True if `s` is a gismu or lujvo
-// #[deprecated(since = "2.0.0", note = "relic from pre-zi'evlupdate (2.0.0)")]
+/// # Errors
+/// if given e.g. a non-brivla
 pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if s.len() < 5 || !is_vowel(char(s, -1)) {
         return Ok(false);
@@ -67,6 +69,8 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 
 /// True if `s` isn't a valid word because putting a CV cmavo in front of it makes it a lujvo (e.g.
 /// *pa \*slinku'i*)
+/// # Errors
+/// if given e.g. a non-brivla
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if is_vowel(char(s, 0)) {
         // words starting with vowels have an invisible `.` at the start
@@ -81,8 +85,10 @@ pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     }
 }
 
-/// Check rules specific to zi'evla or experimental rafsi. May return Zihevla when not given a valid
-/// word
+/// Check rules specific to zi'evla or experimental rafsi.
+/// # Errors
+/// if it is not a zi'evla
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn check_zihevla_or_rafsi(
     mut valsi: &str,
     settings: &Settings,
@@ -276,6 +282,7 @@ pub fn check_zihevla_or_rafsi(
 }
 
 /// True if given a valid brivla
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn is_brivla(valsi: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     let b_type = analyze_brivla(
         valsi,
@@ -292,6 +299,9 @@ pub fn is_brivla(valsi: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
 
 /// Return type & decomposition of any brivla or decomposable cmevla. Doesn't check the cmevla
 /// morphology rules
+/// # Errors
+/// if not given a brivla
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn analyze_brivla(
     valsi: &str,
     settings: &Settings,
@@ -424,7 +434,7 @@ pub fn analyze_brivla(
             has_cluster = true;
         }
         let (mut can_be_rafsi, mut require_cluster, mut added_a) = (true, false, false);
-        let parta = &format!("{part}a");
+        let part_a = &format!("{part}a");
         if char(part, -1) == '\'' {
             if settings.y_hyphens == YHyphenSetting::Standard
                 && !has_cluster
@@ -445,7 +455,7 @@ pub fn analyze_brivla(
             if is_vowel(char(part, -1)) {
                 can_be_rafsi = false;
             }
-            part = parta;
+            part = part_a;
             added_a = true;
             require_cluster = true;
         }
@@ -594,14 +604,14 @@ pub fn analyze_brivla(
 }
 
 /// Get the start/end positions of each rafsi
-pub fn get_rafsi_indices(rl: Vec<&str>) -> Vec<[usize; 2]> {
+pub fn get_rafsi_indices(rl: &[&str]) -> Vec<[usize; 2]> {
     let mut pos = 0;
     let mut indices = vec![];
-    rl.iter().for_each(|r| {
+    for r in rl {
         if !HYPHENS.contains(r) {
-            indices.push([pos, pos + r.len()])
+            indices.push([pos, pos + r.len()]);
         }
         pos += r.len();
-    });
+    }
     indices
 }

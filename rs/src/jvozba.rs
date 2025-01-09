@@ -38,13 +38,15 @@ pub fn process_tanru(tanru: &str) -> Vec<String> {
 }
 
 /// Find possible rafsi-hyphen combinations
+/// # Errors
+/// if given a bad `r_type`
 pub fn get_rafsi_for_rafsi(
     r: &str,
     r_type: &str,
     first: bool,
     last: bool,
     settings: &Settings,
-) -> Vec<(String, i32)> {
+) -> Result<Vec<(String, i32)>, Jvonunfli> {
     let mut res = vec![];
     let r = if !first && is_vowel(char(r, 0)) && !is_glide(r) {
         format!("'{r}")
@@ -71,9 +73,9 @@ pub fn get_rafsi_for_rafsi(
     .contains(&r_type)
     {
         if last {
-            res.push((r.clone(), 2))
+            res.push((r.clone(), 2));
         } else if !(r_type == Tarmi::Cvccv.to_string() && INITIAL.contains(&slice(&r, 2, 4))) {
-            res.push((format!("{r}'y"), 2))
+            res.push((format!("{r}'y"), 2));
         }
     } else if r_type == "ExperimentalRafsi" {
         let num_consonants = (settings.consonants != ConsonantSetting::Cluster
@@ -108,14 +110,20 @@ pub fn get_rafsi_for_rafsi(
             res.push((format!("{r}y"), 2));
         }
     } else {
-        panic!("unrecognized rafsi type {r_type}");
+        // fake FakeTypeError lol
+        return Err(Jvonunfli::FakeTypeError(format!(
+            "unrecognized rafsi type {r_type}"
+        )));
     }
-    res
+    Ok(res)
 }
 
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 /// Get the rafsi list for each word
+/// # Errors
+/// if any word is an invalid brivla
 pub fn get_rafsi_list_list(
-    valsi_list: Vec<String>,
+    valsi_list: &[String],
     settings: &Settings,
 ) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
     let mut rafsi_list_list = vec![];
@@ -182,7 +190,7 @@ pub fn get_rafsi_list_list(
                     first,
                     last,
                     &extract!(settings, consonants, glides),
-                ));
+                )?);
             } else {
                 let raftai = rafsi_tarmi(valsi);
                 if raftai == Tarmi::OtherRafsi {
@@ -236,7 +244,7 @@ pub fn get_rafsi_list_list(
                         first,
                         last,
                         &extract!(settings, consonants, glides),
-                    ));
+                    )?);
                 } else {
                     if !is_valid_rafsi(valsi, &extract!(settings, allow_mz)) {
                         return Err(Jvonunfli::InvalidClusterError(format!(
@@ -249,7 +257,7 @@ pub fn get_rafsi_list_list(
                         first,
                         last,
                         &extract!(settings, consonants, glides),
-                    ));
+                    )?);
                 }
             }
         } else {
@@ -260,10 +268,10 @@ pub fn get_rafsi_list_list(
             }
             let short_rafsi_list = RAFSI.get(valsi.as_str());
             if let Some(srl) = short_rafsi_list {
-                srl.iter().for_each(|r| {
+                for r in srl {
                     let raftai = rafsi_tarmi(r);
                     if raftai == Tarmi::OtherRafsi && !settings.exp_rafsi {
-                        return;
+                        continue;
                     }
                     rafsi_list.extend(get_rafsi_for_rafsi(
                         r,
@@ -271,8 +279,8 @@ pub fn get_rafsi_list_list(
                         first,
                         last,
                         &extract!(settings, consonants, glides),
-                    ))
-                })
+                    )?);
+                }
             }
             let b_type = analyze_brivla(valsi, &extract!(settings, y_hyphens, exp_rafsi, allow_mz));
             if let Err(e) = b_type {
@@ -290,7 +298,7 @@ pub fn get_rafsi_list_list(
                         first,
                         last,
                         &extract!(settings, consonants, glides),
-                    ));
+                    )?);
                 }
                 if [BrivlaType::Gismu, BrivlaType::Zihevla].contains(&b_type) {
                     rafsi_list.extend(get_rafsi_for_rafsi(
@@ -299,7 +307,7 @@ pub fn get_rafsi_list_list(
                         first,
                         last,
                         &extract!(settings, consonants, glides),
-                    ));
+                    )?);
                 }
             }
         }
@@ -307,9 +315,10 @@ pub fn get_rafsi_list_list(
     }
     Ok(rafsi_list_list)
 }
-/// `get_rafsi_list_list` but shorter to write manually
+/// = [`get_rafsi_list_list`] but shorter to write manually
+#[allow(clippy::missing_errors_doc)]
 pub fn grll(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
-    get_rafsi_list_list(process_tanru(vl), settings)
+    get_rafsi_list_list(&process_tanru(vl), settings)
 }
 
 /// Try to add a rafsi to a lujvo and calculate the score
@@ -320,7 +329,7 @@ pub fn combine(
     lujvo_c: i32,
     rafsi_c: i32,
     lujvo_score: i32,
-    indices: Vec<[usize; 2]>,
+    indices: &[[usize; 2]],
     mut tosmabru_type: Tosytype,
     tanru_len: usize,
     settings: &Settings,
@@ -394,7 +403,7 @@ pub fn combine(
     let indices = indices
         .iter()
         .chain(&[[rafsi_start, rafsi_end]])
-        .cloned()
+        .copied()
         .collect_vec();
     let mut new_c = rafsi_c;
     if !hyphen.is_empty() && "nr".contains(hyphen) {
@@ -429,8 +438,8 @@ pub fn combine(
 
 type BestLujvoMap = IndexMap<String, (String, i32, Vec<[usize; 2]>)>;
 
-/// Add a candidate to current_best
-#[allow(clippy::type_complexity)]
+/// Add a candidate to `current_best`
+#[allow(clippy::type_complexity, clippy::missing_panics_doc)] // .unwrap()
 pub fn update_current_best(
     candidate: Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>,
     mut current_best: [[BestLujvoMap; 3]; 3],
@@ -456,12 +465,14 @@ pub fn update_current_best(
 
 /// Create the best lujvo for the tanru (list). Recommended to use `get_lujvo_with_analytics`
 /// instead if you have a string
+/// # Errors
+/// if given less than two words, or if some part of the jvozba process fails
 pub fn get_lujvo_from_list(
-    valsi_list: Vec<String>,
+    valsi_list: &[String],
     settings: &Settings,
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
     let rafsi_list_list = get_rafsi_list_list(
-        valsi_list.clone(),
+        valsi_list,
         &extract!(settings, y_hyphens, exp_rafsi, consonants, glides, allow_mz),
     );
     let mut current_best = [
@@ -501,7 +512,7 @@ pub fn get_lujvo_from_list(
                 rafsi0.1,
                 rafsi1.1,
                 score(&rafsi0.0),
-                vec![[0, strip_hyphens(&rafsi0.0).len()]],
+                &[[0, strip_hyphens(&rafsi0.0).len()]],
                 tosmabru_type,
                 rafsi_list_list.len(),
                 &extract!(
@@ -547,7 +558,7 @@ pub fn get_lujvo_from_list(
                             num_consonants as i32,
                             rafsi.1,
                             lujvo_and_score.1,
-                            lujvo_and_score.2,
+                            &lujvo_and_score.2,
                             tosmabru_type,
                             rafsi_list_list.len(),
                             &extract!(
@@ -585,13 +596,17 @@ pub fn get_lujvo_from_list(
 }
 
 /// Create the best lujvo for the tanru (string)
+/// # Errors
+/// if given less than two words, or if some part of the jvozba process fails
 pub fn get_lujvo_with_analytics(
     tanru: &str,
     settings: &Settings,
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
-    get_lujvo_from_list(process_tanru(tanru), settings)
+    get_lujvo_from_list(&process_tanru(tanru), settings)
 }
 /// Create the best lujvo for the tanru (string). Doesns't output the score
+/// # Errors
+/// if given less than two words, or if some part of the jvozba process fails
 pub fn get_lujvo(tanru: &str, settings: &Settings) -> Result<String, Jvonunfli> {
     Ok(get_lujvo_with_analytics(tanru, settings)?.0)
 }
