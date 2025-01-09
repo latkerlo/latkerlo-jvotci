@@ -62,16 +62,16 @@ pub fn selrafsi_list_from_rafsi_list(
             && is_brivla(
                 &format!("{}a", res[i]),
                 &extract!(settings, y_hyphens, allow_mz),
-            )?
+            )
         {
             res[i] = format!("{}-", res[i]);
-        } else if is_brivla(&res[i], &extract!(settings, y_hyphens, allow_mz))? {
+        } else if is_brivla(&res[i], &extract!(settings, y_hyphens, allow_mz)) {
             // do nothing
         } else if i == rafsi_list.len() - 1
             && is_brivla(
                 &format!("{}a", res[i]),
                 &extract!(settings, y_hyphens, allow_mz),
-            )?
+            )
         {
             res[i] = format!("{}-", res[i]);
         } else {

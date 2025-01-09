@@ -223,7 +223,7 @@ pub fn check_zihevla_or_rafsi(
         if is_brivla(
             slice_(valsi_, cluster_pos.unwrap()),
             &extract!(settings, y_hyphens),
-        )? {
+        ) {
             return Err(Jvonunfli::NotZihevlaError(format!(
                 "{{{valsi_}}} falls apart: {{{} {}}}",
                 slice(valsi_, 0, cluster_pos.unwrap()),
@@ -236,7 +236,7 @@ pub fn check_zihevla_or_rafsi(
                 && is_brivla(
                     slice_(valsi_, cluster_pos.unwrap() - i),
                     &extract!(settings, y_hyphens),
-                )?
+                )
             {
                 return Err(Jvonunfli::NotZihevlaError(format!(
                     "{{{valsi_}}} falls apart: {{{} {}}}",
@@ -282,19 +282,16 @@ pub fn check_zihevla_or_rafsi(
 }
 
 /// True if given a valid brivla
-#[allow(clippy::missing_panics_doc)] // .unwrap()
-pub fn is_brivla(valsi: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
+pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
     let b_type = analyze_brivla(
         valsi,
         &extract!(settings, y_hyphens, exp_rafsi, consonants, glides, allow_mz),
     );
-    if let Err(e) = b_type {
-        match e {
-            Jvonunfli::NotBrivlaError(_) => return Ok(false),
-            _ => return Err(e),
-        }
+    if let Ok(b_type) = b_type {
+        b_type.0 != BrivlaType::Cmevla
+    } else {
+        false
     }
-    Ok(b_type.unwrap().0 != BrivlaType::Cmevla)
 }
 
 /// Return type & decomposition of any brivla or decomposable cmevla. Doesn't check the cmevla
@@ -335,7 +332,7 @@ pub fn analyze_brivla(
             Jvonunfli::DecompositionError(_)
             | Jvonunfli::InvalidClusterError(_)
             | Jvonunfli::FakeTypeError(_) => (),
-            _ => return Err(e),
+            _ => return Err(e), // NotBrivlaError for CCV'y
         }
     } else {
         let res_parts = res_parts.unwrap();
