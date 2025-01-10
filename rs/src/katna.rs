@@ -82,10 +82,10 @@ pub fn selrafsi_list_from_rafsi_list(
 }
 
 /// Check if `corr` and `other` represent the same lujvo. `other` may have unnecessary hyphens
-pub fn compare_lujvo_pieces(corr: Vec<String>, other: &[String]) -> bool {
+pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
     let mut i = 0;
     for part in corr {
-        if part == other[i] {
+        if part == &other[i] {
             i += 1;
             continue;
         }
@@ -98,7 +98,7 @@ pub fn compare_lujvo_pieces(corr: Vec<String>, other: &[String]) -> bool {
         {
             i += 1;
         }
-        if part == other[i] {
+        if part == &other[i] {
             i += 1;
         } else {
             return false;
@@ -139,7 +139,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         correct_lujvo == lujvo
     } else {
         compare_lujvo_pieces(
-            jvokaha2(
+            &jvokaha2(
                 &correct_lujvo,
                 &Settings {
                     y_hyphens: YHyphenSetting::Standard,

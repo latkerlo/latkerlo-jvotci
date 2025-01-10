@@ -1,15 +1,17 @@
 #![cfg(test)]
 
-use crate::*;
-use data::HYPHENS;
+use crate::{
+    data::HYPHENS,
+    katna::selrafsi_list_from_rafsi_list,
+    tarmi::{is_consonant, SETTINGS_ITERATOR},
+    tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_},
+    *,
+};
 use itertools::Itertools;
-use katna::selrafsi_list_from_rafsi_list;
 use std::{
     fs::{self, OpenOptions},
     io::Write,
 };
-use tarmi::{is_consonant, SETTINGS_ITERATOR};
-use tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_};
 
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: Settings) -> bool {

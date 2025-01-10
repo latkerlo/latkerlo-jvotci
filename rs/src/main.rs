@@ -1,10 +1,13 @@
 use itertools::Itertools;
-use latkerlo_jvotci::{analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, Settings};
+use latkerlo_jvotci::{
+    analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo, Settings,
+};
 use std::{
     io::{stdin, stdout, Write},
     str::FromStr,
 };
 
+#[allow(clippy::too_many_lines)]
 fn main() {
     let mut settings = Settings::default();
     let mut settings_str = String::new();
@@ -50,7 +53,6 @@ fn main() {
             return;
         } else if input.starts_with('/') {
             input = input[1..].to_string();
-            #[allow(unused_assignments)]
             if input == "default" {
                 input.clone_from(&settings_str);
             }
@@ -82,13 +84,18 @@ fn main() {
             } else {
                 let hyphens = res.clone().unwrap().1;
                 println!(
-                    "\x1b[96m{}\n{}\n\x1b[92m{}\x1b[m",
+                    "\x1b[96m{}\n{}\n{}\x1b[92m{}\x1b[m",
                     res.unwrap()
                         .0
                         .to_string()
                         .to_lowercase()
                         .replace("dl", "d l"),
                     hyphens.join(" "),
+                    if let Ok(score) = score_lujvo(&input, &settings) {
+                        score.to_string() + "\n"
+                    } else {
+                        String::new()
+                    },
                     selrafsi_list_from_rafsi_list(&hyphens, &settings)
                         .unwrap()
                         .into_iter()

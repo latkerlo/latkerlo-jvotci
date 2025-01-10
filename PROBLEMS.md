@@ -1,10 +1,4 @@
-# oh no
+# todo
 
-(all of these are also in "Issues"land)
-
-## -1. coidje thing
-
-ties list:
-```
-condi/djedi/klesi/foldi/zmadu * 2   (5847)
-```
+- [ ] port tiebreaker & score_lujvo from rust to ts/js/py
+- [ ] add rust examples to readme

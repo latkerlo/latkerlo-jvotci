@@ -5,9 +5,6 @@
 - new settings to control various things
 - fixed a typo in the changelog entry for 1.0.3 lol
 
-todo:
-- edit the readme to include rust examples
-
 ## 1.0.7
 - the type of `RAFSI` is now `HashMap<&'static str, Vec<&'static str>>`
 
