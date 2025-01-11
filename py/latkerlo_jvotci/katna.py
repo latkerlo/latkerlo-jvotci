@@ -7,7 +7,7 @@ Modified by latkerlo (https://github.com/latkerlo), Copyright (c) 2023-2024
 
 from latkerlo_jvotci.tarmi import *
 from latkerlo_jvotci.tools import is_brivla, analyse_brivla
-from latkerlo_jvotci.jvozba import get_lujvo_from_list
+from latkerlo_jvotci.jvozba import get_lujvo_from_list, score, tiebreak
 from latkerlo_jvotci.exceptions import DecompositionError, InvalidClusterError, NotBrivlaError, NoLujvoFoundError
 from latkerlo_jvotci.rafsi import RAFSI_LIST
 
@@ -243,6 +243,23 @@ def jvokaha_2(
 
         # if all fails...
         raise DecompositionError("Failed to decompose {" + original_lujvo + "}")
+
+# has to be here due to circular imports
+def score_lujvo(
+        lujvo: str, 
+        y_hyphens: str = STANDARD,
+        exp_rafsi_shapes: bool = False,
+        consonants: str = CLUSTER,
+        glides: bool = False,
+        allow_mz: bool = False) -> int:
+    get_veljvo(lujvo, y_hyphens, exp_rafsi_shapes, consonants, glides, allow_mz)
+    decomp = analyse_brivla(lujvo, y_hyphens, exp_rafsi_shapes, consonants, glides, allow_mz)[1]
+    return sum(
+        1000 * len(r)
+        if r in ["y", "n", "r", ""]
+        else score(r)
+        for r in decomp
+    ) - tiebreak(lujvo)
 
 
 def get_veljvo(

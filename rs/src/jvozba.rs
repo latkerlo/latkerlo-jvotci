@@ -1,7 +1,7 @@
 use crate::{
     data::{BANNED_TRIPLES, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
-    extract, get_veljvo,
+    extract,
     katna::jvokaha2,
     rafsi::RAFSI,
     tarmi::{
@@ -30,29 +30,10 @@ pub fn score(r: &str) -> i32 {
         - 10 * t
         - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
 }
-fn tiebreak(lujvo: &str) -> i32 {
+pub(crate) fn tiebreak(lujvo: &str) -> i32 {
     (rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Cvv
         && [Tarmi::Ccv, Tarmi::Ccvc, Tarmi::Cvc, Tarmi::Cvcc]
             .contains(&rafsi_tarmi(slice_(lujvo, 3)))) as i32
-}
-
-/// Calculate the score for a lujvo
-/// # Errors
-/// if not given a lujvo or cmejvo
-pub fn score_lujvo(lujvo: &str, settings: &Settings) -> Result<i32, Jvonunfli> {
-    get_veljvo(lujvo, settings)?;
-    let decomp = analyze_brivla(lujvo, settings)?.1;
-    Ok(decomp
-        .iter()
-        .map(|r| {
-            if ["y", "n", "r", ""].contains(&r.as_str()) {
-                1100 * r.len() as i32
-            } else {
-                score(r)
-            }
-        })
-        .sum::<i32>()
-        - tiebreak(lujvo))
 }
 
 /// Clean the tanru

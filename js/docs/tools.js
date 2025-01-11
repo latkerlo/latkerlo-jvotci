@@ -396,7 +396,6 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
                         smabruPart = smabruPart.slice(0, -1);
                     else
                         smabruPart = stripHyphens(smabruPart);
-                    console.log(smabruPart, yParts[i]);
                     if (isValidRafsi(smabruPart) && !(rafsiTarmi(smabruPart) == Tarmi.CCV && yParts[i].slice(toPart.length)[3] == "'"))
                         throw new NotBrivlaError("tosmabru");
                     try {

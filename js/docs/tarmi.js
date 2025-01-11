@@ -41,9 +41,9 @@ var ConsonantSetting;
 })(ConsonantSetting || (ConsonantSetting = {}));
 const SETTINGS = [
     [YHyphenSetting.STANDARD, YHyphenSetting.ALLOW_Y, YHyphenSetting.FORCE_Y],
-    [false, true],
+    [false, true], // experimental rafsi shapes
     [ConsonantSetting.CLUSTER, ConsonantSetting.TWO_CONSONANTS, ConsonantSetting.ONE_CONSONANT],
-    [false, true],
+    [false, true], // glides are consonants
     [false, true] // mz is a valid cluster
 ];
 /**

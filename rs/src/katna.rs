@@ -4,7 +4,7 @@ use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
     extract,
-    jvozba::get_lujvo_from_list,
+    jvozba::{get_lujvo_from_list, score, tiebreak},
     rafsi::RAFSI,
     tarmi::{is_consonant, is_vowel, rafsi_tarmi, BrivlaType, Settings, Tarmi, YHyphenSetting},
     tools::{analyze_brivla, char, is_brivla, slice, slice_},
@@ -254,6 +254,25 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             "{{{orig}}} can't be decomposed"
         )));
     }
+}
+
+/// Calculate the score for a lujvo
+/// # Errors
+/// if not given a lujvo or cmejvo
+pub fn score_lujvo(lujvo: &str, settings: &Settings) -> Result<i32, Jvonunfli> {
+    get_veljvo(lujvo, settings)?;
+    let decomp = analyze_brivla(lujvo, settings)?.1;
+    Ok(decomp
+        .iter()
+        .map(|r| {
+            if ["y", "n", "r", ""].contains(&r.as_str()) {
+                1100 * r.len() as i32
+            } else {
+                score(r)
+            }
+        })
+        .sum::<i32>()
+        - tiebreak(lujvo))
 }
 
 /// Get the selrafsi (source tanru) and formatted unassigned rafsi for this lujvo

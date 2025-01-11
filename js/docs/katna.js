@@ -101,7 +101,7 @@ function jvokaha(lujvo, { yHyphens = YHyphenSetting.STANDARD, consonants = Conso
     const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
     if (rafsiTanru.length == 1) {
         throw new TypeError("not enough rafsi");
-    }    
+    }
     let correctLujvo;
     try {
         correctLujvo = getLujvoFromList(rafsiTanru, {
@@ -180,7 +180,7 @@ function jvokaha2(lujvo, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false }
             lujvo = lujvo.slice(4);
             continue;
         }
-        // CVCCy and CCVCy can always be dropped
+        // CVCCY and CCVCY can always be dropped
         if ([Tarmi.CVCC, Tarmi.CCVC].includes(rafsiTarmi(lujvo.slice(0, 4)))) {
             if (isVowel(lujvo[1])) {
                 if (!(allowMZ ? MZ_VALID : VALID).includes(lujvo.slice(2, 4)))
@@ -213,9 +213,8 @@ function jvokaha2(lujvo, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false }
         if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CCV) {
             if (!INITIAL.includes(lujvo.slice(0, 2)))
                 throw new InvalidClusterError(`Invalid initial cluster {${lujvo.slice(0, 2)}} in {${original_lujvo}}`);
-            // no CCV'y
             if (lujvo == original_lujvo && lujvo.slice(3, 5) == "'y")
-                throw new NotBrivlaError(`{${original_lujvo}} starts with CCV'y, making it a slinku'i`);        
+                throw new NotBrivlaError(`{${original_lujvo}} starts with CCV'y, making it a slinku'i`);
             res.push(lujvo.slice(0, 3));
             lujvo = lujvo.slice(3);
             continue;
@@ -224,6 +223,29 @@ function jvokaha2(lujvo, { yHyphens = YHyphenSetting.STANDARD, allowMZ = false }
         // console.log(res, lujvo)
         throw new DecompositionError("Failed to decompose {" + original_lujvo + "}");
     }
+}
+/**
+ * Calculate the score for a lujvo
+ *
+ * @param lujvo the lujvo
+ * @returns its score
+ */
+function scoreLujvo(lujvo, { generateCmevla = false, yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, expRafsiShapes = false, glides = false, allowMZ = false } = {}) {
+    let settings = { generateCmevla, yHyphens, consonants, expRafsiShapes, glides, allowMZ };
+    try {
+        getVeljvo(lujvo, settings);
+    }
+    catch (e) {
+        throw e;
+    }
+    let decomp;
+    try {
+        decomp = analyseBrivla(lujvo, settings)[1];
+    }
+    catch (e) {
+        throw e;
+    }
+    return decomp.map(r => ["y", "n", "r", ""].includes(r) ? 1100 * r.length : score(r)).reduce((a, b) => a + b) - tiebreak(lujvo);
 }
 /**
  * Decompose a lujvo into a list of selrafsi and formatted rafsi.

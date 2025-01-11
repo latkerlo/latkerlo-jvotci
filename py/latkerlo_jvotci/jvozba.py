@@ -40,6 +40,9 @@ def score(rafsi: str) -> int:
         )
     )
 
+def tiebreak(lujvo: str) -> int: 
+    return 1 if (rafsi_tarmi(lujvo[0:3]) == CVV
+        and rafsi_tarmi(lujvo[3:]) in [CCV, CCVC, CVC, CVCC]) else 0
 
 def process_tanru(tanru: str | list[str]) -> list[str]:
     """
@@ -385,11 +388,12 @@ def combine(
         total_consonants = 2
 
     hyphen_score = 1700 if hyphen == "'y" else 1100 * len(hyphen)
+    res = lujvo + hyphen + rafsi
     return (
         tosmabru_type,
         total_consonants,
-        lujvo_score + hyphen_score + score(rafsi),
-        lujvo + hyphen + rafsi,
+        lujvo_score + hyphen_score + score(rafsi) - tiebreak(res),
+        res,
         index_list
     )
 

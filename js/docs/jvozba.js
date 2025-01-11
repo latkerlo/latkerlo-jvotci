@@ -26,6 +26,9 @@ function score(rafsi) {
         - 10 * tarmiScore
         - (rafsi.match(/[aeiou]/g) || []).length);
 }
+function tiebreak(lujvo) {
+    return +(rafsiTarmi(lujvo.slice(0, 3)) == Tarmi.CVV && [Tarmi.CCV, Tarmi.CCVC, Tarmi.CVC, Tarmi.CVCC].includes(rafsiTarmi(lujvo.slice(3))));
+}
 /**
  * Create a cleaned-up list of tanru components from a string or list.
  *
@@ -280,11 +283,11 @@ function combine(lujvo, rafsi, luvjoConsonants, rafsiConsonants, lujvoScore, ind
             hyphen = "y";
         else
             return null;
-    } else if (
-        lujvo.length == 5 && rafsiTarmi(lujvo.slice(0, 3)) == Tarmi.CCV && lujvo.slice(3) == "'y"
-    ) {
+    }
+    else if (lujvo.length == 5 && rafsiTarmi(lujvo.slice(0, 3)) == Tarmi.CCV && lujvo.slice(3) == "'y") {
         return null;
-    } else if (lujvo.length <= 5 && !generateCmevla) {
+    }
+    else if (lujvo.length <= 5 && !generateCmevla) {
         const raftai0 = tarmiIgnoringHyphen(lujvo);
         if ([Tarmi.CVhV, Tarmi.CVV].includes(raftai0)) {
             if (yHyphens === YHyphenSetting.FORCE_Y)
@@ -348,7 +351,7 @@ function combine(lujvo, rafsi, luvjoConsonants, rafsiConsonants, lujvoScore, ind
     return [
         tosmabruType,
         totalConsonants,
-        lujvoScore + hyphenScore + score(rafsi),
+        lujvoScore + hyphenScore + score(rafsi) - tiebreak(lujvo + hyphen + rafsi),
         lujvo + hyphen + rafsi,
         indexList
     ];

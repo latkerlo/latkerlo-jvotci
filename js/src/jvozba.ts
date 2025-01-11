@@ -31,6 +31,9 @@ function score(rafsi: string): number {
     - (rafsi.match(/[aeiou]/g) || []).length
   );
 }
+function tiebreak(lujvo: string): number {
+  return +(rafsiTarmi(lujvo.slice(0, 3)) == Tarmi.CVV && [Tarmi.CCV, Tarmi.CCVC, Tarmi.CVC, Tarmi.CVCC].includes(rafsiTarmi(lujvo.slice(3))));
+}
 
 /**
  * Create a cleaned-up list of tanru components from a string or list.
@@ -417,7 +420,7 @@ function combine(
   return [
     tosmabruType,
     totalConsonants,
-    lujvoScore + hyphenScore + score(rafsi),
+    lujvoScore + hyphenScore + score(rafsi) - tiebreak(lujvo + hyphen + rafsi),
     lujvo + hyphen + rafsi,
     indexList
   ];

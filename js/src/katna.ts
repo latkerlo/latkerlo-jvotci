@@ -273,6 +273,37 @@ function jvokaha2(
 }
 
 /**
+ * Calculate the score for a lujvo
+ * 
+ * @param lujvo the lujvo
+ * @returns its score
+ */
+function scoreLujvo(lujvo: string, {
+  generateCmevla = false,
+  yHyphens = YHyphenSetting.STANDARD,
+  consonants = ConsonantSetting.CLUSTER,
+  expRafsiShapes = false,
+  glides = false,
+  allowMZ = false
+} = {}): number {
+  let settings = {generateCmevla, yHyphens, consonants, expRafsiShapes, glides, allowMZ};
+  try {
+    getVeljvo(lujvo, settings);
+  } catch (e) {
+    throw e;
+  }
+  let decomp;
+  try {
+    decomp = analyseBrivla(lujvo, settings)[1];
+  } catch (e) {
+    throw e;
+  }
+  return decomp.map(r =>
+    ["y", "n", "r", ""].includes(r) ? 1100 * r.length : score(r)
+  ).reduce((a, b) => a + b) - tiebreak(lujvo);
+}
+
+/**
  * Decompose a lujvo into a list of selrafsi and formatted rafsi.
  * 
  * @param lujvo Lujvo to decompose.
