@@ -23,7 +23,8 @@ pub enum Tosytype {
     Tosyhuhu,
 }
 
-/// Calculate the score for a rafsi (possibly including a hyphen)
+/// Calculate the score for a rafsi (possibly including a hyphen). Use
+/// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo
 pub fn score(r: &str) -> i32 {
     let t = tarmi_ignoring_hyphen(r) as usize % 9;
     (1000 * r.len() - 400 * r.matches('\'').count() + 100 * r.matches('y').count()
@@ -468,7 +469,7 @@ pub fn update_current_best(
     current_best
 }
 
-/// Create the best lujvo for the tanru (list). Recommended to use `get_lujvo_with_analytics`
+/// Create the best lujvo for the tanru (list). Recommended to use [`get_lujvo_with_analytics`]
 /// instead if you have a string
 /// # Errors
 /// if given less than two words, or if some part of the jvozba process fails

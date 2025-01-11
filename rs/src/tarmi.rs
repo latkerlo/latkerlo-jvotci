@@ -35,6 +35,8 @@ pub enum BrivlaType {
     Rafsi,
     Cmevla,
 }
+/// Setting `AllowY` makes *'y* a valid replacement for CLL's *r*/*n* hyphens. `ForceY` requires
+/// *'y*, trating e.g. *voirli'u* as a zi'evla.
 #[derive(Debug, Default, PartialEq, Clone, Copy)]
 pub enum YHyphenSetting {
     #[default]
@@ -42,6 +44,9 @@ pub enum YHyphenSetting {
     AllowY,
     ForceY,
 }
+/// With a non`Standard` [`YHyphenSetting`], there are some strings e.g. *nei'ynei* that cannot fall
+/// apart or combine with other words, and do not break any of Lojban's morphology. Setting
+/// `TwoConsonants` or `OneConsonant` lets these be valid lujvo.
 #[derive(Debug, Default, PartialEq, Clone, Copy)]
 pub enum ConsonantSetting {
     #[default]
@@ -53,13 +58,21 @@ pub enum ConsonantSetting {
 #[derive(Debug, Default, Clone, Copy, PartialEq)]
 #[allow(clippy::struct_excessive_bools)]
 pub struct Settings {
+    /// Whether the lujvo should end in a consonant. This only affects *making* lujvo, not
+    /// decomposing them
     pub generate_cmevla: bool,
     pub y_hyphens: YHyphenSetting,
     pub consonants: ConsonantSetting,
+    /// Whether any cmavo not containing *y* may be a rafsi
     pub exp_rafsi: bool,
+    /// Whether semivowel *i* and *u* are treated as consonants. Together with `consonants` and
+    /// `y_hyphens` this may poduce lujvo with no actual consonants like *ia'yia*
     pub glides: bool,
+    /// Whether *mz* is a valid cluster
     pub allow_mz: bool,
 }
+
+/// Keep only certain fields of a [`Settings`] and replace the rest with their defaults
 #[macro_export]
 macro_rules! extract {
     ($s:ident, $($part:ident),+) => {
@@ -69,6 +82,7 @@ macro_rules! extract {
         }
     };
 }
+/// A list of every [`Settings`]
 pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
     iproduct!(
         ["", "c"],
@@ -90,7 +104,6 @@ pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
 });
 impl fmt::Display for Settings {
     /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
-    /// Returns "default" when given the default settings
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let s = format!(
             "{}{}{}{}{}{}",
@@ -118,7 +131,7 @@ impl FromStr for Settings {
     type Err = SettingsError;
     /// Returns a `SettingsError` if given any characters other than `cSAFC21rgz` or there are
     /// multiple of any. `crgz` activate `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
-    /// `SAF` and `C21` select a `YHyphenSetting` and `ConsonantSetting`
+    /// `SAF` and `C21` select a [`YHyphenSetting`] and [`ConsonantSetting`]
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         if "crgz"
             .chars()

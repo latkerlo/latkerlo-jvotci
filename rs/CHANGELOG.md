@@ -1,6 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
-## 2.0.0 (soon to release)
+## 2.0.0
+> [!WARNING]
+> lots of breaking changes! see [docs.rs](https://docs.rs/latkerlo-jvotci/) for everything you can do now
 - can now put zi'evla in lujvo!
 - new settings to control various things
 - fixed a typo in the changelog entry for 1.0.3 lol

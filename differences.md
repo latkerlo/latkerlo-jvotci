@@ -31,14 +31,6 @@ y-hyphens.</td>
     <td>✅ Brivla</td>
   </tr>
   <tr>
-    <td>spa'ykerlo</td>
-    <td>✅ Brivla</td>
-    <td>❌ Not Brivla</td>
-    <td>❌ Not Brivla</td>
-    <td rowspan="3">For initial CCV, this is more consistent with the rules 
-when no y-hyphen is present</td>
-  </tr>
-  <tr>
     <td>spaspa'ykerlo</td>
     <td>✅ Brivla</td>
     <td>✅ Brivla</td>

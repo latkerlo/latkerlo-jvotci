@@ -73,7 +73,7 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 /// if given e.g. a non-brivla
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if is_vowel(char(s, 0)) {
-        // words starting with vowels have an invisible `.` at the start
+        // words starting with vowels have an invisible . at the start
         Ok(false)
     } else if let Err(e) = jvokaha(&format!("pa{s}"), &extract!(settings, y_hyphens, allow_mz)) {
         match e {
