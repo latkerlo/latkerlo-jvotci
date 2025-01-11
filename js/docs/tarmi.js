@@ -279,7 +279,7 @@ function rafsiTarmi(rafsi) {
     if (rafLen === 0) {
         return Tarmi.OtherRafsi;
     }
-    else if (rafLen === 2 && rafsi[0] === "'" && rafsi[1] === "y") {
+    else if (rafsi === "'y") {
         return Tarmi.Hyphen;
     }
     else if (!isConsonant(rafsi[0]) && rafLen !== 1) {

@@ -344,7 +344,7 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
     let l = r.len();
     if l == 0 {
         return Tarmi::OtherRafsi;
-    } else if l == 2 && slice(r, 0, 2) == "'y" {
+    } else if r == "'y" {
         return Tarmi::Hyphen;
     } else if l != 1 && !is_consonant(char(r, 0)) {
         return Tarmi::OtherRafsi;

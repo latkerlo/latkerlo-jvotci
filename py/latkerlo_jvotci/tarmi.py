@@ -276,7 +276,7 @@ def rafsi_tarmi(rafsi: str) -> int:
     raf_len = len(rafsi)
     if raf_len == 0:
         return OTHER_RAFSI
-    elif raf_len == 2 and rafsi[0] == "'" and rafsi[1] == 'y':
+    elif rafsi == "'y":
         return HYPHEN
     elif not is_consonant(rafsi[0]) and raf_len != 1:
         return OTHER_RAFSI
