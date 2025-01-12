@@ -71,7 +71,7 @@ glides) {
     else if (["LONG BRIVLA", Tarmi.CCVCV, Tarmi.CVCCV].includes(rType)) {
         if (isLast)
             result.push([rafsi, 2]);
-        else if (!(rType === Tarmi.CVCCV && INITIAL.includes(rafsi.slice(2, 4))))
+        else
             result.push([rafsi + "'y", 2]);
     }
     else if (rType === "EXPERIMENTAL RAFSI") {

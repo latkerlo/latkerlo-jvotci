@@ -80,7 +80,7 @@ pub fn get_rafsi_for_rafsi(
     {
         if last {
             res.push((r.clone(), 2));
-        } else if !(r_type == Tarmi::Cvccv.to_string() && INITIAL.contains(&slice(&r, 2, 4))) {
+        } else {
             res.push((format!("{r}'y"), 2));
         }
     } else if r_type == "ExperimentalRafsi" {

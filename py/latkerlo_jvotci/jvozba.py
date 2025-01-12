@@ -99,7 +99,7 @@ def get_rafsi_for_rafsi(
     elif r_type in ["LONG BRIVLA", CCVCV, CVCCV]:
         if is_last:
             result.append((rafsi, 2))
-        elif not (r_type == CVCCV and rafsi[2:4] in INITIAL):
+        else:
             result.append((rafsi + "'y", 2))
 
     elif r_type == "EXPERIMENTAL RAFSI":

@@ -80,7 +80,7 @@ mlatu fa'u'u'u'u'u'u'u'unmo		ELSE	latyfa'u'u'u'u'u'u'u'unmo		0-3,4-25
 ism- fa'u'u'u'u'u'u'u'unmo		ELSE	ismyfa'u'u'u'u'u'u'u'unmo		0-3,4-25
 ismu fa'u'u'u'u'u'u'u'unmo		ELSE	ismu'yfa'u'u'u'u'u'u'u'unmo		0-4,6-27
 mlatu iismu		ELSE	latyiismu		0-3,4-9
--gismu- kerlo		ELSE	NONE
+-gismu- kerlo		ELSE	gismu'ykerlo	11676	0-5,7-12
 nelci akti		ELSE	nely'akti		0-3,5-9
 jesni -spati- trene		ELSE	jesyspati'yre'e		0-3,4-9,11-15
 -spati- -spati- -spati-		ELSE	spati'yspati'yspati		0-5,7-12,14-19
@@ -246,14 +246,14 @@ ismu -fa'u'u-		MORE_RAF	ismu'yfa'u'u			ELSE	NONE
 -ia- -fa'u-		(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	ia'yfa'u			ELSE	NONE
 mutce -ia-		MORE_RAF	mutcyia	7077	0-4,5-7	ELSE	NONE
 mutc- -ia-		MORE_RAF	mutcyia	7077	0-4,5-7	ELSE	NONE
--mutce- -ia-		ELSE	NONE
+-mutce- -ia-		MORE_RAF	mutce'yia	8686	0-5,7-9	ELSE	NONE
 -ia- mutce		(ALLOW_Y | FORCE_Y) & MORE_RAF	ia'ytce			ELSE	NONE
 -ia- -mutce-		(ALLOW_Y | FORCE_Y) & MORE_RAF	ia'ymutce			ELSE	NONE
 -fa'u- ismu		ELSE	fa'u'y'ismu
 -fa'u- iismu		ALLOW_Y | FORCE_Y	fa'u'yiismu			ELSE	NONE
 -fa'u- kerlo		FORCE_Y	fa'u'ykerlo			ELSE	fa'urkerlo
 gismu -u-		MORE_RAF	gismy'u	6678		ELSE	NONE
--gismu- -u-		ELSE	NONE
+-gismu- -u-		MORE_RAF	gismu'y'u	8287		ELSE	NONE
 barduku ecre		ELSE	barduku'y'ecre
 barduku kelci		ELSE	barduku'ykei
 barduk- ecre		ELSE	NONE

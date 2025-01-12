@@ -71989,293 +71989,6 @@ settings - F1r
 zbasu    - Err(NoLujvoFoundError("{-voi- iimzu -fa'u'u-} can't be turned into a lujvo"))
 settings - F1rg
 
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 2rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - 1rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Az
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Ag
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Agz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Ar
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Arz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Arg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Argz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A2rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - A1rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Fz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Fg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Fgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Fr
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Frz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Frg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - Frgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F2rgz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1z
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1g
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1gz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1r
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1rz
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1rg
-
--gismu- kerlo
-zbasu    - Err(NoLujvoFoundError("{-gismu- kerlo} can't be turned into a lujvo"))
-settings - F1rgz
-
 -kerlo- -u'u- ismu
 zbasu    - Err(NotZihevlaError("{u'u} is an invalid rafsi or zi'evla"))
 
@@ -88894,22 +88607,6 @@ zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - gz
 
 -mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - rgz
-
--mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - 2
 
@@ -88924,22 +88621,6 @@ settings - 2g
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - 2gz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 2r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 2rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 2rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 2rgz
 
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
@@ -88958,22 +88639,6 @@ zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - 1gz
 
 -mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 1r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 1rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 1rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - 1rgz
-
--mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - A
 
@@ -88988,22 +88653,6 @@ settings - Ag
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - Agz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Ar
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Arz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Arg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Argz
 
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
@@ -89022,22 +88671,6 @@ zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - A2gz
 
 -mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A2r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A2rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A2rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A2rgz
-
--mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - A1
 
@@ -89052,22 +88685,6 @@ settings - A1g
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - A1gz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A1r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A1rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A1rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - A1rgz
 
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
@@ -89086,22 +88703,6 @@ zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - Fgz
 
 -mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Fr
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Frz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Frg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - Frgz
-
--mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - F2
 
@@ -89118,22 +88719,6 @@ zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - F2gz
 
 -mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F2r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F2rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F2rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F2rgz
-
--mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - F1
 
@@ -89148,22 +88733,6 @@ settings - F1g
 -mutce- -ia-
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
 settings - F1gz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F1r
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F1rz
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F1rg
-
--mutce- -ia-
-zbasu    - Err(NoLujvoFoundError("{-mutce- -ia-} can't be turned into a lujvo"))
-settings - F1rgz
 
 -ia- mutce
 zbasu    - Err(NotZihevlaError("{ia} is an invalid rafsi or zi'evla"))
@@ -89801,22 +89370,6 @@ zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - gz
 
 -gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - rgz
-
--gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - 2
 
@@ -89831,22 +89384,6 @@ settings - 2g
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - 2gz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 2r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 2rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 2rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 2rgz
 
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
@@ -89865,22 +89402,6 @@ zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - 1gz
 
 -gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 1r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 1rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 1rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - 1rgz
-
--gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - A
 
@@ -89895,22 +89416,6 @@ settings - Ag
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - Agz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Ar
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Arz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Arg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Argz
 
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
@@ -89929,22 +89434,6 @@ zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - A2gz
 
 -gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A2r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A2rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A2rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A2rgz
-
--gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - A1
 
@@ -89959,22 +89448,6 @@ settings - A1g
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - A1gz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A1r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A1rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A1rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - A1rgz
 
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
@@ -89993,22 +89466,6 @@ zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - Fgz
 
 -gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Fr
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Frz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Frg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - Frgz
-
--gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - F2
 
@@ -90025,22 +89482,6 @@ zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - F2gz
 
 -gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F2r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F2rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F2rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F2rgz
-
--gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - F1
 
@@ -90055,22 +89496,6 @@ settings - F1g
 -gismu- -u-
 zbasu    - Err(NotZihevlaError("{u} is an invalid rafsi or zi'evla"))
 settings - F1gz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F1r
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F1rz
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F1rg
-
--gismu- -u-
-zbasu    - Err(NoLujvoFoundError("{-gismu- -u-} can't be turned into a lujvo"))
-settings - F1rgz
 
 barduk- ecre
 zbasu    - Err(NoLujvoFoundError("{barduka} is a valid zi'evla, but without the final vowel it is a cmejvo"))
