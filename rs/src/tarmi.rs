@@ -69,8 +69,9 @@ pub struct Settings {
     pub consonants: ConsonantSetting,
     /// Whether any cmavo not containing *y* may be a rafsi
     pub exp_rafsi: bool,
-    /// Whether semivowel *i* and *u* are treated as consonants. Together with `consonants` and
-    /// `y_hyphens` this may poduce lujvo with no actual consonants like *ia'yia*
+    /// Whether semivowel *i* and *u* are treated as consonants. Together with `consonants`,
+    /// `exp_rafsi`, and `y_hyphens` this may poduce lujvo with no actual consonants like
+    /// *ia'yia*
     pub glides: bool,
     /// Whether *mz* is a valid cluster
     pub allow_mz: bool,
