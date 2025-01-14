@@ -10,7 +10,7 @@ use itertools::{iproduct, Itertools};
 use regex::Regex;
 use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 
-#[derive(Debug, PartialEq, Clone, Copy)]
+#[derive(Debug, PartialEq, Eq, Clone, Copy)]
 pub enum Tarmi {
     Hyphen,
     Cvccv,
@@ -26,7 +26,7 @@ pub enum Tarmi {
 
 pub const SONORANT_CONSONANTS: &str = "lmnr";
 
-#[derive(Debug, PartialEq, Clone, Copy)]
+#[derive(Debug, PartialEq, Eq, Clone, Copy)]
 pub enum BrivlaType {
     Gismu,
     Zihevla,
@@ -35,19 +35,23 @@ pub enum BrivlaType {
     Rafsi,
     Cmevla,
 }
+/// Hyphen options for gluing CVV or CV'V rafsi to the front.
+///
 /// Setting `AllowY` makes *'y* a valid replacement for CLL's *r*/*n* hyphens. `ForceY` requires
 /// *'y*, trating e.g. *voirli'u* as a zi'evla.
-#[derive(Debug, Default, PartialEq, Clone, Copy)]
+#[derive(Debug, Default, PartialEq, Eq, Clone, Copy)]
 pub enum YHyphenSetting {
     #[default]
     Standard,
     AllowY,
     ForceY,
 }
+/// Minimum consonant requirements.
+///
 /// With a non`Standard` [`YHyphenSetting`], there are some strings e.g. *nei'ynei* that cannot fall
 /// apart or combine with other words, and do not break any of Lojban's morphology. Setting
 /// `TwoConsonants` or `OneConsonant` lets these be valid lujvo.
-#[derive(Debug, Default, PartialEq, Clone, Copy)]
+#[derive(Debug, Default, PartialEq, Eq, Clone, Copy)]
 pub enum ConsonantSetting {
     #[default]
     Cluster,
@@ -55,7 +59,7 @@ pub enum ConsonantSetting {
     OneConsonant,
 }
 
-#[derive(Debug, Default, Clone, Copy, PartialEq)]
+#[derive(Debug, Default, Clone, Copy, PartialEq, Eq)]
 #[allow(clippy::struct_excessive_bools)]
 pub struct Settings {
     /// Whether the lujvo should end in a consonant. This only affects *making* lujvo, not
@@ -160,7 +164,7 @@ impl FromStr for Settings {
         } else {
             ConsonantSetting::Cluster
         };
-        Ok(Settings {
+        Ok(Self {
             generate_cmevla,
             y_hyphens,
             consonants,

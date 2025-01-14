@@ -16,7 +16,7 @@ use crate::{
 use indexmap::IndexMap;
 use itertools::Itertools;
 
-#[derive(PartialEq, Clone, Copy, Debug)]
+#[derive(PartialEq, Eq, Clone, Copy, Debug)]
 pub enum Tosytype {
     Tosynone,
     Tosmabru,
@@ -69,7 +69,7 @@ pub fn get_rafsi_for_rafsi(
         if !last {
             res.push((format!("{r}y"), 2));
         } else if !is_vowel(char(&r, -1)) {
-            res.push((r.clone(), 2));
+            res.push((r, 2));
         }
     } else if [
         "LongBrivla",
@@ -79,7 +79,7 @@ pub fn get_rafsi_for_rafsi(
     .contains(&r_type)
     {
         if last {
-            res.push((r.clone(), 2));
+            res.push((r, 2));
         } else {
             res.push((format!("{r}'y"), 2));
         }
@@ -88,7 +88,7 @@ pub fn get_rafsi_for_rafsi(
             && (is_consonant(char(&r, 0)) || settings.glides && is_glide(&r)))
             as i32;
         if last {
-            res.push((r.clone(), num_consonants));
+            res.push((r, num_consonants));
         } else if !first {
             res.push((format!("{r}'y"), num_consonants));
         } else {
@@ -106,7 +106,7 @@ pub fn get_rafsi_for_rafsi(
         } else if !last {
             res.push((format!("{r}'y"), num_consonants));
         }
-        res.push((r.clone(), num_consonants));
+        res.push((r, num_consonants));
     } else if r_type == Tarmi::Ccv.to_string() {
         res.push((r.clone(), 2));
         res.push((format!("{r}'y"), 2));
@@ -504,14 +504,16 @@ pub fn get_lujvo_from_list(
     }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
-            let mut tosmabru_type = Tosytype::Tosynone;
-            if tarmi_ignoring_hyphen(&rafsi0.0) == Tarmi::Cvc && !settings.generate_cmevla {
-                tosmabru_type = if char(&rafsi0.0, -1) == 'y' {
-                    Tosytype::Tosyhuhu
+            let tosmabru_type =
+                if tarmi_ignoring_hyphen(&rafsi0.0) == Tarmi::Cvc && !settings.generate_cmevla {
+                    if char(&rafsi0.0, -1) == 'y' {
+                        Tosytype::Tosyhuhu
+                    } else {
+                        Tosytype::Tosmabru
+                    }
                 } else {
-                    Tosytype::Tosmabru
+                    Tosytype::Tosynone
                 };
-            }
             let res = combine(
                 &rafsi0.0,
                 &rafsi1.0,

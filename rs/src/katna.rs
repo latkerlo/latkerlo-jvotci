@@ -122,7 +122,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         return Err(Jvonunfli::FakeTypeError("not enough rafsi".to_string()));
     }
     let correct_lujvo = get_lujvo_from_list(
-        &rafsi_tanru.clone(),
+        &rafsi_tanru,
         &Settings {
             generate_cmevla: is_consonant(char(&arr[arr.len() - 1], -1)),
             ..extract!(settings, y_hyphens, consonants, glides, allow_mz)
@@ -147,7 +147,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
                     ..Settings::default()
                 },
             )?,
-            &arr.clone(),
+            &arr,
         )
     };
     if cool_and_good {
