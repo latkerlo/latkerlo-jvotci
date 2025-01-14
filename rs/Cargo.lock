@@ -49,7 +49,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "latkerlo_jvotci"
+name = "latkerlo-jvotci"
 version = "2.0.0"
 dependencies = [
  "indexmap",
