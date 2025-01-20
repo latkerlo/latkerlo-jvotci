@@ -91,11 +91,8 @@ fn main() {
                         .to_lowercase()
                         .replace("dl", "d l"),
                     hyphens.join(" "),
-                    if let Ok(score) = score_lujvo(&input, &settings) {
-                        score.to_string() + "\n"
-                    } else {
-                        String::new()
-                    },
+                    score_lujvo(&input, &settings)
+                        .map_or_else(|_| String::new(), |score| score.to_string() + "\n"),
                     selrafsi_list_from_rafsi_list(&hyphens, &settings)
                         .unwrap()
                         .into_iter()
