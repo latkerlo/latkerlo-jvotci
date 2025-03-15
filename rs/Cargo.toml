@@ -7,6 +7,6 @@ description = "Tools for creating and decomposing Lojban lujvo."
 repository = "https://github.com/latkerlo/latkerlo-jvotci"
 
 [dependencies]
-indexmap = "2.6.0"
-itertools = "0.13.0"
-regex = "1.10.4"
+indexmap = "2.8.0"
+itertools = "0.14.0"
+regex = "1.11.1"

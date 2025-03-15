@@ -31,8 +31,8 @@ pub fn char(s: &str, i: isize) -> char {
     s.chars().nth(i as usize).unwrap_or_default()
 }
 pub fn slice(s: &str, i: isize, j: isize) -> &str {
-    let mut i = if i >= 0 { 0 } else { s.len() as isize } + i;
-    let mut j = if j >= 0 { 0 } else { s.len() as isize } + j;
+    let mut i = (i < 0) as isize * s.len() as isize + i;
+    let mut j = (j < 0) as isize * s.len() as isize + j;
     i = i.clamp(0, s.len() as isize);
     j = j.clamp(0, s.len() as isize);
     &s[i as usize..j as usize]

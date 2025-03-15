@@ -305,11 +305,7 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         regex.captures(slice(
             c,
             0,
-            if is_zihevla_initial_cluster(slice_(c, -3)) {
-                -3
-            } else {
-                -2
-            },
+            -2 - is_zihevla_initial_cluster(slice_(c, -3)) as isize,
         ))
     } else {
         Regex::new(
