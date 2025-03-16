@@ -287,6 +287,17 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
         _ => false,
     }
 }
+
+static ZIHEVLA_MIDDLE_1: LazyLock<Regex> = LazyLock::new(|| {
+    Regex::new("^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap()
+});
+static ZIHEVLA_MIDDLE_2: LazyLock<Regex> = LazyLock::new(|| {
+    Regex::new(
+        "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:\
+         ([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
+    )
+    .unwrap()
+});
 /// True if `c` can be in a zi'evla
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn is_zihevla_middle_cluster(c: &str) -> bool {
@@ -298,20 +309,14 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         return true;
     }
     // i don't know how many of these parentheses are unnecessary
-    let regex = Regex::new(r"^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap();
     let matches = if char(c, -2) == 'm' && INITIAL.contains(&slice_(c, -2)) {
-        regex.captures(slice(
+        ZIHEVLA_MIDDLE_1.captures(slice(
             c,
             0,
             -2 - is_zihevla_initial_cluster(slice_(c, -3)) as isize,
         ))
     } else {
-        Regex::new(
-            "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:\
-             ([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
-        )
-        .unwrap()
-        .captures(c)
+        ZIHEVLA_MIDDLE_2.captures(c)
     };
     if matches.is_none() {
         return false;
@@ -369,10 +374,12 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
         _ => Tarmi::OtherRafsi,
     }
 }
+
+static BOUNDARY_Y_HYPHENS: LazyLock<Regex> = LazyLock::new(|| Regex::new("^['y]+|['y]+$").unwrap());
 #[inline]
 /// Remove hyphens from the rafsi
 pub fn strip_hyphens(r: &str) -> String {
-    regex_replace_all("^['y]+|['y]+$", r, "")
+    regex_replace_all(&BOUNDARY_Y_HYPHENS, r, "")
 }
 /// Get the rafsi's shape without hyphens
 pub fn tarmi_ignoring_hyphen(r: &str) -> Tarmi {

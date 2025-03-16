@@ -15,6 +15,7 @@ use crate::{
 };
 use indexmap::IndexMap;
 use itertools::Itertools;
+use regex::Regex;
 
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
 pub enum Tosytype {
@@ -133,11 +134,12 @@ pub fn get_rafsi_list_list(
     settings: &Settings,
 ) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
     let mut rafsi_list_list = vec![];
+    let hyphens = Regex::new("^-+|-+$").unwrap();
     for (i, mut valsi) in valsi_list.iter().enumerate() {
         let mut rafsi_list = vec![];
         let first = i == 0;
         let last = i == valsi_list.len() - 1;
-        let hyphenless = regex_replace_all("^-+|-+$", valsi, "");
+        let hyphenless = regex_replace_all(&hyphens, valsi, "");
         if char(valsi, -1) == '-' {
             let is_short_brivla = char(valsi, 0) != '-';
             valsi = &hyphenless;

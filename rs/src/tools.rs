@@ -1,3 +1,5 @@
+use std::sync::LazyLock;
+
 use crate::{
     data::{
         BANNED_TRIPLES, FOLLOW_VOWEL_CLUSTERS, HYPHENS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS,
@@ -17,11 +19,16 @@ use regex::Regex;
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
-pub fn regex_replace_all(regex: &str, from: &str, with: &str) -> String {
+pub fn regex_str_replace_all(regex: &str, from: &str, with: &str) -> String {
     Regex::new(regex)
         .unwrap()
         .replace_all(from, with)
         .to_string()
+}
+#[allow(clippy::missing_panics_doc)] // .unwrap()
+#[inline]
+pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
+    regex.replace_all(from, with).to_string()
 }
 
 #[inline]
@@ -44,10 +51,10 @@ pub fn slice(s: &str, i: isize, j: isize) -> &str {
 pub fn slice_(s: &str, i: isize) -> &str {
     slice(s, i, s.len() as isize)
 }
-
+static ABNORMAL: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^\.|,|\.$").unwrap());
 /// Convert word to standard form (*h* → *'*, no periods/commas, lowercase)
 pub fn normalize(word: &str) -> String {
-    regex_replace_all(r"^\.|,|\.$", &word.to_lowercase(), "").replace('h', "'")
+    regex_replace_all(&ABNORMAL, &word.to_lowercase(), "").replace('h', "'")
 }
 
 /// True if `s` is a gismu or lujvo

@@ -9,9 +9,11 @@ use crate::{
     *,
 };
 use itertools::Itertools;
+use regex::Regex;
 use std::{
     fs::{self, OpenOptions},
     io::Write,
+    sync::LazyLock,
 };
 
 // ported from py/tests/test_other.py
@@ -61,6 +63,8 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
     }
 }
 
+static STRIP_ANSI: LazyLock<Regex> = LazyLock::new(|| Regex::new("\x1b\\[\\d*m").unwrap());
+
 fn both(test: &[&str]) -> i32 {
     let settings = Settings {
         generate_cmevla: is_consonant(char(test[0], -1)),
@@ -98,7 +102,7 @@ fn both(test: &[&str]) -> i32 {
             "test_diagnostics/good.txt"
         })
         .unwrap();
-    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
         .unwrap();
     ohno as i32
 }
@@ -120,7 +124,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
             .create(true)
             .open("test_diagnostics/bad.txt")
             .unwrap();
-        file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
             .unwrap();
         return 1;
     }
@@ -167,7 +171,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
             "test_diagnostics/good.txt"
         })
         .unwrap();
-    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
         .unwrap();
     ohno as i32
 }
@@ -195,7 +199,7 @@ fn zba_f(tanru: &str, settings: Settings) -> i32 {
             "test_diagnostics/check.txt"
         })
         .unwrap();
-    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
         .unwrap();
     ohno as i32
 }
@@ -224,7 +228,7 @@ fn kaha(
             .create(true)
             .open("test_diagnostics/bad.txt")
             .unwrap();
-        file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
             .unwrap();
         return 1;
     }
@@ -245,11 +249,7 @@ fn kaha(
             "EXTENDED" => "extended lujvo",
             _ => panic!("found btype {{{e_btype}}}"),
         };
-        let btype = regex_replace_all(
-            "dl",
-            &normalize(&pre_tanru.as_ref().unwrap().0.to_string()),
-            "d l",
-        );
+        let btype = &normalize(&pre_tanru.as_ref().unwrap().0.to_string()).replace("dl", "d l");
         output += &if e_btype == btype {
             format!("\nbrivtype - \x1b[92m{btype}\x1b[m")
         } else {
@@ -304,7 +304,7 @@ fn kaha(
             "test_diagnostics/good.txt"
         })
         .unwrap();
-    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
         .unwrap();
     ohno as i32
 }
@@ -335,7 +335,7 @@ fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
             "test_diagnostics/check.txt"
         })
         .unwrap();
-    file.write_all(regex_replace_all("\x1b\\[\\d*m", &(output + "\n"), "").as_bytes())
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
         .unwrap();
     ohno as i32
 }
