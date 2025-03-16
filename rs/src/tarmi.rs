@@ -248,7 +248,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
     let mut v = v;
     let mut res = VecDeque::new();
     macro_rules! add_to_res {
-        ($new_c:expr_2021) => {
+        ($new_c:expr) => {
             let new_v = slice(v, 0, -($new_c.len() as isize));
             if char($new_c, 0) == 'i' && ["ai", "ei", "oi"].contains(&slice_(new_v, -2))
                 || char($new_c, 0) == 'u' && slice_(new_v, -2) == "au"
