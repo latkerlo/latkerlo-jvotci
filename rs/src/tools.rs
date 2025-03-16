@@ -16,6 +16,7 @@ use itertools::Itertools;
 use regex::Regex;
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
+#[inline]
 pub fn regex_replace_all(regex: &str, from: &str, with: &str) -> String {
     Regex::new(regex)
         .unwrap()
@@ -23,6 +24,7 @@ pub fn regex_replace_all(regex: &str, from: &str, with: &str) -> String {
         .to_string()
 }
 
+#[inline]
 pub fn char(s: &str, i: isize) -> char {
     if s.is_empty() {
         return char::default();
@@ -30,6 +32,7 @@ pub fn char(s: &str, i: isize) -> char {
     let i = (s.len() as isize + i) % s.len() as isize;
     s.chars().nth(i as usize).unwrap_or_default()
 }
+#[inline]
 pub fn slice(s: &str, i: isize, j: isize) -> &str {
     let mut i = (i < 0) as isize * s.len() as isize + i;
     let mut j = (j < 0) as isize * s.len() as isize + j;
@@ -37,6 +40,7 @@ pub fn slice(s: &str, i: isize, j: isize) -> &str {
     j = j.clamp(0, s.len() as isize);
     &s[i as usize..j as usize]
 }
+#[inline]
 pub fn slice_(s: &str, i: isize) -> &str {
     slice(s, i, s.len() as isize)
 }
@@ -130,13 +134,7 @@ pub fn check_zihevla_or_rafsi(
             for i in 0..chunk.len().saturating_sub(1) {
                 let i = i as isize;
                 let cluster = slice(&chunk, i, i + 2);
-                if !if settings.allow_mz {
-                    MZ_VALID.to_vec()
-                } else {
-                    VALID.to_vec()
-                }
-                .contains(&cluster)
-                {
+                if !if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&cluster) {
                     return Err(Jvonunfli::NotZihevlaError(format!(
                         "{{{valsi_}}} contains an invalid cluster"
                     )));

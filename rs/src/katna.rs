@@ -201,12 +201,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         }
         if [Tarmi::Cvcc, Tarmi::Ccvc].contains(&rafsi_tarmi(slice(lujvo, 0, 4))) {
             if is_vowel(char(lujvo, 1)) {
-                if !if settings.allow_mz {
-                    MZ_VALID.to_vec()
-                } else {
-                    VALID.to_vec()
-                }
-                .contains(&slice(lujvo, 2, 4))
+                if !if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&slice(lujvo, 2, 4))
                 {
                     return Err(Jvonunfli::InvalidClusterError(format!(
                         "{{{orig}}} contains an invalid cluster",

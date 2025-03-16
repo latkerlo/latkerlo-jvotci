@@ -13549,290 +13549,290 @@ katna    - Err(NotBrivlaError("{ba} is too short to be a zi'evla"))
 settings - F1rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 2rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - 1rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Az
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Ag
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Agz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Ar
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Arz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Arg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Argz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A2rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - A1rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Fz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Fg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Fgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Fr
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Frz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Frg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - Frgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F2rgz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1z
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1g
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1gz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1r
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1rz
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1rg
 
 stcibilo
-katna    - Err(NotBrivlaError("{stcibilo} starts with an invalid cluster"))
+katna    - Err(DecompositionError("{stcibilo} is a zihevla, not a lujvo or decomposable cmevla"))
 settings - F1rgz
 
 streamline

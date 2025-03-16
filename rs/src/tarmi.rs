@@ -1,7 +1,5 @@
 use crate::{
-    data::{
-        FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID, ZIHEVLA_INITIAL,
-    },
+    data::{FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID},
     exceptions::Jvonunfli,
     jvozba::Tosytype,
     tools::{char, regex_replace_all, slice, slice_},
@@ -107,6 +105,7 @@ pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
     )
     .collect_vec()
 });
+
 impl fmt::Display for Settings {
     /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
@@ -198,14 +197,17 @@ auto_to_string!(
     Tosytype
 );
 
+#[inline]
 /// True if `c` is a vowel (non-*y*)
 pub fn is_vowel(c: char) -> bool {
     "aeiou".contains(c)
 }
+#[inline]
 /// True if `c` is a consonant
 pub fn is_consonant(c: char) -> bool {
     "bcdfgjklmnprstvxz".contains(c)
 }
+#[inline]
 /// True if `s` is an on-glide (*i*/*u* + vowel)
 pub fn is_glide(s: &str) -> bool {
     s.len() >= 2 && "iu".contains(char(s, 0)) && is_vowel(char(s, 1))
@@ -232,12 +234,7 @@ pub fn is_gismu_shape(v: &str) -> bool {
 pub fn is_gismu(v: &str, settings: &Settings) -> bool {
     is_gismu_shape(v)
         && if is_vowel(char(v, 1)) {
-            if settings.allow_mz {
-                MZ_VALID.to_vec()
-            } else {
-                VALID.to_vec()
-            }
-            .contains(&slice(v, 2, 4))
+            if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&slice(v, 2, 4))
         } else {
             INITIAL.contains(&slice(v, 0, 2))
         }
@@ -283,11 +280,12 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
 
 /// True if `c` can start a zi'evla
 pub fn is_zihevla_initial_cluster(c: &str) -> bool {
-    c.len() == 1
-        || c.len() == 2 && INITIAL.contains(&c)
-        || c.len() == 3
-            && INITIAL.contains(&slice(c, 0, 2))
-            && ZIHEVLA_INITIAL.contains(&slice_(c, 1))
+    match c.len() {
+        1 => true,
+        2 => INITIAL.contains(&c),
+        3 => INITIAL.contains(&slice(c, 0, 2)) && INITIAL.contains(&slice_(c, 1)),
+        _ => false,
+    }
 }
 /// True if `c` can be in a zi'evla
 #[allow(clippy::missing_panics_doc)] // .unwrap()
@@ -323,16 +321,12 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         || is_zihevla_initial_cluster(&matches[matches.len() - 2])
 }
 
+#[inline]
 /// True if `r` is a valid CLL rafsi
 pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
     let t = rafsi_tarmi(r);
     if [Tarmi::Cvccv, Tarmi::Cvcc].contains(&t) {
-        if settings.allow_mz {
-            MZ_VALID.to_vec()
-        } else {
-            VALID.to_vec()
-        }
-        .contains(&slice(r, 2, 4))
+        if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&slice(r, 2, 4))
     } else if [Tarmi::Ccvcv, Tarmi::Ccvc, Tarmi::Ccv].contains(&t) {
         INITIAL.contains(&slice(r, 0, 2))
     } else {
@@ -340,6 +334,7 @@ pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
     }
 }
 
+#[inline]
 /// Get the shape of a rafsi
 pub fn rafsi_tarmi(r: &str) -> Tarmi {
     let l = r.len();
@@ -374,6 +369,7 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
         _ => Tarmi::OtherRafsi,
     }
 }
+#[inline]
 /// Remove hyphens from the rafsi
 pub fn strip_hyphens(r: &str) -> String {
     regex_replace_all("^['y]+|['y]+$", r, "")

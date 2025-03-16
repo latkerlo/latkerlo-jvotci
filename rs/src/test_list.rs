@@ -1,3 +1,4 @@
+#![allow(clippy::format_push_string)]
 #![cfg(test)]
 
 use crate::{
@@ -69,7 +70,7 @@ fn both(test: &[&str]) -> i32 {
     let expect = test[1];
     let mut output = format!("\n{lujvo}");
     let tanru = get_veljvo(lujvo, &settings)
-        .unwrap_or_else(|e| vec![format!("Err({e})")])
+        .unwrap_or_else(|e| vec![format!("{:?}", Err::<Vec<String>, _>(e))])
         .join(" ");
     output += &if expect == tanru {
         format!("\nkatna    - \x1b[92m{tanru}\x1b[m")
@@ -78,7 +79,8 @@ fn both(test: &[&str]) -> i32 {
     };
     let tanru = test[1];
     let expect = test[0];
-    let lujvo = get_lujvo(tanru, &settings).unwrap_or_else(|e| format!("Err({e})"));
+    let lujvo =
+        get_lujvo(tanru, &settings).unwrap_or_else(|e| format!("{:?}", Err::<String, _>(e)));
     output += &format!(
         "\nzbasu    - \x1b[9{}m{lujvo}\x1b[m",
         (expect == lujvo) as u8 + 1
@@ -122,7 +124,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
             .unwrap();
         return 1;
     }
-    let lujvo = lujvo.unwrap_or_else(|e| format!("Err({e})"));
+    let lujvo = lujvo.unwrap_or_else(|e| format!("{:?}", Err::<String, _>(e)));
     output += &if expect == lujvo {
         format!("\nzbasu    - \x1b[92m{lujvo}\x1b[m")
     } else {

@@ -344,12 +344,8 @@ pub fn combine(
     let rafsi_i = char(rafsi, 0);
     if is_consonant(lujvo_f)
         && is_consonant(rafsi_i)
-        && !if settings.allow_mz {
-            MZ_VALID.to_vec()
-        } else {
-            VALID.to_vec()
-        }
-        .contains(&format!("{lujvo_f}{rafsi_i}").as_str())
+        && !if settings.allow_mz { &MZ_VALID } else { &VALID }
+            .contains(&format!("{lujvo_f}{rafsi_i}").as_str())
         || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", slice(rafsi, 0, 2)).as_str())
     {
         return None;
@@ -558,7 +554,7 @@ pub fn get_lujvo_from_list(
             for tosmabru_type in [Tosytype::Tosynone, Tosytype::Tosmabru, Tosytype::Tosyhuhu] {
                 for num_consonants in 0..3 {
                     for (_, lujvo_and_score) in
-                        previous_best[tosmabru_type as usize][num_consonants].clone()
+                        &previous_best[tosmabru_type as usize][num_consonants]
                     {
                         let res = combine(
                             &lujvo_and_score.0,
