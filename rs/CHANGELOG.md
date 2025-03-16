@@ -1,5 +1,9 @@
 # `latkerlo-jvotci` crate changelog
 
+## 2.1.0
+- latkerlo-jvotci is about 5x faster :3
+- migrated to rust 2024
+
 ## 2.0.0
 > [!WARNING]
 > lots of breaking changes! see [docs.rs](https://docs.rs/latkerlo-jvotci/) for everything you can do now
