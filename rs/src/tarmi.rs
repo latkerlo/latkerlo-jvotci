@@ -4,7 +4,7 @@ use crate::{
     jvozba::Tosytype,
     tools::{char, regex_replace_all, slice, slice_},
 };
-use itertools::{iproduct, Itertools};
+use itertools::{iproduct, Itertools as _};
 use regex::Regex;
 use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 

@@ -1,10 +1,10 @@
-use itertools::Itertools;
+use itertools::Itertools as _;
 use latkerlo_jvotci::{
     analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo, Settings,
 };
 use std::{
-    io::{stdin, stdout, Write},
-    str::FromStr,
+    io::{stdin, stdout, Write as _},
+    str::FromStr as _,
 };
 
 #[allow(clippy::too_many_lines)]

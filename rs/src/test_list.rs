@@ -8,11 +8,11 @@ use crate::{
     tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_},
     *,
 };
-use itertools::Itertools;
+use itertools::Itertools as _;
 use regex::Regex;
 use std::{
     fs::{self, OpenOptions},
-    io::Write,
+    io::Write as _,
     sync::LazyLock,
 };
 
@@ -66,6 +66,7 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
 static STRIP_ANSI: LazyLock<Regex> = LazyLock::new(|| Regex::new("\x1b\\[\\d*m").unwrap());
 
 fn both(test: &[&str]) -> i32 {
+    assert!(test.len() > 1);
     let settings = Settings {
         generate_cmevla: is_consonant(char(test[0], -1)),
         ..Settings::default()

@@ -1,4 +1,4 @@
-use itertools::Itertools;
+use itertools::Itertools as _;
 
 use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},

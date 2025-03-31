@@ -14,7 +14,7 @@ use crate::{
     },
 };
 use indexmap::IndexMap;
-use itertools::Itertools;
+use itertools::Itertools as _;
 use regex::Regex;
 
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]

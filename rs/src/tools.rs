@@ -14,7 +14,7 @@ use crate::{
         ConsonantSetting, Settings, Tarmi, YHyphenSetting,
     },
 };
-use itertools::Itertools;
+use itertools::Itertools as _;
 use regex::Regex;
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
