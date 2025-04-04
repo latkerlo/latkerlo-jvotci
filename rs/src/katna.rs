@@ -42,7 +42,7 @@ pub fn selrafsi_list_from_rafsi_list(
             if HYPHENS.contains(&r.as_str()) {
                 String::new()
             } else {
-                r.to_string()
+                r.clone()
             }
         })
         .collect_vec();
