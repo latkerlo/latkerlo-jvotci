@@ -298,7 +298,6 @@ pub fn get_rafsi_list_list(
                 }
             } else {
                 let b_type = b_type.unwrap().0;
-
                 if b_type == BrivlaType::Gismu {
                     rafsi_list.extend(get_rafsi_for_rafsi(
                         slice(valsi, 0, -1),
