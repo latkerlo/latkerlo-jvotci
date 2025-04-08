@@ -1,5 +1,3 @@
-use std::sync::LazyLock;
-
 use crate::{
     data::{
         BANNED_TRIPLES, FOLLOW_VOWEL_CLUSTERS, HYPHENS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS,
@@ -16,6 +14,10 @@ use crate::{
 };
 use itertools::Itertools as _;
 use regex::Regex;
+use std::{
+    ops::{Bound, RangeBounds},
+    sync::LazyLock,
+};
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
@@ -31,26 +33,56 @@ pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
     regex.replace_all(from, with).to_string()
 }
 
-#[inline]
-pub fn char(s: &str, i: isize) -> char {
-    if s.is_empty() {
-        return char::default();
-    }
-    let i = (s.len() as isize + i) % s.len() as isize;
-    s.chars().nth(i as usize).unwrap_or_default()
+#[macro_export]
+macro_rules! strin {
+    ($s: expr, $i: expr) => {{
+        let chars = ($s).chars().collect_vec();
+        let len = chars.len();
+        let positive = |i| -> Option<usize> {
+            let i = if i < 0 { len as isize + i } else { i } as usize;
+            (i < len).then_some(i)
+        };
+        positive($i).map(|i| chars[i]).unwrap_or_default()
+    }};
 }
-#[inline]
-pub fn slice(s: &str, i: isize, j: isize) -> &str {
-    let mut i = (i < 0) as isize * s.len() as isize + i;
-    let mut j = (j < 0) as isize * s.len() as isize + j;
-    i = i.clamp(0, s.len() as isize);
-    j = j.clamp(0, s.len() as isize);
-    &s[i as usize..j as usize]
+pub fn bounds<S, T, R>(str: S, range: R) -> (isize, isize)
+where
+    S: AsRef<str>,
+    T: Clone + From<isize> + Into<isize> + std::ops::Add<T, Output = T>,
+    R: RangeBounds<T>,
+{
+    let (start, end) = (range.start_bound(), range.end_bound());
+    let start = match start {
+        // start bounds cannot be excluded
+        Bound::Included(b) | Bound::Excluded(b) => b.clone(),
+        Bound::Unbounded => T::from(0),
+    };
+    let end = match end {
+        Bound::Included(b) => b.clone() + T::from(1),
+        Bound::Excluded(b) => b.clone(),
+        Bound::Unbounded => T::from(str.as_ref().len() as isize),
+    };
+    (start.into(), end.into())
 }
-#[inline]
-pub fn slice_(s: &str, i: isize) -> &str {
-    slice(s, i, s.len() as isize)
+#[macro_export]
+macro_rules! strsl {
+    ($s:expr, $r:expr) => {{
+        let len = ($s).len();
+        let (start, end) = $crate::tools::bounds($s, $r);
+        let positive = |i: isize| -> usize {
+            if i < 0 {
+                len.saturating_sub((-i) as usize)
+            } else {
+                i as usize
+            }
+            .min(len)
+        };
+        let (start, end) = (positive(start), positive(end));
+        assert!(start <= end, "slice attempt problem: s={start} > e={end}");
+        &$s[start..end]
+    }};
 }
+
 static ABNORMAL: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^\.|,|\.$").unwrap());
 /// Convert word to standard form (*h* → *'*, no periods/commas, lowercase)
 pub fn normalize(word: &str) -> String {
@@ -61,7 +93,7 @@ pub fn normalize(word: &str) -> String {
 /// # Errors
 /// if given e.g. a non-brivla
 pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
-    if s.len() < 5 || !is_vowel(char(s, -1)) {
+    if s.len() < 5 || !is_vowel(strin!(s, -1)) {
         return Ok(false);
     }
     if is_gismu(s, &extract!(settings, allow_mz)) {
@@ -83,7 +115,7 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 /// # Errors
 /// if given e.g. a non-brivla
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
-    if is_vowel(char(s, 0)) {
+    if is_vowel(strin!(s, 0)) {
         // words starting with vowels have an invisible . at the start
         Ok(false)
     } else if let Err(e) = jvokaha(&format!("pa{s}"), &extract!(settings, y_hyphens, allow_mz)) {
@@ -120,10 +152,10 @@ pub fn check_zihevla_or_rafsi(
         mut final_consonant_pos,
     ) = (String::new(), 0, 0, None, 0, 0);
     while !valsi.is_empty() {
-        if is_consonant(char(valsi, 0)) {
-            while !valsi.is_empty() && is_consonant(char(valsi, 0)) {
-                chunk += slice(valsi, 0, 1);
-                valsi = slice_(valsi, 1);
+        if is_consonant(strin!(valsi, 0)) {
+            while !valsi.is_empty() && is_consonant(strin!(valsi, 0)) {
+                chunk += strsl!(valsi, 0..1);
+                valsi = strsl!(valsi, 1..);
             }
             if chunk.len() >= 2 && cluster_pos.is_none() {
                 if num_consonants > 1 {
@@ -133,14 +165,14 @@ pub fn check_zihevla_or_rafsi(
                 }
                 cluster_pos = Some(pos);
             }
-            if num_syllables == 0 && chunk.len() >= 2 && !INITIAL.contains(&slice(&chunk, 0, 2)) {
+            if num_syllables == 0 && chunk.len() >= 2 && !INITIAL.contains(&strsl!(&chunk, 0..2)) {
                 return Err(Jvonunfli::NotZihevlaError(format!(
                     "{{{valsi_}}} starts with an invalid cluster"
                 )));
             }
             for i in 0..chunk.len().saturating_sub(1) {
                 let i = i as isize;
-                let cluster = slice(&chunk, i, i + 2);
+                let cluster = strsl!(&chunk, i..i + 2);
                 if !if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&cluster) {
                     return Err(Jvonunfli::NotZihevlaError(format!(
                         "{{{valsi_}}} contains an invalid cluster"
@@ -149,7 +181,7 @@ pub fn check_zihevla_or_rafsi(
             }
             for i in 0..chunk.len().saturating_sub(2) {
                 let i = i as isize;
-                let cluster = slice(&chunk, i, i + 3);
+                let cluster = strsl!(&chunk, i..i + 3);
                 if BANNED_TRIPLES.contains(&cluster) {
                     return Err(Jvonunfli::NotZihevlaError(format!(
                         "{{{valsi_}}} contains a banned triple (nts/ntc/ndz/ndj)"
@@ -169,10 +201,10 @@ pub fn check_zihevla_or_rafsi(
             }
             final_consonant_pos = pos;
             num_consonants += chunk.len();
-        } else if is_vowel(char(valsi, 0)) {
-            while !valsi.is_empty() && is_vowel(char(valsi, 0)) {
-                chunk += slice(valsi, 0, 1);
-                valsi = slice_(valsi, 1);
+        } else if is_vowel(strin!(valsi, 0)) {
+            while !valsi.is_empty() && is_vowel(strin!(valsi, 0)) {
+                chunk += strsl!(valsi, 0..1);
+                valsi = strsl!(valsi, 1..);
             }
             if pos == 0 {
                 if START_VOWEL_CLUSTERS.contains(&chunk.as_str())
@@ -197,15 +229,15 @@ pub fn check_zihevla_or_rafsi(
                 }
                 num_syllables += split_vowel_cluster(&chunk).unwrap().len();
             }
-        } else if char(valsi, 0) == '\'' {
+        } else if strin!(valsi, 0) == '\'' {
             chunk = "'".to_string();
-            valsi = slice_(valsi, 1);
-            if pos < 1 || !is_vowel(char(valsi_, pos - 1)) {
+            valsi = strsl!(valsi, 1..);
+            if pos < 1 || !is_vowel(strin!(valsi_, pos - 1)) {
                 return Err(Jvonunfli::NotZihevlaError(format!(
                     "{{{valsi_}}} contains an apostrophe not preceded by a vowel"
                 )));
             }
-            if valsi.is_empty() || !is_vowel(char(valsi_, pos + 1)) {
+            if valsi.is_empty() || !is_vowel(strin!(valsi_, pos + 1)) {
                 return Err(Jvonunfli::NotZihevlaError(format!(
                     "{{{valsi_}}} contains an apostrophe not followed by a vowel"
                 )));
@@ -213,8 +245,8 @@ pub fn check_zihevla_or_rafsi(
         } else {
             return Err(Jvonunfli::NotZihevlaError(format!(
                 "{{{valsi_}}} contains unexpected character {{{}}} (u+{:04x})",
-                char(valsi, 0),
-                char(valsi, 0) as u32
+                strin!(valsi, 0),
+                strin!(valsi, 0) as u32
             )));
         }
         pos += chunk.len() as isize;
@@ -226,27 +258,27 @@ pub fn check_zihevla_or_rafsi(
         )));
     } else if num_syllables > 2 && cluster_pos.is_some() && cluster_pos > Some(0) {
         if is_brivla(
-            slice_(valsi_, cluster_pos.unwrap()),
+            strsl!(valsi_, cluster_pos.unwrap()..),
             &extract!(settings, y_hyphens),
         ) {
             return Err(Jvonunfli::NotZihevlaError(format!(
                 "{{{valsi_}}} falls apart: {{{} {}}}",
-                slice(valsi_, 0, cluster_pos.unwrap()),
-                slice_(valsi_, cluster_pos.unwrap())
+                strsl!(valsi_, 0..cluster_pos.unwrap()),
+                strsl!(valsi_, cluster_pos.unwrap()..)
             )));
         }
         for i in 1..cluster_pos.unwrap() {
-            if (is_consonant(char(valsi_, cluster_pos.unwrap() - i))
-                || is_glide(slice_(valsi_, cluster_pos.unwrap() - i)))
+            if (is_consonant(strin!(valsi_, cluster_pos.unwrap() - i))
+                || is_glide(strsl!(valsi_, cluster_pos.unwrap() - i..)))
                 && is_brivla(
-                    slice_(valsi_, cluster_pos.unwrap() - i),
+                    strsl!(valsi_, cluster_pos.unwrap() - i..),
                     &extract!(settings, y_hyphens),
                 )
             {
                 return Err(Jvonunfli::NotZihevlaError(format!(
                     "{{{valsi_}}} falls apart: {{{} {}}}",
-                    slice(valsi_, 0, cluster_pos.unwrap() - i),
-                    slice_(valsi_, cluster_pos.unwrap() - i)
+                    strsl!(valsi_, 0..cluster_pos.unwrap() - i),
+                    strsl!(valsi_, cluster_pos.unwrap() - i..)
                 )));
             }
         }
@@ -257,7 +289,7 @@ pub fn check_zihevla_or_rafsi(
                 "{{{valsi_}}} lacks a consonant cluster"
             )));
         }
-        if !is_consonant(char(valsi_, 0)) && !settings.exp_rafsi {
+        if !is_consonant(strin!(valsi_, 0)) && !settings.exp_rafsi {
             return Err(Jvonunfli::NotZihevlaError(format!(
                 "{{{valsi_}}} is an invalid rafsi"
             )));
@@ -272,7 +304,7 @@ pub fn check_zihevla_or_rafsi(
                 "{{{valsi_}}} lacks a consonant cluster"
             )));
         }
-    } else if !(is_vowel(char(valsi_, 0)) && is_consonant(char(valsi_, 1)))
+    } else if !(is_vowel(strin!(valsi_, 0)) && is_consonant(strin!(valsi_, 1)))
         && is_slinkuhi(valsi_, &extract!(settings, y_hyphens, allow_mz))?
     {
         return Err(Jvonunfli::NotZihevlaError(format!(
@@ -312,9 +344,9 @@ pub fn analyze_brivla(
     let mut is_cmetai = false;
     if valsi.is_empty() {
         return Err(Jvonunfli::NotBrivlaError("empty string".to_string()));
-    } else if is_consonant(char(&valsi, -1)) {
+    } else if is_consonant(strin!(&valsi, -1)) {
         is_cmetai = true;
-    } else if !is_vowel(char(&valsi, -1)) {
+    } else if !is_vowel(strin!(&valsi, -1)) {
         return Err(Jvonunfli::NotBrivlaError(format!(
             "{{{valsi}}} doesn't end in a consonant or vowel"
         )));
@@ -350,7 +382,7 @@ pub fn analyze_brivla(
             res_parts,
         ));
     }
-    if !is_vowel(char(&valsi, 0)) && !is_consonant(char(&valsi, 0)) {
+    if !is_vowel(strin!(&valsi, 0)) && !is_consonant(strin!(&valsi, 0)) {
         return Err(Jvonunfli::NotBrivlaError(format!(
             "{{{valsi}}} doesn't start with a consonant or vowel"
         )));
@@ -393,8 +425,8 @@ pub fn analyze_brivla(
                 "{{{valsi}}} contains two consecutive {{y}}s"
             )));
         }
-        if char(part, 0) == '\'' {
-            part = slice_(part, 1);
+        if strin!(part, 0) == '\'' {
+            part = strsl!(part, 1..);
             part_ = part;
             next_hyphen += "'";
             if part.is_empty() {
@@ -402,12 +434,12 @@ pub fn analyze_brivla(
                     "{{{valsi}}} has a part consisting of just an apostrophe"
                 )));
             }
-            if !is_vowel(char(part, 0)) || is_glide(part) {
+            if !is_vowel(strin!(part, 0)) || is_glide(part) {
                 return Err(Jvonunfli::NotBrivlaError(format!(
                     "{{{valsi}}} contains an apostrophe followed by a consonant or glide"
                 )));
             }
-        } else if i > 0 && is_vowel(char(part, 0)) && !is_glide(part) {
+        } else if i > 0 && is_vowel(strin!(part, 0)) && !is_glide(part) {
             return Err(Jvonunfli::NotBrivlaError(format!(
                 "{{{valsi}}} contains a {{y}} followed by a vowel other than {{i}} or {{u}}"
             )));
@@ -427,34 +459,34 @@ pub fn analyze_brivla(
                 "{{{valsi}}} contains a CCV rafsi without a vowel"
             )));
         }
-        if i > 0 && (is_consonant(char(part, 0)) || is_glide(part)) {
+        if i > 0 && (is_consonant(strin!(part, 0)) || is_glide(part)) {
             is_mahortai = false;
         }
         if consonant_before_break
-            && (is_consonant(char(part, 0)) || settings.glides && is_glide(part))
+            && (is_consonant(strin!(part, 0)) || settings.glides && is_glide(part))
         {
             has_cluster = true;
         }
         let (mut can_be_rafsi, mut require_cluster, mut added_a) = (true, false, false);
         let part_a = &format!("{part}a");
-        if char(part, -1) == '\'' {
+        if strin!(part, -1) == '\'' {
             if settings.y_hyphens == YHyphenSetting::Standard
                 && !has_cluster
                 && i < y_parts.len() - 1
-                && char(y_parts[i + 1], 0) != '\''
+                && strin!(y_parts[i + 1], 0) != '\''
             {
                 require_cluster = true;
             }
-            part = slice(part, 0, -1);
+            part = strsl!(part, 0..-1);
             part_ = part;
             next_hyphen += "'";
-            if !is_vowel(char(part, -1)) {
+            if !is_vowel(strin!(part, -1)) {
                 return Err(Jvonunfli::NotBrivlaError(format!(
                     "{{{part}}} contains an apostrophe not preceded by a vowel"
                 )));
             }
         } else if i < y_parts.len() - 1 || is_cmetai {
-            if is_vowel(char(part, -1)) {
+            if is_vowel(strin!(part, -1)) {
                 can_be_rafsi = false;
             }
             part = part_a;
@@ -508,26 +540,26 @@ pub fn analyze_brivla(
             if i == 0 {
                 let mut to_part = "";
                 let mut smabru_part = "";
-                if rafsi_tarmi(slice(part, 0, 4)) == Tarmi::Cvhv {
-                    to_part = slice(part, 0, 4);
-                    smabru_part = slice_(part, 4);
-                } else if rafsi_tarmi(slice(part, 0, 3)) == Tarmi::Cvv {
-                    to_part = slice(part, 0, 3);
-                    smabru_part = slice_(part, 3);
-                } else if is_consonant(char(part, 0)) && is_vowel(char(part, 1)) {
-                    to_part = slice(part, 0, 2);
-                    smabru_part = slice_(part, 2);
+                if rafsi_tarmi(strsl!(part, 0..4)) == Tarmi::Cvhv {
+                    to_part = strsl!(part, 0..4);
+                    smabru_part = strsl!(part, 4..);
+                } else if rafsi_tarmi(strsl!(part, 0..3)) == Tarmi::Cvv {
+                    to_part = strsl!(part, 0..3);
+                    smabru_part = strsl!(part, 3..);
+                } else if is_consonant(strin!(part, 0)) && is_vowel(strin!(part, 1)) {
+                    to_part = strsl!(part, 0..2);
+                    smabru_part = strsl!(part, 2..);
                 }
                 if !smabru_part.is_empty() {
                     let hyphenless = strip_hyphens(smabru_part);
                     if added_a {
-                        smabru_part = slice(smabru_part, 0, -1);
+                        smabru_part = strsl!(smabru_part, 0..-1);
                     } else {
                         smabru_part = &hyphenless;
                     }
                     if is_valid_rafsi(smabru_part, &Settings::default())
                         && !(rafsi_tarmi(smabru_part) == Tarmi::Ccv
-                            && char(slice_(y_parts[i], to_part.len() as isize), 3) == '\'')
+                            && strin!(strsl!(y_parts[i], to_part.len() as isize..), 3) == '\'')
                     {
                         return Err(Jvonunfli::NotBrivlaError(format!(
                             "{{{part}}} is a tosmabru"
@@ -564,7 +596,7 @@ pub fn analyze_brivla(
             if shape_type == BrivlaType::Zihevla {
                 has_cluster = true;
             }
-            if is_consonant(char(part, 0)) || settings.glides && is_glide(part) {
+            if is_consonant(strin!(part, 0)) || settings.glides && is_glide(part) {
                 num_consonants += 1;
             }
             res_parts.push(part_.to_string());
@@ -588,7 +620,8 @@ pub fn analyze_brivla(
             )));
         }
     }
-    if !(is_vowel(char(&valsi, 0)) && (is_consonant(char(&valsi, 1)) || char(&valsi, 1) == 'y'))
+    if !(is_vowel(strin!(&valsi, 0))
+        && (is_consonant(strin!(&valsi, 1)) || strin!(&valsi, 1) == 'y'))
         && is_slinkuhi(&valsi, &extract!(settings, y_hyphens, allow_mz)).unwrap()
     {
         return Err(Jvonunfli::NotBrivlaError(format!(

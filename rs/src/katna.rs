@@ -1,14 +1,14 @@
-use itertools::Itertools as _;
-
 use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli,
     extract,
     jvozba::{get_lujvo_from_list, score, tiebreak},
     rafsi::RAFSI,
+    strin, strsl,
     tarmi::{is_consonant, is_vowel, rafsi_tarmi, BrivlaType, Settings, Tarmi, YHyphenSetting},
-    tools::{analyze_brivla, char, is_brivla, slice, slice_},
+    tools::{analyze_brivla, is_brivla},
 };
+use itertools::Itertools as _;
 
 /// Return the word with this rafsi if one exists
 pub fn search_selrafsi_from_rafsi(r: &str) -> Option<String> {
@@ -58,7 +58,7 @@ pub fn selrafsi_list_from_rafsi_list(
             res[i] = selrafsi_list[i].clone().unwrap();
         } else if rafsi_list.len() >= 2
             && i < rafsi_list.len() - 2
-            && char(&rafsi_list[i + 1], 0) == 'y'
+            && strin!(&rafsi_list[i + 1], 0) == 'y'
             && is_brivla(
                 &format!("{}a", res[i]),
                 &extract!(settings, y_hyphens, allow_mz),
@@ -124,7 +124,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     let correct_lujvo = get_lujvo_from_list(
         &rafsi_tanru,
         &Settings {
-            generate_cmevla: is_consonant(char(&arr[arr.len() - 1], -1)),
+            generate_cmevla: is_consonant(strin!(&arr[arr.len() - 1], -1)),
             ..extract!(settings, y_hyphens, consonants, glides, allow_mz)
         },
     );
@@ -171,53 +171,55 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             return Ok(res.iter().copied().map(String::from).collect_vec());
         }
         if !res.is_empty() && res[res.len() - 1].len() != 1 {
-            if char(lujvo, 0) == 'y'
+            if strin!(lujvo, 0) == 'y'
                 || settings.y_hyphens != YHyphenSetting::ForceY
-                    && (slice(lujvo, 0, 2) == "nr"
-                        || char(lujvo, 0) == 'r'
+                    && (strsl!(lujvo, 0..2) == "nr"
+                        || strin!(lujvo, 0) == 'r'
                             && lujvo.len() >= 2
-                            && is_consonant(char(lujvo, 1)))
+                            && is_consonant(strin!(lujvo, 1)))
             {
-                res.push(slice(lujvo, 0, 1));
-                lujvo = slice_(lujvo, 1);
+                res.push(strsl!(lujvo, 0..1));
+                lujvo = strsl!(lujvo, 1..);
                 continue;
-            } else if settings.y_hyphens != YHyphenSetting::Standard && slice(lujvo, 0, 2) == "'y" {
-                res.push(slice(lujvo, 0, 2));
-                lujvo = slice_(lujvo, 2);
+            } else if settings.y_hyphens != YHyphenSetting::Standard && strsl!(lujvo, 0..2) == "'y"
+            {
+                res.push(strsl!(lujvo, 0..2));
+                lujvo = strsl!(lujvo, 2..);
                 continue;
             }
         }
-        if rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Cvv
-            && ["ai", "ei", "oi", "au"].contains(&slice(lujvo, 1, 3))
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvv
+            && ["ai", "ei", "oi", "au"].contains(&strsl!(lujvo, 1..3))
         {
-            res.push(slice(lujvo, 0, 3));
-            lujvo = slice_(lujvo, 3);
+            res.push(strsl!(lujvo, 0..3));
+            lujvo = strsl!(lujvo, 3..);
             continue;
         }
-        if rafsi_tarmi(slice(lujvo, 0, 4)) == Tarmi::Cvhv {
-            res.push(slice(lujvo, 0, 4));
-            lujvo = slice_(lujvo, 4);
+        if rafsi_tarmi(strsl!(lujvo, 0..4)) == Tarmi::Cvhv {
+            res.push(strsl!(lujvo, 0..4));
+            lujvo = strsl!(lujvo, 4..);
             continue;
         }
-        if [Tarmi::Cvcc, Tarmi::Ccvc].contains(&rafsi_tarmi(slice(lujvo, 0, 4))) {
-            if is_vowel(char(lujvo, 1)) {
-                if !if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&slice(lujvo, 2, 4))
+        if [Tarmi::Cvcc, Tarmi::Ccvc].contains(&rafsi_tarmi(strsl!(lujvo, 0..4))) {
+            if is_vowel(strin!(lujvo, 1)) {
+                if !if settings.allow_mz { &MZ_VALID } else { &VALID }
+                    .contains(&strsl!(lujvo, 2..4))
                 {
                     return Err(Jvonunfli::InvalidClusterError(format!(
                         "{{{orig}}} contains an invalid cluster",
                     )));
                 }
-            } else if !INITIAL.contains(&slice(lujvo, 0, 2)) {
+            } else if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
                 return Err(Jvonunfli::InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
-            if lujvo.len() == 4 || char(lujvo, 4) == 'y' {
-                res.push(slice(lujvo, 0, 4));
-                if char(lujvo, 4) == 'y' {
+            if lujvo.len() == 4 || strin!(lujvo, 4) == 'y' {
+                res.push(strsl!(lujvo, 0..4));
+                if strin!(lujvo, 4) == 'y' {
                     res.push("y");
                 }
-                lujvo = slice_(lujvo, 5);
+                lujvo = strsl!(lujvo, 5..);
                 continue;
             }
         }
@@ -225,24 +227,24 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             res.push(lujvo);
             return Ok(res.iter().copied().map(String::from).collect_vec());
         }
-        if rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Cvc {
-            res.push(slice(lujvo, 0, 3));
-            lujvo = slice_(lujvo, 3);
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvc {
+            res.push(strsl!(lujvo, 0..3));
+            lujvo = strsl!(lujvo, 3..);
             continue;
         }
-        if rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Ccv {
-            if !INITIAL.contains(&slice(lujvo, 0, 2)) {
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Ccv {
+            if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
                 return Err(Jvonunfli::InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
-            if lujvo == orig && slice(lujvo, 3, 5) == "'y" {
+            if lujvo == orig && strsl!(lujvo, 3..5) == "'y" {
                 return Err(Jvonunfli::NotBrivlaError(format!(
                     "{{{orig}}} starts with CCV'y, making it a slinku'i"
                 )));
             }
-            res.push(slice(lujvo, 0, 3));
-            lujvo = slice_(lujvo, 3);
+            res.push(strsl!(lujvo, 0..3));
+            lujvo = strsl!(lujvo, 3..);
             continue;
         }
         return Err(Jvonunfli::DecompositionError(format!(

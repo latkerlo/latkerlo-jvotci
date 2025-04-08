@@ -5,7 +5,7 @@ use crate::{
     data::HYPHENS,
     katna::selrafsi_list_from_rafsi_list,
     tarmi::{is_consonant, SETTINGS_ITERATOR},
-    tools::{char, get_rafsi_indices, regex_replace_all, slice, slice_},
+    tools::{get_rafsi_indices, regex_replace_all},
     *,
 };
 use itertools::Itertools as _;
@@ -31,29 +31,29 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
     }
     let mut i = 0;
     let left_string;
-    if char(cond, i) == '(' {
+    if strin!(cond, i) == '(' {
         let mut depth = 1;
         while depth > 0 {
             i += 1;
-            if char(cond, i) == '(' {
+            if strin!(cond, i) == '(' {
                 depth += 1;
-            } else if char(cond, i) == ')' {
+            } else if strin!(cond, i) == ')' {
                 depth -= 1;
             }
         }
-        left_string = slice(cond, 1, i);
+        left_string = strsl!(cond, 1..i);
         i += 1;
         if i as usize == cond.len() {
             return check_conditions(left_string, settings);
         }
     } else {
-        while !"|&".contains(char(cond, i)) {
+        while !"|&".contains(strin!(cond, i)) {
             i += 1;
         }
-        left_string = slice(cond, 0, i).trim();
+        left_string = strsl!(cond, 0..i).trim();
     }
-    let operator = char(slice_(cond, i).trim(), 0);
-    let right_string = slice_(cond, i + 1).trim();
+    let operator = strin!(strsl!(cond, i..).trim(), 0);
+    let right_string = strsl!(cond, i + 1..).trim();
     let left_side = check_conditions(left_string, settings);
     let right_side = check_conditions(right_string, settings);
     match operator {
@@ -68,7 +68,7 @@ static STRIP_ANSI: LazyLock<Regex> = LazyLock::new(|| Regex::new("\x1b\\[\\d*m")
 fn both(test: &[&str]) -> i32 {
     assert!(test.len() > 1);
     let settings = Settings {
-        generate_cmevla: is_consonant(char(test[0], -1)),
+        generate_cmevla: is_consonant(strin!(test[0], -1)),
         ..Settings::default()
     };
     let lujvo = test[0];
@@ -365,7 +365,7 @@ fn t_basic() {
                 }
             } else if test[2] == "KATNA" {
                 let settings = Settings {
-                    generate_cmevla: is_consonant(char(test[0], -1)),
+                    generate_cmevla: is_consonant(strin!(test[0], -1)),
                     ..Settings::default()
                 };
                 if test[1] == "FAIL" {

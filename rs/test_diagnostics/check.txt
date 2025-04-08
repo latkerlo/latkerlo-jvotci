@@ -60,34 +60,34 @@ zbasu    - Err(NonLojbanCharacterError("{123} contains a non-lojban character"))
 zbasu    - Err(NonLojbanCharacterError("{k1r} contains a non-lojban character"))
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 
 mlatu -haku-
 zbasu    - Err(NotZihevlaError("{'aku} is an invalid rafsi or zi'evla"))
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 
 -haku- kerlo
 zbasu    - Err(NotZihevlaError("{'aku} is an invalid rafsi or zi'evla"))
@@ -100019,1725 +100019,1725 @@ zbasu    - Err(NonLojbanCharacterError("{k1r} contains a non-lojban character"))
 settings - F1rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Az
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ag
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Agz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ar
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Argz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fr
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rgz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1z
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1g
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1gz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1r
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rz
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rg
 
 -弱音- -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Az
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ag
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Agz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ar
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Argz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fr
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rgz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1z
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1g
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1gz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1r
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rz
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rg
 
 -弱音- -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Az
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ag
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Agz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ar
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Argz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fr
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rgz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1z
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1g
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1gz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1r
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rz
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rg
 
 -弱音- -haku-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Az
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ag
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Agz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ar
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Argz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fr
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rgz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1z
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1g
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1gz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1r
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rz
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rg
 
 mlatu -弱音-
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Az
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Ag
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Agz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Ar
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Arz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Arg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Argz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fr
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rgz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1z
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1g
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1gz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1r
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rz
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rg
 
 mlatu -ハク-
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Az
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Ag
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Agz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Ar
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Arz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Arg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Argz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fr
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rgz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1z
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1g
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1gz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1r
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rz
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rg
 
 mlatu -ハku-
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rgz
 
 mlatu -haku-
@@ -102028,864 +102028,864 @@ zbasu    - Err(NoLujvoFoundError("{'aku} contains an apostrophe not preceded by 
 settings - F1rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 2rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - 1rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Az
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ag
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Agz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Ar
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Arg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Argz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A2rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - A1rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Fr
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - Frgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F2rgz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1z
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1g
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1gz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1r
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rz
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rg
 
 -弱音- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-弱音-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{弱音} contains a non-lojban character"))
 settings - F1rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 2rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - 1rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Az
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Ag
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Agz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Ar
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Arz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Arg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Argz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A2rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - A1rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Fr
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - Frgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F2rgz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1z
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1g
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1gz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1r
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rz
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rg
 
 -ハク- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハク-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハク} contains a non-lojban character"))
 settings - F1rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 2rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - 1rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Az
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Ag
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Agz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Ar
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Arz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Arg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Argz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A2rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - A1rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Fr
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - Frgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F2rgz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1z
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1g
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1gz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1r
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rz
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rg
 
 -ハku- kerlo
-zbasu    - Err(NonLojbanCharacterError("{-ハku-} contains a non-lojban character"))
+zbasu    - Err(NonLojbanCharacterError("{ハku} contains a non-lojban character"))
 settings - F1rgz
 
 -haku- kerlo

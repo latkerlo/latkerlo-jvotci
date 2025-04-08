@@ -4,14 +4,13 @@ use crate::{
     extract,
     katna::jvokaha2,
     rafsi::RAFSI,
+    strin, strsl,
     tarmi::{
         contains_consonant, is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi,
         is_vowel, rafsi_tarmi, strip_hyphens, tarmi_ignoring_hyphen, BrivlaType, ConsonantSetting,
         Settings, Tarmi, YHyphenSetting,
     },
-    tools::{
-        analyze_brivla, char, check_zihevla_or_rafsi, normalize, regex_replace_all, slice, slice_,
-    },
+    tools::{analyze_brivla, check_zihevla_or_rafsi, normalize, regex_replace_all},
 };
 use indexmap::IndexMap;
 use itertools::Itertools as _;
@@ -33,9 +32,9 @@ pub fn score(r: &str) -> i32 {
         - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
 }
 pub(crate) fn tiebreak(lujvo: &str) -> i32 {
-    (rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Cvv
+    (rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvv
         && [Tarmi::Ccv, Tarmi::Ccvc, Tarmi::Cvc, Tarmi::Cvcc]
-            .contains(&rafsi_tarmi(slice_(lujvo, 3)))) as i32
+            .contains(&rafsi_tarmi(strsl!(lujvo, 3..)))) as i32
 }
 
 /// Clean the tanru
@@ -55,7 +54,7 @@ pub fn get_rafsi_for_rafsi(
     settings: &Settings,
 ) -> Result<Vec<(String, i32)>, Jvonunfli> {
     let mut res = vec![];
-    let r = if !first && is_vowel(char(r, 0)) && !is_glide(r) {
+    let r = if !first && is_vowel(strin!(r, 0)) && !is_glide(r) {
         format!("'{r}")
     } else {
         r.to_string()
@@ -69,7 +68,7 @@ pub fn get_rafsi_for_rafsi(
     {
         if !last {
             res.push((format!("{r}y"), 2));
-        } else if !is_vowel(char(&r, -1)) {
+        } else if !is_vowel(strin!(&r, -1)) {
             res.push((r, 2));
         }
     } else if [
@@ -86,7 +85,7 @@ pub fn get_rafsi_for_rafsi(
         }
     } else if r_type == "ExperimentalRafsi" {
         let num_consonants = (settings.consonants != ConsonantSetting::Cluster
-            && (is_consonant(char(&r, 0)) || settings.glides && is_glide(&r)))
+            && (is_consonant(strin!(&r, 0)) || settings.glides && is_glide(&r)))
             as i32;
         if last {
             res.push((r, num_consonants));
@@ -140,15 +139,15 @@ pub fn get_rafsi_list_list(
         let first = i == 0;
         let last = i == valsi_list.len() - 1;
         let hyphenless = regex_replace_all(&hyphens, valsi, "");
-        if char(valsi, -1) == '-' {
-            let is_short_brivla = char(valsi, 0) != '-';
+        if strin!(valsi, -1) == '-' {
+            let is_short_brivla = strin!(valsi, 0) != '-';
             valsi = &hyphenless;
             if !is_only_lojban_characters(valsi) {
                 return Err(Jvonunfli::NonLojbanCharacterError(format!(
                     "{{{valsi}}} contains a non-lojban character"
                 )));
             }
-            if char(valsi, -1) == '\'' {
+            if strin!(valsi, -1) == '\'' {
                 return Err(Jvonunfli::NonLojbanCharacterError(format!(
                     "{{{valsi}}} ends in an apostrophe"
                 )));
@@ -174,7 +173,7 @@ pub fn get_rafsi_list_list(
                         "{{{valsi}a}} is not a gismu or zi'evla"
                     )));
                 }
-                if valsi.len() > 5 && is_consonant(char(valsi, -1)) {
+                if valsi.len() > 5 && is_consonant(strin!(valsi, -1)) {
                     let mut decomposes = true;
                     if let Err(e) = jvokaha2(valsi, &extract!(settings, y_hyphens, allow_mz)) {
                         match e {
@@ -300,7 +299,7 @@ pub fn get_rafsi_list_list(
                 let b_type = b_type.unwrap().0;
                 if b_type == BrivlaType::Gismu {
                     rafsi_list.extend(get_rafsi_for_rafsi(
-                        slice(valsi, 0, -1),
+                        strsl!(valsi, 0..-1),
                         "ShortBrivla",
                         first,
                         last,
@@ -341,13 +340,13 @@ pub fn combine(
     tanru_len: usize,
     settings: &Settings,
 ) -> Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)> {
-    let lujvo_f = char(lujvo, -1);
-    let rafsi_i = char(rafsi, 0);
+    let lujvo_f = strin!(lujvo, -1);
+    let rafsi_i = strin!(rafsi, 0);
     if is_consonant(lujvo_f)
         && is_consonant(rafsi_i)
         && !if settings.allow_mz { &MZ_VALID } else { &VALID }
             .contains(&format!("{lujvo_f}{rafsi_i}").as_str())
-        || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", slice(rafsi, 0, 2)).as_str())
+        || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", strsl!(rafsi, 0..2)).as_str())
     {
         return None;
     }
@@ -363,8 +362,8 @@ pub fn combine(
             return None;
         }
     } else if lujvo.len() == 5
-        && rafsi_tarmi(slice(lujvo, 0, 3)) == Tarmi::Ccv
-        && slice_(lujvo, 3) == "'y"
+        && rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Ccv
+        && strsl!(lujvo, 3..) == "'y"
     {
         return None;
     } else if lujvo.len() <= 5 && !settings.generate_cmevla {
@@ -386,12 +385,12 @@ pub fn combine(
         if !INITIAL.contains(&format!("{lujvo_f}{rafsi_i}").as_str()) {
             tosmabru_type = Tosytype::Tosynone;
         } else if raftai1 == Tarmi::Cvccv {
-            if INITIAL.contains(&slice(rafsi, 2, 4)) {
+            if INITIAL.contains(strsl!(rafsi, 2..4)) {
                 return None;
             }
             tosmabru_type = Tosytype::Tosynone;
         } else if raftai1 == Tarmi::Cvc {
-            if char(rafsi, -1) == 'y' {
+            if strin!(rafsi, -1) == 'y' {
                 return None;
             }
         } else {
@@ -401,7 +400,7 @@ pub fn combine(
     {
         tosmabru_type = Tosytype::Tosynone;
     }
-    let rafsi_start = lujvo.len() + hyphen.len() + (char(rafsi, 0) == '\'') as usize;
+    let rafsi_start = lujvo.len() + hyphen.len() + (strin!(rafsi, 0) == '\'') as usize;
     let rafsi_end = rafsi_start + strip_hyphens(rafsi).len();
     let indices = indices
         .iter()
@@ -413,15 +412,15 @@ pub fn combine(
         new_c = 2;
     } else if settings.consonants == ConsonantSetting::Cluster && rafsi_c != 2 {
         let mut i = lujvo.len() as isize - 1;
-        while "'y".contains(char(lujvo, i)) {
+        while "'y".contains(strin!(lujvo, i)) {
             i -= 1;
         }
         let mut j = 0;
-        while char(rafsi, j) == '\'' {
+        while strin!(rafsi, j) == '\'' {
             j += 1;
         }
-        new_c = (is_consonant(char(lujvo, i))
-            && (is_consonant(char(rafsi, j)) || settings.glides && is_glide(slice_(rafsi, j))))
+        new_c = (is_consonant(strin!(lujvo, i))
+            && (is_consonant(strin!(rafsi, j)) || settings.glides && is_glide(strsl!(rafsi, j..))))
             as i32
             * 2;
     }
@@ -451,7 +450,7 @@ pub fn update_current_best(
         return current_best;
     }
     let (tosmabru_type, num_consonants, res_score, res_lujvo, res_indices) = candidate.unwrap();
-    let lujvo_f = char(&res_lujvo, -1);
+    let lujvo_f = strin!(&res_lujvo, -1);
     if !current_best[tosmabru_type as usize][num_consonants as usize]
         .contains_key(&format!("{lujvo_f}"))
         || current_best[tosmabru_type as usize][num_consonants as usize]
@@ -503,7 +502,7 @@ pub fn get_lujvo_from_list(
         for rafsi1 in &rafsi_list_list[1] {
             let tosmabru_type =
                 if tarmi_ignoring_hyphen(&rafsi0.0) == Tarmi::Cvc && !settings.generate_cmevla {
-                    if char(&rafsi0.0, -1) == 'y' {
+                    if strin!(&rafsi0.0, -1) == 'y' {
                         Tosytype::Tosyhuhu
                     } else {
                         Tosytype::Tosmabru
@@ -584,8 +583,8 @@ pub fn get_lujvo_from_list(
     }
     let (mut best_lujvo, mut best_score, mut best_indices) = (String::new(), i32::MAX, vec![]);
     for (c, lujvo_and_score) in &previous_best[0][2] {
-        if (is_vowel(char(c, 0)) && !settings.generate_cmevla
-            || is_consonant(char(c, 0)) && settings.generate_cmevla)
+        if (is_vowel(strin!(c, 0)) && !settings.generate_cmevla
+            || is_consonant(strin!(c, 0)) && settings.generate_cmevla)
             && lujvo_and_score.1 < best_score
         {
             (best_lujvo, best_score, best_indices) = lujvo_and_score.clone();
