@@ -1,5 +1,12 @@
 # `latkerlo-jvotci` crate changelog
 
+## 2.2.0
+- updated rafsi list
+- unmigrated back to rust 2021
+- documented msrv
+- minor internal stuff
+- added more metadata for cargo
+
 ## 2.1.0
 - latkerlo-jvotci is about 5x faster :3
 - migrated to rust 2024
