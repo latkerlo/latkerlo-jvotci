@@ -19,6 +19,7 @@ mod test_list;
 pub mod tools;
 pub use jvozba::{get_lujvo, get_lujvo_with_analytics, grll};
 pub use katna::{get_veljvo, score_lujvo};
+pub use rafsi::RAFSI;
 pub use tarmi::{
     ConsonantSetting::{self, *},
     Settings,
