@@ -16,6 +16,8 @@ use std::{
     sync::LazyLock,
 };
 
+const PRINT: bool = true;
+
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: Settings) -> bool {
     match cond {
@@ -91,7 +93,7 @@ fn both(test: &[&str]) -> i32 {
         (expect == lujvo) as u8 + 1
     );
     let ohno = output.contains("[91m");
-    if ohno {
+    if PRINT || ohno {
         println!("{output}");
     }
     let mut file = OpenOptions::new()
@@ -160,7 +162,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
-    if ohno {
+    if PRINT || ohno {
         println!("{output}");
     }
     let mut file = OpenOptions::new()
@@ -188,7 +190,7 @@ fn zba_f(tanru: &str, settings: Settings) -> i32 {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
-    if ohno {
+    if PRINT || ohno {
         println!("{output}");
     }
     let mut file = OpenOptions::new()
@@ -293,7 +295,7 @@ fn kaha(
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
-    if ohno {
+    if PRINT || ohno {
         println!("{output}");
     }
     let mut file = OpenOptions::new()
@@ -324,7 +326,7 @@ fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
         output += &format!("\nsettings - {settings}");
     }
     let ohno = output.contains("[91m");
-    if ohno {
+    if PRINT || ohno {
         println!("{output}");
     }
     let mut file = OpenOptions::new()

@@ -26,7 +26,7 @@ la latkerlo jvotci is licensed under the MIT license. See
 
 Use pip:
 
-```commandline
+```sh
 pip install latkerlo-jvotci
 ```
 
@@ -46,8 +46,8 @@ Copy and include all these files from the js/docs folder:
 
 ### Rust
 
-```
-$ cargo add latkerlo_jvotci
+```sh
+cargo add latkerlo_jvotci
 ```
 
 ## The Basics
