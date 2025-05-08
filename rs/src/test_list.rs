@@ -16,7 +16,7 @@ use std::{
     sync::LazyLock,
 };
 
-const PRINT: bool = true;
+const PRINT: bool = false;
 
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: Settings) -> bool {
