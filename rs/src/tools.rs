@@ -101,13 +101,12 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
     }
     if let Err(e) = jvokaha(s, &extract!(settings, y_hyphens, allow_mz)) {
         match e {
-            Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => {
-                return Ok(false)
-            }
-            _ => return Err(e),
+            Jvonunfli::DecompositionError(_) | Jvonunfli::InvalidClusterError(_) => Ok(false),
+            _ => Err(e),
         }
+    } else {
+        Ok(true)
     }
-    Ok(true)
 }
 
 /// True if `s` isn't a valid word because putting a CV cmavo in front of it makes it a lujvo (e.g.
@@ -624,18 +623,19 @@ pub fn analyze_brivla(
         && (is_consonant(strin!(&valsi, 1)) || strin!(&valsi, 1) == 'y'))
         && is_slinkuhi(&valsi, &extract!(settings, y_hyphens, allow_mz)).unwrap()
     {
-        return Err(Jvonunfli::NotBrivlaError(format!(
+        Err(Jvonunfli::NotBrivlaError(format!(
             "{{{valsi}}} is a slinku'i"
-        )));
+        )))
+    } else {
+        Ok((
+            if is_cmetai {
+                BrivlaType::Cmevla
+            } else {
+                BrivlaType::ExtendedLujvo
+            },
+            res_parts,
+        ))
     }
-    Ok((
-        if is_cmetai {
-            BrivlaType::Cmevla
-        } else {
-            BrivlaType::ExtendedLujvo
-        },
-        res_parts,
-    ))
 }
 
 /// Get the start/end positions of each rafsi

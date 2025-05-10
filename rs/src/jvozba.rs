@@ -591,12 +591,13 @@ pub fn get_lujvo_from_list(
         }
     }
     if best_lujvo.is_empty() {
-        return Err(Jvonunfli::NoLujvoFoundError(format!(
+        Err(Jvonunfli::NoLujvoFoundError(format!(
             "{{{}}} can't be turned into a lujvo",
             valsi_list.join(" ")
-        )));
+        )))
+    } else {
+        Ok((best_lujvo, best_score, best_indices))
     }
-    Ok((best_lujvo, best_score, best_indices))
 }
 
 /// Create the best lujvo for the tanru (string)
