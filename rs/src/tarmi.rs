@@ -23,7 +23,7 @@ pub enum Tarmi {
     OtherRafsi,
 }
 
-pub const SONORANT_CONSONANTS: &str = "lmnr";
+pub const SONORANTS: &str = "lmnr";
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
 pub enum BrivlaType {
@@ -69,7 +69,7 @@ pub struct Settings {
     /// Whether any cmavo not containing *y* may be a rafsi
     pub exp_rafsi: bool,
     /// Whether semivowel *i* and *u* are treated as consonants. Together with `consonants`,
-    /// `exp_rafsi`, and `y_hyphens` this may poduce lujvo with no actual consonants like
+    /// `exp_rafsi`, and `y_hyphens` this may produce lujvo with no actual consonants like
     /// *ia'yia*
     pub glides: bool,
     /// Whether *mz* is a valid cluster
@@ -289,6 +289,7 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
     }
 }
 
+// i don't know how many of these parentheses are unnecessary
 static ZIHEVLA_MIDDLE_1: LazyLock<Regex> = LazyLock::new(|| {
     Regex::new("^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap()
 });
@@ -304,12 +305,11 @@ static ZIHEVLA_MIDDLE_2: LazyLock<Regex> = LazyLock::new(|| {
 pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     if c.len() < 3
         || c.len() == 3
-            && (SONORANT_CONSONANTS.contains(strin!(c, 1))
+            && (SONORANTS.contains(strin!(c, 1))
                 || VALID.contains(&strsl!(c, 0..2)) && INITIAL.contains(&strsl!(c, 1..)))
     {
         return true;
     }
-    // i don't know how many of these parentheses are unnecessary
     let matches = if strin!(c, -2) == 'm' && INITIAL.contains(&strsl!(c, -2..)) {
         ZIHEVLA_MIDDLE_1.captures(strsl!(
             c,
@@ -318,12 +318,10 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     } else {
         ZIHEVLA_MIDDLE_2.captures(c)
     };
-    if matches.is_none() {
-        return false;
-    }
-    let matches = matches.unwrap();
-    matches.get(matches.len() - 2).is_none()
-        || is_zihevla_initial_cluster(&matches[matches.len() - 2])
+    matches.is_some_and(|matches| {
+        matches.get(matches.len() - 2).is_none()
+            || is_zihevla_initial_cluster(&matches[matches.len() - 2])
+    })
 }
 
 #[inline]
@@ -342,16 +340,10 @@ pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
 #[inline]
 /// Get the shape of a rafsi
 pub fn rafsi_tarmi(r: &str) -> Tarmi {
-    let l = r.len();
-    if l == 0 {
-        return Tarmi::OtherRafsi;
-    } else if r == "'y" {
-        return Tarmi::Hyphen;
-    } else if l != 1 && !is_consonant(strin!(r, 0)) {
-        return Tarmi::OtherRafsi;
-    }
-    match l {
+    match r.len() {
         1 if !is_vowel(strin!(r, 0)) => Tarmi::Hyphen,
+        _ if !is_consonant(strin!(r, 0)) => Tarmi::OtherRafsi,
+        2 if r == "'y" => Tarmi::Hyphen,
         3 => match (is_vowel(strin!(r, 1)), is_vowel(strin!(r, 2))) {
             (true, false) if is_consonant(strin!(r, 2)) => Tarmi::Cvc,
             (true, true) => Tarmi::Cvv,
