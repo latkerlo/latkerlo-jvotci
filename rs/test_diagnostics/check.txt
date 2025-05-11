@@ -45711,290 +45711,290 @@ katna    - Err(NotBrivlaError("{fa'u'u} lacks a consonant cluster"))
 settings - F1gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Az
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Ag
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Agz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Ar
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Arz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Arg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Argz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Fz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Fg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Fgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Fr
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Frz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Frg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - Frgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rgz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1z
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1g
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1gz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1r
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rz
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rg
 
 ismu'yu'u
-katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{ismu'yu'u} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rgz
 
 ismuy'u'u
@@ -46859,577 +46859,577 @@ katna    - Err(NotBrivlaError("{kerloa} contains a bad vowel sequence"))
 settings - F1rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Az
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Ag
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Agz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Ar
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Arz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Arg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Argz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fr
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rgz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1z
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1g
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1gz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1r
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rz
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rg
 
 kerlo'yismu
-katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 2rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - 1rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Az
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Ag
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Agz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Ar
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Arz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Arg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Argz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A2rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - A1rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Fr
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - Frgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F2rgz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1z
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1g
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1gz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1r
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rz
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rg
 
 kerlo'yaismu
-katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} followed by a vowel other than {i} or {u}"))
+katna    - Err(NotBrivlaError("{kerlo'yaismu} contains a {y} not followed by an apostrophe or glide"))
 settings - F1rgz
 
 ism'y'ismu

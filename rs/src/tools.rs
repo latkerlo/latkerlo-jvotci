@@ -440,7 +440,7 @@ pub fn analyze_brivla(
             }
         } else if i > 0 && is_vowel(strin!(part, 0)) && !is_glide(part) {
             return Err(Jvonunfli::NotBrivlaError(format!(
-                "{{{valsi}}} contains a {{y}} followed by a vowel other than {{i}} or {{u}}"
+                "{{{valsi}}} contains a {{y}} not followed by an apostrophe or glide"
             )));
         }
         if !next_hyphen.is_empty() {
