@@ -82,6 +82,7 @@ pub fn selrafsi_list_from_rafsi_list(
 }
 
 /// Check if `corr` and `other` represent the same lujvo. `other` may have unnecessary hyphens
+#[must_use]
 pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
     let mut i = 0;
     for part in corr {

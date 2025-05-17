@@ -21,6 +21,7 @@ use std::{
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
+#[must_use = "does not mutate the string"]
 pub fn regex_str_replace_all(regex: &str, from: &str, with: &str) -> String {
     Regex::new(regex)
         .unwrap()
@@ -29,6 +30,7 @@ pub fn regex_str_replace_all(regex: &str, from: &str, with: &str) -> String {
 }
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
+#[must_use = "does not mutate the string"]
 pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
     regex.replace_all(from, with).to_string()
 }
@@ -85,6 +87,7 @@ macro_rules! strsl {
 
 static ABNORMAL: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^\.|,|\.$").unwrap());
 /// Convert word to standard form (*h* → *'*, no periods/commas, lowercase)
+#[must_use = "does not mutate the string"]
 pub fn normalize(word: &str) -> String {
     regex_replace_all(&ABNORMAL, &word.to_lowercase(), "").replace('h', "'")
 }
@@ -318,6 +321,7 @@ pub fn check_zihevla_or_rafsi(
 }
 
 /// True if given a valid brivla
+#[must_use]
 pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
     let b_type = analyze_brivla(
         valsi,

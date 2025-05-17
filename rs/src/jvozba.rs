@@ -25,6 +25,7 @@ pub enum Tosytype {
 
 /// Calculate the score for a rafsi (possibly including a hyphen). Use
 /// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo
+#[must_use]
 pub fn score(r: &str) -> i32 {
     let t = tarmi_ignoring_hyphen(r) as usize % 9;
     (1000 * r.len() - 400 * r.matches('\'').count() + 100 * r.matches('y').count()
@@ -442,6 +443,7 @@ type BestLujvoMap = IndexMap<String, (String, i32, Vec<[usize; 2]>)>;
 
 /// Add a candidate to `current_best`
 #[allow(clippy::type_complexity, clippy::missing_panics_doc)] // .unwrap()
+#[must_use]
 pub fn update_current_best(
     candidate: Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>,
     mut current_best: [[BestLujvoMap; 3]; 3],

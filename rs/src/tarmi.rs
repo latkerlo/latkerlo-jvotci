@@ -199,20 +199,24 @@ auto_to_string!(
 );
 
 #[inline]
+#[must_use]
 /// True if `c` is a vowel (non-*y*)
 pub fn is_vowel(c: char) -> bool {
     "aeiou".contains(c)
 }
 #[inline]
+#[must_use]
 /// True if `c` is a consonant
 pub fn is_consonant(c: char) -> bool {
     "bcdfgjklmnprstvxz".contains(c)
 }
 #[inline]
+#[must_use]
 /// True if `s` is an on-glide (*i*/*u* + vowel)
 pub fn is_glide(s: &str) -> bool {
     s.len() >= 2 && "iu".contains(strin!(s, 0)) && is_vowel(strin!(s, 1))
 }
+#[must_use]
 /// True if there are only Lojban letters in `s` (non-*y*, -period, -comma)
 pub fn is_only_lojban_characters(s: &str) -> bool {
     !s.is_empty() && s.chars().all(|c| "aeioubcdfgjklmnprstvxz'".contains(c))
@@ -222,6 +226,7 @@ pub fn contains_consonant(s: &str) -> bool {
     s.chars().any(is_consonant)
 }
 
+#[must_use]
 /// True if `v` is CVCCV or CCVCV. Doesn't check clusters
 pub fn is_gismu_shape(v: &str) -> bool {
     v.len() == 5
@@ -338,6 +343,7 @@ pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
 }
 
 #[inline]
+#[must_use]
 /// Get the shape of a rafsi
 pub fn rafsi_tarmi(r: &str) -> Tarmi {
     match r.len() {
@@ -371,10 +377,12 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
 
 static BOUNDARY_Y_HYPHENS: LazyLock<Regex> = LazyLock::new(|| Regex::new("^['y]+|['y]+$").unwrap());
 #[inline]
+#[must_use]
 /// Remove hyphens from the rafsi
 pub fn strip_hyphens(r: &str) -> String {
     regex_replace_all(&BOUNDARY_Y_HYPHENS, r, "")
 }
+#[must_use]
 /// Get the rafsi's shape without hyphens
 pub fn tarmi_ignoring_hyphen(r: &str) -> Tarmi {
     rafsi_tarmi(&strip_hyphens(r))
