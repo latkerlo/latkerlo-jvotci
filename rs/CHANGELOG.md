@@ -1,5 +1,12 @@
 # `latkerlo-jvotci` crate changelog
 
+## 2.3.1
+- fix message about *y* followed by non-glide vowel sequence
+- add some `#[must_use]`s
+
+## 2.3.0
+- export `RAFSI`
+
 ## 2.2.0
 - updated rafsi list
 - unmigrated back to rust 2021
