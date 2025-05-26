@@ -16,7 +16,7 @@ use std::{
     sync::LazyLock,
 };
 
-const PRINT: bool = false;
+const PRINT: bool = true;
 
 // ported from py/tests/test_other.py
 fn check_conditions(cond: &str, settings: Settings) -> bool {
@@ -75,7 +75,7 @@ fn both(test: &[&str]) -> i32 {
     };
     let lujvo = test[0];
     let expect = test[1];
-    let mut output = format!("\n{lujvo}");
+    let mut output = format!("\n\x1b[1m{lujvo}\x1b[m");
     let tanru = get_veljvo(lujvo, &settings)
         .unwrap_or_else(|e| vec![format!("{:?}", Err::<Vec<String>, _>(e))])
         .join(" ");
@@ -110,7 +110,7 @@ fn both(test: &[&str]) -> i32 {
     ohno as i32
 }
 fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Settings) -> i32 {
-    let mut output = format!("\n{tanru}");
+    let mut output = format!("\n\x1b[1m{tanru}\x1b[m");
     let lujvo = get_lujvo(tanru, &settings);
     if lujvo.is_err() {
         output += &format!(
@@ -179,7 +179,7 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
     ohno as i32
 }
 fn zba_f(tanru: &str, settings: Settings) -> i32 {
-    let mut output = format!("\n{tanru}");
+    let mut output = format!("\n\x1b[1m{tanru}\x1b[m");
     let lujvo = get_lujvo(tanru, &settings);
     output += &if lujvo.is_err() {
         format!("\nzbasu    - \x1b[93m{lujvo:?}\x1b[m")
@@ -214,7 +214,7 @@ fn kaha(
     e_indices: &str,
     settings: Settings,
 ) -> i32 {
-    let mut output = format!("\n{lujvo}");
+    let mut output = format!("\n\x1b[1m{lujvo}\x1b[m");
     let pre_tanru = analyze_brivla(lujvo, &settings);
     if pre_tanru.is_err() {
         output += &format!(
@@ -312,7 +312,7 @@ fn kaha(
     ohno as i32
 }
 fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
-    let mut output = format!("\n{lujvo}");
+    let mut output = format!("\n\x1b[1m{lujvo}\x1b[m");
     let tanru = get_veljvo(lujvo, &settings);
     output += &if tanru.is_err() {
         format!("\nkatna    - \x1b[93m{tanru:?}\x1b[m")
