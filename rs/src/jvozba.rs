@@ -439,7 +439,7 @@ pub fn combine(
     Some((tosmabru_type, total_c, score, res, indices))
 }
 
-type BestLujvoMap = IndexMap<String, (String, i32, Vec<[usize; 2]>)>;
+type BestLujvoMap = IndexMap<char, (String, i32, Vec<[usize; 2]>)>;
 
 /// Add a candidate to `current_best`
 #[allow(clippy::type_complexity, clippy::missing_panics_doc)] // .unwrap()
@@ -453,16 +453,15 @@ pub fn update_current_best(
     }
     let (tosmabru_type, num_consonants, res_score, res_lujvo, res_indices) = candidate.unwrap();
     let lujvo_f = strin!(&res_lujvo, -1);
-    if !current_best[tosmabru_type as usize][num_consonants as usize]
-        .contains_key(&format!("{lujvo_f}"))
+    if !current_best[tosmabru_type as usize][num_consonants as usize].contains_key(&lujvo_f)
         || current_best[tosmabru_type as usize][num_consonants as usize]
-            .get(&format!("{lujvo_f}"))
+            .get(&lujvo_f)
             .unwrap()
             .1
             > res_score
     {
         current_best[tosmabru_type as usize][num_consonants as usize]
-            .insert(format!("{lujvo_f}"), (res_lujvo, res_score, res_indices));
+            .insert(lujvo_f, (res_lujvo, res_score, res_indices));
     }
     current_best
 }
@@ -585,8 +584,8 @@ pub fn get_lujvo_from_list(
     }
     let (mut best_lujvo, mut best_score, mut best_indices) = (String::new(), i32::MAX, vec![]);
     for (c, lujvo_and_score) in &previous_best[0][2] {
-        if (is_vowel(strin!(c, 0)) && !settings.generate_cmevla
-            || is_consonant(strin!(c, 0)) && settings.generate_cmevla)
+        if (is_vowel(*c) && !settings.generate_cmevla
+            || is_consonant(*c) && settings.generate_cmevla)
             && lujvo_and_score.1 < best_score
         {
             (best_lujvo, best_score, best_indices) = lujvo_and_score.clone();
