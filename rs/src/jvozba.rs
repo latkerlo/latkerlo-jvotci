@@ -328,8 +328,10 @@ pub fn grll(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jv
     get_rafsi_list_list(&process_tanru(vl), settings)
 }
 
+type Candidate = Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>;
+
 /// Try to add a rafsi to a lujvo and calculate the score
-#[allow(clippy::too_many_arguments, clippy::type_complexity)] // sorry!
+#[allow(clippy::too_many_arguments)] // sorry!
 pub fn combine(
     lujvo: &str,
     rafsi: &str,
@@ -340,7 +342,7 @@ pub fn combine(
     mut tosmabru_type: Tosytype,
     tanru_len: usize,
     settings: &Settings,
-) -> Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)> {
+) -> Candidate {
     let lujvo_f = strin!(lujvo, -1);
     let rafsi_i = strin!(rafsi, 0);
     if is_consonant(lujvo_f)
@@ -442,10 +444,10 @@ pub fn combine(
 type BestLujvoMap = IndexMap<char, (String, i32, Vec<[usize; 2]>)>;
 
 /// Add a candidate to `current_best`
-#[allow(clippy::type_complexity, clippy::missing_panics_doc)] // .unwrap()
+#[expect(clippy::missing_panics_doc)] // .unwrap()
 #[must_use]
 pub fn update_current_best(
-    candidate: Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>,
+    candidate: Candidate,
     mut current_best: [[BestLujvoMap; 3]; 3],
 ) -> [[BestLujvoMap; 3]; 3] {
     if candidate.is_none() {
