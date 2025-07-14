@@ -5,7 +5,7 @@ use crate::{
     jvozba::{get_lujvo_from_list, score, tiebreak},
     rafsi::RAFSI,
     strin, strsl,
-    tarmi::{is_consonant, is_vowel, rafsi_tarmi, BrivlaType, Settings, Tarmi, YHyphenSetting},
+    tarmi::{BrivlaType, Settings, Tarmi, YHyphenSetting, is_consonant, is_vowel, rafsi_tarmi},
     tools::{analyze_brivla, is_brivla},
 };
 use itertools::Itertools as _;

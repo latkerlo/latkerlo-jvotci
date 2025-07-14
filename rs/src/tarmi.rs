@@ -5,7 +5,7 @@ use crate::{
     strin, strsl,
     tools::regex_replace_all,
 };
-use itertools::{iproduct, Itertools as _};
+use itertools::{Itertools as _, iproduct};
 use regex::Regex;
 use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 

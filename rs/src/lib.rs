@@ -22,8 +22,7 @@ pub use katna::{get_veljvo, score_lujvo};
 pub use rafsi::RAFSI;
 pub use tarmi::{
     ConsonantSetting::{self, *},
-    Settings,
+    SETTINGS_ITERATOR, Settings,
     YHyphenSetting::{self, *},
-    SETTINGS_ITERATOR,
 };
 pub use tools::{analyze_brivla, is_brivla, normalize};

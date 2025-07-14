@@ -9,4 +9,4 @@
 **/__pypackages__/
 **/.pdm-build/
 
-rs/target
+target

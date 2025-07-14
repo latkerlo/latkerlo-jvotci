@@ -7,9 +7,9 @@ use crate::{
     extract,
     katna::{jvokaha, jvokaha2},
     tarmi::{
-        is_consonant, is_gismu, is_glide, is_valid_rafsi, is_vowel, is_zihevla_initial_cluster,
-        is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster, strip_hyphens, BrivlaType,
-        ConsonantSetting, Settings, Tarmi, YHyphenSetting,
+        BrivlaType, ConsonantSetting, Settings, Tarmi, YHyphenSetting, is_consonant, is_gismu,
+        is_glide, is_valid_rafsi, is_vowel, is_zihevla_initial_cluster, is_zihevla_middle_cluster,
+        rafsi_tarmi, split_vowel_cluster, strip_hyphens,
     },
 };
 use itertools::Itertools as _;
@@ -224,7 +224,7 @@ pub fn check_zihevla_or_rafsi(
                         Jvonunfli::DecompositionError(_) => {
                             return Err(Jvonunfli::NotZihevlaError(format!(
                                 "{{{valsi_}}} contains a bad vowel sequence"
-                            )))
+                            )));
                         }
                         _ => return Err(e),
                     }

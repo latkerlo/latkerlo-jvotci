@@ -6,9 +6,9 @@ use crate::{
     rafsi::RAFSI,
     strin, strsl,
     tarmi::{
-        contains_consonant, is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi,
-        is_vowel, rafsi_tarmi, strip_hyphens, tarmi_ignoring_hyphen, BrivlaType, ConsonantSetting,
-        Settings, Tarmi, YHyphenSetting,
+        BrivlaType, ConsonantSetting, Settings, Tarmi, YHyphenSetting, contains_consonant,
+        is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi, is_vowel, rafsi_tarmi,
+        strip_hyphens, tarmi_ignoring_hyphen,
     },
     tools::{analyze_brivla, check_zihevla_or_rafsi, normalize, regex_replace_all},
 };
@@ -163,7 +163,7 @@ pub fn get_rafsi_list_list(
                         Jvonunfli::NotBrivlaError(_) => {
                             return Err(Jvonunfli::NoLujvoFoundError(format!(
                                 "{{{valsi}a}} is not a brivla"
-                            )))
+                            )));
                         }
                         _ => return Err(e),
                     }
@@ -217,7 +217,7 @@ pub fn get_rafsi_list_list(
                                     if let Err(e) = shape {
                                         match e {
                                             Jvonunfli::NotZihevlaError(m) => {
-                                                return Err(Jvonunfli::NoLujvoFoundError(m))
+                                                return Err(Jvonunfli::NoLujvoFoundError(m));
                                             }
                                             _ => return Err(e),
                                         }
@@ -612,7 +612,7 @@ pub fn get_lujvo_with_analytics(
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
     get_lujvo_from_list(&process_tanru(tanru), settings)
 }
-/// Create the best lujvo for the tanru (string). Doesns't output the score
+/// Create the best lujvo for the tanru (string). Doesn't output the score
 /// # Errors
 /// if given less than two words, or if some part of the jvozba process fails
 pub fn get_lujvo(tanru: &str, settings: &Settings) -> Result<String, Jvonunfli> {

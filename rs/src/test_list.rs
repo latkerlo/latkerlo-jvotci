@@ -4,7 +4,7 @@
 use crate::{
     data::HYPHENS,
     katna::selrafsi_list_from_rafsi_list,
-    tarmi::{is_consonant, SETTINGS_ITERATOR},
+    tarmi::{SETTINGS_ITERATOR, is_consonant},
     tools::{get_rafsi_indices, regex_replace_all},
     *,
 };

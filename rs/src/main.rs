@@ -1,9 +1,9 @@
 use itertools::Itertools as _;
 use latkerlo_jvotci::{
-    analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo, Settings,
+    Settings, analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo,
 };
 use std::{
-    io::{stdin, stdout, Write as _},
+    io::{Write as _, stdin, stdout},
     str::FromStr as _,
 };
 

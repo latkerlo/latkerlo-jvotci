@@ -7,8 +7,8 @@ import sys
 sys.path.append("py")
 
 import xml.etree.ElementTree as ET
-from py.latkerlo_jvotci.tarmi import *
-from py.latkerlo_jvotci.data import INITIAL
+from latkerlo_jvotci.tarmi import *
+from latkerlo_jvotci.data import INITIAL
 
 GIMSTE = set()
 
