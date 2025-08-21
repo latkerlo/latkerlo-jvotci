@@ -1,14 +1,21 @@
 use crate::{
     data::{BANNED_TRIPLES, INITIAL, MZ_VALID, VALID},
-    exceptions::Jvonunfli,
+    exceptions::Jvonunfli::{
+        self, DecompositionError, FakeTypeError, InvalidClusterError, NoLujvoFoundError,
+        NonLojbanCharacterError, NotBrivlaError, NotZihevlaError,
+    },
     extract,
     katna::jvokaha2,
     rafsi::RAFSI,
     strin, strsl,
     tarmi::{
-        BrivlaType, ConsonantSetting, Settings, Tarmi, YHyphenSetting, contains_consonant,
-        is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi, is_vowel, rafsi_tarmi,
-        strip_hyphens, tarmi_ignoring_hyphen,
+        BrivlaType::{Gismu, Rafsi, Zihevla},
+        ConsonantSetting::{Cluster, OneConsonant},
+        Settings,
+        Tarmi::{Ccv, Ccvc, Ccvcv, Cvc, Cvcc, Cvccv, Cvhv, Cvv, OtherRafsi},
+        YHyphenSetting::{ForceY, Standard},
+        contains_consonant, is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi,
+        is_vowel, rafsi_tarmi, strip_hyphens, tarmi_ignoring_hyphen,
     },
     tools::{analyze_brivla, check_zihevla_or_rafsi, normalize, regex_replace_all},
 };
@@ -22,6 +29,7 @@ pub enum Tosytype {
     Tosmabru,
     Tosyhuhu,
 }
+use Tosytype::{Tosmabru, Tosyhuhu, Tosynone};
 
 /// Calculate the score for a rafsi (possibly including a hyphen). Use
 /// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo
@@ -33,9 +41,8 @@ pub fn score(r: &str) -> i32 {
         - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
 }
 pub(crate) fn tiebreak(lujvo: &str) -> i32 {
-    (rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvv
-        && [Tarmi::Ccv, Tarmi::Ccvc, Tarmi::Cvc, Tarmi::Cvcc]
-            .contains(&rafsi_tarmi(strsl!(lujvo, 3..)))) as i32
+    (rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvv
+        && [Ccv, Ccvc, Cvc, Cvcc].contains(&rafsi_tarmi(strsl!(lujvo, 3..)))) as i32
 }
 
 /// Clean the tanru
@@ -60,32 +67,20 @@ pub fn get_rafsi_for_rafsi(
     } else {
         r.to_string()
     };
-    if [
-        "ShortBrivla",
-        &Tarmi::Ccvc.to_string(),
-        &Tarmi::Cvcc.to_string(),
-    ]
-    .contains(&r_type)
-    {
+    if ["ShortBrivla", &Ccvc.to_string(), &Cvcc.to_string()].contains(&r_type) {
         if !last {
             res.push((format!("{r}y"), 2));
         } else if !is_vowel(strin!(&r, -1)) {
             res.push((r, 2));
         }
-    } else if [
-        "LongBrivla",
-        &Tarmi::Ccvcv.to_string(),
-        &Tarmi::Cvccv.to_string(),
-    ]
-    .contains(&r_type)
-    {
+    } else if ["LongBrivla", &Ccvcv.to_string(), &Cvccv.to_string()].contains(&r_type) {
         if last {
             res.push((r, 2));
         } else {
             res.push((format!("{r}'y"), 2));
         }
     } else if r_type == "ExperimentalRafsi" {
-        let num_consonants = (settings.consonants != ConsonantSetting::Cluster
+        let num_consonants = (settings.consonants != Cluster
             && (is_consonant(strin!(&r, 0)) || settings.glides && is_glide(&r)))
             as i32;
         if last {
@@ -95,32 +90,25 @@ pub fn get_rafsi_for_rafsi(
         } else {
             res.push((format!("{r}'"), num_consonants));
         }
-    } else if [
-        Tarmi::Cvv.to_string().as_str(),
-        Tarmi::Cvhv.to_string().as_str(),
-    ]
-    .contains(&r_type)
-    {
-        let num_consonants = (settings.consonants != ConsonantSetting::Cluster) as i32;
+    } else if [Cvv.to_string().as_str(), Cvhv.to_string().as_str()].contains(&r_type) {
+        let num_consonants = (settings.consonants != Cluster) as i32;
         if first {
             res.push((format!("{r}'"), num_consonants));
         } else if !last {
             res.push((format!("{r}'y"), num_consonants));
         }
         res.push((r, num_consonants));
-    } else if r_type == Tarmi::Ccv.to_string() {
+    } else if r_type == Ccv.to_string() {
         res.push((r.clone(), 2));
         res.push((format!("{r}'y"), 2));
-    } else if r_type == Tarmi::Cvc.to_string() {
+    } else if r_type == Cvc.to_string() {
         res.push((r.clone(), 2));
         if !last {
             res.push((format!("{r}y"), 2));
         }
     } else {
         // fake FakeTypeError lol
-        return Err(Jvonunfli::FakeTypeError(format!(
-            "unrecognized rafsi type {r_type}"
-        )));
+        return Err(FakeTypeError(format!("unrecognized rafsi type {r_type}")));
     }
     Ok(res)
 }
@@ -144,49 +132,46 @@ pub fn get_rafsi_list_list(
             let is_short_brivla = strin!(valsi, 0) != '-';
             valsi = &hyphenless;
             if !is_only_lojban_characters(valsi) {
-                return Err(Jvonunfli::NonLojbanCharacterError(format!(
+                return Err(NonLojbanCharacterError(format!(
                     "{{{valsi}}} contains a non-lojban character"
                 )));
             }
             if strin!(valsi, -1) == '\'' {
-                return Err(Jvonunfli::NonLojbanCharacterError(format!(
+                return Err(NonLojbanCharacterError(format!(
                     "{{{valsi}}} ends in an apostrophe"
                 )));
             }
             if is_short_brivla {
                 let b_type = analyze_brivla(
                     &format!("{valsi}a"),
-                    &extract!(settings, y_hyphens, exp_rafsi, allow_mz),
+                    &extract!(settings; y_hyphens, exp_rafsi, allow_mz),
                 );
                 if let Err(e) = b_type {
                     match e {
-                        Jvonunfli::NotBrivlaError(_) => {
-                            return Err(Jvonunfli::NoLujvoFoundError(format!(
-                                "{{{valsi}a}} is not a brivla"
-                            )));
+                        NotBrivlaError(_) => {
+                            return Err(NoLujvoFoundError(format!("{{{valsi}a}} is not a brivla")));
                         }
                         _ => return Err(e),
                     }
                 }
                 let b_type = b_type.unwrap().0;
-                if ![BrivlaType::Zihevla, BrivlaType::Gismu].contains(&b_type) {
-                    return Err(Jvonunfli::NoLujvoFoundError(format!(
+                if ![Zihevla, Gismu].contains(&b_type) {
+                    return Err(NoLujvoFoundError(format!(
                         "{{{valsi}a}} is not a gismu or zi'evla"
                     )));
                 }
                 if valsi.len() > 5 && is_consonant(strin!(valsi, -1)) {
                     let mut decomposes = true;
-                    if let Err(e) = jvokaha2(valsi, &extract!(settings, y_hyphens, allow_mz)) {
+                    if let Err(e) = jvokaha2(valsi, &extract!(settings; y_hyphens, allow_mz)) {
                         match e {
-                            Jvonunfli::DecompositionError(_)
-                            | Jvonunfli::InvalidClusterError(_) => {
+                            DecompositionError(_) | InvalidClusterError(_) => {
                                 decomposes = false;
                             }
                             _ => return Err(e),
                         }
                     }
                     if decomposes {
-                        return Err(Jvonunfli::NoLujvoFoundError(format!(
+                        return Err(NoLujvoFoundError(format!(
                             "{{{valsi}a}} is a valid zi'evla, but without the final vowel it is a \
                              cmejvo"
                         )));
@@ -197,34 +182,34 @@ pub fn get_rafsi_list_list(
                     "ShortBrivla",
                     first,
                     last,
-                    &extract!(settings, consonants, glides),
+                    &extract!(settings; consonants, glides),
                 )?);
             } else {
                 let raftai = rafsi_tarmi(valsi);
-                if raftai == Tarmi::OtherRafsi {
+                if raftai == OtherRafsi {
                     let mut zihevla_or_rafsi = None;
                     let b_type =
-                        analyze_brivla(valsi, &extract!(settings, y_hyphens, exp_rafsi, allow_mz));
+                        analyze_brivla(valsi, &extract!(settings; y_hyphens, exp_rafsi, allow_mz));
                     if let Err(e) = b_type {
                         match e {
-                            Jvonunfli::NotBrivlaError(_) => {
+                            NotBrivlaError(_) => {
                                 if settings.exp_rafsi {
                                     let shape = check_zihevla_or_rafsi(
                                         valsi,
-                                        &extract!(settings, y_hyphens, exp_rafsi, allow_mz),
+                                        &extract!(settings; y_hyphens, exp_rafsi, allow_mz),
                                         false,
                                     );
                                     if let Err(e) = shape {
                                         match e {
-                                            Jvonunfli::NotZihevlaError(m) => {
-                                                return Err(Jvonunfli::NoLujvoFoundError(m));
+                                            NotZihevlaError(m) => {
+                                                return Err(NoLujvoFoundError(m));
                                             }
                                             _ => return Err(e),
                                         }
                                     }
                                     let shape = shape.unwrap();
-                                    if shape == BrivlaType::Rafsi {
-                                        zihevla_or_rafsi = Some(BrivlaType::Rafsi);
+                                    if shape == Rafsi {
+                                        zihevla_or_rafsi = Some(Rafsi);
                                     }
                                 }
                             }
@@ -232,16 +217,16 @@ pub fn get_rafsi_list_list(
                         }
                     } else {
                         let b_type = b_type.unwrap().0;
-                        if b_type == BrivlaType::Zihevla {
-                            zihevla_or_rafsi = Some(BrivlaType::Zihevla);
+                        if b_type == Zihevla {
+                            zihevla_or_rafsi = Some(Zihevla);
                         }
                     }
                     if zihevla_or_rafsi.is_none() {
-                        return Err(Jvonunfli::NotZihevlaError(format!(
+                        return Err(NotZihevlaError(format!(
                             "{{{valsi}}} is an invalid rafsi or zi'evla"
                         )));
                     }
-                    let r_type = if zihevla_or_rafsi == Some(BrivlaType::Zihevla) {
+                    let r_type = if zihevla_or_rafsi == Some(Zihevla) {
                         "LongBrivla"
                     } else {
                         "ExperimentalRafsi"
@@ -251,11 +236,11 @@ pub fn get_rafsi_list_list(
                         r_type,
                         first,
                         last,
-                        &extract!(settings, consonants, glides),
+                        &extract!(settings; consonants, glides),
                     )?);
                 } else {
-                    if !is_valid_rafsi(valsi, &extract!(settings, allow_mz)) {
-                        return Err(Jvonunfli::InvalidClusterError(format!(
+                    if !is_valid_rafsi(valsi, &extract!(settings; allow_mz)) {
+                        return Err(InvalidClusterError(format!(
                             "{{{valsi}}} contains an invalid cluster"
                         )));
                     }
@@ -264,13 +249,13 @@ pub fn get_rafsi_list_list(
                         &raftai.to_string(),
                         first,
                         last,
-                        &extract!(settings, consonants, glides),
+                        &extract!(settings; consonants, glides),
                     )?);
                 }
             }
         } else {
             if !is_only_lojban_characters(valsi) {
-                return Err(Jvonunfli::NonLojbanCharacterError(format!(
+                return Err(NonLojbanCharacterError(format!(
                     "{{{valsi}}} contains a non-lojban character"
                 )));
             }
@@ -278,7 +263,7 @@ pub fn get_rafsi_list_list(
             if let Some(srl) = short_rafsi_list {
                 for r in srl {
                     let raftai = rafsi_tarmi(r);
-                    if raftai == Tarmi::OtherRafsi && !settings.exp_rafsi {
+                    if raftai == OtherRafsi && !settings.exp_rafsi {
                         continue;
                     }
                     rafsi_list.extend(get_rafsi_for_rafsi(
@@ -286,34 +271,34 @@ pub fn get_rafsi_list_list(
                         &raftai.to_string(),
                         first,
                         last,
-                        &extract!(settings, consonants, glides),
+                        &extract!(settings; consonants, glides),
                     )?);
                 }
             }
-            let b_type = analyze_brivla(valsi, &extract!(settings, y_hyphens, exp_rafsi, allow_mz));
+            let b_type = analyze_brivla(valsi, &extract!(settings; y_hyphens, exp_rafsi, allow_mz));
             if let Err(e) = b_type {
                 match e {
-                    Jvonunfli::NotBrivlaError(_) => {}
+                    NotBrivlaError(_) => {}
                     _ => return Err(e),
                 }
             } else {
                 let b_type = b_type.unwrap().0;
-                if b_type == BrivlaType::Gismu {
+                if b_type == Gismu {
                     rafsi_list.extend(get_rafsi_for_rafsi(
                         strsl!(valsi, 0..-1),
                         "ShortBrivla",
                         first,
                         last,
-                        &extract!(settings, consonants, glides),
+                        &extract!(settings; consonants, glides),
                     )?);
                 }
-                if [BrivlaType::Gismu, BrivlaType::Zihevla].contains(&b_type) {
+                if [Gismu, Zihevla].contains(&b_type) {
                     rafsi_list.extend(get_rafsi_for_rafsi(
                         valsi,
                         "LongBrivla",
                         first,
                         last,
-                        &extract!(settings, consonants, glides),
+                        &extract!(settings; consonants, glides),
                     )?);
                 }
             }
@@ -354,25 +339,25 @@ pub fn combine(
         return None;
     }
     let raftai1 = tarmi_ignoring_hyphen(rafsi);
-    if !"y'".contains(lujvo_f) && raftai1 == Tarmi::OtherRafsi {
+    if !"y'".contains(lujvo_f) && raftai1 == OtherRafsi {
         return None;
     }
     let mut hyphen = "";
     if lujvo_f == '\'' {
-        if rafsi_i == '\'' || settings.y_hyphens != YHyphenSetting::Standard {
+        if rafsi_i == '\'' || settings.y_hyphens != Standard {
             hyphen = "y";
         } else {
             return None;
         }
     } else if lujvo.len() == 5
-        && rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Ccv
+        && rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv
         && strsl!(lujvo, 3..) == "'y"
     {
         return None;
     } else if lujvo.len() <= 5 && !settings.generate_cmevla {
         let raftai0 = tarmi_ignoring_hyphen(lujvo);
-        if [Tarmi::Cvhv, Tarmi::Cvv].contains(&raftai0) {
-            hyphen = if settings.y_hyphens == YHyphenSetting::ForceY {
+        if [Cvhv, Cvv].contains(&raftai0) {
+            hyphen = if settings.y_hyphens == ForceY {
                 "'y"
             } else if rafsi_i == 'r' {
                 "n"
@@ -380,28 +365,27 @@ pub fn combine(
                 "r"
             };
         }
-        if tanru_len == 2 && raftai1 == Tarmi::Ccv {
+        if tanru_len == 2 && raftai1 == Ccv {
             hyphen = "";
         }
     }
-    if tosmabru_type == Tosytype::Tosmabru {
+    if tosmabru_type == Tosmabru {
         if !INITIAL.contains(&format!("{lujvo_f}{rafsi_i}").as_str()) {
-            tosmabru_type = Tosytype::Tosynone;
-        } else if raftai1 == Tarmi::Cvccv {
+            tosmabru_type = Tosynone;
+        } else if raftai1 == Cvccv {
             if INITIAL.contains(strsl!(rafsi, 2..4)) {
                 return None;
             }
-            tosmabru_type = Tosytype::Tosynone;
-        } else if raftai1 == Tarmi::Cvc {
+            tosmabru_type = Tosynone;
+        } else if raftai1 == Cvc {
             if strin!(rafsi, -1) == 'y' {
                 return None;
             }
         } else {
-            tosmabru_type = Tosytype::Tosynone;
+            tosmabru_type = Tosynone;
         }
-    } else if tosmabru_type == Tosytype::Tosyhuhu && (rafsi_i != '\'' || contains_consonant(rafsi))
-    {
-        tosmabru_type = Tosytype::Tosynone;
+    } else if tosmabru_type == Tosyhuhu && (rafsi_i != '\'' || contains_consonant(rafsi)) {
+        tosmabru_type = Tosynone;
     }
     let rafsi_start = lujvo.len() + hyphen.len() + (strin!(rafsi, 0) == '\'') as usize;
     let rafsi_end = rafsi_start + strip_hyphens(rafsi).len();
@@ -413,7 +397,7 @@ pub fn combine(
     let mut new_c = rafsi_c;
     if !hyphen.is_empty() && "nr".contains(hyphen) {
         new_c = 2;
-    } else if settings.consonants == ConsonantSetting::Cluster && rafsi_c != 2 {
+    } else if settings.consonants == Cluster && rafsi_c != 2 {
         let mut i = lujvo.len() as isize - 1;
         while "'y".contains(strin!(lujvo, i)) {
             i -= 1;
@@ -428,7 +412,7 @@ pub fn combine(
             * 2;
     }
     let mut total_c = 2.min(lujvo_c + new_c);
-    if settings.consonants == ConsonantSetting::OneConsonant && total_c > 0 {
+    if settings.consonants == OneConsonant && total_c > 0 {
         total_c = 2;
     }
     let hyphen_score = if hyphen == "'y" {
@@ -478,7 +462,7 @@ pub fn get_lujvo_from_list(
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
     let rafsi_list_list = get_rafsi_list_list(
         valsi_list,
-        &extract!(settings, y_hyphens, exp_rafsi, consonants, glides, allow_mz),
+        &extract!(settings; y_hyphens, exp_rafsi, consonants, glides, allow_mz),
     );
     let mut current_best = [
         [
@@ -499,19 +483,19 @@ pub fn get_lujvo_from_list(
     ];
     let rafsi_list_list = rafsi_list_list?;
     if rafsi_list_list.len() < 2 {
-        return Err(Jvonunfli::FakeTypeError("not enough words".to_string()));
+        return Err(FakeTypeError("not enough words".to_string()));
     }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
             let tosmabru_type =
-                if tarmi_ignoring_hyphen(&rafsi0.0) == Tarmi::Cvc && !settings.generate_cmevla {
+                if tarmi_ignoring_hyphen(&rafsi0.0) == Cvc && !settings.generate_cmevla {
                     if strin!(&rafsi0.0, -1) == 'y' {
-                        Tosytype::Tosyhuhu
+                        Tosyhuhu
                     } else {
-                        Tosytype::Tosmabru
+                        Tosmabru
                     }
                 } else {
-                    Tosytype::Tosynone
+                    Tosynone
                 };
             let res = combine(
                 &rafsi0.0,
@@ -523,7 +507,7 @@ pub fn get_lujvo_from_list(
                 tosmabru_type,
                 rafsi_list_list.len(),
                 &extract!(
-                    settings,
+                    settings;
                     generate_cmevla,
                     y_hyphens,
                     consonants,
@@ -554,7 +538,7 @@ pub fn get_lujvo_from_list(
             ],
         ];
         for rafsi in rafsi_list {
-            for tosmabru_type in [Tosytype::Tosynone, Tosytype::Tosmabru, Tosytype::Tosyhuhu] {
+            for tosmabru_type in [Tosynone, Tosmabru, Tosyhuhu] {
                 for num_consonants in 0..3 {
                     for (_, lujvo_and_score) in
                         &previous_best[tosmabru_type as usize][num_consonants]
@@ -569,7 +553,7 @@ pub fn get_lujvo_from_list(
                             tosmabru_type,
                             rafsi_list_list.len(),
                             &extract!(
-                                settings,
+                                settings;
                                 generate_cmevla,
                                 y_hyphens,
                                 consonants,
@@ -594,7 +578,7 @@ pub fn get_lujvo_from_list(
         }
     }
     if best_lujvo.is_empty() {
-        Err(Jvonunfli::NoLujvoFoundError(format!(
+        Err(NoLujvoFoundError(format!(
             "{{{}}} can't be turned into a lujvo",
             valsi_list.join(" ")
         )))

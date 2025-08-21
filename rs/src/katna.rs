@@ -1,11 +1,20 @@
 use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},
-    exceptions::Jvonunfli,
+    exceptions::Jvonunfli::{
+        self, DecompositionError, FakeTypeError, InvalidClusterError, NoLujvoFoundError,
+        NotBrivlaError,
+    },
     extract,
     jvozba::{get_lujvo_from_list, score, tiebreak},
     rafsi::RAFSI,
     strin, strsl,
-    tarmi::{BrivlaType, Settings, Tarmi, YHyphenSetting, is_consonant, is_vowel, rafsi_tarmi},
+    tarmi::{
+        BrivlaType::{Cmevla, ExtendedLujvo, Lujvo},
+        Settings,
+        Tarmi::{Ccv, Ccvc, Ccvcv, Cvc, Cvcc, Cvccv, Cvhv, Cvv},
+        YHyphenSetting::{ForceY, Standard},
+        is_consonant, is_vowel, rafsi_tarmi,
+    },
     tools::{analyze_brivla, is_brivla},
 };
 use itertools::Itertools as _;
@@ -61,16 +70,16 @@ pub fn selrafsi_list_from_rafsi_list(
             && strin!(&rafsi_list[i + 1], 0) == 'y'
             && is_brivla(
                 &format!("{}a", res[i]),
-                &extract!(settings, y_hyphens, allow_mz),
+                &extract!(settings; y_hyphens, allow_mz),
             )
         {
             res[i] = format!("{}-", res[i]);
-        } else if is_brivla(&res[i], &extract!(settings, y_hyphens, allow_mz)) {
+        } else if is_brivla(&res[i], &extract!(settings; y_hyphens, allow_mz)) {
             // do nothing
         } else if i == rafsi_list.len() - 1
             && is_brivla(
                 &format!("{}a", res[i]),
-                &extract!(settings, y_hyphens, allow_mz),
+                &extract!(settings; y_hyphens, allow_mz),
             )
         {
             res[i] = format!("{}-", res[i]);
@@ -93,9 +102,8 @@ pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
         if 0 < i
             && i < other.len() - 1
             && "rn".contains(&other[i])
-            && [Tarmi::Cvv, Tarmi::Cvhv].contains(&rafsi_tarmi(&other[i - 1]))
-            && (i > 1
-                || [Tarmi::Ccvcv, Tarmi::Ccvc, Tarmi::Ccv].contains(&rafsi_tarmi(&other[i + 1])))
+            && [Cvv, Cvhv].contains(&rafsi_tarmi(&other[i - 1]))
+            && (i > 1 || [Ccvcv, Ccvc, Ccv].contains(&rafsi_tarmi(&other[i + 1])))
         {
             i += 1;
         }
@@ -113,48 +121,41 @@ pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
 /// if the lujvo is malformed
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
-    let arr = jvokaha2(lujvo, &extract!(settings, y_hyphens, allow_mz))?;
+    let arr = jvokaha2(lujvo, &extract!(settings; y_hyphens, allow_mz))?;
     let rafsi_tanru = arr
         .iter()
         .filter(|r| r.len() > 2)
         .map(|r| format!("-{r}-"))
         .collect_vec();
     if rafsi_tanru.len() == 1 {
-        return Err(Jvonunfli::FakeTypeError("not enough rafsi".to_string()));
+        return Err(FakeTypeError("not enough rafsi".to_string()));
     }
     let correct_lujvo = get_lujvo_from_list(
         &rafsi_tanru,
         &Settings {
             generate_cmevla: is_consonant(strin!(&arr[arr.len() - 1], -1)),
-            ..extract!(settings, y_hyphens, consonants, glides, allow_mz)
+            ..extract!(settings; y_hyphens, consonants, glides, allow_mz)
         },
     );
     if let Err(e) = correct_lujvo {
         match e {
-            Jvonunfli::NoLujvoFoundError(m) => return Err(Jvonunfli::DecompositionError(m)),
+            NoLujvoFoundError(m) => return Err(DecompositionError(m)),
             _ => return Err(e),
         }
     }
     let correct_lujvo = correct_lujvo.unwrap().0;
-    let cool_and_good = if settings.y_hyphens == YHyphenSetting::ForceY {
+    let cool_and_good = if settings.y_hyphens == ForceY {
         correct_lujvo == lujvo
     } else {
         compare_lujvo_pieces(
-            &jvokaha2(
-                &correct_lujvo,
-                &Settings {
-                    y_hyphens: YHyphenSetting::Standard,
-                    allow_mz: settings.allow_mz,
-                    ..Settings::default()
-                },
-            )?,
+            &jvokaha2(&correct_lujvo, &extract!(settings;allow_mz))?,
             &arr,
         )
     };
     if cool_and_good {
         Ok(arr)
     } else {
-        Err(Jvonunfli::DecompositionError(format!(
+        Err(DecompositionError(format!(
             "{{{lujvo}}} is malformed and should be {{{correct_lujvo}}}"
         )))
     }
@@ -173,7 +174,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         }
         if !res.is_empty() && res[res.len() - 1].len() != 1 {
             if strin!(lujvo, 0) == 'y'
-                || settings.y_hyphens != YHyphenSetting::ForceY
+                || settings.y_hyphens != ForceY
                     && (strsl!(lujvo, 0..2) == "nr"
                         || strin!(lujvo, 0) == 'r'
                             && lujvo.len() >= 2
@@ -182,36 +183,35 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                 res.push(strsl!(lujvo, 0..1));
                 lujvo = strsl!(lujvo, 1..);
                 continue;
-            } else if settings.y_hyphens != YHyphenSetting::Standard && strsl!(lujvo, 0..2) == "'y"
-            {
+            } else if settings.y_hyphens != Standard && strsl!(lujvo, 0..2) == "'y" {
                 res.push(strsl!(lujvo, 0..2));
                 lujvo = strsl!(lujvo, 2..);
                 continue;
             }
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvv
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvv
             && ["ai", "ei", "oi", "au"].contains(&strsl!(lujvo, 1..3))
         {
             res.push(strsl!(lujvo, 0..3));
             lujvo = strsl!(lujvo, 3..);
             continue;
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..4)) == Tarmi::Cvhv {
+        if rafsi_tarmi(strsl!(lujvo, 0..4)) == Cvhv {
             res.push(strsl!(lujvo, 0..4));
             lujvo = strsl!(lujvo, 4..);
             continue;
         }
-        if [Tarmi::Cvcc, Tarmi::Ccvc].contains(&rafsi_tarmi(strsl!(lujvo, 0..4))) {
+        if [Cvcc, Ccvc].contains(&rafsi_tarmi(strsl!(lujvo, 0..4))) {
             if is_vowel(strin!(lujvo, 1)) {
                 if !if settings.allow_mz { &MZ_VALID } else { &VALID }
                     .contains(&strsl!(lujvo, 2..4))
                 {
-                    return Err(Jvonunfli::InvalidClusterError(format!(
+                    return Err(InvalidClusterError(format!(
                         "{{{orig}}} contains an invalid cluster",
                     )));
                 }
             } else if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
-                return Err(Jvonunfli::InvalidClusterError(format!(
+                return Err(InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
@@ -224,23 +224,23 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                 continue;
             }
         }
-        if [Tarmi::Cvccv, Tarmi::Ccvcv].contains(&rafsi_tarmi(lujvo)) {
+        if [Cvccv, Ccvcv].contains(&rafsi_tarmi(lujvo)) {
             res.push(lujvo);
             return Ok(res.iter().copied().map(String::from).collect_vec());
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Cvc {
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvc {
             res.push(strsl!(lujvo, 0..3));
             lujvo = strsl!(lujvo, 3..);
             continue;
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Tarmi::Ccv {
+        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv {
             if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
-                return Err(Jvonunfli::InvalidClusterError(format!(
+                return Err(InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
             if lujvo == orig && strsl!(lujvo, 3..5) == "'y" {
-                return Err(Jvonunfli::NotBrivlaError(format!(
+                return Err(NotBrivlaError(format!(
                     "{{{orig}}} starts with CCV'y, making it a slinku'i"
                 )));
             }
@@ -248,7 +248,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             lujvo = strsl!(lujvo, 3..);
             continue;
         }
-        return Err(Jvonunfli::DecompositionError(format!(
+        return Err(DecompositionError(format!(
             "{{{orig}}} can't be decomposed"
         )));
     }
@@ -280,7 +280,7 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
     let (b_type, rafsi_list) = analyze_brivla(
         lujvo,
         &extract!(
-            settings,
+            settings;
             y_hyphens,
             exp_rafsi,
             consonants,
@@ -288,17 +288,11 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
             allow_mz
         ),
     )?;
-    if ![
-        BrivlaType::Lujvo,
-        BrivlaType::ExtendedLujvo,
-        BrivlaType::Cmevla,
-    ]
-    .contains(&b_type)
-    {
-        return Err(Jvonunfli::DecompositionError(format!(
+    if ![Lujvo, ExtendedLujvo, Cmevla].contains(&b_type) {
+        return Err(DecompositionError(format!(
             "{{{lujvo}}} is a {}, not a lujvo or decomposable cmevla",
             b_type.to_string().to_lowercase()
         )));
     }
-    selrafsi_list_from_rafsi_list(&rafsi_list, &extract!(settings, y_hyphens, allow_mz))
+    selrafsi_list_from_rafsi_list(&rafsi_list, &extract!(settings; y_hyphens, allow_mz))
 }

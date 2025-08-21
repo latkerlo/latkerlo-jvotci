@@ -1,6 +1,6 @@
 use crate::{
     data::{FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID},
-    exceptions::Jvonunfli,
+    exceptions::Jvonunfli::{self, DecompositionError},
     jvozba::Tosytype,
     strin, strsl,
     tools::regex_replace_all,
@@ -37,7 +37,7 @@ pub enum BrivlaType {
 /// Hyphen options for gluing CVV or CV'V rafsi to the front.
 ///
 /// Setting `AllowY` makes *'y* a valid replacement for CLL's *r*/*n* hyphens. `ForceY` requires
-/// *'y*, trating e.g. *voirli'u* as a zi'evla.
+/// *'y*, treating e.g. *voirli'u* as a zi'evla.
 #[derive(Debug, Default, PartialEq, Eq, Clone, Copy)]
 pub enum YHyphenSetting {
     #[default]
@@ -57,6 +57,9 @@ pub enum ConsonantSetting {
     TwoConsonants,
     OneConsonant,
 }
+use ConsonantSetting::{Cluster, OneConsonant, TwoConsonants};
+use Tarmi::{Ccv, Ccvc, Ccvcv, Cvc, Cvcc, Cvccv, Cvhv, Cvv, Hyphen, OtherRafsi};
+use YHyphenSetting::{AllowY, ForceY, Standard};
 
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq)]
 #[allow(clippy::struct_excessive_bools)]
@@ -79,7 +82,7 @@ pub struct Settings {
 /// Keep only certain fields of a [`Settings`] and replace the rest with their defaults
 #[macro_export]
 macro_rules! extract {
-    ($s:ident, $($part:ident),+) => {
+    ($s:ident; $($part:ident),+) => {
         Settings {
             $($part: $s.$part),+,
             ..Settings::default()
@@ -114,14 +117,14 @@ impl fmt::Display for Settings {
             "{}{}{}{}{}{}",
             if self.generate_cmevla { "c" } else { "" },
             match self.y_hyphens {
-                YHyphenSetting::Standard => "",
-                YHyphenSetting::AllowY => "A",
-                YHyphenSetting::ForceY => "F",
+                Standard => "",
+                AllowY => "A",
+                ForceY => "F",
             },
             match self.consonants {
-                ConsonantSetting::Cluster => "",
-                ConsonantSetting::TwoConsonants => "2",
-                ConsonantSetting::OneConsonant => "1",
+                Cluster => "",
+                TwoConsonants => "2",
+                OneConsonant => "1",
             },
             if self.exp_rafsi { "r" } else { "" },
             if self.glides { "g" } else { "" },
@@ -152,18 +155,18 @@ impl FromStr for Settings {
         let glides = s.contains('g');
         let allow_mz = s.contains('z');
         let y_hyphens = if s.contains('A') {
-            YHyphenSetting::AllowY
+            AllowY
         } else if s.contains('F') {
-            YHyphenSetting::ForceY
+            ForceY
         } else {
-            YHyphenSetting::Standard
+            Standard
         };
         let consonants = if s.contains('2') {
-            ConsonantSetting::TwoConsonants
+            TwoConsonants
         } else if s.contains('1') {
-            ConsonantSetting::OneConsonant
+            OneConsonant
         } else {
-            ConsonantSetting::Cluster
+            Cluster
         };
         Ok(Self {
             generate_cmevla,
@@ -259,7 +262,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
             if strin!($new_c, 0) == 'i' && ["ai", "ei", "oi"].contains(&strsl!(new_v, -2..))
                 || strin!($new_c, 0) == 'u' && strsl!(new_v, -2..) == "au"
             {
-                return Err(Jvonunfli::DecompositionError(format!(
+                return Err(DecompositionError(format!(
                     "{{{old_v}}} is a bad vowel sequence"
                 )));
             }
@@ -277,7 +280,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
             res.push_front(v.to_string());
             return Ok(res.iter().cloned().collect());
         } else {
-            return Err(Jvonunfli::DecompositionError(format!(
+            return Err(DecompositionError(format!(
                 "{{{old_v}}} is a bad vowel sequence"
             )));
         }
@@ -333,9 +336,9 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
 /// True if `r` is a valid CLL rafsi
 pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
     let t = rafsi_tarmi(r);
-    if [Tarmi::Cvccv, Tarmi::Cvcc].contains(&t) {
+    if [Cvccv, Cvcc].contains(&t) {
         if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&strsl!(r, 2..4))
-    } else if [Tarmi::Ccvcv, Tarmi::Ccvc, Tarmi::Ccv].contains(&t) {
+    } else if [Ccvcv, Ccvc, Ccv].contains(&t) {
         INITIAL.contains(&strsl!(r, 0..2))
     } else {
         1 <= t as i8 && t as i8 <= 8
@@ -347,31 +350,31 @@ pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
 /// Get the shape of a rafsi
 pub fn rafsi_tarmi(r: &str) -> Tarmi {
     match r.len() {
-        1 if !is_vowel(strin!(r, 0)) => Tarmi::Hyphen,
-        _ if !is_consonant(strin!(r, 0)) => Tarmi::OtherRafsi,
-        2 if r == "'y" => Tarmi::Hyphen,
+        1 if !is_vowel(strin!(r, 0)) => Hyphen,
+        _ if !is_consonant(strin!(r, 0)) => OtherRafsi,
+        2 if r == "'y" => Hyphen,
         3 => match (is_vowel(strin!(r, 1)), is_vowel(strin!(r, 2))) {
-            (true, false) if is_consonant(strin!(r, 2)) => Tarmi::Cvc,
-            (true, true) => Tarmi::Cvv,
-            (false, true) => Tarmi::Ccv,
-            _ => Tarmi::OtherRafsi,
+            (true, false) if is_consonant(strin!(r, 2)) => Cvc,
+            (true, true) => Cvv,
+            (false, true) => Ccv,
+            _ => OtherRafsi,
         },
         4 if strin!(r, 3) != '\'' => {
             match (is_vowel(strin!(r, 1)), strin!(r, 2), is_vowel(strin!(r, 3))) {
-                (true, '\'', true) => Tarmi::Cvhv,
-                (true, _, false) if is_consonant(strin!(r, 3)) => Tarmi::Cvcc,
-                (false, v, false) if is_vowel(v) => Tarmi::Ccvc,
-                _ => Tarmi::OtherRafsi,
+                (true, '\'', true) => Cvhv,
+                (true, _, false) if is_consonant(strin!(r, 3)) => Cvcc,
+                (false, v, false) if is_vowel(v) => Ccvc,
+                _ => OtherRafsi,
             }
         }
         5 if is_gismu_shape(r) => {
             if is_vowel(strin!(r, 2)) {
-                Tarmi::Ccvcv
+                Ccvcv
             } else {
-                Tarmi::Cvccv
+                Cvccv
             }
         }
-        _ => Tarmi::OtherRafsi,
+        _ => OtherRafsi,
     }
 }
 
