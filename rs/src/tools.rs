@@ -169,35 +169,39 @@ pub fn check_zihevla_or_rafsi(
             if chunk.len() >= 2 && cluster_pos.is_none() {
                 if num_consonants > 1 {
                     // find where the lujvo really starts
-                    let pos = (1..=pos)
-                        .find(|p| {
-                            let to = strsl!(valsi_, ..*p);
-                            let smabru = strsl!(valsi_, *p..);
-                            (is_vowel(strin!(to, -1)) || strin!(to, -1) == 'y')
-                                && to.split(|c| is_consonant(c) || c == '\'').all(|v| {
-                                    v.len() < 2
-                                        || v.len() == 2 && is_glide(v)
-                                        || split_vowel_cluster(v).is_ok()
-                                })
-                                && (is_glide(smabru)
-                                    || !START_VOWEL_CLUSTERS.iter().any(|v| {
-                                        *v == format!("{}{}", strin!(to, -1), strin!(smabru, 0))
-                                    }))
-                                && analyze_brivla(
-                                    smabru,
-                                    &extract!(
-                                        settings; y_hyphens, consonants, exp_rafsi, glides,
-                                        allow_mz
-                                    ),
-                                )
-                                .is_ok()
-                        })
-                        .unwrap();
-                    return Err(NotZihevlaError(format!(
-                        "{{{valsi_}}} is a tosmabru: {{{} {}}}",
-                        strsl!(valsi_, ..pos),
-                        strsl!(valsi_, pos..)
-                    )));
+                    let pos_ = (1..=pos).find(|p| {
+                        let to_part = strsl!(valsi_, ..*p);
+                        let smabru_part = strsl!(valsi_, *p..);
+                        (is_vowel(strin!(to_part, -1)) || strin!(to_part, -1) == 'y')
+                            && to_part.split(|c| is_consonant(c) || c == '\'').all(|v| {
+                                v.len() < 2
+                                    || v.len() == 2 && is_glide(v)
+                                    || split_vowel_cluster(v).is_ok()
+                            })
+                            && (is_glide(smabru_part)
+                                || !START_VOWEL_CLUSTERS.iter().any(|v| {
+                                    *v == format!(
+                                        "{}{}",
+                                        strin!(to_part, -1),
+                                        strin!(smabru_part, 0)
+                                    )
+                                }))
+                            && analyze_brivla(
+                                smabru_part,
+                                &extract!(
+                                    settings; y_hyphens, consonants, exp_rafsi, glides,
+                                    allow_mz
+                                ),
+                            )
+                            .is_ok()
+                    });
+                    if let Some(pos_) = pos_ {
+                        return Err(NotZihevlaError(format!(
+                            "{{{valsi_}}} is a tosmabru: {{{} {}}}",
+                            strsl!(valsi_, ..pos_),
+                            strsl!(valsi_, pos_..)
+                        )));
+                    }
                 }
                 cluster_pos = Some(pos);
             }
@@ -519,6 +523,13 @@ pub fn analyze_brivla(
         }
         let mut katnad = false;
         if can_be_rafsi {
+            if !part_a.ends_with("'a")
+                && !is_gismu(strsl!(part_a, -5..), &extract!(settings; allow_mz))
+                && let Ok(decomp) = analyze_brivla(part_a, &extract!(settings; y_hyphens, allow_mz))
+                && decomp.0 == Lujvo
+            {
+                return Err(NotBrivlaError(format!("{{{part_a}}} is a lujvo")));
+            }
             let mut found_parts = jvokaha2(part_, &extract!(settings; y_hyphens, allow_mz));
             if let Err(ref e) = found_parts {
                 match e {
@@ -584,7 +595,10 @@ pub fn analyze_brivla(
                         && !(rafsi_tarmi(smabru_part) == Ccv
                             && strin!(strsl!(y_parts[i], to_part.len() as isize..), 3) == '\'')
                     {
-                        return Err(NotBrivlaError(format!("{{{part}}} is a tosmabru")));
+                        return Err(NotBrivlaError(format!(
+                            "{{{part}}} is a tosmabru: {{{to_part} {smabru_part}{}}}",
+                            if added_a { "a" } else { "" }
+                        )));
                     }
                     if let Err(e) = jvokaha(smabru_part, &extract!(settings; y_hyphens, allow_mz)) {
                         match e {
@@ -592,7 +606,10 @@ pub fn analyze_brivla(
                             _ => return Err(e),
                         }
                     } else {
-                        return Err(NotBrivlaError(format!("{{{part}}} is a tosmabru")));
+                        return Err(NotBrivlaError(format!(
+                            "{{{part}}} is a tosmabru: {{{to_part} {smabru_part}{}}}",
+                            if added_a { "a" } else { "" }
+                        )));
                     }
                 }
             }

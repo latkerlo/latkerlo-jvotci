@@ -148,7 +148,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
         correct_lujvo == lujvo
     } else {
         compare_lujvo_pieces(
-            &jvokaha2(&correct_lujvo, &extract!(settings;allow_mz))?,
+            &jvokaha2(&correct_lujvo, &extract!(settings; allow_mz))?,
             &arr,
         )
     };
