@@ -3,4 +3,4 @@ Features not present in the Python/TypeScript versions:
 
 If you run the tests please be sure to do so as `cargo test -r -- --nocapture --test-threads=1`
 
-MSRV: 1.80.1
+MSRV: 1.88.0
