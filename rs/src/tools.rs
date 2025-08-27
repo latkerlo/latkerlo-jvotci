@@ -246,29 +246,34 @@ pub fn check_zihevla_or_rafsi(
                 chunk += strsl!(valsi, 0..1);
                 valsi = strsl!(valsi, 1..);
             }
-            if pos == 0 {
-                if START_VOWEL_CLUSTERS.contains(&chunk.as_str())
-                    || FOLLOW_VOWEL_CLUSTERS.contains(&chunk.as_str())
-                {
-                    num_syllables += 1;
-                } else {
-                    return Err(NotZihevlaError(format!(
-                        "{{{valsi_}}} starts with a bad vowel sequence"
-                    )));
-                }
-            } else {
-                if let Err(e) = split_vowel_cluster(&chunk) {
-                    match e {
-                        DecompositionError(_) => {
-                            return Err(NotZihevlaError(format!(
-                                "{{{valsi_}}} contains a bad vowel sequence"
-                            )));
-                        }
-                        _ => return Err(e),
+            if let Err(e) = split_vowel_cluster(&chunk) {
+                match e {
+                    DecompositionError(_) => {
+                        return Err(NotZihevlaError(format!(
+                            "{{{valsi_}}} contains a bad vowel sequence"
+                        )));
                     }
+                    _ => return Err(e),
                 }
-                num_syllables += split_vowel_cluster(&chunk).unwrap().len();
+            } else if cluster_pos.is_none()
+                && let Ok(v @ [_, _, ..]) = split_vowel_cluster(&chunk).as_deref()
+                && strin!(valsi_, pos - 1) != '\''
+                && pos as usize + v.concat().len() == valsi_.len()
+            {
+                return Err(NotZihevlaError(format!(
+                    "{{{valsi_}}} is just a cmavo compound"
+                )));
             }
+            if pos != 0
+                && let Ok([first, ..]) = split_vowel_cluster(&chunk).as_deref()
+                && FOLLOW_VOWEL_CLUSTERS.contains(&first.as_str())
+            {
+                return Err(NotZihevlaError(format!(
+                    "{{{valsi_}}} contains a glide after a non-vowel"
+                )));
+            }
+
+            num_syllables += split_vowel_cluster(&chunk).unwrap().len();
         } else if strin!(valsi, 0) == '\'' {
             chunk = "'".to_string();
             valsi = strsl!(valsi, 1..);
@@ -462,7 +467,18 @@ pub fn analyze_brivla(
                     "{{{valsi}}} has a part consisting of just an apostrophe"
                 )));
             }
-            if !is_vowel(strin!(part, 0)) || is_glide(part) {
+            if !is_vowel(strin!(part, 0))
+                || FOLLOW_VOWEL_CLUSTERS.contains(
+                    &split_vowel_cluster(
+                        &part
+                            .chars()
+                            .take_while(|c| is_vowel(*c))
+                            .collect::<String>(),
+                    )
+                    .unwrap()[0]
+                        .as_str(),
+                )
+            {
                 return Err(NotBrivlaError(format!(
                     "{{{valsi}}} contains an apostrophe followed by a consonant or glide"
                 )));

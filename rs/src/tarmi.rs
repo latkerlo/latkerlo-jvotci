@@ -276,7 +276,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
         } else if v.len() > 2 && FOLLOW_VOWEL_CLUSTERS.contains(&strsl!(v, -2..)) {
             add_to_res!(strsl!(v, -2..));
             v = strsl!(v, 0..-2);
-        } else if START_VOWEL_CLUSTERS.contains(&v) {
+        } else if START_VOWEL_CLUSTERS.contains(&v) || FOLLOW_VOWEL_CLUSTERS.contains(&v) {
             res.push_front(v.to_string());
             return Ok(res.iter().cloned().collect());
         } else {
