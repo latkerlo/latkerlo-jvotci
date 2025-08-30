@@ -1,3 +1,11 @@
+use std::{
+    ops::{Bound, RangeBounds},
+    sync::LazyLock,
+};
+
+use itertools::Itertools as _;
+use regex::Regex;
+
 use crate::{
     data::{
         BANNED_TRIPLES, FOLLOW_VOWEL_CLUSTERS, HYPHENS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS,
@@ -19,30 +27,25 @@ use crate::{
         is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster, strip_hyphens,
     },
 };
-use itertools::Itertools as _;
-use regex::Regex;
-use std::{
-    ops::{Bound, RangeBounds},
-    sync::LazyLock,
-};
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
 #[must_use = "does not mutate the string"]
+/// Replaces all matches of a regex (`&str`) in a string with another string.
 pub fn regex_str_replace_all(regex: &str, from: &str, with: &str) -> String {
-    Regex::new(regex)
-        .unwrap()
-        .replace_all(from, with)
-        .to_string()
+    Regex::new(regex).unwrap().replace_all(from, with).to_string()
 }
+
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
 #[must_use = "does not mutate the string"]
+/// Replaces all matches of a regex (`&Regex`) in a string with another string.
 pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
     regex.replace_all(from, with).to_string()
 }
 
 #[macro_export]
+/// Pythonic `str`ing `in`dexing.
 macro_rules! strin {
     ($s: expr, $i: expr) => {{
         let chars = ($s).chars().collect_vec();
@@ -54,6 +57,7 @@ macro_rules! strin {
         positive($i).map(|i| chars[i]).unwrap_or_default()
     }};
 }
+/// Turns a range into a tuple with its endpoints.
 pub fn bounds<S, T, R>(str: S, range: R) -> (isize, isize)
 where
     S: AsRef<str>,
@@ -74,17 +78,13 @@ where
     (start.into(), end.into())
 }
 #[macro_export]
+/// Pythonic `str`ing `sl`icing.
 macro_rules! strsl {
     ($s:expr, $r:expr) => {{
         let len = ($s).len();
         let (start, end) = $crate::tools::bounds($s, $r);
         let positive = |i: isize| -> usize {
-            if i < 0 {
-                len.saturating_sub((-i) as usize)
-            } else {
-                i as usize
-            }
-            .min(len)
+            if i < 0 { len.saturating_sub((-i) as usize) } else { i as usize }.min(len)
         };
         let (start, end) = (positive(start), positive(end));
         assert!(start <= end, "slice attempt problem: s={start} > e={end}");
@@ -93,15 +93,16 @@ macro_rules! strsl {
 }
 
 static ABNORMAL: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^\.|,|\.$").unwrap());
-/// Convert word to standard form (*h* → *'*, no periods/commas, lowercase)
+/// Converts a word to standard form (*h* → *'*, no periods/commas, lowercase).
 #[must_use = "does not mutate the string"]
 pub fn normalize(word: &str) -> String {
     regex_replace_all(&ABNORMAL, &word.to_lowercase(), "").replace('h', "'")
 }
 
-/// True if `s` is a gismu or lujvo
+/// Returns `true` if given a gismu or lujvo.
 /// # Errors
-/// if given e.g. a non-brivla
+/// Errors besides [`DecompositionError`] and [`InvalidClusterError`] are
+/// forwarded from [`jvokaha`].
 pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if s.len() < 5 || !is_vowel(strin!(s, -1)) {
         return Ok(false);
@@ -119,10 +120,11 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
     }
 }
 
-/// True if `s` isn't a valid word because putting a CV cmavo in front of it makes it a lujvo (e.g.
-/// *pa \*slinku'i*)
+/// Returns `true` if given a slinku'i: the input isn't a valid word because
+/// putting a CV cmavo in front of it makes it a lujvo (e.g. *pa**slinku'i***)
 /// # Errors
-/// if given e.g. a non-brivla
+/// Errors besides [`DecompositionError`] and [`InvalidClusterError`] are
+/// forwarded from [`jvokaha`].
 pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if is_vowel(strin!(s, 0)) {
         // words starting with vowels have an invisible . at the start
@@ -137,9 +139,15 @@ pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     }
 }
 
-/// Check rules specific to zi'evla or experimental rafsi.
+/// Checks rules specific to zi'evla or experimental rafsi.
 /// # Errors
-/// if it is not a zi'evla
+/// A [`NotZihevlaError`] is returned if the input
+/// - is too short to be a zi'evla (either in characters or syllables)
+/// - is a tosmabru or slinku'i
+/// - has invalid clusters or bad vowels
+/// - is just a bunch of cmavo
+/// - contains glides after consonants
+/// - contains apostrophes in leggal places
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn check_zihevla_or_rafsi(
     mut valsi: &str,
@@ -148,9 +156,7 @@ pub fn check_zihevla_or_rafsi(
 ) -> Result<BrivlaType, Jvonunfli> {
     let valsi_ = valsi;
     if require_zihevla && valsi.len() < 4 {
-        return Err(NotZihevlaError(format!(
-            "{{{valsi}}} is too short to be a zi'evla"
-        )));
+        return Err(NotZihevlaError(format!("{{{valsi}}} is too short to be a zi'evla")));
     }
     let (
         mut chunk,
@@ -235,9 +241,7 @@ pub fn check_zihevla_or_rafsi(
                     )));
                 }
             } else if !is_zihevla_middle_cluster(&chunk) {
-                return Err(NotZihevlaError(format!(
-                    "{{{valsi_}}} contains an invalid cluster"
-                )));
+                return Err(NotZihevlaError(format!("{{{valsi_}}} contains an invalid cluster")));
             }
             final_consonant_pos = pos;
             num_consonants += chunk.len();
@@ -260,9 +264,7 @@ pub fn check_zihevla_or_rafsi(
                 && strin!(valsi_, pos - 1) != '\''
                 && pos as usize + v.concat().len() == valsi_.len()
             {
-                return Err(NotZihevlaError(format!(
-                    "{{{valsi_}}} is just a cmavo compound"
-                )));
+                return Err(NotZihevlaError(format!("{{{valsi_}}} is just a cmavo compound")));
             }
             if pos != 0
                 && let Ok([first, ..]) = split_vowel_cluster(&chunk).as_deref()
@@ -298,14 +300,9 @@ pub fn check_zihevla_or_rafsi(
         chunk = String::new();
     }
     if num_syllables < 2 && (require_zihevla || !settings.exp_rafsi) {
-        return Err(NotZihevlaError(format!(
-            "{{{valsi_}}} doesn't have enough syllables"
-        )));
+        return Err(NotZihevlaError(format!("{{{valsi_}}} doesn't have enough syllables")));
     } else if num_syllables > 2 && cluster_pos.is_some() && cluster_pos > Some(0) {
-        if is_brivla(
-            strsl!(valsi_, cluster_pos.unwrap()..),
-            &extract!(settings; y_hyphens),
-        ) {
+        if is_brivla(strsl!(valsi_, cluster_pos.unwrap()..), &extract!(settings; y_hyphens)) {
             return Err(NotZihevlaError(format!(
                 "{{{valsi_}}} is a tosmabru: {{{} {}}}",
                 strsl!(valsi_, 0..cluster_pos.unwrap()),
@@ -330,53 +327,61 @@ pub fn check_zihevla_or_rafsi(
     }
     if cluster_pos.is_none() {
         if require_zihevla {
-            return Err(NotZihevlaError(format!(
-                "{{{valsi_}}} is just a cmavo or cmavo compound"
-            )));
+            return Err(NotZihevlaError(format!("{{{valsi_}}} is just a cmavo or cmavo compound")));
         }
         if !is_consonant(strin!(valsi_, 0)) && !settings.exp_rafsi {
             return Err(NotZihevlaError(format!("{{{valsi_}}} is an invalid rafsi")));
         }
         if num_consonants > 1 {
-            return Err(NotZihevlaError(format!(
-                "{{{valsi_}}} is just a cmavo compound"
-            )));
+            return Err(NotZihevlaError(format!("{{{valsi_}}} is just a cmavo compound")));
         }
         if final_consonant_pos > 0 {
-            return Err(NotZihevlaError(format!(
-                "{{{valsi_}}} lacks a consonant cluster"
-            )));
+            return Err(NotZihevlaError(format!("{{{valsi_}}} lacks a consonant cluster")));
         }
     } else if !(is_vowel(strin!(valsi_, 0)) && is_consonant(strin!(valsi_, 1)))
         && is_slinkuhi(valsi_, &extract!(settings; y_hyphens, allow_mz))?
     {
         return Err(NotZihevlaError(format!("{{{valsi_}}} is a slinku'i")));
     }
-    Ok(if cluster_pos.is_none() {
-        Rafsi
-    } else {
-        Zihevla
-    })
+    Ok(if cluster_pos.is_none() { Rafsi } else { Zihevla })
 }
 
-/// True if given a valid brivla
+/// Returns `true` if given a valid brivla.
 #[must_use]
 pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
     let b_type = analyze_brivla(
         valsi,
         &extract!(settings; y_hyphens, exp_rafsi, consonants, glides, allow_mz),
     );
-    if let Ok(b_type) = b_type {
-        b_type.0 != Cmevla
-    } else {
-        false
-    }
+    if let Ok(b_type) = b_type { b_type.0 != Cmevla } else { false }
 }
 
-/// Return type & decomposition of any brivla or decomposable cmevla. Doesn't check the cmevla
-/// morphology rules
+/// Returns the type and decomposition of any brivla or decomposable cmevla.
+/// Doesn't check the cmevla morphology rules.
 /// # Errors
-/// if not given a brivla
+/// A [`NotBrivlaError`] is returned if the input
+/// - is empty
+/// - starts or ends with *y* or apostrophe
+/// - is a non-decomposable cmevla
+/// - begins with CCV'y (explained in the docs for [`jvokaha2`])
+/// - fails [`check_zihevla_or_rafsi`] with a [`NotZihevlaError`], in which case
+///   the specific message is retained
+///
+/// or contains
+/// - two adjacent or apostrophe-separated *y*s
+/// - apostrophes or *y*s in illegal places
+/// - a CCV rafsi or lujvo without the final vowel, e.g. *\*-vly-* or
+///   *\*-bastry-*
+/// - a tosmabru or slinku'i
+/// - otherwise invalid rafsi
+/// - anything that lacks enough consonants
+/// - parts that are just cmavo or cmavo compounds
+///
+/// or starts with
+/// - a cmavo followed by *'y* (unless a relevant [`YHyphenSetting`] is used)
+///
+/// Otherwise errors are forwarded from `check_zihevla_or_rafsi`, `jvokaha2`,
+/// etc.
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn analyze_brivla(
     valsi: &str,
@@ -389,23 +394,16 @@ pub fn analyze_brivla(
     } else if is_consonant(strin!(&valsi, -1)) {
         is_cmetai = true;
     } else if !is_vowel(strin!(&valsi, -1)) {
-        return Err(NotBrivlaError(format!(
-            "{{{valsi}}} doesn't end in a consonant or vowel"
-        )));
+        return Err(NotBrivlaError(format!("{{{valsi}}} doesn't end in a consonant or vowel")));
     }
     if is_cmetai {
         if is_gismu(&format!("{valsi}a"), &extract!(settings; allow_mz)) {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} is a non-decomposable cmevla"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} is a non-decomposable cmevla")));
         }
     } else if is_gismu(&valsi, &extract!(settings; allow_mz)) {
         return Ok((Gismu, vec![valsi]));
     }
-    let res_parts = jvokaha(
-        &valsi,
-        &extract!(settings; y_hyphens, consonants, glides, allow_mz),
-    );
+    let res_parts = jvokaha(&valsi, &extract!(settings; y_hyphens, consonants, glides, allow_mz));
     if let Err(e) = res_parts {
         match e {
             DecompositionError(_) | InvalidClusterError(_) | FakeTypeError(_) => (),
@@ -416,16 +414,12 @@ pub fn analyze_brivla(
         return Ok((if is_cmetai { Cmevla } else { Lujvo }, res_parts));
     }
     if !is_vowel(strin!(&valsi, 0)) && !is_consonant(strin!(&valsi, 0)) {
-        return Err(NotBrivlaError(format!(
-            "{{{valsi}}} doesn't start with a consonant or vowel"
-        )));
+        return Err(NotBrivlaError(format!("{{{valsi}}} doesn't start with a consonant or vowel")));
     }
     let y_parts = valsi.split('y').collect_vec();
     if y_parts.len() == 1 {
         if is_cmetai {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} is a non-decomposable cmevla"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} is a non-decomposable cmevla")));
         }
         if let Err(e) = check_zihevla_or_rafsi(
             &valsi,
@@ -454,9 +448,7 @@ pub fn analyze_brivla(
         let mut part = y_parts[i];
         let mut part_ = part;
         if part.is_empty() {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} contains two consecutive {{y}}s"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} contains two consecutive {{y}}s")));
         }
         if strin!(part, 0) == '\'' {
             part = strsl!(part, 1..);
@@ -470,10 +462,7 @@ pub fn analyze_brivla(
             if !is_vowel(strin!(part, 0))
                 || FOLLOW_VOWEL_CLUSTERS.contains(
                     &split_vowel_cluster(
-                        &part
-                            .chars()
-                            .take_while(|c| is_vowel(*c))
-                            .collect::<String>(),
+                        &part.chars().take_while(|c| is_vowel(*c)).collect::<String>(),
                     )
                     .unwrap()[0]
                         .as_str(),
@@ -655,19 +644,13 @@ pub fn analyze_brivla(
     }
     if !has_cluster {
         if settings.consonants == Cluster {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} lacks a consonant cluster"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} lacks a consonant cluster")));
         } else if settings.consonants == TwoConsonants && num_consonants < 2
             || settings.consonants == OneConsonant && num_consonants < 1
         {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} doesn't have enough consonants"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} doesn't have enough consonants")));
         } else if is_mahortai {
-            return Err(NotBrivlaError(format!(
-                "{{{valsi}}} is just a cmavo or cmavo compound"
-            )));
+            return Err(NotBrivlaError(format!("{{{valsi}}} is just a cmavo or cmavo compound")));
         }
     }
     if !(is_vowel(strin!(&valsi, 0))
@@ -680,7 +663,7 @@ pub fn analyze_brivla(
     }
 }
 
-/// Get the start/end positions of each rafsi
+/// Gets the start/end positions of each rafsi.
 pub fn get_rafsi_indices(rl: &[&str]) -> Vec<[usize; 2]> {
     let mut pos = 0;
     let mut indices = vec![];

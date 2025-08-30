@@ -1,5 +1,6 @@
-//! Many of `latkerlo_jvotci`'s functions take a reference to a [`Settings`]. `Settings` implements
-//! `Default` and `FromStr` so you don't have to write a whole bunch of structs.
+//! Many of `latkerlo_jvotci`'s functions take a reference to a [`Settings`].
+//! `Settings` implements `Default` and `FromStr` so you don't have to write a
+//! whole bunch of structs.
 
 // excluded lints
 #![allow(clippy::too_many_lines)]

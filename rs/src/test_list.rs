@@ -1,19 +1,21 @@
 #![allow(clippy::format_push_string)]
 #![cfg(test)]
 
+use std::{
+    fs::{self, OpenOptions},
+    io::Write as _,
+    sync::LazyLock,
+};
+
+use itertools::Itertools as _;
+use regex::Regex;
+
 use crate::{
     data::HYPHENS,
     katna::selrafsi_list_from_rafsi_list,
     tarmi::{SETTINGS_ITERATOR, is_consonant},
     tools::{get_rafsi_indices, regex_replace_all},
     *,
-};
-use itertools::Itertools as _;
-use regex::Regex;
-use std::{
-    fs::{self, OpenOptions},
-    io::Write as _,
-    sync::LazyLock,
 };
 
 const PRINT: bool = false;
@@ -69,10 +71,8 @@ static STRIP_ANSI: LazyLock<Regex> = LazyLock::new(|| Regex::new("\x1b\\[\\d*m")
 
 fn both(test: &[&str]) -> i32 {
     assert!(test.len() > 1);
-    let settings = Settings {
-        generate_cmevla: is_consonant(strin!(test[0], -1)),
-        ..Settings::default()
-    };
+    let settings =
+        Settings { generate_cmevla: is_consonant(strin!(test[0], -1)), ..Settings::default() };
     let lujvo = test[0];
     let expect = test[1];
     let mut output = format!("\n\x1b[1m{lujvo}\x1b[m");
@@ -88,10 +88,7 @@ fn both(test: &[&str]) -> i32 {
     let expect = test[0];
     let lujvo =
         get_lujvo(tanru, &settings).unwrap_or_else(|e| format!("{:?}", Err::<String, _>(e)));
-    output += &format!(
-        "\nzbasu    - \x1b[9{}m{lujvo}\x1b[m",
-        (expect == lujvo) as u8 + 1
-    );
+    output += &format!("\nzbasu    - \x1b[9{}m{lujvo}\x1b[m", (expect == lujvo) as u8 + 1);
     let ohno = output.contains("[91m");
     if PRINT || ohno {
         println!("{output}");
@@ -99,14 +96,9 @@ fn both(test: &[&str]) -> i32 {
     let mut file = OpenOptions::new()
         .append(true)
         .create(true)
-        .open(if ohno {
-            "test_diagnostics/bad.txt"
-        } else {
-            "test_diagnostics/good.txt"
-        })
+        .open(if ohno { "test_diagnostics/bad.txt" } else { "test_diagnostics/good.txt" })
         .unwrap();
-    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-        .unwrap();
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
     ohno as i32
 }
 fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Settings) -> i32 {
@@ -122,13 +114,9 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
             }
         );
         println!("{output}");
-        let mut file = OpenOptions::new()
-            .append(true)
-            .create(true)
-            .open("test_diagnostics/bad.txt")
-            .unwrap();
-        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-            .unwrap();
+        let mut file =
+            OpenOptions::new().append(true).create(true).open("test_diagnostics/bad.txt").unwrap();
+        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
         return 1;
     }
     let lujvo = lujvo.unwrap_or_else(|e| format!("{:?}", Err::<String, _>(e)));
@@ -168,14 +156,9 @@ fn zba(tanru: &str, expect: &str, e_score: i32, e_indices: &str, settings: Setti
     let mut file = OpenOptions::new()
         .append(true)
         .create(true)
-        .open(if ohno {
-            "test_diagnostics/bad.txt"
-        } else {
-            "test_diagnostics/good.txt"
-        })
+        .open(if ohno { "test_diagnostics/bad.txt" } else { "test_diagnostics/good.txt" })
         .unwrap();
-    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-        .unwrap();
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
     ohno as i32
 }
 fn zba_f(tanru: &str, settings: Settings) -> i32 {
@@ -196,14 +179,9 @@ fn zba_f(tanru: &str, settings: Settings) -> i32 {
     let mut file = OpenOptions::new()
         .append(true)
         .create(true)
-        .open(if ohno {
-            "test_diagnostics/bad.txt"
-        } else {
-            "test_diagnostics/check.txt"
-        })
+        .open(if ohno { "test_diagnostics/bad.txt" } else { "test_diagnostics/check.txt" })
         .unwrap();
-    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-        .unwrap();
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
     ohno as i32
 }
 fn kaha(
@@ -226,13 +204,9 @@ fn kaha(
             }
         );
         println!("{output}");
-        let mut file = OpenOptions::new()
-            .append(true)
-            .create(true)
-            .open("test_diagnostics/bad.txt")
-            .unwrap();
-        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-            .unwrap();
+        let mut file =
+            OpenOptions::new().append(true).create(true).open("test_diagnostics/bad.txt").unwrap();
+        file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
         return 1;
     }
     let tanru = selrafsi_list_from_rafsi_list(&pre_tanru.as_ref().unwrap().1.clone(), &settings)
@@ -274,17 +248,11 @@ fn kaha(
         };
     }
     if !e_indices.is_empty() {
-        let indices = get_rafsi_indices(
-            &pre_tanru
-                .unwrap()
-                .1
+        let indices =
+            get_rafsi_indices(&pre_tanru.unwrap().1.iter().map(String::as_str).collect_vec())
                 .iter()
-                .map(String::as_str)
-                .collect_vec(),
-        )
-        .iter()
-        .map(|i| format!("{}-{}", i[0], i[1]))
-        .join(",");
+                .map(|i| format!("{}-{}", i[0], i[1]))
+                .join(",");
         output += &if e_indices == indices {
             format!("\nindices  - \x1b[92m{indices}\x1b[m")
         } else {
@@ -301,14 +269,9 @@ fn kaha(
     let mut file = OpenOptions::new()
         .append(true)
         .create(true)
-        .open(if ohno {
-            "test_diagnostics/bad.txt"
-        } else {
-            "test_diagnostics/good.txt"
-        })
+        .open(if ohno { "test_diagnostics/bad.txt" } else { "test_diagnostics/good.txt" })
         .unwrap();
-    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-        .unwrap();
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
     ohno as i32
 }
 fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
@@ -332,14 +295,9 @@ fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
     let mut file = OpenOptions::new()
         .append(true)
         .create(true)
-        .open(if ohno {
-            "test_diagnostics/bad.txt"
-        } else {
-            "test_diagnostics/check.txt"
-        })
+        .open(if ohno { "test_diagnostics/bad.txt" } else { "test_diagnostics/check.txt" })
         .unwrap();
-    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes())
-        .unwrap();
+    file.write_all(regex_replace_all(&STRIP_ANSI, &(output + "\n"), "").as_bytes()).unwrap();
     ohno as i32
 }
 
@@ -347,10 +305,7 @@ fn kaha_f(lujvo: &str, settings: Settings) -> i32 {
 fn t_basic() {
     fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/basic_test_list.tsv").unwrap();
-    let tests = file
-        .lines()
-        .map(|l| l.split('\t').collect_vec())
-        .collect_vec();
+    let tests = file.lines().map(|l| l.split('\t').collect_vec()).collect_vec();
     let mut ohnos = 0;
     for test in tests.clone() {
         if test.len() == 2 {
@@ -397,10 +352,7 @@ fn t_basic() {
 fn t_zba() {
     fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/jvozba_test_list.tsv").unwrap();
-    let tests = file
-        .lines()
-        .map(|l| l.split('\t').collect_vec())
-        .collect_vec();
+    let tests = file.lines().map(|l| l.split('\t').collect_vec()).collect_vec();
     let mut tests2 = vec![];
     for mut test in tests {
         if test[0].starts_with('#') || test[0].is_empty() {
@@ -411,16 +363,10 @@ fn t_zba() {
         while test.len() > 3 {
             let cond = test.remove(2);
             let expect = test.remove(2);
-            let score = if test.len() >= 3 && !test[2].starts_with('(') {
-                test.remove(2)
-            } else {
-                ""
-            };
-            let indices = if test.len() >= 3 && !test[2].starts_with('(') {
-                test.remove(2)
-            } else {
-                ""
-            };
+            let score =
+                if test.len() >= 3 && !test[2].starts_with('(') { test.remove(2) } else { "" };
+            let indices =
+                if test.len() >= 3 && !test[2].starts_with('(') { test.remove(2) } else { "" };
             tests2.push(vec![tanru, c, cond, expect, score, indices]);
         }
     }
@@ -456,13 +402,7 @@ fn t_zba() {
             if e_lujvo == "NONE" {
                 ohnos += zba_f(test[0], settings);
             } else {
-                ohnos += zba(
-                    tanru,
-                    e_lujvo,
-                    e_score.parse().unwrap_or(0),
-                    e_indices,
-                    settings,
-                );
+                ohnos += zba(tanru, e_lujvo, e_score.parse().unwrap_or(0), e_indices, settings);
             }
         }
     }
@@ -480,10 +420,7 @@ fn t_zba() {
 fn t_kaha() {
     fs::create_dir_all("test_diagnostics").unwrap();
     let file = fs::read_to_string("../tests/katna_test_list.tsv").unwrap();
-    let tests = file
-        .lines()
-        .map(|l| l.split('\t').collect_vec())
-        .collect_vec();
+    let tests = file.lines().map(|l| l.split('\t').collect_vec()).collect_vec();
     let mut tests2 = vec![];
     for mut test in tests {
         if test[0].starts_with('#') || test[0].is_empty() {
@@ -493,21 +430,12 @@ fn t_kaha() {
         while test.len() > 2 {
             let cond = test.remove(1);
             let btype = test.remove(1);
-            let rafsi = if test.len() >= 2 && !test[1].starts_with('(') {
-                test.remove(1)
-            } else {
-                ""
-            };
-            let tanru = if test.len() >= 2 && !test[1].starts_with('(') {
-                test.remove(1)
-            } else {
-                ""
-            };
-            let indices = if test.len() >= 2 && !test[1].starts_with('(') {
-                test.remove(1)
-            } else {
-                ""
-            };
+            let rafsi =
+                if test.len() >= 2 && !test[1].starts_with('(') { test.remove(1) } else { "" };
+            let tanru =
+                if test.len() >= 2 && !test[1].starts_with('(') { test.remove(1) } else { "" };
+            let indices =
+                if test.len() >= 2 && !test[1].starts_with('(') { test.remove(1) } else { "" };
             tests2.push(vec![lujvo, cond, btype, rafsi, tanru, indices]);
         }
     }

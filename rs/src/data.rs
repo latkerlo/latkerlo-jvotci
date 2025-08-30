@@ -1,5 +1,9 @@
+//! Various lists of things like consonant clusters. The rafsi list is stored in
+//! [`rafsi`][`crate::rafsi`] instead.
+
 use std::{collections::HashSet, sync::LazyLock};
 
+/// The consonant clusters permitted by CLL.
 pub static VALID: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     HashSet::from([
         "bd", "bg", "bj", "bl", "bm", "bn", "br", "bv", "bz", "cf", "ck", "cl", "cm", "cn", "cp",
@@ -17,12 +21,16 @@ pub static VALID: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     ])
 });
 
+/// The CLL consonant clusters ([`VALID`]) + *mz*, which CLL forbids in order to
+/// spite the inventor of Loglan. You can control whether this list of clusters
+/// is used via `allow_mz` in [`crate::Settings`].
 pub static MZ_VALID: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     let mut clusters = VALID.iter().copied().collect::<HashSet<_>>();
     clusters.insert("mz");
     clusters
 });
 
+/// The consonant clusters permitted *word-initially* by CLL.
 pub static INITIAL: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     HashSet::from([
         "bl", "br", "cf", "ck", "cl", "cm", "cn", "cp", "cr", "ct", "dj", "dr", "dz", "fl", "fr",
@@ -32,12 +40,18 @@ pub static INITIAL: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     ])
 });
 
+/// The set of consonant triples banned by CLL: *nts*, *ntc*, *ndz*, *ndj*.
+/// These are banned because they sound too similar to *nt*, *nc*, *nd*, *nj*.
 pub static BANNED_TRIPLES: LazyLock<HashSet<&'static str>> =
     LazyLock::new(|| HashSet::from(["ndj", "ndz", "ntc", "nts"]));
 
+/// Single vowels and falling diphthongs. These syllables always require a
+/// pronounced glottal stop before them.
 pub static START_VOWEL_CLUSTERS: LazyLock<HashSet<&'static str>> =
     LazyLock::new(|| HashSet::from(["a", "e", "i", "o", "u", "au", "ai", "ei", "oi"]));
 
+/// Syllables starting with glides (*i*/*u*). These syllables can sometimes not
+/// be preceded by a pronounced glottal stop.
 pub static FOLLOW_VOWEL_CLUSTERS: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     HashSet::from([
         "ia", "ie", "ii", "io", "iu", "iau", "iai", "iei", "ioi", "ua", "ue", "ui", "uo", "uu",
@@ -45,5 +59,7 @@ pub static FOLLOW_VOWEL_CLUSTERS: LazyLock<HashSet<&'static str>> = LazyLock::ne
     ])
 });
 
+/// The set of lujvo hyphens, used between zi'evla and to prevent cmavo-shaped
+/// rafsi from falling of the start of a lujvo.
 pub static HYPHENS: LazyLock<HashSet<&'static str>> =
     LazyLock::new(|| HashSet::from(["r", "n", "y", "'y", "y'", "'y'"]));

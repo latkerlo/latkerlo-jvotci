@@ -1,5 +1,6 @@
 //! Contains the static RAFSI, a map from words to their affixes.
 use std::{collections::HashMap, sync::LazyLock};
+/// Big giant rafsi list.
 pub static RAFSI: LazyLock<HashMap<&'static str, Vec<&'static str>>> = LazyLock::new(|| {
     HashMap::from([
         ("babda", vec![]),

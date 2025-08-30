@@ -1,3 +1,8 @@
+use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
+
+use itertools::{Itertools as _, iproduct};
+use regex::Regex;
+
 use crate::{
     data::{FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID},
     exceptions::Jvonunfli::{self, DecompositionError},
@@ -5,11 +10,9 @@ use crate::{
     strin, strsl,
     tools::regex_replace_all,
 };
-use itertools::{Itertools as _, iproduct};
-use regex::Regex;
-use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
+/// Rafsi shapes.
 pub enum Tarmi {
     Hyphen,
     Cvccv,
@@ -36,8 +39,8 @@ pub enum BrivlaType {
 }
 /// Hyphen options for gluing CVV or CV'V rafsi to the front.
 ///
-/// Setting `AllowY` makes *'y* a valid replacement for CLL's *r*/*n* hyphens. `ForceY` requires
-/// *'y*, treating e.g. *voirli'u* as a zi'evla.
+/// Setting `AllowY` makes *'y* a valid replacement for CLL's *r*/*n* hyphens.
+/// `ForceY` requires *'y*, treating e.g. *voirli'u* as a zi'evla.
 #[derive(Debug, Default, PartialEq, Eq, Clone, Copy)]
 pub enum YHyphenSetting {
     #[default]
@@ -47,9 +50,10 @@ pub enum YHyphenSetting {
 }
 /// Minimum consonant requirements.
 ///
-/// With a non`Standard` [`YHyphenSetting`], there are some strings e.g. *nei'ynei* that cannot fall
-/// apart or combine with other words, and do not break any of Lojban's morphology. Setting
-/// `TwoConsonants` or `OneConsonant` lets these be valid lujvo.
+/// With a non`Standard` [`YHyphenSetting`], there are some strings e.g.
+/// *nei'ynei* that cannot fall apart or combine with other words, and do not
+/// break any of Lojban's morphology. Setting `TwoConsonants` or `OneConsonant`
+/// lets these be valid lujvo.
 #[derive(Debug, Default, PartialEq, Eq, Clone, Copy)]
 pub enum ConsonantSetting {
     #[default]
@@ -64,22 +68,25 @@ use YHyphenSetting::{AllowY, ForceY, Standard};
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq)]
 #[allow(clippy::struct_excessive_bools)]
 pub struct Settings {
-    /// Whether the lujvo should end in a consonant. This only affects *making* lujvo, not
-    /// decomposing them
+    /// Whether the lujvo should end in a consonant. This only affects *making*
+    /// lujvo, not decomposing them.
     pub generate_cmevla: bool,
+    /// What hyphens to allow (see [`YHyphenSetting`]).
     pub y_hyphens: YHyphenSetting,
+    /// Minimum consonant requirements (see [`ConsonantSetting`]).
     pub consonants: ConsonantSetting,
-    /// Whether any cmavo not containing *y* may be a rafsi
+    /// Whether any cmavo (not containing *y*) may be a rafsi.
     pub exp_rafsi: bool,
-    /// Whether semivowel *i* and *u* are treated as consonants. Together with `consonants`,
-    /// `exp_rafsi`, and `y_hyphens` this may produce lujvo with no actual consonants like
-    /// *ia'yia*
+    /// Whether semivowel *i* and *u* are treated as consonants. Together with
+    /// `consonants`, `exp_rafsi`, and `y_hyphens` this may produce lujvo
+    /// with no actual consonants like *ia'yia*.
     pub glides: bool,
-    /// Whether *mz* is a valid cluster
+    /// Whether *mz* is a valid cluster.
     pub allow_mz: bool,
 }
 
-/// Keep only certain fields of a [`Settings`] and replace the rest with their defaults
+/// Keeps only certain fields of a [`Settings`] and replace the rest with their
+/// defaults.
 #[macro_export]
 macro_rules! extract {
     ($s:ident; $($part:ident),+) => {
@@ -89,29 +96,21 @@ macro_rules! extract {
         }
     };
 }
-/// A list of every [`Settings`]
+/// A list of every [`Settings`].
 pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
-    iproduct!(
-        ["", "c"],
-        ["", "A", "F"],
-        ["", "2", "1"],
-        ["", "r"],
-        ["", "g"],
-        ["", "z"]
-    )
-    .map(
-        |(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| {
+    iproduct!(["", "c"], ["", "A", "F"], ["", "2", "1"], ["", "r"], ["", "g"], ["", "z"])
+        .map(|(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| {
             Settings::from_str(&format!(
                 "{generate_cmevla}{y_hyphens}{exp_rafsi}{consonants}{glides}{allow_mz}"
             ))
             .unwrap()
-        },
-    )
-    .collect_vec()
+        })
+        .collect_vec()
 });
 
 impl fmt::Display for Settings {
-    /// A representation of `self` as a string. Can be reparsed with the `FromStr` implementation.
+    /// A representation of `self` as a string. Can be reparsed with the
+    /// `FromStr` implementation.
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let s = format!(
             "{}{}{}{}{}{}",
@@ -137,13 +136,12 @@ impl fmt::Display for Settings {
 pub struct SettingsError;
 impl FromStr for Settings {
     type Err = SettingsError;
-    /// Returns a `SettingsError` if given any characters other than `cSAFC21rgz` or there are
-    /// multiple of any. `crgz` activate `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
+    /// Returns a `SettingsError` if given any characters other than
+    /// `cSAFC21rgz` or there are multiple of any. `crgz` activate
+    /// `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
     /// `SAF` and `C21` select a [`YHyphenSetting`] and [`ConsonantSetting`]
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        if "crgz"
-            .chars()
-            .any(|x| s.chars().filter(|c| *c == x).count() > 1)
+        if "crgz".chars().any(|x| s.chars().filter(|c| *c == x).count() > 1)
             || s.chars().filter(|c| "SAF".contains(*c)).count() > 1
             || s.chars().filter(|c| "C21".contains(*c)).count() > 1
             || s.chars().filter(|c| !"cSAFC21rgz".contains(*c)).count() != 0
@@ -168,18 +166,11 @@ impl FromStr for Settings {
         } else {
             Cluster
         };
-        Ok(Self {
-            generate_cmevla,
-            y_hyphens,
-            consonants,
-            exp_rafsi,
-            glides,
-            allow_mz,
-        })
+        Ok(Self { generate_cmevla, y_hyphens, consonants, exp_rafsi, glides, allow_mz })
     }
 }
 
-/// Auto-impl `Display` on an enum
+/// Auto-implements `Display` on an enum.
 #[macro_export]
 macro_rules! auto_to_string {
     ($($e:ident),*) => {
@@ -193,44 +184,38 @@ macro_rules! auto_to_string {
     };
 }
 
-auto_to_string!(
-    BrivlaType,
-    YHyphenSetting,
-    ConsonantSetting,
-    Tarmi,
-    Tosytype
-);
+auto_to_string!(BrivlaType, YHyphenSetting, ConsonantSetting, Tarmi, Tosytype);
 
 #[inline]
 #[must_use]
-/// True if `c` is a vowel (non-*y*)
-pub fn is_vowel(c: char) -> bool {
-    "aeiou".contains(c)
-}
+/// Returns `true` if `c` is a vowel (non-*y*).
+pub fn is_vowel(c: char) -> bool { "aeiou".contains(c) }
+
 #[inline]
 #[must_use]
-/// True if `c` is a consonant
-pub fn is_consonant(c: char) -> bool {
-    "bcdfgjklmnprstvxz".contains(c)
-}
+/// Returns `true` if `c` is a consonant.
+pub fn is_consonant(c: char) -> bool { "bcdfgjklmnprstvxz".contains(c) }
+
 #[inline]
 #[must_use]
-/// True if `s` is an on-glide (*i*/*u* + vowel)
+/// Returns `true` if `s` starts with an on-glide / rising diphthong (*i*/*u* +
+/// vowel).
 pub fn is_glide(s: &str) -> bool {
     s.len() >= 2 && "iu".contains(strin!(s, 0)) && is_vowel(strin!(s, 1))
 }
+
 #[must_use]
-/// True if there are only Lojban letters in `s` (non-*y*, -period, -comma)
+/// Returns `true` if there are only Lojban letters in `s`, besides
+/// *y*/period/comma.
 pub fn is_only_lojban_characters(s: &str) -> bool {
     !s.is_empty() && s.chars().all(|c| "aeioubcdfgjklmnprstvxz'".contains(c))
 }
-/// True if any character is a consonant
-pub fn contains_consonant(s: &str) -> bool {
-    s.chars().any(is_consonant)
-}
+
+/// Returns `true` if any character in `s` is a consonant.
+pub fn contains_consonant(s: &str) -> bool { s.chars().any(is_consonant) }
 
 #[must_use]
-/// True if `v` is CVCCV or CCVCV. Doesn't check clusters
+/// Returns `true` if `v` is CVCCV or CCVCV. Doesn't check clusters.
 pub fn is_gismu_shape(v: &str) -> bool {
     v.len() == 5
         && is_consonant(strin!(v, 0))
@@ -239,7 +224,8 @@ pub fn is_gismu_shape(v: &str) -> bool {
         && (is_vowel(strin!(v, 1)) && is_consonant(strin!(v, 2))
             || is_consonant(strin!(v, 1)) && is_vowel(strin!(v, 2)))
 }
-/// True if `v` is a valid gismu
+
+/// Returns `true` if `v` is a valid gismu.
 pub fn is_gismu(v: &str, settings: &Settings) -> bool {
     is_gismu_shape(v)
         && if is_vowel(strin!(v, 1)) {
@@ -249,9 +235,9 @@ pub fn is_gismu(v: &str, settings: &Settings) -> bool {
         }
 }
 
-/// Split consecutive vowels into syllables
+/// Splits consecutive vowels into syllables.
 /// # Errors
-/// if given a bad vowel sequence
+/// A [`DecompositionError`] is returned if given a bad vowel sequence.
 pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
     let old_v = v;
     let mut v = v;
@@ -262,9 +248,7 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
             if strin!($new_c, 0) == 'i' && ["ai", "ei", "oi"].contains(&strsl!(new_v, -2..))
                 || strin!($new_c, 0) == 'u' && strsl!(new_v, -2..) == "au"
             {
-                return Err(DecompositionError(format!(
-                    "{{{old_v}}} is a bad vowel sequence"
-                )));
+                return Err(DecompositionError(format!("{{{old_v}}} is a bad vowel sequence")));
             }
             res.push_front($new_c.to_string());
         };
@@ -280,14 +264,12 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
             res.push_front(v.to_string());
             return Ok(res.iter().cloned().collect());
         } else {
-            return Err(DecompositionError(format!(
-                "{{{old_v}}} is a bad vowel sequence"
-            )));
+            return Err(DecompositionError(format!("{{{old_v}}} is a bad vowel sequence")));
         }
     }
 }
 
-/// True if `c` can start a zi'evla
+/// Returns `true` if `c` can start a zi'evla.
 pub fn is_zihevla_initial_cluster(c: &str) -> bool {
     match c.len() {
         1 => true,
@@ -308,7 +290,7 @@ static ZIHEVLA_MIDDLE_2: LazyLock<Regex> = LazyLock::new(|| {
     )
     .unwrap()
 });
-/// True if `c` can be in a zi'evla
+/// Returns `true` if `c` can be inside a zi'evla.
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     if c.len() < 3
@@ -319,10 +301,8 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
         return true;
     }
     let matches = if strin!(c, -2) == 'm' && INITIAL.contains(&strsl!(c, -2..)) {
-        ZIHEVLA_MIDDLE_1.captures(strsl!(
-            c,
-            0..-2 - is_zihevla_initial_cluster(strsl!(c, -3..)) as isize
-        ))
+        ZIHEVLA_MIDDLE_1
+            .captures(strsl!(c, 0..-2 - is_zihevla_initial_cluster(strsl!(c, -3..)) as isize))
     } else {
         ZIHEVLA_MIDDLE_2.captures(c)
     };
@@ -333,7 +313,7 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
 }
 
 #[inline]
-/// True if `r` is a valid CLL rafsi
+/// Returns `true` if `r` is a valid CLL rafsi.
 pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
     let t = rafsi_tarmi(r);
     if [Cvccv, Cvcc].contains(&t) {
@@ -347,7 +327,7 @@ pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
 
 #[inline]
 #[must_use]
-/// Get the shape of a rafsi
+/// Gets the shape of a rafsi.
 pub fn rafsi_tarmi(r: &str) -> Tarmi {
     match r.len() {
         1 if !is_vowel(strin!(r, 0)) => Hyphen,
@@ -381,12 +361,9 @@ pub fn rafsi_tarmi(r: &str) -> Tarmi {
 static BOUNDARY_Y_HYPHENS: LazyLock<Regex> = LazyLock::new(|| Regex::new("^['y]+|['y]+$").unwrap());
 #[inline]
 #[must_use]
-/// Remove hyphens from the rafsi
-pub fn strip_hyphens(r: &str) -> String {
-    regex_replace_all(&BOUNDARY_Y_HYPHENS, r, "")
-}
+/// Removes hyphens from a rafsi.
+pub fn strip_hyphens(r: &str) -> String { regex_replace_all(&BOUNDARY_Y_HYPHENS, r, "") }
+
 #[must_use]
-/// Get the rafsi's shape without hyphens
-pub fn tarmi_ignoring_hyphen(r: &str) -> Tarmi {
-    rafsi_tarmi(&strip_hyphens(r))
-}
+/// Gets the rafsi's shape after hyphens are removed.
+pub fn tarmi_ignoring_hyphen(r: &str) -> Tarmi { rafsi_tarmi(&strip_hyphens(r)) }

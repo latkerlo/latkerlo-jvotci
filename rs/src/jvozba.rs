@@ -1,3 +1,9 @@
+//! Functions for creating a lujvo.
+
+use indexmap::IndexMap;
+use itertools::Itertools as _;
+use regex::Regex;
+
 use crate::{
     data::{BANNED_TRIPLES, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli::{
@@ -19,20 +25,25 @@ use crate::{
     },
     tools::{analyze_brivla, check_zihevla_or_rafsi, normalize, regex_replace_all},
 };
-use indexmap::IndexMap;
-use itertools::Itertools as _;
-use regex::Regex;
 
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
+/// Various types of problems that arise when cmavo-shaped things fall of the
+/// front of a word. Some are permanent, some are temporary.
 pub enum Tosytype {
+    /// Neither problem.
     Tosynone,
+    /// Consider the word *tosmabru*. Because *to* is a cmavo and *smabru* is a
+    /// lujvo, *tosmabru* cannot be a word at all: the *to* would "fall off".
     Tosmabru,
+    /// Consider the word *tosy'u'u*. As you read it, at first it might look
+    /// like a lujvo, but it turns out to actually be two cmavo, *to* and
+    /// *sy'u'u*.
     Tosyhuhu,
 }
 use Tosytype::{Tosmabru, Tosyhuhu, Tosynone};
 
-/// Calculate the score for a rafsi (possibly including a hyphen). Use
-/// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo
+/// Calculates the score for a rafsi (possibly including a hyphen). Use
+/// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo.
 #[must_use]
 pub fn score(r: &str) -> i32 {
     let t = tarmi_ignoring_hyphen(r) as usize % 9;
@@ -40,20 +51,24 @@ pub fn score(r: &str) -> i32 {
         - 10 * t
         - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
 }
+/// A tiebreak so lujvo with a CVV first rafsi and a CCV(C) or CVC(C) second
+/// rafsi are preferred whenever there are two lujvo candidates with the same
+/// score.
 pub(crate) fn tiebreak(lujvo: &str) -> i32 {
     (rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvv
         && [Ccv, Ccvc, Cvc, Cvcc].contains(&rafsi_tarmi(strsl!(lujvo, 3..)))) as i32
 }
 
-/// Clean the tanru
+/// Cleans up and normalizes the given tanru.
 pub fn process_tanru(tanru: &str) -> Vec<String> {
     // split_whitespace trims for us :3
     tanru.split_whitespace().map(normalize).collect_vec()
 }
 
-/// Find possible rafsi-hyphen combinations
+/// Finds possible rafsi-hyphen combinations.
 /// # Errors
-/// if given a bad `r_type`
+/// This *should* always be `Ok`. It will only `Err` if it encounters an
+/// unexpected `r_type`, which should never happen.
 pub fn get_rafsi_for_rafsi(
     r: &str,
     r_type: &str,
@@ -114,9 +129,27 @@ pub fn get_rafsi_for_rafsi(
 }
 
 #[allow(clippy::missing_panics_doc)] // .unwrap()
-/// Get the rafsi list for each word
+/// Gets the rafsi list for each word.
 /// # Errors
-/// if any word is an invalid brivla
+/// A [`NonLojbanCharacterError`] is returned if
+/// - any character does not exist in Lojban
+/// - any word ends in an apostrophe
+///
+/// A [`NoLujvoFoundError`] is returned if
+/// - on rafsi where the last vowel has been removed, adding the final vowel
+///   back
+///   - and giving it to [`analyze_brivla`] produces a [`NotBrivlaError`]
+///   - results in a zi'evla, but because the vowel was removed the resulting
+///     rafsi is actually a lujvo itself that ends in a consonant (this happens
+///     with *tokpona* for example)
+///
+/// A `NotZihevlaError` is returned if [`check_zihevla_or_rafsi`] on any word
+/// returns a `NotZihevlaError`.
+///
+/// An `InvalidClusterError` is returned if any word has an invalid cluster.
+///
+/// Otherwise any errors returned by `analyze_brivla`, `jvokaha2`, etc are
+/// forwarded.
 pub fn get_rafsi_list_list(
     valsi_list: &[String],
     settings: &Settings,
@@ -137,9 +170,7 @@ pub fn get_rafsi_list_list(
                 )));
             }
             if strin!(valsi, -1) == '\'' {
-                return Err(NonLojbanCharacterError(format!(
-                    "{{{valsi}}} ends in an apostrophe"
-                )));
+                return Err(NonLojbanCharacterError(format!("{{{valsi}}} ends in an apostrophe")));
             }
             if is_short_brivla {
                 let b_type = analyze_brivla(
@@ -313,9 +344,12 @@ pub fn grll(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jv
     get_rafsi_list_list(&process_tanru(vl), settings)
 }
 
-type Candidate = Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>;
+/// A potential lujvo-rafsi combination. The fields in order are `(`[tosmabru
+/// type][`Tosytype`], number of consonants, score of the resulting lujvo, the
+/// lujvo itself, indices of all the rafsi`)`.
+pub type Candidate = Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>;
 
-/// Try to add a rafsi to a lujvo and calculate the score
+/// Tries to add a rafsi to a lujvo and calculate the score.
 #[allow(clippy::too_many_arguments)] // sorry!
 pub fn combine(
     lujvo: &str,
@@ -389,11 +423,7 @@ pub fn combine(
     }
     let rafsi_start = lujvo.len() + hyphen.len() + (strin!(rafsi, 0) == '\'') as usize;
     let rafsi_end = rafsi_start + strip_hyphens(rafsi).len();
-    let indices = indices
-        .iter()
-        .chain(&[[rafsi_start, rafsi_end]])
-        .copied()
-        .collect_vec();
+    let indices = indices.iter().chain(&[[rafsi_start, rafsi_end]]).copied().collect_vec();
     let mut new_c = rafsi_c;
     if !hyphen.is_empty() && "nr".contains(hyphen) {
         new_c = 2;
@@ -415,11 +445,7 @@ pub fn combine(
     if settings.consonants == OneConsonant && total_c > 0 {
         total_c = 2;
     }
-    let hyphen_score = if hyphen == "'y" {
-        1700
-    } else {
-        1100 * hyphen.len() as i32
-    };
+    let hyphen_score = if hyphen == "'y" { 1700 } else { 1100 * hyphen.len() as i32 };
     let res = format!("{lujvo}{hyphen}{rafsi}");
     let score = lujvo_score + hyphen_score + score(rafsi) - tiebreak(&res);
     Some((tosmabru_type, total_c, score, res, indices))
@@ -427,7 +453,7 @@ pub fn combine(
 
 type BestLujvoMap = IndexMap<char, (String, i32, Vec<[usize; 2]>)>;
 
-/// Add a candidate to `current_best`
+/// Adds a candidate to `current_best`.
 #[expect(clippy::missing_panics_doc)] // .unwrap()
 #[must_use]
 pub fn update_current_best(
@@ -440,10 +466,7 @@ pub fn update_current_best(
     let (tosmabru_type, num_consonants, res_score, res_lujvo, res_indices) = candidate.unwrap();
     let lujvo_f = strin!(&res_lujvo, -1);
     if !current_best[tosmabru_type as usize][num_consonants as usize].contains_key(&lujvo_f)
-        || current_best[tosmabru_type as usize][num_consonants as usize]
-            .get(&lujvo_f)
-            .unwrap()
-            .1
+        || current_best[tosmabru_type as usize][num_consonants as usize].get(&lujvo_f).unwrap().1
             > res_score
     {
         current_best[tosmabru_type as usize][num_consonants as usize]
@@ -452,10 +475,18 @@ pub fn update_current_best(
     current_best
 }
 
-/// Create the best lujvo for the tanru (list). Recommended to use [`get_lujvo_with_analytics`]
-/// instead if you have a string
+/// Creates the best lujvo for the tanru (list). It is recommended to use
+/// [`get_lujvo_with_analytics`] instead if you have a string.
 /// # Errors
-/// if given less than two words, or if some part of the jvozba process fails
+/// A [`FakeTypeError`] is returned if given less than two words.
+///
+/// A [`NoLujvoFoundError`] is returned if for some reason a part of the
+/// creation process failed (e.g. maybe there are no suitable rafsi for
+/// something). If you encounter this and aren't sure why, submit an issue to
+/// [the GitHub repository][github] and we will try to add a better error
+/// message for that case.
+///
+/// [github]: https://github.com/latkerlo/latkerlo-jvotci
 pub fn get_lujvo_from_list(
     valsi_list: &[String],
     settings: &Settings,
@@ -465,21 +496,9 @@ pub fn get_lujvo_from_list(
         &extract!(settings; y_hyphens, exp_rafsi, consonants, glides, allow_mz),
     );
     let mut current_best = [
-        [
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-        ],
-        [
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-        ],
-        [
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-            BestLujvoMap::new(),
-        ],
+        [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
+        [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
+        [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
     ];
     let rafsi_list_list = rafsi_list_list?;
     if rafsi_list_list.len() < 2 {
@@ -489,11 +508,7 @@ pub fn get_lujvo_from_list(
         for rafsi1 in &rafsi_list_list[1] {
             let tosmabru_type =
                 if tarmi_ignoring_hyphen(&rafsi0.0) == Cvc && !settings.generate_cmevla {
-                    if strin!(&rafsi0.0, -1) == 'y' {
-                        Tosyhuhu
-                    } else {
-                        Tosmabru
-                    }
+                    if strin!(&rafsi0.0, -1) == 'y' { Tosyhuhu } else { Tosmabru }
                 } else {
                     Tosynone
                 };
@@ -521,21 +536,9 @@ pub fn get_lujvo_from_list(
     let mut previous_best = current_best;
     for rafsi_list in rafsi_list_list.iter().skip(2) {
         current_best = [
-            [
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-            ],
-            [
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-            ],
-            [
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-                BestLujvoMap::new(),
-            ],
+            [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
+            [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
+            [BestLujvoMap::new(), BestLujvoMap::new(), BestLujvoMap::new()],
         ];
         for rafsi in rafsi_list {
             for tosmabru_type in [Tosynone, Tosmabru, Tosyhuhu] {
@@ -578,27 +581,24 @@ pub fn get_lujvo_from_list(
         }
     }
     if best_lujvo.is_empty() {
-        Err(NoLujvoFoundError(format!(
-            "{{{}}} can't be turned into a lujvo",
-            valsi_list.join(" ")
-        )))
+        Err(NoLujvoFoundError(format!("{{{}}} can't be turned into a lujvo", valsi_list.join(" "))))
     } else {
         Ok((best_lujvo, best_score, best_indices))
     }
 }
 
-/// Create the best lujvo for the tanru (string)
+/// Creates the best lujvo for the tanru (string).
 /// # Errors
-/// if given less than two words, or if some part of the jvozba process fails
+/// See [`get_lujvo_from_list`].
 pub fn get_lujvo_with_analytics(
     tanru: &str,
     settings: &Settings,
 ) -> Result<(String, i32, Vec<[usize; 2]>), Jvonunfli> {
     get_lujvo_from_list(&process_tanru(tanru), settings)
 }
-/// Create the best lujvo for the tanru (string). Doesn't output the score
+/// Create the best lujvo for the tanru (string) and doesn't output the score.
 /// # Errors
-/// if given less than two words, or if some part of the jvozba process fails
+/// See [`get_lujvo_from_list`].
 pub fn get_lujvo(tanru: &str, settings: &Settings) -> Result<String, Jvonunfli> {
     Ok(get_lujvo_with_analytics(tanru, settings)?.0)
 }

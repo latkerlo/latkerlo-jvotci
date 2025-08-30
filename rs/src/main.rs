@@ -1,10 +1,11 @@
-use itertools::Itertools as _;
-use latkerlo_jvotci::{
-    Settings, analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo,
-};
 use std::{
     io::{Write as _, stdin, stdout},
     str::FromStr as _,
+};
+
+use itertools::Itertools as _;
+use latkerlo_jvotci::{
+    Settings, analyze_brivla, get_lujvo, katna::selrafsi_list_from_rafsi_list, score_lujvo,
 };
 
 #[allow(clippy::too_many_lines)]
@@ -85,11 +86,7 @@ fn main() {
                 let hyphens = res.clone().unwrap().1;
                 println!(
                     "\x1b[96m{}\n{}\n{}\x1b[92m{}\x1b[m",
-                    res.unwrap()
-                        .0
-                        .to_string()
-                        .to_lowercase()
-                        .replace("dl", "d l"),
+                    res.unwrap().0.to_string().to_lowercase().replace("dl", "d l"),
                     hyphens.join(" "),
                     score_lujvo(&input, &settings)
                         .map_or_else(|_| String::new(), |score| score.to_string() + "\n"),
