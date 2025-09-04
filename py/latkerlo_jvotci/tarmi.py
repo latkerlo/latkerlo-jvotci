@@ -186,7 +186,7 @@ def split_vowel_cluster(vowels: str) -> list[str]:
         elif len(vowels) > 2 and vowels[-2:] in FOLLOW_VOWEL_CLUSTERS:
             add_to_result(vowels[-2:])
             vowels = vowels[:-2]
-        elif vowels in START_VOWEL_CLUSTERS:
+        elif vowels in START_VOWEL_CLUSTERS or vowels in FOLLOW_VOWEL_CLUSTERS:
             result.insert(0, vowels)
             return result
         else:

@@ -151,17 +151,20 @@ def check_zihevla_or_rafsi(
                 chunk += valsi[0]
                 valsi = valsi[1:]
 
-            if pos == 0:
-                if chunk in START_VOWEL_CLUSTERS or chunk in FOLLOW_VOWEL_CLUSTERS:
-                    num_syllables += 1
-                else:
-                    raise NotZihevlaError(f"starts with bad vowels: {{{valsi_copy}}}")
-
-            else:
-                try:
-                    num_syllables += len(split_vowel_cluster(chunk))
-                except DecompositionError:
-                    raise NotZihevlaError(f"vowel decomp error: {{{chunk}}} in {{{valsi_copy}}}")
+            try:
+                syllables = split_vowel_cluster(chunk)
+                if (
+                    cluster_pos is None
+                    and valsi_copy[pos - 1] != "'"
+                    and len(syllables) >= 2
+                    and pos + len("".join(syllables)) == len(valsi_copy)
+                ):
+                    raise NotZihevlaError(f"{{{valsi_copy}}} is just a cmavo compound")
+                if pos != 0 and len(syllables) > 0 and syllables[0] in FOLLOW_VOWEL_CLUSTERS:
+                    raise NotZihevlaError(f"{{{valsi_copy}}} contains a glide after a non-vowel")
+                num_syllables += len(syllables)
+            except DecompositionError:
+                raise NotZihevlaError(f"{{{valsi_copy}}} contains a bad vowel sequence")
 
         elif valsi[0] == "'":
             chunk = "'"
@@ -319,7 +322,9 @@ def analyse_brivla(
 
             if not part:
                 raise NotBrivlaError("that was only a '")
-            if not (is_vowel(part[0]) and not is_glide(part)):
+            first_cons = next((i for i, c in enumerate(part) if not is_vowel(c)), -1)
+            vchunk = part if first_cons == -1 else part[:first_cons]
+            if not is_vowel(part[0]) or split_vowel_cluster(vchunk)[0] in FOLLOW_VOWEL_CLUSTERS:
                 raise NotBrivlaError(f"consonant or glide after ': {{{part}}}")
         elif i > 0 and is_vowel(part[0]) and not is_glide(part):
             raise NotBrivlaError(f"non-glide vowel after y: {{{part}}}")
@@ -343,6 +348,7 @@ def analyse_brivla(
         can_be_rafsi = True  # including string of rafsi
         require_cluster = False
         did_add_a = False
+        part_a = part + "a";
         if part[-1] == "'":
             if y_hyphens == STANDARD and not has_cluster and i < len(y_parts) - 1 and y_parts[i+1][0] != "'":
                 require_cluster = True
@@ -355,12 +361,22 @@ def analyse_brivla(
         elif i < len(y_parts) - 1 or is_cmevlatai:
             if is_vowel(part[-1]):
                 can_be_rafsi = False
-            part = part + "a"
+            part = part_a
             did_add_a = True
             require_cluster = True
 
         did_kaha = False
         if can_be_rafsi:
+            if not part_a.endswith("'a") and not is_gismu(part_a[-5:], allow_mz):
+                try:
+                    decomp = analyse_brivla(part_a, y_hyphens=y_hyphens, allow_mz=allow_mz)
+                except:
+                    pass
+                else:
+                    print(decomp)
+                    print(decomp[0] == "LUJVO")
+                    if decomp[0] == "LUJVO":
+                        raise NotBrivlaError(f"{{{part_a}}} is a lujvo")
             found_parts = [part]
             try:
                 found_parts = jvokaha_2(part_copy, y_hyphens=y_hyphens, allow_mz=allow_mz)

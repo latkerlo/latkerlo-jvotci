@@ -187,7 +187,6 @@ function splitVowelCluster(vowels: string): string[] {
       throw new DecompositionError("Couldn't decompose: {" + vowelsCopy + "}");
     else if (newCluster[0] === "u" && newVowels.slice(-2) === "au")
       throw new DecompositionError("Couldn't decompose: {" + vowelsCopy + "}");
-
     result.unshift(newCluster);
   }
 
