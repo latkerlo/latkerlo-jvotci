@@ -1,7 +1,10 @@
 #![allow(clippy::format_push_string)]
 #![cfg(test)]
-
-use std::{fs::OpenOptions, io::Write as _, sync::LazyLock};
+use std::{
+    fs::{self, OpenOptions},
+    io::Write as _,
+    sync::LazyLock,
+};
 
 use itertools::Itertools as _;
 use regex::Regex;
@@ -27,6 +30,7 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
         "ONE_CONSONANT" => return settings.consonants == OneConsonant,
         "GLIDES" => return settings.glides,
         "YES_MZ" => return settings.allow_mz,
+        x if !x.contains(' ') => panic!("unknown setting {x}"),
         _ => (),
     }
     let mut i = 0;

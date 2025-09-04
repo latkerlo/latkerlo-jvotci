@@ -70488,6 +70488,117 @@ settings - F1rgz
 
 toii'ysmu
 katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - r
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - rz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - rg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - rgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2r
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2rz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2rg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 2rgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1r
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1rz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1rg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - 1rgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Az
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Ag
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Agz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
 settings - Ar
 
 toii'ysmu
@@ -70501,6 +70612,22 @@ settings - Arg
 toii'ysmu
 katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
 settings - Argz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A2
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A2z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A2g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A2gz
 
 toii'ysmu
 katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
@@ -70520,6 +70647,22 @@ settings - A2rgz
 
 toii'ysmu
 katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A1
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A1z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A1g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - A1gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
 settings - A1r
 
 toii'ysmu
@@ -70533,6 +70676,213 @@ settings - A1rg
 toii'ysmu
 katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
 settings - A1rgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Fz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Fg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Fgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Fr
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Frz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Frg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - Frgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2r
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2rz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2rg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F2rgz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1z
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1g
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1gz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1r
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1rz
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1rg
+
+toii'ysmu
+katna    - Err(NotBrivlaError("{toii} is just a cmavo compound"))
+settings - F1rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - r
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - rz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - rg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2r
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2rz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2rg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 2rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1r
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1rz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1rg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - 1rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Az
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Ag
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Agz
 
 ieuai'ysmu
 katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
@@ -70552,6 +70902,22 @@ settings - Argz
 
 ieuai'ysmu
 katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A2
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A2z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A2g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A2gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
 settings - A2r
 
 ieuai'ysmu
@@ -70568,6 +70934,22 @@ settings - A2rgz
 
 ieuai'ysmu
 katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A1
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A1z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A1g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - A1gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
 settings - A1r
 
 ieuai'ysmu
@@ -70581,6 +70963,293 @@ settings - A1rg
 ieuai'ysmu
 katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
 settings - A1rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Fz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Fg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Fgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Fr
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Frz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Frg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - Frgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2r
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2rz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2rg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F2rgz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1z
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1g
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1gz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1r
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1rz
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1rg
+
+ieuai'ysmu
+katna    - Err(NotBrivlaError("{ieuai} is just a cmavo compound"))
+settings - F1rgz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - r
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - rz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - rg
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - rgz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2r
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2rz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2rg
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 2rgz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1r
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1rz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1rg
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - 1rgz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Az
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Ag
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Agz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A2
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A2z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A2g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A2gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A1
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A1z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A1g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - A1gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Fz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Fg
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - Fgz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F2
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F2z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F2g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F2gz
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F1
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F1z
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F1g
+
+uai'ysmu
+katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
+settings - F1gz
 
 gimzu gismu
 zbasu    - Err(NoLujvoFoundError("{gimzu gismu} can't be turned into a lujvo"))

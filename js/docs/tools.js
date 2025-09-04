@@ -139,22 +139,23 @@ function checkZihevlaOrRafsi(valsi, { requireZihevla = false, yHyphens = YHyphen
                 chunk += valsi[0];
                 valsi = valsi.slice(1);
             }
-            if (pos === 0) {
-                if (START_VOWEL_CLUSTERS.includes(chunk) || FOLLOW_VOWEL_CLUSTERS.includes(chunk))
-                    numSyllables += 1;
-                else
-                    throw new NotZihevlaError("starts with bad vowels: {" + valsiCopy + "}");
+            try {
+                let syllables = splitVowelCluster(chunk);
+                if (clusterPos === null
+                    && valsiCopy[pos - 1] != "'"
+                    && syllables.length >= 2
+                    && pos + syllables.join("").length == valsiCopy.length) {
+                    throw new NotZihevlaError(`{${valsiCopy}} is just a cmavo compound`);
+                }
+                if (pos != 0 && syllables.length > 0 && FOLLOW_VOWEL_CLUSTERS.includes(syllables[0])) {
+                    throw new NotZihevlaError(`{${valsiCopy}} contains a glie after a non-vowel`);
+                }
+                numSyllables += syllables.length;
             }
-            else {
-                try {
-                    numSyllables += splitVowelCluster(chunk).length;
-                }
-                catch (e) {
-                    if (e instanceof DecompositionError)
-                        throw new NotZihevlaError(`vowel decomp error: {${chunk}} in {${valsiCopy}}`);
-                    else
-                        throw e;
-                }
+            catch (e) {
+                if (e instanceof DecompositionError)
+                    throw new NotZihevlaError(`{${valsiCopy}} contains a bad vowel sequence`);
+                throw e;
             }
         }
         else if (valsi[0] === "'") {
@@ -302,7 +303,9 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
             nextHyphen += "'";
             if (part.length === 0)
                 throw new NotBrivlaError("that was only a '");
-            if (!(isVowel(part[0]) && !isGlide(part)))
+            let firstCons = [...part].findIndex(c => !isVowel(c));
+            let vchunk = firstCons == -1 ? part : part.slice(0, firstCons);
+            if (!isVowel(part[0]) || FOLLOW_VOWEL_CLUSTERS.includes(splitVowelCluster(vchunk)[0]))
                 throw new NotBrivlaError(`consonant or glide after ': {${part}}`);
         }
         else if (i > 0 && isVowel(part[0]) && !isGlide(part)) {
@@ -327,6 +330,7 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
         let canBeRafsi = true;
         let requireCluster = false;
         let didAddA = false;
+        let partA = part + "a";
         if (part.slice(-1) === "'") {
             if (yHyphens === YHyphenSetting.STANDARD && !hasCluster && i < yParts.length - 1 && yParts[i + 1][0] !== "'")
                 requireCluster = true;
@@ -339,12 +343,23 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
         else if (i < yParts.length - 1 || isCmevlatai) {
             if (isVowel(part.slice(-1)))
                 canBeRafsi = false;
-            part = part + "a";
+            part = partA;
             didAddA = true;
             requireCluster = true;
         }
         let didKaha = false;
         if (canBeRafsi) {
+            bastryvla_test: if (!/'a$/.test(partA) && !isGismu(partA.slice(-5), allowMZ)) {
+                let decomp;
+                try {
+                    decomp = analyseBrivla(partA, { yHyphens: yHyphens, allowMZ: allowMZ });
+                }
+                catch (e) {
+                    break bastryvla_test;
+                }
+                if (decomp[0] == BrivlaType.LUJVO)
+                    throw new NotBrivlaError(`{${partA}} is a lujvo`);
+            }
             let foundParts = [part];
             try {
                 foundParts = jvokaha2(partCopy, { yHyphens: yHyphens, allowMZ: allowMZ });

@@ -187,7 +187,7 @@ function splitVowelCluster(vowels) {
             addToResult(vowels.slice(-2));
             vowels = vowels.slice(0, -2);
         }
-        else if (START_VOWEL_CLUSTERS.includes(vowels)) {
+        else if (START_VOWEL_CLUSTERS.includes(vowels) || FOLLOW_VOWEL_CLUSTERS.includes(vowels)) {
             result.unshift(vowels);
             return result;
         }

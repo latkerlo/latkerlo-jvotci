@@ -187,7 +187,7 @@ function splitVowelCluster(vowels: string): string[] {
       throw new DecompositionError("Couldn't decompose: {" + vowelsCopy + "}");
     else if (newCluster[0] === "u" && newVowels.slice(-2) === "au")
       throw new DecompositionError("Couldn't decompose: {" + vowelsCopy + "}");
-    
+
     result.unshift(newCluster);
   }
 
@@ -200,7 +200,7 @@ function splitVowelCluster(vowels: string): string[] {
     } else if (vowels.length > 2 && FOLLOW_VOWEL_CLUSTERS.includes(vowels.slice(-2))) {
       addToResult(vowels.slice(-2));
       vowels = vowels.slice(0, -2);
-    } else if (START_VOWEL_CLUSTERS.includes(vowels)) {
+    } else if (START_VOWEL_CLUSTERS.includes(vowels) || FOLLOW_VOWEL_CLUSTERS.includes(vowels)) {
       result.unshift(vowels);
       return result;
     } else {
@@ -262,7 +262,7 @@ function isZihevlaMiddleCluster(cluster: string): boolean {
   // iln(skr)i -> YES
   // iln(tkr)i -> NO
   if (match[match.length - 2] !== undefined && !isZihevlaInitialCluster(match[match.length - 2]))
-      return false;
+    return false;
 
   return true;
 }
@@ -298,11 +298,11 @@ function rafsiTarmi(rafsi: string): Tarmi {
   } else if (!isConsonant(rafsi[0]) && rafLen !== 1) {
     return Tarmi.OtherRafsi;
   }
-  switch(rafLen) {
+  switch (rafLen) {
     case 1:
       if (isVowel(rafsi))
         return Tarmi.OtherRafsi;
-      else 
+      else
         return Tarmi.Hyphen;
     case 3:
       if (!isVowel(rafsi[2])) {
@@ -322,8 +322,8 @@ function rafsiTarmi(rafsi: string): Tarmi {
         } else if (isConsonant(rafsi[2]) && isConsonant(rafsi[3])) {
           return Tarmi.CVCC;
         }
-      } else if (isConsonant(rafsi[1]) && isVowel(rafsi[2]) && 
-          isConsonant(rafsi[3])) {
+      } else if (isConsonant(rafsi[1]) && isVowel(rafsi[2]) &&
+        isConsonant(rafsi[3])) {
         return Tarmi.CCVC;
       }
     case 5:
@@ -333,8 +333,8 @@ function rafsiTarmi(rafsi: string): Tarmi {
         else
           return Tarmi.CVCCV;
       }
-    }
-    return Tarmi.OtherRafsi;
+  }
+  return Tarmi.OtherRafsi;
 }
 
 /**

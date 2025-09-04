@@ -6441,9 +6441,9 @@ const KATNA_TEST_LIST = [
   ["mauicmo", "ELSE", "NONE"],
   ["mrauicmo", "ELSE", "ZIhEVLA", "mrauicmo", "mrauicmo"],
   ["bastryvla", "ELSE", "NONE", "(bastrV is a lujvo)"],
-  ["toii'ysmu", "ALLOW_Y & MORE_RAF", "NONE", "(tosmabru, to ii'ysmu)  # these two shouldn't"],
-  ["ieuai'ysmu", "ALLOW_Y & MORE_RAF", "NONE", "(tosmabru, ie uai'ysmu) # mention vowels at all"],
-  ["uai'ysmu", "ALLOW_Y & MORE_RAF", "EXTENDED", "uai smu", "-uai- smuni"],
+  ["toii'ysmu", "ELSE", "NONE"],
+  ["ieuai'ysmu", "ELSE", "NONE"],
+  ["uai'ysmu", "(ALLOW_Y | FORCE_Y) & MORE_RAF", "EXTENDED", "uai smu", "-uai- smuni", "", "ELSE", "NONE"],
 ]
 
 const JVS_WORDS = new Map([

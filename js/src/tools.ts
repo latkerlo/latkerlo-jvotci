@@ -32,9 +32,9 @@ function normalise(word: string): string {
  * @returns Return true if the string is a valid gismu or lujvo.
  */
 function isGismuOrLujvo(
-  aString: string, 
+  aString: string,
   {
-    yHyphens = YHyphenSetting.STANDARD, 
+    yHyphens = YHyphenSetting.STANDARD,
     allowMZ = false
   } = {}
 ): boolean {
@@ -42,15 +42,15 @@ function isGismuOrLujvo(
     return false;
   if (!isVowel(aString.slice(-1)))
     return false;
-  
+
   if (isGismu(aString, allowMZ))
     return true;
 
   try {
     jvokaha(
-      aString, 
+      aString,
       {
-        yHyphens: yHyphens, 
+        yHyphens: yHyphens,
         allowMZ: allowMZ
       });
   } catch (e) {
@@ -73,9 +73,9 @@ function isGismuOrLujvo(
  * @returns True if string fails slinku'i test.
  */
 function isSlinkuhi(
-  aString: string, 
+  aString: string,
   {
-    yHyphens = YHyphenSetting.STANDARD, 
+    yHyphens = YHyphenSetting.STANDARD,
     allowMZ = false
   } = {}
 ): boolean {
@@ -84,7 +84,7 @@ function isSlinkuhi(
     return false;
   }
   try {
-    jvokaha("to" + aString, {yHyphens: yHyphens, allowMZ: allowMZ});
+    jvokaha("to" + aString, { yHyphens: yHyphens, allowMZ: allowMZ });
     return true;
   } catch (e) {
     if (e instanceof DecompositionError || e instanceof InvalidClusterError)
@@ -147,13 +147,13 @@ function checkZihevlaOrRafsi(
       }
 
       for (let i = 0; i < chunk.length - 1; i++) {
-        const cluster = chunk.slice(i, i+2);
+        const cluster = chunk.slice(i, i + 2);
         if (!(allowMZ ? MZ_VALID : VALID).includes(cluster))
           throw new NotZihevlaError("invalid cluster {" + cluster + "} in word {" + valsiCopy + "}");
       }
 
       for (let i = 0; i < chunk.length - 2; i++) {
-        const cluster = chunk.slice(i, i+3);
+        const cluster = chunk.slice(i, i + 3);
         if (BANNED_TRIPLES.includes(cluster))
           throw new NotZihevlaError("banned triple {" + cluster + "} in word {" + valsiCopy + "}");
       }
@@ -175,30 +175,32 @@ function checkZihevlaOrRafsi(
         valsi = valsi.slice(1);
       }
 
-      if (pos === 0) {
-        if (START_VOWEL_CLUSTERS.includes(chunk) || FOLLOW_VOWEL_CLUSTERS.includes(chunk))
-          numSyllables += 1;
-        else
-          throw new NotZihevlaError("starts with bad vowels: {" + valsiCopy + "}");
-
-      } else {
-        try {
-          numSyllables += splitVowelCluster(chunk).length;
-        } catch (e) {
-          if (e instanceof DecompositionError)
-            throw new NotZihevlaError(`vowel decomp error: {${chunk}} in {${valsiCopy}}`);
-          else
-            throw e;
+      try {
+        let syllables = splitVowelCluster(chunk);
+        if (
+          clusterPos === null
+          && valsiCopy[pos - 1] != "'"
+          && syllables.length >= 2
+          && pos + syllables.join("").length == valsiCopy.length
+        ) {
+          throw new NotZihevlaError(`{${valsiCopy}} is just a cmavo compound`);
         }
+        if (pos != 0 && syllables.length > 0 && FOLLOW_VOWEL_CLUSTERS.includes(syllables[0])) {
+          throw new NotZihevlaError(`{${valsiCopy}} contains a glie after a non-vowel`);
+        }
+        numSyllables += syllables.length;
+      } catch (e) {
+        if (e instanceof DecompositionError)
+          throw new NotZihevlaError(`{${valsiCopy}} contains a bad vowel sequence`);
+        throw e;
       }
-
     } else if (valsi[0] === "'") {
       chunk = "'";
       valsi = valsi.slice(1);
 
-      if (pos < 1 || !isVowel(valsiCopy[pos-1]))
+      if (pos < 1 || !isVowel(valsiCopy[pos - 1]))
         throw new NotZihevlaError("' not preceded by vowel");
-      if (valsi.length === 0 || !isVowel(valsiCopy[pos+1]))
+      if (valsi.length === 0 || !isVowel(valsiCopy[pos + 1]))
         throw new NotZihevlaError("' not followed by vowel");
 
     } else {
@@ -218,10 +220,10 @@ function checkZihevlaOrRafsi(
         throw new NotZihevlaError(`falls apart at cluster: {${valsiCopy.slice(0, clusterPos)}_${valsiCopy.slice(clusterPos)}}`);
 
       for (let i = 1; i < clusterPos; i++) {
-        if (isConsonant(valsiCopy[clusterPos-i]) || isGlide(valsiCopy.slice(clusterPos-i))) {
-          if (isBrivla(valsiCopy.slice(clusterPos-i), { yHyphens: yHyphens }))
-            throw new NotZihevlaError(`falls apart before cluster: {${valsiCopy.slice(0, clusterPos-i)}_${valsiCopy.slice(clusterPos-i)}}`);
-        } 
+        if (isConsonant(valsiCopy[clusterPos - i]) || isGlide(valsiCopy.slice(clusterPos - i))) {
+          if (isBrivla(valsiCopy.slice(clusterPos - i), { yHyphens: yHyphens }))
+            throw new NotZihevlaError(`falls apart before cluster: {${valsiCopy.slice(0, clusterPos - i)}_${valsiCopy.slice(clusterPos - i)}}`);
+        }
       }
     }
   }
@@ -258,7 +260,7 @@ function checkZihevlaOrRafsi(
  * @returns True if string is a valid lojban brivla.
  */
 function isBrivla(
-  valsi: string, 
+  valsi: string,
   {
     yHyphens = YHyphenSetting.STANDARD,
     expRafsiShapes = false,
@@ -268,7 +270,7 @@ function isBrivla(
   } = {}
 ): boolean {
   try {
-    const bType = analyseBrivla(valsi, {yHyphens, expRafsiShapes, consonants, glides, allowMZ})[0];
+    const bType = analyseBrivla(valsi, { yHyphens, expRafsiShapes, consonants, glides, allowMZ })[0];
     return bType !== BrivlaType.CMEVLA;
   } catch (e) {
     if (e instanceof NotBrivlaError)
@@ -293,7 +295,7 @@ function isBrivla(
  * @returns The word type and a list of pieces (rafsi + hyphens).
  */
 function analyseBrivla(
-  valsi: string, 
+  valsi: string,
   {
     yHyphens = YHyphenSetting.STANDARD,
     expRafsiShapes = false,
@@ -321,7 +323,7 @@ function analyseBrivla(
   }
 
   try {
-    const resultParts = jvokaha(valsi, {yHyphens: yHyphens, consonants: consonants, glides: glides, allowMZ: allowMZ});
+    const resultParts = jvokaha(valsi, { yHyphens: yHyphens, consonants: consonants, glides: glides, allowMZ: allowMZ });
     return [isCmevlatai ? BrivlaType.CMEVLA : BrivlaType.LUJVO, resultParts];
   } catch (e) {
     if (!(e instanceof DecompositionError || e instanceof InvalidClusterError || e instanceof TypeError))
@@ -338,7 +340,7 @@ function analyseBrivla(
       throw new NotBrivlaError(`non-decomposable cmevla: {${valsi}}`);
 
     try {
-      checkZihevlaOrRafsi(valsi, {requireZihevla: true, yHyphens: yHyphens, expRafsiShapes: expRafsiShapes, allowMZ: allowMZ});
+      checkZihevlaOrRafsi(valsi, { requireZihevla: true, yHyphens: yHyphens, expRafsiShapes: expRafsiShapes, allowMZ: allowMZ });
       return [BrivlaType.ZIhEVLA, [valsi]];
     } catch (e) {
       if (e instanceof NotZihevlaError)
@@ -371,7 +373,9 @@ function analyseBrivla(
 
       if (part.length === 0)
         throw new NotBrivlaError("that was only a '");
-      if (!(isVowel(part[0]) && !isGlide(part)))
+      let firstCons = [...part].findIndex(c => !isVowel(c));
+      let vchunk = firstCons == -1 ? part : part.slice(0, firstCons);
+      if (!isVowel(part[0]) || FOLLOW_VOWEL_CLUSTERS.includes(splitVowelCluster(vchunk)[0]))
         throw new NotBrivlaError(`consonant or glide after ': {${part}}`);
     } else if (i > 0 && isVowel(part[0]) && !isGlide(part)) {
       throw new NotBrivlaError(`non-glide vowel after y: {${part}}`);
@@ -399,8 +403,9 @@ function analyseBrivla(
     let requireCluster = false;
     let didAddA = false;
 
+    let partA = part + "a";
     if (part.slice(-1) === "'") {
-      if (yHyphens === YHyphenSetting.STANDARD && !hasCluster && i < yParts.length - 1 && yParts[i+1][0] !== "'")
+      if (yHyphens === YHyphenSetting.STANDARD && !hasCluster && i < yParts.length - 1 && yParts[i + 1][0] !== "'")
         requireCluster = true;
       part = part.slice(0, -1);
       partCopy = part;
@@ -411,17 +416,25 @@ function analyseBrivla(
     } else if (i < yParts.length - 1 || isCmevlatai) {
       if (isVowel(part.slice(-1)))
         canBeRafsi = false;
-      part = part + "a";
+      part = partA;
       didAddA = true;
       requireCluster = true;
     }
 
     let didKaha = false;
     if (canBeRafsi) {
+      bastryvla_test: if (!/'a$/.test(partA) && !isGismu(partA.slice(-5), allowMZ)) {
+        let decomp;
+        try {
+          decomp = analyseBrivla(partA, { yHyphens: yHyphens, allowMZ: allowMZ });
+        } catch (e) { break bastryvla_test; }
+        if (decomp[0] == BrivlaType.LUJVO)
+          throw new NotBrivlaError(`{${partA}} is a lujvo`);
+      }
       let foundParts = [part]
       try {
-        foundParts = jvokaha2(partCopy, {yHyphens: yHyphens, allowMZ: allowMZ});
-        if (foundParts.length < 2 && !isValidRafsi(foundParts[0], allowMZ=allowMZ))
+        foundParts = jvokaha2(partCopy, { yHyphens: yHyphens, allowMZ: allowMZ });
+        if (foundParts.length < 2 && !isValidRafsi(foundParts[0], allowMZ = allowMZ))
           throw new NotBrivlaError(`invalid rafsi: {${foundParts[0]}}`);
         resultParts = resultParts.concat(foundParts);
         didKaha = true;
@@ -444,8 +457,8 @@ function analyseBrivla(
     if (didKaha) {
       if ([Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(part))) {
         if (
-          requireCluster && !hasCluster 
-          && (yHyphens === YHyphenSetting.STANDARD 
+          requireCluster && !hasCluster
+          && (yHyphens === YHyphenSetting.STANDARD
             || !(i === yParts.length - 2 && [Tarmi.CVV, Tarmi.CCV].includes(rafsiTarmi(yParts[1]))))
         ) {
           throw new NotBrivlaError("falls off because y");
@@ -456,16 +469,16 @@ function analyseBrivla(
         let toPart = "";
         let smabruPart = "";
         if (rafsiTarmi(part.slice(0, 4)) === Tarmi.CVhV) {
-            toPart = part.slice(0, 4);
-            smabruPart = part.slice(4);
+          toPart = part.slice(0, 4);
+          smabruPart = part.slice(4);
         }
         else if (rafsiTarmi(part.slice(0, 3)) === Tarmi.CVV) {
-            toPart = part.slice(0, 3);
-            smabruPart = part.slice(3);
+          toPart = part.slice(0, 3);
+          smabruPart = part.slice(3);
         }
         else if (isConsonant(part[0]) && isVowel(part[1])) {
-            toPart = part.slice(0, 2);
-            smabruPart = part.slice(2);
+          toPart = part.slice(0, 2);
+          smabruPart = part.slice(2);
         }
 
         if (smabruPart.length > 0) {
@@ -478,7 +491,7 @@ function analyseBrivla(
             throw new NotBrivlaError("tosmabru");
 
           try {
-            jvokaha(smabruPart, {yHyphens: yHyphens, allowMZ: allowMZ});
+            jvokaha(smabruPart, { yHyphens: yHyphens, allowMZ: allowMZ });
             throw new NotBrivlaError("tosmabru");
           } catch (e) {
             if (!(e instanceof DecompositionError || e instanceof InvalidClusterError || e instanceof TypeError))
@@ -531,7 +544,7 @@ function analyseBrivla(
   }
 
   if (!(isVowel(valsi[0]) && (isConsonant(valsi[1]) || valsi[1] == "y"))) {
-    if (isSlinkuhi(valsi, {yHyphens: yHyphens, allowMZ: allowMZ}))
+    if (isSlinkuhi(valsi, { yHyphens: yHyphens, allowMZ: allowMZ }))
       throw new NotBrivlaError(`slinku'i: {to,${valsi}}`);
   }
 
