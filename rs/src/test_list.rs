@@ -1,11 +1,7 @@
 #![allow(clippy::format_push_string)]
 #![cfg(test)]
 
-use std::{
-    fs::{self, OpenOptions},
-    io::Write as _,
-    sync::LazyLock,
-};
+use std::{fs::OpenOptions, io::Write as _, sync::LazyLock};
 
 use itertools::Itertools as _;
 use regex::Regex;
@@ -13,7 +9,7 @@ use regex::Regex;
 use crate::{
     data::HYPHENS,
     katna::selrafsi_list_from_rafsi_list,
-    tarmi::{SETTINGS_ITERATOR, is_consonant},
+    tarmi::is_consonant,
     tools::{get_rafsi_indices, regex_replace_all},
     *,
 };

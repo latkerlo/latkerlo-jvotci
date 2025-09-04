@@ -283,10 +283,10 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
 static ZIHEVLA_MIDDLE_1: LazyLock<Regex> = LazyLock::new(|| {
     Regex::new("^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap()
 });
+#[rustfmt::skip]
 static ZIHEVLA_MIDDLE_2: LazyLock<Regex> = LazyLock::new(|| {
     Regex::new(
-        "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:\
-         ([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
+        "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
     )
     .unwrap()
 });
@@ -306,9 +306,8 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     } else {
         ZIHEVLA_MIDDLE_2.captures(c)
     };
-    matches.is_some_and(|matches| {
-        matches.get(matches.len() - 2).is_none()
-            || is_zihevla_initial_cluster(&matches[matches.len() - 2])
+    matches.is_some_and(|m| {
+        m.get(m.len() - 2).is_none() || is_zihevla_initial_cluster(&m[m.len() - 2])
     })
 }
 

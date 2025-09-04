@@ -1,7 +1,4 @@
-use std::{
-    ops::{Bound, RangeBounds},
-    sync::LazyLock,
-};
+use std::ops::{Bound, RangeBounds};
 
 use itertools::Itertools as _;
 use regex::Regex;
@@ -28,18 +25,9 @@ use crate::{
     },
 };
 
-#[allow(clippy::missing_panics_doc)] // .unwrap()
 #[inline]
 #[must_use = "does not mutate the string"]
-/// Replaces all matches of a regex (`&str`) in a string with another string.
-pub fn regex_str_replace_all(regex: &str, from: &str, with: &str) -> String {
-    Regex::new(regex).unwrap().replace_all(from, with).to_string()
-}
-
-#[allow(clippy::missing_panics_doc)] // .unwrap()
-#[inline]
-#[must_use = "does not mutate the string"]
-/// Replaces all matches of a regex (`&Regex`) in a string with another string.
+/// Replaces all matches of a regex in a string with another string.
 pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
     regex.replace_all(from, with).to_string()
 }
@@ -47,14 +35,14 @@ pub fn regex_replace_all(regex: &Regex, from: &str, with: &str) -> String {
 #[macro_export]
 /// Pythonic `str`ing `in`dexing.
 macro_rules! strin {
-    ($s: expr, $i: expr) => {{
-        let chars = ($s).chars().collect_vec();
-        let len = chars.len();
+    ($s:expr, $i:expr) => {{
+        let mut chars = ($s).chars();
+        let len = chars.clone().count();
         let positive = |i| -> Option<usize> {
-            let i = if i < 0 { len as isize + i } else { i } as usize;
-            (i < len).then_some(i)
+            let j = if i < 0 { len as isize + i } else { i } as usize;
+            (j < len).then_some(j)
         };
-        positive($i).map(|i| chars[i]).unwrap_or_default()
+        positive($i).map(|i| (&mut chars).nth(i).unwrap()).unwrap_or_default()
     }};
 }
 /// Turns a range into a tuple with its endpoints.
@@ -92,11 +80,10 @@ macro_rules! strsl {
     }};
 }
 
-static ABNORMAL: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^\.|,|\.$").unwrap());
 /// Converts a word to standard form (*h* → *'*, no periods/commas, lowercase).
 #[must_use = "does not mutate the string"]
 pub fn normalize(word: &str) -> String {
-    regex_replace_all(&ABNORMAL, &word.to_lowercase(), "").replace('h', "'")
+    word.to_lowercase().trim_matches('.').replace('h', "'").replace(',', "")
 }
 
 /// Returns `true` if given a gismu or lujvo.
@@ -105,12 +92,10 @@ pub fn normalize(word: &str) -> String {
 /// forwarded from [`jvokaha`].
 pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
     if s.len() < 5 || !is_vowel(strin!(s, -1)) {
-        return Ok(false);
-    }
-    if is_gismu(s, &extract!(settings; allow_mz)) {
-        return Ok(true);
-    }
-    if let Err(e) = jvokaha(s, &extract!(settings; y_hyphens, allow_mz)) {
+        Ok(false)
+    } else if is_gismu(s, &extract!(settings; allow_mz)) {
+        Ok(true)
+    } else if let Err(e) = jvokaha(s, &extract!(settings; y_hyphens, allow_mz)) {
         match e {
             DecompositionError(_) | InvalidClusterError(_) => Ok(false),
             _ => Err(e),
@@ -147,7 +132,7 @@ pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
 /// - has invalid clusters or bad vowels
 /// - is just a bunch of cmavo
 /// - contains glides after consonants
-/// - contains apostrophes in leggal places
+/// - contains apostrophes in illegal places
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn check_zihevla_or_rafsi(
     mut valsi: &str,
@@ -250,7 +235,8 @@ pub fn check_zihevla_or_rafsi(
                 chunk += strsl!(valsi, 0..1);
                 valsi = strsl!(valsi, 1..);
             }
-            if let Err(e) = split_vowel_cluster(&chunk) {
+            let syllables = split_vowel_cluster(&chunk);
+            if let Err(e) = syllables {
                 match e {
                     DecompositionError(_) => {
                         return Err(NotZihevlaError(format!(
@@ -260,14 +246,14 @@ pub fn check_zihevla_or_rafsi(
                     _ => return Err(e),
                 }
             } else if cluster_pos.is_none()
-                && let Ok(v @ [_, _, ..]) = split_vowel_cluster(&chunk).as_deref()
                 && strin!(valsi_, pos - 1) != '\''
+                && let Ok(v @ [_, _, ..]) = syllables.as_deref()
                 && pos as usize + v.concat().len() == valsi_.len()
             {
                 return Err(NotZihevlaError(format!("{{{valsi_}}} is just a cmavo compound")));
             }
             if pos != 0
-                && let Ok([first, ..]) = split_vowel_cluster(&chunk).as_deref()
+                && let Ok([first, ..]) = syllables.as_deref()
                 && FOLLOW_VOWEL_CLUSTERS.contains(&first.as_str())
             {
                 return Err(NotZihevlaError(format!(
@@ -275,7 +261,7 @@ pub fn check_zihevla_or_rafsi(
                 )));
             }
 
-            num_syllables += split_vowel_cluster(&chunk).unwrap().len();
+            num_syllables += syllables.unwrap().len();
         } else if strin!(valsi, 0) == '\'' {
             chunk = "'".to_string();
             valsi = strsl!(valsi, 1..);
@@ -301,7 +287,7 @@ pub fn check_zihevla_or_rafsi(
     }
     if num_syllables < 2 && (require_zihevla || !settings.exp_rafsi) {
         return Err(NotZihevlaError(format!("{{{valsi_}}} doesn't have enough syllables")));
-    } else if num_syllables > 2 && cluster_pos.is_some() && cluster_pos > Some(0) {
+    } else if num_syllables > 2 && cluster_pos > Some(0) {
         if is_brivla(strsl!(valsi_, cluster_pos.unwrap()..), &extract!(settings; y_hyphens)) {
             return Err(NotZihevlaError(format!(
                 "{{{valsi_}}} is a tosmabru: {{{} {}}}",
@@ -500,7 +486,8 @@ pub fn analyze_brivla(
         {
             has_cluster = true;
         }
-        let (mut can_be_rafsi, mut require_cluster, mut added_a) = (true, false, false);
+        let mut can_be_rafsi = true;
+        let mut require_cluster @ mut added_a = false;
         let part_a = &format!("{part}a");
         if strin!(part, -1) == '\'' {
             if settings.y_hyphens == Standard
