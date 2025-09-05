@@ -1,3 +1,2 @@
 from latkerlo_jvotci import *
-# print(analyse_brivla("bastryvla"))
-print(analyse_brivla("toii'ysmu"))
+print(analyse_brivla("toispa'ykerlo"))

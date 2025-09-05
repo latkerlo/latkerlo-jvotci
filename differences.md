@@ -38,9 +38,10 @@ y-hyphens.</td>
   </tr>
   <tr>
     <td>toispa'ykerlo</td>
-    <td>❌ Not Brivla</td>
     <td>✅ Brivla</td>
     <td>✅ Brivla</td>
+    <td>✅ Brivla</td>
+    <td>This is fine, actually: \*{spa'ykerlo} is illegal.</td>
   </tr>
   <tr><td colspan="5"></td></tr>
   <tr>

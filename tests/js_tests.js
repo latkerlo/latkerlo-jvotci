@@ -6444,6 +6444,7 @@ const KATNA_TEST_LIST = [
   ["toii'ysmu", "ELSE", "NONE"],
   ["ieuai'ysmu", "ELSE", "NONE"],
   ["uai'ysmu", "(ALLOW_Y | FORCE_Y) & MORE_RAF", "EXTENDED", "uai smu", "-uai- smuni", "", "ELSE", "NONE"],
+  ["toispa'ykerlo", "ELSE", "EXTENDED", "toi spa kerlo", "troci spati kerlo"],
 ]
 
 const JVS_WORDS = new Map([
