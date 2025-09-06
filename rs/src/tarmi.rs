@@ -269,6 +269,14 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
     }
 }
 
+pub fn is_cmavo_compound(s: &str) -> bool {
+    s.split(|c| is_consonant(c) || c == '\'').enumerate().all(|(i, v)| {
+        (i == 0 || !v.is_empty()) && v.len() < 2
+            || v.len() == 2 && is_glide(v)
+            || split_vowel_cluster(v).is_ok()
+    })
+}
+
 /// Returns `true` if `c` can start a zi'evla.
 pub fn is_zihevla_initial_cluster(c: &str) -> bool {
     match c.len() {

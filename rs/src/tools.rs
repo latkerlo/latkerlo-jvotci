@@ -20,8 +20,9 @@ use crate::{
         Settings,
         Tarmi::{self, Ccv, Cvhv, Cvv, OtherRafsi},
         YHyphenSetting::Standard,
-        is_consonant, is_gismu, is_glide, is_valid_rafsi, is_vowel, is_zihevla_initial_cluster,
-        is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster, strip_hyphens,
+        is_cmavo_compound, is_consonant, is_gismu, is_glide, is_valid_rafsi, is_vowel,
+        is_zihevla_initial_cluster, is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster,
+        strip_hyphens,
     },
 };
 
@@ -164,11 +165,7 @@ pub fn check_zihevla_or_rafsi(
                         let to_part = strsl!(valsi_, ..*p);
                         let smabru_part = strsl!(valsi_, *p..);
                         (is_vowel(strin!(to_part, -1)) || strin!(to_part, -1) == 'y')
-                            && to_part.split(|c| is_consonant(c) || c == '\'').all(|v| {
-                                v.len() < 2
-                                    || v.len() == 2 && is_glide(v)
-                                    || split_vowel_cluster(v).is_ok()
-                            })
+                            && is_cmavo_compound(to_part)
                             && (is_glide(smabru_part)
                                 || !START_VOWEL_CLUSTERS.iter().any(|v| {
                                     *v == format!(
@@ -554,14 +551,6 @@ pub fn analyze_brivla(
             }
         }
         if katnad {
-            if [Cvv, Cvhv].contains(&rafsi_tarmi(part))
-                && require_cluster
-                && !has_cluster
-                && (settings.y_hyphens == Standard
-                    || !(i == y_parts.len() - 2 && [Cvv, Ccv].contains(&rafsi_tarmi(y_parts[1]))))
-            {
-                return Err(NotBrivlaError(format!("{{{part}'y}} falls off")));
-            }
             if i == 0 {
                 let mut to_part = "";
                 let mut smabru_part = "";
@@ -602,6 +591,24 @@ pub fn analyze_brivla(
                             if added_a { "a" } else { "" }
                         )));
                     }
+                } else if settings.y_hyphens == Standard
+                    && !to_part.is_empty()
+                    && !y_parts[i + 1].starts_with('\'')
+                {
+                    let rest = strsl!(&valsi, to_part.len() as isize + 2..);
+                    if is_cmavo_compound(rest) {
+                        return Err(NotBrivlaError(format!(
+                            "{{{valsi}}} is just a cmavo compound"
+                        )));
+                    }
+                    if analyze_brivla(rest, settings).is_err() {
+                        return Err(NotBrivlaError(format!(
+                            "{{{to_part}'y}} falls off because the y-hyphen setting is Standard"
+                        )));
+                    }
+                    return Err(NotBrivlaError(format!(
+                        "{{{valsi}}} is a tosmabru: {{{to_part}'y {rest}}}"
+                    )));
                 }
             }
         } else {

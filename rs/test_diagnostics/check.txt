@@ -249,98 +249,98 @@ ge'enmo
 katna    - Err(DecompositionError("{ge'enmo} is a zihevla, not a lujvo or decomposable cmevla"))
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - z
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - g
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - gz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - r
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - rz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - rg
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - rgz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2z
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2g
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2gz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2r
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rg
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rgz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1z
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1g
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1gz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1r
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rz
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rg
 
 re'e'yspa
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rgz
 
 kerlo'y'u'u'y'ismu
@@ -630,288 +630,288 @@ katna    - Err(NotBrivlaError("{u'u} is too short to be a zi'evla"))
 settings - F1gz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - z
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - g
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - gz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - r
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - rz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - rg
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - rgz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2z
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2g
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2gz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2r
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2rz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2rg
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 2rgz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1z
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1g
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1gz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1r
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1rz
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1rg
 
 nei'yiismu
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yiismu} is a tosmabru: {nei'y iismu}"))
 settings - 1rgz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - z
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - g
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - gz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - r
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - rz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - rg
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - rgz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2z
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2g
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2gz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2r
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2rz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2rg
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 2rgz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1z
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1g
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1gz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1r
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1rz
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1rg
 
 nei'ykerlo
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ykerlo} is a tosmabru: {nei'y kerlo}"))
 settings - 1rgz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - z
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - g
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - gz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - r
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - rz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - rg
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - rgz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2z
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2g
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2gz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2r
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2rz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2rg
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 2rgz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1z
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1g
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1gz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1r
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1rz
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1rg
 
 voi'yli'u
-katna    - Err(NotBrivlaError("{voi'y} falls off"))
+katna    - Err(NotBrivlaError("{voi'yli'u} is just a cmavo compound"))
 settings - 1rgz
 
 voi'yli'u
@@ -979,193 +979,193 @@ katna    - Err(NotBrivlaError("{voi'yli'u} lacks a consonant cluster"))
 settings - Frgz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - z
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - g
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - gz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - r
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - rz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - rg
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - rgz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2z
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2g
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2gz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2r
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2rz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2rg
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 2rgz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1z
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1g
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1gz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1r
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1rz
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1rg
 
 re'e'ykerlo
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'ykerlo} is a tosmabru: {re'e'y kerlo}"))
 settings - 1rgz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - z
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - g
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - gz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - r
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - rz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - rg
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - rgz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2z
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2g
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2gz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2r
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2rz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2rg
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 2rgz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1z
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1g
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1gz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1r
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1rz
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1rg
 
 re'e'yiismu
-katna    - Err(NotBrivlaError("{re'e'y} falls off"))
+katna    - Err(NotBrivlaError("{re'e'yiismu} is a tosmabru: {re'e'y iismu}"))
 settings - 1rgz
 
 fa'u'u'u'u'u'u'u'u'ykerlo
@@ -36964,98 +36964,98 @@ katna    - Err(NotBrivlaError("{ai'u} is just a cmavo or cmavo compound"))
 settings - F1gz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - z
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - g
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - gz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - r
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - rz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - rg
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - rgz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 2
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 2z
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 2g
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 2gz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 2r
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 2rz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 2rg
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 2rgz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 1
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 1z
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 1g
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'y} falls off because the y-hyphen setting is Standard"))
 settings - 1gz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 1r
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 1rz
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 1rg
 
 rai'ymi'au'y'ismu
-katna    - Err(NotBrivlaError("{rai'y} falls off"))
+katna    - Err(NotBrivlaError("{rai'ymi'au'y'ismu} is a tosmabru: {rai'y mi'au'y'ismu}"))
 settings - 1rgz
 
 rai'ymi'au'y'ismu
@@ -40215,193 +40215,193 @@ katna    - Err(NotBrivlaError("{toia} is just a cmavo compound"))
 settings - F1rgz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - z
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - g
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - gz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - r
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - rz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - rg
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - rgz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2z
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2g
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2gz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2r
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rg
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rgz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1z
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1g
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1gz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1r
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rz
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rg
 
 toi'ysmu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rgz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - z
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - g
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - gz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - r
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - rz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - rg
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - rgz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2z
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2g
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2gz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2r
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2rz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2rg
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 2rgz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1z
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1g
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1gz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1r
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1rz
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1rg
 
 toi'ytoismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ytoismu} is a tosmabru: {toi'y toismu}"))
 settings - 1rgz
 
 toiykerlolo
@@ -40692,98 +40692,98 @@ katna    - Err(NotBrivlaError("{toia} is just a cmavo compound"))
 settings - F1rgz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - z
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - g
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - gz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - r
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - rz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - rg
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - rgz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2z
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2g
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2gz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2r
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2rz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2rg
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 2rgz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1z
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1g
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1gz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1r
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1rz
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1rg
 
 toi'ykerlolo
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'ykerlolo} is a tosmabru: {toi'y kerlolo}"))
 settings - 1rgz
 
 toiyiismu
@@ -41074,98 +41074,98 @@ katna    - Err(NotBrivlaError("{toia} is just a cmavo compound"))
 settings - F1rgz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - z
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - g
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - gz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - r
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - rz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - rg
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - rgz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2z
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2g
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2gz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2r
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2rz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2rg
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 2rgz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1z
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1g
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1gz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1r
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1rz
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1rg
 
 toi'yiismu
-katna    - Err(NotBrivlaError("{toi'y} falls off"))
+katna    - Err(NotBrivlaError("{toi'yiismu} is a tosmabru: {toi'y iismu}"))
 settings - 1rgz
 
 kerlytoiysmu
@@ -64189,98 +64189,98 @@ katna    - Err(NotBrivlaError("{plukauaiia} contains a bad vowel sequence"))
 settings - F1rgz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - z
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - g
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - gz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - r
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - rz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - rg
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - rgz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2z
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2g
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2gz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2r
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2rz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2rg
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 2rgz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1z
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1g
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1gz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1r
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1rz
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1rg
 
 nei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei} is just a cmavo compound"))
 settings - 1rgz
 
 nei'ynei
@@ -64348,193 +64348,193 @@ katna    - Err(NotBrivlaError("{nei'ynei} lacks a consonant cluster"))
 settings - Frgz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - z
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - g
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - gz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - r
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - rz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - rg
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - rgz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2z
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2g
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2gz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2r
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2rz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2rg
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 2rgz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1z
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1g
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1gz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1r
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1rz
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1rg
 
 nei'ytrene
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ytrene} is a tosmabru: {nei'y trene}"))
 settings - 1rgz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - z
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - g
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - gz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - r
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - rz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - rg
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - rgz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2z
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2g
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2gz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2r
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2rz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2rg
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 2rgz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1z
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1g
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1gz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1r
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1rz
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1rg
 
 nei'yle
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yle} is just a cmavo compound"))
 settings - 1rgz
 
 nei'yle
@@ -64857,98 +64857,98 @@ katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1gz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - z
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - g
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - gz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - r
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rg
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rgz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2z
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2g
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2gz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2r
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rg
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rgz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1z
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1g
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1gz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1r
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rz
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rg
 
 nei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rgz
 
 a'ynei
@@ -66131,98 +66131,98 @@ katna    - Err(NotBrivlaError("{ia} is too short to be a zi'evla"))
 settings - F1gz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - z
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - g
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - gz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - r
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - rz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - rg
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - rgz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2z
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2g
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2gz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2r
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2rz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2rg
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 2rgz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1z
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1g
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1gz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1r
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1rz
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1rg
 
 nei'yia
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yia} is just a cmavo compound"))
 settings - 1rgz
 
 nei'yia
@@ -67780,98 +67780,98 @@ katna    - Err(NotBrivlaError("{fa'u'u'u} is just a cmavo or cmavo compound"))
 settings - F1gz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - z
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - g
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - gz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - r
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - rz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - rg
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - rgz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2z
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2g
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2gz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2r
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2rz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2rg
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 2rgz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1z
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1g
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1gz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1r
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1rz
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1rg
 
 nei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei} is just a cmavo compound"))
 settings - 1rgz
 
 nei'ynei'ynei
@@ -67939,98 +67939,98 @@ katna    - Err(NotBrivlaError("{nei'ynei'ynei} lacks a consonant cluster"))
 settings - Frgz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - z
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - g
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - gz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - r
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - rz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - rg
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - rgz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2z
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2g
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2gz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2r
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2rz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2rg
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 2rgz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1z
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1g
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1gz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1r
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1rz
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1rg
 
 nei'yneinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneinei} is just a cmavo compound"))
 settings - 1rgz
 
 nei'yneinei
@@ -68098,98 +68098,98 @@ katna    - Err(NotBrivlaError("{nei'yneinei} lacks a consonant cluster"))
 settings - Frgz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - z
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - g
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - gz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - r
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - rz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - rg
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - rgz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2z
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2g
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2gz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2r
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2rz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2rg
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 2rgz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1z
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1g
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1gz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1r
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1rz
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1rg
 
 nei'ynei'ynei'ynei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} is just a cmavo compound"))
 settings - 1rgz
 
 nei'ynei'ynei'ynei
@@ -68257,98 +68257,98 @@ katna    - Err(NotBrivlaError("{nei'ynei'ynei'ynei} lacks a consonant cluster"))
 settings - Frgz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - z
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - g
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - gz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - r
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - rz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - rg
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - rgz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2z
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2g
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2gz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2r
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2rz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2rg
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 2rgz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1z
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1g
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1gz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1r
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1rz
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1rg
 
 nei'yneineinei
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneineinei} is just a cmavo compound"))
 settings - 1rgz
 
 nei'yneineinei
@@ -68416,288 +68416,288 @@ katna    - Err(NotBrivlaError("{nei'yneineinei} lacks a consonant cluster"))
 settings - Frgz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - z
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - g
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - gz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - r
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rg
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - rgz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2z
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2g
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2gz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2r
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rg
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 2rgz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1z
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1g
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1gz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1r
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rz
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rg
 
 nei'ynei'ytce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'y} falls off because the y-hyphen setting is Standard"))
 settings - 1rgz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - z
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - g
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - gz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - r
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - rz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - rg
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - rgz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2z
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2g
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2gz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2r
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2rz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2rg
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 2rgz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1z
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1g
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1gz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1r
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1rz
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1rg
 
 nei'yneitce
-katna    - Err(NotBrivlaError("{nei'y} falls off"))
+katna    - Err(NotBrivlaError("{nei'yneitce} is a tosmabru: {nei'y neitce}"))
 settings - 1rgz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - z
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - g
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - gz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - r
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - rz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - rg
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - rgz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2z
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2g
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2gz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2r
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2rz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2rg
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 2rgz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1z
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1g
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1gz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1r
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1rz
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1rg
 
 ta'a'yta'a'yta'a
-katna    - Err(NotBrivlaError("{ta'a'y} falls off"))
+katna    - Err(NotBrivlaError("{ta'a'yta'a'yta'a} is just a cmavo compound"))
 settings - 1rgz
 
 ta'a'yta'a'yta'a
