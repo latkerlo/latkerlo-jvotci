@@ -18,7 +18,7 @@ use crate::{
         BrivlaType::{Gismu, Rafsi, Zihevla},
         ConsonantSetting::{Cluster, OneConsonant},
         Settings,
-        Tarmi::{Ccv, Ccvc, Ccvcv, Cvc, Cvcc, Cvccv, Cvhv, Cvv, OtherRafsi},
+        Tarmi::{Ccv, Ccvc, Cvc, Cvcc, Cvccv, Cvhv, Cvv, OtherRafsi},
         YHyphenSetting::{ForceY, Standard},
         contains_consonant, is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi,
         is_vowel, rafsi_tarmi, strip_hyphens, tarmi_ignoring_hyphen,
@@ -82,48 +82,56 @@ pub fn get_rafsi_for_rafsi(
     } else {
         r.to_string()
     };
-    if ["ShortBrivla", &Ccvc.to_string(), &Cvcc.to_string()].contains(&r_type) {
-        if !last {
-            res.push((format!("{r}y"), 2));
-        } else if !is_vowel(strin!(&r, -1)) {
-            res.push((r, 2));
+    match r_type {
+        "ShortBrivla" | "Ccvc" | "Cvcc" => {
+            if !last {
+                res.push((format!("{r}y"), 2));
+            } else if !is_vowel(strin!(&r, -1)) {
+                res.push((r, 2));
+            }
         }
-    } else if ["LongBrivla", &Ccvcv.to_string(), &Cvccv.to_string()].contains(&r_type) {
-        if last {
-            res.push((r, 2));
-        } else {
+        "LongBrivla" | "Ccvcv" | "Cvccv" => {
+            if last {
+                res.push((r, 2));
+            } else {
+                res.push((format!("{r}'y"), 2));
+            }
+        }
+        "ExperimentalRafsi" => {
+            let num_consonants = (settings.consonants != Cluster
+                && (is_consonant(strin!(&r, 0)) || settings.glides && is_glide(&r)))
+                as i32;
+            if last {
+                res.push((r, num_consonants));
+            } else if !first {
+                res.push((format!("{r}'y"), num_consonants));
+            } else {
+                res.push((format!("{r}'"), num_consonants));
+            }
+        }
+        "Cvv" | "Cvhv" => {
+            let num_consonants = (settings.consonants != Cluster) as i32;
+            if first {
+                res.push((format!("{r}'"), num_consonants));
+            } else if !last {
+                res.push((format!("{r}'y"), num_consonants));
+            }
+            res.push((r, num_consonants));
+        }
+        "Ccv" => {
+            res.push((r.clone(), 2));
             res.push((format!("{r}'y"), 2));
         }
-    } else if r_type == "ExperimentalRafsi" {
-        let num_consonants = (settings.consonants != Cluster
-            && (is_consonant(strin!(&r, 0)) || settings.glides && is_glide(&r)))
-            as i32;
-        if last {
-            res.push((r, num_consonants));
-        } else if !first {
-            res.push((format!("{r}'y"), num_consonants));
-        } else {
-            res.push((format!("{r}'"), num_consonants));
+        "Cvc" => {
+            res.push((r.clone(), 2));
+            if !last {
+                res.push((format!("{r}y"), 2));
+            }
         }
-    } else if [Cvv.to_string().as_str(), Cvhv.to_string().as_str()].contains(&r_type) {
-        let num_consonants = (settings.consonants != Cluster) as i32;
-        if first {
-            res.push((format!("{r}'"), num_consonants));
-        } else if !last {
-            res.push((format!("{r}'y"), num_consonants));
+        _ => {
+            // fake FakeTypeError lol
+            return Err(FakeTypeError(format!("unrecognized rafsi type `{r_type}`")));
         }
-        res.push((r, num_consonants));
-    } else if r_type == Ccv.to_string() {
-        res.push((r.clone(), 2));
-        res.push((format!("{r}'y"), 2));
-    } else if r_type == Cvc.to_string() {
-        res.push((r.clone(), 2));
-        if !last {
-            res.push((format!("{r}y"), 2));
-        }
-    } else {
-        // fake FakeTypeError lol
-        return Err(FakeTypeError(format!("unrecognized rafsi type {r_type}")));
     }
     Ok(res)
 }
@@ -136,12 +144,10 @@ pub fn get_rafsi_for_rafsi(
 /// - any word ends in an apostrophe
 ///
 /// A [`NoLujvoFoundError`] is returned if
-/// - on rafsi where the last vowel has been removed, adding the final vowel
-///   back
+/// - on rafsi where the last vowel has been removed, adding the final vowel back
 ///   - and giving it to [`analyze_brivla`] produces a [`NotBrivlaError`]
-///   - results in a zi'evla, but because the vowel was removed the resulting
-///     rafsi is actually a lujvo itself that ends in a consonant (this happens
-///     with *tokpona* for example)
+///   - results in a zi'evla, but because the vowel was removed the resulting rafsi is actually a
+///     lujvo itself that ends in a consonant (this happens with *tokpona* for example)
 ///
 /// A `NotZihevlaError` is returned if [`check_zihevla_or_rafsi`] on any word
 /// returns a `NotZihevlaError`.
