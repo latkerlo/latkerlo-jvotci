@@ -148,7 +148,7 @@ function checkZihevlaOrRafsi(valsi, { requireZihevla = false, yHyphens = YHyphen
                     throw new NotZihevlaError(`{${valsiCopy}} is just a cmavo compound`);
                 }
                 if (pos != 0 && syllables.length > 0 && FOLLOW_VOWEL_CLUSTERS.includes(syllables[0])) {
-                    throw new NotZihevlaError(`{${valsiCopy}} contains a glie after a non-vowel`);
+                    throw new NotZihevlaError(`{${valsiCopy}} contains a glide after a non-vowel`);
                 }
                 numSyllables += syllables.length;
             }
