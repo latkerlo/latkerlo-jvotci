@@ -35818,6 +35818,293 @@ gismu'y'u'y'ismu
 katna    - Err(NotBrivlaError("{u} is too short to be a zi'evla"))
 settings - F1gz
 
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 2rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - 1rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Az
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Ag
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Agz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Ar
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Arz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Arg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Argz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A2rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - A1rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Fz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Fg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Fgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Fr
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - Frgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F2rgz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1z
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1g
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1gz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1r
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rz
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rg
+
+smu'y'u'y'ismu
+katna    - Err(NotBrivlaError("{smu'y'u'y'ismu} starts with CCV'y, making it a slinku'i"))
+settings - F1rgz
+
 tce'y'u'u'y'ismu
 katna    - Err(NotBrivlaError("{tce'y'u'u'y'ismu} starts with CCV'y, making it a slinku'i"))
 
@@ -50587,6 +50874,1728 @@ settings - F1rg
 
 mlaty''''ymlatu
 katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+settings - F1rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 2rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - 1rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Az
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Ag
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Agz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Ar
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Arz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Arg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Argz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A2rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - A1rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Fz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Fg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Fgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Fr
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Frz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Frg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - Frgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F2rgz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1z
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1g
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1gz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1r
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1rz
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1rg
+
+re'erre'e'ykerlo
+katna    - Err(NotBrivlaError("{re'erre'e} contains an invalid cluster"))
+settings - F1rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Az
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Ag
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Agz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Ar
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Arz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Arg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Argz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fr
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rgz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1z
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1g
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1gz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1r
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rz
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rg
+
+re'errinsa'ykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 2rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - 1rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Az
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Ag
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Agz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Ar
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Arz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Arg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Argz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A2rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - A1rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Fr
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - Frgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F2rgz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1z
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1g
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1gz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1r
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rz
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rg
+
+re'errinsykerlo
+katna    - Err(NotBrivlaError("{re'errinsa} contains an invalid cluster"))
+settings - F1rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 2rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - 1rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Az
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Ag
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Agz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Ar
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Arz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Arg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Argz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A2rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - A1rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Fz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Fg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Fgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Fr
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Frz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Frg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - Frgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F2rgz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1z
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1g
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1gz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1r
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1rz
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1rg
+
+re'errei'ykerlo
+katna    - Err(NotBrivlaError("{re'errei} contains an invalid cluster"))
+settings - F1rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 2rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - 1rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Az
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Ag
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Agz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Ar
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Arz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Arg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Argz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A2rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - A1rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Fz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Fg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Fgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Fr
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Frz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Frg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - Frgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F2rgz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1z
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1g
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1gz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1r
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1rz
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1rg
+
+re'errenykerlo
+katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
+settings - F1rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 2rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - 1rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Az
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Ag
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Agz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Ar
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Arz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Arg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Argz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A2rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - A1rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Fz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Fg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Fgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Fr
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Frz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Frg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - Frgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F2rgz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1z
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1g
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1gz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1r
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1rz
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
+settings - F1rg
+
+zi'evlyjvo
+katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
 settings - F1rgz
 
 le'yia

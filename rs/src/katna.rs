@@ -165,10 +165,12 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         if !res.is_empty() && res[res.len() - 1].len() != 1 {
             if strin!(lujvo, 0) == 'y'
                 || settings.y_hyphens != ForceY
+                    && [Cvv, Cvhv].contains(&rafsi_tarmi(res[res.len() - 1]))
                     && (strsl!(lujvo, 0..2) == "nr"
                         || strin!(lujvo, 0) == 'r'
-                            && lujvo.len() >= 2
-                            && is_consonant(strin!(lujvo, 1)))
+                            // && lujvo.len() >= 2
+                            && is_consonant(strin!(lujvo, 1))
+                            && strin!(lujvo, 1) != 'r')
             {
                 res.push(strsl!(lujvo, 0..1));
                 lujvo = strsl!(lujvo, 1..);
