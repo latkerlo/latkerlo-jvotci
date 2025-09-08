@@ -385,7 +385,7 @@ gismu'y'u'y'ismu	MORE_RAF	EXTENDED	gismu u ismu	gismu -u- ismu		ELSE	NONE
 smu'y'u'y'ismu	ELSE	NONE
 
 tce'y'u'u'y'ismu	ELSE	NONE
-mutce'y'u'u'y'ismu	MORE_RAF	EXTENDED	mutce u'u ismu	mutce -u'u- ismu	0-5,8-11,14-18
+mutce'y'u'u'y'ismu	MORE_RAF	EXTENDED	mutce u'u ismu	mutce -u'u- ismu	0-5,8-11,14-18	ELSE	NONE
 rai'y'ismu	ELSE	EXTENDED	rai ismu	traji ismu	0-3,6-10
 rai'y'u'y'ismu	MORE_RAF	EXTENDED	rai u ismu	traji -u- ismu	0-3,6-7,10-14	ELSE	NONE
 rai'y'u'u'y'ismu	MORE_RAF	EXTENDED	rai u'u ismu	traji -u'u- ismu		ELSE	NONE
