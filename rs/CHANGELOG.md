@@ -27,7 +27,7 @@
 ## 2.0.0
 > [!WARNING]
 > lots of breaking changes! see [docs.rs](https://docs.rs/latkerlo-jvotci/) for everything you can do now
-- allowed you to put zi'evla in lujvo now!
+- made it possible to put zi'evla in lujvo now!
 - added new settings to control various things
 - fixed a typo in the changelog entry for 1.0.3 lol
 
