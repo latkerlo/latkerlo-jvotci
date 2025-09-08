@@ -3,6 +3,7 @@ use std::ops::{Bound, RangeBounds};
 use itertools::Itertools as _;
 use regex::Regex;
 
+#[allow(unused_imports)] // YHyphenSetting::self, needed for docs
 use crate::{
     data::{
         BANNED_TRIPLES, FOLLOW_VOWEL_CLUSTERS, HYPHENS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS,
@@ -19,7 +20,7 @@ use crate::{
         ConsonantSetting::{Cluster, OneConsonant, TwoConsonants},
         Settings,
         Tarmi::{self, Ccv, Cvhv, Cvv, OtherRafsi},
-        YHyphenSetting::Standard,
+        YHyphenSetting::{self, Standard},
         is_cmavo_compound, is_consonant, is_gismu, is_glide, is_valid_rafsi, is_vowel,
         is_zihevla_initial_cluster, is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster,
         strip_hyphens,
