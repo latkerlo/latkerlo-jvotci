@@ -391,8 +391,6 @@ function analyseBrivla(
       numConsonants += 2;
       continue;
     }
-    if (rafsiTarmi(part + "a") === Tarmi.CCV)
-      throw new NotBrivlaError("can't drop vowel on CCV rafsi");
 
     if (i > 0 && (isConsonant(part[0]) || isGlide(part)))
       isMahortai = false;
@@ -520,8 +518,18 @@ function analyseBrivla(
           throw e;
       }
 
-      if (shapeType == BrivlaType.ZIhEVLA)
+      if (shapeType == BrivlaType.ZIhEVLA) {
+        if (didAddA) {
+          try {
+            jvokaha2(part, {yHyphens: yHyphens, allowMZ: allowMZ});
+            throw new NotBrivlaError(`zi'evla is a lujvo: {${partCopy},a}`);
+          } catch (e) {
+            if (!(e instanceof DecompositionError || e instanceof InvalidClusterError))
+              throw e;
+          }
+        }
         hasCluster = true;
+      }
 
       if (isConsonant(part[0]) || (glides && isGlide(part)))
         numConsonants += 1;

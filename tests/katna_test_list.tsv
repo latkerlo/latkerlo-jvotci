@@ -468,6 +468,9 @@ mlaty'ymlatu	ELSE	NONE
 mlaty''ymlatu	ELSE	NONE
 mlaty'''ymlatu	ELSE	NONE
 mlaty''''ymlatu	ELSE	NONE
+re'erre'e'ykerlo	ELSE	NONE
+kerlylatrkerlo	ELSE	EXTENDED	kerl latrkerlo	kerlo latrkerlo
+zi'evlyjvo	ELSE	NONE
 
 le'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	le ia	-le- -ia-		ELSE	NONE
 ia'yia	(ALLOW_Y | FORCE_Y) & MORE_RAF & (TWO_CONSONANTS | ONE_CONSONANT) & GLIDES	EXTENDED	ia ia	-ia- -ia-		ELSE	NONE

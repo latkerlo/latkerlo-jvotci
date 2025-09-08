@@ -40,9 +40,11 @@ def score(rafsi: str) -> int:
         )
     )
 
+
 def tiebreak(lujvo: str) -> int: 
     return 1 if (rafsi_tarmi(lujvo[0:3]) == CVV
         and rafsi_tarmi(lujvo[3:]) in [CCV, CCVC, CVC, CVCC]) else 0
+
 
 def process_tanru(tanru: str | list[str]) -> list[str]:
     """

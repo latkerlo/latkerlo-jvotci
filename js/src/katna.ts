@@ -192,8 +192,9 @@ function jvokaha2(
 
       } else if (
         yHyphens !== YHyphenSetting.FORCE_Y
+        && [Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(res[res.length - 1]))
         && (lujvo.slice(0, 2) === "nr"  // n-hyphen is only allowed before r
-        || lujvo[0] === "r" && isConsonant(lujvo[1]))  // r followed by a consonant
+        || (lujvo[0] === "r" && isConsonant(lujvo[1]) && lujvo[1] !== "r"))  // r followed by a consonant
       ) {
         res.push(lujvo[0]);
         lujvo = lujvo.slice(1);

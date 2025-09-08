@@ -337,8 +337,6 @@ def analyse_brivla(
             consonant_before_break = True
             num_consonants += 2
             continue
-        if rafsi_tarmi(part + "a") == CCV:
-            raise NotBrivlaError("can't drop vowel on CCV rafsi")
 
         if i > 0 and (is_consonant(part[0]) or is_glide(part)):
             is_mahortai = False
@@ -370,11 +368,9 @@ def analyse_brivla(
             if not part_a.endswith("'a") and not is_gismu(part_a[-5:], allow_mz):
                 try:
                     decomp = analyse_brivla(part_a, y_hyphens=y_hyphens, allow_mz=allow_mz)
-                except:
+                except NotBrivlaError:
                     pass
                 else:
-                    print(decomp)
-                    print(decomp[0] == "LUJVO")
                     if decomp[0] == "LUJVO":
                         raise NotBrivlaError(f"{{{part_a}}} is a lujvo")
             found_parts = [part]
@@ -442,6 +438,12 @@ def analyse_brivla(
                 raise NotBrivlaError(e)
 
             if shape_type == ZIhEVLA:
+                if did_add_a:
+                    try:
+                        jvokaha_2(part, y_hyphens=y_hyphens, allow_mz=allow_mz)
+                        raise NotBrivlaError(f"zi'evla is a lujvo: {{{part_copy},a}}")
+                    except (DecompositionError, InvalidClusterError):
+                        pass
                 has_cluster = True
 
             if is_consonant(part[0]) or (glides and is_glide(part)):

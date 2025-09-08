@@ -121,7 +121,7 @@ def jvokaha(
     rafsi_tanru = [f'-{x}-' for x in arr if len(x) > 2]
 
     if len(rafsi_tanru) == 1:
-        raise TypeError("not enough rafsi")
+        raise DecompositionError("not enough rafsi")
 
     try:
         correct_lujvo = get_lujvo_from_list(
@@ -179,8 +179,8 @@ def jvokaha_2(
                 continue
             elif y_hyphens != FORCE_Y and (
                 lujvo[:2] == "nr"  # n-hyphen is only allowed before r
-                or lujvo[0] == "r" and is_consonant(lujvo[1])  # r followed by a consonant
-            ):
+                or lujvo[0] == "r" and is_consonant(lujvo[1]) and lujvo[1] != "r"  # r followed by a consonant
+            ) and rafsi_tarmi(res[-1]) in [CVV, CVhV]:
                 res.append(lujvo[0])
                 lujvo = lujvo[1:]
                 continue
@@ -243,6 +243,7 @@ def jvokaha_2(
 
         # if all fails...
         raise DecompositionError("Failed to decompose {" + original_lujvo + "}")
+
 
 # has to be here due to circular imports
 def score_lujvo(

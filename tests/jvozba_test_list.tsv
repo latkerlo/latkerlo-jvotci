@@ -412,6 +412,35 @@ djedi klesi		ELSE	deikle	5846
 -dje- klesi		ELSE	djelei	5847
 djedi -lei-		ELSE	djelei	5847
 
+condi condi		ELSE	coicno	5846
+condi foldi		ELSE	coiflo	5846
+condi klesi		ELSE	coikle	5846
+condi zmadu		ELSE	coizma	5846
+djedi djedi		ELSE	deidje	5846
+djedi foldi		ELSE	deiflo	5846
+djedi zmadu		ELSE	deizma	5846
+foldi condi		ELSE	foicno	5846
+foldi djedi		ELSE	foidje	5846
+foldi foldi		ELSE	foiflo	5846
+foldi klesi		ELSE	foikle	5846
+foldi zmadu		ELSE	foizma	5846
+klesi condi		ELSE	leicno	5846
+klesi foldi		ELSE	leiflo	5846
+klesi klesi		ELSE	leikle	5846
+klesi zmadu		ELSE	leizma	5846
+zmadu condi		ELSE	maucno	5846
+zmadu djedi		ELSE	maudje	5846
+zmadu foldi		ELSE	mauflo	5846
+zmadu klesi		ELSE	maukle	5846
+zmadu zmadu		ELSE	mauzma	5846
+
+condi condi condi		ELSE	cnocoicoi	8765
+djedi djedi djedi		ELSE	djedeidei	8765
+foldi foldi foldi		ELSE	flofoifoi	8765
+klesi klesi klesi		ELSE	kleleilei	8765
+zmadu zmadu zmadu		ELSE	zmamaumau	8765
+
+
 jesni spati akti		ELSE	jesyspa'y'akti
 jesni spati briii		ELSE	jesyspa'ybriii
 

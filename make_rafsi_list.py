@@ -62,6 +62,8 @@ EXCEPTIONS = {
     "supso": ["sus"],
     "zai'e": ["zam"],
     "gelse": ["ge'e", "ges"],
+    "tsako": ["tso"],
+    "to'ai": ["toz"],
 
     "je'ebzi": ["jeb"],
     "mu'umgu": ["mug"],
