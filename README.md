@@ -2,7 +2,7 @@
 
 A set of tools for creating and decomposing Lojban lujvo. Available in Python,
 JavaScript, and Rust. You can also try it out 
-[here](https://latkerlo.github.io/latkerlo-jvotci/).
+[here](https://latkerlo.github.io/latkerlo-jvotci/), or install a CLI by running `cargo install latkerlo-jvotci` (resulting binary is named `jvotci`).
 
 In general, the distinction between morphologically valid brivla and other 
 strings is intended to mirror the results produced by 
@@ -47,12 +47,16 @@ Copy and include all these files from the js/docs folder:
 ### Rust
 
 ```sh
+# For development:
 cargo add latkerlo_jvotci
+
+# For CLI:
+cargo install latkerlo-jvotci
 ```
 
 ## The Basics
 
-**Rust is covered [here](https://docs.rs/latkerlo-jvotci/) - the rest of this readme only applies to Python and JS**
+**Rust library is covered [here](https://docs.rs/latkerlo-jvotci/), use `jvotci -h` for CLI help. The rest of this readme only applies to Python and JS**
 
 To create a lujvo, use the function `get_lujvo` / `getLujvo`. Provide a veljvo
 as a list/array of strings, or a single string with words separated by spaces.

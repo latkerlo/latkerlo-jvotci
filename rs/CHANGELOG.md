@@ -1,52 +1,58 @@
 # `latkerlo-jvotci` crate changelog
 
+## 2.4.0
+- fixed *bastryvla* and *toii'ysmu*
+- improved error message consistency for tosmabru
+- added a `cargo install`able CLI (see the readme / [crates.io](https://crates.io/crates/latkerlo-jvotci))
+- rewrote the changelog to consistently use past tense
+
 ## 2.3.1
-- fix message about *y* followed by non-glide vowel sequence
-- add some `#[must_use]`s
+- fixed message about *y* followed by non-glide vowel sequence
+- added some `#[must_use]`s
 
 ## 2.3.0
-- export `RAFSI`
+- made `RAFSI` a public export
 
 ## 2.2.0
 - updated rafsi list
 - unmigrated back to rust 2021
 - documented msrv
-- minor internal stuff
+- did minor internal stuff
 - added more metadata for cargo
 
 ## 2.1.0
-- latkerlo-jvotci is about 5x faster :3
+- made the tests about 5x faster!
 - migrated to rust 2024
 
 ## 2.0.0
 > [!WARNING]
 > lots of breaking changes! see [docs.rs](https://docs.rs/latkerlo-jvotci/) for everything you can do now
-- can now put zi'evla in lujvo!
-- new settings to control various things
+- allowed you to put zi'evla in lujvo now!
+- added new settings to control various things
 - fixed a typo in the changelog entry for 1.0.3 lol
 
 ## 1.0.7
-- the type of `RAFSI` is now `HashMap<&'static str, Vec<&'static str>>`
+- changed the type of `RAFSI` to `HashMap<&'static str, Vec<&'static str>>`
 
 ## 1.0.6
 - added git url to Cargo.toml
 
 ## 1.0.5
-- the rafsi map is now constructed with `HashMap::from()`
+- switched to constructing the rafsi map with `HashMap::from()`
 
 ## 1.0.4
-- changed type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
+- changed the type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
 
 ## 1.0.3
-- `jvokaha2`'s error is formatted properly
+- formatted `jvokaha2`'s error is properly
 
 ## 1.0.2
-- `get_lujvo2` no longer panics "non-Lojban character in {gry}" for *eiksy'aigryspe*
-- `jvokaha` `Err`s if given something that isn't a lujvo at all
-- added changelog
+- fixed `get_lujvo2`'s error of "non-Lojban character in {gry}" for *eiksy'aigryspe*
+- made `jvokaha` `Err` if given something that isn't a lujvo at all
+- added a changelog
 
 ## 1.0.1
-- `get_veljvo` now returns a `Result` rather than `panic!`ing
+- made `get_veljvo` return a `Result` rather than `panic!`ing
 
 ## 1.0.0
 - initial release
