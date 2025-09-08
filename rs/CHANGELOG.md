@@ -44,7 +44,7 @@
 - changed the type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
 
 ## 1.0.3
-- formatted `jvokaha2`'s error is properly
+- formatted `jvokaha2`'s error properly
 
 ## 1.0.2
 - fixed `get_lujvo2`'s error of "non-Lojban character in {gry}" for *eiksy'aigryspe*
