@@ -168,7 +168,6 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                     && [Cvv, Cvhv].contains(&rafsi_tarmi(res[res.len() - 1]))
                     && (strsl!(lujvo, 0..2) == "nr"
                         || strin!(lujvo, 0) == 'r'
-                            // && lujvo.len() >= 2
                             && is_consonant(strin!(lujvo, 1))
                             && strin!(lujvo, 1) != 'r')
             {
