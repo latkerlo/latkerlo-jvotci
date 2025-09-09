@@ -19,7 +19,7 @@ use crate::{
         BrivlaType::{self, Cmevla, ExtendedLujvo, Gismu, Lujvo, Rafsi, Zihevla},
         ConsonantSetting::{Cluster, OneConsonant, TwoConsonants},
         Settings,
-        Tarmi::{self, Ccv, Cvhv, Cvv, OtherRafsi},
+        Tarmi::{self, Ccv, Cvc, Cvhv, Cvv, OtherRafsi},
         YHyphenSetting::{self, Standard},
         is_cmavo_compound, is_consonant, is_gismu, is_glide, is_valid_rafsi, is_vowel,
         is_zihevla_initial_cluster, is_zihevla_middle_cluster, rafsi_tarmi, split_vowel_cluster,
@@ -452,7 +452,7 @@ pub fn analyze_brivla(
                 )
             {
                 return Err(NotBrivlaError(format!(
-                    "{{{valsi}}} contains an apostrophe followed by a consonant or glide"
+                    "{{{valsi}}} contains an apostrophe not followed by a non-glide vowel"
                 )));
             }
         } else if i > 0 && is_vowel(strin!(part, 0)) && !is_glide(part) {
@@ -464,13 +464,13 @@ pub fn analyze_brivla(
             res_parts.push(next_hyphen);
             next_hyphen = String::new();
         }
-        if rafsi_tarmi(part) == Tarmi::Cvc {
+        if rafsi_tarmi(part) == Cvc {
             res_parts.push(part.to_string());
             consonant_before_break = true;
             num_consonants += 2;
             continue;
         }
-        if rafsi_tarmi(&format!("{part}a")) == Tarmi::Ccv {
+        if rafsi_tarmi(&format!("{part}a")) == Ccv {
             return Err(NotBrivlaError(format!(
                 "{{{valsi}}} contains a CCV rafsi without a vowel"
             )));

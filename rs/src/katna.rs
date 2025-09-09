@@ -5,8 +5,7 @@ use itertools::Itertools as _;
 use crate::{
     data::{HYPHENS, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli::{
-        self, DecompositionError, FakeTypeError, InvalidClusterError, NoLujvoFoundError,
-        NotBrivlaError,
+        self, DecompositionError, InvalidClusterError, NoLujvoFoundError, NotBrivlaError,
     },
     extract,
     jvozba::{get_lujvo_from_list, score, tiebreak},
@@ -114,7 +113,8 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     let arr = jvokaha2(lujvo, &extract!(settings; y_hyphens, allow_mz))?;
     let rafsi_tanru = arr.iter().filter(|r| r.len() > 2).map(|r| format!("-{r}-")).collect_vec();
     if rafsi_tanru.len() == 1 {
-        return Err(FakeTypeError("not enough rafsi".to_string()));
+        // this was a FakeTypeError before but latkerlo made it be a DecompositionError in python
+        return Err(DecompositionError("not enough rafsi".to_string()));
     }
     let correct_lujvo = get_lujvo_from_list(&rafsi_tanru, &Settings {
         generate_cmevla: is_consonant(strin!(&arr[arr.len() - 1], -1)),

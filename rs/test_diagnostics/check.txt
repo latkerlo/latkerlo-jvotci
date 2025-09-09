@@ -48294,864 +48294,864 @@ katna    - Err(NotBrivlaError("{ker} contains an apostrophe not preceded by a vo
 settings - F1rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 kerly'iismu
-katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'iismu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 kerly'tce
-katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'tce} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 kerly'nei
-katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{kerly'nei} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 brii'y'ismu
@@ -50016,864 +50016,864 @@ katna    - Err(NotBrivlaError("{mlaty'ymlatu} has a part consisting of just an a
 settings - F1rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 mlaty''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 mlaty'''ymlatu
-katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty'''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 2rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - 1rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Az
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ag
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Agz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Ar
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Arg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Argz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A2rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - A1rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Fr
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - Frgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F2rgz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1z
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1g
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1gz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1r
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rz
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rg
 
 mlaty''''ymlatu
-katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe followed by a consonant or glide"))
+katna    - Err(NotBrivlaError("{mlaty''''ymlatu} contains an apostrophe not followed by a non-glide vowel"))
 settings - F1rgz
 
 re'erre'e'ykerlo
