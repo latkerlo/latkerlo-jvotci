@@ -1,4 +1,4 @@
-use latkerlo_jvotci::*;
+use latkerlo_jvotci::{get_lujvo, get_veljvo};
 
 fn main() {
     println!(

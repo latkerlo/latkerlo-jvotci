@@ -1,5 +1,9 @@
 //! Tools for making lujvo.
 
+use std::collections::HashMap;
+
+use regex::Regex;
+
 use crate::{
     data::{INITIAL, VALID},
     rafsi::RAFSI,
@@ -9,8 +13,6 @@ use crate::{
     },
     tools::{char, slice, split_words},
 };
-use regex::Regex;
-use std::collections::HashMap;
 
 /// Returns the score for the given rafsi.
 pub fn score(rafsi: &str) -> usize {
@@ -23,33 +25,22 @@ pub fn process_tanru(tanru: Vec<String>) -> Vec<String> {
     let valsi_list = tanru;
     let mut expanded = Vec::<String>::new();
     for v in valsi_list {
-        expanded = [
-            expanded,
-            if v.contains('-') {
-                vec![v]
-            } else {
-                split_words(&v)
-            },
-        ]
-        .concat();
+        expanded = [expanded, if v.contains('-') { vec![v] } else { split_words(&v) }].concat();
     }
     expanded
 }
 
-/// Takes a list of words and whether the lujvo is intended to be a name (end in a consonant); returns rafsi for all of the words. Returns an Err on invalid clusters/letters or nonfinal 5-letter rafsi
-pub fn get_rafsi_list_list(
-    valsi_list: Vec<String>,
-    cmene: bool,
-) -> Result<Vec<Vec<String>>, String> {
+/// Takes a list of words and whether the lujvo is intended to be a name (end in
+/// a consonant); returns rafsi for all of the words. Returns an Err on invalid
+/// clusters/letters or nonfinal 5-letter rafsi
+pub fn get_rafsi_list_list(valsi_list: &[String], cmene: bool) -> Result<Vec<Vec<String>>, String> {
     let mut rafsi_list_list = Vec::new();
+    let boundary_hyphens = Regex::new("^-+|-+$").unwrap();
     for (i, v) in valsi_list.iter().enumerate() {
         let mut v = v.clone();
         let mut rafsi_list = Vec::new();
         if char(&v, v.len() - 1) == '-' {
-            v = Regex::new("^-+|-+$")
-                .unwrap()
-                .replace_all(&v, "")
-                .to_string();
+            v = boundary_hyphens.replace_all(&v, "").to_string();
             if !is_only_lojban_characters(&v) {
                 return Err(format!("non-Lojban character in {{{v}}}"));
             }
@@ -75,8 +66,8 @@ pub fn get_rafsi_list_list(
             }
             let cunrafsi_list = RAFSI.get(v.as_str());
             if let Some(thing) = cunrafsi_list {
-                for cunrafsi in thing.iter() {
-                    rafsi_list.push(cunrafsi.to_string());
+                for cunrafsi in thing {
+                    rafsi_list.push((*cunrafsi).to_string());
                     if is_consonant(char(cunrafsi, cunrafsi.len() - 1)) {
                         rafsi_list.push(format!("{cunrafsi}y"));
                     }
@@ -156,7 +147,7 @@ pub fn combine(
         }
     }
     Some((
-        tosmabru as usize,
+        usize::from(tosmabru),
         score + 1100 * hyphen.len() + self::score(rafsi),
         lujvo.to_owned() + hyphen + rafsi,
     ))
@@ -182,33 +173,23 @@ pub fn update_current_best(
 /// Makes a lujvo! `cmene` is whether or not it should end in a consonant
 pub fn get_lujvo(tanru: &str, cmene: bool) -> Result<(String, usize), String> {
     get_lujvo2(
-        process_tanru(
-            tanru
-                .to_string()
-                .split_whitespace()
-                .map(String::from)
-                .collect(),
-        ),
+        &process_tanru(tanru.to_string().split_whitespace().map(String::from).collect()),
         cmene,
     )
 }
 
-pub fn get_lujvo2(valsi_list: Vec<String>, cmene: bool) -> Result<(String, usize), String> {
-    let rafsi_list_list = get_rafsi_list_list(valsi_list.clone(), cmene)?;
+pub fn get_lujvo2(valsi_list: &[String], cmene: bool) -> Result<(String, usize), String> {
+    let rafsi_list_list = get_rafsi_list_list(valsi_list, cmene)?;
     let mut current_best = [BestLujvoMap::new(), BestLujvoMap::new()];
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {
-            let tosmabru = (tarmi_ignoring_hyphen(rafsi0) == Tarmi::Cvc
-                && char(rafsi0, rafsi0.len() - 1) != 'y'
-                && !cmene) as u32;
-            let result = combine(
-                rafsi0,
-                rafsi1,
-                score(rafsi0),
-                tosmabru != 0,
-                cmene,
-                rafsi_list_list.len(),
+            let tosmabru = u32::from(
+                tarmi_ignoring_hyphen(rafsi0) == Tarmi::Cvc
+                    && char(rafsi0, rafsi0.len() - 1) != 'y'
+                    && !cmene,
             );
+            let result =
+                combine(rafsi0, rafsi1, score(rafsi0), tosmabru != 0, cmene, rafsi_list_list.len());
             current_best = update_current_best(result, current_best);
         }
     }
@@ -232,7 +213,7 @@ pub fn get_lujvo2(valsi_list: Vec<String>, cmene: bool) -> Result<(String, usize
         }
         previous_best = current_best;
     }
-    let mut best_lujvo = "".to_string();
+    let mut best_lujvo = String::new();
     let mut best_score = usize::MAX;
     for (lerfu, lujvo_and_score) in &previous_best[0] {
         let lerfu = char(lerfu, 0);

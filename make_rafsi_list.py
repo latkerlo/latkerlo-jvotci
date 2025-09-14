@@ -1,13 +1,13 @@
 """
-Copyright (c) 2023 latkerlo (https://github.com/latkerlo)
+Copyright (c) 2023-2024 latkerlo (https://github.com/latkerlo)
 Licensed under the MIT License
 """
 
 import json
-import xml.etree.ElementTree as ET
-
 import sys
 sys.path.append("py")
+
+import xml.etree.ElementTree as ET
 from py.tarmi import *
 from py.data import INITIAL
 
@@ -48,7 +48,7 @@ for valsi in root.iter("valsi"):
     proposed_rafsi_list = [x[1] for x in m]
     for rafsi in proposed_rafsi_list:
         if is_consonant(rafsi[1]) and rafsi[:2] not in INITIAL:
-            continue
+            continue  # zucna: zna
         try:
             exp_rafsi_list[word].add(rafsi)
         except KeyError:
@@ -63,6 +63,8 @@ EXCEPTIONS = {
     "supso": ["sus"],
     "zai'e": ["zam"],
     "gelse": ["ge'e", "ges"],
+    "tsako": ["tso"],
+    "to'ai": ["toz"],
 
     "je'ebzi": ["jeb"],
     "mu'umgu": ["mug"],
@@ -101,8 +103,8 @@ with open("js/docs/rafsi.js", "w") as opf:
         opf.write(f'    ["{selrafsi}", {str(rafsi)}],\n')
     opf.write("]);\n")
 with open("rs/src/rafsi.rs", "w") as opf:
-    opf.write("//! Contains the const RAFSI, a map from words to their affixes. docs.rs thinks it's a struct due to `lazy_static!`.\n")
-    opf.write("use std::collections::HashMap;\nuse lazy_static::lazy_static;\nlazy_static! {\n    pub static ref RAFSI: HashMap<&'static str, Vec<String>> = HashMap::from([\n")
+    opf.write("//! Contains the static RAFSI, a map from words to their affixes.")
+    opf.write("\nuse std::{" + "collections::HashMap, sync::LazyLock};\npub static RAFSI: LazyLock<HashMap<&'static str, Vec<&'static str>>> = LazyLock::new(|| {\n    HashMap::from([\n")
     for selrafsi, rafsi in rafsi_list.items():
-        opf.write('        ("' + selrafsi + '", vec![' + ('"' if len(rafsi) else "") + '".to_string(), "'.join(rafsi) + ('".to_string()' if len(rafsi) else "") + "]" + "),\n")
-    opf.write("    ]);\n}")
+        opf.write('        ("' + selrafsi + '", vec![' + ('"' if len(rafsi) else "") + '", "'.join(rafsi) + ('"' if len(rafsi) else "") + "]" + "),\n")
+    opf.write("    ])\n});\n")

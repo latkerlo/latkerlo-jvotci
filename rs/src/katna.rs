@@ -22,40 +22,36 @@ pub fn search_selrafsi_from_rafsi(rafsi: &str) -> Option<String> {
         }
     }
     for (v, r) in RAFSI.iter() {
-        if r.contains(&rafsi.to_string()) {
-            return Some(v.to_string());
+        if r.contains(&rafsi.to_string().as_str()) {
+            return Some((*v).to_string());
         }
     }
     None
 }
 
-/// Tries to break a lujvo; returns a list of rafsi and hyphens. Returns an Err if the lujvo is invalid.
+/// Tries to break a lujvo; returns a list of rafsi and hyphens. Returns an Err
+/// if the lujvo is invalid.
 pub fn jvokaha(lujvo: &str) -> Result<Vec<String>, String> {
     let arr = jvokaha2(lujvo);
     arr.as_ref()?;
     let arr = arr.unwrap();
-    let rafsi_tanru = arr
-        .iter()
-        .filter(|x| x.len() > 1)
-        .map(|x| format!("-{x}-"))
-        .collect();
+    let rafsi_tanru =
+        arr.iter().filter(|x| x.len() > 1).map(|x| format!("-{x}-")).collect::<Vec<_>>();
     let correct_lujvo = get_lujvo2(
-        rafsi_tanru,
+        &rafsi_tanru,
         is_consonant(char(&arr[arr.len() - 1], arr[arr.len() - 1].len() - 1)),
     );
     if correct_lujvo.is_ok() && lujvo == correct_lujvo.clone().unwrap().0 {
         Ok(arr)
     } else if correct_lujvo.is_ok() {
-        Err(format!(
-            "malformed lujvo {{{lujvo}}}, should be {{{}}}",
-            correct_lujvo.unwrap().0
-        ))
+        Err(format!("malformed lujvo {{{lujvo}}}, should be {{{}}}", correct_lujvo.unwrap().0))
     } else {
         Err(format!("{{{lujvo}}} is not a lujvo"))
     }
 }
 
-/// Splits a lujvo into rafsi and hyphens, regardless of morphological validity. Returns an Err on invalid consonant clusters or if it's not a lujvo.
+/// Splits a lujvo into rafsi and hyphens, regardless of morphological validity.
+/// Returns an Err on invalid consonant clusters or if it's not a lujvo.
 pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
     let original = lujvo;
     let mut lujvo = lujvo.to_string();
@@ -103,7 +99,7 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
                 ));
             }
             if lujvo.len() == 4 || char(&lujvo, 4) == 'y' {
-                res.push(slice(&lujvo, 0, 4).to_string());
+                res.push(slice(&lujvo, 0, 4).clone());
                 if char(&lujvo, 4) == 'y' {
                     res.push("y".to_string());
                 }
@@ -112,11 +108,11 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
             }
         }
         if [Tarmi::Cvccv, Tarmi::Ccvcv].contains(&rafsi_tarmi(&lujvo)) {
-            res.push(lujvo.to_string());
+            res.push(lujvo);
             break Ok(res);
         }
         if [Tarmi::Cvc, Tarmi::Ccv].contains(&rafsi_tarmi(&slice(&lujvo, 0, 3))) {
-            res.push(slice(&lujvo, 0, 3).to_string());
+            res.push(slice(&lujvo, 0, 3).clone());
             lujvo = slice(&lujvo, 3, lujvo.len() as isize);
             continue;
         }
@@ -124,16 +120,14 @@ pub fn jvokaha2(lujvo: &str) -> Result<Vec<String>, String> {
     }
 }
 
-/// Returns the words (and unassigned rafsi if there are any, e.g. *-log-*) making up the lujvo, or an Err if `jvokaha` fails.
+/// Returns the words (and unassigned rafsi if there are any, e.g. *-log-*)
+/// making up the lujvo, or an Err if `jvokaha` fails.
 pub fn get_veljvo(lujvo: &str) -> Result<Vec<String>, String> {
-    let rafsi_list = jvokaha(lujvo)?
-        .iter()
-        .filter(|&x| x.len() > 1)
-        .cloned()
-        .collect::<Vec<String>>();
+    let rafsi_list =
+        jvokaha(lujvo)?.iter().filter(|&x| x.len() > 1).cloned().collect::<Vec<String>>();
     let selrafsi_list = rafsi_list
         .iter()
-        .map(|x| search_selrafsi_from_rafsi(x).unwrap_or(format!("-{x}-")))
+        .map(|x| search_selrafsi_from_rafsi(x).unwrap_or_else(|| format!("-{x}-")))
         .collect::<Vec<String>>();
     Ok(selrafsi_list)
 }

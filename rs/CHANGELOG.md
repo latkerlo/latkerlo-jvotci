@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## 1.25.9
+- updated the rafsi list
+
 ## 1.0.6
 - added git url to Cargo.toml
 

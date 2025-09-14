@@ -3,6 +3,8 @@
 A set of tools for creating and decomposing lujvo. Available in Python and 
 JavaScript, and as the Rust [`latkerlo_jvotci` crate](https://crates.io/crates/latkerlo-jvotci).
 
+**Version 1.x will likely only be maintained for rafsi list updates. Switching to v2.x is recommended since it has zi'evla support.**
+
 This is essentially of combination and translation (where applicable) of three 
 other lujvo projects:
 

@@ -1,13 +1,14 @@
 //! Various methods for determining the shape of a word.
 
+use regex::Regex;
+
 use crate::{
     data::{INITIAL, VALID},
     tools::char,
 };
-use regex::Regex;
 
 /// The shape (*tarmi*) of a rafsi.
-#[derive(PartialEq, Clone, Debug)]
+#[derive(PartialEq, Eq, Clone, Debug)]
 pub enum Tarmi {
     Hyphen = 0,
     Cvccv = 1,
@@ -21,27 +22,20 @@ pub enum Tarmi {
     Fuhivla = 9,
 }
 impl Tarmi {
-    pub fn as_usize(&self) -> usize {
-        self.clone() as usize
-    }
+    pub fn as_usize(&self) -> usize { self.clone() as usize }
 }
 
-pub fn is_vowel(c: char) -> bool {
-    "aeiou".contains(c)
-}
+pub fn is_vowel(c: char) -> bool { "aeiou".contains(c) }
 
-pub fn is_consonant(c: char) -> bool {
-    "bcdfgjklmnprstvxz".contains(c)
-}
+pub fn is_consonant(c: char) -> bool { "bcdfgjklmnprstvxz".contains(c) }
 
 /// Does not include *y*, since internally this is only used on (valid) rafsi.
 pub fn is_only_lojban_characters(valsi: &str) -> bool {
-    Regex::new("^[aeioubcdfgjklmnprstvxz']+$")
-        .unwrap()
-        .is_match(valsi)
+    Regex::new("^[aeioubcdfgjklmnprstvxz']+$").unwrap().is_match(valsi)
 }
 
-/// This only checks if the *shape* is CVCCV or CCVCV, ignoring if the clusters are valid.
+/// This only checks if the *shape* is CVCCV or CCVCV, ignoring if the clusters
+/// are valid.
 pub fn is_gismu(valsi: &str) -> bool {
     valsi.len() == 5
         && is_consonant(char(valsi, 0))
@@ -83,10 +77,13 @@ pub fn rafsi_tarmi(rafsi: &str) -> Tarmi {
             (false, false, true) => Tarmi::Ccvc,
             _ => Tarmi::Fuhivla,
         },
-        5 if is_gismu(rafsi) => match is_vowel(char(rafsi, 2)) {
-            true => Tarmi::Ccvcv,
-            false => Tarmi::Cvccv,
-        },
+        5 if is_gismu(rafsi) => {
+            if is_vowel(char(rafsi, 2)) {
+                Tarmi::Ccvcv
+            } else {
+                Tarmi::Cvccv
+            }
+        }
         _ if rafsi.len() != 1 && !is_consonant(char(rafsi, 0)) => Tarmi::Fuhivla,
         _ => Tarmi::Fuhivla,
     }

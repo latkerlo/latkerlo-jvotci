@@ -66,7 +66,6 @@ pub fn split_one_cmavo(s: &str) -> Result<[&str; 2], String> {
         } else if "bcdfgjklmnprstvxz".contains(char(s, i)) {
             if i == 0 {
                 i += 1;
-                continue;
             } else {
                 break;
             }
@@ -91,19 +90,12 @@ pub fn split_words(s: &str) -> Vec<String> {
         return vec![s.to_string()];
     }
     let first5 = slice(&s.replace(['y', '\''], ""), 0, 5);
-    let cluster = if let Some(m) = Regex::new("[bcdfgjklmnprstvxz]{2}").unwrap().find(&first5) {
-        m.start() as isize
-    } else {
-        -1
-    };
+    let cluster = Regex::new("[bcdfgjklmnprstvxz]{2}").unwrap().find(&first5).map_or(-1, |m| m.start() as isize);
     if cluster == -1 {
         let [cmavo, remainder] = split_one_cmavo(s).unwrap();
         return [
             vec![cmavo.to_string()],
-            split_words(remainder)
-                .iter()
-                .map(|x| x.to_string())
-                .collect(),
+            split_words(remainder),
         ]
         .concat();
     }
