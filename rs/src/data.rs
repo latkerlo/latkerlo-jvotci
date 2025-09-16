@@ -21,9 +21,10 @@ pub static VALID: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     ])
 });
 
+#[allow(clippy::too_long_first_doc_paragraph)]
 /// The CLL consonant clusters ([`VALID`]) + *mz*, which CLL forbids in order to
 /// spite the inventor of Loglan. You can control whether this list of clusters
-/// is used via `allow_mz` in [`crate::Settings`].
+/// is used via `allow_mz` in [`Settings`][`crate::Settings`].
 pub static MZ_VALID: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     let mut clusters = VALID.iter().copied().collect::<HashSet<_>>();
     clusters.insert("mz");
@@ -41,7 +42,7 @@ pub static INITIAL: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
 });
 
 /// The set of consonant triples banned by CLL: *nts*, *ntc*, *ndz*, *ndj*.
-/// These are banned because they sound too similar to *nt*, *nc*, *nd*, *nj*.
+/// These are banned because they sound too similar to *ns*, *nc*, *nz*, *nj*.
 pub static BANNED_TRIPLES: LazyLock<HashSet<&'static str>> =
     LazyLock::new(|| HashSet::from(["ndj", "ndz", "ntc", "nts"]));
 

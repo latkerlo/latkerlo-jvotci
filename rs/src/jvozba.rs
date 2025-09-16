@@ -27,7 +27,7 @@ use crate::{
 };
 
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
-/// Various types of problems that arise when cmavo-shaped things fall of the
+/// Various types of problems that arise when cmavo-shaped things fall off the
 /// front of a word. Some are permanent, some are temporary.
 pub enum Tosytype {
     /// Neither problem.
@@ -144,10 +144,12 @@ pub fn get_rafsi_for_rafsi(
 /// - any word ends in an apostrophe
 ///
 /// A [`NoLujvoFoundError`] is returned if
-/// - on rafsi where the last vowel has been removed, adding the final vowel back
+/// - on rafsi where the last vowel has been removed, adding the final vowel
+///   back
 ///   - and giving it to [`analyze_brivla`] produces a [`NotBrivlaError`]
-///   - results in a zi'evla, but because the vowel was removed the resulting rafsi is actually a
-///     lujvo itself that ends in a consonant (this happens with *tokpona* for example)
+///   - results in a zi'evla, but because the vowel was removed the resulting
+///     rafsi is actually a lujvo itself that ends in a consonant (this happens
+///     with *tokpona* for example)
 ///
 /// A `NotZihevlaError` is returned if [`check_zihevla_or_rafsi`] on any word
 /// returns a `NotZihevlaError`.
@@ -460,7 +462,7 @@ pub fn combine(
 type BestLujvoMap = IndexMap<char, (String, i32, Vec<[usize; 2]>)>;
 
 /// Adds a candidate to `current_best`.
-#[expect(clippy::missing_panics_doc)] // .unwrap()
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 #[must_use]
 pub fn update_current_best(
     candidate: Candidate,
@@ -508,7 +510,7 @@ pub fn get_lujvo_from_list(
     ];
     let rafsi_list_list = rafsi_list_list?;
     if rafsi_list_list.len() < 2 {
-        return Err(FakeTypeError("not enough words".to_string()));
+        return Err(FakeTypeError(format!("{{{}}} is less than 2 words", valsi_list.join(" "))));
     }
     for rafsi0 in &rafsi_list_list[0] {
         for rafsi1 in &rafsi_list_list[1] {

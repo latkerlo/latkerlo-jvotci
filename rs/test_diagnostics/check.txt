@@ -1,6 +1,6 @@
 
 
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{} is less than 2 words"))
 
 弱音ハク
 zbasu    - Err(NonLojbanCharacterError("{弱音ハク} contains a non-lojban character"))
@@ -18,10 +18,10 @@ mlatu k3rlo
 zbasu    - Err(NonLojbanCharacterError("{k3rlo} contains a non-lojban character"))
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 
 kerlo mi
 zbasu    - Err(NoLujvoFoundError("{kerlo mi} can't be turned into a lujvo"))
@@ -48,7 +48,7 @@ palci latkerlo
 zbasu    - Err(NoLujvoFoundError("{palci latkerlo} can't be turned into a lujvo"))
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 
 jaurgacmi'imle kerlo
 zbasu    - Err(NoLujvoFoundError("{jaurgacmi'imle kerlo} can't be turned into a lujvo"))
@@ -95140,290 +95140,290 @@ zbasu    - Err(NoLujvoFoundError("{agta} is not a brivla"))
 settings - F1rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 2rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - 1rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Az
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Ag
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Agz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Ar
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Arz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Arg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Argz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A2rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - A1rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Fz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Fg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Fgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Fr
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Frz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Frg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - Frgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F2rgz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1z
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1g
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1gz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1r
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1rz
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1rg
 
 latkerlo
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{latkerlo} is less than 2 words"))
 settings - F1rgz
 
 弱音ハク
@@ -99158,577 +99158,577 @@ zbasu    - Err(NonLojbanCharacterError("{k3rlo} contains a non-lojban character"
 settings - F1rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 2rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - 1rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Az
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Ag
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Agz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Ar
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Arz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Arg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Argz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A2rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - A1rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Fz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Fg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Fgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Fr
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Frz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Frg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - Frgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F2rgz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1z
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1g
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1gz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1r
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1rz
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1rg
 
 mi
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mi} is less than 2 words"))
 settings - F1rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 2rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - 1rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Az
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Ag
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Agz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Ar
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Arz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Arg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Argz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A2rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - A1rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Fz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Fg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Fgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Fr
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Frz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Frg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - Frgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F2rgz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1z
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1g
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1gz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1r
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1rz
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1rg
 
 mlatu
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{mlatu} is less than 2 words"))
 settings - F1rgz
 
 kerlo mi
@@ -102028,290 +102028,290 @@ zbasu    - Err(NoLujvoFoundError("{palci latkerlo} can't be turned into a lujvo"
 settings - F1rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 2rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - 1rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Az
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Ag
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Agz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Ar
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Arz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Arg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Argz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A2rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - A1rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Fz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Fg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Fgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Fr
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Frz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Frg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - Frgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F2rgz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1z
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1g
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1gz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1r
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1rz
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1rg
 
 jaurgacmi'imle
-zbasu    - Err(FakeTypeError("not enough words"))
+zbasu    - Err(FakeTypeError("{jaurgacmi'imle} is less than 2 words"))
 settings - F1rgz
 
 jaurgacmi'imle kerlo

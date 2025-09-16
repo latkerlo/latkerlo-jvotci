@@ -1,4 +1,4 @@
-//! Functions for decomposing a lujvo into **rafsi**.
+//! Functions for decomposing a lujvo.
 
 use itertools::Itertools as _;
 
@@ -74,7 +74,7 @@ pub fn selrafsi_list_from_rafsi_list(
     Ok(res.iter().filter(|r| !r.is_empty()).cloned().collect_vec())
 }
 
-/// Checks if `corr` and `other` represent the same lujvo. `other` may have
+/// **CLL lujvo only:** Checks if `corr` and `other` represent the same lujvo. `other` may have
 /// unnecessary hyphens.
 #[must_use]
 pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
@@ -101,19 +101,19 @@ pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
     i == other.len()
 }
 
-/// Decomposes a lujvo into rafsi and hyphens.
+/// **CLL lujvo only:** Decomposes a lujvo into rafsi and hyphens. Use [`analyze_brivla`] instead for non-CLL lujvo. 
 /// # Errors
 /// Any errors from [`jvokaha2`] (if the actual decomposing part fails) or
 /// [`get_lujvo_from_list`] (if there are issues when re-assembling it) are
-/// forwarded. A [`FakeTypeError`] is also returned if there are less than two
-/// words given, and a [`DecompositionError`] is returned if the lujvo has a
-/// problem that is fixable (TODO: list).
+/// forwarded. A [`DecompositionError`] is returned if the lujvo has less than
+/// two words or a problem that is fixable (TODO: list).
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfli> {
     let arr = jvokaha2(lujvo, &extract!(settings; y_hyphens, allow_mz))?;
     let rafsi_tanru = arr.iter().filter(|r| r.len() > 2).map(|r| format!("-{r}-")).collect_vec();
     if rafsi_tanru.len() == 1 {
-        // this was a FakeTypeError before but latkerlo made it be a DecompositionError in python
+        // this was a FakeTypeError before but latkerlo made it be a DecompositionError
+        // in python
         return Err(DecompositionError("not enough rafsi".to_string()));
     }
     let correct_lujvo = get_lujvo_from_list(&rafsi_tanru, &Settings {
@@ -141,7 +141,7 @@ pub fn jvokaha(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunfl
     }
 }
 
-/// The actual decomposing work part of [`jvokaha`].
+/// **CLL lujvo only:** The actual decomposing work part of [`jvokaha`].
 /// # Errors
 /// An [`InvalidClusterError`] is returned if the lujvo has any invalid
 /// clusters.

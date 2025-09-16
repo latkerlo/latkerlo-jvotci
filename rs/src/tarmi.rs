@@ -1,3 +1,6 @@
+//! Functions for determining the shapes of rafsi and checking simple properties
+//! of characters, and `Settings`.
+
 use std::{collections::VecDeque, fmt, str::FromStr, sync::LazyLock};
 
 use itertools::{Itertools as _, iproduct};

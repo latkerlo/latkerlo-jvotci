@@ -1,3 +1,5 @@
+//! Functions for analyzing brivla in general (such as `analyze_brivla`!)
+
 use std::ops::{Bound, RangeBounds};
 
 use itertools::Itertools as _;
@@ -348,13 +350,14 @@ pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
 /// - starts or ends with *y* or apostrophe
 /// - is a non-decomposable cmevla
 /// - begins with CCV'y (explained in the docs for [`jvokaha2`])
-/// - fails [`check_zihevla_or_rafsi`] with a [`NotZihevlaError`], in which case the specific
-///   message is retained
+/// - fails [`check_zihevla_or_rafsi`] with a [`NotZihevlaError`], in which case
+///   the specific message is retained
 ///
 /// or contains
 /// - two adjacent or apostrophe-separated *y*s
 /// - apostrophes or *y*s in illegal places
-/// - a CCV rafsi or lujvo without the final vowel, e.g. *\*-vly-* or *\*-bastry-*
+/// - a CCV rafsi or lujvo without the final vowel, e.g. *\*-vly-* or
+///   *\*-bastry-*
 /// - a tosmabru or slinku'i
 /// - otherwise invalid rafsi
 /// - anything that lacks enough consonants
