@@ -114,7 +114,7 @@ with open("js/docs/rafsi.js", "w") as opf:
 # rs
 with open("rs/src/rafsi.rs", "w") as opf:
     opf.write("//! Contains the static RAFSI, a map from words to their affixes.")
-    opf.write("\nuse std::{" + "collections::HashMap, sync::LazyLock};\npub static RAFSI: LazyLock<HashMap<&'static str, Vec<&'static str>>> = LazyLock::new(|| {\n    HashMap::from([\n")
+    opf.write("\nuse std::{" + "collections::HashMap, sync::LazyLock};\n/// Big giant rafsi list.\npub static RAFSI: LazyLock<HashMap<&'static str, Vec<&'static str>>> = LazyLock::new(|| {\n    HashMap::from([\n")
     for selrafsi, rafsi in rafsi_list.items():
         opf.write('        ("' + selrafsi + '", vec![' + ('"' if len(rafsi) else "") + '", "'.join(rafsi) + ('"' if len(rafsi) else "") + "]" + "),\n")
     opf.write("    ])\n});\n")
