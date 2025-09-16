@@ -67,7 +67,7 @@ pub fn get_rafsi_list_list(valsi_list: &[String], cmene: bool) -> Result<Vec<Vec
             let cunrafsi_list = RAFSI.get(v.as_str());
             if let Some(thing) = cunrafsi_list {
                 for cunrafsi in thing {
-                    rafsi_list.push((*cunrafsi).to_string());
+                    rafsi_list.push((*cunrafsi).clone());
                     if is_consonant(char(cunrafsi, cunrafsi.len() - 1)) {
                         rafsi_list.push(format!("{cunrafsi}y"));
                     }

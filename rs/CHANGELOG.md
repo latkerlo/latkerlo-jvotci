@@ -1,27 +1,14 @@
 # `latkerlo-jvotci` crate changelog
 
-## 1.25.9
-- updated the rafsi list
-
-## 1.0.6
+## 1.1.0
+(originally released as v1.0.1 through v1.0.6)
 - added git url to Cargo.toml
-
-## 1.0.5
-- the rafsi map is now constructed with `HashMap::from()`
-
-## 1.0.4
-- changed type of `RAFSI` from `HashMap<&'static str, &'static[&'static str]>` to `HashMap<&'static str, Vec<String>>`
-
-## 1.0.3
-- `jvoakaha2`'s error is formatted properly
-
-## 1.0.2
-- `get_lujvo2` no longer panics "non-Lojban character in {gry}" for *eiksy'aigryspe*
-- `jvokaha` `Err`s if given something that isn't a lujvo at all
+- changed the type of `RAFSI` to `HashMap<&'static str, Vec<String>>`
+- formatted `jvoakaha2`'s error properly
+- fixed `get_lujvo2`'s error of "non-Lojban character in {gry}" for *eiksy'aigryspe*
+- made `jvokaha` `Err` if given something that isn't a lujvo at all
 - added changelog
-
-## 1.0.1
-- `get_veljvo` now returns a `Result` rather than `panic!`ing
+- made `get_veljvo` return a `Result` rather than `panic!`ing
 
 ## 1.0.0
 - initial release
