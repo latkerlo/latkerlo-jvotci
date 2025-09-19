@@ -1,5 +1,7 @@
 //! Functions for creating a lujvo.
 
+use std::sync::LazyLock;
+
 use indexmap::IndexMap;
 use itertools::Itertools as _;
 use regex::Regex;
@@ -136,6 +138,8 @@ pub fn get_rafsi_for_rafsi(
     Ok(res)
 }
 
+static BOUNDARY_HYPHENS: LazyLock<Regex> = LazyLock::new(|| Regex::new("^-+|-+$").unwrap());
+
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 /// Gets the rafsi list for each word.
 /// # Errors
@@ -163,12 +167,11 @@ pub fn get_rafsi_list_list(
     settings: &Settings,
 ) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
     let mut rafsi_list_list = vec![];
-    let hyphens = Regex::new("^-+|-+$").unwrap();
     for (i, mut valsi) in valsi_list.iter().enumerate() {
         let mut rafsi_list = vec![];
         let first = i == 0;
         let last = i == valsi_list.len() - 1;
-        let hyphenless = regex_replace_all(&hyphens, valsi, "");
+        let hyphenless = regex_replace_all(&BOUNDARY_HYPHENS, valsi, "");
         if strin!(valsi, -1) == '-' {
             let is_short_brivla = strin!(valsi, 0) != '-';
             valsi = &hyphenless;
@@ -550,7 +553,7 @@ pub fn get_lujvo_from_list(
         ];
         for rafsi in rafsi_list {
             for tosmabru_type in [Tosynone, Tosmabru, Tosyhuhu] {
-                for num_consonants in 0..3 {
+                for (num_consonants, _) in previous_best.iter().enumerate() {
                     for (_, lujvo_and_score) in
                         &previous_best[tosmabru_type as usize][num_consonants]
                     {

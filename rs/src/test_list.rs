@@ -2,8 +2,9 @@
 #![cfg(test)]
 use std::{
     fs::{self, OpenOptions},
-    io::Write as _,
+    io::{Write as _, stdout},
     sync::LazyLock,
+    time::{Duration, Instant},
 };
 
 use itertools::Itertools as _;
@@ -11,6 +12,7 @@ use regex::Regex;
 
 use crate::{
     data::HYPHENS,
+    jvozba::get_lujvo_from_list,
     katna::selrafsi_list_from_rafsi_list,
     tarmi::is_consonant,
     tools::{get_rafsi_indices, regex_replace_all},
@@ -484,4 +486,21 @@ fn t_kaha() {
 fn init() {
     fs::remove_dir_all("test_diagnostics").unwrap();
     fs::create_dir_all("test_diagnostics").unwrap();
+}
+
+#[test]
+#[ignore]
+fn bloblobloblo() {
+    println!();
+    let mut i = 1;
+    let mut start = Instant::now();
+    while start.elapsed() < Duration::from_secs(1) {
+        start = Instant::now();
+        let bloti = "bloti ".repeat(i).trim().split(' ').map(|b| b.to_string()).collect_vec();
+        let _ = get_lujvo_from_list(&bloti, &Settings::default());
+        print!("\rbloti: {i} {:.3}ms", start.elapsed().as_nanos() as f64 / 1e6);
+        stdout().flush().unwrap();
+        i += 1;
+    }
+    println!("\r\x1b[Kbloti: {i}");
 }
