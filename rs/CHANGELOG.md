@@ -1,5 +1,8 @@
 # `latkerlo-jvotci` crate changelog
 
+## a.b.yymm (any new patch release)
+- updated the rafsi list
+
 ## 1.1.2509
 - changed type of rafsi lists to `Vec<&str>`
 - updated the rafsi lists
