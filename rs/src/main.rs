@@ -8,38 +8,46 @@ use std::{
 use itertools::Itertools as _;
 use latkerlo_jvotci::{
     ConsonantSetting::{Cluster, OneConsonant, TwoConsonants},
-    Settings,
+    RAFSI, Settings,
     YHyphenSetting::{AllowY, ForceY, Standard},
     analyze_brivla, get_lujvo,
-    katna::selrafsi_list_from_rafsi_list,
-    score_lujvo, strin,
+    katna::{search_selrafsi_from_rafsi, selrafsi_list_from_rafsi_list},
+    normalize, score_lujvo, strin,
 };
 
-const VERSION: &str = "\x1b[93;1mlatkerlo-jvotci v2.4\x1b[m";
+const VERSION: &str = "\x1b[93;1mlatkerlo-jvotci v2.4.2510\x1b[m";
 
 #[allow(clippy::too_many_lines)]
 fn main() {
     let mut settings = Settings::default();
+    macro_rules! toggle {
+        ($field:ident, $on:ident) => {
+            settings.$field = if settings.$field == $on { Settings::default().$field } else { $on }
+        };
+    }
     let mut input = String::new();
     let mut lanli = false;
     // args
     let mut used_cli = false;
-    let args = env::args().collect_vec();
+    let args = env::args().skip(1).collect_vec();
     let mut arginput = vec![];
-    for (i, arg) in args.iter().skip(1).enumerate() {
+    for (i, arg) in args.iter().enumerate() {
         if i == 0 && arg.starts_with('-') {
             if arg.contains('h') || arg == "--help" {
                 let instructions = VERSION.to_string()
                     + "\x1b[;96m cli edition\n"
-                    + "usage: \x1b[;1mjvotci (\x1b[3mflags\x1b[;1m) (\x1b[3minput...\x1b[;1m)\n"
+                    + "usage: \x1b[;1mjvotci \x1b[m(\x1b[1;3mflags\x1b[m) \
+                       (\x1b[1;3minput\x1b[m...)\n"
                     + "\x1b[;96mflags:\x1b[m (\x1b[92m*\x1b[m = default)\n"
                     + "  \x1b[95mmodes:\x1b[m\n"
-                    + "    \x1b[1m-Z\x1b[;92m*\x1b[m convert tanru/rafsi to lujvo\n"
-                    + "    \x1b[1m-L\x1b[m  analyze brivla, decompose if possible\n"
+                    + "    \x1b[1m-Z\x1b[;92m* >1 word\x1b[m convert tanru/rafsi to lujvo\n"
+                    + "    \x1b[1m-L\x1b[;92m*  1 word\x1b[m analyze brivla, decompose if \
+                       possible\n"
                     + "    \x1b[1m-h\x1b[m  print this help text\n"
                     + "  you may need to pass \x1b[1m-Z\x1b[m explicitly if the input starts with \
                        a formatted rafsi like {-vla-},\n"
-                    + "  since otherwise it will get interpreted as a flag\n"
+                    + "  since otherwise it will get interpreted as a flag.\n"
+                    + "  alternatively, use \x1b[1m--\x1b[m to separate flags from input\n"
                     + "  \x1b[95mtoggles:\x1b[m\n"
                     + "    \x1b[1m-c\x1b[m  generate a cmevla\n"
                     + "    \x1b[1m-r\x1b[m  allow any cmavo to be a rafsi\n"
@@ -60,6 +68,7 @@ fn main() {
                        can be set in any order, e.g. \x1b[1m-Zgc1rA\x1b[m\n"
                     + "\x1b[96minput:\x1b[m a string to do things to\n"
                     + "if it's multiple words they will get concatenated.\n"
+                    + "if a rafsi is entered, its selrafsi will be shown, and vice versa.\n"
                     + "if no input is provided, an interactive mode is used. help for that can be \
                        printed with \x1b[1m/h\x1b[m";
                 println!("{instructions}");
@@ -68,9 +77,8 @@ fn main() {
             if arg.contains('L') {
                 lanli = true;
             }
-            if strin!(arg, 1) == '-' {
-                println!("\x1b[91mlong flags are not supported, see `-h`\x1b[m");
-                exit(1);
+            if arg.contains('-') {
+                // noöp
             }
             let flags =
                 arg.chars().filter(|&c| !"LZh-".chars().any(|f| f == c)).collect::<String>();
@@ -84,6 +92,18 @@ fn main() {
             println!("\x1b[91mflags starting with / can only be used in interactive mode\x1b[m");
             exit(1);
         } else {
+            if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i..].len() == 1 {
+                lanli = true;
+                let arg = normalize(arg);
+                if let Some(selrafsi) = search_selrafsi_from_rafsi(&arg) {
+                    println!("\x1b[95m{{{arg}}} is a rafsi of {{{selrafsi}}}\x1b[m");
+                }
+                if let Some(rafsi) = RAFSI.iter().filter(|(s, _)| *s == &arg).map(|(_, r)| r).next()
+                {
+                    let rafsi = rafsi.iter().join(" ");
+                    println!("\x1b[95m{{{arg}}} has rafsi {{{rafsi}}}\x1b[m");
+                }
+            }
             arginput.push(arg);
         }
     }
@@ -96,7 +116,7 @@ fn main() {
         if !used_cli {
             input.clear();
             print!(
-                "\n\x1b[96m{} {settings}\x1b[m\nenter a {}: \x1b[93m{}",
+                "\n\x1b[96m{} {settings}\x1b[m\nenter a {}: \x1b[1m{}",
                 if lanli { "lanli" } else { "zbasu" },
                 if lanli { "brivla" } else { "tanru" },
                 if used_cli { input.clone() + "\n" } else { String::new() }
@@ -153,29 +173,12 @@ fn main() {
                     'g' => settings.glides ^= true,
                     'z' => settings.allow_mz ^= true,
                     'S' => settings.y_hyphens = Standard,
-                    'A' => {
-                        settings.y_hyphens =
-                            if settings.y_hyphens == AllowY { Standard } else { AllowY }
-                    }
-                    'F' => {
-                        settings.y_hyphens =
-                            if settings.y_hyphens == ForceY { Standard } else { ForceY }
-                    }
+                    'A' => toggle!(y_hyphens, AllowY),
+                    'F' => toggle!(y_hyphens, ForceY),
                     'C' => settings.consonants = Cluster,
-                    '2' => {
-                        settings.consonants = if settings.consonants == TwoConsonants {
-                            Cluster
-                        } else {
-                            TwoConsonants
-                        }
-                    }
-                    '1' => {
-                        settings.consonants =
-                            if settings.consonants == OneConsonant { Cluster } else { OneConsonant }
-                    }
-                    _ => {
-                        println!("\x1b[91minvalid single flag, see \x1b[1m/h\x1b[m");
-                    }
+                    '2' => toggle!(consonants, TwoConsonants),
+                    '1' => toggle!(consonants, OneConsonant),
+                    _ => println!("\x1b[91minvalid single flag, see \x1b[1m/h\x1b[m"),
                 }
                 continue;
             }
@@ -196,12 +199,19 @@ fn main() {
             let res = analyze_brivla(&input, &settings);
             if let Err(e) = res {
                 println!("\x1b[91m{e}\x1b[m");
+                if used_cli {
+                    exit(1);
+                }
             } else {
                 let hyphens = res.clone().unwrap().1;
                 println!(
-                    "\x1b[96m{}\n{}\n{}\x1b[92m{}\x1b[m",
+                    "\x1b[96m{}\n{}{}\x1b[92m{}\x1b[m",
                     res.unwrap().0.to_string().to_lowercase().replace("dl", "d l"),
-                    hyphens.join(" "),
+                    if hyphens.join(" ") == input {
+                        String::new()
+                    } else {
+                        hyphens.join(" ") + "\n"
+                    },
                     score_lujvo(&input, &settings)
                         .map_or_else(|_| String::new(), |score| score.to_string() + "\n"),
                     selrafsi_list_from_rafsi_list(&hyphens, &settings)
@@ -215,8 +225,11 @@ fn main() {
             println!(
                 "{}{}\x1b[m",
                 if res.is_err() { "\x1b[91m" } else { "\x1b[92m" },
-                res.unwrap_or_else(|e| e.to_string())
+                res.clone().unwrap_or_else(|e| e.to_string())
             );
+            if res.is_err() && used_cli {
+                exit(1);
+            }
         }
         if used_cli && !arginput.is_empty() {
             return;

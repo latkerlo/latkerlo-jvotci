@@ -9,4 +9,5 @@
 **/__pypackages__/
 **/.pdm-build/
 
-target
+/rs/target
+/rs/test_diagnostics/bloti.txt

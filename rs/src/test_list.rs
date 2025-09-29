@@ -1,8 +1,8 @@
 #![allow(clippy::format_push_string)]
 #![cfg(test)]
 use std::{
-    fs::{self, OpenOptions},
-    io::{Write as _, stdout},
+    fs::{self, File, OpenOptions},
+    io::{BufWriter, Write as _, stdout},
     sync::LazyLock,
     time::{Duration, Instant},
 };
@@ -493,14 +493,22 @@ fn init() {
 fn bloblobloblo() {
     println!();
     let mut i = 1;
-    let mut start = Instant::now();
-    while start.elapsed() < Duration::from_secs(1) {
+    let mut start;
+    let mut elapsed = Duration::from_secs(0);
+    let mut file = BufWriter::new(File::create("test_diagnostics/bloti.txt").unwrap());
+    writeln!(file, "bloti\tms").unwrap();
+    while elapsed < Duration::from_secs(1) {
         start = Instant::now();
-        let bloti = "bloti ".repeat(i).trim().split(' ').map(|b| b.to_string()).collect_vec();
+        let bloti = "bloti ".repeat(i).split_whitespace().map(|b| b.to_string()).collect_vec();
         let _ = get_lujvo_from_list(&bloti, &Settings::default());
-        print!("\rbloti: {i} {:.3}ms", start.elapsed().as_nanos() as f64 / 1e6);
+        elapsed = start.elapsed();
+        let ms = elapsed.as_nanos() as f64 / 1e6;
+        writeln!(file, "{i}\t{ms:.3}").unwrap();
+        print!("\rbloti: {i} {ms:.3}ms");
         stdout().flush().unwrap();
         i += 1;
     }
+    i -= 1;
     println!("\r\x1b[Kbloti: {i}");
+    file.flush().unwrap();
 }

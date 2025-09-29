@@ -598,7 +598,7 @@ pub fn get_lujvo_from_list(
     }
 }
 
-/// Creates the best lujvo for the tanru (string).
+/// Creates the best lujvo for the tanru (string). Also returns the score and rafsi indices.
 /// # Errors
 /// See [`get_lujvo_from_list`].
 pub fn get_lujvo_with_analytics(

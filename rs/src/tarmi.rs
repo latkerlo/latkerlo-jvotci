@@ -74,9 +74,9 @@ pub struct Settings {
     /// Whether the lujvo should end in a consonant. This only affects *making*
     /// lujvo, not decomposing them.
     pub generate_cmevla: bool,
-    /// What hyphens to allow (see [`YHyphenSetting`]).
+    /// What hyphens to allow.
     pub y_hyphens: YHyphenSetting,
-    /// Minimum consonant requirements (see [`ConsonantSetting`]).
+    /// Minimum consonant requirements.
     pub consonants: ConsonantSetting,
     /// Whether any cmavo (not containing *y*) may be a rafsi.
     pub exp_rafsi: bool,

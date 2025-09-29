@@ -1,5 +1,12 @@
 # `latkerlo-jvotci` crate changelog
 
+## a.b.yymm (any new patch release)
+- updated the rafsi list
+
+## 2.4.2510
+- improved some docs
+- made the CLI return exit codes more consistently
+
 ## 2.4.0
 - fixed *bastryvla* and *toii'ysmu*
 - improved error message consistency for tosmabru

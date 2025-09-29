@@ -1,6 +1,24 @@
-//! Many of `latkerlo_jvotci`'s functions take a reference to a [`Settings`].
-//! `Settings` implements `Default` and `FromStr` so you don't have to write a
-//! whole bunch of structs.
+//! Lojban lujvo generation and analysis.
+//!
+//! `latkerlo_jvotci` accepts more words as valid lujvo than CLL does. The
+//! primary differences are that
+//! - unnecessary hyphens are allowed by default (making e.g. *zi'ervla* a lujvo
+//!   rather than a zi'evla), though [`Settings`] can fix this
+//! - zi'evla can go inside lujvo (making e.g. *itku'ilybau* a lujvo)
+//!
+//! # Quick start
+//! ```
+//! use latkerlo_jvotci::*;
+//!
+//! # fn main() -> Result<(), Jvonunfli> {
+//! let settings = Settings::default();
+//! let tanru = "blanu zdani";
+//! let lujvo = get_lujvo(tanru, &settings)?; // -> "blazda".to_string()
+//! let veljvo = get_veljvo(&lujvo, &settings)?; // -> vec!["blanu", "zdani"]
+//! assert_eq!(veljvo.join(" "), tanru);
+//! # Ok(())
+//! # }
+//! ```
 
 // excluded lints
 #![allow(clippy::too_many_lines)]
@@ -18,6 +36,8 @@ pub mod rafsi;
 pub mod tarmi;
 mod test_list;
 pub mod tools;
+
+pub use exceptions::Jvonunfli;
 pub use jvozba::{get_lujvo, get_lujvo_with_analytics, grll};
 pub use katna::{get_veljvo, score_lujvo};
 pub use rafsi::RAFSI;
