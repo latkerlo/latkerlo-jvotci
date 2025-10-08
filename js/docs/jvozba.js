@@ -249,7 +249,7 @@ function getRafsiListList(valsiList, { yHyphens = YHyphenSetting.STANDARD, expRa
  *
  * @param lujvo The current working lujvo.
  * @param rafsi The rafsi to add.
- * @param luvjoConsonants Number of consonants in the lujvo.
+ * @param lujvoConsonants Number of consonants in the lujvo.
  * @param rafsiConsonants Number of consonants in the rafsi.
  * @param lujvoScore Current score of the lujvo.
  * @param indexList List of rafsi start/end indices.
@@ -263,7 +263,7 @@ function getRafsiListList(valsiList, { yHyphens = YHyphenSetting.STANDARD, expRa
  * @param allowMZ True if mz is a valid consonant cluster.
  * @returns Final tosmabru_type, num_consonants, score, and lujvo.
  */
-function combine(lujvo, rafsi, luvjoConsonants, rafsiConsonants, lujvoScore, indexList, tosmabruType, generateCmevla, tanruLen = 0, yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, glides = false, allowMZ = false) {
+function combine(lujvo, rafsi, lujvoConsonants, rafsiConsonants, lujvoScore, indexList, tosmabruType, generateCmevla, tanruLen = 0, yHyphens = YHyphenSetting.STANDARD, consonants = ConsonantSetting.CLUSTER, glides = false, allowMZ = false) {
     const lujvoFinal = lujvo.slice(-1);
     const rafsiInitial = rafsi[0];
     if (isConsonant(lujvoFinal)
@@ -344,7 +344,7 @@ function combine(lujvo, rafsi, luvjoConsonants, rafsiConsonants, lujvoScore, ind
                 newConsonants = 0;
         }
     }
-    let totalConsonants = Math.min(2, luvjoConsonants + newConsonants);
+    let totalConsonants = Math.min(2, lujvoConsonants + newConsonants);
     if (consonants === ConsonantSetting.ONE_CONSONANT && totalConsonants > 0)
         totalConsonants = 2;
     const hyphenScore = hyphen === "'y" ? 1700 : 1100 * hyphen.length;

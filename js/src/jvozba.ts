@@ -296,7 +296,7 @@ function getRafsiListList(
  *
  * @param lujvo The current working lujvo.
  * @param rafsi The rafsi to add.
- * @param luvjoConsonants Number of consonants in the lujvo.
+ * @param lujvoConsonants Number of consonants in the lujvo.
  * @param rafsiConsonants Number of consonants in the rafsi.
  * @param lujvoScore Current score of the lujvo.
  * @param indexList List of rafsi start/end indices.
@@ -313,7 +313,7 @@ function getRafsiListList(
 function combine(
     lujvo: string, 
     rafsi: string, 
-    luvjoConsonants: number,
+    lujvoConsonants: number,
     rafsiConsonants: number,
     lujvoScore: number,
     indexList: [number, number][],
@@ -412,7 +412,7 @@ function combine(
     }
   }
 
-  let totalConsonants = Math.min(2, luvjoConsonants + newConsonants);
+  let totalConsonants = Math.min(2, lujvoConsonants + newConsonants);
   if (consonants === ConsonantSetting.ONE_CONSONANT && totalConsonants > 0)
     totalConsonants = 2;
 

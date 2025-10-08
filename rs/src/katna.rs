@@ -74,8 +74,8 @@ pub fn selrafsi_list_from_rafsi_list(
     Ok(res.iter().filter(|r| !r.is_empty()).cloned().collect_vec())
 }
 
-/// **CLL lujvo only:** Checks if `corr` and `other` represent the same lujvo. `other` may have
-/// unnecessary hyphens.
+/// **CLL lujvo only:** Checks if `corr` and `other` represent the same lujvo.
+/// `other` may have unnecessary hyphens.
 #[must_use]
 pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
     let mut i = 0;
@@ -101,7 +101,8 @@ pub fn compare_lujvo_pieces(corr: &[String], other: &[String]) -> bool {
     i == other.len()
 }
 
-/// **CLL lujvo only:** Decomposes a lujvo into rafsi and hyphens. Use [`analyze_brivla`] instead for non-CLL lujvo. 
+/// **CLL lujvo only:** Decomposes a lujvo into rafsi and hyphens. Use
+/// [`analyze_brivla`] instead for non-CLL lujvo.
 /// # Errors
 /// Any errors from [`jvokaha2`] (if the actual decomposing part fails) or
 /// [`get_lujvo_from_list`] (if there are issues when re-assembling it) are
