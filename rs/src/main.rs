@@ -88,10 +88,13 @@ fn main() {
                 println!("\x1b[91minvalid flags, see `-h`\x1b[m");
                 exit(1);
             }
-        } else if arg.starts_with('/') {
-            println!("\x1b[91mflags starting with / can only be used in interactive mode\x1b[m");
-            exit(1);
         } else {
+            if arg.starts_with('/') {
+                println!(
+                    "\x1b[91mflags starting with / can only be used in interactive mode\x1b[m"
+                );
+                exit(1);
+            }
             if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i..].len() == 1 {
                 lanli = true;
                 let arg = normalize(arg);
@@ -130,7 +133,8 @@ fn main() {
         if let Some(arg) = input.strip_prefix('/') {
             if arg.contains('q') {
                 return;
-            } else if arg.contains('h') {
+            }
+            if arg.contains('h') {
                 let instructions = VERSION.to_string()
                     + "\x1b[96m interactive edition\n"
                     + "\x1b[96mflags:\x1b[m (\x1b[92m*\x1b[m = default)\n"
@@ -195,7 +199,8 @@ fn main() {
                 println!("\x1b[91minvalid flags, see \x1b[1m/h\x1b[m");
             }
             continue;
-        } else if lanli {
+        }
+        if lanli {
             let res = analyze_brivla(&input, &settings);
             if let Err(e) = res {
                 println!("\x1b[91m{e}\x1b[m");

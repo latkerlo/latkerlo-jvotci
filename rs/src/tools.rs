@@ -287,7 +287,8 @@ pub fn check_zihevla_or_rafsi(
     }
     if num_syllables < 2 && (require_zihevla || !settings.exp_rafsi) {
         return Err(NotZihevlaError(format!("{{{valsi_}}} doesn't have enough syllables")));
-    } else if num_syllables > 2 && cluster_pos > Some(0) {
+    }
+    if num_syllables > 2 && cluster_pos > Some(0) {
         if is_brivla(strsl!(valsi_, cluster_pos.unwrap()..), &extract!(settings; y_hyphens)) {
             return Err(NotZihevlaError(format!(
                 "{{{valsi_}}} is a tosmabru: {{{} {}}}",
@@ -377,7 +378,8 @@ pub fn analyze_brivla(
     let mut is_cmetai = false;
     if valsi.is_empty() {
         return Err(NotBrivlaError("empty string".to_string()));
-    } else if is_consonant(strin!(&valsi, -1)) {
+    }
+    if is_consonant(strin!(&valsi, -1)) {
         is_cmetai = true;
     } else if !is_vowel(strin!(&valsi, -1)) {
         return Err(NotBrivlaError(format!("{{{valsi}}} doesn't end in a consonant or vowel")));
@@ -642,11 +644,13 @@ pub fn analyze_brivla(
     if !has_cluster {
         if settings.consonants == Cluster {
             return Err(NotBrivlaError(format!("{{{valsi}}} lacks a consonant cluster")));
-        } else if settings.consonants == TwoConsonants && num_consonants < 2
+        }
+        if settings.consonants == TwoConsonants && num_consonants < 2
             || settings.consonants == OneConsonant && num_consonants < 1
         {
             return Err(NotBrivlaError(format!("{{{valsi}}} doesn't have enough consonants")));
-        } else if is_mahortai {
+        }
+        if is_mahortai {
             return Err(NotBrivlaError(format!("{{{valsi}}} is just a cmavo or cmavo compound")));
         }
     }

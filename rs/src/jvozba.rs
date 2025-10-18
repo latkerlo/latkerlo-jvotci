@@ -394,24 +394,25 @@ pub fn combine(
         } else {
             return None;
         }
-    } else if lujvo.len() == 5
-        && rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv
-        && strsl!(lujvo, 3..) == "'y"
-    {
-        return None;
-    } else if lujvo.len() <= 5 && !settings.generate_cmevla {
-        let raftai0 = tarmi_ignoring_hyphen(lujvo);
-        if [Cvhv, Cvv].contains(&raftai0) {
-            hyphen = if settings.y_hyphens == ForceY {
-                "'y"
-            } else if rafsi_i == 'r' {
-                "n"
-            } else {
-                "r"
-            };
+    } else {
+        if lujvo.len() == 5 && rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv && strsl!(lujvo, 3..) == "'y"
+        {
+            return None;
         }
-        if tanru_len == 2 && raftai1 == Ccv {
-            hyphen = "";
+        if lujvo.len() <= 5 && !settings.generate_cmevla {
+            let raftai0 = tarmi_ignoring_hyphen(lujvo);
+            if [Cvhv, Cvv].contains(&raftai0) {
+                hyphen = if settings.y_hyphens == ForceY {
+                    "'y"
+                } else if rafsi_i == 'r' {
+                    "n"
+                } else {
+                    "r"
+                };
+            }
+            if tanru_len == 2 && raftai1 == Ccv {
+                hyphen = "";
+            }
         }
     }
     if tosmabru_type == Tosmabru {

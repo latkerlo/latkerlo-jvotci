@@ -175,7 +175,8 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
                 res.push(strsl!(lujvo, 0..1));
                 lujvo = strsl!(lujvo, 1..);
                 continue;
-            } else if settings.y_hyphens != Standard && strsl!(lujvo, 0..2) == "'y" {
+            }
+            if settings.y_hyphens != Standard && strsl!(lujvo, 0..2) == "'y" {
                 res.push(strsl!(lujvo, 0..2));
                 lujvo = strsl!(lujvo, 2..);
                 continue;
