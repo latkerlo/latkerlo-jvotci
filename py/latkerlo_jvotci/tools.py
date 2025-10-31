@@ -346,7 +346,7 @@ def analyse_brivla(
         can_be_rafsi = True  # including string of rafsi
         require_cluster = False
         did_add_a = False
-        part_a = part + "a";
+        part_a = part + "a"
         if part[-1] == "'":
             if y_hyphens == STANDARD and not has_cluster and i < len(y_parts) - 1 and y_parts[i+1][0] != "'":
                 require_cluster = True

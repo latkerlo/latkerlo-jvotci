@@ -252,6 +252,8 @@ function jvokaha2(
     }
 
     if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CVC) {
+      if (BANNED_TRIPLES.includes(lujvo.slice(2, 5)))
+        throw new InvalidClusterError(`Invalid triple {${lujvo.slice(2, 5)}} in {${original_lujvo}}`);
       res.push(lujvo.slice(0, 3));
       lujvo = lujvo.slice(3);
       continue;

@@ -6338,6 +6338,8 @@ const KATNA_TEST_LIST = [
   ["re'errinsykerlo", "ELSE", "NONE"],
   ["re'errei'ykerlo", "ELSE", "NONE"],
   ["re'errenykerlo", "ELSE", "NONE"],
+  ["reirrei'ykerlo", "ELSE", "NONE"],
+  ["reirnei'ykerlo", "FORCE_Y", "EXTENDED", "reirnei kerlo", "reirnei kerlo", "0-7,9-14", "ELSE", "EXTENDED", "rei nei kerlo", "preti nelci kerlo", "0-3,4-7,9-14"],
   ["kerlylatrkerlo", "ELSE", "EXTENDED", "kerl latrkerlo", "kerlo latrkerlo"],
   ["zi'evlyjvo", "ELSE", "NONE"],
   ["le'yia", "(ALLOW_Y | FORCE_Y) & MORE_RAF & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))", "EXTENDED", "le ia", "-le- -ia-", "0-2,4-6", "ELSE", "NONE"],
@@ -6479,6 +6481,7 @@ const KATNA_TEST_LIST = [
   ["ieuai'ysmu", "ELSE", "NONE"],
   ["uai'ysmu", "(ALLOW_Y | FORCE_Y) & MORE_RAF", "EXTENDED", "uai smu", "-uai- smuni", "", "ELSE", "NONE"],
   ["toispa'ykerlo", "ELSE", "EXTENDED", "toi spa kerlo", "troci spati kerlo"],
+  ["nondza'yburgere", "ELSE", "NONE", "(ndz)"],
 ]
 
 const JVS_WORDS = new Map([

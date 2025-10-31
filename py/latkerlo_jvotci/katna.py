@@ -228,6 +228,8 @@ def jvokaha_2(
             return res
 
         if rafsi_tarmi(lujvo[:3]) == CVC:
+            if lujvo[2:5] in BANNED_TRIPLES:
+                raise InvalidClusterError(f"Invalid triple {{{lujvo[2:5]}}} in {{{original_lujvo}}}")
             res.append(lujvo[:3])
             lujvo = lujvo[3:]
             continue
