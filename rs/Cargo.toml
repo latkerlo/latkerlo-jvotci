@@ -1,6 +1,6 @@
 [package]
 name = "latkerlo-jvotci"
-version = "1.1.2510"
+version = "1.1.2511"
 edition = "2021"
 license-file = "NOTICE.md"
 description = "Tools for creating and decomposing lojban lujvo."
