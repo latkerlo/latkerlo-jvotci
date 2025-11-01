@@ -1,6 +1,6 @@
 [package]
 name = "latkerlo-jvotci"
-version = "2.4.2510"
+version = "2.4.2511"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "Tools for creating and decomposing Lojban lujvo."
