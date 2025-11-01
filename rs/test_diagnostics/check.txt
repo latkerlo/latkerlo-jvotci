@@ -52311,6 +52311,293 @@ re'errenykerlo
 katna    - Err(NotBrivlaError("{re'errena} contains an invalid cluster"))
 settings - F1rgz
 
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 2rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - 1rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Az
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Ag
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Agz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Ar
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Arz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Arg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Argz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A2rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - A1rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Fz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Fg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Fgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Fr
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Frz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Frg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - Frgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F2rgz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1z
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1g
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1gz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1r
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1rz
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1rg
+
+reirrei'ykerlo
+katna    - Err(NotBrivlaError("{reirrei} contains an invalid cluster"))
+settings - F1rgz
+
 zi'evlyjvo
 katna    - Err(NotBrivlaError("{zi'evla} is a lujvo"))
 
@@ -73259,6 +73546,580 @@ settings - F1g
 uai'ysmu
 katna    - Err(NotBrivlaError("{uai} is too short to be a zi'evla"))
 settings - F1gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Az
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Ag
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Agz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Ar
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Arz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Arg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Argz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fr
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rgz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1z
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1g
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1gz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1r
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rz
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rg
+
+nondza'yburgere
+katna    - Err(NotBrivlaError("{nondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 2rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - 1rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Az
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Ag
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Agz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Ar
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Arz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Arg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Argz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A2rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - A1rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Fr
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - Frgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F2rgz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1z
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1g
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1gz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1r
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rz
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rg
+
+valnondza'yburgere
+katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
+settings - F1rgz
 
 gimzu gismu
 zbasu    - Err(NoLujvoFoundError("{gimzu gismu} can't be turned into a lujvo"))

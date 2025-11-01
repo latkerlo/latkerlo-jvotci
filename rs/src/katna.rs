@@ -3,7 +3,7 @@
 use itertools::Itertools as _;
 
 use crate::{
-    data::{HYPHENS, INITIAL, MZ_VALID, VALID},
+    data::{BANNED_TRIPLES, HYPHENS, INITIAL, MZ_VALID, VALID},
     exceptions::Jvonunfli::{
         self, DecompositionError, InvalidClusterError, NoLujvoFoundError, NotBrivlaError,
     },
@@ -222,6 +222,11 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             return Ok(res.iter().copied().map(String::from).collect_vec());
         }
         if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvc {
+            if BANNED_TRIPLES.contains(strsl!(lujvo, 2..5)) {
+                return Err(InvalidClusterError(format!(
+                    "{lujvo} contains a banned triple (nts/ntc/ndz/ndj)"
+                )));
+            }
             res.push(strsl!(lujvo, 0..3));
             lujvo = strsl!(lujvo, 3..);
             continue;
