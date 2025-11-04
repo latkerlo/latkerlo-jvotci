@@ -7,7 +7,9 @@ use itertools::{Itertools as _, iproduct};
 use regex::Regex;
 
 use crate::{
-    data::{FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID},
+    data::{
+        FOLLOW_VOWEL_CLUSTERS, INITIAL, MZ_VALID, START_VOWEL_CLUSTERS, VALID, ZIHEVLA_INITIAL,
+    },
     exceptions::Jvonunfli::{self, DecompositionError},
     jvozba::Tosytype,
     strin, strsl,
@@ -286,7 +288,7 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
     match c.len() {
         1 => true,
         2 => INITIAL.contains(&c),
-        3 => INITIAL.contains(&strsl!(c, 0..2)) && INITIAL.contains(&strsl!(c, 1..)),
+        3 => INITIAL.contains(&strsl!(c, 0..2)) && ZIHEVLA_INITIAL.contains(&strsl!(c, 1..)),
         _ => false,
     }
 }

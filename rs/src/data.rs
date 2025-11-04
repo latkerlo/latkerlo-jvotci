@@ -41,6 +41,12 @@ pub static INITIAL: LazyLock<HashSet<&'static str>> = LazyLock::new(|| {
     ])
 });
 
+pub static ZIHEVLA_INITIAL: LazyLock<HashSet<&str>> = LazyLock::new(|| {
+    HashSet::from([
+        "bl", "br", "dr", "fl", "fr", "gl", "gr", "kl", "kr", "ml", "mr", "pl", "pr", "tr", "vl",
+        "vr",
+    ])
+});
 /// The set of consonant triples banned by CLL: *nts*, *ntc*, *ndz*, *ndj*.
 /// These are banned because they sound too similar to *ns*, *nc*, *nz*, *nj*.
 pub static BANNED_TRIPLES: LazyLock<HashSet<&'static str>> =
