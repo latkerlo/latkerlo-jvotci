@@ -2,7 +2,6 @@ use std::{
     env,
     io::{Write as _, stdin, stdout},
     process::exit,
-    str::FromStr as _,
 };
 
 use itertools::Itertools as _;
@@ -82,9 +81,8 @@ fn main() {
             if arg.contains('-') {
                 // noöp
             }
-            let flags =
-                arg.chars().filter(|&c| !"LZh-".chars().any(|f| f == c)).collect::<String>();
-            if let Ok(s) = Settings::from_str(&flags) {
+            let flags = arg.chars().filter(|&c| !"LZh-".contains(c)).collect::<String>();
+            if let Ok(s) = flags.parse() {
                 settings = s;
             } else {
                 println!("\x1b[91minvalid flags, see `-h`\x1b[m");
@@ -103,8 +101,7 @@ fn main() {
                 if let Some(selrafsi) = search_selrafsi_from_rafsi(&arg) {
                     println!("\x1b[95m{{{arg}}} is a rafsi of {{{selrafsi}}}\x1b[m");
                 }
-                if let Some(rafsi) = RAFSI.iter().filter(|(s, _)| *s == &arg).map(|(_, r)| r).next()
-                {
+                if let Some(rafsi) = RAFSI.iter().find(|(s, _)| *s == &arg).map(|(_, r)| r) {
                     let rafsi = rafsi.iter().join(" ");
                     println!("\x1b[95m{{{arg}}} has rafsi {{{rafsi}}}\x1b[m");
                 }
@@ -193,9 +190,8 @@ fn main() {
             } else if arg.contains('Z') {
                 lanli = false;
             }
-            let flags =
-                arg.chars().filter(|&c| !"LZh-".chars().any(|f| f == c)).collect::<String>();
-            if let Ok(s) = Settings::from_str(&flags) {
+            let flags = arg.chars().filter(|&c| !"LZh-".contains(c)).collect::<String>();
+            if let Ok(s) = flags.parse() {
                 settings = s;
             } else {
                 println!("\x1b[91minvalid flags, see \x1b[1m/h\x1b[m");

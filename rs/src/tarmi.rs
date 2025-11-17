@@ -105,10 +105,9 @@ macro_rules! extract {
 pub static SETTINGS_ITERATOR: LazyLock<Vec<Settings>> = LazyLock::new(|| {
     iproduct!(["", "c"], ["", "A", "F"], ["", "2", "1"], ["", "r"], ["", "g"], ["", "z"])
         .map(|(generate_cmevla, y_hyphens, exp_rafsi, consonants, glides, allow_mz)| {
-            Settings::from_str(&format!(
-                "{generate_cmevla}{y_hyphens}{exp_rafsi}{consonants}{glides}{allow_mz}"
-            ))
-            .unwrap()
+            format!("{generate_cmevla}{y_hyphens}{exp_rafsi}{consonants}{glides}{allow_mz}")
+                .parse()
+                .unwrap()
         })
         .collect_vec()
 });
