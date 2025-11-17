@@ -25,7 +25,6 @@ function score(rafsi: string): number {
     tarmiScore = 0;
   return (
     1000 * rafsi.length
-    - 400 * (rafsi.match(/'/g) || []).length  // a lie that draws a smile
     + 100 * (rafsi.match(/y/g) || []).length
     - 10 * tarmiScore
     - (rafsi.match(/[aeiou]/g) || []).length
@@ -416,11 +415,10 @@ function combine(
   if (consonants === ConsonantSetting.ONE_CONSONANT && totalConsonants > 0)
     totalConsonants = 2;
 
-  const hyphenScore = hyphen === "'y" ? 1700 : 1100 * hyphen.length;
   return [
     tosmabruType,
     totalConsonants,
-    lujvoScore + hyphenScore + score(rafsi) - tiebreak(lujvo + hyphen + rafsi),
+    lujvoScore + score(hyphen) + score(rafsi) - tiebreak(lujvo + hyphen + rafsi),
     lujvo + hyphen + rafsi,
     indexList
   ];

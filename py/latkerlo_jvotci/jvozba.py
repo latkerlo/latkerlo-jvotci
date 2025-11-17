@@ -28,7 +28,6 @@ def score(rafsi: str) -> int:
         tarmi_score = 0
     return (
         1000 * len(rafsi)
-        - 400 * rafsi.count("'")  # a lie that draws a smile
         + 100 * rafsi.count("y")
         - 10 * tarmi_score
         - (
@@ -389,12 +388,11 @@ def combine(
     if consonants == ONE_CONSONANT and total_consonants > 0:
         total_consonants = 2
 
-    hyphen_score = 1700 if hyphen == "'y" else 1100 * len(hyphen)
     res = lujvo + hyphen + rafsi
     return (
         tosmabru_type,
         total_consonants,
-        lujvo_score + hyphen_score + score(rafsi) - tiebreak(res),
+        lujvo_score + score(hyphen) + score(rafsi) - tiebreak(res),
         res,
         index_list
     )

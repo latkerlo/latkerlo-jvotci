@@ -725,7 +725,7 @@ falcru	farlu curmi
 fanbu'u	falnu bukpu
 famdakfu	fanmo dakfu
 famfa'o	fanmo fanmo
-famyma'o	fanmo cmavo
+famcmavo	fanmo cmavo
 fancyju'a	fancu jufra
 fankla	falnu klama
 fanvyca'a	fanva cabra
@@ -2290,7 +2290,7 @@ sezlu'i	sevzi lumci
 sezvelski	sevzi ve skicu
 sezyci'i	sevzi cinri
 sezycitri	sevzi citri
-sezyju'o	sevzi djuno
+sezdjuno	sevzi djuno
 sezykarni	sevzi karni
 sezykemxaumaupai	sevzi ke xamgu zmadu pajni
 sezypa'i	sevzi prami
@@ -3396,7 +3396,7 @@ terclika	te clika
 selclira	se clira
 selclite	se clite
 terclite	te clite
-selyli'a	se cliva
+selcliva	se cliva
 terli'a	te cliva
 selclupa	se clupa
 selcmaci	se cmaci
@@ -4096,9 +4096,9 @@ terlei	te klesi
 selkli	se klina
 selkliru	se kliru
 selkliti	se kliti
-selylu'e	se klupe
+selklupe	se klupe
 terlu'e	te klupe
-velylu'e	ve klupe
+velklupe	ve klupe
 selkluza	se kluza
 terkluza	te kluza
 selko'i	se kobli
@@ -4535,9 +4535,9 @@ velxra	ve pixra
 selplana	se plana
 selpla	se platu
 terpla	te platu
-selyle'i	se pleji
+selpleji	se pleji
 terle'i	te pleji
-velyle'i	ve pleji
+velpleji	ve pleji
 selplibu	se plibu
 selplini	se plini
 terplini	te plini
@@ -4555,9 +4555,9 @@ selpluja	se pluja
 terpluja	te pluja
 selpu'a	se pluka
 terpu'a	te pluka
-selylu'a	se pluta
+selpluta	se pluta
 terlu'a	te pluta
-velylu'a	ve pluta
+velpluta	ve pluta
 selplo	se polje
 terplo	te polje
 selpolno	se polno
@@ -4584,10 +4584,10 @@ terpri	te prina
 selpritu	se pritu
 terpritu	te pritu
 selro'a	se prosa
-teryro'a	te prosa
+terprosa	te prosa
 velro'a	ve prosa
 selru'e	se pruce
-teryru'e	te pruce
+terpruce	te pruce
 velru'e	ve pruce
 selpu'e	se pulce
 terpu'e	te pulce
@@ -4827,7 +4827,7 @@ selsligu	se sligu
 tersligu	te sligu
 selsli	se slilu
 tersli	te slilu
-selylo'o	se slovo
+selslovo	se slovo
 selslu	se sluji
 terslu	te sluji
 selsluni	se sluni
@@ -4894,7 +4894,7 @@ tersre	te srera
 velsre	ve srera
 selsrito	se srito
 selru'a	se sruma
-teryru'a	te sruma
+tersruma	te sruma
 selsru	se sruri
 tersru	te sruri
 selstace	se stace
@@ -5051,7 +5051,7 @@ teryrai	te traji
 velrai	ve traji
 seltrati	se trati
 selre'e	se trene
-teryre'e	te trene
+tertrene	te trene
 velre'e	ve trene
 seltricu	se tricu
 seltri	se trina

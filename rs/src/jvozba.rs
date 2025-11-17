@@ -46,12 +46,17 @@ use Tosytype::{Tosmabru, Tosyhuhu, Tosynone};
 
 /// Calculates the score for a rafsi (possibly including a hyphen). Use
 /// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo.
+/// # Panics
+/// If the score does not fit into a `i32`
 #[must_use]
 pub fn score(r: &str) -> i32 {
     let t = tarmi_ignoring_hyphen(r) as usize % 9;
-    (1000 * r.len() - 400 * r.matches('\'').count() + 100 * r.matches('y').count()
-        - 10 * t
-        - r.chars().filter(|c| "aeiou".contains(*c)).count()) as _
+    i32::try_from(
+        1000 * r.len() + 100 * r.matches('y').count()
+            - 10 * t
+            - r.chars().filter(|c| is_vowel(*c)).count(),
+    )
+    .unwrap()
 }
 /// A tiebreak so lujvo with a CVV first rafsi and a CCV(C) or CVC(C) second
 /// rafsi are preferred whenever there are two lujvo candidates with the same
@@ -457,9 +462,8 @@ pub fn combine(
     if settings.consonants == OneConsonant && total_c > 0 {
         total_c = 2;
     }
-    let hyphen_score = if hyphen == "'y" { 1700 } else { 1100 * hyphen.len() as i32 };
     let res = format!("{lujvo}{hyphen}{rafsi}");
-    let score = lujvo_score + hyphen_score + score(rafsi) - tiebreak(&res);
+    let score = lujvo_score + score(hyphen) + score(rafsi) - tiebreak(&res);
     Some((tosmabru_type, total_c, score, res, indices))
 }
 
