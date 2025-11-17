@@ -10,7 +10,9 @@ use latkerlo_jvotci::{
     ConsonantSetting::{Cluster, OneConsonant, TwoConsonants},
     RAFSI, Settings,
     YHyphenSetting::{AllowY, ForceY, Standard},
-    analyze_brivla, get_lujvo,
+    analyze_brivla,
+    data::HYPHENS,
+    get_lujvo, get_veljvo,
     katna::{search_selrafsi_from_rafsi, selrafsi_list_from_rafsi_list},
     normalize, score_lujvo, strin,
 };
@@ -207,23 +209,70 @@ fn main() {
                 if used_cli {
                     exit(1);
                 }
-            } else {
-                let hyphens = res.clone().unwrap().1;
-                println!(
-                    "\x1b[96m{}\n{}{}\x1b[92m{}\x1b[m",
-                    res.unwrap().0.to_string().to_lowercase().replace("dl", "d l"),
-                    if hyphens.join(" ") == input {
-                        String::new()
+                continue;
+            }
+            let (analysis, hyphens) = res.unwrap();
+            println!(
+                "\x1b[96m{}\n{}{}\x1b[92m{}\x1b[m",
+                analysis.to_string().to_lowercase().replace("dl", "d l"),
+                if hyphens.join(" ") == input { String::new() } else { hyphens.join(" ") + "\n" },
+                score_lujvo(&input, &settings)
+                    .map_or_else(|_| String::new(), |score| score.to_string() + "\n"),
+                selrafsi_list_from_rafsi_list(&hyphens, &settings).unwrap().into_iter().join(" ")
+            );
+            let veljvo = get_veljvo(&input, &settings);
+            if veljvo.is_err() {
+                if used_cli {
+                    exit(1);
+                }
+                continue;
+            }
+            let veljvo = veljvo.unwrap().join(" ");
+            let best = get_lujvo(&veljvo, &settings);
+            if let Ok(best_lujvo) = best
+                && normalize(&input) != best_lujvo
+            {
+                let best_hyphens =
+                    analyze_brivla(&best_lujvo, &settings).map(|(_, h)| h).unwrap_or_default();
+                let input_hyphens = hyphens.clone();
+                print!("\x1b[96mbest: \x1b[92m");
+                let mut m = 0;
+                let mut b = 0;
+                while m < input_hyphens.len() && b < best_hyphens.len() {
+                    let mabla_curr = input_hyphens.get(m).map_or("", String::as_str);
+                    let best_curr = best_hyphens.get(b).map_or("", String::as_str);
+                    if HYPHENS.contains(&mabla_curr) {
+                        if !HYPHENS.contains(&best_curr) {
+                            if best_curr == input_hyphens.get(m + 1).map_or("", String::as_str) {
+                                print!("\x1b[91m-\x1b[92m");
+                            }
+                            m += 1;
+                            continue;
+                        }
+                        if mabla_curr == best_curr {
+                            print!("{best_curr}");
+                            m += 1;
+                            b += 1;
+                            continue;
+                        }
+                    } else if HYPHENS.contains(&best_curr) {
+                        print!("\x1b[91m{best_curr}\x1b[92m");
+                        b += 1;
+                        continue;
+                    }
+                    if mabla_curr == best_curr {
+                        print!("{best_curr}");
                     } else {
-                        hyphens.join(" ") + "\n"
-                    },
-                    score_lujvo(&input, &settings)
-                        .map_or_else(|_| String::new(), |score| score.to_string() + "\n"),
-                    selrafsi_list_from_rafsi_list(&hyphens, &settings)
-                        .unwrap()
-                        .into_iter()
-                        .join(" ")
-                );
+                        print!("\x1b[91m{best_curr}\x1b[92m");
+                    }
+                    m += 1;
+                    b += 1;
+                }
+                while b < best_hyphens.len() {
+                    print!("{}", best_hyphens[b]);
+                    b += 1;
+                }
+                println!("\x1b[m");
             }
         } else {
             let res = get_lujvo(&input, &settings);
