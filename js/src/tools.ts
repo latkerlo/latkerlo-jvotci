@@ -521,7 +521,7 @@ function analyseBrivla(
       if (shapeType == BrivlaType.ZIhEVLA) {
         if (didAddA) {
           try {
-            jvokaha2(part, {yHyphens: yHyphens, allowMZ: allowMZ});
+            jvokaha2(part, { yHyphens: yHyphens, allowMZ: allowMZ });
             throw new NotBrivlaError(`zi'evla is a lujvo: {${partCopy},a}`);
           } catch (e) {
             if (!(e instanceof DecompositionError || e instanceof InvalidClusterError))

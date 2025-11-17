@@ -40,13 +40,13 @@ function searchSelrafsiFromRafsi(rafsi: string): string | null {
  * @returns List of selrafsi and formatted rafsi.
  */
 function selrafsiListFromRafsiList(
-  rafsiList: string[], 
+  rafsiList: string[],
   {
     yHyphens = YHyphenSetting.STANDARD,
     allowMZ = false
   } = {}
 ): string[] {
-  const result = rafsiList.map((rafsi) => HYPHENS.includes(rafsi) ? "" : rafsi); 
+  const result = rafsiList.map((rafsi) => HYPHENS.includes(rafsi) ? "" : rafsi);
   const selrafsiList = result.map((rafsi) => searchSelrafsiFromRafsi(rafsi));
   for (let i = 0; i < result.length; i++) {
     if (result[i].length === 0)
@@ -54,11 +54,10 @@ function selrafsiListFromRafsiList(
 
     if (selrafsiList[i] !== null)
       result[i] = selrafsiList[i]!;
-    else if (i < rafsiList.length - 2 && rafsiList[i+1][0] === "y" && isBrivla(result[i] + "a", {yHyphens: yHyphens, allowMZ: allowMZ}))
+    else if (i < rafsiList.length - 2 && rafsiList[i + 1][0] === "y" && isBrivla(result[i] + "a", { yHyphens: yHyphens, allowMZ: allowMZ }))
       result[i] = result[i] + "-";
-    else if (isBrivla(result[i], {yHyphens: yHyphens, allowMZ: allowMZ}))
-      {}
-    else if (i === rafsiList.length - 1 && isBrivla(result[i] + "a", {yHyphens: yHyphens, allowMZ: allowMZ}))
+    else if (isBrivla(result[i], { yHyphens: yHyphens, allowMZ: allowMZ })) { }
+    else if (i === rafsiList.length - 1 && isBrivla(result[i] + "a", { yHyphens: yHyphens, allowMZ: allowMZ }))
       result[i] = result[i] + "-";
     else
       result[i] = "-" + result[i] + "-";
@@ -84,10 +83,10 @@ function compareLujvoPieces(corr: string[], other: string[]): boolean {
     }
 
     if (
-      0 < i && i < other.length - 1 
-      && "rn".includes(other[i]) 
-      && [Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(other[i-1]))
-      && (i > 1 || [Tarmi.CCVCV, Tarmi.CCVC, Tarmi.CCV].includes(rafsiTarmi(other[i+1])))
+      0 < i && i < other.length - 1
+      && "rn".includes(other[i])
+      && [Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(other[i - 1]))
+      && (i > 1 || [Tarmi.CCVCV, Tarmi.CCVC, Tarmi.CCV].includes(rafsiTarmi(other[i + 1])))
     ) {
       i += 1;
     }
@@ -114,15 +113,15 @@ function compareLujvoPieces(corr: string[], other: string[]): boolean {
  * @returns List of lujvo pieces (rafsi and hyphens).
  */
 function jvokaha(
-  lujvo: string, 
+  lujvo: string,
   {
-    yHyphens = YHyphenSetting.STANDARD, 
+    yHyphens = YHyphenSetting.STANDARD,
     consonants = ConsonantSetting.CLUSTER,
     glides = false,
-    allowMZ = false 
+    allowMZ = false
   } = {}
 ): string[] {
-  const arr = jvokaha2(lujvo, {yHyphens: yHyphens, allowMZ: allowMZ});
+  const arr = jvokaha2(lujvo, { yHyphens: yHyphens, allowMZ: allowMZ });
 
   const rafsiTanru = arr.filter(x => x.length > 2).map(x => `-${x}-`);
   if (rafsiTanru.length == 1) {
@@ -131,7 +130,7 @@ function jvokaha(
   let correctLujvo: string;
   try {
     correctLujvo = getLujvoFromList(
-      rafsiTanru, 
+      rafsiTanru,
       {
         generateCmevla: isConsonant(arr[arr.length - 1].slice(-1)),
         yHyphens: yHyphens,
@@ -151,13 +150,13 @@ function jvokaha(
   if (yHyphens == YHyphenSetting.FORCE_Y)
     coolAndGood = correctLujvo === lujvo;
   else
-    coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, {yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ}), arr);
+    coolAndGood = compareLujvoPieces(jvokaha2(correctLujvo, { yHyphens: YHyphenSetting.STANDARD, allowMZ: allowMZ }), arr);
 
   if (coolAndGood)
     return arr;
   else
-    throw new DecompositionError("malformed lujvo {" + lujvo + 
-    "}; it should be {" + correctLujvo + "}")
+    throw new DecompositionError("malformed lujvo {" + lujvo +
+      "}; it should be {" + correctLujvo + "}")
 }
 
 /**
@@ -171,9 +170,9 @@ function jvokaha(
  * @returns List of lujvo pieces (rafsi and hyphens).
  */
 function jvokaha2(
-  lujvo: string, 
+  lujvo: string,
   {
-    yHyphens = YHyphenSetting.STANDARD, 
+    yHyphens = YHyphenSetting.STANDARD,
     allowMZ = false
   } = {}
 ): string[] {
@@ -181,7 +180,7 @@ function jvokaha2(
   const res: string[] = [];
   while (true) {
     if (lujvo === "")
-        return res;
+      return res;
 
     // remove hyphen
     if (res.length > 0 && res[res.length - 1].length !== 1) {  // hyphen cannot begin a word; nor can two hyphens
@@ -194,7 +193,7 @@ function jvokaha2(
         yHyphens !== YHyphenSetting.FORCE_Y
         && [Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(res[res.length - 1]))
         && (lujvo.slice(0, 2) === "nr"  // n-hyphen is only allowed before r
-        || (lujvo[0] === "r" && isConsonant(lujvo[1]) && lujvo[1] !== "r"))  // r followed by a consonant
+          || (lujvo[0] === "r" && isConsonant(lujvo[1]) && lujvo[1] !== "r"))  // r followed by a consonant
       ) {
         res.push(lujvo[0]);
         lujvo = lujvo.slice(1);
@@ -210,8 +209,8 @@ function jvokaha2(
     // drop rafsi from front
 
     // CVV can always be dropped
-    if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CVV 
-        && ["ai", "ei", "oi", "au"].includes(lujvo.slice(1, 3))) {
+    if (rafsiTarmi(lujvo.slice(0, 3)) === Tarmi.CVV
+      && ["ai", "ei", "oi", "au"].includes(lujvo.slice(1, 3))) {
       res.push(lujvo.slice(0, 3));
       lujvo = lujvo.slice(3);
       continue;
@@ -289,7 +288,7 @@ function scoreLujvo(lujvo: string, {
   glides = false,
   allowMZ = false
 } = {}): number {
-  let settings = {generateCmevla, yHyphens, consonants, expRafsiShapes, glides, allowMZ};
+  let settings = { generateCmevla, yHyphens, consonants, expRafsiShapes, glides, allowMZ };
   try {
     getVeljvo(lujvo, settings);
   } catch (e) {
@@ -340,5 +339,5 @@ function getVeljvo(
 
   if (![BrivlaType.LUJVO, BrivlaType.EXTENDED_LUJVO, BrivlaType.CMEVLA].includes(bType))
     throw new DecompositionError("Valsi is of type {" + bType + "}");
-  return selrafsiListFromRafsiList(rafsiList, {yHyphens: yHyphens, allowMZ: allowMZ});
+  return selrafsiListFromRafsiList(rafsiList, { yHyphens: yHyphens, allowMZ: allowMZ });
 }

@@ -47,7 +47,7 @@ function processTanru(tanru: string | string[]): string[] {
   else if (Array.isArray(tanru))
     valsiList = tanru;
   else
-    throw new TypeError(`Cannot make lujvo from type ${typeof(tanru)}`);
+    throw new TypeError(`Cannot make lujvo from type ${typeof (tanru)}`);
 
   valsiList = valsiList.map(normalise);
   return valsiList;
@@ -137,7 +137,7 @@ function getRafsiForRafsi(
  * @returns List of rafsi lists.
  */
 function getRafsiListList(
-  valsiList: string[], 
+  valsiList: string[],
   {
     yHyphens = YHyphenSetting.STANDARD,
     expRafsiShapes = false,
@@ -162,14 +162,14 @@ function getRafsiListList(
       if (isShortBrivla) {
         let bType: BrivlaType;
         try {
-          [bType, ] = analyseBrivla(
-            valsi + "a", 
+          [bType,] = analyseBrivla(
+            valsi + "a",
             {
-              yHyphens: yHyphens, 
-              expRafsiShapes: expRafsiShapes, 
+              yHyphens: yHyphens,
+              expRafsiShapes: expRafsiShapes,
               allowMZ: allowMZ
             });
-        } catch(e) {
+        } catch (e) {
           if (e instanceof NotBrivlaError)
             throw new NoLujvoFoundError(`rafsi + a is not a brivla: {${valsi}}`);
           else
@@ -182,8 +182,8 @@ function getRafsiListList(
         if (valsi.length >= 6 && isConsonant(valsi.slice(-1))) {
           let doesDecompose = true;
           try {
-            jvokaha2(valsi, {yHyphens: yHyphens, allowMZ: allowMZ});
-          } catch(e) {
+            jvokaha2(valsi, { yHyphens: yHyphens, allowMZ: allowMZ });
+          } catch (e) {
             if (e instanceof DecompositionError || e instanceof InvalidClusterError)
               doesDecompose = false;  // TODO: missing IndexError
             else
@@ -199,7 +199,7 @@ function getRafsiListList(
         if (raftai === Tarmi.OtherRafsi) {
           let zihevlaOrRafsi: BrivlaType | undefined;
           try {
-            const [bType, ] = analyseBrivla(
+            const [bType,] = analyseBrivla(
               valsi,
               {
                 yHyphens: yHyphens,
@@ -209,8 +209,8 @@ function getRafsiListList(
             );
             if (bType === BrivlaType.ZIhEVLA)
               zihevlaOrRafsi = BrivlaType.ZIhEVLA;
-  
-          } catch(e) {
+
+          } catch (e) {
             if (!(e instanceof NotBrivlaError))
               throw e;
 
@@ -226,7 +226,7 @@ function getRafsiListList(
                 )
                 if (shape === BrivlaType.RAFSI)
                   zihevlaOrRafsi = BrivlaType.RAFSI;
-              } catch(e) {
+              } catch (e) {
                 if (e instanceof NotZihevlaError)
                   throw new NoLujvoFoundError(`Not a valid rafsi shape: -${valsi}-`);
                 else
@@ -234,14 +234,14 @@ function getRafsiListList(
               }
             }
           }
-    
+
           if (zihevlaOrRafsi === undefined)
             throw new NotZihevlaError(`Not a valid rafsi or zi'evla shape: -${valsi}-`);
-          
+
           const rType = zihevlaOrRafsi === BrivlaType.ZIhEVLA ? "LONG BRIVLA" : "EXPERIMENTAL RAFSI";
           rafsiList = rafsiList.concat(getRafsiForRafsi(valsi, rType, isFirst, isLast, consonants, glides));
         } else {
-          if (!isValidRafsi(valsi, allowMZ=allowMZ))
+          if (!isValidRafsi(valsi, allowMZ = allowMZ))
             throw new InvalidClusterError("Invalid cluster in rafsi: -{" + valsi + "}-");
 
           rafsiList = rafsiList.concat(getRafsiForRafsi(valsi, raftai, isFirst, isLast, consonants, glides));
@@ -253,7 +253,7 @@ function getRafsiListList(
         throw new NonLojbanCharacterError("Non-lojban character in {" + valsi + "}");
 
       const shortRafsiList = RAFSI_LIST.get(valsi);
-      if (shortRafsiList !== undefined){
+      if (shortRafsiList !== undefined) {
         shortRafsiList.forEach(shortRafsi => {
           const raftai = rafsiTarmi(shortRafsi);
           if (raftai === Tarmi.OtherRafsi && !expRafsiShapes)
@@ -262,7 +262,7 @@ function getRafsiListList(
           rafsiList = rafsiList.concat(getRafsiForRafsi(shortRafsi, raftai, isFirst, isLast, consonants, glides));
         });
       }
-      
+
       let bType: BrivlaType | undefined;
       try {
         bType = analyseBrivla(
@@ -273,7 +273,7 @@ function getRafsiListList(
             allowMZ: allowMZ
           }
         )[0];
-      } catch(e) {
+      } catch (e) {
         if (!(e instanceof NotBrivlaError))
           throw e;
       }
@@ -310,25 +310,25 @@ function getRafsiListList(
  * @returns Final tosmabru_type, num_consonants, score, and lujvo.
  */
 function combine(
-    lujvo: string, 
-    rafsi: string, 
-    lujvoConsonants: number,
-    rafsiConsonants: number,
-    lujvoScore: number,
-    indexList: [number, number][],
-    tosmabruType: TosyType, 
-    generateCmevla: boolean, 
-    tanruLen = 0,
-    yHyphens = YHyphenSetting.STANDARD,
-    consonants = ConsonantSetting.CLUSTER,
-    glides = false,
-    allowMZ = false
+  lujvo: string,
+  rafsi: string,
+  lujvoConsonants: number,
+  rafsiConsonants: number,
+  lujvoScore: number,
+  indexList: [number, number][],
+  tosmabruType: TosyType,
+  generateCmevla: boolean,
+  tanruLen = 0,
+  yHyphens = YHyphenSetting.STANDARD,
+  consonants = ConsonantSetting.CLUSTER,
+  glides = false,
+  allowMZ = false
 ): [number, number, number, string, [number, number][]] | null {
   const lujvoFinal = lujvo.slice(-1);
   const rafsiInitial = rafsi[0];
   if (
-    isConsonant(lujvoFinal) 
-    && isConsonant(rafsiInitial) 
+    isConsonant(lujvoFinal)
+    && isConsonant(rafsiInitial)
     && !(allowMZ ? MZ_VALID : VALID).includes(lujvoFinal + rafsiInitial)
   ) {
     return null;
@@ -368,7 +368,7 @@ function combine(
   }
 
   if (tosmabruType === TosyType.Tosmabru) {
-    if (!INITIAL.includes(lujvoFinal + rafsiInitial)){
+    if (!INITIAL.includes(lujvoFinal + rafsiInitial)) {
       tosmabruType = TosyType.Tosynone;
     } else if (raftai1 === Tarmi.CVCCV) {
       if (INITIAL.includes(rafsi.slice(2, 4))) {
@@ -422,7 +422,7 @@ function combine(
     lujvo + hyphen + rafsi,
     indexList
   ];
-} 
+}
 
 /**
  * Add the candidate to current_best if it is the best.
@@ -432,15 +432,15 @@ function combine(
     combination of tosmabru type and number of consonants.
  */
 function updateCurrentBest(
-  candidate: [TosyType, number, number, string, [number, number][]] | null, 
+  candidate: [TosyType, number, number, string, [number, number][]] | null,
   currentBest: [bestLujvoMap, bestLujvoMap, bestLujvoMap][]
 ) {
   if (candidate == null)
     return;
   const [tosmabruType, numConsonants, resScore, resLujvo, resIndexList] = candidate!;
   const lujvoFinal = resLujvo.slice(-1);
-  if (!currentBest[tosmabruType][numConsonants].has(lujvoFinal) || 
-      currentBest[tosmabruType][numConsonants].get(lujvoFinal)![1] > resScore) {
+  if (!currentBest[tosmabruType][numConsonants].has(lujvoFinal) ||
+    currentBest[tosmabruType][numConsonants].get(lujvoFinal)![1] > resScore) {
     currentBest[tosmabruType][numConsonants].set(lujvoFinal, [resLujvo, resScore, resIndexList]);
   }
 }
@@ -459,7 +459,7 @@ function updateCurrentBest(
  * @returns The best lujvo, its score, and list of rafsi start/end indices.
  */
 function getLujvoFromList(
-  valsiList: string[], 
+  valsiList: string[],
   {
     generateCmevla = false,
     yHyphens = YHyphenSetting.STANDARD,
@@ -469,7 +469,7 @@ function getLujvoFromList(
     allowMZ = false
   } = {}
 ): [string, number, [number, number][]] {
-  const rafsiListList = getRafsiListList(valsiList, {yHyphens, expRafsiShapes, consonants, glides, allowMZ});
+  const rafsiListList = getRafsiListList(valsiList, { yHyphens, expRafsiShapes, consonants, glides, allowMZ });
   let currentBest: [bestLujvoMap, bestLujvoMap, bestLujvoMap][] = [[new Map(), new Map(), new Map()], [new Map(), new Map(), new Map()], [new Map(), new Map(), new Map()]];
   rafsiListList[0].forEach((rafsi0) => {
     rafsiListList[1].forEach((rafsi1) => {
@@ -487,10 +487,10 @@ function getLujvoFromList(
         tosmabruType,
         generateCmevla,
         rafsiListList.length,
-        yHyphens=yHyphens,
-        consonants=consonants,
-        glides=glides,
-        allowMZ=allowMZ
+        yHyphens = yHyphens,
+        consonants = consonants,
+        glides = glides,
+        allowMZ = allowMZ
       );
       updateCurrentBest(result, currentBest);
     });
@@ -512,10 +512,10 @@ function getLujvoFromList(
               tosmabruType,
               generateCmevla,
               rafsiListList.length,
-              yHyphens=yHyphens,
-              consonants=consonants,
-              glides=glides,
-              allowMZ=allowMZ
+              yHyphens = yHyphens,
+              consonants = consonants,
+              glides = glides,
+              allowMZ = allowMZ
             );
             updateCurrentBest(result, currentBest);
           });
@@ -525,11 +525,11 @@ function getLujvoFromList(
     previousBest = currentBest;
   });
   let bestLujvo = "";
-  let bestScore = 10**100;
+  let bestScore = 10 ** 100;
   let bestIndexList: [number, number][] = [];
   previousBest[0][2].forEach((lujvoAndScore, lerfu) => {
-    if ((isVowel(lerfu) && !generateCmevla) 
-        || (isConsonant(lerfu) && generateCmevla)) {
+    if ((isVowel(lerfu) && !generateCmevla)
+      || (isConsonant(lerfu) && generateCmevla)) {
       if (lujvoAndScore[1] < bestScore)
         [bestLujvo, bestScore, bestIndexList] = lujvoAndScore;
     }
@@ -553,7 +553,7 @@ function getLujvoFromList(
  * @returns The best lujvo, its score, and list of rafsi start/end indices.
  */
 function getLujvoWithAnalytics(
-  tanru: string | string[], 
+  tanru: string | string[],
   {
     generateCmevla = false,
     yHyphens = YHyphenSetting.STANDARD,
@@ -564,11 +564,11 @@ function getLujvoWithAnalytics(
   } = {}
 ): [string, number, [number, number][]] {
   return getLujvoFromList(processTanru(tanru), {
-    generateCmevla, 
-    yHyphens, 
-    expRafsiShapes, 
-    consonants, 
-    glides, 
+    generateCmevla,
+    yHyphens,
+    expRafsiShapes,
+    consonants,
+    glides,
     allowMZ
   });
 }
@@ -586,7 +586,7 @@ function getLujvoWithAnalytics(
  * @returns The best lujvo.
  */
 function getLujvo(
-  tanru: string | string[], 
+  tanru: string | string[],
   {
     generateCmevla = false,
     yHyphens = YHyphenSetting.STANDARD,
@@ -597,11 +597,11 @@ function getLujvo(
   } = {}
 ): string {
   return getLujvoFromList(processTanru(tanru), {
-    generateCmevla, 
-    yHyphens, 
-    expRafsiShapes, 
-    consonants, 
-    glides, 
+    generateCmevla,
+    yHyphens,
+    expRafsiShapes,
+    consonants,
+    glides,
     allowMZ
   })[0];
 }
