@@ -319,11 +319,7 @@ def strip_hyphens(rafsi: str) -> str:
     :param rafsi: A rafsi.
     :return: The rafsi without hyphens.
     """
-    while rafsi[0] in "'y":
-        rafsi = rafsi[1:]
-    while rafsi[-1] in "'y":
-        rafsi = rafsi[:-1]
-    return rafsi
+    return re.sub("^['y]+|['y]+$", "", rafsi);
 
 
 def tarmi_ignoring_hyphen(rafsi: str) -> int:

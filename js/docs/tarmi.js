@@ -333,11 +333,7 @@ function rafsiTarmi(rafsi) {
  * @returns The rafsi without hyphens.
  */
 function stripHyphens(rafsi) {
-    while ("'y".includes(rafsi[0]))
-        rafsi = rafsi.slice(1);
-    while ("'y".includes(rafsi.slice(-1)))
-        rafsi = rafsi.slice(0, -1);
-    return rafsi;
+    return rafsi.replace(/^['y]+|['y]+$/g, "");
 }
 /**
  * Get the rafsi's shape, removing a final hyphen if necessary.

@@ -343,11 +343,7 @@ function rafsiTarmi(rafsi: string): Tarmi {
  * @returns The rafsi without hyphens.
  */
 function stripHyphens(rafsi: string): string {
-  while ("'y".includes(rafsi[0]))
-    rafsi = rafsi.slice(1);
-  while ("'y".includes(rafsi.slice(-1)))
-    rafsi = rafsi.slice(0, -1);
-  return rafsi;
+  return rafsi.replace(/^['y]+|['y]+$/g, "");
 }
 
 /**
