@@ -13,7 +13,7 @@ dependencies = [
 
 [[package]]
 name = "latkerlo-jvotci"
-version = "1.1.2511"
+version = "1.1.2601"
 dependencies = [
  "lazy_static",
  "regex",

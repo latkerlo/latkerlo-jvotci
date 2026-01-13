@@ -8,12 +8,15 @@ import sys
 sys.path.append("py")
 
 import xml.etree.ElementTree as ET
+import urllib.request
 from py.tarmi import *
 from py.data import INITIAL
 
 GIMSTE = set()
 
-root = ET.parse(f"jbovlaste-en.xml").getroot()
+URL = "https://jbovlaste.lojban.org/export/xml-export.html?lang=en&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
+with urllib.request.urlopen(URL) as response:
+    root = ET.fromstring(response.read())
 for valsi in root.iter("valsi"):
     if valsi.get("type") == "gismu":
         word = valsi.get("word")
