@@ -5876,6 +5876,8 @@ const JVOZBA_TEST_LIST = [
   ["-nei- -nei-", "", "FORCE_Y & (TWO_CONSONANTS | ONE_CONSONANT)", "nei'ynei", "7936", "0-3,5-8", "FORCE_Y", "NONE", "", "", "ELSE", "neirnei", "6836", "0-3,4-7"],
   ["nelci -nelci-", "", "ELSE", "nelnelci", "7937", "0-3,3-8"],
   ["-nei- -nelci-", "", "FORCE_Y", "nei'ynelci", "10006", "0-3,5-10", "ELSE", "neirnelci", "8906", "0-3,4-9"],
+  ["mlongena tsiju", "", "ELSE", "mlongena'ytsi"],
+  ["mlongen- tsiju", "", "ELSE", "NONE"],
 ]
 
 const KATNA_TEST_LIST = [
@@ -6483,6 +6485,7 @@ const KATNA_TEST_LIST = [
   ["toispa'ykerlo", "ELSE", "EXTENDED", "toi spa kerlo", "troci spati kerlo"],
   ["nondza'yburgere", "ELSE", "NONE", "(ndz)"],
   ["valnondza'yburgere", "ELSE", "NONE"],
+  ["mlongenytsi", "ELSE", "NONE", "(slinku'i)"],
 ]
 
 const JVS_WORDS = new Map([

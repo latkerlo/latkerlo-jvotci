@@ -74121,6 +74121,293 @@ valnondza'yburgere
 katna    - Err(NotBrivlaError("{valnondza} contains a banned triple (nts/ntc/ndz/ndj)"))
 settings - F1rgz
 
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 2rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - 1rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Az
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Ag
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Agz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Ar
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Arz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Arg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Argz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A2rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - A1rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Fz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Fg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Fgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Fr
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Frz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Frg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - Frgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F2rgz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1z
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1g
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1gz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1r
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1rz
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1rg
+
+mlongenytsi
+katna    - Err(NotBrivlaError("{mlongenytsi} is a slinku'i"))
+settings - F1rgz
+
 gimzu gismu
 zbasu    - Err(NoLujvoFoundError("{gimzu gismu} can't be turned into a lujvo"))
 
