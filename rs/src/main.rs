@@ -234,12 +234,15 @@ fn main() {
                 print!("\x1b[96mbest: \x1b[92m");
                 let mut m = 0;
                 let mut b = 0;
+                let mut diverged = false;
                 while m < input_hyphens.len() && b < best_hyphens.len() {
                     let mabla_curr = input_hyphens.get(m).map_or("", String::as_str);
                     let best_curr = best_hyphens.get(b).map_or("", String::as_str);
                     if HYPHENS.contains(&mabla_curr) {
                         if !HYPHENS.contains(&best_curr) {
-                            if best_curr == input_hyphens.get(m + 1).map_or("", String::as_str) {
+                            if best_curr == input_hyphens.get(m + 1).map_or("", String::as_str)
+                                && !diverged
+                            {
                                 print!("\x1b[91m-\x1b[92m");
                             }
                             m += 1;
@@ -254,12 +257,15 @@ fn main() {
                     } else if HYPHENS.contains(&best_curr) {
                         print!("\x1b[91m{best_curr}\x1b[92m");
                         b += 1;
+                        diverged = true;
                         continue;
                     }
                     if mabla_curr == best_curr {
                         print!("{best_curr}");
+                        diverged = false;
                     } else {
                         print!("\x1b[91m{best_curr}\x1b[92m");
+                        diverged = true;
                     }
                     m += 1;
                     b += 1;
