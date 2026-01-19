@@ -3,6 +3,11 @@
 ## a.b.yymm (any new patch release)
 - updated the rafsi list
 
+## 2.5.2601
+- fixed *mlongen- tsiju*
+- stopped rewarding apostrophes; now the generated lujvo always has the fewest possible syllables
+- made the CLI print `-` for unnecessary hyphens less
+
 ## 2.4.2510
 - improved some docs
 - made the CLI return exit codes more consistently
