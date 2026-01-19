@@ -495,7 +495,10 @@ def get_lujvo_from_list(
                 best_lujvo, best_score, best_index_list = lujvo_and_score
     if best_lujvo is None:
         raise NoLujvoFoundError(f"No lujvo found for {{{' '.join(valsi_list)}}}")
-
+    if not generate_cmevla and is_slinkuhi(best_lujvo, y_hyphens=y_hyphens, allow_mz=allow_mz):
+        raise NoLujvoFoundError(
+            f"{{{' '.join(valsi_list)}}} can't be turned into a lujvo because it would produce a slinku'i, {{{best_lujvo}}}"
+        )
     return best_lujvo, best_score, best_index_list
 
 

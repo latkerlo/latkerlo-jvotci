@@ -25,7 +25,7 @@ use crate::{
         contains_consonant, is_consonant, is_glide, is_only_lojban_characters, is_valid_rafsi,
         is_vowel, rafsi_tarmi, strip_hyphens, tarmi_ignoring_hyphen,
     },
-    tools::{analyze_brivla, check_zihevla_or_rafsi, normalize, regex_replace_all},
+    tools::{analyze_brivla, check_zihevla_or_rafsi, is_slinkuhi, normalize, regex_replace_all},
 };
 
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
@@ -598,6 +598,14 @@ pub fn get_lujvo_from_list(
     }
     if best_lujvo.is_empty() {
         Err(NoLujvoFoundError(format!("{{{}}} can't be turned into a lujvo", valsi_list.join(" "))))
+    } else if !settings.generate_cmevla
+        && is_slinkuhi(&best_lujvo, &extract!(settings; y_hyphens, allow_mz))?
+    {
+        Err(NoLujvoFoundError(format!(
+            "{{{}}} can't be turned into a lujvo because it would produce a slinku'i, \
+             {{{best_lujvo}}}",
+            valsi_list.join(" ")
+        )))
     } else {
         Ok((best_lujvo, best_score, best_indices))
     }

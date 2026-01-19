@@ -425,6 +425,8 @@ function getLujvoFromList(valsiList, { generateCmevla = false, yHyphens = YHyphe
     });
     if (bestLujvo === "")
         throw new NoLujvoFoundError("No lujvo found for {" + valsiList.join(" ") + "}");
+    if (!generateCmevla && isSlinkuhi(bestLujvo, { yHyphens, allowMZ }))
+        throw new NoLujvoFoundError(`{${valsiList.join(" ")}} can't be turned into a lujvo because it would produce a slinku'i, {${bestLujvo}}`);
     return [bestLujvo, bestScore, bestIndexList];
 }
 /**
