@@ -326,6 +326,9 @@ def combine(
     raftai_1 = tarmi_ignoring_hyphen(rafsi)
     if lujvo[-1] not in "y'" and raftai_1 == OTHER_RAFSI:
         return
+    prulamrafsi = lujvo[index_list[-1][0]:index_list[-1][0]];
+    if rafsi_tarmi(prulamrafsi) in [CVV, CVC] and bool(re.match(r"^[aeiou']+$", prulamrafsi)):
+        return
     hyphen = ""
     if lujvo[-1] == "'":
         if rafsi[0] == "'" or y_hyphens != STANDARD:

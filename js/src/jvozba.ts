@@ -343,6 +343,10 @@ function combine(
   if (!"y'".includes(lujvoFinal) && raftai1 === Tarmi.OtherRafsi)
     return null;
 
+  let prulamrafsi = lujvo.slice(indexList.slice(-1)[0][0], indexList.slice(-1)[0][1]);
+  if ([Tarmi.CVV, Tarmi.CVC].includes(rafsiTarmi(prulamrafsi)) && /^[aeiou']+$/.test(rafsi))
+    return null;
+
   let hyphen = "";
   if (lujvoFinal === "'") {
     if (rafsiInitial === "'" || yHyphens !== YHyphenSetting.STANDARD)

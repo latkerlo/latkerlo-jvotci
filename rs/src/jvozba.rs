@@ -367,6 +367,7 @@ pub type Candidate = Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>;
 
 /// Tries to add a rafsi to a lujvo and calculate the score.
 #[allow(clippy::too_many_arguments)] // sorry!
+/// # Panics
 pub fn combine(
     lujvo: &str,
     rafsi: &str,
@@ -380,16 +381,18 @@ pub fn combine(
 ) -> Candidate {
     let lujvo_f = strin!(lujvo, -1);
     let rafsi_i = strin!(rafsi, 0);
+    let raftai0 = tarmi_ignoring_hyphen(lujvo);
+    let raftai1 = tarmi_ignoring_hyphen(rafsi);
+    let prulamrafsi = &lujvo[indices.last().unwrap()[0]..indices.last().unwrap()[1]];
     if is_consonant(lujvo_f)
         && is_consonant(rafsi_i)
         && !if settings.allow_mz { &MZ_VALID } else { &VALID }
             .contains(&format!("{lujvo_f}{rafsi_i}").as_str())
         || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", strsl!(rafsi, 0..2)).as_str())
+        || !"y'".contains(lujvo_f) && raftai1 == OtherRafsi
+        || [Cvv, Cvc].contains(&rafsi_tarmi(prulamrafsi))
+            && rafsi.chars().all(|c| "aeiou'".contains(c))
     {
-        return None;
-    }
-    let raftai1 = tarmi_ignoring_hyphen(rafsi);
-    if !"y'".contains(lujvo_f) && raftai1 == OtherRafsi {
         return None;
     }
     let mut hyphen = "";
@@ -405,7 +408,6 @@ pub fn combine(
             return None;
         }
         if lujvo.len() <= 5 && !settings.generate_cmevla {
-            let raftai0 = tarmi_ignoring_hyphen(lujvo);
             if [Cvhv, Cvv].contains(&raftai0) {
                 hyphen = if settings.y_hyphens == ForceY {
                     "'y"
