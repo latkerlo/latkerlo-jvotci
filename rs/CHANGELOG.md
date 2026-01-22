@@ -3,6 +3,9 @@
 ## a.b.yymm (any new patch release)
 - updated the rafsi list
 
+## 2.6.2601
+- fixed *bangu -i'e-* in `1r`
+
 ## 2.5.2601
 - fixed *mlongen- tsiju*
 - stopped rewarding apostrophes; now the generated lujvo always has the fewest possible syllables

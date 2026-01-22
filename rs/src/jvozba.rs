@@ -367,7 +367,7 @@ pub type Candidate = Option<(Tosytype, i32, i32, String, Vec<[usize; 2]>)>;
 
 /// Tries to add a rafsi to a lujvo and calculate the score.
 #[allow(clippy::too_many_arguments)] // sorry!
-/// # Panics
+#[allow(clippy::missing_panics_doc)] // .unwrap()
 pub fn combine(
     lujvo: &str,
     rafsi: &str,

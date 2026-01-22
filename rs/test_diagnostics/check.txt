@@ -114686,3 +114686,146 @@ settings - F1rg
 mlongen- tsiju
 zbasu    - Err(NoLujvoFoundError("{mlongen- tsiju} can't be turned into a lujvo because it would produce a slinku'i, {mlongenytsi}"))
 settings - F1rgz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 2
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 2z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 2g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 2gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 1
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 1z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 1g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - 1gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Az
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Ag
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Agz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A2
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A2z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A2g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A2gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A1
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A1z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A1g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - A1gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Fz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Fg
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - Fgz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F2
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F2z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F2g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F2gz
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F1
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F1z
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F1g
+
+bangu -i'e-
+zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F1gz
