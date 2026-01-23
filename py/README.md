@@ -6,7 +6,7 @@ and JavaScript.
 The recent addition of zi'evla lujvo support is latkerlo's original work,
 but the core CLL lujvo functionality is based on these three projects:
 
-- [p-lujvo](https://codeberg.org/tb148/p-lujvo) by Miao Liang
+- [p-lujvo](https://codeberg.org/tb148/p-lujvo) by Toni Brown
 - [jvozba](https://github.com/uakci/jvozba/tree/v3) by uakci
 - [sozysozbot jvozba](https://github.com/sozysozbot/sozysozbot_jvozba) by sozysozbot
 

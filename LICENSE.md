@@ -4,7 +4,7 @@
 on the following projects, also available under the MIT License.
 
 **p-lujvo** (https://codeberg.org/tb148/p-lujvo) \
-Author: Miao Liang (https://codeberg.org/tb148) \
+Author: Toni Brown (https://codeberg.org/tb148) \
 License: MIT License
 
 **jvozba** (https://github.com/uakci/jvozba/tree/v3) \
@@ -17,9 +17,9 @@ License: MIT License
 
 Each author's license text is included below.
 
-# Miao Liang (MIT License)
+# Toni Brown (MIT License)
 
-Copyright (c) 2023-present Miao Liang and contributors.
+Copyright (c) 2023-present Toni Brown and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
