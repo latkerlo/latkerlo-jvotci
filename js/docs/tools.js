@@ -383,7 +383,8 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
         }
         if (didKaha) {
             if ([Tarmi.CVV, Tarmi.CVhV].includes(rafsiTarmi(part))) {
-                if (requireCluster && !hasCluster
+                if (!isCmevlatai
+                    && requireCluster && !hasCluster
                     && (yHyphens === YHyphenSetting.STANDARD
                         || !(i === yParts.length - 2 && [Tarmi.CVV, Tarmi.CCV].includes(rafsiTarmi(yParts[1]))))) {
                     throw new NotBrivlaError("falls off because y");
@@ -458,7 +459,7 @@ function analyseBrivla(valsi, { yHyphens = YHyphenSetting.STANDARD, expRafsiShap
         }
         consonantBeforeBreak = false;
     }
-    if (!hasCluster) {
+    if (!hasCluster && !isCmevlatai) {
         if (consonants === ConsonantSetting.CLUSTER)
             throw new NotBrivlaError("no clusters");
         else if (consonants === ConsonantSetting.TWO_CONSONANTS && numConsonants < 2)

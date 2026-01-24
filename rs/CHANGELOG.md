@@ -3,6 +3,9 @@
 ## a.b.yymm (any new patch release)
 - updated the rafsi list
 
+## 2.7.2601
+- fixed some bugs involving decomposing cmevla
+
 ## 2.6.2601
 - fixed *bangu -i'e-* in `1r`
 

@@ -50,7 +50,7 @@ dependencies = [
 
 [[package]]
 name = "latkerlo-jvotci"
-version = "2.6.2601"
+version = "2.7.2601"
 dependencies = [
  "indexmap",
  "itertools",

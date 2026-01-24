@@ -598,6 +598,7 @@ pub fn analyze_brivla(
                         )));
                     }
                 } else if settings.y_hyphens == Standard
+                    && !is_cmetai
                     && !to_part.is_empty()
                     && !y_parts[i + 1].starts_with('\'')
                 {
@@ -641,7 +642,7 @@ pub fn analyze_brivla(
         }
         consonant_before_break = false;
     }
-    if !has_cluster {
+    if !has_cluster && !is_cmetai {
         if settings.consonants == Cluster {
             return Err(NotBrivlaError(format!("{{{valsi}}} lacks a consonant cluster")));
         }

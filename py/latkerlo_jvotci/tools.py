@@ -393,7 +393,7 @@ def analyse_brivla(
 
         if did_kaha:
             if rafsi_tarmi(part) in [CVV, CVhV]:
-                if require_cluster and not has_cluster and \
+                if require_cluster and not has_cluster and not is_cmevlatai and \
                         (y_hyphens == STANDARD or
                         not (i == len(y_parts) - 2 and rafsi_tarmi(y_parts[1]) in [CVV, CCV])):
                     raise NotBrivlaError("falls off because y")
@@ -453,7 +453,7 @@ def analyse_brivla(
 
         consonant_before_break = False
 
-    if not has_cluster:
+    if not has_cluster and not is_cmevlatai:
         if consonants == CLUSTER:
             raise NotBrivlaError("no clusters")
         elif consonants == TWO_CONSONANTS and num_consonants < 2:

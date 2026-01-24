@@ -1,6 +1,6 @@
 [project]
 name = "latkerlo_jvotci"
-version = "2.6.2601"
+version = "2.7.2601"
 description = "Tools for creating and decomposing lojban lujvo."
 authors = [
     {name = "latkerlo", email = "latkerlo@latkerlo.com"},
