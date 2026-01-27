@@ -1,0 +1,646 @@
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 2rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - 1rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Az
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Ag
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Agz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Ar
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Arz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Arg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Argz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A2rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - A1rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Fz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Fg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Fgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Fr
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Frz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Frg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - Frgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F2rgz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1z
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1g
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1gz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1r
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1rz
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1rg
+
+klingonygu'e
+katna    - Ok(["klingon-", "gugde"])
+raf+hyph - klingon y gu'e
+settings - F1rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 2rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - 1rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Az
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Ag
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Agz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Ar
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Arz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Arg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Argz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A2rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - A1rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Fz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Fg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Fgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Fr
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Frz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Frg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - Frgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F2rgz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1z
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1g
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1gz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1r
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1rz
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1rg
+
+klingon- gugde
+zbasu    - Ok("klingonygu'e")
+settings - F1rgz
