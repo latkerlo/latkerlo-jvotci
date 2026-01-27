@@ -28,6 +28,7 @@
 #![allow(clippy::cast_sign_loss)]
 #![allow(clippy::reversed_empty_ranges)]
 
+pub mod cli_docs;
 pub mod data;
 pub mod exceptions;
 pub mod jvozba;
