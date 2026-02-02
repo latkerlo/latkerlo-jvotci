@@ -277,7 +277,10 @@ function combine(lujvo, rafsi, lujvoConsonants, rafsiConsonants, lujvoScore, ind
     if (!"y'".includes(lujvoFinal) && raftai1 === Tarmi.OtherRafsi)
         return null;
     let prulamrafsi = lujvo.slice(indexList.slice(-1)[0][0], indexList.slice(-1)[0][1]);
-    if ([Tarmi.CVV, Tarmi.CVC].includes(rafsiTarmi(prulamrafsi)) && /^[aeiou']+$/.test(rafsi))
+    if ([Tarmi.CVV, Tarmi.CVC].includes(rafsiTarmi(prulamrafsi))
+        && /^[aeiou']+$/.test(rafsi)
+        && (rafsi[0] == "'"
+            || isGlide(rafsi) && !glides && consonants == ConsonantSetting.CLUSTER))
         return null;
     let hyphen = "";
     if (lujvoFinal === "'") {

@@ -75125,6 +75125,555 @@ bau'y'i'e
 katna    - Err(NotBrivlaError("{i'e} is too short to be a zi'evla"))
 settings - F1gz
 
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Az
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Ag
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Agz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fg
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fgz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2gz
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1z
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1g
+
+bangyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - r
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - rz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 2gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - 1gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Az
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Ag
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Agz
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - Ar
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - Arz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fg
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fgz
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - Fr
+
+banyie'o
+katna    - Err(NotBrivlaError("{banyie'o} lacks a consonant cluster"))
+settings - Frz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2gz
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1z
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1g
+
+banyie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - r
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - rz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - rg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - rgz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2r
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2rz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2rg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 2rgz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1r
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1rz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1rg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} is just a cmavo compound"))
+settings - 1rgz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Az
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Ag
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Agz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Ar
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Arz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Arg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Argz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A2gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} doesn't have enough consonants"))
+settings - A2r
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} doesn't have enough consonants"))
+settings - A2rz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - A1gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - Fgz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Fr
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Frz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Frg
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} lacks a consonant cluster"))
+settings - Frgz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F2gz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} doesn't have enough consonants"))
+settings - F2r
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{bau'yie'o} doesn't have enough consonants"))
+settings - F2rz
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1z
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1g
+
+bau'yie'o
+katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
+settings - F1gz
+
 gimzu gismu
 zbasu    - Err(NoLujvoFoundError("{gimzu gismu} can't be turned into a lujvo"))
 
@@ -114828,4 +115377,553 @@ settings - F1g
 
 bangu -i'e-
 zbasu    - Err(NotZihevlaError("{i'e} is an invalid rafsi or zi'evla"))
+settings - F1gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Az
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Ag
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Agz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fg
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fgz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2gz
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1z
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1g
+
+bangu -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - gz
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - r
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - rz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Az
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Ag
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Agz
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - Ar
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - Arz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fg
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fgz
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - Fr
+
+-ban- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-ban- -ie'o-} can't be turned into a lujvo"))
+settings - Frz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2gz
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1z
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1g
+
+-ban- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1gz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - gz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - r
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - rz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - rg
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - rgz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 2gz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 2r
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 2rz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 2rg
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 2rgz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - 1gz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 1r
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 1rz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 1rg
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - 1rgz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Az
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Ag
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Agz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Ar
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Arz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Arg
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Argz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A2gz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - A2r
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - A2rz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - A1gz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fg
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - Fgz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Fr
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Frz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Frg
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - Frgz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F2gz
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - F2r
+
+-bau- -ie'o-
+zbasu    - Err(NoLujvoFoundError("{-bau- -ie'o-} can't be turned into a lujvo"))
+settings - F2rz
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1z
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
+settings - F1g
+
+-bau- -ie'o-
+zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
 settings - F1gz

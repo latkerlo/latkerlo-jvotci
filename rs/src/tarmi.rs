@@ -143,7 +143,7 @@ impl FromStr for Settings {
     /// Returns a `SettingsError` if given any characters other than
     /// `cSAFC21rgz` or there are multiple of any. `crgz` activate
     /// `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
-    /// `SAF` and `C21` select a [`YHyphenSetting`] and [`ConsonantSetting`]
+    /// `SAF` and `C21` select a [`YHyphenSetting`] and [`ConsonantSetting`].
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         if "crgz".chars().any(|x| s.chars().filter(|c| *c == x).count() > 1)
             || s.chars().filter(|c| "SAF".contains(*c)).count() > 1
@@ -296,10 +296,10 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
 static ZIHEVLA_MIDDLE_1: LazyLock<Regex> = LazyLock::new(|| {
     Regex::new("^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)?$").unwrap()
 });
-#[rustfmt::skip]
 static ZIHEVLA_MIDDLE_2: LazyLock<Regex> = LazyLock::new(|| {
     Regex::new(
-        "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
+        "^([bcdfgjklmnprstvxz])?((?:[bcdfgjklmnprstvxz][lmnr])*)(?:\
+         ([bcdfgjkpstvxz][bcdfgjklmnprstvxz]?[lmnr]?)|([bcdfgjklmnprstvxz]))$",
     )
     .unwrap()
 });

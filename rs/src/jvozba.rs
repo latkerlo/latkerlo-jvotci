@@ -47,7 +47,7 @@ use Tosytype::{Tosmabru, Tosyhuhu, Tosynone};
 /// Calculates the score for a rafsi (possibly including a hyphen). Use
 /// [`score_lujvo`][`crate::score_lujvo`] to find the score of a lujvo.
 /// # Panics
-/// If the score does not fit into a `i32`
+/// If the score does not fit into a `i32`.
 #[must_use]
 pub fn score(r: &str) -> i32 {
     let t = tarmi_ignoring_hyphen(r) as usize % 9;
@@ -148,11 +148,11 @@ static BOUNDARY_HYPHENS: LazyLock<Regex> = LazyLock::new(|| Regex::new("^-+|-+$"
 #[allow(clippy::missing_panics_doc)] // .unwrap()
 /// Gets the rafsi list for each word.
 /// # Errors
-/// A [`NonLojbanCharacterError`] is returned if
+/// A [`NonLojbanCharacterError`] is returned if:
 /// - any character does not exist in Lojban
 /// - any word ends in an apostrophe
 ///
-/// A [`NoLujvoFoundError`] is returned if
+/// A [`NoLujvoFoundError`] is returned if:
 /// - on rafsi where the last vowel has been removed, adding the final vowel
 ///   back
 ///   - and giving it to [`analyze_brivla`] produces a [`NotBrivlaError`]
@@ -354,7 +354,7 @@ pub fn get_rafsi_list_list(
     }
     Ok(rafsi_list_list)
 }
-/// = [`get_rafsi_list_list`] but shorter to write manually
+/// = [`get_rafsi_list_list`] but shorter to write manually.
 #[allow(clippy::missing_errors_doc)]
 pub fn grll(vl: &str, settings: &Settings) -> Result<Vec<Vec<(String, i32)>>, Jvonunfli> {
     get_rafsi_list_list(&process_tanru(vl), settings)
@@ -392,6 +392,10 @@ pub fn combine(
         || !"y'".contains(lujvo_f) && raftai1 == OtherRafsi
         || [Cvv, Cvc].contains(&rafsi_tarmi(prulamrafsi))
             && rafsi.chars().all(|c| "aeiou'".contains(c))
+            && (rafsi.starts_with('\'')
+                || is_glide(rafsi)
+                    && !settings.glides
+                    && settings.consonants == Cluster)
     {
         return None;
     }

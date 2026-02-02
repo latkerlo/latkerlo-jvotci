@@ -639,6 +639,9 @@ klingonygu'e	ELSE	NONE	(slinku'i)
 bangy'i'e	MORE_RAF	EXTENDED	bang i'e	bangu -i'e-		ELSE	NONE
 bany'i'e	MORE_RAF	NONE				ELSE	NONE
 bau'y'i'e	MORE_RAF	NONE				ELSE	NONE
+bangyie'o	MORE_RAF	EXTENDED	bang ie'o	bangu -ie'o-		ELSE	NONE
+banyie'o	MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)	EXTENDED	ban ie'o	bangu -ie'o-		ELSE	NONE
+bau'yie'o	MORE_RAF & (ALLOW_Y | FORCE_Y) & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	EXTENDED	bau ie'o	bangu -ie'o-		ELSE	NONE
 
 lazgit	ELSE	CMEVLA	laz git	lanzu jgita
 lazygit	ELSE	CMEVLA	laz git	lanzu jgita

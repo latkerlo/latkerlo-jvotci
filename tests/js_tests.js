@@ -5878,7 +5878,12 @@ const JVOZBA_TEST_LIST = [
   ["-nei- -nelci-", "", "FORCE_Y", "nei'ynelci", "10006", "0-3,5-10", "ELSE", "neirnelci", "8906", "0-3,4-9"],
   ["mlongena tsiju", "", "ELSE", "mlongena'ytsi"],
   ["mlongen- tsiju", "", "ELSE", "NONE"],
+  ["klingona gugde", "", "ELSE", "klingona'ygu'e"],
+  ["klingon- gugde", "", "ELSE", "NONE"],
   ["bangu -i'e-", "", "MORE_RAF", "bangy'i'e", "", "", "ELSE", "NONE"],
+  ["bangu -ie'o-", "", "MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)", "banyie'o", "", "", "MORE_RAF", "bangyie'o", "", "", "ELSE", "NONE"],
+  ["-ban- -ie'o-", "", "MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)", "banyie'o", "", "", "ELSE", "NONE"],
+  ["-bau- -ie'o-", "", "MORE_RAF & (ALLOW_Y | FORCE_Y) & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))", "bau'yie'o", "", "", "ELSE", "NONE"],
 ]
 
 const KATNA_TEST_LIST = [
@@ -6487,9 +6492,16 @@ const KATNA_TEST_LIST = [
   ["nondza'yburgere", "ELSE", "NONE", "(ndz)"],
   ["valnondza'yburgere", "ELSE", "NONE"],
   ["mlongenytsi", "ELSE", "NONE", "(slinku'i)"],
+  ["klingonygu'e", "ELSE", "NONE", "(slinku'i)"],
   ["bangy'i'e", "MORE_RAF", "EXTENDED", "bang i'e", "bangu -i'e-", "", "ELSE", "NONE"],
   ["bany'i'e", "MORE_RAF", "NONE", "", "", "", "ELSE", "NONE"],
   ["bau'y'i'e", "MORE_RAF", "NONE", "", "", "", "ELSE", "NONE"],
+  ["bangyie'o", "MORE_RAF", "EXTENDED", "bang ie'o", "bangu -ie'o-", "", "ELSE", "NONE"],
+  ["banyie'o", "MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)", "EXTENDED", "ban ie'o", "bangu -ie'o-", "", "ELSE", "NONE"],
+  ["bau'yie'o", "MORE_RAF & (ALLOW_Y | FORCE_Y) & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))", "EXTENDED", "bau ie'o", "bangu -ie'o-", "", "ELSE", "NONE"],
+  ["lazgit", "ELSE", "CMEVLA", "laz git", "lanzu jgita"],
+  ["lazygit", "ELSE", "CMEVLA", "laz git", "lanzu jgita"],
+  ["foi'yfin", "ELSE", "CMEVLA", "foi fin", "foldi finti"],
 ]
 
 const JVS_WORDS = new Map([

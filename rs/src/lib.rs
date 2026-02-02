@@ -1,7 +1,7 @@
 //! Lojban lujvo generation and analysis.
 //!
 //! `latkerlo_jvotci` accepts more words as valid lujvo than CLL does. The
-//! primary differences are that
+//! primary differences are that:
 //! - unnecessary hyphens are allowed by default (making e.g. *zi'ervla* a lujvo
 //!   rather than a zi'evla), though [`Settings`] can fix this
 //! - zi'evla can go inside lujvo (making e.g. *itku'ilybau* a lujvo)

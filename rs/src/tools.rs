@@ -110,7 +110,7 @@ pub fn is_gismu_or_lujvo(s: &str, settings: &Settings) -> Result<bool, Jvonunfli
 }
 
 /// Returns `true` if given a slinku'i: the input isn't a valid word because
-/// putting a CV cmavo in front of it makes it a lujvo (e.g. *pa**slinku'i***)
+/// putting a CV cmavo in front of it makes it a lujvo (e.g. *pa**slinku'i***).
 /// # Errors
 /// Errors besides [`DecompositionError`] and [`InvalidClusterError`] are
 /// forwarded from [`jvokaha`].
@@ -130,7 +130,7 @@ pub fn is_slinkuhi(s: &str, settings: &Settings) -> Result<bool, Jvonunfli> {
 
 /// Checks rules specific to zi'evla or experimental rafsi.
 /// # Errors
-/// A [`NotZihevlaError`] is returned if the input
+/// A [`NotZihevlaError`] is returned if the input:
 /// - is too short to be a zi'evla (either in characters or syllables)
 /// - is a tosmabru or slinku'i
 /// - has invalid clusters or bad vowels
@@ -346,7 +346,7 @@ pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
 /// Returns the type and decomposition of any brivla or decomposable cmevla.
 /// Doesn't check the cmevla morphology rules.
 /// # Errors
-/// A [`NotBrivlaError`] is returned if the input
+/// A [`NotBrivlaError`] is returned if the input:
 /// - is empty
 /// - starts or ends with *y* or apostrophe
 /// - is a non-decomposable cmevla
@@ -354,7 +354,7 @@ pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
 /// - fails [`check_zihevla_or_rafsi`] with a [`NotZihevlaError`], in which case
 ///   the specific message is retained
 ///
-/// or contains
+/// or contains:
 /// - two adjacent or apostrophe-separated *y*s
 /// - apostrophes or *y*s in illegal places
 /// - a CCV rafsi or lujvo without the final vowel, e.g. *\*-vly-* or
@@ -364,7 +364,7 @@ pub fn is_brivla(valsi: &str, settings: &Settings) -> bool {
 /// - anything that lacks enough consonants
 /// - parts that are just cmavo or cmavo compounds
 ///
-/// or starts with
+/// or starts with:
 /// - a cmavo followed by *'y* (unless a relevant [`YHyphenSetting`] is used)
 ///
 /// Otherwise errors are forwarded from `check_zihevla_or_rafsi`, `jvokaha2`,

@@ -467,3 +467,6 @@ klingona gugde		ELSE	klingona'ygu'e
 klingon- gugde		ELSE	NONE
 
 bangu -i'e-		MORE_RAF	bangy'i'e			ELSE	NONE
+bangu -ie'o-		MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)	banyie'o			MORE_RAF	bangyie'o			ELSE	NONE
+-ban- -ie'o-		MORE_RAF & (GLIDES | ONE_CONSONANT | TWO_CONSONANTS)	banyie'o			ELSE	NONE
+-bau- -ie'o-		MORE_RAF & (ALLOW_Y | FORCE_Y) & (ONE_CONSONANT | (TWO_CONSONANTS & GLIDES))	bau'yie'o			ELSE	NONE

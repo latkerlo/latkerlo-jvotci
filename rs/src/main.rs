@@ -10,9 +10,9 @@ use latkerlo_jvotci::{
     RAFSI, Settings,
     YHyphenSetting::{AllowY, ForceY, Standard},
     analyze_brivla,
-    cli_docs::*,
+    cli_docs::{BOLD, CLI_INSTRUCTIONS, CYAN, GREEN, PINK, RED, RESET, TUI_INSTRUCTIONS},
     data::HYPHENS,
-    get_lujvo, get_veljvo,
+    get_lujvo, get_lujvo_with_analytics, get_veljvo,
     katna::{search_selrafsi_from_rafsi, selrafsi_list_from_rafsi_list},
     normalize, score_lujvo, strin,
 };
@@ -97,7 +97,7 @@ fn main() {
                 return;
             }
             if arg.contains('h') {
-                println!("{}",*TUI_INSTRUCTIONS);
+                println!("{}", *TUI_INSTRUCTIONS);
                 continue;
             }
             if arg.len() == 1 {
@@ -150,15 +150,16 @@ fn main() {
                 selrafsi_list_from_rafsi_list(&hyphens, &settings).unwrap().into_iter().join(" ")
             );
             let veljvo = get_veljvo(&input, &settings);
-            if veljvo.is_err() {
+            if let Err(e) = veljvo {
+                println!("{RED}{e}{RESET}");
                 if used_cli {
                     exit(1);
                 }
                 continue;
             }
             let veljvo = veljvo.unwrap().join(" ");
-            let best = get_lujvo(&veljvo, &settings);
-            if let Ok(best_lujvo) = best
+            let best = get_lujvo_with_analytics(&veljvo, &settings);
+            if let Ok((best_lujvo, best_score, _)) = best
                 && normalize(&input) != best_lujvo
             {
                 let best_hyphens =
@@ -207,7 +208,14 @@ fn main() {
                     print!("{}", best_hyphens[b]);
                     b += 1;
                 }
-                println!("{RESET}");
+                println!("{RESET} {CYAN}({best_score}){RESET}");
+                if score_lujvo(&input, &settings).unwrap() < best_score {
+                    println!(
+                        "{RED}hm, the 'best' lujvo actually has a higher score? that can't be \
+                         good...{RESET}"
+                    );
+                    exit(1);
+                }
             }
         } else {
             let res = get_lujvo(&input, &settings);

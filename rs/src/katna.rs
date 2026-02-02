@@ -224,7 +224,7 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
         if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvc {
             if BANNED_TRIPLES.contains(strsl!(lujvo, 2..5)) {
                 return Err(InvalidClusterError(format!(
-                    "{lujvo} contains a banned triple (nts/ntc/ndz/ndj)"
+                    "{{{lujvo}}} contains a banned triple (nts/ntc/ndz/ndj)"
                 )));
             }
             res.push(strsl!(lujvo, 0..3));
@@ -278,7 +278,7 @@ pub fn get_veljvo(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonu
             y_hyphens,
             exp_rafsi,
             consonants,
-            generate_cmevla,
+            glides,
             allow_mz
         ),
     )?;
