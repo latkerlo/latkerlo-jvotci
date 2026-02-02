@@ -13,6 +13,7 @@ from latkerlo_jvotci.data import INITIAL
 
 GIMSTE = set()
 
+# this is broken since jvs was made readonly
 URL = "https://jbovlaste.lojban.org/export/xml-export.html?lang=en&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
 with urllib.request.urlopen(URL) as response:
     root = ET.fromstring(response.read())
@@ -67,6 +68,8 @@ EXCEPTIONS = {
     "gelse": ["ge'e", "ges"],
     "tsako": ["tso"],
     "kilma": ["kim"],
+    "jicfo": ["cfo"],
+    "fizbu": ["zbu"],
 
     "je'ebzi": ["jeb"],
     "mu'umgu": ["mug"],

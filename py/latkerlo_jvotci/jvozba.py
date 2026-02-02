@@ -327,7 +327,7 @@ def combine(
     if lujvo[-1] not in "y'" and raftai_1 == OTHER_RAFSI:
         return
     prulamrafsi = lujvo[index_list[-1][0]:index_list[-1][0]];
-    if rafsi_tarmi(prulamrafsi) in [CVV, CVC] and bool(re.match(r"^[aeiou']+$", prulamrafsi) and (rafsi[0] == "'" or is_glide(rafsi) and !glides and consonants == CLUSTER)):
+    if rafsi_tarmi(prulamrafsi) in [CVV, CVC] and bool(re.match(r"^[aeiou']+$", prulamrafsi) and (rafsi[0] == "'" or is_glide(rafsi) and not glides and consonants == CLUSTER)):
         return
     hyphen = ""
     if lujvo[-1] == "'":
