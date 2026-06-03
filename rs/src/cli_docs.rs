@@ -5,14 +5,14 @@ use std::sync::LazyLock;
 pub const RESET: &str = "\x1b[m";
 pub const BOLD: &str = "\x1b[1m";
 pub const ITALIC: &str = "\x1b[3m";
-pub const BLACK: &str = "\x1b[90;m";
-pub const RED: &str = "\x1b[91;m";
-pub const GREEN: &str = "\x1b[92;m";
-pub const YELLOW: &str = "\x1b[93;m";
-pub const BLUE: &str = "\x1b[94;m";
-pub const PINK: &str = "\x1b[95;m";
-pub const CYAN: &str = "\x1b[96;m";
-pub const WHITE: &str = "\x1b[97;m";
+pub const BLACK: &str = "\x1b[90m";
+pub const RED: &str = "\x1b[91m";
+pub const GREEN: &str = "\x1b[92m";
+pub const YELLOW: &str = "\x1b[93m";
+pub const BLUE: &str = "\x1b[94m";
+pub const PINK: &str = "\x1b[95m";
+pub const CYAN: &str = "\x1b[96m";
+pub const WHITE: &str = "\x1b[97m";
 pub const VERSION: &str = "latkerlo-jvotci v2.7.2601";
 
 pub static CLI_INSTRUCTIONS: LazyLock<String> = LazyLock::new(|| {
