@@ -3,6 +3,9 @@
 ## a.b.yymm (any new patch release)
 - updated the rafsi list
 
+## 2.8.2601
+- made the interactive CLI always auto detect whether to jvozba or jvoka'a (the L and Z flasg have been removed)
+
 ## 2.7.2601
 - fixed some bugs involving decomposing cmevla
 
