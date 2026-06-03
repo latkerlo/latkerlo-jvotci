@@ -646,3 +646,19 @@ bau'yie'o	MORE_RAF & (ALLOW_Y | FORCE_Y) & (ONE_CONSONANT | (TWO_CONSONANTS & GL
 lazgit	ELSE	CMEVLA	laz git	lanzu jgita
 lazygit	ELSE	CMEVLA	laz git	lanzu jgita
 foi'yfin	ELSE	CMEVLA	foi fin	foldi finti
+
+
+# 1. xlastymlu looks like a lujvo, because it contains a y
+# 2. it actually isn't a lujvo, because it's a slinku'i (pax last y mlu)
+# but some people like spelling all syllabic consonants with y (eg sincyrboua)
+# 3. because ml- mr- are INITIAL we need to check xlas,tm,lu isn't a zi'evla
+# 4. it's not but only because its y form is a slinku'i
+
+mruzdmru	ELSE	NONE	(because...↓)
+xlastmlu	ELSE	NONE
+mruzdymru	ELSE	NONE	(mruzdV mru, slinku'i)
+xlastymlu	ELSE	NONE
+
+xazdmruzdymru	ELSE	NONE	(xazdmruzdV is a xazdmru)
+xazdymruzdmru	ELSE	NONE
+xazdymruzdymru	ELSE	NONE

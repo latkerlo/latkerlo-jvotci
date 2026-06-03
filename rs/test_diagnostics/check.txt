@@ -75674,6 +75674,1728 @@ bau'yie'o
 katna    - Err(NotBrivlaError("{ie'o} is just a cmavo or cmavo compound"))
 settings - F1gz
 
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Az
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Ag
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Agz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Ar
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Arz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Arg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Argz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fr
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rgz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1z
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1g
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1gz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1r
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rz
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rg
+
+mruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 2rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - 1rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Az
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Ag
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Agz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Ar
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Arz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Arg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Argz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A2rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - A1rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Fz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Fg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Fgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Fr
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Frz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Frg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - Frgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F2rgz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1z
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1g
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1gz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1r
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1rz
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1rg
+
+xlastmlu
+katna    - Err(NotBrivlaError("{xlastmlu} contains an invalid cluster"))
+settings - F1rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 2rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - 1rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Az
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Ag
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Agz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Ar
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Arz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Arg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Argz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A2rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - A1rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Fz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Fg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Fgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Fr
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Frz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Frg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - Frgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F2rgz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1z
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1g
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1gz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1r
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1rz
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1rg
+
+mruzdymru
+katna    - Err(NotBrivlaError("{mruzdymru} is a slinku'i"))
+settings - F1rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 2rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - 1rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Az
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Ag
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Agz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Ar
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Arz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Arg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Argz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A2rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - A1rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Fz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Fg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Fgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Fr
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Frz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Frg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - Frgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F2rgz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1z
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1g
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1gz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1r
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1rz
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1rg
+
+xlastymlu
+katna    - Err(NotBrivlaError("{xlastymlu} is a slinku'i"))
+settings - F1rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 2rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - 1rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Az
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Ag
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Agz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Ar
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Arz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Arg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Argz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A2rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - A1rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Fz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Fg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Fgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Fr
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Frz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Frg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - Frgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F2rgz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1z
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1g
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1gz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1r
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1rz
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1rg
+
+xazdmruzdymru
+katna    - Err(NotBrivlaError("{xazdmruzda} contains an invalid cluster"))
+settings - F1rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 2rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - 1rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Az
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Ag
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Agz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Ar
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Arz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Arg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Argz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A2rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - A1rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Fr
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - Frgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F2rgz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1z
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1g
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1gz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1r
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rz
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rg
+
+xazdymruzdmru
+katna    - Err(NotBrivlaError("{mruzdmru} contains an invalid cluster"))
+settings - F1rgz
+
 gimzu gismu
 zbasu    - Err(NoLujvoFoundError("{gimzu gismu} can't be turned into a lujvo"))
 
@@ -115927,3 +117649,290 @@ settings - F1g
 -bau- -ie'o-
 zbasu    - Err(NotZihevlaError("{ie'o} is an invalid rafsi or zi'evla"))
 settings - F1gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 2rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - 1rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Az
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Ag
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Agz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Ar
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Arz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Arg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Argz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A2rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - A1rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Fz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Fg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Fgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Fr
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Frz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Frg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - Frgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F2rgz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1z
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1g
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1gz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1r
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1rz
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1rg
+
+xazdo mruzd- mruli
+zbasu    - Err(NoLujvoFoundError("{mruzda} is not a gismu or zi'evla"))
+settings - F1rgz

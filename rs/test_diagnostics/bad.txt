@@ -358,6 +358,365 @@ katna    - Ok(["klingon-", "gugde"])
 raf+hyph - klingon y gu'e
 settings - F1rgz
 
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 2rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - 1rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Az
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Ag
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Agz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Ar
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Arz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Arg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Argz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A2rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - A1rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Fz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Fg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Fgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Fr
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Frz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Frg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - Frgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F2rgz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1z
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1g
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1gz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1r
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1rz
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1rg
+
+xazdymruzdymru
+katna    - Ok(["xazdo", "mruzd-", "mruli"])
+raf+hyph - xazd y mruzd y mru
+settings - F1rgz
+
 klingon- gugde
 zbasu    - Ok("klingonygu'e")
 
