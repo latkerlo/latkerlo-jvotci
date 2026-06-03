@@ -13,7 +13,7 @@ pub const BLUE: &str = "\x1b[94m";
 pub const PINK: &str = "\x1b[95m";
 pub const CYAN: &str = "\x1b[96m";
 pub const WHITE: &str = "\x1b[97m";
-pub const VERSION: &str = "latkerlo-jvotci v2.7.2601";
+pub const VERSION: &str = "latkerlo-jvotci v2.9.2601";
 
 pub static CLI_INSTRUCTIONS: LazyLock<String> = LazyLock::new(|| {
     [
