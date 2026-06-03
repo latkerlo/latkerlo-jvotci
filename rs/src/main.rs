@@ -6,27 +6,18 @@ use std::{
 
 use itertools::Itertools as _;
 use latkerlo_jvotci::{
-    ConsonantSetting::{Cluster, OneConsonant, TwoConsonants},
-    RAFSI, Settings,
-    YHyphenSetting::{AllowY, ForceY, Standard},
-    analyze_brivla,
+    RAFSI, Settings, analyze_brivla,
     cli_docs::{BOLD, CLI_INSTRUCTIONS, CYAN, GREEN, PINK, RED, RESET, TUI_INSTRUCTIONS},
     data::HYPHENS,
     get_lujvo, get_lujvo_with_analytics, get_veljvo,
     katna::{search_selrafsi_from_rafsi, selrafsi_list_from_rafsi_list},
-    normalize, score_lujvo, strin,
+    normalize, score_lujvo,
 };
 
 #[allow(clippy::too_many_lines)]
 fn main() {
     let mut settings = Settings::default();
-    macro_rules! toggle {
-        ($field:ident, $on:ident) => {
-            settings.$field = if settings.$field == $on { Settings::default().$field } else { $on }
-        };
-    }
     let mut input = String::new();
-    let mut lanli = false;
     // args
     let mut used_cli = false;
     let args = env::args().skip(1).collect_vec();
@@ -37,13 +28,10 @@ fn main() {
                 println!("{}", *CLI_INSTRUCTIONS);
                 return;
             }
-            if arg.contains('L') {
-                lanli = true;
-            }
             if arg.contains('-') {
                 // noöp
             }
-            let flags = arg.chars().filter(|&c| !"LZh-".contains(c)).collect::<String>();
+            let flags = arg.chars().filter(|&c| !"h-".contains(c)).collect::<String>();
             if let Ok(s) = flags.parse() {
                 settings = s;
             } else {
@@ -59,7 +47,6 @@ fn main() {
                 exit(1);
             }
             if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i..].len() == 1 {
-                lanli = true;
                 let arg = normalize(arg);
                 if let Some(selrafsi) = search_selrafsi_from_rafsi(&arg) {
                     println!("{PINK}{{{arg}}} is a rafsi of {{{selrafsi}}}{RESET}");
@@ -81,9 +68,7 @@ fn main() {
         if !used_cli {
             input.clear();
             print!(
-                "\n{CYAN}{} {settings}{RESET}\nenter a {}: {BOLD}{}",
-                if lanli { "lanli" } else { "zbasu" },
-                if lanli { "brivla" } else { "tanru" },
+                "\n{CYAN}{settings}{RESET}> {BOLD}{}",
                 if used_cli { input.clone() + "\n" } else { String::new() }
             );
             stdout().flush().unwrap();
@@ -92,6 +77,7 @@ fn main() {
         print!("{RESET}");
         stdout().flush().unwrap();
         input = input.trim().to_string();
+        let lanli = input.split_whitespace().count() == 1;
         if let Some(arg) = input.strip_prefix('/') {
             if arg.contains('q') {
                 return;
@@ -100,38 +86,20 @@ fn main() {
                 println!("{}", *TUI_INSTRUCTIONS);
                 continue;
             }
-            if arg.len() == 1 {
-                match strin!(arg, 0) {
-                    'Z' => lanli = false,
-                    'L' => lanli = true,
-                    'c' => settings.generate_cmevla ^= true,
-                    'r' => settings.exp_rafsi ^= true,
-                    'g' => settings.glides ^= true,
-                    'z' => settings.allow_mz ^= true,
-                    'S' => settings.y_hyphens = Standard,
-                    'A' => toggle!(y_hyphens, AllowY),
-                    'F' => toggle!(y_hyphens, ForceY),
-                    'C' => settings.consonants = Cluster,
-                    '2' => toggle!(consonants, TwoConsonants),
-                    '1' => toggle!(consonants, OneConsonant),
-                    _ => println!("{RED}invalid single flag, see {BOLD}/h{RESET}"),
-                }
-                continue;
-            }
-            if arg.contains('L') {
-                lanli = true;
-            } else if arg.contains('Z') {
-                lanli = false;
-            }
-            let flags = arg.chars().filter(|&c| !"LZh-".contains(c)).collect::<String>();
-            if let Ok(s) = flags.parse() {
-                settings = s;
-            } else {
+            if settings.apply_flags(arg).is_none() {
                 println!("{RED}invalid flags, see {BOLD}/h{RESET}");
-            }
+            };
             continue;
         }
         if lanli {
+            let input = normalize(&input);
+            if let Some(selrafsi) = search_selrafsi_from_rafsi(&input) {
+                println!("{PINK}{{{input}}} is a rafsi of {{{selrafsi}}}{RESET}");
+            }
+            if let Some(rafsi) = RAFSI.iter().find(|(s, _)| *s == &input).map(|(_, r)| r) {
+                let rafsi = rafsi.iter().join(" ");
+                println!("{PINK}{{{input}}} has rafsi {{{rafsi}}}{RESET}");
+            }
             let res = analyze_brivla(&input, &settings);
             if let Err(e) = res {
                 println!("{RED}{e}{RESET}");

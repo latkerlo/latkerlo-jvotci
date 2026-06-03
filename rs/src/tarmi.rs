@@ -174,6 +174,35 @@ impl FromStr for Settings {
     }
 }
 
+impl Settings {
+    pub fn apply_flags(&mut self, flags: &str) -> Option<()> {
+        macro_rules! toggle {
+            ($field:ident, $on:ident) => {
+                self.$field = if self.$field == $on { Settings::default().$field } else { $on }
+            };
+        }
+        if !flags.chars().all(|c| "cSAFC21rgz".contains(c)) {
+            return None;
+        }
+        for f in flags.chars() {
+            match f {
+                'c' => self.generate_cmevla ^= true,
+                'r' => self.exp_rafsi ^= true,
+                'g' => self.glides ^= true,
+                'z' => self.allow_mz ^= true,
+                'A' => toggle!(y_hyphens, AllowY),
+                'F' => toggle!(y_hyphens, ForceY),
+                'S' => self.y_hyphens = Standard,
+                '1' => toggle!(consonants, OneConsonant),
+                '2' => toggle!(consonants, TwoConsonants),
+                'C' => self.consonants = Cluster,
+                _ => return None,
+            }
+        }
+        Some(())
+    }
+}
+
 /// Auto-implements `Display` on an enum.
 #[macro_export]
 macro_rules! auto_to_string {
