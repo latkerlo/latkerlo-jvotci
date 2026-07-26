@@ -47,7 +47,7 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
                 depth -= 1;
             }
         }
-        left_string = strsl!(cond, 1..i);
+        left_string = strsl!(cond, 1 .. i);
         i += 1;
         if i as usize == cond.len() {
             return check_conditions(left_string, settings);
@@ -56,10 +56,10 @@ fn check_conditions(cond: &str, settings: Settings) -> bool {
         while !"|&".contains(strin!(cond, i)) {
             i += 1;
         }
-        left_string = strsl!(cond, 0..i).trim();
+        left_string = strsl!(cond, 0 .. i).trim();
     }
-    let operator = strin!(strsl!(cond, i..).trim(), 0);
-    let right_string = strsl!(cond, i + 1..).trim();
+    let operator = strin!(strsl!(cond, i ..).trim(), 0);
+    let right_string = strsl!(cond, i + 1 ..).trim();
     let left_side = check_conditions(left_string, settings);
     let right_side = check_conditions(right_string, settings);
     match operator {

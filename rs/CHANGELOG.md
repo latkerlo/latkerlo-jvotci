@@ -3,6 +3,9 @@
 ## a.b.yymm (any new patch release)
 - updated the rafsi list
 
+## 2.10.2601
+- fix a cli bug where giving a cmevla without passing `-c` would exit with code 1 if the non-cmevla generated lujvo had a higher score
+
 ## 2.9.2601
 - changed the version number string
 

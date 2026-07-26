@@ -140,6 +140,7 @@ impl fmt::Display for Settings {
 pub struct SettingsError;
 impl FromStr for Settings {
     type Err = SettingsError;
+
     /// Returns a `SettingsError` if given any characters other than
     /// `cSAFC21rgz` or there are multiple of any. `crgz` activate
     /// `generate_cmevla`, `exp_rafsi`, `glides`, and `allow_mz`;
@@ -262,9 +263,9 @@ pub fn is_gismu_shape(v: &str) -> bool {
 pub fn is_gismu(v: &str, settings: &Settings) -> bool {
     is_gismu_shape(v)
         && if is_vowel(strin!(v, 1)) {
-            if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&strsl!(v, 2..4))
+            if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&strsl!(v, 2 .. 4))
         } else {
-            INITIAL.contains(&strsl!(v, 0..2))
+            INITIAL.contains(&strsl!(v, 0 .. 2))
         }
 }
 
@@ -277,9 +278,9 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
     let mut res = VecDeque::new();
     macro_rules! add_to_res {
         ($new_c:expr) => {
-            let new_v = strsl!(v, 0..-($new_c.len() as isize));
-            if strin!($new_c, 0) == 'i' && ["ai", "ei", "oi"].contains(&strsl!(new_v, -2..))
-                || strin!($new_c, 0) == 'u' && strsl!(new_v, -2..) == "au"
+            let new_v = strsl!(v, 0 .. -($new_c.len() as isize));
+            if strin!($new_c, 0) == 'i' && ["ai", "ei", "oi"].contains(&strsl!(new_v, -2 ..))
+                || strin!($new_c, 0) == 'u' && strsl!(new_v, -2 ..) == "au"
             {
                 return Err(DecompositionError(format!("{{{old_v}}} is a bad vowel sequence")));
             }
@@ -287,12 +288,12 @@ pub fn split_vowel_cluster(v: &str) -> Result<Vec<String>, Jvonunfli> {
         };
     }
     loop {
-        if v.len() > 3 && FOLLOW_VOWEL_CLUSTERS.contains(&strsl!(v, -3..)) {
-            add_to_res!(strsl!(v, -3..));
-            v = strsl!(v, 0..-3);
-        } else if v.len() > 2 && FOLLOW_VOWEL_CLUSTERS.contains(&strsl!(v, -2..)) {
-            add_to_res!(strsl!(v, -2..));
-            v = strsl!(v, 0..-2);
+        if v.len() > 3 && FOLLOW_VOWEL_CLUSTERS.contains(&strsl!(v, -3 ..)) {
+            add_to_res!(strsl!(v, -3 ..));
+            v = strsl!(v, 0 .. -3);
+        } else if v.len() > 2 && FOLLOW_VOWEL_CLUSTERS.contains(&strsl!(v, -2 ..)) {
+            add_to_res!(strsl!(v, -2 ..));
+            v = strsl!(v, 0 .. -2);
         } else {
             if START_VOWEL_CLUSTERS.contains(&v) || FOLLOW_VOWEL_CLUSTERS.contains(&v) {
                 res.push_front(v.to_string());
@@ -316,7 +317,7 @@ pub fn is_zihevla_initial_cluster(c: &str) -> bool {
     match c.len() {
         1 => true,
         2 => INITIAL.contains(&c),
-        3 => INITIAL.contains(&strsl!(c, 0..2)) && ZIHEVLA_INITIAL.contains(&strsl!(c, 1..)),
+        3 => INITIAL.contains(&strsl!(c, 0 .. 2)) && ZIHEVLA_INITIAL.contains(&strsl!(c, 1 ..)),
         _ => false,
     }
 }
@@ -338,13 +339,13 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
     if c.len() < 3
         || c.len() == 3
             && (SONORANTS.contains(strin!(c, 1))
-                || VALID.contains(&strsl!(c, 0..2)) && INITIAL.contains(&strsl!(c, 1..)))
+                || VALID.contains(&strsl!(c, 0 .. 2)) && INITIAL.contains(&strsl!(c, 1 ..)))
     {
         return true;
     }
-    let matches = if strin!(c, -2) == 'm' && INITIAL.contains(&strsl!(c, -2..)) {
+    let matches = if strin!(c, -2) == 'm' && INITIAL.contains(&strsl!(c, -2 ..)) {
         ZIHEVLA_MIDDLE_1
-            .captures(strsl!(c, 0..-2 - is_zihevla_initial_cluster(strsl!(c, -3..)) as isize))
+            .captures(strsl!(c, 0 .. -2 - is_zihevla_initial_cluster(strsl!(c, -3 ..)) as isize))
     } else {
         ZIHEVLA_MIDDLE_2.captures(c)
     };
@@ -358,9 +359,9 @@ pub fn is_zihevla_middle_cluster(c: &str) -> bool {
 pub fn is_valid_rafsi(r: &str, settings: &Settings) -> bool {
     let t = rafsi_tarmi(r);
     if [Cvccv, Cvcc].contains(&t) {
-        if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&strsl!(r, 2..4))
+        if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&strsl!(r, 2 .. 4))
     } else if [Ccvcv, Ccvc, Ccv].contains(&t) {
-        INITIAL.contains(&strsl!(r, 0..2))
+        INITIAL.contains(&strsl!(r, 0 .. 2))
     } else {
         1 <= t as i8 && t as i8 <= 8
     }

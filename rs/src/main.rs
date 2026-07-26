@@ -12,6 +12,7 @@ use latkerlo_jvotci::{
     get_lujvo, get_lujvo_with_analytics, get_veljvo,
     katna::{search_selrafsi_from_rafsi, selrafsi_list_from_rafsi_list},
     normalize, score_lujvo,
+    tarmi::is_consonant,
 };
 
 #[allow(clippy::too_many_lines)]
@@ -46,7 +47,7 @@ fn main() {
                 );
                 exit(1);
             }
-            if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i..].len() == 1 {
+            if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i ..].len() == 1 {
                 let arg = normalize(arg);
                 if let Some(selrafsi) = search_selrafsi_from_rafsi(&arg) {
                     println!("{PINK}{{{arg}}} is a rafsi of {{{selrafsi}}}{RESET}");
@@ -88,7 +89,7 @@ fn main() {
             }
             if settings.apply_flags(arg).is_none() {
                 println!("{RED}invalid flags, see {BOLD}/h{RESET}");
-            };
+            }
             continue;
         }
         if lanli {
@@ -177,12 +178,13 @@ fn main() {
                     b += 1;
                 }
                 println!("{RESET} {CYAN}({best_score}){RESET}");
-                if score_lujvo(&input, &settings).unwrap() < best_score {
+                if score_lujvo(&input, &settings).unwrap() < best_score
+                    && (input.ends_with(is_consonant) == settings.generate_cmevla)
+                {
                     println!(
                         "{RED}hm, the 'best' lujvo actually has a higher score? that can't be \
                          good...{RESET}"
                     );
-                    exit(1);
                 }
             }
         } else {

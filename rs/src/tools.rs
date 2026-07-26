@@ -80,7 +80,7 @@ macro_rules! strsl {
         };
         let (start, end) = (positive(start), positive(end));
         assert!(start <= end, "slice attempt problem: s={start} > e={end}");
-        &$s[start..end]
+        &$s[start .. end]
     }};
 }
 
@@ -158,15 +158,15 @@ pub fn check_zihevla_or_rafsi(
     while !valsi.is_empty() {
         if is_consonant(strin!(valsi, 0)) {
             while !valsi.is_empty() && is_consonant(strin!(valsi, 0)) {
-                chunk += strsl!(valsi, 0..1);
-                valsi = strsl!(valsi, 1..);
+                chunk += strsl!(valsi, 0 .. 1);
+                valsi = strsl!(valsi, 1 ..);
             }
             if chunk.len() >= 2 && cluster_pos.is_none() {
                 if num_consonants > 1 {
                     // find where the lujvo really starts
-                    let pos_ = (1..=pos).find(|p| {
-                        let to_part = strsl!(valsi_, ..*p);
-                        let smabru_part = strsl!(valsi_, *p..);
+                    let pos_ = (1 ..= pos).find(|p| {
+                        let to_part = strsl!(valsi_, .. *p);
+                        let smabru_part = strsl!(valsi_, *p ..);
                         (is_vowel(strin!(to_part, -1)) || strin!(to_part, -1) == 'y')
                             && is_cmavo_compound(to_part)
                             && (is_glide(smabru_part)
@@ -189,30 +189,31 @@ pub fn check_zihevla_or_rafsi(
                     if let Some(pos_) = pos_ {
                         return Err(NotZihevlaError(format!(
                             "{{{valsi_}}} is a tosmabru: {{{} {}}}",
-                            strsl!(valsi_, ..pos_),
-                            strsl!(valsi_, pos_..)
+                            strsl!(valsi_, .. pos_),
+                            strsl!(valsi_, pos_ ..)
                         )));
                     }
                 }
                 cluster_pos = Some(pos);
             }
-            if num_syllables == 0 && chunk.len() >= 2 && !INITIAL.contains(&strsl!(&chunk, 0..2)) {
+            if num_syllables == 0 && chunk.len() >= 2 && !INITIAL.contains(&strsl!(&chunk, 0 .. 2))
+            {
                 return Err(NotZihevlaError(format!(
                     "{{{valsi_}}} starts with an invalid cluster"
                 )));
             }
-            for i in 0..chunk.len().saturating_sub(1) {
+            for i in 0 .. chunk.len().saturating_sub(1) {
                 let i = i as isize;
-                let cluster = strsl!(&chunk, i..i + 2);
+                let cluster = strsl!(&chunk, i .. i + 2);
                 if !if settings.allow_mz { &MZ_VALID } else { &VALID }.contains(&cluster) {
                     return Err(NotZihevlaError(format!(
                         "{{{valsi_}}} contains an invalid cluster"
                     )));
                 }
             }
-            for i in 0..chunk.len().saturating_sub(2) {
+            for i in 0 .. chunk.len().saturating_sub(2) {
                 let i = i as isize;
-                let cluster = strsl!(&chunk, i..i + 3);
+                let cluster = strsl!(&chunk, i .. i + 3);
                 if BANNED_TRIPLES.contains(&cluster) {
                     return Err(NotZihevlaError(format!(
                         "{{{valsi_}}} contains a banned triple (nts/ntc/ndz/ndj)"
@@ -232,8 +233,8 @@ pub fn check_zihevla_or_rafsi(
             num_consonants += chunk.len();
         } else if is_vowel(strin!(valsi, 0)) {
             while !valsi.is_empty() && is_vowel(strin!(valsi, 0)) {
-                chunk += strsl!(valsi, 0..1);
-                valsi = strsl!(valsi, 1..);
+                chunk += strsl!(valsi, 0 .. 1);
+                valsi = strsl!(valsi, 1 ..);
             }
             let syllables = split_vowel_cluster(&chunk);
             if let Err(e) = syllables {
@@ -264,7 +265,7 @@ pub fn check_zihevla_or_rafsi(
             num_syllables += syllables.unwrap().len();
         } else if strin!(valsi, 0) == '\'' {
             chunk = "'".to_string();
-            valsi = strsl!(valsi, 1..);
+            valsi = strsl!(valsi, 1 ..);
             if pos < 1 || !is_vowel(strin!(valsi_, pos - 1)) {
                 return Err(NotZihevlaError(format!(
                     "{{{valsi_}}} contains an apostrophe not preceded by a vowel"
@@ -289,25 +290,25 @@ pub fn check_zihevla_or_rafsi(
         return Err(NotZihevlaError(format!("{{{valsi_}}} doesn't have enough syllables")));
     }
     if num_syllables > 2 && cluster_pos > Some(0) {
-        if is_brivla(strsl!(valsi_, cluster_pos.unwrap()..), &extract!(settings; y_hyphens)) {
+        if is_brivla(strsl!(valsi_, cluster_pos.unwrap() ..), &extract!(settings; y_hyphens)) {
             return Err(NotZihevlaError(format!(
                 "{{{valsi_}}} is a tosmabru: {{{} {}}}",
-                strsl!(valsi_, 0..cluster_pos.unwrap()),
-                strsl!(valsi_, cluster_pos.unwrap()..)
+                strsl!(valsi_, 0 .. cluster_pos.unwrap()),
+                strsl!(valsi_, cluster_pos.unwrap() ..)
             )));
         }
-        for i in 1..cluster_pos.unwrap() {
+        for i in 1 .. cluster_pos.unwrap() {
             if (is_consonant(strin!(valsi_, cluster_pos.unwrap() - i))
-                || is_glide(strsl!(valsi_, cluster_pos.unwrap() - i..)))
+                || is_glide(strsl!(valsi_, cluster_pos.unwrap() - i ..)))
                 && is_brivla(
-                    strsl!(valsi_, cluster_pos.unwrap() - i..),
+                    strsl!(valsi_, cluster_pos.unwrap() - i ..),
                     &extract!(settings; y_hyphens),
                 )
             {
                 return Err(NotZihevlaError(format!(
                     "{{{valsi_}}} is a tosmabru: {{{} {}}}",
-                    strsl!(valsi_, 0..cluster_pos.unwrap() - i),
-                    strsl!(valsi_, cluster_pos.unwrap() - i..)
+                    strsl!(valsi_, 0 .. cluster_pos.unwrap() - i),
+                    strsl!(valsi_, cluster_pos.unwrap() - i ..)
                 )));
             }
         }
@@ -429,7 +430,7 @@ pub fn analyze_brivla(
         mut consonant_before_break,
         mut num_consonants,
     ) = (vec![], String::new(), false, true, false, 0);
-    for i in 0..y_parts.len() {
+    for i in 0 .. y_parts.len() {
         if i != 0 {
             next_hyphen += "y";
         }
@@ -439,7 +440,7 @@ pub fn analyze_brivla(
             return Err(NotBrivlaError(format!("{{{valsi}}} contains two consecutive {{y}}s")));
         }
         if strin!(part, 0) == '\'' {
-            part = strsl!(part, 1..);
+            part = strsl!(part, 1 ..);
             part_ = part;
             next_hyphen += "'";
             if part.is_empty() {
@@ -499,7 +500,7 @@ pub fn analyze_brivla(
             {
                 require_cluster = true;
             }
-            part = strsl!(part, 0..-1);
+            part = strsl!(part, 0 .. -1);
             part_ = part;
             next_hyphen += "'";
             if !is_vowel(strin!(part, -1)) {
@@ -518,7 +519,7 @@ pub fn analyze_brivla(
         let mut katnad = false;
         if can_be_rafsi {
             if !part_a.ends_with("'a")
-                && !is_gismu(strsl!(part_a, -5..), &extract!(settings; allow_mz))
+                && !is_gismu(strsl!(part_a, -5 ..), &extract!(settings; allow_mz))
                 && let Ok(decomp) = analyze_brivla(part_a, &extract!(settings; y_hyphens, allow_mz))
                 && decomp.0 == Lujvo
             {
@@ -560,26 +561,26 @@ pub fn analyze_brivla(
             if i == 0 {
                 let mut to_part = "";
                 let mut smabru_part = "";
-                if rafsi_tarmi(strsl!(part, 0..4)) == Cvhv {
-                    to_part = strsl!(part, 0..4);
-                    smabru_part = strsl!(part, 4..);
-                } else if rafsi_tarmi(strsl!(part, 0..3)) == Cvv {
-                    to_part = strsl!(part, 0..3);
-                    smabru_part = strsl!(part, 3..);
+                if rafsi_tarmi(strsl!(part, 0 .. 4)) == Cvhv {
+                    to_part = strsl!(part, 0 .. 4);
+                    smabru_part = strsl!(part, 4 ..);
+                } else if rafsi_tarmi(strsl!(part, 0 .. 3)) == Cvv {
+                    to_part = strsl!(part, 0 .. 3);
+                    smabru_part = strsl!(part, 3 ..);
                 } else if is_consonant(strin!(part, 0)) && is_vowel(strin!(part, 1)) {
-                    to_part = strsl!(part, 0..2);
-                    smabru_part = strsl!(part, 2..);
+                    to_part = strsl!(part, 0 .. 2);
+                    smabru_part = strsl!(part, 2 ..);
                 }
                 if !smabru_part.is_empty() {
                     let hyphenless = strip_hyphens(smabru_part);
                     if added_a {
-                        smabru_part = strsl!(smabru_part, 0..-1);
+                        smabru_part = strsl!(smabru_part, 0 .. -1);
                     } else {
                         smabru_part = &hyphenless;
                     }
                     if is_valid_rafsi(smabru_part, &Settings::default())
                         && !(rafsi_tarmi(smabru_part) == Ccv
-                            && strin!(strsl!(y_parts[i], to_part.len() as isize..), 3) == '\'')
+                            && strin!(strsl!(y_parts[i], to_part.len() as isize ..), 3) == '\'')
                     {
                         return Err(NotBrivlaError(format!(
                             "{{{part}}} is a tosmabru: {{{to_part} {smabru_part}{}}}",
@@ -602,7 +603,7 @@ pub fn analyze_brivla(
                     && !to_part.is_empty()
                     && !y_parts[i + 1].starts_with('\'')
                 {
-                    let rest = strsl!(&valsi, to_part.len() as isize + 2..);
+                    let rest = strsl!(&valsi, to_part.len() as isize + 2 ..);
                     if is_cmavo_compound(rest) {
                         return Err(NotBrivlaError(format!(
                             "{{{valsi}}} is just a cmavo compound"

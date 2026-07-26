@@ -62,8 +62,8 @@ pub fn score(r: &str) -> i32 {
 /// rafsi are preferred whenever there are two lujvo candidates with the same
 /// score.
 pub(crate) fn tiebreak(lujvo: &str) -> i32 {
-    (rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvv
-        && [Ccv, Ccvc, Cvc, Cvcc].contains(&rafsi_tarmi(strsl!(lujvo, 3..)))) as i32
+    (rafsi_tarmi(strsl!(lujvo, 0 .. 3)) == Cvv
+        && [Ccv, Ccvc, Cvc, Cvcc].contains(&rafsi_tarmi(strsl!(lujvo, 3 ..)))) as i32
 }
 
 /// Cleans up and normalizes the given tanru.
@@ -332,7 +332,7 @@ pub fn get_rafsi_list_list(
                 let b_type = b_type.unwrap().0;
                 if b_type == Gismu {
                     rafsi_list.extend(get_rafsi_for_rafsi(
-                        strsl!(valsi, 0..-1),
+                        strsl!(valsi, 0 .. -1),
                         "ShortBrivla",
                         first,
                         last,
@@ -383,19 +383,17 @@ pub fn combine(
     let rafsi_i = strin!(rafsi, 0);
     let raftai0 = tarmi_ignoring_hyphen(lujvo);
     let raftai1 = tarmi_ignoring_hyphen(rafsi);
-    let prulamrafsi = &lujvo[indices.last().unwrap()[0]..indices.last().unwrap()[1]];
+    let prulamrafsi = &lujvo[indices.last().unwrap()[0] .. indices.last().unwrap()[1]];
     if is_consonant(lujvo_f)
         && is_consonant(rafsi_i)
         && !if settings.allow_mz { &MZ_VALID } else { &VALID }
             .contains(&format!("{lujvo_f}{rafsi_i}").as_str())
-        || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", strsl!(rafsi, 0..2)).as_str())
+        || BANNED_TRIPLES.contains(&format!("{lujvo_f}{}", strsl!(rafsi, 0 .. 2)).as_str())
         || !"y'".contains(lujvo_f) && raftai1 == OtherRafsi
         || [Cvv, Cvc].contains(&rafsi_tarmi(prulamrafsi))
             && rafsi.chars().all(|c| "aeiou'".contains(c))
             && (rafsi.starts_with('\'')
-                || is_glide(rafsi)
-                    && !settings.glides
-                    && settings.consonants == Cluster)
+                || is_glide(rafsi) && !settings.glides && settings.consonants == Cluster)
     {
         return None;
     }
@@ -407,7 +405,9 @@ pub fn combine(
             return None;
         }
     } else {
-        if lujvo.len() == 5 && rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv && strsl!(lujvo, 3..) == "'y"
+        if lujvo.len() == 5
+            && rafsi_tarmi(strsl!(lujvo, 0 .. 3)) == Ccv
+            && strsl!(lujvo, 3 ..) == "'y"
         {
             return None;
         }
@@ -430,7 +430,7 @@ pub fn combine(
         if !INITIAL.contains(&format!("{lujvo_f}{rafsi_i}").as_str()) {
             tosmabru_type = Tosynone;
         } else if raftai1 == Cvccv {
-            if INITIAL.contains(strsl!(rafsi, 2..4)) {
+            if INITIAL.contains(strsl!(rafsi, 2 .. 4)) {
                 return None;
             }
             tosmabru_type = Tosynone;
@@ -460,7 +460,7 @@ pub fn combine(
             j += 1;
         }
         new_c = (is_consonant(strin!(lujvo, i))
-            && (is_consonant(strin!(rafsi, j)) || settings.glides && is_glide(strsl!(rafsi, j..))))
+            && (is_consonant(strin!(rafsi, j)) || settings.glides && is_glide(strsl!(rafsi, j ..))))
             as i32
             * 2;
     }

@@ -167,53 +167,53 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             if strin!(lujvo, 0) == 'y'
                 || settings.y_hyphens != ForceY
                     && [Cvv, Cvhv].contains(&rafsi_tarmi(res[res.len() - 1]))
-                    && (strsl!(lujvo, 0..2) == "nr"
+                    && (strsl!(lujvo, 0 .. 2) == "nr"
                         || strin!(lujvo, 0) == 'r'
                             && is_consonant(strin!(lujvo, 1))
                             && strin!(lujvo, 1) != 'r')
             {
-                res.push(strsl!(lujvo, 0..1));
-                lujvo = strsl!(lujvo, 1..);
+                res.push(strsl!(lujvo, 0 .. 1));
+                lujvo = strsl!(lujvo, 1 ..);
                 continue;
             }
-            if settings.y_hyphens != Standard && strsl!(lujvo, 0..2) == "'y" {
-                res.push(strsl!(lujvo, 0..2));
-                lujvo = strsl!(lujvo, 2..);
+            if settings.y_hyphens != Standard && strsl!(lujvo, 0 .. 2) == "'y" {
+                res.push(strsl!(lujvo, 0 .. 2));
+                lujvo = strsl!(lujvo, 2 ..);
                 continue;
             }
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvv
-            && ["ai", "ei", "oi", "au"].contains(&strsl!(lujvo, 1..3))
+        if rafsi_tarmi(strsl!(lujvo, 0 .. 3)) == Cvv
+            && ["ai", "ei", "oi", "au"].contains(&strsl!(lujvo, 1 .. 3))
         {
-            res.push(strsl!(lujvo, 0..3));
-            lujvo = strsl!(lujvo, 3..);
+            res.push(strsl!(lujvo, 0 .. 3));
+            lujvo = strsl!(lujvo, 3 ..);
             continue;
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..4)) == Cvhv {
-            res.push(strsl!(lujvo, 0..4));
-            lujvo = strsl!(lujvo, 4..);
+        if rafsi_tarmi(strsl!(lujvo, 0 .. 4)) == Cvhv {
+            res.push(strsl!(lujvo, 0 .. 4));
+            lujvo = strsl!(lujvo, 4 ..);
             continue;
         }
-        if [Cvcc, Ccvc].contains(&rafsi_tarmi(strsl!(lujvo, 0..4))) {
+        if [Cvcc, Ccvc].contains(&rafsi_tarmi(strsl!(lujvo, 0 .. 4))) {
             if is_vowel(strin!(lujvo, 1)) {
                 if !if settings.allow_mz { &MZ_VALID } else { &VALID }
-                    .contains(&strsl!(lujvo, 2..4))
+                    .contains(&strsl!(lujvo, 2 .. 4))
                 {
                     return Err(InvalidClusterError(format!(
                         "{{{orig}}} contains an invalid cluster",
                     )));
                 }
-            } else if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
+            } else if !INITIAL.contains(&strsl!(lujvo, 0 .. 2)) {
                 return Err(InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
             if lujvo.len() == 4 || strin!(lujvo, 4) == 'y' {
-                res.push(strsl!(lujvo, 0..4));
+                res.push(strsl!(lujvo, 0 .. 4));
                 if strin!(lujvo, 4) == 'y' {
                     res.push("y");
                 }
-                lujvo = strsl!(lujvo, 5..);
+                lujvo = strsl!(lujvo, 5 ..);
                 continue;
             }
         }
@@ -221,29 +221,29 @@ pub fn jvokaha2(lujvo: &str, settings: &Settings) -> Result<Vec<String>, Jvonunf
             res.push(lujvo);
             return Ok(res.iter().copied().map(String::from).collect_vec());
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Cvc {
-            if BANNED_TRIPLES.contains(strsl!(lujvo, 2..5)) {
+        if rafsi_tarmi(strsl!(lujvo, 0 .. 3)) == Cvc {
+            if BANNED_TRIPLES.contains(strsl!(lujvo, 2 .. 5)) {
                 return Err(InvalidClusterError(format!(
                     "{{{lujvo}}} contains a banned triple (nts/ntc/ndz/ndj)"
                 )));
             }
-            res.push(strsl!(lujvo, 0..3));
-            lujvo = strsl!(lujvo, 3..);
+            res.push(strsl!(lujvo, 0 .. 3));
+            lujvo = strsl!(lujvo, 3 ..);
             continue;
         }
-        if rafsi_tarmi(strsl!(lujvo, 0..3)) == Ccv {
-            if !INITIAL.contains(&strsl!(lujvo, 0..2)) {
+        if rafsi_tarmi(strsl!(lujvo, 0 .. 3)) == Ccv {
+            if !INITIAL.contains(&strsl!(lujvo, 0 .. 2)) {
                 return Err(InvalidClusterError(format!(
                     "{{{orig}}} starts with an invalid cluster",
                 )));
             }
-            if lujvo == orig && strsl!(lujvo, 3..5) == "'y" {
+            if lujvo == orig && strsl!(lujvo, 3 .. 5) == "'y" {
                 return Err(NotBrivlaError(format!(
                     "{{{orig}}} starts with CCV'y, making it a slinku'i"
                 )));
             }
-            res.push(strsl!(lujvo, 0..3));
-            lujvo = strsl!(lujvo, 3..);
+            res.push(strsl!(lujvo, 0 .. 3));
+            lujvo = strsl!(lujvo, 3 ..);
             continue;
         }
         return Err(DecompositionError(format!("{{{orig}}} can't be decomposed")));
