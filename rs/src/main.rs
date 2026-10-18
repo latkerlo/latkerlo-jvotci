@@ -47,16 +47,6 @@ fn main() {
                 );
                 exit(1);
             }
-            if (i == 0 || i == 1 && args[0].starts_with('-')) && args[i ..].len() == 1 {
-                let arg = normalize(arg);
-                if let Some(selrafsi) = search_selrafsi_from_rafsi(&arg) {
-                    println!("{PINK}{{{arg}}} is a rafsi of {{{selrafsi}}}{RESET}");
-                }
-                if let Some(rafsi) = RAFSI.iter().find(|(s, _)| *s == &arg).map(|(_, r)| r) {
-                    let rafsi = rafsi.iter().join(" ");
-                    println!("{PINK}{{{arg}}} has rafsi {{{rafsi}}}{RESET}");
-                }
-            }
             arginput.push(arg);
         }
     }
